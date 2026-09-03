@@ -1099,8 +1099,2197 @@ a{color:#ffd28a}
 | <code>f40-badge-ccbysa.jpg</code> | File:1990 Ferrari F40 2.jpg | 200 | CC BY-SA 4.0 | Fishyfool | Own work |
 | <code>f40-rear-police.jpg</code> | File:Ferrari F40 - rear and police (Crown Casino, Melbourne, Australia, 3 March 2007).jpg | 200 | CC BY 2.5 | The original uploader was 98octane at English Wiki | Transferred from en.wikipedia to Commons. |</p></div>
 
-<h2 id="manifest">Car manifest</h2><p class="miss">internal &middot; on the local board only</p>
-<h2 id="profit">Does the house pay?</h2><p class="miss">internal &middot; on the local board only</p>
+<h2 id="manifest">Car manifest</h2>
+<div class="md"><h1>CAR-MANIFEST - the next cars to draw, ranked on citeable demand signals</h1>
+<p>Built 2026-09-03 (UTC). Every number in this file comes from a URL fetched in this session; the URL, HTTP status and time are in <code>car-manifest.json</code> per car and in <code>_manifest-fetch-log.md</code>. Anything not fetched is written <strong>unverified</strong>. Nothing is recalled from memory. Not self-graded.</p>
+<h2>The question</h2>
+<p>Which cars do the Doug DeMuro / Bring a Trailer / Collecting Cars crowd actually pay for as wall art? Ranked below on four measured signals; the founder can disagree with a number, not a feeling.</p>
+<h2>Score formula (fixed before the data was read)</h2>
+<table>
+<thead>
+<tr>
+<th>Signal</th>
+<th>Weight</th>
+<th>Normalisation</th>
+<th>Source fetched</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Catawiki live demand</td>
+<td>0.30</td>
+<td>best current bid on a car-drawing/poster lot of that model with &lt;= 3 days left, / EUR 150, capped 1. Lots with 5-8 days left sit at EUR 1 and are ignored (time-to-close confound, see PLAYBOOK)</td>
+<td>Shmidt.Art board (72 lots, 6 pages) + rendered search pages for the other drawing sellers, 03:42-03:48 UTC</td>
+</tr>
+<tr>
+<td>BaT auction heat</td>
+<td>0.30</td>
+<td>0.6 x log-scaled results count on the BaT model page (10 -&gt; 0, 1500 -&gt; 1) + 0.25 x watchers of the latest listing / 800 + 0.15 x comments / 150</td>
+<td>bringatrailer.com model pages (batch B, <code>_manifest-bat.md</code>)</td>
+</tr>
+<tr>
+<td>DeMuro / YouTube</td>
+<td>0.25</td>
+<td>log10(views) scaled 100k -&gt; 0, 12.6M -&gt; 1, of Doug DeMuro's review OF THAT MODEL; a review of a different car counts as none</td>
+<td>youtube.com watch pages and search pages (batch C + lead fix pass)</td>
+</tr>
+<tr>
+<td>Poster marketplaces</td>
+<td>0.15</td>
+<td>max( log-scaled Etsy review count of the top matching listing (5,000 -&gt; 1), 0.15 x number of matching listings across the Etsy/Redbubble/Amazon/Society6/Displate result pages fetched (capped 1) )</td>
+<td>etsy.com / redbubble.com (batch D, <code>_manifest-posters.md</code>)</td>
+</tr>
+<tr>
+<td>Catalogue gap vs Shmidt</td>
+<td>+5 / +3 / 0</td>
+<td>+5 if Shmidt has no live lot of the model, +3 if his lot is dead (&lt; EUR 30), 0 if he sells it</td>
+<td>Shmidt board</td>
+</tr>
+<tr>
+<td>Collecting Cars</td>
+<td>dropped</td>
+<td>collectingcars.com search is client-side Algolia; curl returns the same unfiltered 96 items for every query; the batch agent for it was rate-limited to death twice</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<p><code>score = 100 x sum(weight x norm) / sum(weights of signals actually present) + gap</code>. A car is only <strong>ranked</strong> when the present signals carry &gt;= 0.45 of the weight; otherwise it is listed under <em>evidence too thin</em> with whatever was measured. Coverage is shown so a high score on one signal is visible as such.</p>
+<p>Flags: <strong>gen-risk</strong> = how much of the car's identity lives in small details (badges, wheels, lamps, lettering) that a generated hero drawing gets wrong - LOW is a big-shape car, HIGH means the sheet needs a real source drawing. <strong>tm</strong> = marque trademark sensitivity from evidence fetched this session (section below).</p>
+<h2>Ranked list</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Key</th>
+<th>Car</th>
+<th>Years</th>
+<th>Score</th>
+<th>Cov.</th>
+<th>Catawiki best live bid</th>
+<th>BaT (results / watchers / comments)</th>
+<th>DeMuro views</th>
+<th>Poster reviews</th>
+<th>Gap</th>
+<th>Gen-risk</th>
+<th>TM</th>
+<th>In archive</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>nsx</td>
+<td>Honda/Acura NSX (NA1)</td>
+<td>1990-2005</td>
+<td><strong>65.9</strong></td>
+<td>0.70</td>
+<td>no lot found</td>
+<td>925 / 715 / 53</td>
+<td>2,135,700</td>
+<td>present, no count</td>
+<td>+5</td>
+<td>MED</td>
+<td>LOW</td>
+<td>no</td>
+</tr>
+<tr>
+<td>2</td>
+<td>rx7</td>
+<td>Mazda RX-7 FD</td>
+<td>1992-2002</td>
+<td><strong>65.6</strong></td>
+<td>0.70</td>
+<td>no lot found</td>
+<td>353 / 742 / 65</td>
+<td>302,586</td>
+<td>25</td>
+<td>+5</td>
+<td>LOW</td>
+<td>LOW</td>
+<td>no</td>
+</tr>
+<tr>
+<td>3</td>
+<td>bronco</td>
+<td>Ford Bronco 1st gen</td>
+<td>1966-1977</td>
+<td><strong>64.1</strong></td>
+<td>0.55</td>
+<td>no lot found</td>
+<td>1877 / - / -</td>
+<td>1,662,003</td>
+<td>unverified</td>
+<td>+5</td>
+<td>LOW</td>
+<td>LOW-MED</td>
+<td>no</td>
+</tr>
+<tr>
+<td>4</td>
+<td>fj40</td>
+<td>Toyota Land Cruiser FJ40</td>
+<td>1960-1984</td>
+<td><strong>61.1</strong></td>
+<td>0.55</td>
+<td>no lot found</td>
+<td>1335 / - / -</td>
+<td>1,303,467</td>
+<td>unverified</td>
+<td>+5</td>
+<td>LOW</td>
+<td>LOW</td>
+<td>no</td>
+</tr>
+<tr>
+<td>5</td>
+<td>beetle</td>
+<td>Volkswagen Beetle 1303</td>
+<td>1972-1975</td>
+<td><strong>60.2</strong></td>
+<td>0.60</td>
+<td>EUR 100 (Shmidt, 2d)</td>
+<td>889 / - / -</td>
+<td>no DeMuro review (best other: Donut 2,036,079)</td>
+<td>unverified</td>
+<td>+0</td>
+<td>LOW</td>
+<td>LOW-MED</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>6</td>
+<td>2cv</td>
+<td>Citroen 2CV6</td>
+<td>1970-1990</td>
+<td><strong>58.2</strong></td>
+<td>0.60</td>
+<td>EUR 121 (Shmidt, 15h)</td>
+<td>159 / - / 26</td>
+<td>no DeMuro review (best other: Extra Throttle House 232,859)</td>
+<td>unverified</td>
+<td>+0</td>
+<td>LOW</td>
+<td>LOW</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>7</td>
+<td>supra</td>
+<td>Toyota Supra A80</td>
+<td>1993-2002</td>
+<td><strong>58.1</strong></td>
+<td>0.70</td>
+<td>no lot found</td>
+<td>331 / - / 44</td>
+<td>3,761,588</td>
+<td>present, no count</td>
+<td>+5</td>
+<td>MED</td>
+<td>LOW</td>
+<td>no</td>
+</tr>
+<tr>
+<td>8</td>
+<td>r34</td>
+<td>Nissan Skyline GT-R R34</td>
+<td>1999-2002</td>
+<td><strong>57.9</strong></td>
+<td>0.70</td>
+<td>no lot found</td>
+<td>123 / - / 36</td>
+<td>1,340,697</td>
+<td>1</td>
+<td>+5</td>
+<td>HIGH</td>
+<td>LOW</td>
+<td>no</td>
+</tr>
+<tr>
+<td>9</td>
+<td>928</td>
+<td>Porsche 928</td>
+<td>1978-1995</td>
+<td><strong>57.6</strong></td>
+<td>0.70</td>
+<td>no lot found</td>
+<td>1021 / - / -</td>
+<td>3,202,538</td>
+<td>present, no count</td>
+<td>+5</td>
+<td>LOW</td>
+<td>HIGH</td>
+<td>no</td>
+</tr>
+<tr>
+<td>10</td>
+<td>f40</td>
+<td>Ferrari F40</td>
+<td>1987-1992</td>
+<td><strong>55.8</strong></td>
+<td>1.00</td>
+<td>EUR 67 (Shmidt, 1d)</td>
+<td>92 / - / 713</td>
+<td>8,709,281</td>
+<td>present, no count</td>
+<td>+0</td>
+<td>LOW</td>
+<td>HIGH</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>11</td>
+<td>z1</td>
+<td>BMW Z1</td>
+<td>1989-1991</td>
+<td><strong>55.4</strong></td>
+<td>0.70</td>
+<td>no lot found</td>
+<td>21 / - / -</td>
+<td>4,233,003</td>
+<td>1700</td>
+<td>+5</td>
+<td>MED</td>
+<td>MED</td>
+<td>no</td>
+</tr>
+<tr>
+<td>12</td>
+<td>delorean</td>
+<td>DeLorean DMC-12</td>
+<td>1981-1983</td>
+<td><strong>54.4</strong></td>
+<td>0.70</td>
+<td>no lot found</td>
+<td>202 / - / 60</td>
+<td>2,916,248</td>
+<td>present, no count</td>
+<td>+5</td>
+<td>LOW</td>
+<td>MED</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>13</td>
+<td>miata</td>
+<td>Mazda MX-5 Miata NA</td>
+<td>1989-1997</td>
+<td><strong>53.5</strong></td>
+<td>0.70</td>
+<td>no lot found</td>
+<td>720 / - / -</td>
+<td>415,420</td>
+<td>present, no count</td>
+<td>+5</td>
+<td>MED</td>
+<td>LOW</td>
+<td>no</td>
+</tr>
+<tr>
+<td>14</td>
+<td>testarossa</td>
+<td>Ferrari Testarossa</td>
+<td>1984-1991</td>
+<td><strong>52.5</strong></td>
+<td>0.85</td>
+<td>EUR 50 (other seller, 1 day left)</td>
+<td>443 / - / -</td>
+<td>2,549,763</td>
+<td>unverified</td>
+<td>+5</td>
+<td>LOW</td>
+<td>HIGH</td>
+<td>no</td>
+</tr>
+<tr>
+<td>15</td>
+<td>240z</td>
+<td>Datsun 240Z</td>
+<td>1969-1973</td>
+<td><strong>52.0</strong></td>
+<td>0.70</td>
+<td>no lot found</td>
+<td>776 / - / -</td>
+<td>495,105</td>
+<td>12</td>
+<td>+5</td>
+<td>MED</td>
+<td>LOW</td>
+<td>no</td>
+</tr>
+<tr>
+<td>16</td>
+<td>mclarenf1</td>
+<td>McLaren F1</td>
+<td>1992-1998</td>
+<td><strong>51.9</strong></td>
+<td>0.55</td>
+<td>no lot found</td>
+<td>12 / - / -</td>
+<td>12,230,575</td>
+<td>unverified</td>
+<td>+5</td>
+<td>MED</td>
+<td>MED</td>
+<td>no</td>
+</tr>
+<tr>
+<td>17</td>
+<td>e30</td>
+<td>BMW M3 (E30)</td>
+<td>1986-1991</td>
+<td><strong>48.5</strong></td>
+<td>1.00</td>
+<td>EUR 30 (other seller, 2 days left)</td>
+<td>474 / - / 34</td>
+<td>1,393,570</td>
+<td>67</td>
+<td>+5</td>
+<td>HIGH</td>
+<td>MED</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>18</td>
+<td>930</td>
+<td>Porsche 911 Turbo (930)</td>
+<td>1975-1989</td>
+<td><strong>48.5</strong></td>
+<td>0.70</td>
+<td>immature lots only (EUR 16/1, 5d)</td>
+<td>1044 / - / 69</td>
+<td>809,710</td>
+<td>present, no count</td>
+<td>+3</td>
+<td>MED</td>
+<td>HIGH</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>19</td>
+<td>w8</td>
+<td>Vector W8</td>
+<td>1990-1993</td>
+<td><strong>47.0</strong></td>
+<td>0.55</td>
+<td>no lot found</td>
+<td>1 / - / -</td>
+<td>8,759,131</td>
+<td>unverified</td>
+<td>+5</td>
+<td>LOW</td>
+<td>LOW</td>
+<td>no</td>
+</tr>
+<tr>
+<td>20</td>
+<td>countach</td>
+<td>Lamborghini Countach LP400</td>
+<td>1974-1978</td>
+<td><strong>46.1</strong></td>
+<td>0.70</td>
+<td>no lot found</td>
+<td>78 / - / 158</td>
+<td>1,686,981</td>
+<td>present, no count</td>
+<td>+5</td>
+<td>LOW</td>
+<td>MED</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>21</td>
+<td>mustang</td>
+<td>Ford Mustang 2+2 Fastback</td>
+<td>1965-1966</td>
+<td><strong>44.8</strong></td>
+<td>0.70</td>
+<td>no lot found</td>
+<td>1622 / - / 10</td>
+<td>410,735</td>
+<td>present, no count</td>
+<td>+5</td>
+<td>MED</td>
+<td>LOW-MED</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>22</td>
+<td>etype</td>
+<td>Jaguar E-Type Series 1</td>
+<td>1961-1968</td>
+<td><strong>43.8</strong></td>
+<td>0.85</td>
+<td>EUR 61 (Shmidt, 14h)</td>
+<td>760 / - / 48</td>
+<td>471,069</td>
+<td>unverified</td>
+<td>+0</td>
+<td>LOW</td>
+<td>MED</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>23</td>
+<td>xj220</td>
+<td>Jaguar XJ220</td>
+<td>1992-1994</td>
+<td><strong>43.6</strong></td>
+<td>0.55</td>
+<td>no lot found</td>
+<td>11 / - / -</td>
+<td>5,354,044</td>
+<td>unverified</td>
+<td>+5</td>
+<td>LOW</td>
+<td>MED</td>
+<td>no</td>
+</tr>
+<tr>
+<td>24</td>
+<td>miura</td>
+<td>Lamborghini Miura P400</td>
+<td>1966-1969</td>
+<td><strong>43.5</strong></td>
+<td>0.55</td>
+<td>no lot found</td>
+<td>5 / - / 816</td>
+<td>2,507,413</td>
+<td>unverified</td>
+<td>+5</td>
+<td>MED</td>
+<td>MED</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>25</td>
+<td>r5turbo</td>
+<td>Renault 5 Turbo</td>
+<td>1980-1986</td>
+<td><strong>43.0</strong></td>
+<td>0.55</td>
+<td>no lot found</td>
+<td>47 / - / 78</td>
+<td>1,211,874</td>
+<td>unverified</td>
+<td>+5</td>
+<td>MED</td>
+<td>LOW</td>
+<td>no</td>
+</tr>
+<tr>
+<td>26</td>
+<td>az1</td>
+<td>Autozam AZ-1</td>
+<td>1992-1994</td>
+<td><strong>42.5</strong></td>
+<td>0.55</td>
+<td>no lot found</td>
+<td>28 / - / -</td>
+<td>2,566,369</td>
+<td>unverified</td>
+<td>+5</td>
+<td>LOW</td>
+<td>LOW</td>
+<td>no</td>
+</tr>
+<tr>
+<td>27</td>
+<td>s2000</td>
+<td>Honda S2000 AP1</td>
+<td>1999-2003</td>
+<td><strong>41.9</strong></td>
+<td>0.70</td>
+<td>no lot found</td>
+<td>575 / - / -</td>
+<td>573,873</td>
+<td>present, no count</td>
+<td>+5</td>
+<td>HIGH</td>
+<td>LOW</td>
+<td>no</td>
+</tr>
+<tr>
+<td>28</td>
+<td>22b</td>
+<td>Subaru Impreza 22B STI</td>
+<td>1998</td>
+<td><strong>41.8</strong></td>
+<td>0.70</td>
+<td>no lot found</td>
+<td>120 / - / -</td>
+<td>1,660,315</td>
+<td>present, no count</td>
+<td>+5</td>
+<td>HIGH</td>
+<td>LOW</td>
+<td>no</td>
+</tr>
+<tr>
+<td>29</td>
+<td>diablo</td>
+<td>Lamborghini Diablo</td>
+<td>1990-2001</td>
+<td><strong>41.2</strong></td>
+<td>0.55</td>
+<td>no lot found</td>
+<td>112 / - / -</td>
+<td>869,246</td>
+<td>unverified</td>
+<td>+5</td>
+<td>LOW</td>
+<td>MED</td>
+<td>no</td>
+</tr>
+<tr>
+<td>30</td>
+<td>mini</td>
+<td>Mini Cooper S Mk I</td>
+<td>1963-1967</td>
+<td><strong>41.0</strong></td>
+<td>1.00</td>
+<td>EUR 31 (Shmidt, 14h)</td>
+<td>147 / - / 58</td>
+<td>1,270,360</td>
+<td>335</td>
+<td>+0</td>
+<td>HIGH</td>
+<td>MED</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>31</td>
+<td>ds</td>
+<td>Citroen DS 21</td>
+<td>1955-1975</td>
+<td><strong>38.9</strong></td>
+<td>0.55</td>
+<td>no lot found</td>
+<td>142 / - / -</td>
+<td>580,161</td>
+<td>unverified</td>
+<td>+5</td>
+<td>LOW</td>
+<td>LOW</td>
+<td>no</td>
+</tr>
+<tr>
+<td>32</td>
+<td>defender</td>
+<td>Land Rover Defender 110</td>
+<td>1983-2016</td>
+<td><strong>38.8</strong></td>
+<td>0.70</td>
+<td>no lot found</td>
+<td>52 / - / -</td>
+<td>1,970,372</td>
+<td>present, no count</td>
+<td>+5</td>
+<td>LOW</td>
+<td>MED</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>33</td>
+<td>evo6</td>
+<td>Mitsubishi Lancer Evolution VI</td>
+<td>1999-2001</td>
+<td><strong>38.1</strong></td>
+<td>0.55</td>
+<td>no lot found</td>
+<td>268 / - / -</td>
+<td>343,279</td>
+<td>unverified</td>
+<td>+5</td>
+<td>HIGH</td>
+<td>LOW</td>
+<td>no</td>
+</tr>
+<tr>
+<td>34</td>
+<td>r32</td>
+<td>Nissan Skyline GT-R R32</td>
+<td>1989-1994</td>
+<td><strong>37.7</strong></td>
+<td>0.70</td>
+<td>no lot found</td>
+<td>146 / - / 24</td>
+<td>731,457</td>
+<td>present, no count</td>
+<td>+5</td>
+<td>HIGH</td>
+<td>LOW</td>
+<td>no</td>
+</tr>
+<tr>
+<td>35</td>
+<td>integrale</td>
+<td>Lancia Delta HF Integrale Evo</td>
+<td>1991-1994</td>
+<td><strong>37.1</strong></td>
+<td>0.85</td>
+<td>EUR 3 (Shmidt, 3d)</td>
+<td>130 / - / 101</td>
+<td>2,239,711</td>
+<td>unverified</td>
+<td>+3</td>
+<td>HIGH</td>
+<td>LOW</td>
+<td>no</td>
+</tr>
+<tr>
+<td>36</td>
+<td>viper</td>
+<td>Dodge Viper RT/10</td>
+<td>1992-1995</td>
+<td><strong>36.9</strong></td>
+<td>0.55</td>
+<td>no lot found</td>
+<td>237 / - / -</td>
+<td>329,468</td>
+<td>unverified</td>
+<td>+5</td>
+<td>LOW</td>
+<td>LOW-MED</td>
+<td>no</td>
+</tr>
+<tr>
+<td>37</td>
+<td>e28m5</td>
+<td>BMW M5 (E28)</td>
+<td>1985-1988</td>
+<td><strong>36.7</strong></td>
+<td>0.55</td>
+<td>no lot found</td>
+<td>125 / - / -</td>
+<td>499,612</td>
+<td>unverified</td>
+<td>+5</td>
+<td>HIGH</td>
+<td>MED</td>
+<td>no</td>
+</tr>
+<tr>
+<td>38</td>
+<td>190evo</td>
+<td>Mercedes-Benz 190 E 2.5-16 Evo II</td>
+<td>1990</td>
+<td><strong>36.3</strong></td>
+<td>0.85</td>
+<td>EUR 35 (Shmidt, 3d)</td>
+<td>160 / - / -</td>
+<td>1,460,260</td>
+<td>unverified</td>
+<td>+0</td>
+<td>HIGH</td>
+<td>MED</td>
+<td>no</td>
+</tr>
+<tr>
+<td>39</td>
+<td>gt40</td>
+<td>Ford GT40 Mk I</td>
+<td>1964-1969</td>
+<td><strong>36.1</strong></td>
+<td>0.70</td>
+<td>no lot found</td>
+<td>5 / - / -</td>
+<td>4,350,899</td>
+<td>present, no count</td>
+<td>+5</td>
+<td>LOW</td>
+<td>LOW-MED</td>
+<td>no</td>
+</tr>
+<tr>
+<td>40</td>
+<td>sportquattro</td>
+<td>Audi Sport Quattro</td>
+<td>1984-1986</td>
+<td><strong>35.8</strong></td>
+<td>0.55</td>
+<td>no lot found</td>
+<td>74 / - / -</td>
+<td>653,920</td>
+<td>unverified</td>
+<td>+5</td>
+<td>MED</td>
+<td>MED</td>
+<td>no</td>
+</tr>
+<tr>
+<td>41</td>
+<td>f50</td>
+<td>Ferrari F50</td>
+<td>1995-1997</td>
+<td><strong>35.8</strong></td>
+<td>0.55</td>
+<td>immature lots only (EUR 101/2, 5d)</td>
+<td>30 / - / -</td>
+<td>2,064,254</td>
+<td>unverified</td>
+<td>+0</td>
+<td>MED</td>
+<td>HIGH</td>
+<td>no</td>
+</tr>
+<tr>
+<td>42</td>
+<td>gwagen</td>
+<td>Mercedes-Benz G-Class W463</td>
+<td>1990-2018</td>
+<td><strong>35.1</strong></td>
+<td>0.85</td>
+<td>EUR 3 (other seller, 3 days left)</td>
+<td>596 / - / -</td>
+<td>735,737</td>
+<td>unverified</td>
+<td>+5</td>
+<td>LOW</td>
+<td>MED</td>
+<td>no</td>
+</tr>
+<tr>
+<td>43</td>
+<td>959</td>
+<td>Porsche 959</td>
+<td>1986-1993</td>
+<td><strong>32.5</strong></td>
+<td>0.85</td>
+<td>EUR 1 (Shmidt, 3d)</td>
+<td>19 / - / 339</td>
+<td>3,156,944</td>
+<td>unverified</td>
+<td>+3</td>
+<td>MED</td>
+<td>HIGH</td>
+<td>no</td>
+</tr>
+<tr>
+<td>44</td>
+<td>esprit</td>
+<td>Lotus Esprit S1/Turbo</td>
+<td>1976-1987</td>
+<td><strong>32.2</strong></td>
+<td>0.55</td>
+<td>immature lots only (EUR 1, 5d)</td>
+<td>27 / - / -</td>
+<td>1,091,308</td>
+<td>unverified</td>
+<td>+3</td>
+<td>LOW</td>
+<td>LOW</td>
+<td>no</td>
+</tr>
+<tr>
+<td>45</td>
+<td>205gti</td>
+<td>Peugeot 205 GTI</td>
+<td>1984-1994</td>
+<td><strong>30.3</strong></td>
+<td>0.70</td>
+<td>no lot found</td>
+<td>24 / - / -</td>
+<td>1,054,925</td>
+<td>present, no count</td>
+<td>+5</td>
+<td>HIGH</td>
+<td>LOW</td>
+<td>no</td>
+</tr>
+<tr>
+<td>46</td>
+<td>sz</td>
+<td>Alfa Romeo SZ (ES-30)</td>
+<td>1989-1991</td>
+<td><strong>30.2</strong></td>
+<td>0.55</td>
+<td>no lot found</td>
+<td>19 / - / -</td>
+<td>899,956</td>
+<td>unverified</td>
+<td>+5</td>
+<td>LOW</td>
+<td>LOW</td>
+<td>no</td>
+</tr>
+<tr>
+<td>47</td>
+<td>eb110</td>
+<td>Bugatti EB110</td>
+<td>1991-1995</td>
+<td><strong>29.6</strong></td>
+<td>0.85</td>
+<td>EUR 45 (Shmidt, 14h)</td>
+<td>3 / - / -</td>
+<td>2,274,200</td>
+<td>unverified</td>
+<td>+0</td>
+<td>MED</td>
+<td>MED</td>
+<td>no</td>
+</tr>
+<tr>
+<td>48</td>
+<td>850r</td>
+<td>Volvo 850 R Estate</td>
+<td>1996-1997</td>
+<td><strong>28.8</strong></td>
+<td>0.55</td>
+<td>no lot found</td>
+<td>47 / - / -</td>
+<td>420,840</td>
+<td>unverified</td>
+<td>+5</td>
+<td>HIGH</td>
+<td>LOW</td>
+<td>no</td>
+</tr>
+<tr>
+<td>49</td>
+<td>964rs</td>
+<td>Porsche 964 Carrera RS</td>
+<td>1992-1993</td>
+<td><strong>26.1</strong></td>
+<td>0.85</td>
+<td>EUR 1 (Shmidt, 3d)</td>
+<td>55 / - / -</td>
+<td>1,293,631</td>
+<td>unverified</td>
+<td>+3</td>
+<td>HIGH</td>
+<td>HIGH</td>
+<td>no</td>
+</tr>
+<tr>
+<td>50</td>
+<td>p356</td>
+<td>Porsche 356 A</td>
+<td>1955-1959</td>
+<td><strong>24.8</strong></td>
+<td>0.60</td>
+<td>EUR 1 (other seller, 1 day left)</td>
+<td>284 / - / 28</td>
+<td>no DeMuro review (best other: Petrolicious 464,376)</td>
+<td>unverified</td>
+<td>+3</td>
+<td>MED</td>
+<td>HIGH</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>51</td>
+<td>a110</td>
+<td>Alpine A110 Berlinette</td>
+<td>1963-1977</td>
+<td><strong>20.9</strong></td>
+<td>0.55</td>
+<td>no lot found</td>
+<td>23 / - / -</td>
+<td>294,263</td>
+<td>unverified</td>
+<td>+5</td>
+<td>LOW</td>
+<td>LOW</td>
+<td>no</td>
+</tr>
+<tr>
+<td>52</td>
+<td>cosworth</td>
+<td>Ford Escort RS Cosworth</td>
+<td>1992-1996</td>
+<td><strong>19.7</strong></td>
+<td>0.55</td>
+<td>no lot found</td>
+<td>20 / - / -</td>
+<td>285,531</td>
+<td>unverified</td>
+<td>+5</td>
+<td>HIGH</td>
+<td>LOW-MED</td>
+<td>no</td>
+</tr>
+<tr>
+<td>53</td>
+<td>288gto</td>
+<td>Ferrari 288 GTO</td>
+<td>1984-1987</td>
+<td><strong>15.1</strong></td>
+<td>0.55</td>
+<td>no lot found</td>
+<td>1 / - / -</td>
+<td>293,807</td>
+<td>unverified</td>
+<td>+5</td>
+<td>HIGH</td>
+<td>HIGH</td>
+<td>no</td>
+</tr>
+<tr>
+<td>54</td>
+<td>037</td>
+<td>Lancia Rally 037 Stradale</td>
+<td>1982-1984</td>
+<td><strong>10.0</strong></td>
+<td>0.60</td>
+<td>EUR 30 (Shmidt, 2d)</td>
+<td>4 / - / -</td>
+<td>no DeMuro review (best other: The Grand Tour 1,580,746)</td>
+<td>unverified</td>
+<td>+0</td>
+<td>MED</td>
+<td>LOW</td>
+<td>no</td>
+</tr>
+</tbody>
+</table>
+<h2>Evidence too thin to rank (present-signal weight &lt; 0.45)</h2>
+<p>These are not 'no demand' - they are 'not measured this session'. The number shown is the score on whatever was measured.</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Car</th>
+<th>Score on measured</th>
+<th>Cov.</th>
+<th>Catawiki</th>
+<th>BaT</th>
+<th>DeMuro</th>
+<th>Posters</th>
+<th>Gen-risk</th>
+<th>TM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>bizzarrini</td>
+<td>Bizzarrini 5300 GT Strada</td>
+<td>94.7</td>
+<td>0.30</td>
+<td>EUR 142 (Shmidt, 2d)</td>
+<td>unverified</td>
+<td>unverified</td>
+<td>unverified</td>
+<td>MED</td>
+<td>LOW</td>
+</tr>
+<tr>
+<td>targa964</td>
+<td>Porsche 911 Targa (964)</td>
+<td>85.0</td>
+<td>0.30</td>
+<td>EUR 120 (other seller, 1 day left)</td>
+<td>unverified</td>
+<td>unverified</td>
+<td>unverified</td>
+<td>HIGH</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>cgt</td>
+<td>Porsche Carrera GT</td>
+<td>77.7</td>
+<td>0.25</td>
+<td>no lot found</td>
+<td>unverified</td>
+<td>3,358,762</td>
+<td>unverified</td>
+<td>MED</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>clkgtr</td>
+<td>Mercedes-Benz CLK GTR</td>
+<td>73.5</td>
+<td>0.25</td>
+<td>no lot found</td>
+<td>- / - / -</td>
+<td>2,738,231</td>
+<td>unverified</td>
+<td>MED</td>
+<td>MED</td>
+</tr>
+<tr>
+<td>pagoda</td>
+<td>Mercedes-Benz 280 SL (W113)</td>
+<td>61.6</td>
+<td>0.30</td>
+<td>no lot found</td>
+<td>805 / - / 40</td>
+<td>no DeMuro review (best other: Tyrrell's Classic Workshop 207,919)</td>
+<td>unverified</td>
+<td>MED</td>
+<td>MED</td>
+</tr>
+<tr>
+<td>fiat500</td>
+<td>Fiat 500 F</td>
+<td>53.9</td>
+<td>0.30</td>
+<td>no lot found</td>
+<td>592 / - / -</td>
+<td>no DeMuro review (best other: Tedward 3,688,676)</td>
+<td>unverified</td>
+<td>LOW</td>
+<td>LOW</td>
+</tr>
+<tr>
+<td>t1</td>
+<td>Volkswagen T1 Samba</td>
+<td>47.4</td>
+<td>0.30</td>
+<td>no lot found</td>
+<td>305 / - / 14</td>
+<td>no DeMuro review</td>
+<td>unverified</td>
+<td>LOW</td>
+<td>LOW-MED</td>
+</tr>
+<tr>
+<td>gmodel</td>
+<td>Porsche 911 G-Model Carrera 3.2</td>
+<td>47.0</td>
+<td>0.30</td>
+<td>EUR 63 (other seller, 3 days left)</td>
+<td>unverified</td>
+<td>unverified</td>
+<td>unverified</td>
+<td>MED</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>giulia</td>
+<td>Alfa Romeo Giulia Sprint GTA</td>
+<td>43.3</td>
+<td>0.30</td>
+<td>EUR 65 (Shmidt, 2d)</td>
+<td>unverified</td>
+<td>no DeMuro review</td>
+<td>unverified</td>
+<td>HIGH</td>
+<td>LOW</td>
+</tr>
+<tr>
+<td>isetta</td>
+<td>BMW Isetta 300</td>
+<td>32.7</td>
+<td>0.30</td>
+<td>EUR 49 (Shmidt, 14h)</td>
+<td>unverified</td>
+<td>unverified</td>
+<td>unverified</td>
+<td>LOW</td>
+<td>MED</td>
+</tr>
+<tr>
+<td>33stradale</td>
+<td>Alfa Romeo Tipo 33 Stradale</td>
+<td>30.0</td>
+<td>0.30</td>
+<td>EUR 45 (Shmidt, 2d)</td>
+<td>unverified</td>
+<td>unverified</td>
+<td>unverified</td>
+<td>LOW</td>
+<td>LOW</td>
+</tr>
+<tr>
+<td>cobra</td>
+<td>Shelby Cobra 427 MkIII</td>
+<td>28.9</td>
+<td>0.30</td>
+<td>no lot found</td>
+<td>20 / - / 326</td>
+<td>no DeMuro review (best other: Jay Leno's Garage 3,026,292)</td>
+<td>unverified</td>
+<td>LOW</td>
+<td>MED</td>
+</tr>
+<tr>
+<td>isogrifo</td>
+<td>Iso Grifo</td>
+<td>28.0</td>
+<td>0.30</td>
+<td>EUR 42 (Shmidt, 2d)</td>
+<td>unverified</td>
+<td>unverified</td>
+<td>unverified</td>
+<td>MED</td>
+<td>LOW</td>
+</tr>
+<tr>
+<td>stratos</td>
+<td>Lancia Stratos HF</td>
+<td>20.0</td>
+<td>0.30</td>
+<td>no lot found</td>
+<td>2 / - / 717</td>
+<td>no DeMuro review (best other: The Grand Tour 1,751,430)</td>
+<td>unverified</td>
+<td>LOW</td>
+<td>LOW</td>
+</tr>
+<tr>
+<td>300sl</td>
+<td>Mercedes-Benz 300 SL Gullwing</td>
+<td>5.7</td>
+<td>0.30</td>
+<td>EUR 4 (Shmidt, 3d)</td>
+<td>unverified</td>
+<td>unverified</td>
+<td>unverified</td>
+<td>MED</td>
+<td>MED</td>
+</tr>
+<tr>
+<td>gt1</td>
+<td>Porsche 911 GT1 Strassenversion</td>
+<td>-</td>
+<td>0.00</td>
+<td>no lot found</td>
+<td>- / - / -</td>
+<td>no DeMuro review (best other: Shmee150 252,946)</td>
+<td>unverified</td>
+<td>MED</td>
+<td>HIGH</td>
+</tr>
+</tbody>
+</table>
+<h2>Per-car inputs (how each normalised value was computed)</h2>
+<ul>
+<li><strong>nsx</strong> (Honda/Acura NSX (NA1)): demuro = 0.633 [2,135,700 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.819 [results 925 (log 10..1500) x0.6 + watchers 715/800 x0.25 + comments 53/150 x0.15]; posters = 0.150 [1 matching listings across Etsy/Redbubble/Amazon/Society6/Displate result pages (0.15 each) ]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: pop-up lamps era; low wedge; badge is the marque split</li>
+<li><strong>rx7</strong> (Mazda RX-7 FD): demuro = 0.229 [302,586 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.724 [results 353 (log 10..1500) x0.6 + watchers 742/800 x0.25 + comments 65/150 x0.15]; posters = 1.000 [8 matching listings across Etsy/Redbubble/Amazon/Society6/Displate result pages (0.15 each) ; top Etsy review count 25 (log, 5000-&gt;1)]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: organic pop-up coupe; smooth</li>
+<li><strong>bronco</strong> (Ford Bronco 1st gen): demuro = 0.581 [1,662,003 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.600 [results 1877 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: box; GDS.ART sells one on Catawiki</li>
+<li><strong>fj40</strong> (Toyota Land Cruiser FJ40): demuro = 0.531 [1,303,467 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.586 [results 1335 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: box + round lamps</li>
+<li><strong>beetle</strong> (Volkswagen Beetle 1303): catawiki = 0.667 [EUR 100 / 150 (best live bid on a lot with &lt;=3 days left)]; bat = 0.537 [results 889 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +0 (Shmidt runs it and it draws bids (EUR 100)); gen: one shape; Novere sells a 1967</li>
+<li><strong>2cv</strong> (Citroen 2CV6): catawiki = 0.807 [EUR 121 / 150 (best live bid on a lot with &lt;=3 days left)]; bat = 0.358 [results 159 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments 26/150 x0.15]; gap +0 (Shmidt runs it and it draws bids (EUR 121)); gen: one shape; already drawn</li>
+<li><strong>supra</strong> (Toyota Supra A80): demuro = 0.750 [3,761,588 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.463 [results 331 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments 44/150 x0.15]; posters = 0.300 [2 matching listings across Etsy/Redbubble/Amazon/Society6/Displate result pages (0.15 each) ]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: rear wing + round tail lamps; body is smooth</li>
+<li><strong>r34</strong> (Nissan Skyline GT-R R34): demuro = 0.537 [1,340,697 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.337 [results 123 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments 36/150 x0.15]; posters = 0.900 [6 matching listings across Etsy/Redbubble/Amazon/Society6/Displate result pages (0.15 each) ; top Etsy review count 1 (log, 5000-&gt;1)]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: identity is in lamps, grille, wing - box body</li>
+<li><strong>928</strong> (Porsche 928): demuro = 0.717 [3,202,538 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.554 [results 1021 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; posters = 0.150 [1 matching listings across Etsy/Redbubble/Amazon/Society6/Displate result pages (0.15 each) ]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: unique pop-up wedge</li>
+<li><strong>f40</strong> (Ferrari F40): catawiki = 0.447 [EUR 67 / 150 (best live bid on a lot with &lt;=3 days left)]; demuro = 0.924 [8,709,281 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.417 [results 92 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments 713/150 x0.15]; posters = 0.450 [3 matching listings across Etsy/Redbubble/Amazon/Society6/Displate result pages (0.15 each) ]; gap +0 (Shmidt runs it and it draws bids (EUR 67)); gen: wing, NACA ducts, Lexan louvres - unmistakable silhouette; patent art exists</li>
+<li><strong>z1</strong> (BMW Z1): demuro = 0.775 [4,233,003 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.094 [results 21 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; posters = 0.873 [2 matching listings across Etsy/Redbubble/Amazon/Society6/Displate result pages (0.15 each) ; top Etsy review count 1700 (log, 5000-&gt;1)]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: drop doors are in-drawing detail; roadster shape</li>
+<li><strong>delorean</strong> (DeLorean DMC-12): demuro = 0.698 [2,916,248 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.421 [results 202 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments 60/150 x0.15]; posters = 0.300 [2 matching listings across Etsy/Redbubble/Amazon/Society6/Displate result pages (0.15 each) ]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: gullwing wedge; louvres</li>
+<li><strong>miata</strong> (Mazda MX-5 Miata NA): demuro = 0.295 [415,420 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.512 [results 720 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; posters = 0.750 [5 matching listings across Etsy/Redbubble/Amazon/Society6/Displate result pages (0.15 each) ]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: small pop-up roadster; simple</li>
+<li><strong>testarossa</strong> (Ferrari Testarossa): catawiki = 0.333 [EUR 50 / 150 (best live bid on a lot with &lt;=3 days left)]; demuro = 0.670 [2,549,763 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.454 [results 443 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: side strakes; wide tail</li>
+<li><strong>240z</strong> (Datsun 240Z): demuro = 0.331 [495,105 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.521 [results 776 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; posters = 0.600 [4 matching listings across Etsy/Redbubble/Amazon/Society6/Displate result pages (0.15 each) ; top Etsy review count 12 (log, 5000-&gt;1)]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: long-nose coupe; drifts to E-Type-ish</li>
+<li><strong>mclarenf1</strong> (McLaren F1): demuro = 0.994 [12,230,575 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.031 [results 12 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: smooth; three-seat plan is the hook</li>
+<li><strong>e30</strong> (BMW M3 (E30)): catawiki = 0.200 [EUR 30 / 150 (best live bid on a lot with &lt;=3 days left)]; demuro = 0.545 [1,393,570 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.496 [results 474 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments 34/150 x0.15]; posters = 0.600 [4 matching listings across Etsy/Redbubble/Amazon/Society6/Displate result pages (0.15 each) ; top Etsy review count 67 (log, 5000-&gt;1)]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: box-arches + kidney grille; drifts to a plain E30</li>
+<li><strong>930</strong> (Porsche 911 Turbo (930)): demuro = 0.433 [809,710 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.626 [results 1044 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments 69/150 x0.15]; posters = 0.150 [1 matching listings across Etsy/Redbubble/Amazon/Society6/Displate result pages (0.15 each) ]; gap +3 (Shmidt runs it, top live bid EUR 16); gen: whale tail + flares carry it; Fuchs wheels are the trap</li>
+<li><strong>w8</strong> (Vector W8): demuro = 0.925 [8,759,131 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.000 [results 1 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: extreme wedge</li>
+<li><strong>countach</strong> (Lamborghini Countach LP400): demuro = 0.584 [1,686,981 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.397 [results 78 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments 158/150 x0.15]; posters = 0.150 [1 matching listings across Etsy/Redbubble/Amazon/Society6/Displate result pages (0.15 each) ]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: wedge; period-correct LP400 (no wing/arches) is the only trap</li>
+<li><strong>mustang</strong> (Ford Mustang 2+2 Fastback): demuro = 0.292 [410,735 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.610 [results 1622 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments 10/150 x0.15]; posters = 0.150 [1 matching listings across Etsy/Redbubble/Amazon/Society6/Displate result pages (0.15 each) ]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: grille/tail-lamp details; fastback roofline is the save</li>
+<li><strong>etype</strong> (Jaguar E-Type Series 1): catawiki = 0.407 [EUR 61 / 150 (best live bid on a lot with &lt;=3 days left)]; demuro = 0.321 [471,069 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.567 [results 760 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments 48/150 x0.15]; gap +0 (Shmidt runs it and it draws bids (EUR 61)); gen: bonnet length is the identity</li>
+<li><strong>xj220</strong> (Jaguar XJ220): demuro = 0.823 [5,354,044 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.022 [results 11 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: huge smooth wedge</li>
+<li><strong>miura</strong> (Lamborghini Miura P400): demuro = 0.666 [2,507,413 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.150 [results 5 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments 816/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: eyelash lamps and louvres are detail; profile is strong</li>
+<li><strong>r5turbo</strong> (Renault 5 Turbo): demuro = 0.516 [1,211,874 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.266 [results 47 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments 78/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: huge rear haunches carry it</li>
+<li><strong>az1</strong> (Autozam AZ-1): demuro = 0.671 [2,566,369 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.127 [results 28 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: tiny gullwing kei; unique</li>
+<li><strong>s2000</strong> (Honda S2000 AP1): demuro = 0.361 [573,873 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.485 [results 575 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; posters = 0.150 [1 matching listings across Etsy/Redbubble/Amazon/Society6/Displate result pages (0.15 each) ]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: generic roadster shape</li>
+<li><strong>22b</strong> (Subaru Impreza 22B STI): demuro = 0.581 [1,660,315 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.299 [results 120 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; posters = 0.150 [1 matching listings across Etsy/Redbubble/Amazon/Society6/Displate result pages (0.15 each) ]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: plain saloon coupe; wing + arches</li>
+<li><strong>diablo</strong> (Lamborghini Diablo): demuro = 0.447 [869,246 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.290 [results 112 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: wedge</li>
+<li><strong>mini</strong> (Mini Cooper S Mk I): catawiki = 0.207 [EUR 31 / 150 (best live bid on a lot with &lt;=3 days left)]; demuro = 0.526 [1,270,360 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.381 [results 147 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments 58/150 x0.15]; posters = 0.683 [1 matching listings across Etsy/Redbubble/Amazon/Society6/Displate result pages (0.15 each) ; top Etsy review count 335 (log, 5000-&gt;1)]; gap +0 (Shmidt runs it and it draws bids (EUR 31)); gen: rejected once at $0.03 tier - side/plan were not a Mini</li>
+<li><strong>ds</strong> (Citroen DS 21): demuro = 0.364 [580,161 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.319 [results 142 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: one shape</li>
+<li><strong>defender</strong> (Land Rover Defender 110): demuro = 0.616 [1,970,372 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.200 [results 52 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; posters = 0.150 [1 matching listings across Etsy/Redbubble/Amazon/Society6/Displate result pages (0.15 each) ]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: box; window count</li>
+<li><strong>evo6</strong> (Mitsubishi Lancer Evolution VI): demuro = 0.255 [343,279 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.394 [results 268 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: plain saloon; wing/vents</li>
+<li><strong>r32</strong> (Nissan Skyline GT-R R32): demuro = 0.412 [731,457 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.346 [results 146 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments 24/150 x0.15]; posters = 0.150 [1 matching listings across Etsy/Redbubble/Amazon/Society6/Displate result pages (0.15 each) ]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: plain three-box; badge-level identity</li>
+<li><strong>integrale</strong> (Lancia Delta HF Integrale Evo): catawiki = 0.020 [EUR 3 / 150 (best live bid on a lot with &lt;=3 days left)]; demuro = 0.643 [2,239,711 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.409 [results 130 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments 101/150 x0.15]; gap +3 (Shmidt runs it, top live bid EUR 3); gen: box hatch; arches + lamps are the identity</li>
+<li><strong>viper</strong> (Dodge Viper RT/10): demuro = 0.247 [329,468 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.380 [results 237 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: long nose, side pipes, roadster</li>
+<li><strong>e28m5</strong> (BMW M5 (E28)): demuro = 0.333 [499,612 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.303 [results 125 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: plain saloon</li>
+<li><strong>190evo</strong> (Mercedes-Benz 190 E 2.5-16 Evo II): catawiki = 0.233 [EUR 35 / 150 (best live bid on a lot with &lt;=3 days left)]; demuro = 0.554 [1,460,260 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.333 [results 160 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +0 (Shmidt runs it and it draws bids (EUR 35)); gen: saloon; wing + arches</li>
+<li><strong>gt40</strong> (Ford GT40 Mk I): demuro = 0.780 [4,350,899 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.000 [results 5 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; posters = 0.150 [1 matching listings across Etsy/Redbubble/Amazon/Society6/Displate result pages (0.15 each) ]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: 1 m tall; unmistakable</li>
+<li><strong>sportquattro</strong> (Audi Sport Quattro): demuro = 0.388 [653,920 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.241 [results 74 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: short-wheelbase box; arches</li>
+<li><strong>f50</strong> (Ferrari F50): demuro = 0.626 [2,064,254 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.135 [results 30 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +0 (Shmidt runs it and it draws bids (EUR 101)); gen: open-top wing profile; many curves</li>
+<li><strong>gwagen</strong> (Mercedes-Benz G-Class W463): catawiki = 0.020 [EUR 3 / 150 (best live bid on a lot with &lt;=3 days left)]; demuro = 0.413 [735,737 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.490 [results 596 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: box</li>
+<li><strong>959</strong> (Porsche 959): catawiki = 0.007 [EUR 1 / 150 (best live bid on a lot with &lt;=3 days left)]; demuro = 0.714 [3,156,944 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.233 [results 19 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments 339/150 x0.15]; gap +3 (Shmidt runs it, top live bid EUR 1); gen: 911 shape + integrated tail; drifts to 911</li>
+<li><strong>esprit</strong> (Lotus Esprit S1/Turbo): demuro = 0.494 [1,091,308 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.123 [results 27 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +3 (Shmidt runs it, top live bid EUR 1); gen: Giugiaro folded paper</li>
+<li><strong>205gti</strong> (Peugeot 205 GTI): demuro = 0.487 [1,054,925 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.110 [results 24 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; posters = 0.150 [1 matching listings across Etsy/Redbubble/Amazon/Society6/Displate result pages (0.15 each) ]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: plain hatch; trim-level identity</li>
+<li><strong>sz</strong> (Alfa Romeo SZ (ES-30)): demuro = 0.454 [899,956 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.083 [results 19 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: il Mostro; unique box</li>
+<li><strong>eb110</strong> (Bugatti EB110): catawiki = 0.300 [EUR 45 / 150 (best live bid on a lot with &lt;=3 days left)]; demuro = 0.646 [2,274,200 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.000 [results 3 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +0 (Shmidt runs it and it draws bids (EUR 45)); gen: wedge with horseshoe; many surfaces</li>
+<li><strong>850r</strong> (Volvo 850 R Estate): demuro = 0.297 [420,840 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.188 [results 47 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: brick estate; badge-level</li>
+<li><strong>964rs</strong> (Porsche 964 Carrera RS): catawiki = 0.007 [EUR 1 / 150 (best live bid on a lot with &lt;=3 days left)]; demuro = 0.529 [1,293,631 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.206 [results 55 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +3 (Shmidt runs it, top live bid EUR 1); gen: a 964; RS is wheels + decals</li>
+<li><strong>p356</strong> (Porsche 356 A): catawiki = 0.007 [EUR 1 / 150 (best live bid on a lot with &lt;=3 days left)]; bat = 0.429 [results 284 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments 28/150 x0.15]; gap +3 (Shmidt runs it, top live bid EUR 1); gen: rounded shell but easily drifts to 356B/C or a 911</li>
+<li><strong>a110</strong> (Alpine A110 Berlinette): demuro = 0.223 [294,263 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.105 [results 23 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: small; unique</li>
+<li><strong>cosworth</strong> (Ford Escort RS Cosworth): demuro = 0.217 [285,531 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.089 [results 20 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: hatch + whale-tail wing; body is a plain Escort</li>
+<li><strong>288gto</strong> (Ferrari 288 GTO): demuro = 0.223 [293,807 views, log scale 100k-&gt;0, 12.6M-&gt;1]; bat = 0.000 [results 1 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: 308 body; identity is arches/vents</li>
+<li><strong>037</strong> (Lancia Rally 037 Stradale): catawiki = 0.200 [EUR 30 / 150 (best live bid on a lot with &lt;=3 days left)]; bat = 0.000 [results 4 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +0 (Shmidt runs it and it draws bids (EUR 30)); gen: wedge; Shmidt has one at EUR 30</li>
+<li><strong>bizzarrini</strong> (Bizzarrini 5300 GT Strada): catawiki = 0.947 [EUR 142 / 150 (best live bid on a lot with &lt;=3 days left)]; gap +0 (Shmidt runs it and it draws bids (EUR 142)); gen: Shmidt EUR 142 top lot this week; Giugiaro shape</li>
+<li><strong>targa964</strong> (Porsche 911 Targa (964)): catawiki = 0.800 [EUR 120 / 150 (best live bid on a lot with &lt;=3 days left)]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: a 964 with a hoop; framed lots EUR 100-120 this week</li>
+<li><strong>cgt</strong> (Porsche Carrera GT): demuro = 0.727 [3,358,762 views, log scale 100k-&gt;0, 12.6M-&gt;1]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: modern surfaces; already drawn</li>
+<li><strong>clkgtr</strong> (Mercedes-Benz CLK GTR): demuro = 0.685 [2,738,231 views, log scale 100k-&gt;0, 12.6M-&gt;1]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: long tail; grille is detail</li>
+<li><strong>pagoda</strong> (Mercedes-Benz 280 SL (W113)): bat = 0.566 [results 805 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments 40/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: concave hardtop is the identity, stacked lamps are detail</li>
+<li><strong>fiat500</strong> (Fiat 500 F): bat = 0.489 [results 592 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments -/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: one rounded shell</li>
+<li><strong>t1</strong> (Volkswagen T1 Samba): bat = 0.424 [results 305 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments 14/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: split screen + V nose; window count is countable detail</li>
+<li><strong>gmodel</strong> (Porsche 911 G-Model Carrera 3.2): catawiki = 0.420 [EUR 63 / 150 (best live bid on a lot with &lt;=3 days left)]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: impact bumpers; framed EUR 63</li>
+<li><strong>giulia</strong> (Alfa Romeo Giulia Sprint GTA): catawiki = 0.433 [EUR 65 / 150 (best live bid on a lot with &lt;=3 days left)]; gap +0 (Shmidt runs it and it draws bids (EUR 65)); gen: box saloon; GTA vs GT is badge-level</li>
+<li><strong>isetta</strong> (BMW Isetta 300): catawiki = 0.327 [EUR 49 / 150 (best live bid on a lot with &lt;=3 days left)]; gap +0 (Shmidt runs it and it draws bids (EUR 49)); gen: bubble; Shmidt EUR 49</li>
+<li><strong>33stradale</strong> (Alfa Romeo Tipo 33 Stradale): catawiki = 0.300 [EUR 45 / 150 (best live bid on a lot with &lt;=3 days left)]; gap +0 (Shmidt runs it and it draws bids (EUR 45)); gen: unique; Shmidt EUR 45</li>
+<li><strong>cobra</strong> (Shelby Cobra 427 MkIII): bat = 0.239 [results 20 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments 326/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: CC0 four-view exists; flares + side pipes</li>
+<li><strong>isogrifo</strong> (Iso Grifo): catawiki = 0.280 [EUR 42 / 150 (best live bid on a lot with &lt;=3 days left)]; gap +0 (Shmidt runs it and it draws bids (EUR 42)); gen: Giugiaro GT; Shmidt EUR 42</li>
+<li><strong>stratos</strong> (Lancia Stratos HF): bat = 0.150 [results 2 (log 10..1500) x0.6 + watchers -/800 x0.25 + comments 717/150 x0.15]; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: wedge wraparound screen</li>
+<li><strong>300sl</strong> (Mercedes-Benz 300 SL Gullwing): catawiki = 0.027 [EUR 4 / 150 (best live bid on a lot with &lt;=3 days left)]; gap +3 (Shmidt runs it, top live bid EUR 4); gen: gullwing; Shmidt EUR 4 at 3d</li>
+<li><strong>gt1</strong> (Porsche 911 GT1 Strassenversion): ; gap +5 (no Shmidt lot of this model live (catalogue gap)); gen: long-tail; drifts to race car</li>
+</ul>
+<h2>Catawiki, the whole board this week (Shmidt.Art, seller 30075938, 72 lots, read 2026-09-03 03:42-03:46 UTC)</h2>
+<p>Seller page: 320 objects sold lifetime, 95.35% positive, 47 reviews, private seller, three themed auctions (Porsche Automobilia 32 lots, Automobilia 27, Ferrari Automobilia 13). The number on each card is <em>following</em> (watchers), verified on the 2CV lot page (26 bids, 18 following). Board median bid EUR 15.5, mean 25.6, 17 lots at EUR 40+, 24 lots at EUR 1.</p>
+<table>
+<thead>
+<tr>
+<th>Lot</th>
+<th>Bid EUR</th>
+<th>Following</th>
+<th>Left</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bizzarrini 5300 GT Strada 1960s</td>
+<td>142</td>
+<td>18</td>
+<td>2d</td>
+</tr>
+<tr>
+<td>Citroen 2CV6 1970s</td>
+<td>121</td>
+<td>18</td>
+<td>15h</td>
+</tr>
+<tr>
+<td>Ferrari F50 1990s</td>
+<td>101</td>
+<td>13</td>
+<td>5d</td>
+</tr>
+<tr>
+<td>Volkswagen Type 1 1930s</td>
+<td>100</td>
+<td>13</td>
+<td>2d</td>
+</tr>
+<tr>
+<td>Porsche 911 (993) Carrera 1990s</td>
+<td>68</td>
+<td>11</td>
+<td>5d</td>
+</tr>
+<tr>
+<td>Ferrari F40 1980s</td>
+<td>67</td>
+<td>25</td>
+<td>1d</td>
+</tr>
+<tr>
+<td>Ferrari F40 Technical Blueprint 1980s</td>
+<td>65</td>
+<td>14</td>
+<td>1d</td>
+</tr>
+<tr>
+<td>Alfa Romeo Giulia Super 1960s</td>
+<td>65</td>
+<td>18</td>
+<td>2d</td>
+</tr>
+<tr>
+<td>Jaguar E-Type Series 1 1964</td>
+<td>61</td>
+<td>21</td>
+<td>14h</td>
+</tr>
+<tr>
+<td>Porsche 911 (996) 1990s</td>
+<td>55</td>
+<td>12</td>
+<td>3d</td>
+</tr>
+<tr>
+<td>BMW Isetta 300 Export 1950s</td>
+<td>49</td>
+<td>14</td>
+<td>14h</td>
+</tr>
+<tr>
+<td>Porsche 911 Targa 1973</td>
+<td>47</td>
+<td>21</td>
+<td>1d</td>
+</tr>
+<tr>
+<td>Bugatti EB110 GT</td>
+<td>45</td>
+<td>12</td>
+<td>14h</td>
+</tr>
+<tr>
+<td>Alfa Romeo Tipo 33 Stradale 1960s</td>
+<td>45</td>
+<td>16</td>
+<td>2d</td>
+</tr>
+<tr>
+<td>Iso Grifo 1965</td>
+<td>42</td>
+<td>14</td>
+<td>2d</td>
+</tr>
+<tr>
+<td>Ferrari F2004 2000s</td>
+<td>40</td>
+<td>18</td>
+<td>5d</td>
+</tr>
+<tr>
+<td>Porsche Taycan Turbo S 2020s</td>
+<td>40</td>
+<td>3</td>
+<td>8d</td>
+</tr>
+<tr>
+<td>Porsche 911 GT2 1990s</td>
+<td>39</td>
+<td>10</td>
+<td>3d</td>
+</tr>
+<tr>
+<td>Porsche 718 Cayman GT4 RS 2020s</td>
+<td>38</td>
+<td>4</td>
+<td>8d</td>
+</tr>
+<tr>
+<td>Porsche 911 GT3 RS 2020s</td>
+<td>37</td>
+<td>5</td>
+<td>8d</td>
+</tr>
+<tr>
+<td>Mercedes-Benz 500 SL (R107) 1980s</td>
+<td>36</td>
+<td>14</td>
+<td>3d</td>
+</tr>
+<tr>
+<td>Ferrari 250 GTO 1962</td>
+<td>36</td>
+<td>10</td>
+<td>8d</td>
+</tr>
+<tr>
+<td>Mercedes-Benz 190 E 2.5-16 Evolution II 1990</td>
+<td>35</td>
+<td>10</td>
+<td>3d</td>
+</tr>
+<tr>
+<td>Austin Mini Cooper Mk I 1960s</td>
+<td>31</td>
+<td>20</td>
+<td>14h</td>
+</tr>
+<tr>
+<td>Jaguar E-Type Series 1 1960s</td>
+<td>31</td>
+<td>17</td>
+<td>14h</td>
+</tr>
+<tr>
+<td>Porsche 912 1967</td>
+<td>30</td>
+<td>18</td>
+<td>1d</td>
+</tr>
+<tr>
+<td>Lancia Rally 037 Stradale 1980s</td>
+<td>30</td>
+<td>14</td>
+<td>2d</td>
+</tr>
+<tr>
+<td>Lamborghini Espada 1960s</td>
+<td>30</td>
+<td>9</td>
+<td>3d</td>
+</tr>
+<tr>
+<td>Porsche 912 1967 (2nd)</td>
+<td>30</td>
+<td>5</td>
+<td>8d</td>
+</tr>
+<tr>
+<td>Lancia Delta S4 1980s</td>
+<td>28</td>
+<td>24</td>
+<td>14h</td>
+</tr>
+<tr>
+<td>Porsche 911 Turbo 3.6 1990s</td>
+<td>27</td>
+<td>11</td>
+<td>5d</td>
+</tr>
+<tr>
+<td>Shelby Daytona Coupe 1960s</td>
+<td>26</td>
+<td>18</td>
+<td>14h</td>
+</tr>
+<tr>
+<td>Ferrari Rampanza del Cavallino</td>
+<td>25</td>
+<td>14</td>
+<td>3d</td>
+</tr>
+<tr>
+<td>Ferrari F2004 Formula One 2004</td>
+<td>25</td>
+<td>11</td>
+<td>5d</td>
+</tr>
+<tr>
+<td>Austin Mini Cooper Mk I 1963</td>
+<td>25</td>
+<td>5</td>
+<td>5d</td>
+</tr>
+<tr>
+<td>Porsche 930 Turbo 1978</td>
+<td>16</td>
+<td>7</td>
+<td>5d</td>
+</tr>
+<tr>
+<td>Ferrari 458 Italia Technical Drawing Framed</td>
+<td>15</td>
+<td>13</td>
+<td>1d</td>
+</tr>
+<tr>
+<td>Porsche 904 GTS 1964</td>
+<td>15</td>
+<td>10</td>
+<td>3d</td>
+</tr>
+<tr>
+<td>Porsche 911 ST 1970s</td>
+<td>15</td>
+<td>14</td>
+<td>5d</td>
+</tr>
+<tr>
+<td>Porsche 718 RSK Spyder 1950s</td>
+<td>13</td>
+<td>16</td>
+<td>1d</td>
+</tr>
+<tr>
+<td>Rolls-Royce Silver Spur 1980s</td>
+<td>6</td>
+<td>7</td>
+<td>14h</td>
+</tr>
+<tr>
+<td>Porsche Cayenne Turbo 2000s</td>
+<td>4</td>
+<td>10</td>
+<td>1d</td>
+</tr>
+<tr>
+<td>Mercedes-Benz 560 SEC 6.0 AMG 1980s</td>
+<td>4</td>
+<td>9</td>
+<td>3d</td>
+</tr>
+<tr>
+<td>Mercedes-Benz 300 SL Gullwing 1950s</td>
+<td>4</td>
+<td>11</td>
+<td>3d</td>
+</tr>
+<tr>
+<td>Lancia Delta S4 Stradale 1985</td>
+<td>3</td>
+<td>14</td>
+<td>2d</td>
+</tr>
+<tr>
+<td>Porsche 911 GT3 1990s</td>
+<td>3</td>
+<td>13</td>
+<td>3d</td>
+</tr>
+<tr>
+<td>Ferrari 430 Scuderia 2000s</td>
+<td>3</td>
+<td>18</td>
+<td>3d</td>
+</tr>
+<tr>
+<td>Lancia Delta HF Integrale Evoluzione I 1990s</td>
+<td>3</td>
+<td>19</td>
+<td>3d</td>
+</tr>
+<tr>
+<td>Bentley Continental GT 2005</td>
+<td>1</td>
+<td>7</td>
+<td>14h</td>
+</tr>
+<tr>
+<td>Porsche Panamera Turbo 2000s</td>
+<td>1</td>
+<td>13</td>
+<td>1d</td>
+</tr>
+<tr>
+<td>Ferrari 458 Italia Technical Blueprint</td>
+<td>1</td>
+<td>10</td>
+<td>1d</td>
+</tr>
+<tr>
+<td>Maserati A6GCS Berlinetta 1950s</td>
+<td>1</td>
+<td>13</td>
+<td>2d</td>
+</tr>
+<tr>
+<td>Porsche 968 1990s</td>
+<td>1</td>
+<td>10</td>
+<td>3d</td>
+</tr>
+<tr>
+<td>Ferrari 250 GTO 1960s</td>
+<td>1</td>
+<td>24</td>
+<td>3d</td>
+</tr>
+<tr>
+<td>Mercedes-Benz 560 SEC (C126) 1980s</td>
+<td>1</td>
+<td>14</td>
+<td>3d</td>
+</tr>
+<tr>
+<td>Porsche 959 1986</td>
+<td>1</td>
+<td>8</td>
+<td>3d</td>
+</tr>
+<tr>
+<td>Porsche Boxster (986) 1990s</td>
+<td>1</td>
+<td>9</td>
+<td>3d</td>
+</tr>
+<tr>
+<td>Porsche 964 Carrera RS 1992</td>
+<td>1</td>
+<td>8</td>
+<td>3d</td>
+</tr>
+<tr>
+<td>Porsche 911 Turbo (964) 1990s</td>
+<td>1</td>
+<td>6</td>
+<td>5d</td>
+</tr>
+<tr>
+<td>Ferrari F40 Technical Blueprint 1980s (2nd)</td>
+<td>1</td>
+<td>13</td>
+<td>5d</td>
+</tr>
+<tr>
+<td>Lotus Esprit Turbo 1980s</td>
+<td>1</td>
+<td>2</td>
+<td>5d</td>
+</tr>
+<tr>
+<td>Porsche 911 Carrera RS 2.7 1973</td>
+<td>1</td>
+<td>3</td>
+<td>8d</td>
+</tr>
+<tr>
+<td>Porsche 901 1960s</td>
+<td>1</td>
+<td>4</td>
+<td>8d</td>
+</tr>
+<tr>
+<td>Porsche 356 Carrera GS 1957</td>
+<td>1</td>
+<td>4</td>
+<td>8d</td>
+</tr>
+<tr>
+<td>Ferrari Rampanza del Cavallino (2nd)</td>
+<td>1</td>
+<td>4</td>
+<td>8d</td>
+</tr>
+<tr>
+<td>Porsche 918 Spyder 2010s</td>
+<td>1</td>
+<td>5</td>
+<td>8d</td>
+</tr>
+<tr>
+<td>Porsche 911 S (ST) 1970s</td>
+<td>1</td>
+<td>3</td>
+<td>8d</td>
+</tr>
+<tr>
+<td>Porsche 911 Turbo 997 2006</td>
+<td>1</td>
+<td>3</td>
+<td>8d</td>
+</tr>
+<tr>
+<td>Porsche 930 Turbo 1970s (2nd)</td>
+<td>1</td>
+<td>7</td>
+<td>8d</td>
+</tr>
+<tr>
+<td>Porsche 911 Carrera (993) General Arrangement 1990s</td>
+<td>1</td>
+<td>3</td>
+<td>8d</td>
+</tr>
+<tr>
+<td>Porsche 959 1986 (2nd)</td>
+<td>1</td>
+<td>3</td>
+<td>8d</td>
+</tr>
+<tr>
+<td>Porsche 964 Carrera RS 1992 (2nd)</td>
+<td>1</td>
+<td>4</td>
+<td>8d</td>
+</tr>
+</tbody>
+</table>
+<p>Other sellers' car-drawing lots with bids (rendered search pages, 03:48 UTC):</p>
+<table>
+<thead>
+<tr>
+<th>Lot</th>
+<th>Bid EUR</th>
+<th>Left</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Porsche TARGA 964 - Technical Drawing - Frame - Design</td>
+<td>120</td>
+<td>1 day left</td>
+</tr>
+<tr>
+<td>Porsche TARGA 964 - Technical Drawing - Frame - Design</td>
+<td>100</td>
+<td>3 days left</td>
+</tr>
+<tr>
+<td>Porsche 911 - Technical Drawing - Frame - Design</td>
+<td>100</td>
+<td>1 day left</td>
+</tr>
+<tr>
+<td>David Ingram - It all started with a dream … a Porsche 911 dream: Poster/print - Poster/Print Vintage Porsche</td>
+<td>65</td>
+<td>1 day left</td>
+</tr>
+<tr>
+<td>Porsche 911 G-Model - Technical Drawing - Frame - Design</td>
+<td>63</td>
+<td>3 days left</td>
+</tr>
+<tr>
+<td>Novere.Art - Volkswagen Beetle I 1967 I Technical Drawing</td>
+<td>51</td>
+<td>2 days left</td>
+</tr>
+<tr>
+<td>Ferrari 512 TR  - Technical Drawing - Frame - Design</td>
+<td>50</td>
+<td>1 day left</td>
+</tr>
+<tr>
+<td>Ferrari F40 - Technical Drawing - Frame - Design</td>
+<td>39</td>
+<td>1 day left</td>
+</tr>
+<tr>
+<td>Porsche 911 - Technical Drawing - Frame - Design</td>
+<td>35</td>
+<td>3 days left</td>
+</tr>
+<tr>
+<td>MINI Morris - Technical Drawing - Frame - Design</td>
+<td>30</td>
+<td>5 days left</td>
+</tr>
+<tr>
+<td>BMW M3 E30 - Technical Drawing - Frame - Design</td>
+<td>30</td>
+<td>2 days left</td>
+</tr>
+<tr>
+<td>Kleury.art - [XL MATTE PAPER] "Porsche 550 Spyder" by Kleury.art (1/5)</td>
+<td>30</td>
+<td>1 day left</td>
+</tr>
+<tr>
+<td>Kleury.art - (LAST CHANCE TO BUY!) [XL MATTE PAPER] "1965 Alfa Romeo Giulia Sprint GTA 1600" by Kleury.art (5/</td>
+<td>25</td>
+<td>2 days left</td>
+</tr>
+<tr>
+<td>Porsche 911 G-Model - Technical Drawing - Frame - Design</td>
+<td>15</td>
+<td>1 day left</td>
+</tr>
+<tr>
+<td>Kleury.art - [XL MATTE PAPER] "Porsche 356 “America Roadster”" by Kleury.art (1/5)</td>
+<td>12</td>
+<td>8 days left</td>
+</tr>
+<tr>
+<td>Kleury.art - [XL MATTE PAPER] "The Gotham Dichotomy" by Kleury.art (2/5)</td>
+<td>8</td>
+<td>2 days left</td>
+</tr>
+<tr>
+<td>Kleury.art - [LAST CHANCE TO BUY!] [XL CANVAS] “Brazilian Hero” by Kleury.art (5/5)</td>
+<td>7</td>
+<td>3 days left</td>
+</tr>
+<tr>
+<td>Kleury.art - [XL MATTE PAPER] Da Vinci's Lost Projects: "1928 Bentley 4½ Litre Le Mans" by Kleury.art (2/5)</td>
+<td>6</td>
+<td>14 hours left</td>
+</tr>
+<tr>
+<td>Kleury.art - [XL MATTE PAPER] Da Vinci's Lost Projects: "1967 Lotus 49" by Kleury.art (4/5)</td>
+<td>4</td>
+<td>14 hours left</td>
+</tr>
+<tr>
+<td>Kleury.art - [XL MATTE PAPER] Industrial Blueprint: "Ferrari F2004" by Kleury.art (2/5)</td>
+<td>3</td>
+<td>5 days left</td>
+</tr>
+<tr>
+<td>Kleury.art - [LAST CHANCE TO BUY!] Da Vinci's Lost Projects: "Ferrari F500 F2" by Kleury.art (5/5)</td>
+<td>2</td>
+<td>8 days left</td>
+</tr>
+<tr>
+<td>GDS.ART - JEEP WRANGLER BLUEPRINT - 1/5 SIGNÉE COA - 40x60 cm</td>
+<td>2</td>
+<td>15 hours left</td>
+</tr>
+<tr>
+<td>Kleury.art - [XL MATTE PAPER] "Vespa PX200" by Kleury.art (2/5)</td>
+<td>2</td>
+<td>3 days left</td>
+</tr>
+<tr>
+<td>Porsche 964 - Technical Drawing - Frame - Design</td>
+<td>2</td>
+<td>1 day left</td>
+</tr>
+<tr>
+<td>Porsche 964 - Technical Drawing - Frame - Design</td>
+<td>1</td>
+<td>3 days left</td>
+</tr>
+<tr>
+<td>Porsche 356 - Technical Drawing - Frame - Design</td>
+<td>1</td>
+<td>1 day left</td>
+</tr>
+<tr>
+<td>Novere.Art - Porsche 917 I 1969 I Technical Drawing</td>
+<td>1</td>
+<td>3 days left</td>
+</tr>
+<tr>
+<td>Novere.Art - Ford Mustang Shelby GT500 I 1967 I Technical Drawing</td>
+<td>1</td>
+<td>15 hours left</td>
+</tr>
+<tr>
+<td>Kleury.art - [XL MATTE PAPER] Industrial Blueprint: "Ferrari LaFerrari" by Kleury.art (3/5)</td>
+<td>1</td>
+<td>8 days left</td>
+</tr>
+<tr>
+<td>Kleury.art - [XL MATTE PAPER] "Pagani Zonda" by Kleury.art (2/5)</td>
+<td>1</td>
+<td>2 days left</td>
+</tr>
+<tr>
+<td>Kleury.art - [XL Canvas] "Scarlet Tanager on Magnolia Branch" by Kleury.art (1/5)</td>
+<td>1</td>
+<td>1 day left</td>
+</tr>
+</tbody>
+</table>
+<p>Closed-lot prices: Catawiki exposes no sold-lot listing (four URL variants probed, all return the live page). The only hammer figures available are the prior session's: reference lot hammered EUR 40 (memory, verified 2026-08-30) and the 964 Turbo engineering drawing at EUR 250 with two days to run (2026-08-30, PLAYBOOK section 1). Both are <strong>not re-fetched this session</strong>.</p>
+<h2>Trademark sensitivity, evidence fetched this session</h2>
+<ul>
+<li><strong>Porsche - HIGH.</strong> mycarquest.com, 2019-01 (HTTP 200): Porsche filed an IP claim against a photographer's own heavily edited 904 image on Redbubble; removed within 24 h; Redbubble sided with Porsche and would not connect him to the claimant. https://mycarquest.com/2019/01/porsche-claims-ownership-of-one-of-my-images.html</li>
+<li><strong>Ferrari - HIGH.</strong> natlawreview.com, 2020-11-06 (200): Courts of Genova and Milan ruled for Ferrari against Philipp Plein for showing Ferrari cars/marks in promotional content; EUR 300,000 damages, EUR 10,000/day penalty. https://natlawreview.com/article/don-t-mess-ferrari-prancing-horse-legal-drama . carbuzz.com, 2025-07-04 (200): EU General Court restored Ferrari's TESTAROSSA mark, accepting licensed merchandise, replicas and certificates as genuine use - i.e. Ferrari actively licenses merchandise for classic model names. https://carbuzz.com/ferrari-wins-testarossa-trademark-suit/ . Forbes 2020 (250 GTO shape mark) returned 403 - unverified. FerrariChat artwork thread returned 403 - unverified.</li>
+<li><strong>Lamborghini, BMW, Mercedes, JLR, Ford, Toyota, Nissan, Honda - no enforcement evidence found this session</strong> (WebSearch only; Lamborghini prints are openly listed on Redbubble). Rated MED for German/Italian marques with active licensing arms, LOW for Japanese marques, on absence of evidence - treat as unverified.</li>
+<li>Platform level: Etsy removed 1.5M listings for IP violations in 2024 (marmalead/redpoints snippets, not fetched) and now polices prints proactively. The founder ruled 2026-08-30 that Shmidt sells with marques and nobody cares; this section records evidence, not a re-opening of that decision.</li>
+</ul>
+<h2>Hagerty 2026 Bull Market (newsroom.hagerty.com, published 2025-12-08, HTTP 200)</h2>
+<p>C6 Corvette Z06 $55,900; E60 BMW M5 $36,000; <strong>Porsche Carrera GT $1,550,000</strong>; NB Mazda Miata $16,600; <strong>1995-98 Nissan Skyline GT-R (R33) $82,350</strong>; Golf GTI VR6 $20,000; Chevrolet 454 SS $59,800; Dodge Ramcharger $25,300; <strong>1969-72 Alfa Romeo GTV $105,000</strong>; 1968-70 Dodge Charger $91,450; Continental Mark II $82,700. Of the candidate pool only the Carrera GT (in archive), the Skyline GT-R family and the Alfa GTV/GTA family appear. Not scored (list membership is not a per-model count), noted per car.</p>
+<h2>Reading the table (lead's read, not a grade)</h2>
+<ol>
+<li><strong>The DeMuro crowd's cars are invisible on Catawiki.</strong> NSX, RX-7 FD, Supra A80, R34 and 240Z carry the biggest BaT model pages (925 / 353 / 331 / 123 / 776 results) and a Redbubble blueprint top-40 that is mostly JDM (Supra, R34, RX-7, S2000, NSX, 240Z, Miata all present), yet every Catawiki search for them returns diecast and Hot Wheels only - no seller runs a JDM drawing. That is the widest open gap on the board: proven wall-art demand elsewhere, zero supply where we sell.</li>
+<li><strong>Trucks outrank supercars.</strong> Ford Bronco (1,877 BaT results, the largest of any candidate; 1.66M DeMuro views) and Toyota FJ40 (1,335; 1.30M) land at #3 and #4 with nobody drawing them on Catawiki except GDS.ART's one Bronco lot. The E-Type (760) and Mustang (1,622) are the only archive cars in that BaT volume band.</li>
+<li><strong>The 2026-08-30 'supercars die' rule is half wrong.</strong> This week Shmidt's F50 sits at EUR 101 with 5 days left and the Bizzarrini 5300 GT at EUR 142 (2 days) is his top lot, above the F40 (67) and the 2CV (121 at 15 h); a Taycan is at EUR 40 with 8 days to run. What dies is modern luxury (Panamera 1, Cayenne 4, Bentley 1, Silver Spur 6) and immature lots, not supercars as a class. Obscure 1960s Italian GTs (Bizzarrini 142, Giulia Super 65, 33 Stradale 45, Iso Grifo 42) hammer harder than most Porsches.</li>
+<li><strong>Framing still buys EUR 100.</strong> Automobilia Gallery's framed 'Technical Drawing - Frame - Design' Porsche lots sit at EUR 120, 100, 100 and 63 while its unframed twins sit at EUR 1-2 - the same finding as 2026-09-02, now on four lots.</li>
+<li><strong>What to draw next, by this table:</strong> the JDM five (NSX, RX-7, Supra, R34, 240Z) and the two trucks are the new-catalogue bets; Beetle, 2CV, 928, DeLorean and Testarossa are proven-demand icons the archive already half-holds; 190E Evo II, Integrale, E30 M3 and 22B score on heat but are HIGH gen-risk and need a real source drawing, not a generated hero.</li>
+</ol>
+<h2>What is unverified</h2>
+<ul>
+<li>Catawiki <strong>sold</strong> prices for any model (no closed-lot listing exists; live bids used instead, mature lots only).</li>
+<li>Collecting Cars results for every model (route dead this session).</li>
+<li>BaT model-page results count missing for: bizzarrini, targa964, cgt, clkgtr, gmodel, giulia, isetta, 33stradale, isogrifo, 300sl, gt1 (no model page found or page unverified per <code>_manifest-bat.md</code>). BaT watchers/comments are only present for the listings the batch opened; missing ones are '-' and simply drop out of the BaT formula.</li>
+<li>No DeMuro review of the model (or not fetched): beetle, 2cv, p356, 037, bizzarrini, targa964, pagoda, fiat500, t1, gmodel, giulia, isetta, 33stradale, cobra, isogrifo, stratos, 300sl, gt1.</li>
+<li>No matching listing on the marketplace result pages fetched: bronco, fj40, beetle, 2cv, testarossa, mclarenf1, w8, etype, xj220, miura, r5turbo, az1, diablo, ds, evo6, integrale, viper, e28m5, 190evo, sportquattro, f50, gwagen, 959, esprit, sz, eb110, 850r, 964rs, p356, a110, cosworth, 288gto, 037, bizzarrini, targa964, cgt, clkgtr, pagoda, fiat500, t1, gmodel, giulia, isetta, 33stradale, cobra, isogrifo, stratos, 300sl, gt1.</li>
+<li>Poster marketplace counts for models absent from the Etsy/Redbubble result pages fetched.</li>
+<li>DeMuro views for models with no DeMuro review (listed as such; a best-other-channel count is given where one surfaced).</li>
+<li>Trademark ratings for every marque except Porsche and Ferrari.</li>
+<li>The EUR 40 hammer and EUR 250 964 lot are prior-session observations, not re-fetched.</li>
+</ul>
+<h2>Sources (every URL used for a number in this file)</h2>
+<p>See <code>_manifest-fetch-log.md</code> (lead session L1-L28) and the fetch-log sections at the bottom of <code>_manifest-bat.md</code>, <code>_manifest-posters.md</code>. Per-car URLs are in <code>car-manifest.json</code> under <code>signals</code>.</p></div>
+
+<h2 id="profit">Does the house pay?</h2>
+<div class="md"><h1>Does the house pay? - Lombardia Automobili on Catawiki</h1>
+<p>Written 2026-09-03 from 47 successful fetches (<code>_profit-fetch-log.md</code>) plus two memory files verified
+2026-08-30. Assumption values live in <code>profitability.json</code>. No money was spent.</p>
+<h2>Verdict</h2>
+<p><strong>It pays per lot at almost any hammer, and it pays as a business only at Shmidt's scale.</strong> With EUR 25
+shipping charged to the buyer against a EUR 22 landed print-and-post cost, a lot contributes
+<strong>0.84 x hammer + EUR 1.75</strong> - so a EUR 1 dud is not a EUR 13 loss, it is a EUR 4 gain, and the all-in
+break-even hammer is EUR 1 (the verified EUR 16 figure is the hammer-only view that ignores the shipping
+line). Everything then rides on <strong>mean hammer x lots closed per month</strong>. At Shmidt's observed mean
+(EUR 34 near close, EUR 47 on the 30 Aug ladder) a 10-lot board makes ~EUR 650/month, a 30-lot board
+~EUR 2,000 (42 founder hours, ~EUR 47/h), a 70-lot board ~EUR 4,600 (98 hours). The single number that
+moves the answer is <strong>lots closed per month</strong>, which is gated by curation acceptance (2 of 4 rejected)
+and listing cadence (Shmidt lists 11-18 lots a day, we submitted 4 in a week), not by the loser tail.
+Second number: mean hammer - EUR 25 vs EUR 60 is a 2.3x swing at any scale.</p>
+<h2>Fee stack and cash cycle (Catawiki terms in force)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Value</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Seller success fee</td>
+<td><strong>12.5% + fixed: EUR 0 at EUR 1, +1 at 2-149, +2 at 150-299, +3, +5, +10</strong>; ex VAT; non-refundable</td>
+<td>Seller Terms valid 17 Aug 2026 PDF, 200, 2026-09-03</td>
+</tr>
+<tr>
+<td>What changed 17 Aug 2026</td>
+<td>previously +0 at 1-24, +0.75 at 25-74, +1 at 75-149</td>
+<td>Seller Terms 31 Oct 2025 PDF, 200</td>
+</tr>
+<tr>
+<td>Buyer Protection fee</td>
+<td><strong>9% of final bid + EUR 3</strong>, incl. VAT, on the bid only</td>
+<td>Buyer Terms valid 1 Apr 2026 PDF, 200</td>
+</tr>
+<tr>
+<td>Listing / unsold-lot fee</td>
+<td>none in the terms; no-reserve is the default and "always sells to the highest bidder"</td>
+<td>Seller Terms Art. 8; help snippet</td>
+</tr>
+<tr>
+<td>Reserve price</td>
+<td>only where estimate &gt;= EUR 200</td>
+<td>localsinsider 200 (25 Jun 2026); help snippet</td>
+</tr>
+<tr>
+<td>Payment timing</td>
+<td>buyer pays within 3 days; seller ships within 3 business days; escrow "at least 3 days after the buyer has received the object"; then payout per provider (Stripe Connect)</td>
+<td>Seller Terms Art. 7, 9</td>
+</tr>
+<tr>
+<td>Private vs Pro</td>
+<td>self-declared; Pro = "sells as part of your craft, trade, or business", needs VAT id (or alternative proof); false Private declaration = seller's liability. Shmidt runs 320 sales as <strong>Private</strong></td>
+<td>Seller Terms Art. 1-2; seller page 200</td>
+</tr>
+<tr>
+<td>DAC7</td>
+<td>reported if EU resident AND (&gt;= 30 objects OR &gt; EUR 2,000) in a calendar year - fires in month one at any real scale</td>
+<td>DAC7 FAQ PDF, 200</td>
+</tr>
+</tbody>
+</table>
+<h2>Demand read, 2026-09-03 03:45 UTC</h2>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Value</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Shmidt.Art concurrent lots</td>
+<td><strong>72</strong> (73 on 30 Aug); 32 in Porsche Automobilia Auction, 27 Automobilia, 13 Ferrari</td>
+<td>seller page, 200</td>
+</tr>
+<tr>
+<td>Shmidt lifetime</td>
+<td>320 sold (300 on 30 Aug, 316 on 2 Sep) = <strong>~5 sales/day, ~150/month, 2.1 board turns/month</strong>; 95.35%, 47 reviews</td>
+<td>seller page, 200</td>
+</tr>
+<tr>
+<td>Near-close bids (n=19, &lt;40 h)</td>
+<td>min 1 / Q1 6 / <strong>median 30</strong> / Q3 49 / max 121 / mean 33.8; <strong>37% under EUR 16</strong>, 3 at EUR 1</td>
+<td>bidding API, 200</td>
+</tr>
+<tr>
+<td>Whole board (n=72, mid-auction)</td>
+<td>median 15.5, mean 25.6, 50% under 16, 24 at EUR 1 (biased low)</td>
+<td>bidding API, 200</td>
+</tr>
+<tr>
+<td>Closed lots read</td>
+<td>964 Turbo <strong>250</strong>, 997 111, GT40 46, Luc Best Jeep 35, Kleury 31</td>
+<td>search page, 200</td>
+</tr>
+<tr>
+<td>30 Aug ladder (memory, verified)</td>
+<td>250/111/90/79/60/52/44/42/40/40/40/31/31/26/26/25/20/17/15/13/9/6/4 - mean 46.6, median 40</td>
+<td>lombardia-automobili-project.md</td>
+</tr>
+<tr>
+<td>Niche supply live</td>
+<td>"blueprint poster" 71 (all Shmidt), "car poster" 166, "porsche poster" 82; Automobilia &amp; Motobilia 2,313; Posters &amp; Wall Decor 1,363; site 75,000/week</td>
+<td>search + category pages, 200</td>
+</tr>
+<tr>
+<td>Other sellers</td>
+<td>Automotive Art (24 lots, Fransman limited editions), Kleury.art (XL matte, EUR 6-31), Luc Best (EUR 35), novere-art (EUR 1), Automobilia Gallery (framed 964 EUR 100, one-off)</td>
+<td>search, 200; CATAWIKI-RESEARCH.md</td>
+</tr>
+<tr>
+<td>Subject law</td>
+<td>icons everyone can picture win (2CV 121, F40 67, E-Type 61, Isetta 49, Targa 47); modern SUVs/saloons die (Panamera 1, Cayenne 4, Bentley GT 1)</td>
+<td>bidding API</td>
+</tr>
+</tbody>
+</table>
+<h2>Price ceiling outside Catawiki (unframed A1-class)</h2>
+<p>Posterlounge 70x100 EUR 42.95-44.95 (200) · Fine Art America car-blueprint posters USD 14-36 typical, max 109
+(200) · Displate L 67x48 cm from USD 89, M from USD 44 (magneticart 200; EUR 39-133 snippet) · Catawiki
+framed landscape 964 "factory document" EUR 100 (2 Sep). Buyer all-in on Catawiki at EUR 35 hammer =
+35 + 3.15 + 3 + 25 = <strong>EUR 66</strong>, already above a decor-poster retail price; that is why the hammer stalls
+at EUR 30-60 and why a EUR 250 lot needs a story, not a bigger sheet. Framed via Prodigi: A1 classic frame
+EUR 63 + EUR 19.40 post (200) - only viable as a EUR 100+ story lot. Etsy blocked (403); Shmidt has no own shop.</p>
+<h2>What Shmidt does that we do not (F40 lot vs <code>listings/f40.md</code>)</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Shmidt.Art (2CV6 lot, 26 bids, EUR 121)</th>
+<th>Lombardia (f40.md)</th>
+<th>Gap</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Category</td>
+<td>Automobilia &amp; Motobilia &gt; themed marque auctions (expert Charara)</td>
+<td>Posters &amp; Wall Decor (expert rejected 2 of 4)</td>
+<td><strong>the</strong> gap</td>
+</tr>
+<tr>
+<td>Cadence</td>
+<td>11-18 lots per listing day, 5 listing days in 8, 72 live</td>
+<td>4 submitted in a week</td>
+<td>volume is the model</td>
+</tr>
+<tr>
+<td>Duplicates</td>
+<td>same subject 2-3x live (F40 x3, 959 x2, E-Type x2)</td>
+<td>one lot per car</td>
+<td>lose free relists</td>
+</tr>
+<tr>
+<td>Images</td>
+<td>4 gallery images, poster oversized in room, unframed</td>
+<td>6 images, 2 rooms, truthful A1</td>
+<td>ours is stronger</td>
+</tr>
+<tr>
+<td>Description</td>
+<td>458 words: intro / Description / Design / Subject Significance / Condition / Lot Details</td>
+<td>~290 words, spec block, Perfect For</td>
+<td>comparable</td>
+</tr>
+<tr>
+<td>Title</td>
+<td>"Shmidt.Art - Marque - Model - Decade"</td>
+<td>same shape</td>
+<td>none</td>
+</tr>
+<tr>
+<td>Edition / COA</td>
+<td>none, unsigned, Private seller</td>
+<td>none</td>
+<td>none</td>
+</tr>
+<tr>
+<td>Shipping</td>
+<td>EUR 25 DK unframed, EUR 40 framed; ships from DE</td>
+<td>EUR 25 / 30 RoW</td>
+<td>none</td>
+</tr>
+<tr>
+<td>Framed tier</td>
+<td>one framed twin lot (458: EUR 15 vs EUR 1 unframed)</td>
+<td>none</td>
+<td>test one</td>
+</tr>
+<tr>
+<td>Trust</td>
+<td>320 sold, 47 reviews</td>
+<td>0</td>
+<td>earned only by shipping</td>
+</tr>
+</tbody>
+</table>
+<h2>The model</h2>
+<table>
+<thead>
+<tr>
+<th>Assumption</th>
+<th>Value</th>
+<th>Basis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Shipping charged</td>
+<td>EUR 25</td>
+<td>our template; Shmidt identical (200)</td>
+</tr>
+<tr>
+<td>Print + post</td>
+<td>EUR 14 EMA + EUR 8 blended (DE 5.50 / DK 10.20) = EUR 22</td>
+<td>CSV 200; memory verified 30 Aug</td>
+</tr>
+<tr>
+<td>Fee VAT</td>
+<td>25% on the fee (non-VAT-registered PMV)</td>
+<td>ASSUMPTION; 3% of hammer either way</td>
+</tr>
+<tr>
+<td>Fee on shipping</td>
+<td>none</td>
+<td>ASSUMPTION (buyer fee is explicitly bid-only)</td>
+</tr>
+<tr>
+<td>Turns</td>
+<td>2.1/month</td>
+<td>observed 20 sales / 4 days / 72 lots</td>
+</tr>
+<tr>
+<td>Sell-through</td>
+<td>100% of approved no-reserve lots</td>
+<td>terms</td>
+</tr>
+<tr>
+<td>Curation acceptance</td>
+<td>50%</td>
+<td>n=4, ASSUMPTION</td>
+</tr>
+<tr>
+<td>Founder time</td>
+<td>20 min / submitted lot = 40 min / sold lot</td>
+<td>ASSUMPTION per brief</td>
+</tr>
+<tr>
+<td>Fixed costs</td>
+<td>EUR 0</td>
+<td>no listing, platform or Prodigi fee</td>
+</tr>
+</tbody>
+</table>
+<p>Contribution per sold lot = hammer - fee x 1.25 + 25 - 22: <strong>EUR 1 -&gt; 3.84 · 16 -&gt; 15.25 · 25 -&gt; 22.84 ·
+35 -&gt; 31.28 · 40 -&gt; 35.50 · 60 -&gt; 52.38 · 250 -&gt; 211</strong>. Break-even hammer: EUR 1 all-in; EUR 6.50 if
+shipping is cut to EUR 18; EUR 18.50 in the hammer-only view (memory's EUR 16 at 12.5% flat).</p>
+<table>
+<thead>
+<tr>
+<th>Concurrent lots</th>
+<th>Sold / month</th>
+<th>Founder h / month</th>
+<th>Profit @ mean EUR 25</th>
+<th>@ 35</th>
+<th>@ 40</th>
+<th>@ 60</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10</td>
+<td>21</td>
+<td>14</td>
+<td>480</td>
+<td><strong>657</strong></td>
+<td>746</td>
+<td>1,100</td>
+</tr>
+<tr>
+<td>30</td>
+<td>63</td>
+<td>42</td>
+<td>1,439</td>
+<td><strong>1,971</strong></td>
+<td>2,236</td>
+<td>3,300</td>
+</tr>
+<tr>
+<td>70</td>
+<td>147</td>
+<td>98</td>
+<td>3,358</td>
+<td><strong>4,598</strong></td>
+<td>5,218</td>
+<td>7,699</td>
+</tr>
+</tbody>
+</table>
+<p>Loser-tail sensitivity at 30 lots (tail lots avg EUR 5, core avg EUR 45): tail 20% -&gt; EUR 2,077/month ·
+37% (observed) -&gt; 1,716 · 55% -&gt; 1,333 · 70% -&gt; 1,014. The tail halves profit only when it reaches 70%;
+because shipping carries the print, a dud costs opportunity, not cash. Founder value: EUR 34/h at mean 25,
+47/h at 35, 79/h at 60 - a sound side income at 30+ lots, not a wage below 10.</p>
+<h2>Unverified</h2>
+<p>Fee VAT treatment for a non-VAT-registered Danish seller; whether the 12.5% touches shipping; curation
+acceptance beyond n=4; whether Automobilia's expert takes a second blueprint house at 30-70 lots without
+hammers falling (the 71 "blueprint poster" lots live are all one seller); the exact payout lag after escrow;
+Etsy/Displate car-blueprint prices (blocked, snippet only); Shmidt's true sell-through (no unsold count is
+visible); Danish income tax and OSS VAT on EUR 10k+ EU B2C goods sales are outside this page.</p></div>
+
 <h2 id="pipeline">Pipeline note</h2>
 <div class="md"><h1>How the scaling pipeline should be structured</h1>
 <p>Written 2026-09-03 after the Ossido F40 review sheet. Nothing below is built beyond the first
