@@ -3382,6 +3382,13 @@ lookup, build and check as separate reusable steps. The rest of the pipeline ext
 <li><strong>Honest scale or no scale.</strong> A perspective hero carries no scale; the scale bar and the
   "SCALA 1:n" line are only honest when small orthographic elevations are drawn at that scale on
   the same sheet. The hybrid sheet draws them from the traced figures at the ossido plan positions.</li>
+<li><strong>Hero dimension lines follow the car, not the paper.</strong> <code>poster.HERO_DIM</code>: axes from measured
+  anchors (hubs, tyre contacts, the front bumper's corners, the near wing end), the car's ground
+  footprint drawn as construction, every dimension on an axis with extension lines along the other
+  axis, arrowheads, labels along the line. Anchors are a seven-point sidecar per render, read off
+  gridded zooms; automatic circle detection failed on drawn wheels.</li>
+<li><strong>One website.</strong> https://bohmarko567-oss.github.io/lombardia-site/ is the board, deployed by
+  <code>deploy-pages.py</code> after every change. No tunnels, no second site.</li>
 <li><strong>The blue lots must stay byte-identical.</strong> Every engine change is checked by re-rendering the
   blue F40 and comparing the hash (<code>ba2ddf4703b4</code> before and after this session's edits).</li>
 </ul>
