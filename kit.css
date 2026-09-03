@@ -1,0 +1,186 @@
+:root{
+  --paper:#EAE3D3; --paper-2:#E1D9C6; --rule:#B9AF98; --rule-soft:#CEC5AE;
+  --ink:#141A24; --ink-2:#4A5464; --blue:#1B3A6B; --blue-soft:#3D6094;
+  --keep:#2F6B4F; --warn:#8A5340;
+  --shadow:0 1px 0 rgba(20,26,36,.06);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0F131A; --paper-2:#151A23; --rule:#2E3746; --rule-soft:#232B38;
+    --ink:#E5DECE; --ink-2:#95A0B2; --blue:#83A9DA; --blue-soft:#5C7FB0;
+    --keep:#6FBE95; --warn:#C9866B; --shadow:0 1px 0 rgba(0,0,0,.4);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0F131A; --paper-2:#151A23; --rule:#2E3746; --rule-soft:#232B38;
+  --ink:#E5DECE; --ink-2:#95A0B2; --blue:#83A9DA; --blue-soft:#5C7FB0;
+  --keep:#6FBE95; --warn:#C9866B; --shadow:0 1px 0 rgba(0,0,0,.4);
+}
+
+*{box-sizing:border-box;}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
+  font-size:16px; line-height:1.6; -webkit-text-size-adjust:100%;
+  background-image:linear-gradient(var(--rule-soft) 1px,transparent 1px),
+                   linear-gradient(90deg,var(--rule-soft) 1px,transparent 1px);
+  background-size:34px 34px,34px 34px;
+}
+.sheet{max-width:1180px;margin:0 auto;padding:clamp(14px,3.2vw,34px);background:var(--paper);
+  border-left:1px solid var(--rule);border-right:1px solid var(--rule);}
+@media (max-width:760px){.sheet{border-left:none;border-right:none;}}
+.frame{border:1px solid var(--rule);padding:clamp(10px,2.2vw,20px);}
+.frame>.inner{border:1px solid var(--rule-soft);padding:clamp(14px,3vw,30px);}
+
+.eyebrow{font-family:"IBM Plex Sans Condensed",sans-serif;font-weight:700;text-transform:uppercase;
+  letter-spacing:.20em;font-size:11px;color:var(--blue);}
+h1{font-family:"IBM Plex Sans Condensed",sans-serif;font-weight:700;text-transform:uppercase;
+  letter-spacing:.06em;font-size:clamp(30px,7vw,58px);line-height:1;margin:.3em 0 0;text-wrap:balance;}
+.deck{max-width:62ch;margin:18px 0 0;color:var(--ink-2);}
+.headrule{height:1px;background:var(--rule);margin:26px 0 0;}
+.headmeta{display:flex;flex-wrap:wrap;border-bottom:1px solid var(--rule);
+  font-family:"IBM Plex Mono",monospace;font-size:12px;}
+.headmeta div{flex:1 1 150px;padding:10px 14px;border-right:1px solid var(--rule-soft);}
+.headmeta div:last-child{border-right:none;}
+.headmeta b{display:block;font-family:"IBM Plex Sans Condensed",sans-serif;font-weight:700;
+  text-transform:uppercase;letter-spacing:.16em;font-size:10px;color:var(--ink-2);margin-bottom:3px;}
+.headmeta span{font-variant-numeric:tabular-nums;}
+@media (max-width:640px){
+  .headmeta div{flex:1 1 44%;padding:9px 12px;}
+  .headmeta div:nth-child(2n){border-right:none;}
+  .headmeta div:nth-child(n+3){border-top:1px solid var(--rule-soft);}
+}
+.note{margin:30px 0 0;padding:16px 18px;border:1px solid var(--rule);border-left:3px solid var(--warn);
+  background:var(--paper-2);font-size:14.5px;color:var(--ink-2);max-width:74ch;}
+.note b{color:var(--ink);font-weight:600;}
+
+.lots{display:flex;flex-direction:column;gap:clamp(38px,7vw,76px);margin-top:clamp(32px,5vw,58px);}
+/* both need min-width:0 or the scrolling strip sizes to its content and
+   pushes the whole page sideways instead of scrolling inside itself */
+section.lot{min-width:0;}
+.slug{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;padding:0 0 9px;
+  border-bottom:1px solid var(--rule);}
+.folio{font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:12px;letter-spacing:.10em;
+  color:var(--blue);font-variant-numeric:tabular-nums;}
+.slug h2{font-family:"IBM Plex Sans Condensed",sans-serif;font-weight:700;text-transform:uppercase;
+  letter-spacing:.10em;font-size:clamp(19px,4vw,27px);margin:0;flex:1 1 auto;}
+.chip{font-family:"IBM Plex Sans Condensed",sans-serif;font-weight:700;text-transform:uppercase;
+  letter-spacing:.14em;font-size:10px;padding:3px 9px;border:1px solid currentColor;white-space:nowrap;}
+.chip.keep{color:var(--keep);}
+
+/* upload order matters, so the strip scrolls sideways in sequence rather than wrapping */
+.strip{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(280px,1fr);gap:14px;
+  overflow-x:auto;padding:18px 0 14px;scroll-snap-type:x mandatory;min-width:0;}
+.shot{margin:0;scroll-snap-align:start;min-width:0;}
+.shot img{display:block;width:100%;height:auto;border:1px solid var(--rule);
+  background:var(--paper-2);box-shadow:var(--shadow);}
+.shot figcaption{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--ink-2);
+  padding:7px 0 0;display:flex;flex-wrap:wrap;gap:8px;align-items:baseline;}
+.shot figcaption b{font-family:"IBM Plex Sans Condensed",sans-serif;letter-spacing:.12em;
+  color:var(--blue);font-size:11px;}
+.shot .px{font-variant-numeric:tabular-nums;}
+.shot .fn{flex:1 1 100%;color:var(--rule);overflow-wrap:anywhere;}
+/* the save button appears only once claude.use('downloads') resolves,
+   so a view that cannot save never shows a dead control */
+.dl{display:none;}
+body.cansave .dl{display:inline-block;font-family:"IBM Plex Sans Condensed",sans-serif;
+  font-weight:700;text-transform:uppercase;letter-spacing:.14em;font-size:9.5px;
+  padding:3px 9px;cursor:pointer;background:transparent;color:var(--blue);
+  border:1px solid var(--blue);}
+body.cansave .dl:hover{background:var(--blue);color:var(--paper);}
+body.cansave .dl:focus-visible{outline:2px solid var(--blue);outline-offset:2px;}
+body.cansave .dl.ok{color:var(--keep);border-color:var(--keep);background:transparent;}
+body.cansave .dl[disabled]{opacity:.55;cursor:default;}
+body.cansave .dl.big{font-size:11px;padding:6px 14px;letter-spacing:.16em;}
+/* the print file is the one thing here that is not a listing image */
+.printfile{border-color:var(--blue);}
+.printfile .ch{border-bottom-color:var(--blue);}
+.printfile .ch .k{color:var(--blue);}
+p.pf{margin:0;font-size:14.5px;color:var(--ink-2);max-width:70ch;}
+p.pf b{color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums;}
+p.pf.sub{margin-top:8px;font-size:13px;color:var(--ink-2);opacity:.85;}
+p.pf code{font-family:"IBM Plex Mono",monospace;font-size:12.5px;overflow-wrap:anywhere;}
+ul.settings{margin:0;padding-left:18px;font-size:13.5px;color:var(--ink-2);}
+ul.settings li{margin-bottom:5px;}
+ul.settings li:last-child{margin-bottom:0;}
+
+.copyblock{border:1px solid var(--rule);margin-top:18px;}
+.ch{display:flex;align-items:center;gap:12px;padding:9px 12px;border-bottom:1px solid var(--rule-soft);
+  background:var(--paper-2);}
+.ch .k{flex:1 1 auto;font-family:"IBM Plex Sans Condensed",sans-serif;font-weight:700;
+  text-transform:uppercase;letter-spacing:.16em;font-size:10px;color:var(--ink-2);}
+.cp{font-family:"IBM Plex Sans Condensed",sans-serif;font-weight:700;text-transform:uppercase;
+  letter-spacing:.14em;font-size:10px;padding:5px 12px;cursor:pointer;
+  background:transparent;color:var(--blue);border:1px solid var(--blue);}
+.cp:hover{background:var(--blue);color:var(--paper);}
+.cp:focus-visible{outline:2px solid var(--blue);outline-offset:2px;}
+.cp.ok{color:var(--keep);border-color:var(--keep);background:transparent;}
+.cv{padding:14px 16px;}
+.cv.mono{font-family:"IBM Plex Mono",monospace;font-size:14px;overflow-wrap:anywhere;}
+.prose{font-size:15px;color:var(--ink-2);max-height:340px;overflow-y:auto;}
+.prose h4{font-family:"IBM Plex Sans Condensed",sans-serif;font-weight:700;text-transform:uppercase;
+  letter-spacing:.10em;font-size:13px;color:var(--ink);margin:20px 0 6px;}
+.prose h4:first-child{margin-top:0;}
+.prose p{margin:0 0 10px;}
+.prose strong{color:var(--ink);font-weight:600;}
+.prose ul{margin:0 0 10px;padding-left:18px;}
+.cv table{width:100%;border-collapse:collapse;font-size:13.5px;}
+.cv th{text-align:left;font-family:"IBM Plex Sans Condensed",sans-serif;font-weight:700;
+  text-transform:uppercase;letter-spacing:.12em;font-size:10px;color:var(--ink-2);
+  padding:7px 10px 7px 0;width:44%;vertical-align:top;border-bottom:1px solid var(--rule-soft);}
+.cv td{padding:7px 0;border-bottom:1px solid var(--rule-soft);
+  font-family:"IBM Plex Mono",monospace;overflow-wrap:anywhere;}
+.cv tr:last-child th,.cv tr:last-child td{border-bottom:none;}
+
+footer{margin-top:clamp(34px,6vw,64px);padding-top:18px;border-top:1px solid var(--rule);
+  font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--ink-2);
+  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;}}
+
+/* ---- site additions: the index board, and links used as buttons ---- */
+
+/* Downloads here are plain <a download> on real files, so they are always
+   available - no capability to wait on, and no page-size cap in play. */
+.dl{display:inline-block;font-family:"IBM Plex Sans Condensed",sans-serif;
+  font-weight:700;text-transform:uppercase;letter-spacing:.14em;font-size:9.5px;
+  padding:3px 9px;cursor:pointer;background:transparent;color:var(--blue);
+  border:1px solid var(--blue);text-decoration:none;}
+.dl:hover{background:var(--blue);color:var(--paper);}
+.dl:focus-visible{outline:2px solid var(--blue);outline-offset:2px;}
+.dl.big{font-size:11px;padding:7px 15px;letter-spacing:.16em;}
+
+.printfile{border-color:var(--blue);}
+.printfile .ch{border-bottom-color:var(--blue);}
+.printfile .ch .k{color:var(--blue);}
+p.pf{margin:0;font-size:14.5px;color:var(--ink-2);max-width:70ch;}
+p.pf b{color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums;}
+p.pf.sub{margin-top:8px;font-size:13px;opacity:.85;}
+p.pf code{font-family:"IBM Plex Mono",monospace;font-size:12.5px;overflow-wrap:anywhere;}
+
+.back{display:inline-block;font-family:"IBM Plex Sans Condensed",sans-serif;font-weight:700;
+  text-transform:uppercase;letter-spacing:.16em;font-size:10px;color:var(--ink-2);
+  text-decoration:none;margin-bottom:18px;}
+.back:hover{color:var(--blue);}
+
+/* The board. auto-fill keeps one column on a phone and grows to as many as fit,
+   so a hundred lots need no layout change. */
+.cards{display:grid;gap:clamp(16px,3vw,26px);margin-top:clamp(30px,5vw,52px);
+  grid-template-columns:repeat(auto-fill,minmax(300px,1fr));}
+.card{display:flex;flex-direction:column;text-decoration:none;color:inherit;
+  border:1px solid var(--rule);background:var(--paper-2);}
+.card:hover{border-color:var(--blue);}
+.card:focus-visible{outline:2px solid var(--blue);outline-offset:2px;}
+.card img{display:block;width:100%;height:auto;border-bottom:1px solid var(--rule);}
+.cardfoot{display:flex;align-items:baseline;gap:10px;padding:11px 13px 4px;flex-wrap:wrap;}
+.cardname{flex:1 1 auto;font-family:"IBM Plex Sans Condensed",sans-serif;font-weight:700;
+  text-transform:uppercase;letter-spacing:.08em;font-size:16px;}
+.cardmeta{padding:0 13px 12px;font-family:"IBM Plex Mono",monospace;font-size:11.5px;
+  color:var(--ink-2);font-variant-numeric:tabular-nums;}
+
+/* ---- site rail: the three doors, on every page. Collections is what is
+   approved, Archive is what we own per car, Studio is what is in progress. */
+.sitenav{display:flex;gap:26px;align-items:baseline;font-family:"IBM Plex Mono",monospace;
+  font-size:11px;letter-spacing:.28em;text-transform:uppercase;margin:0 0 22px;}
+.sitenav a{color:var(--ink-2);text-decoration:none;padding-bottom:6px;border-bottom:1px solid transparent;}
+.sitenav a[aria-current=page]{color:var(--ink);border-bottom-color:var(--ink);}
+.sitenav a:hover{color:var(--ink);}
