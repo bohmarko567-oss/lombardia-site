@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788538195">
+<link rel="stylesheet" href="board/board.css?v=1788539084">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -79,13 +79,20 @@ instead of being generated, so we save money and never have a chance of losing a
 So for every poster after the two F40s: the set has no table hero; <code>lotset.py build</code> takes the r4 room
 (architecture office, pro) and lays the TRUE sheet under the model's light with <code>layers.py</code>, measured
 by <code>fidelity.py</code>, as <code>hero-room-r4-layered</code>. Free, and the print is the file itself. The two F40s stay
-as he ordered them.</p></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
-<p>Built 2026-09-04 18:09 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
+as he ordered them.</p>
+<h2>11. The house holds photo 3 and photo 6 of every upload (2026-09-04)</h2>
+<p>Founder: "as a rule when uploading each 3rd and last photos are house photos. You can put them in the
+list and lock em there." So the six that go up are: his first two, house photograph one (the table
+spread), his third and fourth, house photograph two (along the wall). The board locks those two slots;
+<code>lotset.py</code> writes the <code>upload</code> list into the state on every apply; <code>catawiki-upload</code> follows it.</p></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
+<p>Built 2026-09-04 18:24 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
 <ul>
 <li><strong>fixed · room</strong> - generate exactly pro: r1, r4, r6, nb2: r2, r6. founder 2026-09-04: these five rooms in every lot, nothing else - save money on gens</li>
 <li><strong>fixed · hero-layered</strong> - the layered r4 room is the hero, nothing generated for it. founder 2026-09-04: the r4 room layered is the hero of every future lot - no generated table hero, no detail lost</li>
 <li><strong>skip · macro-v2 · nb2 · br</strong> - dropped 2/2 times, never kept</li>
+<li><strong>skip · macro-v2 · nb2 · tl</strong> - dropped 2/2 times, never kept</li>
+<li><strong>skip · noir-wall · - · -</strong> - dropped 2/2 times, never kept</li>
 </ul>
 <h2>The ledger</h2>
 <table>
@@ -141,73 +148,73 @@ as he ordered them.</p></div></section><section class="sec" id="sec-lessons"><di
 <td>flat-truth</td>
 <td>-</td>
 <td>header</td>
-<td>1</td>
+<td>2</td>
 <td>0</td>
-<td>1</td>
+<td>0</td>
 <td>100%</td>
 </tr>
 <tr>
 <td>flat-truth</td>
 <td>-</td>
 <td>hero-flat</td>
-<td>1</td>
+<td>2</td>
 <td>0</td>
-<td>1</td>
+<td>0</td>
 <td>100%</td>
 </tr>
 <tr>
 <td>flat-truth</td>
 <td>-</td>
 <td>sideview</td>
-<td>1</td>
+<td>2</td>
 <td>0</td>
-<td>1</td>
+<td>0</td>
 <td>100%</td>
 </tr>
 <tr>
 <td>flat-truth</td>
 <td>-</td>
 <td>titleblock</td>
-<td>1</td>
-<td>0</td>
-<td>1</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>hero</td>
-<td>nb2</td>
-<td>flat</td>
-<td>1</td>
-<td>1</td>
-<td>0</td>
-<td>50%</td>
-</tr>
-<tr>
-<td>hero</td>
-<td>nb2</td>
-<td>side</td>
-<td>1</td>
-<td>0</td>
-<td>1</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>hero</td>
-<td>pro</td>
-<td>flat</td>
-<td>0</td>
-<td>0</td>
 <td>2</td>
-<td></td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>hero</td>
+<td>nb2</td>
+<td>flat</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>hero</td>
+<td>nb2</td>
+<td>side</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>hero</td>
+<td>pro</td>
+<td>flat</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>50%</td>
 </tr>
 <tr>
 <td>hero</td>
 <td>pro</td>
 <td>side</td>
+<td>2</td>
 <td>1</td>
-<td>1</td>
-<td>1</td>
-<td>50%</td>
+<td>0</td>
+<td>67%</td>
 </tr>
 <tr>
 <td>macro-v2</td>
@@ -232,8 +239,8 @@ as he ordered them.</p></div></section><section class="sec" id="sec-lessons"><di
 <td>nb2</td>
 <td>tl</td>
 <td>0</td>
-<td>1</td>
-<td>1</td>
+<td>2</td>
+<td>0</td>
 <td>0%</td>
 </tr>
 <tr>
@@ -241,18 +248,18 @@ as he ordered them.</p></div></section><section class="sec" id="sec-lessons"><di
 <td>nb2</td>
 <td>tr</td>
 <td>1</td>
-<td>0</td>
 <td>1</td>
-<td>100%</td>
+<td>0</td>
+<td>50%</td>
 </tr>
 <tr>
 <td>macro-v2</td>
 <td>pro</td>
 <td>bl</td>
+<td>3</td>
 <td>1</td>
-<td>1</td>
-<td>2</td>
-<td>50%</td>
+<td>0</td>
+<td>75%</td>
 </tr>
 <tr>
 <td>macro-v2</td>
@@ -267,9 +274,9 @@ as he ordered them.</p></div></section><section class="sec" id="sec-lessons"><di
 <td>macro-v2</td>
 <td>pro</td>
 <td>tl</td>
-<td>1</td>
+<td>3</td>
 <td>0</td>
-<td>2</td>
+<td>0</td>
 <td>100%</td>
 </tr>
 <tr>
@@ -277,17 +284,17 @@ as he ordered them.</p></div></section><section class="sec" id="sec-lessons"><di
 <td>pro</td>
 <td>tr</td>
 <td>1</td>
-<td>2</td>
-<td>1</td>
-<td>33%</td>
+<td>3</td>
+<td>0</td>
+<td>25%</td>
 </tr>
 <tr>
 <td>noir-wall</td>
 <td>-</td>
 <td>-</td>
 <td>0</td>
-<td>1</td>
-<td>1</td>
+<td>2</td>
+<td>0</td>
 <td>0%</td>
 </tr>
 <tr>
@@ -408,10 +415,11 @@ as he ordered them.</p></div></section><section class="sec" id="sec-lessons"><di
 <li>2026-09-04 f40-tecnico: founder rejected: macro-bl-nb2-1, macro-br-nb2-1, macro-br-pro-1, macro-br-pro-2, macro-tr-pro-2, hero-side-pro-2, wall-clips-layered-1, wall-clips-model-1, hero-flat-nb2-1</li>
 <li>2026-09-04 f40-tecnico: founder: the eight rejected have artifacts (the clips wall carries a white base frame); hero-flat-nb2-1 is overkill, too many similar shots, save money; he wants a few more rooms</li>
 <li>2026-09-04 f40-tecnico: founder rejected: room-r2-pro-1, room-r3-pro-1, room-r5-pro-1, room-r1-nb2-1, room-r3-nb2-1, room-r4-nb2-1, room-r5-nb2-1</li>
+<li>2026-09-04 f40-tecnico: founder, on the board (iPhone): approved 01-hero-flat; approved 03-titleblock; approved 05-header; approved 06-sideview; approved macro-tl-pro-1; approved macro-tl-pro-2; rejected macro-tr-pro-1; rejected hero-side-nb2-1; rejected hero-flat-pro-1; approved hero-flat-pro-2; approved hero-side-pro-1; rejected wall-noir-unframed; rejected macro-tl-nb2-1; rejected macro-tr-nb2-1; approved macro-bl-pro-1; approved macro-bl-pro-2; order: room-r1-pro-1, 01-hero-flat, hero-flat-pro-2, hero-side-pro-1, macro-tl-pro-1, macro-tl-pro-2 ...; stage -&gt; set-approved</li>
 </ul></div></section>
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-04 18:09", "cfg": {}}</script>
-<script src="board/board.js?v=1788538195"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-04 18:24", "cfg": {}}</script>
+<script src="board/board.js?v=1788539084"></script>
 </body></html>

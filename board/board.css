@@ -311,6 +311,10 @@ body.locked .toast { bottom: calc(72px + env(safe-area-inset-bottom)); }
 .preview .pnote { font: 400 12px/1.5 var(--mono); color: var(--room-ink-2); }
 .ordertools { margin-top: 4px; display: flex; gap: 8px 16px; flex-wrap: wrap; align-items: center; }
 .ordertools .count { font: 500 12px var(--mono); }
+.slot.house { border-color: var(--ink); background: var(--paper-3); }
+.slot.house .num { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.slot.house .coverlab.lock { background: var(--ink); color: var(--paper); }
+.slot.house .sid { white-space: normal; font-style: italic; }
 .slot.empty { border-style: dashed; background: transparent; }
 .slot.empty .simg { background: transparent; }
 .slot.empty .num { background: transparent; border-style: dashed; color: var(--ink-3); }

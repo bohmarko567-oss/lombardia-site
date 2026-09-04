@@ -104,6 +104,17 @@
     return base.concat(ap.filter(id => base.indexOf(id) < 0));
   }
   function setOrder(list) { p.order = list; p.orderAt = nowISO(); save(); }
+  // founder 2026-09-04: "as a rule when uploading each 3rd and last photos are house photos. put them in the list and lock em there"
+  const HOUSE_AT = [2, 5];   // zero-based slots 3 and 6 of the six that go up
+  function uploadList() {
+    const o = order().slice(), hs = (D.house || []).slice(0, 2), up = [];
+    for (let i = 0; i < 6; i++) {
+      const hi = HOUSE_AT.indexOf(i);
+      if (hi >= 0 && hs[hi]) up.push({ house: hs[hi] });
+      else up.push(o.length ? { id: o.shift() } : { empty: true });
+    }
+    return { six: up, rest: o };
+  }
   function counts() {
     const c = { approved: 0, pending: 0, rejected: 0, total: 0 };
     allShots().forEach(s => { c[ev(s.id)]++; c.total++; });
@@ -170,41 +181,56 @@
 
   function renderOrder() {
     const strip = $('#order'); if (!strip) return; strip.innerHTML = '';
-    const o = order();
-    o.forEach(function (id, i) {
-      const s = byId(id); if (!s) return;
-      if (i === 6) strip.appendChild(h('div', { class: 'sixrule' }, h('span', { text: 'the six that go up' })));
-      const slot = h('div', { class: 'slot' + (i === 0 ? ' cover' : ''), data: { id: id } },
+    const o = order(), u = uploadList();
+    let shotPos = 0;
+    const slotOf = function (id, i, extra) {
+      const s = byId(id); if (!s) return null;
+      const k = o.indexOf(id);
+      return h('div', { class: 'slot' + (i === 0 ? ' cover' : '') + (extra || ''), data: { id: id } },
         h('div', { class: 'simg' },
-          h('img', { src: UP + s.thumb, alt: id, loading: 'lazy', decoding: 'async', onclick: () => openRoom(o.map(byId), i) }),
+          h('img', { src: UP + s.thumb, alt: id, loading: 'lazy', decoding: 'async', onclick: () => openRoom(o.map(byId), k) }),
           h('span', { class: 'num', text: i + 1 }),
           i === 0 ? h('span', { class: 'coverlab', text: 'cover' }) : null),
         h('div', { class: 'sid', title: id }, fmtId(id)),
         h('div', { class: 'sacts' },
-          h('button', { type: 'button', 'aria-label': 'Move earlier', text: '←', disabled: i === 0 || null, onclick: () => move(id, -1) }),
+          h('button', { type: 'button', 'aria-label': 'Move earlier', text: '←', disabled: k === 0 || null, onclick: () => move(id, -1) }),
           h('button', { type: 'button', class: 'handle', 'aria-label': 'Drag to reorder', text: '⋮⋮' }),
-          h('button', { type: 'button', 'aria-label': 'Move later', text: '→', disabled: i === o.length - 1 || null, onclick: () => move(id, 1) })));
-      strip.appendChild(slot);
+          h('button', { type: 'button', 'aria-label': 'Move later', text: '→', disabled: k === o.length - 1 || null, onclick: () => move(id, 1) })));
+    };
+    u.six.forEach(function (x, i) {
+      if (x.house) {
+        strip.appendChild(h('div', { class: 'slot house' },
+          h('div', { class: 'simg' }, h('img', { src: UP + x.house.thumb, alt: x.house.id, loading: 'lazy', decoding: 'async', onclick: () => openRoom((D.house || []).map(hh => ({ id: hh.id, inspect: hh.inspect, label: hh.label })), (D.house || []).indexOf(x.house), { readonly: true }) }), h('span', { class: 'num', text: i + 1 }), h('span', { class: 'coverlab lock', text: '⌂ house · locked' })),
+          h('div', { class: 'sid', text: x.house.label })));
+      } else if (x.empty) {
+        strip.appendChild(h('div', { class: 'slot empty' }, h('div', { class: 'simg' }, h('span', { class: 'num', text: i + 1 })), h('div', { class: 'sid', text: i === 0 ? 'the cover' : 'empty' })));
+      } else {
+        const el = slotOf(x.id, i); if (el) strip.appendChild(el);
+      }
     });
-    for (let i = o.length; i < 6; i++) strip.appendChild(h('div', { class: 'slot empty' }, h('div', { class: 'simg' }, h('span', { class: 'num', text: i + 1 })), h('div', { class: 'sid', text: i === 0 ? 'the cover' : 'empty' })));
+    if (u.rest.length) strip.appendChild(h('div', { class: 'sixrule' }, h('span', { text: 'kept, beyond the six' })));
+    u.rest.forEach(function (id, j) { const el = slotOf(id, 6 + j); if (el) strip.appendChild(el); });
     enableDrag(strip);
     const ot = $('#ordertools'); if (ot) {
       ot.innerHTML = '';
-      ot.appendChild(h('span', { class: 'hint count', text: Math.min(o.length, 6) + ' of 6 in the lot' + (o.length > 6 ? ' · ' + (o.length - 6) + ' kept beyond the six' : o.length ? '' : ' · keep shots below and they line up here') }));
+      const filled = u.six.filter(x => !x.empty).length;
+      ot.appendChild(h('span', { class: 'hint count', text: filled + ' of 6 in the lot · the house holds 3 and 6' + (u.rest.length ? ' · ' + u.rest.length + ' kept beyond the six' : filled < 6 ? ' · keep shots below and they line up here' : '') }));
       if (o.length) ot.appendChild(h('button', { class: 'btn quiet', type: 'button', text: '▣ Preview the lot as Catawiki shows it', onclick: openPreview }));
     }
   }
   function openPreview() {
     closeRoom(); hideToast();
     const o = order().map(byId).filter(Boolean); if (!o.length) return;
-    const six = o.slice(0, 6);
+    const six = uploadList().six.filter(x => !x.empty).map(x => x.house ? { id: x.house.id, thumb: x.house.thumb, inspect: x.house.inspect } : byId(x.id));
     const el = h('div', { class: 'room preview', role: 'dialog', 'aria-modal': 'true' });
     el.appendChild(h('div', { class: 'bar' }, h('span', { class: 'id', text: 'The lot · as Catawiki shows it' }), h('button', { class: 'x', type: 'button', text: '×', 'aria-label': 'Close', onclick: closeRoom })));
     const stage = h('div', { class: 'stage' });
-    stage.appendChild(h('div', { class: 'cover' }, h('img', { src: UP + six[0].inspect, alt: six[0].id, onclick: () => openRoom(o, 0) })));
-    stage.appendChild(h('div', { class: 'thumbs' }, six.map((s, i) => h('img', { src: UP + s.thumb, alt: s.id, class: i === 0 ? 'on' : '', onclick: () => openRoom(o, i) }))));
+    const all = six.map(x => byId(x.id) || x);
+    stage.appendChild(h('div', { class: 'cover' }, h('img', { src: UP + six[0].inspect, alt: six[0].id, onclick: () => openRoom(all, 0, { readonly: true }) })));
+    stage.appendChild(h('div', { class: 'thumbs' }, six.map((s, i) => h('img', { src: UP + s.thumb, alt: s.id, class: i === 0 ? 'on' : '', onclick: () => openRoom(all, i, { readonly: true }) }))));
     stage.appendChild(h('div', { class: 'ptitle', text: D.kitTitle || (D.name + ' · ' + D.collLabel) }));
-    stage.appendChild(h('div', { class: 'pnote', text: six.length < 6 ? 'Catawiki takes six; ' + (6 - six.length) + ' more to keep.' : (o.length > 6 ? (o.length - 6) + ' more kept beyond the six.' : 'Six exactly. The first is the cover.') }));
+    const rest = uploadList().rest.length;
+    stage.appendChild(h('div', { class: 'pnote', text: (six.length < 6 ? 'Catawiki takes six; ' + (6 - six.length) + ' more to keep. ' : '') + 'The house holds 3 and 6.' + (rest ? ' ' + rest + ' more kept beyond the six.' : '') }));
     el.appendChild(stage);
     el.appendChild(h('div', { class: 'foot' }, h('button', { type: 'button', text: 'done', onclick: closeRoom })));
     document.body.appendChild(el); document.body.classList.add('locked');
@@ -272,7 +298,7 @@
     t.appendChild(h('div', { class: 'spacer' }));
     t.appendChild(h('button', { class: 'btn quiet' + (compareMode ? ' primary' : ''), type: 'button', text: compareMode ? 'Pick two…' : 'Compare', onclick: () => { compareMode = !compareMode; picks = []; renderTools(); renderGrid(); if (compareMode) toast('Tap two photos to compare'); } }));
     t.appendChild(h('button', { class: 'btn', type: 'button', text: '+ Add from the archive', onclick: openArchive }));
-    if (c.pending && c.approved >= 6) t.appendChild(h('button', { class: 'btn quiet', type: 'button', text: 'Drop all ' + c.pending + ' still waiting', onclick: dropRest }));
+    if (c.pending && c.approved >= 4) t.appendChild(h('button', { class: 'btn quiet', type: 'button', text: 'Drop all ' + c.pending + ' still waiting', onclick: dropRest }));
   }
   function dropRest() {
     const ids = allShots().filter(s => ev(s.id) === 'pending').map(s => s.id);
@@ -328,7 +354,7 @@
         h('img', { src: x.sheet, alt: '', loading: 'lazy' }), h('span', { class: 'tt' }, h('b', { text: x.name }), h('span', { text: sub })), h('span', { class: 'go' }, h('span', { class: 'btn primary', text: go }))));
       if (sheetPending) card(x.name, x.collLabel + ' · the sheet waits for your word', 'Approve the sheet', 'posters/' + x.key + '.html#sheet');
       if (c.pending) card(x.name, x.collLabel + ' · ' + c.pending + ' shots waiting', 'Review ' + c.pending, 'posters/' + x.key + '.html#review');
-      else if (c.approved >= 6 && x.stageIdx <= 3) card(x.name, x.collLabel + ' · ' + c.approved + ' kept, order set', 'Check the order', 'posters/' + x.key + '.html#order');
+      else if (c.approved >= 4 && x.stageIdx <= 3) card(x.name, x.collLabel + ' · ' + c.approved + ' kept, order set', 'Check the order', 'posters/' + x.key + '.html#order');
     });
   }
 
@@ -645,7 +671,8 @@
       if (by.pending.length) lines.push('back to waiting: ' + by.pending.join(', '));
       (q.added || []).forEach(a => lines.push('add: ' + a.id + ' ← ' + a.src));
       const ord = (D.kind === 'poster' && k === D.key) ? order() : q.order;
-      if (ord && ord.length) lines.push('order: ' + ord.join(', ') + '  (first six go up)');
+      if (ord && ord.length) lines.push('order: ' + ord.join(', ') + '  (first six go up, the house at 3 and 6)');
+      if (D.kind === 'poster' && k === D.key) { const u = uploadList(); lines.push('upload: ' + u.six.map(x => x.house ? 'HOUSE ' + x.house.id : x.empty ? '-' : x.id).join(', ')); }
     });
     if (lines.length <= 3 && !Object.keys(S.posters).length) lines.push('', 'no decisions yet');
     return lines.join('\n');
