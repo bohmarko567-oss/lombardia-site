@@ -263,6 +263,18 @@ body.has-sendbar .toast { bottom: calc(92px + env(safe-area-inset-bottom)); }
 .toast.on { transform: translate(-50%, 0); opacity: 1; pointer-events: auto; }
 body.locked .toast { bottom: calc(72px + env(safe-area-inset-bottom)); }
 .toast button { font: 600 11px var(--cond); text-transform: uppercase; letter-spacing: .14em; color: var(--ink); border: 1px solid var(--ink); padding: 6px 10px; }
+.toast .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.toast .chips .chip-r { border-color: var(--drop); color: var(--drop); padding: 6px 8px; }
+.toast .chips .chip-r:hover { background: var(--drop); color: #fff; }
+.toast { flex-wrap: wrap; max-width: min(96vw, 560px); }
+.postcheck { display: grid; gap: 6px; margin-top: 4px; }
+.postcheck div { display: flex; gap: 10px; align-items: baseline; font: 400 13.5px/1.45 var(--sans); }
+.postcheck b { font: 600 12px var(--mono); color: var(--keep); flex: 0 0 auto; }
+.postcheck b.no { color: var(--wait); }
+.postlist { margin: 10px 0 0; padding: 0; list-style: none; font: 400 12px/1.6 var(--mono); columns: 2; column-gap: 20px; }
+.postlist li { break-inside: avoid; }
+.postlist .h { color: var(--ink-2); }
+@media (max-width: 520px) { .postlist { columns: 1; } }
 .toast button:hover { background: var(--ink); color: var(--paper); }
 
 /* ---- the room: lightbox, review, compare ---- */

@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788539084">
+<link rel="stylesheet" href="board/board.css?v=1788540213">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -82,17 +82,20 @@ by <code>fidelity.py</code>, as <code>hero-room-r4-layered</code>. Free, and the
 as he ordered them.</p>
 <h2>11. The house holds photo 3 and photo 6 of every upload (2026-09-04)</h2>
 <p>Founder: "as a rule when uploading each 3rd and last photos are house photos. You can put them in the
-list and lock em there." So the six that go up are: his first two, house photograph one (the table
-spread), his third and fourth, house photograph two (along the wall). The board locks those two slots;
-<code>lotset.py</code> writes the <code>upload</code> list into the state on every apply; <code>catawiki-upload</code> follows it.</p></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
-<p>Built 2026-09-04 18:24 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
+list and lock em there." And: "by last photo I meant last, we upload all of them, not just 6." So
+everything he kept goes up, in his order, with house photograph one (the table spread) third and house
+photograph two (along the wall) last. The board locks those two slots; <code>lotset.py</code> writes the <code>upload</code>
+list into the state on every apply; <code>mk-board.py</code> zips the full-size files in that order
+(<code>site/download/&lt;key&gt;-full-size.zip</code>, "Full size for posting"); <code>catawiki-upload</code> follows it. Files go
+up uncompressed: the 3000 px q92 JPEGs of the set, never the board's thumbnails.</p></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
+<p>Built 2026-09-04 18:43 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
 <ul>
 <li><strong>fixed · room</strong> - generate exactly pro: r1, r4, r6, nb2: r2, r6. founder 2026-09-04: these five rooms in every lot, nothing else - save money on gens</li>
 <li><strong>fixed · hero-layered</strong> - the layered r4 room is the hero, nothing generated for it. founder 2026-09-04: the r4 room layered is the hero of every future lot - no generated table hero, no detail lost</li>
 <li><strong>skip · macro-v2 · nb2 · br</strong> - dropped 2/2 times, never kept</li>
 <li><strong>skip · macro-v2 · nb2 · tl</strong> - dropped 2/2 times, never kept</li>
-<li><strong>skip · noir-wall · - · -</strong> - dropped 2/2 times, never kept</li>
+<li><strong>skip · noir-wall · - · -</strong> - dropped 2/2 times, never kept (note 1)</li>
 </ul>
 <h2>The ledger</h2>
 <table>
@@ -105,6 +108,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <th>dropped</th>
 <th>waiting</th>
 <th>keep rate</th>
+<th>why dropped</th>
 </tr>
 </thead>
 <tbody>
@@ -116,6 +120,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>1</td>
 <td>0</td>
 <td>0%</td>
+<td></td>
 </tr>
 <tr>
 <td>clips-rail</td>
@@ -125,6 +130,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>1</td>
 <td>0</td>
 <td>0%</td>
+<td>note 1</td>
 </tr>
 <tr>
 <td>clips-rail-layered</td>
@@ -134,6 +140,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>1</td>
 <td>0</td>
 <td>0%</td>
+<td></td>
 </tr>
 <tr>
 <td>clips-rail-layered</td>
@@ -143,6 +150,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>0</td>
 <td>0</td>
 <td>100%</td>
+<td></td>
 </tr>
 <tr>
 <td>flat-truth</td>
@@ -152,6 +160,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>0</td>
 <td>0</td>
 <td>100%</td>
+<td></td>
 </tr>
 <tr>
 <td>flat-truth</td>
@@ -161,6 +170,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>0</td>
 <td>0</td>
 <td>100%</td>
+<td></td>
 </tr>
 <tr>
 <td>flat-truth</td>
@@ -170,6 +180,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>0</td>
 <td>0</td>
 <td>100%</td>
+<td></td>
 </tr>
 <tr>
 <td>flat-truth</td>
@@ -179,6 +190,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>0</td>
 <td>0</td>
 <td>100%</td>
+<td></td>
 </tr>
 <tr>
 <td>hero</td>
@@ -188,6 +200,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>1</td>
 <td>0</td>
 <td>50%</td>
+<td></td>
 </tr>
 <tr>
 <td>hero</td>
@@ -197,6 +210,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>1</td>
 <td>0</td>
 <td>50%</td>
+<td></td>
 </tr>
 <tr>
 <td>hero</td>
@@ -206,6 +220,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>1</td>
 <td>0</td>
 <td>50%</td>
+<td></td>
 </tr>
 <tr>
 <td>hero</td>
@@ -215,6 +230,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>1</td>
 <td>0</td>
 <td>67%</td>
+<td></td>
 </tr>
 <tr>
 <td>macro-v2</td>
@@ -224,6 +240,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>1</td>
 <td>0</td>
 <td>50%</td>
+<td></td>
 </tr>
 <tr>
 <td>macro-v2</td>
@@ -233,6 +250,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>2</td>
 <td>0</td>
 <td>0%</td>
+<td></td>
 </tr>
 <tr>
 <td>macro-v2</td>
@@ -242,6 +260,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>2</td>
 <td>0</td>
 <td>0%</td>
+<td></td>
 </tr>
 <tr>
 <td>macro-v2</td>
@@ -251,6 +270,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>1</td>
 <td>0</td>
 <td>50%</td>
+<td></td>
 </tr>
 <tr>
 <td>macro-v2</td>
@@ -260,6 +280,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>1</td>
 <td>0</td>
 <td>75%</td>
+<td></td>
 </tr>
 <tr>
 <td>macro-v2</td>
@@ -269,6 +290,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>3</td>
 <td>0</td>
 <td>25%</td>
+<td></td>
 </tr>
 <tr>
 <td>macro-v2</td>
@@ -278,6 +300,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>0</td>
 <td>0</td>
 <td>100%</td>
+<td></td>
 </tr>
 <tr>
 <td>macro-v2</td>
@@ -287,6 +310,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>3</td>
 <td>0</td>
 <td>25%</td>
+<td></td>
 </tr>
 <tr>
 <td>noir-wall</td>
@@ -296,6 +320,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>2</td>
 <td>0</td>
 <td>0%</td>
+<td>note 1</td>
 </tr>
 <tr>
 <td>room</td>
@@ -305,6 +330,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>1</td>
 <td>0</td>
 <td>0%</td>
+<td></td>
 </tr>
 <tr>
 <td>room</td>
@@ -314,6 +340,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>0</td>
 <td>0</td>
 <td>100%</td>
+<td></td>
 </tr>
 <tr>
 <td>room</td>
@@ -323,6 +350,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>1</td>
 <td>0</td>
 <td>0%</td>
+<td></td>
 </tr>
 <tr>
 <td>room</td>
@@ -332,6 +360,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>1</td>
 <td>0</td>
 <td>0%</td>
+<td></td>
 </tr>
 <tr>
 <td>room</td>
@@ -341,6 +370,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>1</td>
 <td>0</td>
 <td>0%</td>
+<td></td>
 </tr>
 <tr>
 <td>room</td>
@@ -350,6 +380,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>1</td>
 <td>0</td>
 <td>50%</td>
+<td></td>
 </tr>
 <tr>
 <td>room</td>
@@ -359,6 +390,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>1</td>
 <td>0</td>
 <td>50%</td>
+<td></td>
 </tr>
 <tr>
 <td>room</td>
@@ -368,6 +400,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>1</td>
 <td>0</td>
 <td>0%</td>
+<td></td>
 </tr>
 <tr>
 <td>room</td>
@@ -377,6 +410,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>1</td>
 <td>0</td>
 <td>0%</td>
+<td></td>
 </tr>
 <tr>
 <td>room</td>
@@ -386,6 +420,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>0</td>
 <td>0</td>
 <td>100%</td>
+<td></td>
 </tr>
 <tr>
 <td>room</td>
@@ -395,6 +430,7 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>1</td>
 <td>0</td>
 <td>0%</td>
+<td></td>
 </tr>
 <tr>
 <td>room</td>
@@ -404,9 +440,11 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <td>0</td>
 <td>0</td>
 <td>100%</td>
+<td></td>
 </tr>
 </tbody>
 </table>
+<p>Reasons across every drop: <strong>note</strong> 2. Artifact = the model erred (frame, lettering, warp); excessive = too many alike, save the money; off look = wrong room, light or composition.</p>
 <h2>His words</h2>
 <ul>
 <li>f40-ossido: wall-noir-unframed - founder exception to rule 1: hangreal on the dark noir plate, 68% of the panel</li>
@@ -420,6 +458,6 @@ spread), his third and fourth, house photograph two (along the wall). The board 
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-04 18:24", "cfg": {}}</script>
-<script src="board/board.js?v=1788539084"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-04 18:43", "cfg": {}}</script>
+<script src="board/board.js?v=1788540213"></script>
 </body></html>

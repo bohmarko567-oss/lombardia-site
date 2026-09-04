@@ -104,16 +104,16 @@
     return base.concat(ap.filter(id => base.indexOf(id) < 0));
   }
   function setOrder(list) { p.order = list; p.orderAt = nowISO(); save(); }
-  // founder 2026-09-04: "as a rule when uploading each 3rd and last photos are house photos. put them in the list and lock em there"
-  const HOUSE_AT = [2, 5];   // zero-based slots 3 and 6 of the six that go up
+  // founder 2026-09-04: "each 3rd and last photos are house photos ... we upload all of them, not just 6, so
+  // second house photo is like 18th or whatever" - so: his first two, house one, every other kept shot, house two last
   function uploadList() {
     const o = order().slice(), hs = (D.house || []).slice(0, 2), up = [];
-    for (let i = 0; i < 6; i++) {
-      const hi = HOUSE_AT.indexOf(i);
-      if (hi >= 0 && hs[hi]) up.push({ house: hs[hi] });
-      else up.push(o.length ? { id: o.shift() } : { empty: true });
-    }
-    return { six: up, rest: o };
+    up.push(o.length ? { id: o.shift() } : { empty: true, label: 'the cover' });
+    up.push(o.length ? { id: o.shift() } : { empty: true, label: 'second' });
+    if (hs[0]) up.push({ house: hs[0] });
+    o.forEach(id => up.push({ id: id }));
+    if (hs[1]) up.push({ house: hs[1], last: true });
+    return up;
   }
   function counts() {
     const c = { approved: 0, pending: 0, rejected: 0, total: 0 };
@@ -135,8 +135,8 @@
     if (v === 'approved') { if (o.indexOf(id) < 0) o.push(id); } else o = o.filter(x => x !== id);
     p.order = o; p.orderAt = nowISO();
     save(); render();
-    if (!opts.quiet) toast(id + ' · ' + ({ approved: 'kept', rejected: 'dropped', pending: 'back to waiting' })[v], {
-      label: 'Undo', fn: () => verdict(id, prev, { quiet: true, note: prevNote })
+    if (!opts.quiet) toast(id + ' · ' + ({ approved: 'kept', rejected: 'dropped · why?', pending: 'back to waiting' })[v], {
+      label: 'Undo', fn: () => verdict(id, prev, { quiet: true, note: prevNote }), chips: v === 'rejected', id: id
     });
   }
   function addedRaw(s) { return { id: s.id, src: s.src, label: s.recipeLabel.replace('from the archive · ', ''), thumb: s.thumb, inspect: s.inspect, w: s.w, h: s.h, at: nowISO() }; }
@@ -149,11 +149,17 @@
 
   // ---------------------------------------------------------------- toast
   let toastTimer = null;
+  const REASONS = [['artifact', 'artifact'], ['excessive', 'excessive'], ['off-look', 'off look'], ['note', 'note…']];
   function toast(msg, act) {
     const t = $('#toast'); if (!t) return;
     t.innerHTML = ''; t.appendChild(h('span', { text: msg }));
-    if (act) t.appendChild(h('button', { type: 'button', text: act.label, onclick: () => { act.fn(); hideToast(); } }));
-    t.classList.add('on'); clearTimeout(toastTimer); toastTimer = setTimeout(hideToast, act ? 5000 : 2600);
+    if (act && act.chips) {
+      const row = h('span', { class: 'chips' });
+      REASONS.forEach(function (r) { row.appendChild(h('button', { type: 'button', class: 'chip-r', text: r[1], onclick: () => { if (r[0] === 'note') { hideToast(); openRoom([byId(act.id)], 0); } else { setNote(act.id, r[0]); hideToast(); toast(act.id + ' · ' + r[1]); } } })); });
+      t.appendChild(row);
+    }
+    if (act && act.label) t.appendChild(h('button', { type: 'button', text: act.label, onclick: () => { act.fn(); hideToast(); } }));
+    t.classList.add('on'); clearTimeout(toastTimer); toastTimer = setTimeout(hideToast, act ? (act.chips ? 8000 : 5000) : 2600);
   }
   function hideToast() { const t = $('#toast'); if (t) t.classList.remove('on'); }
 
@@ -182,11 +188,10 @@
   function renderOrder() {
     const strip = $('#order'); if (!strip) return; strip.innerHTML = '';
     const o = order(), u = uploadList();
-    let shotPos = 0;
-    const slotOf = function (id, i, extra) {
+    const slotOf = function (id, i) {
       const s = byId(id); if (!s) return null;
       const k = o.indexOf(id);
-      return h('div', { class: 'slot' + (i === 0 ? ' cover' : '') + (extra || ''), data: { id: id } },
+      return h('div', { class: 'slot' + (i === 0 ? ' cover' : ''), data: { id: id } },
         h('div', { class: 'simg' },
           h('img', { src: UP + s.thumb, alt: id, loading: 'lazy', decoding: 'async', onclick: () => openRoom(o.map(byId), k) }),
           h('span', { class: 'num', text: i + 1 }),
@@ -197,31 +202,31 @@
           h('button', { type: 'button', class: 'handle', 'aria-label': 'Drag to reorder', text: '⋮⋮' }),
           h('button', { type: 'button', 'aria-label': 'Move later', text: '→', disabled: k === o.length - 1 || null, onclick: () => move(id, 1) })));
     };
-    u.six.forEach(function (x, i) {
+    u.forEach(function (x, i) {
       if (x.house) {
         strip.appendChild(h('div', { class: 'slot house' },
-          h('div', { class: 'simg' }, h('img', { src: UP + x.house.thumb, alt: x.house.id, loading: 'lazy', decoding: 'async', onclick: () => openRoom((D.house || []).map(hh => ({ id: hh.id, inspect: hh.inspect, label: hh.label })), (D.house || []).indexOf(x.house), { readonly: true }) }), h('span', { class: 'num', text: i + 1 }), h('span', { class: 'coverlab lock', text: '⌂ house · locked' })),
+          h('div', { class: 'simg' }, h('img', { src: UP + x.house.thumb, alt: x.house.id, loading: 'lazy', decoding: 'async', onclick: () => openRoom((D.house || []).map(hh => ({ id: hh.id, inspect: hh.inspect, label: hh.label })), (D.house || []).indexOf(x.house), { readonly: true }) }), h('span', { class: 'num', text: i + 1 }), h('span', { class: 'coverlab lock', text: x.last ? '⌂ house · last' : '⌂ house · third' })),
           h('div', { class: 'sid', text: x.house.label })));
       } else if (x.empty) {
-        strip.appendChild(h('div', { class: 'slot empty' }, h('div', { class: 'simg' }, h('span', { class: 'num', text: i + 1 })), h('div', { class: 'sid', text: i === 0 ? 'the cover' : 'empty' })));
+        strip.appendChild(h('div', { class: 'slot empty' }, h('div', { class: 'simg' }, h('span', { class: 'num', text: i + 1 })), h('div', { class: 'sid', text: x.label })));
       } else {
         const el = slotOf(x.id, i); if (el) strip.appendChild(el);
       }
     });
-    if (u.rest.length) strip.appendChild(h('div', { class: 'sixrule' }, h('span', { text: 'kept, beyond the six' })));
-    u.rest.forEach(function (id, j) { const el = slotOf(id, 6 + j); if (el) strip.appendChild(el); });
     enableDrag(strip);
     const ot = $('#ordertools'); if (ot) {
       ot.innerHTML = '';
-      const filled = u.six.filter(x => !x.empty).length;
-      ot.appendChild(h('span', { class: 'hint count', text: filled + ' of 6 in the lot · the house holds 3 and 6' + (u.rest.length ? ' · ' + u.rest.length + ' kept beyond the six' : filled < 6 ? ' · keep shots below and they line up here' : '') }));
+      const total = u.filter(x => !x.empty).length;
+      ot.appendChild(h('span', { class: 'hint count', text: total + ' go up · ' + o.length + ' of yours, the house third and last' + (o.length ? '' : ' · keep shots below and they line up here') }));
+      if (D.download && D.download.zip) ot.appendChild(h('a', { class: 'btn', href: UP + D.download.zip, download: '', text: '⤓ Full size for posting · ' + D.download.n + ' files · ' + D.download.mb + ' MB', title: 'the files as they go up, numbered in this order' }));
+      if (D.download && D.download.zip && p.orderAt && Date.parse(p.orderAt) > Date.parse(D.synced || 0)) ot.appendChild(h('span', { class: 'hint', text: 'the zip follows the order as last sent - Send, and it is rebuilt' }));
       if (o.length) ot.appendChild(h('button', { class: 'btn quiet', type: 'button', text: '▣ Preview the lot as Catawiki shows it', onclick: openPreview }));
     }
   }
   function openPreview() {
     closeRoom(); hideToast();
     const o = order().map(byId).filter(Boolean); if (!o.length) return;
-    const six = uploadList().six.filter(x => !x.empty).map(x => x.house ? { id: x.house.id, thumb: x.house.thumb, inspect: x.house.inspect } : byId(x.id));
+    const six = uploadList().filter(x => !x.empty).map(x => x.house ? { id: x.house.id, thumb: x.house.thumb, inspect: x.house.inspect } : byId(x.id));
     const el = h('div', { class: 'room preview', role: 'dialog', 'aria-modal': 'true' });
     el.appendChild(h('div', { class: 'bar' }, h('span', { class: 'id', text: 'The lot · as Catawiki shows it' }), h('button', { class: 'x', type: 'button', text: '×', 'aria-label': 'Close', onclick: closeRoom })));
     const stage = h('div', { class: 'stage' });
@@ -229,8 +234,7 @@
     stage.appendChild(h('div', { class: 'cover' }, h('img', { src: UP + six[0].inspect, alt: six[0].id, onclick: () => openRoom(all, 0, { readonly: true }) })));
     stage.appendChild(h('div', { class: 'thumbs' }, six.map((s, i) => h('img', { src: UP + s.thumb, alt: s.id, class: i === 0 ? 'on' : '', onclick: () => openRoom(all, i, { readonly: true }) }))));
     stage.appendChild(h('div', { class: 'ptitle', text: D.kitTitle || (D.name + ' · ' + D.collLabel) }));
-    const rest = uploadList().rest.length;
-    stage.appendChild(h('div', { class: 'pnote', text: (six.length < 6 ? 'Catawiki takes six; ' + (6 - six.length) + ' more to keep. ' : '') + 'The house holds 3 and 6.' + (rest ? ' ' + rest + ' more kept beyond the six.' : '') }));
+    stage.appendChild(h('div', { class: 'pnote', text: six.length + ' photographs go up in this order; the first is the cover, the house is third and last.' }));
     el.appendChild(stage);
     el.appendChild(h('div', { class: 'foot' }, h('button', { type: 'button', text: 'done', onclick: closeRoom })));
     document.body.appendChild(el); document.body.classList.add('locked');
@@ -354,7 +358,8 @@
         h('img', { src: x.sheet, alt: '', loading: 'lazy' }), h('span', { class: 'tt' }, h('b', { text: x.name }), h('span', { text: sub })), h('span', { class: 'go' }, h('span', { class: 'btn primary', text: go }))));
       if (sheetPending) card(x.name, x.collLabel + ' · the sheet waits for your word', 'Approve the sheet', 'posters/' + x.key + '.html#sheet');
       if (c.pending) card(x.name, x.collLabel + ' · ' + c.pending + ' shots waiting', 'Review ' + c.pending, 'posters/' + x.key + '.html#review');
-      else if (c.approved >= 4 && x.stageIdx <= 3) card(x.name, x.collLabel + ' · ' + c.approved + ' kept, order set', 'Check the order', 'posters/' + x.key + '.html#order');
+      else if (x.stageIdx === 3) card(x.name, x.collLabel + ' · ' + c.approved + ' kept, order set, files zipped', 'Ready to post', 'posters/' + x.key + '.html#sec-post');
+      else if (c.approved >= 4 && x.stageIdx < 3) card(x.name, x.collLabel + ' · ' + c.approved + ' kept, order set', 'Check the order', 'posters/' + x.key + '.html#order');
     });
   }
 
@@ -446,11 +451,11 @@
       if (judgeable) {
         const v = ev(s.id), pos = order().indexOf(s.id);
         meta.appendChild(h('span', { html: '<span class="n">' + (s.recipeLabel || '') + '</span>' + (s.model ? ' · ' + s.model : '') + (v === 'approved' && pos >= 0 ? ' · <span class="n">' + (pos === 0 ? 'the cover' : '№ ' + (pos + 1)) + '</span>' : '') }));
-        const ta = h('textarea', { placeholder: 'A note on this one', rows: 1, value: noteOf(s.id), onchange: e => setNote(s.id, e.target.value.trim()) });
+        const ta = h('textarea', { placeholder: 'A note on this one · artifact, excessive, off look, or your words', rows: 1, value: noteOf(s.id), onchange: e => setNote(s.id, e.target.value.trim()) });
         ta.value = noteOf(s.id); meta.appendChild(ta);
         foot.appendChild(h('button', { type: 'button', class: 'nav', 'aria-label': 'Previous', text: '‹', onclick: () => go(-1) }));
         foot.appendChild(h('button', { type: 'button', class: 'k' + (v === 'approved' ? ' on' : ''), onclick: () => { verdict(s.id, v === 'approved' ? 'pending' : 'approved', { quiet: true }); show(); } }, h('span', { class: 'x', text: '✓' }), v === 'approved' ? 'Kept' : 'Keep'));
-        foot.appendChild(h('button', { type: 'button', class: 'd' + (v === 'rejected' ? ' on' : ''), onclick: () => { verdict(s.id, v === 'rejected' ? 'pending' : 'rejected', { quiet: true }); show(); } }, h('span', { class: 'x', text: '✗' }), s.archive ? 'Remove' : (v === 'rejected' ? 'Dropped' : 'Drop')));
+        foot.appendChild(h('button', { type: 'button', class: 'd' + (v === 'rejected' ? ' on' : ''), onclick: () => { const nv = v === 'rejected' ? 'pending' : 'rejected'; verdict(s.id, nv, { quiet: true }); show(); if (nv === 'rejected' && !s.archive) toast(s.id + ' · dropped · why?', { chips: true, id: s.id }); } }, h('span', { class: 'x', text: '✗' }), s.archive ? 'Remove' : (v === 'rejected' ? 'Dropped' : 'Drop')));
         foot.appendChild(h('button', { type: 'button', class: 'nav', 'aria-label': 'Next', text: '›', onclick: () => go(1) }));
       } else {
         meta.appendChild(h('span', { text: s.label || s.recipeLabel || s.file || '' }));
@@ -524,6 +529,7 @@
         const id = queue[i]; const cur = $('.card:not(.under)', deck);
         if (cur) { cur.style.transition = 'transform .22s, opacity .22s'; cur.style.transform = 'translate(' + (v === 'approved' ? 1 : -1) * 120 + '%, -6%) rotate(' + (v === 'approved' ? 14 : -14) + 'deg)'; cur.style.opacity = '0'; }
         verdict(id, v, { quiet: true }); done.push({ id: id, v: v }); i++;
+        if (v === 'rejected') toast(id + ' · dropped · why?', { chips: true, id: id }); else hideToast();
         setTimeout(show, 160);
       }
       function undo() { const d = done.pop(); if (!d) return; verdict(d.id, 'pending', { quiet: true }); i--; show(); }
@@ -671,8 +677,8 @@
       if (by.pending.length) lines.push('back to waiting: ' + by.pending.join(', '));
       (q.added || []).forEach(a => lines.push('add: ' + a.id + ' ← ' + a.src));
       const ord = (D.kind === 'poster' && k === D.key) ? order() : q.order;
-      if (ord && ord.length) lines.push('order: ' + ord.join(', ') + '  (first six go up, the house at 3 and 6)');
-      if (D.kind === 'poster' && k === D.key) { const u = uploadList(); lines.push('upload: ' + u.six.map(x => x.house ? 'HOUSE ' + x.house.id : x.empty ? '-' : x.id).join(', ')); }
+      if (ord && ord.length) lines.push('order: ' + ord.join(', ') + '  (all go up; the house third and last)');
+      if (D.kind === 'poster' && k === D.key) { lines.push('upload: ' + uploadList().filter(x => !x.empty).map(x => x.house ? 'HOUSE ' + x.house.id : x.id).join(', ')); }
     });
     if (lines.length <= 3 && !Object.keys(S.posters).length) lines.push('', 'no decisions yet');
     return lines.join('\n');
