@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788528756">
+<link rel="stylesheet" href="board/board.css?v=1788538195">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -72,11 +72,20 @@ and layered, noir wall, plus the three house photographs. Change the set only on
 <h2>9. The site is the workplace, nothing else lives on it (2026-09-04)</h2>
 <p>"Perfect structure for work, no junk or garbage, well designed workplace." One pipeline index,
 one page per poster, the house, the rules, and a Lab page that only links the tools that make a
-sheet. Experiments, rejects and contact sheets never reach the site; the attic keeps them.</p></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
-<p>Built 2026-09-04 15:18 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
+sheet. Experiments, rejects and contact sheets never reach the site; the attic keeps them.</p>
+<h2>10. The hero is the layered r4 room, never a generated hero (2026-09-04)</h2>
+<p>Founder: "I set room-r4-pro-1 as a hero and I want it as a hero for every lot, since it can be layered
+instead of being generated, so we save money and never have a chance of losing a detail on a hero."
+So for every poster after the two F40s: the set has no table hero; <code>lotset.py build</code> takes the r4 room
+(architecture office, pro) and lays the TRUE sheet under the model's light with <code>layers.py</code>, measured
+by <code>fidelity.py</code>, as <code>hero-room-r4-layered</code>. Free, and the print is the file itself. The two F40s stay
+as he ordered them.</p></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
+<p>Built 2026-09-04 18:09 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
 <ul>
 <li><strong>fixed · room</strong> - generate exactly pro: r1, r4, r6, nb2: r2, r6. founder 2026-09-04: these five rooms in every lot, nothing else - save money on gens</li>
+<li><strong>fixed · hero-layered</strong> - the layered r4 room is the hero, nothing generated for it. founder 2026-09-04: the r4 room layered is the hero of every future lot - no generated table hero, no detail lost</li>
+<li><strong>skip · macro-v2 · nb2 · br</strong> - dropped 2/2 times, never kept</li>
 </ul>
 <h2>The ledger</h2>
 <table>
@@ -105,10 +114,10 @@ sheet. Experiments, rejects and contact sheets never reach the site; the attic k
 <td>clips-rail</td>
 <td>pro</td>
 <td>raw</td>
+<td>0</td>
 <td>1</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
+<td>0%</td>
 </tr>
 <tr>
 <td>clips-rail-layered</td>
@@ -213,19 +222,19 @@ sheet. Experiments, rejects and contact sheets never reach the site; the attic k
 <td>macro-v2</td>
 <td>nb2</td>
 <td>br</td>
-<td>1</td>
-<td>1</td>
 <td>0</td>
-<td>50%</td>
+<td>2</td>
+<td>0</td>
+<td>0%</td>
 </tr>
 <tr>
 <td>macro-v2</td>
 <td>nb2</td>
 <td>tl</td>
-<td>1</td>
 <td>0</td>
 <td>1</td>
-<td>100%</td>
+<td>1</td>
+<td>0%</td>
 </tr>
 <tr>
 <td>macro-v2</td>
@@ -240,19 +249,19 @@ sheet. Experiments, rejects and contact sheets never reach the site; the attic k
 <td>macro-v2</td>
 <td>pro</td>
 <td>bl</td>
+<td>1</td>
+<td>1</td>
 <td>2</td>
-<td>0</td>
-<td>2</td>
-<td>100%</td>
+<td>50%</td>
 </tr>
 <tr>
 <td>macro-v2</td>
 <td>pro</td>
 <td>br</td>
-<td>2</td>
-<td>2</td>
+<td>1</td>
+<td>3</td>
 <td>0</td>
-<td>50%</td>
+<td>25%</td>
 </tr>
 <tr>
 <td>macro-v2</td>
@@ -267,19 +276,19 @@ sheet. Experiments, rejects and contact sheets never reach the site; the attic k
 <td>macro-v2</td>
 <td>pro</td>
 <td>tr</td>
+<td>1</td>
 <td>2</td>
 <td>1</td>
-<td>1</td>
-<td>67%</td>
+<td>33%</td>
 </tr>
 <tr>
 <td>noir-wall</td>
 <td>-</td>
 <td>-</td>
-<td>1</td>
 <td>0</td>
 <td>1</td>
-<td>100%</td>
+<td>1</td>
+<td>0%</td>
 </tr>
 <tr>
 <td>room</td>
@@ -294,7 +303,7 @@ sheet. Experiments, rejects and contact sheets never reach the site; the attic k
 <td>room</td>
 <td>nb2</td>
 <td>r2</td>
-<td>1</td>
+<td>2</td>
 <td>0</td>
 <td>0</td>
 <td>100%</td>
@@ -331,18 +340,18 @@ sheet. Experiments, rejects and contact sheets never reach the site; the attic k
 <td>nb2</td>
 <td>r6</td>
 <td>1</td>
+<td>1</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
+<td>50%</td>
 </tr>
 <tr>
 <td>room</td>
 <td>pro</td>
 <td>r1</td>
 <td>1</td>
+<td>1</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
+<td>50%</td>
 </tr>
 <tr>
 <td>room</td>
@@ -366,7 +375,7 @@ sheet. Experiments, rejects and contact sheets never reach the site; the attic k
 <td>room</td>
 <td>pro</td>
 <td>r4</td>
-<td>1</td>
+<td>2</td>
 <td>0</td>
 <td>0</td>
 <td>100%</td>
@@ -384,7 +393,7 @@ sheet. Experiments, rejects and contact sheets never reach the site; the attic k
 <td>room</td>
 <td>pro</td>
 <td>r6</td>
-<td>1</td>
+<td>2</td>
 <td>0</td>
 <td>0</td>
 <td>100%</td>
@@ -393,6 +402,9 @@ sheet. Experiments, rejects and contact sheets never reach the site; the attic k
 </table>
 <h2>His words</h2>
 <ul>
+<li>f40-ossido: wall-noir-unframed - founder exception to rule 1: hangreal on the dark noir plate, 68% of the panel</li>
+<li>f40-ossido: wall-clips-model - raw render, fidelity 0.99</li>
+<li>2026-09-04 f40-ossido: founder, on the board (iPhone): approved room-r2-nb2-1; rejected room-r6-nb2-1; rejected room-r1-pro-1; approved room-r4-pro-1; approved room-r6-pro-1; rejected wall-noir-unframed; rejected wall-clips-model; rejected macro-tl-nb2-1; rejected macro-br-nb2-1; rejected macro-bl-pro-1; rejected macro-br-pro-2; rejected macro-tr-pro-1; order: room-r4-pro-1, 01-hero-flat, hero-flat-nb2-1, hero-side-nb2-1, hero-side-pro-2, macro-bl-nb2-1 ...</li>
 <li>2026-09-04 f40-tecnico: founder rejected: macro-bl-nb2-1, macro-br-nb2-1, macro-br-pro-1, macro-br-pro-2, macro-tr-pro-2, hero-side-pro-2, wall-clips-layered-1, wall-clips-model-1, hero-flat-nb2-1</li>
 <li>2026-09-04 f40-tecnico: founder: the eight rejected have artifacts (the clips wall carries a white base frame); hero-flat-nb2-1 is overkill, too many similar shots, save money; he wants a few more rooms</li>
 <li>2026-09-04 f40-tecnico: founder rejected: room-r2-pro-1, room-r3-pro-1, room-r5-pro-1, room-r1-nb2-1, room-r3-nb2-1, room-r4-nb2-1, room-r5-nb2-1</li>
@@ -400,6 +412,6 @@ sheet. Experiments, rejects and contact sheets never reach the site; the attic k
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-04 15:32", "cfg": {}}</script>
-<script src="board/board.js?v=1788528756"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-04 18:09", "cfg": {}}</script>
+<script src="board/board.js?v=1788538195"></script>
 </body></html>
