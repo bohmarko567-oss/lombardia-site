@@ -80,6 +80,12 @@
   pruneSynced();
   const token = () => { try { return localStorage.getItem(TOK) || ''; } catch (e) { return ''; } };
 
+  const KEYTOK = /^(tl|tr|bl|br|pro|nb2|flat|side|model|layered|noir|unframed|r[1-6]|\d+)$/;
+  function fmtId(id) {
+    const el = h('span', { class: 'fid' });
+    String(id).split('-').forEach((t, i, a) => { el.appendChild(KEYTOK.test(t) ? h('b', { text: t }) : document.createTextNode(t)); if (i < a.length - 1) el.appendChild(document.createTextNode('-')); });
+    return el;
+  }
   // ---------------------------------------------------------------- poster model
   const p = D.kind === 'poster' ? P(D.key) : null;
   function archiveShot(a) {
@@ -171,15 +177,20 @@
           h('img', { src: UP + s.thumb, alt: id, loading: 'lazy', decoding: 'async', onclick: () => openRoom(o.map(byId), i) }),
           h('span', { class: 'num', text: i + 1 }),
           i === 0 ? h('span', { class: 'coverlab', text: 'cover' }) : null),
-        h('div', { class: 'sid', text: id, title: id }),
+        h('div', { class: 'sid', title: id }, fmtId(id)),
         h('div', { class: 'sacts' },
           h('button', { type: 'button', 'aria-label': 'Move earlier', text: '←', disabled: i === 0 || null, onclick: () => move(id, -1) }),
           h('button', { type: 'button', class: 'handle', 'aria-label': 'Drag to reorder', text: '⋮⋮' }),
           h('button', { type: 'button', 'aria-label': 'Move later', text: '→', disabled: i === o.length - 1 || null, onclick: () => move(id, 1) })));
       strip.appendChild(slot);
     });
+    for (let i = o.length; i < 6; i++) strip.appendChild(h('div', { class: 'slot empty' }, h('div', { class: 'simg' }, h('span', { class: 'num', text: i + 1 })), h('div', { class: 'sid', text: i === 0 ? 'the cover' : 'empty' })));
     enableDrag(strip);
-    const ot = $('#ordertools'); if (ot) { ot.innerHTML = ''; if (o.length) ot.appendChild(h('button', { class: 'btn quiet', type: 'button', text: '▣ Preview the lot as Catawiki shows it', onclick: openPreview })); }
+    const ot = $('#ordertools'); if (ot) {
+      ot.innerHTML = '';
+      ot.appendChild(h('span', { class: 'hint count', text: Math.min(o.length, 6) + ' of 6 in the lot' + (o.length > 6 ? ' · ' + (o.length - 6) + ' kept beyond the six' : o.length ? '' : ' · keep shots below and they line up here') }));
+      if (o.length) ot.appendChild(h('button', { class: 'btn quiet', type: 'button', text: '▣ Preview the lot as Catawiki shows it', onclick: openPreview }));
+    }
   }
   function openPreview() {
     closeRoom(); hideToast();
@@ -244,7 +255,7 @@
   function renderTools() {
     const t = $('#tools'); if (!t) return; t.innerHTML = '';
     const c = counts();
-    if (c.pending) t.appendChild(h('button', { class: 'btn primary big', type: 'button', onclick: openReview }, '▶ Review ', h('span', { class: 'n', text: c.pending }), ' waiting'));
+    if (c.pending) t.appendChild(h('button', { class: 'btn primary big', type: 'button', onclick: openReview }, 'Review · ', h('span', { class: 'n', text: c.pending }), ' waiting'));
     const seg = h('div', { class: 'seg', role: 'group', 'aria-label': 'Filter' });
     [['all', 'All', c.total], ['pending', 'Waiting', c.pending], ['approved', 'Kept', c.approved], ['rejected', 'Dropped', c.rejected]].forEach(function (f) {
       seg.appendChild(h('button', { type: 'button', class: filter === f[0] ? 'on' : '', onclick: () => { filter = f[0]; renderTools(); renderGrid(); } }, f[1], h('span', { class: 'n', text: f[2] })));
@@ -258,6 +269,14 @@
     t.appendChild(h('div', { class: 'spacer' }));
     t.appendChild(h('button', { class: 'btn quiet' + (compareMode ? ' primary' : ''), type: 'button', text: compareMode ? 'Pick two…' : 'Compare', onclick: () => { compareMode = !compareMode; picks = []; renderTools(); renderGrid(); if (compareMode) toast('Tap two photos to compare'); } }));
     t.appendChild(h('button', { class: 'btn', type: 'button', text: '+ Add from the archive', onclick: openArchive }));
+    if (c.pending && c.approved >= 6) t.appendChild(h('button', { class: 'btn quiet', type: 'button', text: 'Drop all ' + c.pending + ' still waiting', onclick: dropRest }));
+  }
+  function dropRest() {
+    const ids = allShots().filter(s => ev(s.id) === 'pending').map(s => s.id);
+    const prev = ids.map(id => [id, p.verdicts[id]]);
+    ids.forEach(id => { p.verdicts[id] = { v: 'rejected', at: nowISO(), note: (p.verdicts[id] && p.verdicts[id].note) || '' }; });
+    save(); render();
+    toast(ids.length + ' dropped · the lot stays as it is', { label: 'Undo', fn: () => { prev.forEach(x => { if (x[1]) p.verdicts[x[0]] = x[1]; else delete p.verdicts[x[0]]; }); save(); render(); } });
   }
 
   function renderGrid() {
@@ -271,7 +290,7 @@
           v === 'approved' && pos >= 0 ? h('span', { class: 'num' + (pos === 0 ? ' cover' : ''), text: pos === 0 ? 'cover' : String(pos + 1), title: 'position ' + (pos + 1) + ' in the lot' }) : null,
           s.archive ? h('span', { class: 'tag', text: 'archive' }) : (p.verdicts[s.id] ? h('span', { class: 'tag', text: 'changed' }) : null)),
         h('figcaption', { class: 'tmeta' },
-          h('div', { class: 'tid', text: s.id }),
+          h('div', { class: 'tid' }, fmtId(s.id)),
           h('div', { class: 'trec', text: s.recipeLabel + (s.model ? ' · ' + s.model.replace('nano-banana-', 'nb-').replace('-edit', '') : '') }),
           note ? h('div', { class: 'tnote', text: '“' + note + '”' }) : null),
         h('div', { class: 'tacts' },
@@ -320,6 +339,7 @@
     const bar = h('div', { class: 'bar' }), stage = h('div', { class: 'stage' }), img = h('img', { alt: '' });
     const meta = h('div', { class: 'meta' }), foot = h('div', { class: 'foot' });
     stage.appendChild(img); stage.appendChild(h('span', { class: 'hintz', text: 'double-tap to zoom · swipe for the next' }));
+    ['tl', 'tr', 'bl', 'br'].forEach(c => stage.appendChild(h('i', { class: 'reg ' + c })));
     el.appendChild(bar); el.appendChild(stage); el.appendChild(meta); el.appendChild(foot);
     document.body.appendChild(el); document.body.classList.add('locked');
     const Z = { s: 1, x: 0, y: 0 }, pts = new Map();
@@ -413,6 +433,7 @@
     const el = h('div', { class: 'room review', role: 'dialog', 'aria-modal': 'true' });
     const bar = h('div', { class: 'bar' }), deck = h('div', { class: 'deck' }), foot = h('div', { class: 'foot' });
     el.appendChild(bar); el.appendChild(deck); el.appendChild(foot);
+    ['tl', 'tr', 'bl', 'br'].forEach(c => deck.appendChild(h('i', { class: 'reg ' + c })));
     document.body.appendChild(el); document.body.classList.add('locked');
     let i = 0; const done = [];
     const total = queue.length;
@@ -421,7 +442,7 @@
       const s = byId(id); if (!s) return null;
       const c = h('div', { class: 'card' + (under ? ' under' : ''), data: { id: id } },
         h('img', { src: UP + s.inspect, alt: id, decoding: 'async' }),
-        h('div', { class: 'cmeta', html: '<b>' + id + '</b> · ' + s.recipeLabel + (s.model ? ' · ' + s.model.replace('nano-banana-', 'nb-').replace('-edit', '') : '') }),
+        h('div', { class: 'cmeta', html: '<b>' + id + '</b> · ' + s.recipeLabel + (s.model ? ' · ' + s.model.replace('nano-banana-', 'nb-').replace('-edit', '') : '') + '<span class="swipehint">← swipe left to drop · swipe right to keep →</span>' }),
         h('span', { class: 'stamp k', text: 'keep' }), h('span', { class: 'stamp d', text: 'drop' }));
       return c;
     }
@@ -621,7 +642,7 @@
     const body = new URLSearchParams({ _subject: 'Lombardia board · ' + S.device + ' · ' + new Date().toLocaleString(), summary: summary(), decisions: JSON.stringify(snapshot()) });
     return fetch(D.cfg.form, { method: 'POST', keepalive: !!keepalive, headers: { 'Accept': 'application/json' }, body: body })
       .then(r => r.json()).then(function (j) {
-        if (j && (j.success === 'true' || j.success === true)) { sent = { at: nowISO(), ok: true }; dirty = false; }
+        if (j && (j.success === 'true' || j.success === true)) { sent = { at: nowISO(), ok: true }; dirty = false; if (!keepalive) toast('Sent to Claude ✓'); }
         else throw new Error((j && j.message) || 'send failed');
       }).catch(function (e) { sent = { at: nowISO(), ok: false, err: String(e.message || e) }; })
       .then(function () { try { localStorage.setItem(SENT, JSON.stringify(sent)); } catch (e) { } renderTitleblock(); });
@@ -666,6 +687,8 @@
       dirty ? h('button', { class: 'link', type: 'button', text: 'send now', onclick: () => { sendMail().then(() => toast(sent && sent.ok ? 'Sent to Claude' : 'Send failed')); } }) : null]);
     if (token()) row('GitHub', [h('i', { class: 'dot ' + (gh ? (gh.ok ? 'ok' : 'bad') : '') }), gh ? (gh.ok ? 'committed · ' + hhmm(gh.at) : 'failed · ' + gh.status) : 'connected']);
     row('Built', D.built || '');
+    const g = $('#btn-settings');
+    if (g) { g.innerHTML = ''; g.appendChild(h('i', { class: 'dot ' + (dirty ? 'wait' : sent ? (sent.ok ? 'ok' : 'bad') : '') })); g.appendChild(document.createTextNode('Sync')); g.title = dirty ? 'changes queued' : sent ? (sent.ok ? 'sent ' + hhmm(sent.at) : 'send failed') : 'nothing to send'; }
   }
 
   // ---------------------------------------------------------------- copy buttons (post kit)
