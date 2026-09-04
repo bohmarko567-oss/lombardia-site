@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788564772">
+<link rel="stylesheet" href="board/board.css?v=1788565466">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -91,7 +91,23 @@ everything he kept goes up, in his order, with house photograph one (the table s
 photograph two (along the wall) last. The board locks those two slots; <code>lotset.py</code> writes the <code>upload</code>
 list into the state on every apply; <code>mk-board.py</code> zips the full-size files in that order
 (<code>site/download/&lt;key&gt;-full-size.zip</code>, "Full size for posting"); <code>catawiki-upload</code> follows it. Files go
-up uncompressed: the 3000 px q92 JPEGs of the set, never the board's thumbnails.</p></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
+up uncompressed: the 3000 px q92 JPEGs of the set, never the board's thumbnails.</p>
+<h2>12. Two sheets, two ways to make them, nothing older (2026-09-05)</h2>
+<p>Founder: "You had to take the two that are online right now. The red one and the blue one. That's
+it. Take exactly them, exactly the skills, exactly how we created them, and duplicate. ... We
+worked hard on the blue and the red collection. We don't need old shit to get in the way."</p>
+<ul>
+<li><strong>Red</strong> = the Ossido F40 online (lot 106603826): <code>python sheet.py &lt;car&gt; ossido landscape</code>,
+  md5 37ed0df5049cdb41d0c40709badfd088 reproduces it. The car is regenerated, the lines are drawn.</li>
+<li><strong>Blue</strong> = the blue F40 online (lot 106624824): <code>python blue.py &lt;car&gt;</code>, md5
+  54ce32e44c54b8c540c27355e28a4799 reproduces it. Full-bleed ground, one outer rule, spec box 120
+  px off the east and south rules, LA + TAV + signature in a row above it.</li>
+<li>Everything older - <code>lot.py</code>'s blueprint / ossido / notte plates, the generated-whole sheets, the
+  style lab - is retired to <code>_attic/RETIRED-2026-09-05-old-collections/</code> and is never built from
+  again. <code>lot.py</code> refuses without <code>--retired-ok</code>. A new car is a duplicate of one of the two, never
+  a reproduction of anything older.</li>
+<li>Prove it every time an engine file changes: rebuild both F40s and compare the md5s.</li>
+</ul></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
 <p>Built 2026-09-04 18:43 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
 <ul>
@@ -462,6 +478,6 @@ up uncompressed: the 3000 px q92 JPEGs of the set, never the board's thumbnails.
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-05 01:32", "cfg": {}}</script>
-<script src="board/board.js?v=1788564772"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-05 01:44", "cfg": {}}</script>
+<script src="board/board.js?v=1788565466"></script>
 </body></html>
