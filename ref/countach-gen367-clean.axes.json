@@ -1,0 +1,70 @@
+{
+ "_doc": "AUTO axes (poster.auto_axes) - hero-crop px; no hand-picked points",
+ "u_deg": -30.424193262777813,
+ "v_deg": 48.77473377296819,
+ "v_measured_deg": 28.174733772968192,
+ "lateral_offset": 20.6,
+ "n_segments": [
+  160,
+  53
+ ],
+ "ground_front": [
+  1567,
+  2089
+ ],
+ "ground_rear": [
+  2935,
+  1312
+ ],
+ "front_hub": [
+  1567,
+  2089
+ ],
+ "rear_hub": [
+  2935,
+  1312
+ ],
+ "bumper_near": [
+  842,
+  2500
+ ],
+ "bumper_far": [
+  607,
+  2382
+ ],
+ "tail_ground_near": [
+  2969,
+  1292
+ ],
+ "wing_ends": [
+  [
+   2997,
+   400
+  ],
+  [
+   2997,
+   400
+  ]
+ ],
+ "wing_top": [
+  2997,
+  400
+ ],
+ "nose_pt": [
+  78,
+  1628
+ ],
+ "tail_pt": [
+  2874,
+  1184
+ ],
+ "far_pt": [
+  518,
+  1931
+ ],
+ "near_lip": [
+  753,
+  2049
+ ],
+ "lateral_deg_offset": 0
+}
