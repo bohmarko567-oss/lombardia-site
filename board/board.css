@@ -212,6 +212,7 @@ details.sec[open] summary { margin-bottom: 14px; }
 .pcard .pcounts { display: block; margin-top: 12px; font: 400 12px var(--mono); color: var(--ink-2); }
 .pcard .pcounts b { color: var(--ink); font-weight: 600; }
 
+.printrow { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }
 /* tables, prose */
 .tbl { width: 100%; border-collapse: collapse; font-size: 14px; margin-top: 14px; }
 .tbl th, .tbl td { text-align: left; padding: 9px 8px; border-bottom: 1px solid var(--rule-soft); vertical-align: top; }
@@ -246,6 +247,17 @@ details.sec[open] summary { margin-bottom: 14px; }
 .titleblock .v .dot.ok { background: var(--keep); } .titleblock .v .dot.bad { background: var(--drop); } .titleblock .v .dot.wait { background: var(--wait); }
 .titleblock .v .link { font: 600 10px var(--cond); text-transform: uppercase; letter-spacing: .14em; text-decoration: underline; text-underline-offset: 2px; color: var(--tint); }
 
+/* ---- the send bar: what is on this phone and not yet with Claude ---- */
+.sendbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; display: none; align-items: center; gap: 12px; padding: 10px max(14px, env(safe-area-inset-right)) calc(10px + env(safe-area-inset-bottom)) max(14px, env(safe-area-inset-left)); background: var(--paper); border-top: 3px solid var(--ink); box-shadow: 0 -10px 28px rgba(20, 26, 36, .18); }
+.sendbar.on { display: flex; }
+body.locked .sendbar { display: none; }
+.sendbar .sb-text { flex: 1 1 auto; display: flex; align-items: center; gap: 8px; font: 500 12.5px/1.35 var(--mono); min-width: 0; }
+.sendbar .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--wait); flex: 0 0 auto; }
+.sendbar.busy .btn { opacity: .6; pointer-events: none; }
+body.has-sendbar { padding-bottom: calc(84px + env(safe-area-inset-bottom)); }
+body.has-sendbar .toast { bottom: calc(92px + env(safe-area-inset-bottom)); }
+.review .card { touch-action: none; }
+.review .card img { transform-origin: 0 0; will-change: transform; }
 /* ---- toast ---- */
 .toast { position: fixed; left: 50%; bottom: calc(18px + env(safe-area-inset-bottom)); transform: translate(-50%, 20px); opacity: 0; pointer-events: none; z-index: 90; background: var(--paper); color: var(--ink); border: 1px solid var(--ink); border-top-width: 3px; font: 500 12.5px var(--mono); padding: 10px 14px; display: flex; gap: 14px; align-items: center; max-width: min(92vw, 520px); transition: transform .18s, opacity .18s; box-shadow: 0 10px 28px rgba(20, 26, 36, .28); }
 .toast.on { transform: translate(-50%, 0); opacity: 1; pointer-events: auto; }

@@ -7,7 +7,7 @@
 (function () {
   'use strict';
   const D = JSON.parse(document.getElementById('board-data').textContent || '{}');
-  const KEY = 'lomb.decisions.v1', TOK = 'lomb.gh.token', SENT = 'lomb.sent.v1', GH = 'lomb.gh.v1';
+  const KEY = 'lomb.decisions.v1', TOK = 'lomb.gh.token', SENT = 'lomb.sent.v1', GH = 'lomb.gh.v1', DIRTY = 'lomb.dirty.v1';
   const $ = (s, el) => (el || document).querySelector(s);
   const $$ = (s, el) => Array.prototype.slice.call((el || document).querySelectorAll(s));
   const UP = D.kind === 'poster' ? '../' : '';
@@ -53,6 +53,8 @@
   try { sent = JSON.parse(localStorage.getItem(SENT)); } catch (e) { }
   try { gh = JSON.parse(localStorage.getItem(GH)); } catch (e) { }
   let dirty = false, sendTimer = null, ghTimer = null;
+  try { dirty = localStorage.getItem(DIRTY) === '1'; } catch (e) { }
+  function setDirty(v) { dirty = v; try { localStorage.setItem(DIRTY, v ? '1' : '0'); } catch (e) { } }
   function P(key) {
     if (!S.posters[key]) S.posters[key] = { verdicts: {}, order: null, orderAt: null, added: [], sheet: null };
     const p = S.posters[key];
@@ -62,7 +64,7 @@
   function save() {
     S.savedAt = nowISO();
     try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { }
-    dirty = true; scheduleSync(); renderTitleblock();
+    setDirty(true); scheduleSync(); renderTitleblock();
   }
   function pruneSynced() {
     // drop what the built page already carries
@@ -252,6 +254,7 @@
   }
 
   let filter = 'all', group = 'all', compareMode = false, picks = [];
+  if (D.kind === 'poster') { const c0 = counts(); if (c0.pending && (c0.approved + c0.rejected) && !location.hash) filter = 'pending'; }
   function renderTools() {
     const t = $('#tools'); if (!t) return; t.innerHTML = '';
     const c = counts();
@@ -330,10 +333,73 @@
   }
 
   // ---------------------------------------------------------------- the room (lightbox)
-  let room = null;
+  let room = null, roomStack = [];
+  function attachZoom(stage, img, opts) {
+    // founder 2026-09-04: "when I zoom in it migrates to the upper left corner" - the review card had no zoom at
+    // all, so a pinch became a swipe. One helper now serves the room and the review card: two fingers pinch about
+    // their midpoint, double-tap toggles 2.5x at the tap, one finger pans when zoomed and swipes only when not.
+    opts = opts || {};
+    const Z = { s: 1, x: 0, y: 0 }, pts = new Map();
+    let lastTap = 0, start = null, pinch = null;
+    img.style.transformOrigin = '0 0';
+    // geometry is measured once per zoom session, while the image is untransformed - measuring a transformed
+    // rect against a not-yet-applied Z drifted the base by the pan delta and the clamp did nothing
+    let base = null;
+    function measure() { const r = img.getBoundingClientRect(), sr = stage.getBoundingClientRect(); base = { L0: r.left - sr.left, T0: r.top - sr.top, w0: r.width, h0: r.height, sw: sr.width, sh: sr.height }; }
+    function clamp() {
+      if (Z.s === 1) { Z.x = 0; Z.y = 0; return; }
+      if (!base) measure();
+      const W = base.w0 * Z.s, H = base.h0 * Z.s;
+      // wider than the stage: the picture must keep covering it; narrower: sit centred
+      Z.x = W > base.sw ? Math.min(-base.L0, Math.max(base.sw - W - base.L0, Z.x)) : (base.sw - W) / 2 - base.L0;
+      Z.y = H > base.sh ? Math.min(-base.T0, Math.max(base.sh - H - base.T0, Z.y)) : (base.sh - H) / 2 - base.T0;
+    }
+    function apply() { clamp(); img.style.transform = Z.s === 1 ? '' : 'translate(' + Z.x + 'px,' + Z.y + 'px) scale(' + Z.s + ')'; }
+    function reset() { Z.s = 1; Z.x = 0; Z.y = 0; base = null; apply(); }
+    function zoomAt(cx, cy, s) {
+      if (Z.s === 1 || !base) { Z.x = 0; Z.y = 0; img.style.transform = ''; measure(); }
+      const sr = stage.getBoundingClientRect();
+      const px = (cx - sr.left - base.L0 - Z.x) / Z.s, py = (cy - sr.top - base.T0 - Z.y) / Z.s;   // the image point under the fingers
+      s = Math.min(6, Math.max(1, s));
+      Z.s = s; Z.x = (cx - sr.left) - base.L0 - px * s; Z.y = (cy - sr.top) - base.T0 - py * s;
+      if (s === 1) { Z.x = 0; Z.y = 0; base = null; }
+      apply();
+    }
+    stage.addEventListener('pointerdown', function (e) {
+      pts.set(e.pointerId, { x: e.clientX, y: e.clientY }); try { stage.setPointerCapture(e.pointerId); } catch (x) { }
+      if (pts.size === 1) start = { x: e.clientX, y: e.clientY, zx: Z.x, zy: Z.y, t: Date.now(), moved: false };
+      if (pts.size === 2) { const a = Array.from(pts.values()); pinch = { d: Math.hypot(a[0].x - a[1].x, a[0].y - a[1].y), s: Z.s, cx: (a[0].x + a[1].x) / 2, cy: (a[0].y + a[1].y) / 2 }; start = null; if (opts.onPinch) opts.onPinch(); }
+    });
+    stage.addEventListener('pointermove', function (e) {
+      if (!pts.has(e.pointerId)) return;
+      pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (pts.size === 2 && pinch) { const a = Array.from(pts.values()); zoomAt(pinch.cx, pinch.cy, pinch.s * Math.hypot(a[0].x - a[1].x, a[0].y - a[1].y) / pinch.d); return; }
+      if (start && pts.size === 1) {
+        const dx = e.clientX - start.x, dy = e.clientY - start.y;
+        if (Math.abs(dx) > 6 || Math.abs(dy) > 6) start.moved = true;
+        if (Z.s > 1) { Z.x = start.zx + dx; Z.y = start.zy + dy; apply(); }
+        else if (opts.onDrag) opts.onDrag(dx, dy);
+      }
+    });
+    const up = function (e) {
+      pts.delete(e.pointerId); if (pts.size < 2) pinch = null;
+      if (pts.size === 0 && start) {
+        const dx = e.clientX - start.x, dy = e.clientY - start.y, dt = Date.now() - start.t;
+        if (!start.moved) {
+          const now = Date.now();
+          if (now - lastTap < 320) { zoomAt(e.clientX, e.clientY, Z.s > 1 ? 1 : 2.5); lastTap = 0; }
+          else { lastTap = now; if (opts.onTap) setTimeout(() => { if (lastTap === now) opts.onTap(); }, 330); }
+        } else if (Z.s === 1 && opts.onRelease) opts.onRelease(dx, dy, dt);
+        start = null;
+      } else if (pts.size === 0) { start = null; if (Z.s === 1 && opts.onRelease) opts.onRelease(0, 0, 0); }
+    };
+    stage.addEventListener('pointerup', up); stage.addEventListener('pointercancel', up);
+    return { reset: reset, zoomed: () => Z.s > 1 };
+  }
   function openRoom(list, idx, opts) {
     opts = opts || {};
-    closeRoom(); hideToast();
+    if (room && room.el.classList.contains('review')) roomStack.push(room); else closeRoom();
+    hideToast();
     let i = Math.max(0, idx || 0);
     const el = h('div', { class: 'room', role: 'dialog', 'aria-modal': 'true' });
     const bar = h('div', { class: 'bar' }), stage = h('div', { class: 'stage' }), img = h('img', { alt: '' });
@@ -342,52 +408,10 @@
     ['tl', 'tr', 'bl', 'br'].forEach(c => stage.appendChild(h('i', { class: 'reg ' + c })));
     el.appendChild(bar); el.appendChild(stage); el.appendChild(meta); el.appendChild(foot);
     document.body.appendChild(el); document.body.classList.add('locked');
-    const Z = { s: 1, x: 0, y: 0 }, pts = new Map();
-    let lastTap = 0, start = null, pinch = null;
-    function apply() { img.style.transform = Z.s === 1 ? '' : 'translate(' + Z.x + 'px,' + Z.y + 'px) scale(' + Z.s + ')'; }
-    function zoomAt(cx, cy, s) {
-      const r = img.getBoundingClientRect(), sr = stage.getBoundingClientRect();
-      const ox = (cx - r.left) / Z.s, oy = (cy - r.top) / Z.s;          // point on the unscaled image
-      Z.s = s; Z.x = (cx - sr.left) - ox * s - (r.left - sr.left - Z.x) ; Z.y = (cy - sr.top) - oy * s - (r.top - sr.top - Z.y);
-      if (s === 1) { Z.x = 0; Z.y = 0; }
-      apply();
-    }
-    stage.addEventListener('pointerdown', function (e) {
-      pts.set(e.pointerId, { x: e.clientX, y: e.clientY }); try { stage.setPointerCapture(e.pointerId); } catch (x) { }
-      if (pts.size === 1) start = { x: e.clientX, y: e.clientY, zx: Z.x, zy: Z.y, t: Date.now(), moved: false };
-      if (pts.size === 2) { const a = Array.from(pts.values()); pinch = { d: Math.hypot(a[0].x - a[1].x, a[0].y - a[1].y), s: Z.s, cx: (a[0].x + a[1].x) / 2, cy: (a[0].y + a[1].y) / 2 }; }
-    });
-    stage.addEventListener('pointermove', function (e) {
-      if (!pts.has(e.pointerId)) return;
-      pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
-      if (pts.size === 2 && pinch) {
-        const a = Array.from(pts.values()); const d = Math.hypot(a[0].x - a[1].x, a[0].y - a[1].y);
-        const ns = Math.min(6, Math.max(1, pinch.s * d / pinch.d));
-        zoomAt(pinch.cx, pinch.cy, ns); return;
-      }
-      if (start && pts.size === 1) {
-        const dx = e.clientX - start.x, dy = e.clientY - start.y;
-        if (Math.abs(dx) > 6 || Math.abs(dy) > 6) start.moved = true;
-        if (Z.s > 1) { Z.x = start.zx + dx; Z.y = start.zy + dy; apply(); }
-      }
-    });
-    const up = function (e) {
-      const was = pts.get(e.pointerId); pts.delete(e.pointerId);
-      if (pts.size < 2) pinch = null;
-      if (pts.size === 0 && start) {
-        const dx = e.clientX - start.x, dy = e.clientY - start.y, dt = Date.now() - start.t;
-        if (!start.moved) {
-          const now = Date.now();
-          if (now - lastTap < 320) { zoomAt(e.clientX, e.clientY, Z.s > 1 ? 1 : 2.5); lastTap = 0; }
-          else { lastTap = now; setTimeout(() => { if (lastTap === now) el.classList.toggle('chrome-off'); }, 330); }
-        } else if (Z.s === 1 && Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.4 && dt < 600) { go(dx < 0 ? 1 : -1); }
-        start = null;
-      }
-    };
-    stage.addEventListener('pointerup', up); stage.addEventListener('pointercancel', up);
+    const zoom = attachZoom(stage, img, { onTap: () => el.classList.toggle('chrome-off'), onRelease: (dx, dy, dt) => { if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.4 && dt < 600) go(dx < 0 ? 1 : -1); } });
     function show() {
       const s = list[i]; if (!s) return;
-      Z.s = 1; Z.x = 0; Z.y = 0; apply();
+      zoom.reset();
       img.src = UP + (s.inspect || s.thumb); img.alt = s.id || '';
       bar.innerHTML = ''; meta.innerHTML = ''; foot.innerHTML = '';
       bar.appendChild(h('span', { class: 'id', text: (s.id || '') + (list.length > 1 ? '  ·  ' + (i + 1) + '/' + list.length : '') }));
@@ -414,7 +438,10 @@
     } };
     show();
   }
-  function closeRoom() { if (room) { room.el.remove(); room = null; } document.body.classList.remove('locked'); if (D.kind === 'poster') { renderOrder(); renderGrid(); renderTools(); } }
+  function closeRoom() {
+    if (room) { room.el.remove(); room = roomStack.pop() || null; }
+    if (!room) { document.body.classList.remove('locked'); if (D.kind === 'poster') { renderOrder(); renderGrid(); renderTools(); } }
+  }
   document.addEventListener('keydown', e => { if (room && room.key) room.key(e); });
   document.addEventListener('click', function (e) {
     const a = e.target.closest('a.lb'); if (!a) return;
@@ -437,12 +464,12 @@
     document.body.appendChild(el); document.body.classList.add('locked');
     let i = 0; const done = [];
     const total = queue.length;
-    function close() { el.remove(); document.body.classList.remove('locked'); render(); }
+    function close() { el.remove(); room = null; roomStack = []; document.body.classList.remove('locked'); render(); }
     function card(id, under) {
       const s = byId(id); if (!s) return null;
       const c = h('div', { class: 'card' + (under ? ' under' : ''), data: { id: id } },
         h('img', { src: UP + s.inspect, alt: id, decoding: 'async' }),
-        h('div', { class: 'cmeta', html: '<b>' + id + '</b> · ' + s.recipeLabel + (s.model ? ' · ' + s.model.replace('nano-banana-', 'nb-').replace('-edit', '') : '') + '<span class="swipehint">← swipe left to drop · swipe right to keep →</span>' }),
+        h('div', { class: 'cmeta', html: '<b>' + id + '</b> · ' + s.recipeLabel + (s.model ? ' · ' + s.model.replace('nano-banana-', 'nb-').replace('-edit', '') : '') + '<span class="swipehint">← drop · keep → · pinch or double-tap to zoom</span>' }),
         h('span', { class: 'stamp k', text: 'keep' }), h('span', { class: 'stamp d', text: 'drop' }));
       return c;
     }
@@ -459,19 +486,10 @@
       }
       if (queue[i + 1]) deck.appendChild(card(queue[i + 1], true));
       const c = card(queue[i]); deck.appendChild(c);
-      let st = null;
-      c.addEventListener('pointerdown', e => { st = { x: e.clientX, y: e.clientY }; try { c.setPointerCapture(e.pointerId); } catch (x) { } c.style.transition = 'none'; });
-      c.addEventListener('pointermove', e => {
-        if (!st) return; const dx = e.clientX - st.x, dy = e.clientY - st.y;
-        c.style.transform = 'translate(' + dx + 'px,' + (dy * .2) + 'px) rotate(' + (dx / 22) + 'deg)';
-        $('.stamp.k', c).style.opacity = Math.min(1, Math.max(0, dx - 30) / 70); $('.stamp.d', c).style.opacity = Math.min(1, Math.max(0, -dx - 30) / 70);
+      attachZoom(c, $('img', c), {
+        onDrag: (dx, dy) => { c.style.transition = 'none'; c.style.transform = 'translate(' + dx + 'px,' + (dy * .2) + 'px) rotate(' + (dx / 22) + 'deg)'; $('.stamp.k', c).style.opacity = Math.min(1, Math.max(0, dx - 30) / 70); $('.stamp.d', c).style.opacity = Math.min(1, Math.max(0, -dx - 30) / 70); },
+        onRelease: (dx) => { if (dx > 90) decide('approved'); else if (dx < -90) decide('rejected'); else { c.style.transition = 'transform .18s'; c.style.transform = ''; $('.stamp.k', c).style.opacity = 0; $('.stamp.d', c).style.opacity = 0; } }
       });
-      const up = e => {
-        if (!st) return; const dx = e.clientX - st.x; st = null;
-        if (dx > 90) decide('approved'); else if (dx < -90) decide('rejected');
-        else { c.style.transition = 'transform .18s'; c.style.transform = ''; $('.stamp.k', c).style.opacity = 0; $('.stamp.d', c).style.opacity = 0; }
-      };
-      c.addEventListener('pointerup', up); c.addEventListener('pointercancel', up);
       foot.appendChild(h('button', { type: 'button', class: 'd', onclick: () => decide('rejected') }, h('span', { class: 'x', text: '✗' }), 'Drop'));
       foot.appendChild(h('button', { type: 'button', class: 'nav', 'aria-label': 'Undo', text: '↶', disabled: done.length ? null : true, onclick: undo }));
       foot.appendChild(h('button', { type: 'button', class: 'nav', 'aria-label': 'Inspect', text: '⤢', onclick: () => openRoom([byId(queue[i])], 0) }));
@@ -589,7 +607,7 @@
       };
       drawStatus();
       body.appendChild(h('div', { class: 'settings' },
-        h('p', { text: 'Every tap is saved on this device at once. Twenty seconds after your last change it goes to Claude two ways - an instant channel he polls, and a copy to your own inbox - and again when you leave the page. Connect a GitHub token and it is also committed straight into the site repo.' }),
+        h('p', { text: 'Every tap is saved on this device at once and stays here until you press Send. Send delivers the lot order and every verdict to Claude two ways - an instant channel he polls, and a copy to your own inbox. Connect a GitHub token and it is also committed straight into the site repo.' }),
         status,
         h('div', { class: 'row' },
           h('button', { class: 'btn primary', type: 'button', text: 'Send to Claude now', onclick: () => { sendMail(false, true).then(() => { drawStatus(); toast(sent && sent.ok ? 'Sent' : 'Send failed · copy the summary instead'); }); } }),
@@ -626,14 +644,34 @@
       if (by.rejected.length) lines.push('drop: ' + by.rejected.join(', '));
       if (by.pending.length) lines.push('back to waiting: ' + by.pending.join(', '));
       (q.added || []).forEach(a => lines.push('add: ' + a.id + ' ← ' + a.src));
-      if (q.order) lines.push('order: ' + q.order.join(', ') + '  (first six go up)');
+      const ord = (D.kind === 'poster' && k === D.key) ? order() : q.order;
+      if (ord && ord.length) lines.push('order: ' + ord.join(', ') + '  (first six go up)');
     });
     if (lines.length <= 3 && !Object.keys(S.posters).length) lines.push('', 'no decisions yet');
     return lines.join('\n');
   }
   function scheduleSync() {
-    clearTimeout(sendTimer); sendTimer = setTimeout(() => sendMail(), 20000);
+    // founder 2026-09-04: "a button where I can press send instead of it being done every 20 sec" -
+    // nothing leaves the phone until he presses Send; only a connected GitHub token commits on its own
     if (token()) { clearTimeout(ghTimer); ghTimer = setTimeout(pushGithub, 3000); }
+    renderSendbar();
+  }
+  function unsentCount() {
+    let c = 0;
+    Object.keys(S.posters).forEach(k => { const q = S.posters[k]; c += Object.keys(q.verdicts || {}).length + (q.added || []).length + (q.sheet ? 1 : 0) + (q.order ? 1 : 0); });
+    return c;
+  }
+  function renderSendbar() {
+    let bar = $('#sendbar'); if (!bar) { bar = h('div', { id: 'sendbar', class: 'sendbar' }); document.body.appendChild(bar); }
+    bar.innerHTML = ''; document.body.classList.toggle('has-sendbar', !!dirty);
+    if (!dirty) { bar.classList.remove('on'); return; }
+    const c = unsentCount();
+    bar.appendChild(h('span', { class: 'sb-text' }, h('i', { class: 'dot' }), (c ? c + ' decision' + (c === 1 ? '' : 's') : 'Changes') + ' on this ' + S.device + ', not sent'));
+    bar.appendChild(h('button', { class: 'btn primary big', type: 'button', text: 'Send to Claude', onclick: () => {
+      bar.classList.add('busy');
+      sendMail(false, true).then(() => { bar.classList.remove('busy'); if (!(sent && sent.ok)) toast('Send failed · ' + ((sent && sent.err) || '') + ' · use Copy in Sync', { label: 'Sync', fn: openSettings }); });
+    } }));
+    bar.classList.add('on');
   }
   // Both mail relays choke on non-ASCII (FormSubmit answers 'Server Error' to any UTF-8 byte; header values must be Latin-1),
   // so everything that leaves the page is 7-bit: symbols mapped, the JSON with \uXXXX escapes (still valid JSON).
@@ -644,6 +682,7 @@
     // a local preview never posts on its own (FormSubmit would mail an activation request for the new origin); the Send button still works
     if (!manual && /^(localhost|127\.0\.0\.1)$/.test(location.hostname)) return Promise.resolve();
     clearTimeout(sendTimer);
+    if (D.kind === 'poster' && p) { const o = order(); if (!p.order || p.order.join() !== o.join() || !p.orderAt) { p.order = o; p.orderAt = nowISO(); try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { } } }
     const title = ascii('Lombardia board - ' + S.device + ' - ' + new Date().toLocaleString());
     const sum = ascii(summary()), json = asciiJSON(snapshot());
     const jobs = [];
@@ -659,7 +698,7 @@
     }
     return Promise.allSettled(jobs).then(function (rs) {
       const ok = rs.filter(r => r.status === 'fulfilled').map(r => r.value), bad = rs.filter(r => r.status === 'rejected').map(r => String(r.reason && r.reason.message || r.reason));
-      if (ok.length) { sent = { at: nowISO(), ok: true, via: ok.join('+'), warn: bad.join('; ') }; dirty = false; if (!keepalive) toast('Sent to Claude ✓' + (bad.length ? ' (' + ok.join('+') + ' only)' : '')); }
+      if (ok.length) { sent = { at: nowISO(), ok: true, via: ok.join('+'), warn: bad.join('; ') }; setDirty(false); if (!keepalive) toast('Sent to Claude ✓ · he has the order and every verdict' + (bad.length ? ' (' + ok.join('+') + ' only)' : '')); }
       else sent = { at: nowISO(), ok: false, err: bad.join('; ') || 'send failed' };
       try { localStorage.setItem(SENT, JSON.stringify(sent)); } catch (e) { } renderTitleblock();
     });
@@ -677,7 +716,7 @@
     }).then(r => { gh = { at: nowISO(), ok: r.ok, status: r.status }; }).catch(e => { gh = { at: nowISO(), ok: false, status: String(e.message || e) }; })
       .then(() => { try { localStorage.setItem(GH, JSON.stringify(gh)); } catch (e) { } renderTitleblock(); });
   }
-  const flush = function () { if (dirty) { sendMail(true); if (token()) pushGithub(); } };
+  const flush = function () { if (dirty && token()) pushGithub(); };
   document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') flush(); });
   window.addEventListener('pagehide', flush);
 
@@ -701,9 +740,10 @@
     row('Saved', [h('i', { class: 'dot ' + (S.savedAt ? 'ok' : '') }), (S.savedAt ? 'on this ' + S.device + ' · ' + hhmm(S.savedAt) : 'nothing decided yet')]);
     row('Sent', [h('i', { class: 'dot ' + (sent ? (sent.ok ? (dirty ? 'wait' : 'ok') : 'bad') : (dirty ? 'wait' : '')) }),
       sent ? (sent.ok ? 'to Claude · ' + hhmm(sent.at) + (sent.via ? ' · ' + sent.via : '') + (dirty ? ' · new changes queued' : '') : 'failed · ' + (sent.err || '')) : (dirty ? 'queued' : pendingLocal ? 'not yet' : '—'),
-      dirty ? h('button', { class: 'link', type: 'button', text: 'send now', onclick: () => { sendMail(false, true).then(() => toast(sent && sent.ok ? 'Sent to Claude' : 'Send failed')); } }) : null]);
+      null]);
     if (token()) row('GitHub', [h('i', { class: 'dot ' + (gh ? (gh.ok ? 'ok' : 'bad') : '') }), gh ? (gh.ok ? 'committed · ' + hhmm(gh.at) : 'failed · ' + gh.status) : 'connected']);
     row('Built', D.built || '');
+    renderSendbar();
     const g = $('#btn-settings');
     if (g) { g.innerHTML = ''; g.appendChild(h('i', { class: 'dot ' + (dirty ? 'wait' : sent ? (sent.ok ? 'ok' : 'bad') : '') })); g.appendChild(document.createTextNode('Sync')); g.title = dirty ? 'changes queued' : sent ? (sent.ok ? 'sent ' + hhmm(sent.at) : 'send failed') : 'nothing to send'; }
   }
