@@ -1,0 +1,85 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rules · Lombardia Automobili</title>
+<link rel="stylesheet" href="kit.css"><link rel="stylesheet" href="board.css">
+<style>
+nav.top{display:flex;gap:18px;align-items:baseline;margin:0 0 18px;font-family:"IBM Plex Sans Condensed",sans-serif;text-transform:uppercase;letter-spacing:.14em;font-size:12px}
+nav.top a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px} nav.top a.on{color:var(--ink);border-color:var(--ink)}
+nav.top .brand{margin-right:auto;color:var(--ink);font-weight:700}
+table.pipe{width:100%;border-collapse:collapse;font-size:14px;margin-top:18px} table.pipe th,table.pipe td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+table.pipe th{font-family:"IBM Plex Sans Condensed",sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:11px;color:var(--ink-2)}
+.folio{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.08em;color:var(--blue)}
+.chip{display:inline-block;font-family:"IBM Plex Sans Condensed",sans-serif;font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:3px 8px;border:1px solid var(--rule);border-radius:2px}
+.chip.ok{color:var(--keep);border-color:var(--keep)} .chip.wait{color:var(--warn);border-color:var(--warn)} .chip.no{color:var(--ink-2);text-decoration:line-through}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:14px} .grid figure{margin:0} .grid img{width:100%;height:auto;display:block;border:1px solid var(--rule)}
+.grid figcaption{font-size:12.5px;color:var(--ink-2);margin-top:6px;line-height:1.45} .grid figcaption b{color:var(--ink);font-weight:600}
+h2{font-family:"IBM Plex Sans Condensed",sans-serif;text-transform:uppercase;letter-spacing:.08em;font-size:20px;margin:34px 0 4px} h3{font-size:16px;margin:26px 0 2px}
+.md{max-width:72ch} .md h2{margin-top:28px} .md code{font-family:"IBM Plex Mono",monospace;font-size:13px} .md blockquote{border-left:2px solid var(--rule);margin:0;padding:0 0 0 14px;color:var(--ink-2)}
+.next{font-size:13px;color:var(--ink-2)} .kv{font-size:14px} .kv b{font-weight:600}
+pre.copy{white-space:pre-wrap;font:13px/1.5 "IBM Plex Mono",monospace;border:1px solid var(--rule-soft);padding:12px;background:var(--paper-2)}
+</style></head><body><div class="sheet"><div class="frame"><div class="inner">
+<nav class="top"><span class="brand">Lombardia Automobili</span><a href="index.html">Pipeline</a><a href="house.html">The house</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav>
+<div class="eyebrow">Standing rules</div><h1>Rules</h1><p class="deck">Each one was paid for with a rejection. <code>lombardia/RULES.md</code> is the file; this is its rendering.</p><div class="headrule"></div><div class="md"><h1>Lombardia Automobili - standing rules from the founder</h1>
+<p>Each rule was paid for with a rejection. Read before any lot photo, mockup or scene work.</p>
+<h2>1. Never paste a flat file onto a generated photograph (2026-09-03)</h2>
+<p>Banned, permanently, for every kind of lot photo, mockup or scene: compositing the poster file
+onto a generated image by homography, opaque swap into the field the model painted, luminance
+gain, drop shadow, cut-paper edge, pasting into a rendered frame opening - any variant.</p>
+<p>Founder, on 542 / 311 / 323 and "many, many others": "You just put something on top of the
+generated photo and you totally mess up the lighting, the angles, it's just slop. On the photos
+where the poster hangs on a hanger or something it's just so obvious: paste, paste in photo on
+top. Never do it again. Do it smart. Find a solution."</p>
+<p>What stands instead: the image model renders the print inside the scene, so light, angle, paper,
+clips, tape and hands are all one photograph. Our job is to feed it the true sheet at the highest
+resolution the API takes and to MEASURE how faithful its rendering is (<code>fidelity.py</code>), so the
+founder judges from evidence. The true file itself is shown only flat: the hero (01) and the
+native crops (03, 05, 06).</p>
+<p>Retired code and outputs: <code>_attic/BLACKLISTED-paste-2026-09-03/</code> (WHY.md inside).</p>
+<p><strong>One named exception (founder, 2026-09-04): the noir wall.</strong> He kept 501 - the bare sheet hung on the
+dark <code>rooms-ref/noir.png</code> wall by <code>noir.py</code> + <code>hangreal.py</code> at 68 % of the panel - "absolutely love".
+That one recipe stays in the set. Nothing else pasted, ever.</p>
+<p><strong>Amendment, same night, in his words:</strong> "In order for it to work the picture has to be layered.
+You put the picture you want and then you layer on top - tape, a person - so it doesn't look like
+an obvious paste into a 2D image." So the one composite that is allowed is the LAYERED build,
+<code>layers.py</code>: the true sheet goes UNDER the model's light (illumination lifted from the model's
+own rendering, full strength) and UNDER every occluder (tape, clip, fingers, a shoulder, a head,
+matted out of the photo and laid back on top), with its geometry locked to where the model put
+the paper by feature matches, and sharpness and grain matched to the photo. Anything that puts
+the sheet ON TOP of the photograph is still the banned paste. The founder judges whether a
+layered result passes; nothing is pre-picked.</p>
+<h2>2. Never warp a poster onto a generated empty table or board (2026-09-03)</h2>
+<p>The "desk boards" - a generated empty white table at a known angle with the poster projected on
+by homography. "Absolutely hated." Retired to <code>_attic/BLACKLISTED-desk-boards-2026-09-03/</code>.
+Rule 1 covers it as well; it is listed on its own because it was hated on its own.</p>
+<h2>3. All materials go to the founder unpicked (2026-09-03)</h2>
+<p>"Gimme all the materials to approve first, I can't trust your opinion on this." Every output,
+including rejects, on the board, labelled. Measurements beside them are welcome; a shortlist is not.</p>
+<h2>4. Spend needs his go, quoted from estimate-cost, every time</h2>
+<p>Unchanged. See the memory <code>media-generation-spend-rule</code>.</p>
+<h2>5. Every generation gets as many high-quality references as the model takes (2026-09-04)</h2>
+<p>Founder: "for each corner or detail you have to give, and it is a broad rule for any generation
+actually: you just give as many high-quality references as you can." So: read the model's
+<code>images_list</code> limit (<code>GET /models/&lt;name&gt;</code> schema; pro-edit 8, nano-banana-2-edit 14) and fill it -
+the whole sheet, the exact region, a tighter crop of it, the elements in it, the collections
+around it, a mood photo last. Never one small preview when the API takes eight full crops.</p>
+<h2>6. What a lot macro is (2026-09-04)</h2>
+<p>A corner of the print, a third of the sheet in frame, camera about a metre up: ONE thin sheet of
+paper on a white table, full bleed to the cut edge, hairline edge, no board, no mount, no white
+border, nothing else on the table (a pencil at true scale at most). "Thick like cardboard" and "a
+white frame" were the round-1 rejections.</p>
+<h2>7. What the house showcase is (2026-09-04)</h2>
+<p>The real studio mix - engineering sheets AND nativo (campo, editoriale, pianta on every ground) AND
+the style studies - a random mix, one or two big in the middle, different ones on the sides, like
+an exhibition hang. Half the shots with no people. Shot like a professional interiors photographer:
+full-frame camera, prime lens, level horizon, some blur. "You didn't use the mix from the studio"
+was the round-1 rejection.</p>
+<h2>8. The pipeline has two gates and both are the founder's (2026-09-04)</h2>
+<p>"First I'd have to approve manually the poster that goes through the lot pipeline so there is no
+waste on generations of bad posters." So <code>lotset.py build</code> refuses until <code>approve-sheet</code> has
+recorded his words, and nothing goes to Catawiki until he has approved each shot on the board.
+The set itself is fixed: flat truth, four corner macros, table hero flat and side, clips wall raw
+and layered, noir wall, plus the three house photographs. Change the set only on his word.</p>
+<h2>9. The site is the workplace, nothing else lives on it (2026-09-04)</h2>
+<p>"Perfect structure for work, no junk or garbage, well designed workplace." One pipeline index,
+one page per poster, the house, the rules, and a Lab page that only links the tools that make a
+sheet. Experiments, rejects and contact sheets never reach the site; the attic keeps them.</p></div>
+</div></div></div></body></html>

@@ -1,28 +1,34 @@
-<!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Lombardia Automobili</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@400;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
-<link rel="stylesheet" href="board.css">
-<style>:root{--ground:#133b6f;--deep:#0d2b52;--ink:#efe9d8}</style>
-</head><body class="board">
-<div class="wrap">
-<p class="eyebrow">Lombardia Automobili</p>
-<div class="tiles">
-  <a class="tile" href="collection/tecnico.html" style="--tile:#0d2b52">
-    <img src="img/cover-tecnico.jpg" alt="Archivio Tecnico">
-    <h2>Archivio Tecnico</h2>
-    <p class="sub">4 in review · 1 archivio</p>
-  </a>
-  <a class="tile" href="collection/ossido.html" style="--tile:#5e1517">
-    <img src="img/cover-ossido.jpg" alt="Ossido">
-    <h2>Ossido</h2>
-    <p class="sub">1 in review · 0 archivio</p>
-  </a>
-</div>
-<p class="studio-row"><a class="btn" href="studio.html">Studio</a> <a class="btn" href="house/index.html">House &middot; 03 Sep</a></p>
-</div>
-</body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pipeline · Lombardia Automobili</title>
+<link rel="stylesheet" href="kit.css"><link rel="stylesheet" href="board.css">
+<style>
+nav.top{display:flex;gap:18px;align-items:baseline;margin:0 0 18px;font-family:"IBM Plex Sans Condensed",sans-serif;text-transform:uppercase;letter-spacing:.14em;font-size:12px}
+nav.top a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px} nav.top a.on{color:var(--ink);border-color:var(--ink)}
+nav.top .brand{margin-right:auto;color:var(--ink);font-weight:700}
+table.pipe{width:100%;border-collapse:collapse;font-size:14px;margin-top:18px} table.pipe th,table.pipe td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+table.pipe th{font-family:"IBM Plex Sans Condensed",sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:11px;color:var(--ink-2)}
+.folio{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.08em;color:var(--blue)}
+.chip{display:inline-block;font-family:"IBM Plex Sans Condensed",sans-serif;font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:3px 8px;border:1px solid var(--rule);border-radius:2px}
+.chip.ok{color:var(--keep);border-color:var(--keep)} .chip.wait{color:var(--warn);border-color:var(--warn)} .chip.no{color:var(--ink-2);text-decoration:line-through}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:14px} .grid figure{margin:0} .grid img{width:100%;height:auto;display:block;border:1px solid var(--rule)}
+.grid figcaption{font-size:12.5px;color:var(--ink-2);margin-top:6px;line-height:1.45} .grid figcaption b{color:var(--ink);font-weight:600}
+h2{font-family:"IBM Plex Sans Condensed",sans-serif;text-transform:uppercase;letter-spacing:.08em;font-size:20px;margin:34px 0 4px} h3{font-size:16px;margin:26px 0 2px}
+.md{max-width:72ch} .md h2{margin-top:28px} .md code{font-family:"IBM Plex Mono",monospace;font-size:13px} .md blockquote{border-left:2px solid var(--rule);margin:0;padding:0 0 0 14px;color:var(--ink-2)}
+.next{font-size:13px;color:var(--ink-2)} .kv{font-size:14px} .kv b{font-weight:600}
+pre.copy{white-space:pre-wrap;font:13px/1.5 "IBM Plex Mono",monospace;border:1px solid var(--rule-soft);padding:12px;background:var(--paper-2)}
+</style></head><body><div class="sheet"><div class="frame"><div class="inner">
+<nav class="top"><span class="brand">Lombardia Automobili</span><a href="index.html" class=on>Pipeline</a><a href="house.html">The house</a><a href="rules.html">Rules</a><a href="lab.html">Lab</a></nav>
+<div class="eyebrow">Pipeline · the founder approves twice</div>
+<h1>Posters</h1>
+<p class="deck">A poster is approved by the founder before a dollar is spent on its photos, and each photo is approved by him before it is uploaded. Everything on this site is either approved or waiting for him; nothing else is kept.</p>
+<div class="headrule"></div>
+<table class="pipe"><tr><th>Folio</th><th>Poster</th><th>Stage</th><th>Set</th><th>Next</th></tr><tr><td class="folio">TAV. II</td><td><a href="posters/f40-ossido.html"><b>Ferrari F40</b></a><br><span class="next">Ossido</span></td><td><span class="chip ok">set approved</span></td><td>21 approved</td><td class="next">catawiki-upload in the founder&#x27;s Chrome, then Submit is his</td></tr></table>
+
+<h2>The stages</h2>
+<table class="pipe"><tr><td class="folio">1</td><td><b>sheet awaiting approval</b></td><td class="next">run sheet.py, then the founder approves the poster</td></tr><tr><td class="folio">2</td><td><b>sheet approved</b></td><td class="next">python lotset.py build &lt;car&gt; &lt;coll&gt; --go</td></tr><tr><td class="folio">3</td><td><b>set generated, founder choosing</b></td><td class="next">the founder approves or rejects each shot on this page</td></tr><tr><td class="folio">4</td><td><b>set approved</b></td><td class="next">catawiki-upload in the founder&#x27;s Chrome, then Submit is his</td></tr><tr><td class="folio">5</td><td><b>drafted on Catawiki</b></td><td class="next">the founder presses Submit</td></tr><tr><td class="folio">6</td><td><b>live</b></td><td class="next">watch the auction</td></tr></table>
+<h2>The set every poster gets</h2>
+<table class="pipe"><tr><td><b>flat-truth</b></td><td class="next">the true file, flat</td></tr><tr><td><b>macro-v2</b></td><td class="next">corner macro · thin paper, full bleed, nothing on the table</td></tr><tr><td><b>hero</b></td><td class="next">table hero · same table and light</td></tr><tr><td><b>clips-rail</b></td><td class="next">unframed on a rail, model-rendered</td></tr><tr><td><b>clips-rail-layered</b></td><td class="next">unframed on a rail, layered build (true sheet under the light and the clips)</td></tr><tr><td><b>noir-wall</b></td><td class="next">bare sheet on the dark noir wall · founder's exception to rule 1</td></tr>
+<tr><td><b>house</b></td><td class="next">three showcase photographs of the design house, shared by every lot</td></tr></table>
+<p class="next">Price per poster on 2026-09-04 rates: corner macros $1.92, table hero $0.96, clips wall $0.36; the flat truth and the noir wall are free. About $3.24 a poster.</p>
+
+</div></div></div></body></html>

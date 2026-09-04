@@ -1,0 +1,29 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The house · Lombardia Automobili</title>
+<link rel="stylesheet" href="kit.css"><link rel="stylesheet" href="board.css">
+<style>
+nav.top{display:flex;gap:18px;align-items:baseline;margin:0 0 18px;font-family:"IBM Plex Sans Condensed",sans-serif;text-transform:uppercase;letter-spacing:.14em;font-size:12px}
+nav.top a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px} nav.top a.on{color:var(--ink);border-color:var(--ink)}
+nav.top .brand{margin-right:auto;color:var(--ink);font-weight:700}
+table.pipe{width:100%;border-collapse:collapse;font-size:14px;margin-top:18px} table.pipe th,table.pipe td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+table.pipe th{font-family:"IBM Plex Sans Condensed",sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:11px;color:var(--ink-2)}
+.folio{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.08em;color:var(--blue)}
+.chip{display:inline-block;font-family:"IBM Plex Sans Condensed",sans-serif;font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:3px 8px;border:1px solid var(--rule);border-radius:2px}
+.chip.ok{color:var(--keep);border-color:var(--keep)} .chip.wait{color:var(--warn);border-color:var(--warn)} .chip.no{color:var(--ink-2);text-decoration:line-through}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:14px} .grid figure{margin:0} .grid img{width:100%;height:auto;display:block;border:1px solid var(--rule)}
+.grid figcaption{font-size:12.5px;color:var(--ink-2);margin-top:6px;line-height:1.45} .grid figcaption b{color:var(--ink);font-weight:600}
+h2{font-family:"IBM Plex Sans Condensed",sans-serif;text-transform:uppercase;letter-spacing:.08em;font-size:20px;margin:34px 0 4px} h3{font-size:16px;margin:26px 0 2px}
+.md{max-width:72ch} .md h2{margin-top:28px} .md code{font-family:"IBM Plex Mono",monospace;font-size:13px} .md blockquote{border-left:2px solid var(--rule);margin:0;padding:0 0 0 14px;color:var(--ink-2)}
+.next{font-size:13px;color:var(--ink-2)} .kv{font-size:14px} .kv b{font-weight:600}
+pre.copy{white-space:pre-wrap;font:13px/1.5 "IBM Plex Mono",monospace;border:1px solid var(--rule-soft);padding:12px;background:var(--paper-2)}
+</style></head><body><div class="sheet"><div class="frame"><div class="inner">
+<nav class="top"><span class="brand">Lombardia Automobili</span><a href="index.html">Pipeline</a><a href="house.html" class=on>The house</a><a href="rules.html">Rules</a><a href="lab.html">Lab</a></nav>
+<div class="eyebrow">The house</div>
+<h1>Lombardia Automobili</h1>
+<p class="deck">Three photographs of the design house, approved 2026-09-04, that travel with every lot: the team at the table spread, and the wall of works on a fast lens, twice. Model-rendered from the house's own sheets, nativo posters, style studies and collections; nothing pasted.</p>
+<div class="headrule"></div>
+<div class="grid" style="grid-template-columns:1fr"><figure><a href="img/board/house-nb2-p2-1.jpg?v=1788486760"><img src="img/board/house-nb2-p2-1.jpg?v=1788486760" alt="nb2-p2-1"></a><figcaption><b>nb2-p2-1</b> · two designers at the table spread · nano-banana-2-edit · <span class="chip ok">approved</span></figcaption></figure><figure><a href="img/board/house-nb2-n4-1.jpg?v=1788486760"><img src="img/board/house-nb2-n4-1.jpg?v=1788486760" alt="nb2-n4-1"></a><figcaption><b>nb2-n4-1</b> · no people, along the wall, fast lens · nano-banana-2-edit · <span class="chip ok">approved</span></figcaption></figure><figure><a href="img/board/house-pro-n4-1.jpg?v=1788486760"><img src="img/board/house-pro-n4-1.jpg?v=1788486760" alt="pro-n4-1"></a><figcaption><b>pro-n4-1</b> · no people, along the wall, fast lens · nano-banana-pro-edit · <span class="chip ok">approved</span></figcaption></figure></div>
+<h2>How they were made</h2>
+<p class="next"><code>gen-showcase.mjs --set=v2</code> with four reference boards (<code>showcase/refs-v2/</code>: engineering sheets, nativo, style studies, collections) and nine singles; nano-banana-2-edit with all fourteen references, nano-banana-pro-edit with eight. Regenerate only when the archive changes enough to deserve it; the founder picks.</p>
+
+</div></div></div></body></html>
