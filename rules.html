@@ -1,24 +1,15 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Rules · Lombardia Automobili</title>
-<link rel="icon" href="data:,"><link rel="stylesheet" href="kit.css"><link rel="stylesheet" href="board.css">
-<style>
-nav.top{display:flex;gap:18px;align-items:baseline;margin:0 0 18px;font-family:"IBM Plex Sans Condensed",sans-serif;text-transform:uppercase;letter-spacing:.14em;font-size:12px}
-nav.top a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px} nav.top a.on{color:var(--ink);border-color:var(--ink)}
-nav.top .brand{margin-right:auto;color:var(--ink);font-weight:700}
-table.pipe{width:100%;border-collapse:collapse;font-size:14px;margin-top:18px} table.pipe th,table.pipe td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
-table.pipe th{font-family:"IBM Plex Sans Condensed",sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:11px;color:var(--ink-2)}
-.folio{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.08em;color:var(--blue)}
-.chip{display:inline-block;font-family:"IBM Plex Sans Condensed",sans-serif;font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:3px 8px;border:1px solid var(--rule);border-radius:2px}
-.chip.ok{color:var(--keep);border-color:var(--keep)} .chip.wait{color:var(--warn);border-color:var(--warn)} .chip.no{color:var(--ink-2);text-decoration:line-through}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:14px} .grid figure{margin:0} .grid img{width:100%;height:auto;display:block;border:1px solid var(--rule)}
-.grid figcaption{font-size:12.5px;color:var(--ink-2);margin-top:6px;line-height:1.45} .grid figcaption b{color:var(--ink);font-weight:600}
-h2{font-family:"IBM Plex Sans Condensed",sans-serif;text-transform:uppercase;letter-spacing:.08em;font-size:20px;margin:34px 0 4px} h3{font-size:16px;margin:26px 0 2px}
-.md{max-width:72ch} .md h2{margin-top:28px} .md code{font-family:"IBM Plex Mono",monospace;font-size:13px} .md blockquote{border-left:2px solid var(--rule);margin:0;padding:0 0 0 14px;color:var(--ink-2)}
-.next{font-size:13px;color:var(--ink-2)} .kv{font-size:14px} .kv b{font-weight:600}
-pre.copy{white-space:pre-wrap;font:13px/1.5 "IBM Plex Mono",monospace;border:1px solid var(--rule-soft);padding:12px;background:var(--paper-2)}
-</style></head><body><div class="sheet"><div class="frame"><div class="inner">
-<nav class="top"><span class="brand">Lombardia Automobili</span><a href="index.html">Pipeline</a><a href="house.html">The house</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav>
-<div class="eyebrow">Standing rules</div><h1>Rules</h1><p class="deck">Each one was paid for with a rejection. <code>lombardia/RULES.md</code> is the file; this is its rendering.</p><div class="headrule"></div><div class="md"><h1>Lombardia Automobili - standing rules from the founder</h1>
+<meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="board/board.css?v=1788494488">
+</head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
+<header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
+<nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
+<main class="sheet"><i class="reg tl"></i><i class="reg tr"></i><i class="reg bl"></i><i class="reg br"></i>
+<div class="crumbs"><span class="tinted">Standing rules</span></div><h1>Rules</h1><p class="deck">Each one was paid for with a rejection. <code>lombardia/RULES.md</code> is the file; this is its rendering.</p><section class="sec"><div class="md"><h1>Lombardia Automobili - standing rules from the founder</h1>
 <p>Each rule was paid for with a rejection. Read before any lot photo, mockup or scene work.</p>
 <h2>1. Never paste a flat file onto a generated photograph (2026-09-03)</h2>
 <p>Banned, permanently, for every kind of lot photo, mockup or scene: compositing the poster file
@@ -81,5 +72,10 @@ and layered, noir wall, plus the three house photographs. Change the set only on
 <h2>9. The site is the workplace, nothing else lives on it (2026-09-04)</h2>
 <p>"Perfect structure for work, no junk or garbage, well designed workplace." One pipeline index,
 one page per poster, the house, the rules, and a Lab page that only links the tools that make a
-sheet. Experiments, rejects and contact sheets never reach the site; the attic keeps them.</p></div>
-</div></div></div></body></html>
+sheet. Experiments, rejects and contact sheets never reach the site; the attic keeps them.</p></div></section>
+<aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
+</main>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-04 06:01", "cfg": {}}</script>
+<script src="board/board.js?v=1788494488"></script>
+</body></html>
