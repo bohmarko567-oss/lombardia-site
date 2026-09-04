@@ -359,6 +359,7 @@
       if (sheetPending) card(x.name, x.collLabel + ' · the sheet waits for your word', 'Approve the sheet', 'posters/' + x.key + '.html#sheet');
       if (c.pending) card(x.name, x.collLabel + ' · ' + c.pending + ' shots waiting', 'Review ' + c.pending, 'posters/' + x.key + '.html#review');
       else if (x.stageIdx === 3) card(x.name, x.collLabel + ' · ' + c.approved + ' kept, order set, files zipped', 'Ready to post', 'posters/' + x.key + '.html#sec-post');
+      else if (x.stageIdx === 4 && x.lot) card(x.name, x.collLabel + ' · drafted on Catawiki as lot ' + x.lot + ' · Submit is yours', 'Submit on Catawiki', 'https://www.catawiki.com/en/v/lot/' + x.lot + '/edit');
       else if (c.approved >= 4 && x.stageIdx < 3) card(x.name, x.collLabel + ' · ' + c.approved + ' kept, order set', 'Check the order', 'posters/' + x.key + '.html#order');
     });
   }
