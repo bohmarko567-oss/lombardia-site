@@ -584,12 +584,12 @@
       const drawStatus = function () {
         status.innerHTML = '';
         status.appendChild(h('div', { html: 'Saved on this ' + S.device + ': <b>' + dmy(S.savedAt) + '</b>' }));
-        status.appendChild(h('div', { html: 'Sent to Claude: <b>' + (sent ? (sent.ok ? dmy(sent.at) : 'failed ' + dmy(sent.at) + ' · ' + (sent.err || '')) : 'never') + '</b>' + (dirty ? ' · changes waiting' : '') }));
+        status.appendChild(h('div', { html: 'Sent to Claude: <b>' + (sent ? (sent.ok ? dmy(sent.at) + (sent.via ? ' via ' + sent.via : '') : 'failed ' + dmy(sent.at) + ' · ' + (sent.err || '')) : 'never') + '</b>' + (dirty ? ' · changes waiting' : '') }));
         status.appendChild(h('div', { html: 'GitHub: <b>' + (token() ? (gh ? (gh.ok ? 'committed ' + dmy(gh.at) : 'failed ' + gh.status + ' ' + dmy(gh.at)) : 'connected, nothing committed yet') : 'not connected') + '</b>' }));
       };
       drawStatus();
       body.appendChild(h('div', { class: 'settings' },
-        h('p', { text: 'Every tap is saved on this device at once. Twenty seconds after your last change it is posted to your inbox for Claude, and again when you leave the page. Connect a GitHub token and it is also committed straight into the site repo.' }),
+        h('p', { text: 'Every tap is saved on this device at once. Twenty seconds after your last change it goes to Claude two ways - an instant channel he polls, and a copy to your own inbox - and again when you leave the page. Connect a GitHub token and it is also committed straight into the site repo.' }),
         status,
         h('div', { class: 'row' },
           h('button', { class: 'btn primary', type: 'button', text: 'Send to Claude now', onclick: () => { sendMail(false, true).then(() => { drawStatus(); toast(sent && sent.ok ? 'Sent' : 'Send failed · copy the summary instead'); }); } }),
@@ -635,19 +635,34 @@
     clearTimeout(sendTimer); sendTimer = setTimeout(() => sendMail(), 20000);
     if (token()) { clearTimeout(ghTimer); ghTimer = setTimeout(pushGithub, 3000); }
   }
+  // Both mail relays choke on non-ASCII (FormSubmit answers 'Server Error' to any UTF-8 byte; header values must be Latin-1),
+  // so everything that leaves the page is 7-bit: symbols mapped, the JSON with \uXXXX escapes (still valid JSON).
+  function ascii(t) { return String(t).replace(/·/g, '-').replace(/←/g, '<-').replace(/→/g, '->').replace(/[✓✔]/g, 'OK').replace(/[✗✘×]/g, 'X').replace(/[“”«»]/g, '"').replace(/[‘’]/g, "'").replace(/…/g, '...').replace(/[–—]/g, '-').replace(/[^\x00-\x7f]/g, '?'); }
+  function asciiJSON(o) { return JSON.stringify(o).replace(/[\u007f-\uffff]/g, c => '\\u' + ('0000' + c.charCodeAt(0).toString(16)).slice(-4)); }
   function sendMail(keepalive, manual) {
-    if (!D.cfg || !D.cfg.form || !dirty) return Promise.resolve();
+    if (!D.cfg || !dirty || !(D.cfg.form || D.cfg.ntfy)) return Promise.resolve();
     // a local preview never posts on its own (FormSubmit would mail an activation request for the new origin); the Send button still works
     if (!manual && /^(localhost|127\.0\.0\.1)$/.test(location.hostname)) return Promise.resolve();
     clearTimeout(sendTimer);
-    // form-encoded on purpose: FormSubmit drops the fields and the subject from JSON bodies (tested 2026-09-04)
-    const body = new URLSearchParams({ _subject: 'Lombardia board · ' + S.device + ' · ' + new Date().toLocaleString(), summary: summary(), decisions: JSON.stringify(snapshot()) });
-    return fetch(D.cfg.form, { method: 'POST', keepalive: !!keepalive, headers: { 'Accept': 'application/json' }, body: body })
-      .then(r => r.json()).then(function (j) {
-        if (j && (j.success === 'true' || j.success === true)) { sent = { at: nowISO(), ok: true }; dirty = false; if (!keepalive) toast('Sent to Claude ✓'); }
-        else throw new Error((j && j.message) || 'send failed');
-      }).catch(function (e) { sent = { at: nowISO(), ok: false, err: String(e.message || e) }; })
-      .then(function () { try { localStorage.setItem(SENT, JSON.stringify(sent)); } catch (e) { } renderTitleblock(); });
+    const title = ascii('Lombardia board - ' + S.device + ' - ' + new Date().toLocaleString());
+    const sum = ascii(summary()), json = asciiJSON(snapshot());
+    const jobs = [];
+    if (D.cfg.ntfy) {
+      // ntfy.sh: the summary as the message (kept 12 h), the JSON as an attachment (kept 3 h); python lotset.py inbox reads both
+      jobs.push(fetch(D.cfg.ntfy, { method: 'POST', keepalive: !!keepalive, headers: { 'Title': title, 'Tags': 'clipboard' }, body: sum }).then(r => r.ok ? 'ntfy' : Promise.reject(new Error('ntfy ' + r.status)))
+        .then(v => fetch(D.cfg.ntfy, { method: 'PUT', keepalive: !!keepalive, headers: { 'Filename': 'decisions.json', 'Title': title }, body: json }).then(() => v, () => v)));
+    }
+    if (D.cfg.form) {
+      // form-encoded on purpose: FormSubmit drops the fields and the subject from JSON bodies (tested 2026-09-04)
+      jobs.push(fetch(D.cfg.form, { method: 'POST', keepalive: !!keepalive, headers: { 'Accept': 'application/json' }, body: new URLSearchParams({ _subject: title, summary: sum, decisions: json }) })
+        .then(r => r.json()).then(j => (j && (j.success === 'true' || j.success === true)) ? 'mail' : Promise.reject(new Error((j && j.message) || 'mail failed'))));
+    }
+    return Promise.allSettled(jobs).then(function (rs) {
+      const ok = rs.filter(r => r.status === 'fulfilled').map(r => r.value), bad = rs.filter(r => r.status === 'rejected').map(r => String(r.reason && r.reason.message || r.reason));
+      if (ok.length) { sent = { at: nowISO(), ok: true, via: ok.join('+'), warn: bad.join('; ') }; dirty = false; if (!keepalive) toast('Sent to Claude ✓' + (bad.length ? ' (' + ok.join('+') + ' only)' : '')); }
+      else sent = { at: nowISO(), ok: false, err: bad.join('; ') || 'send failed' };
+      try { localStorage.setItem(SENT, JSON.stringify(sent)); } catch (e) { } renderTitleblock();
+    });
   }
   function pushGithub() {
     const tk = token(); if (!tk || !D.cfg || !D.cfg.repo) return Promise.resolve();
@@ -685,7 +700,7 @@
     const pendingLocal = Object.keys(S.posters).some(k => { const q = S.posters[k]; return Object.keys(q.verdicts || {}).length || (q.added || []).length || q.sheet || q.order; });
     row('Saved', [h('i', { class: 'dot ' + (S.savedAt ? 'ok' : '') }), (S.savedAt ? 'on this ' + S.device + ' · ' + hhmm(S.savedAt) : 'nothing decided yet')]);
     row('Sent', [h('i', { class: 'dot ' + (sent ? (sent.ok ? (dirty ? 'wait' : 'ok') : 'bad') : (dirty ? 'wait' : '')) }),
-      sent ? (sent.ok ? 'to Claude · ' + hhmm(sent.at) + (dirty ? ' · new changes queued' : '') : 'failed · ' + (sent.err || '')) : (dirty ? 'queued' : pendingLocal ? 'not yet' : '—'),
+      sent ? (sent.ok ? 'to Claude · ' + hhmm(sent.at) + (sent.via ? ' · ' + sent.via : '') + (dirty ? ' · new changes queued' : '') : 'failed · ' + (sent.err || '')) : (dirty ? 'queued' : pendingLocal ? 'not yet' : '—'),
       dirty ? h('button', { class: 'link', type: 'button', text: 'send now', onclick: () => { sendMail(false, true).then(() => toast(sent && sent.ok ? 'Sent to Claude' : 'Send failed')); } }) : null]);
     if (token()) row('GitHub', [h('i', { class: 'dot ' + (gh ? (gh.ok ? 'ok' : 'bad') : '') }), gh ? (gh.ok ? 'committed · ' + hhmm(gh.at) : 'failed · ' + gh.status) : 'connected']);
     row('Built', D.built || '');
