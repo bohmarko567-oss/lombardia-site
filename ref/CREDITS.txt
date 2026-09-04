@@ -1,0 +1,32 @@
+Lombardia Automobili - reference photographs used as image-model inputs only (never printed or sold).
+Source: Wikimedia Commons. Each line: local file | title | author | licence | page.
+
+ref-countach-1.jpg | File:Rétromobile 2017 - Lamborghini Countach LP400 «Periscopica» - 1975 - 001.jpg | Thesupermat | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:R%C3%A9tromobile_2017_-_Lamborghini_Countach_LP400_%C2%ABPeriscopica%C2%BB_-_1975_-_001.jpg
+ref-countach-2.jpg | File:1974 Lamborghini Countach LP400 at Grand basel 2018 (Ank Kumar) 01.jpg | Ank Kumar | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:1974_Lamborghini_Countach_LP400_at_Grand_basel_2018_(Ank_Kumar)_01.jpg
+ref-countach-3.jpg | File:Lamborghini Logo.jpg | Tyler de Noche | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Lamborghini_Logo.jpg
+ref-countach-4.jpg | File:Rétromobile 2017 - Lamborghini Countach LP400 «Periscopica» - 1975 - 003.jpg | Thesupermat | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:R%C3%A9tromobile_2017_-_Lamborghini_Countach_LP400_%C2%ABPeriscopica%C2%BB_-_1975_-_003.jpg
+ref-countach-5.jpg | File:Lamborghini Countach LP 400 Periscopio (1975) (52866385009).jpg | Charles from Port Chester, New York | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Lamborghini_Countach_LP_400_Periscopio_(1975)_(52866385009).jpg
+ref-countach-6.jpg | File:Lamborghini Countach LP400, TC 24, Essen (TCE42917).jpg | Matti Blume | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Lamborghini_Countach_LP400,_TC_24,_Essen_(TCE42917).jpg
+ref-countach-7.jpg | File:1976 Lamborghini Countach LP400 Periscopio.jpg | MrWalkr | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:1976_Lamborghini_Countach_LP400_Periscopio.jpg
+ref-countach-8.jpg | File:0 Lamborghini Countach LP400 1.jpg | Benespit | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:0_Lamborghini_Countach_LP400_1.jpg
+ref-countach-9.jpg | File:Lamborghini Countach LP400, TC 24, Essen (TCE42908).jpg | Matti Blume | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Lamborghini_Countach_LP400,_TC_24,_Essen_(TCE42908).jpg
+f40-rear-cc0.jpg | File:1990 Ferrari F40 rear.jpg | TTTNIS | CC0 | https://commons.wikimedia.org/wiki/File:1990_Ferrari_F40_rear.jpg
+f40-badge-ccbysa.jpg | File:1990 Ferrari F40 2.jpg | Fishyfool | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:1990_Ferrari_F40_2.jpg
+f40-rear-police.jpg | File:Ferrari F40 - rear and police (Crown Casino, Melbourne, Australia, 3 March 2007).jpg | The original uploader was 98octane at English Wikipedia. | CC BY 2.5 | https://commons.wikimedia.org/wiki/File:Ferrari_F40_-_rear_and_police_(Crown_Casino,_Melbourne,_Australia,_3_March_2007).jpg
+ref-miura-1.jpg | File:1967 Lamborghini Miura P400.jpg | Calreyn88 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:1967_Lamborghini_Miura_P400.jpg
+ref-miura-2.jpg | File:Lamborghini Miura P400 (1967) (52965084911).jpg | Charles from Port Chester, New York | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Lamborghini_Miura_P400_(1967)_(52965084911).jpg
+ref-miura-3.jpg | File:Miura dettaglio faro.jpg | Vllmtt | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Miura_dettaglio_faro.jpg
+ref-miura-4.jpg | File:"Eyelashes" (5482889601).jpg | Shane K from Mississauga, Canada | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:%22Eyelashes%22_(5482889601).jpg
+ref-miura-5.jpg | File:Lamborghini logo - panoramio.jpg | appmood | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Lamborghini_logo_-_panoramio.jpg
+ref-miura-6.jpg | File:Lamborghini Miura P400 (1967) (52965465605).jpg | Charles from Port Chester, New York | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Lamborghini_Miura_P400_(1967)_(52965465605).jpg
+ref-miura-7.jpg | File:Lamborghini Miura P400 (1967) (52965465630).jpg | Charles from Port Chester, New York | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Lamborghini_Miura_P400_(1967)_(52965465630).jpg
+ref-miura-8.jpg | File:1967 Lamborghini Miura P400 opened up LC24.jpg | MrWalkr | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:1967_Lamborghini_Miura_P400_opened_up_LC24.jpg
+ref-miura-9.jpg | File:12-01-03-autostadtl-by-RalfR-32.jpg | Ralf Roletschek (talk) - Wissensmanagement mit Wikis | FAL | https://commons.wikimedia.org/wiki/File:12-01-03-autostadtl-by-RalfR-32.jpg
+ref-stratos-1.jpg | File:1975 Lancia Stratos HF Stradale 2.jpg | Calreyn88 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:1975_Lancia_Stratos_HF_Stradale_2.jpg
+ref-stratos-2.jpg | File:1975 Lancia Stratos HF Stradale 7.jpg | Calreyn88 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:1975_Lancia_Stratos_HF_Stradale_7.jpg
+ref-stratos-3.jpg | File:1975 Lancia Stratos HF Stradale 4.jpg | Calreyn88 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:1975_Lancia_Stratos_HF_Stradale_4.jpg
+ref-stratos-4.jpg | File:1975 Lancia Stratos HF Stradale 9.jpg | Calreyn88 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:1975_Lancia_Stratos_HF_Stradale_9.jpg
+ref-stratos-5.jpg | File:1975 Lancia Stratos HF Stradale 8.jpg | Calreyn88 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:1975_Lancia_Stratos_HF_Stradale_8.jpg
+ref-stratos-6.jpg | File:Paris - RM auctions - 20150204 - Lancia Stratos HF Stradale - 1977 - 002.jpg | Thesupermat | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Paris_-_RM_auctions_-_20150204_-_Lancia_Stratos_HF_Stradale_-_1977_-_002.jpg
+ref-stratos-7.jpg | File:1975 Lancia Stratos HF Stradale Low.jpg | MrWalkr | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:1975_Lancia_Stratos_HF_Stradale_Low.jpg
+ref-stratos-8.jpg | File:1974 Lancia Stratos HF Stradale (73284).jpg | Calreyn88 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:1974_Lancia_Stratos_HF_Stradale_(73284).jpg
