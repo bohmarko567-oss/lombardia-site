@@ -453,7 +453,7 @@
       if (i >= queue.length) {
         const k = done.filter(d => d.v === 'approved').length, r = done.filter(d => d.v === 'rejected').length;
         deck.appendChild(h('div', { class: 'done' }, h('h2', { text: 'Done' }), h('p', { text: k + ' kept · ' + r + ' dropped · ' + order().length + ' in the lot' }),
-          h('button', { class: 'btn primary', type: 'button', text: 'Send to Claude now', onclick: () => { sendMail(); toast('Sending…'); } }),
+          h('button', { class: 'btn primary', type: 'button', text: 'Send to Claude now', onclick: () => { sendMail(false, true); toast('Sending…'); } }),
           h('button', { class: 'btn', type: 'button', text: 'Back to the page', onclick: close })));
         return;
       }
@@ -592,7 +592,7 @@
         h('p', { text: 'Every tap is saved on this device at once. Twenty seconds after your last change it is posted to your inbox for Claude, and again when you leave the page. Connect a GitHub token and it is also committed straight into the site repo.' }),
         status,
         h('div', { class: 'row' },
-          h('button', { class: 'btn primary', type: 'button', text: 'Send to Claude now', onclick: () => { sendMail().then(() => { drawStatus(); toast(sent && sent.ok ? 'Sent' : 'Send failed · copy the summary instead'); }); } }),
+          h('button', { class: 'btn primary', type: 'button', text: 'Send to Claude now', onclick: () => { sendMail(false, true).then(() => { drawStatus(); toast(sent && sent.ok ? 'Sent' : 'Send failed · copy the summary instead'); }); } }),
           h('button', { class: 'btn', type: 'button', text: 'Copy summary', onclick: () => { navigator.clipboard.writeText(summary()).then(() => toast('Summary copied · paste it to Claude')).catch(() => toast('Copy failed')); } }),
           h('button', { class: 'btn quiet', type: 'button', text: 'Share…', onclick: () => { if (navigator.share) navigator.share({ title: 'Lombardia board', text: summary() }).catch(() => { }); else toast('Sharing is not available here'); } })),
         h('div', { class: 'f' }, h('label', { text: 'A note for Claude · goes with the next send' }), note),
@@ -635,8 +635,10 @@
     clearTimeout(sendTimer); sendTimer = setTimeout(() => sendMail(), 20000);
     if (token()) { clearTimeout(ghTimer); ghTimer = setTimeout(pushGithub, 3000); }
   }
-  function sendMail(keepalive) {
+  function sendMail(keepalive, manual) {
     if (!D.cfg || !D.cfg.form || !dirty) return Promise.resolve();
+    // a local preview never posts on its own (FormSubmit would mail an activation request for the new origin); the Send button still works
+    if (!manual && /^(localhost|127\.0\.0\.1)$/.test(location.hostname)) return Promise.resolve();
     clearTimeout(sendTimer);
     // form-encoded on purpose: FormSubmit drops the fields and the subject from JSON bodies (tested 2026-09-04)
     const body = new URLSearchParams({ _subject: 'Lombardia board · ' + S.device + ' · ' + new Date().toLocaleString(), summary: summary(), decisions: JSON.stringify(snapshot()) });
@@ -684,7 +686,7 @@
     row('Saved', [h('i', { class: 'dot ' + (S.savedAt ? 'ok' : '') }), (S.savedAt ? 'on this ' + S.device + ' · ' + hhmm(S.savedAt) : 'nothing decided yet')]);
     row('Sent', [h('i', { class: 'dot ' + (sent ? (sent.ok ? (dirty ? 'wait' : 'ok') : 'bad') : (dirty ? 'wait' : '')) }),
       sent ? (sent.ok ? 'to Claude · ' + hhmm(sent.at) + (dirty ? ' · new changes queued' : '') : 'failed · ' + (sent.err || '')) : (dirty ? 'queued' : pendingLocal ? 'not yet' : '—'),
-      dirty ? h('button', { class: 'link', type: 'button', text: 'send now', onclick: () => { sendMail().then(() => toast(sent && sent.ok ? 'Sent to Claude' : 'Send failed')); } }) : null]);
+      dirty ? h('button', { class: 'link', type: 'button', text: 'send now', onclick: () => { sendMail(false, true).then(() => toast(sent && sent.ok ? 'Sent to Claude' : 'Send failed')); } }) : null]);
     if (token()) row('GitHub', [h('i', { class: 'dot ' + (gh ? (gh.ok ? 'ok' : 'bad') : '') }), gh ? (gh.ok ? 'committed · ' + hhmm(gh.at) : 'failed · ' + gh.status) : 'connected']);
     row('Built', D.built || '');
     const g = $('#btn-settings');
