@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788639165">
+<link rel="stylesheet" href="board/board.css?v=1788642959">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -283,8 +283,47 @@ link per store."</p>
   every candidate sheet under <code>sheets/&lt;coll&gt;/versions/</code>; 01 shows arrows and "version c4 · the sheet
   · 1/5" with the version's note; Approve names the version shown and <code>lotset.py apply</code> makes it the
   sheet. Nothing is pre-picked out of his sight (rule 3): the critics' pick is first, the rest follow.</li>
+</ul>
+<h2>20. An Ossido hero is drawn in the F40's view, and its lines are read off the ink (2026-09-05, late)</h2>
+<p>His third round on the new red cars, all three sent back at 22:09: "Remake the car and lines properly,
+use the best loops to make it work. Red f40 is an example." (Countach) - "Needs regen and mirror is
+missing, and lambo logo is slop. Lines - same problem as everywhere, redo properly f40 red as an
+example." (Miura) - "Lines are bad, take f40 as an example and do it right please, use loops or idk
+just make it right. Car looks at us at specific angle front left quarter looks at us. Cmon." (Stratos)</p>
+<ul>
+<li><strong>The F40 render is the pose reference.</strong> <code>gen-carhero.mjs --editmode=pose --ref=f40-pose
+  --refs=&lt;the car's photographs, its badge photo&gt; --logo</code>: image 1 is the approved F40 car
+  (<code>site/ref/f40-pose.jpg</code>), told to supply ONLY the view, camera, placement and idiom; the car's
+  shapes come from the photographs; <code>hero.pose_extra</code> in cars.json carries the car's proportions and
+  any standing instruction (Countach: doors closed). The clean-edit route redrew whatever pose the old
+  source had - which is how the Stratos came out side-on twice. Three candidates a car, $0.54; pick
+  by the pose IoU against the F40 silhouette (<code>scratchpad/lines/pick.py</code>), then by eye, then by two
+  fresh critics on the built sheet. What came back tonight: one candidate per car was a keeper, one
+  Stratos was a Ferrari, one Miura carried a pasted photograph, one Countach was side-on - the loop
+  is the method, not a fallback. Wheels are where the F40 leaks first (both Countach keepers wear
+  F40 star wheels): his law from the F40 night stands ("screw the tires, the logo is important"),
+  and he is told.</li>
+<li><strong>Dimension lines are read off the ink, in the car's own frame, from the F40's numbers.</strong> The first
+  anchored system measured the alpha silhouette, which includes the contact shadow, so every anchor
+  sat on the shadow; and it rotated the lateral axis 20.6 degrees past the measured one, the F40's
+  correction, which over-rotates every other car. Now <code>poster.hero_anchors</code> reads only pixels brighter
+  than the ground, works in the oblique (length, width) frame, takes the width axis from the F40's
+  camera (elevation sin 0.645, derived from the approved pair -26.4 / 40.0), and places PASSO 300 px
+  across from the tyre contacts, LUNGHEZZA 560, LARGHEZZA 360 ahead of the nose - the F40's own
+  offsets measured that night were 267 / 530 / 355. Extension pieces run along the car's other axis
+  and only outside the silhouette; labels sit on the longest run outside the car. The F40 keeps its
+  362 system and still reproduces byte for byte (the check before anything ships).</li>
+<li><strong>A missing part is deleted the same way it is added.</strong> The Stratos blue's plan view carried two
+  door mirrors ("Ig it had one mirror on driver side? Case top view features two. Redo."): the model
+  removed one from its own base (<code>edit-base.mjs</code>, 2 candidates, both traced, both on the lot page as
+  versions, m2 current). Note: <code>nano-banana-pro-edit</code> at 4k billed $0.36 an image, double what
+  estimate-cost quoted - read the balance lines, not the estimate.</li>
+<li><strong>A model name beside a marque wordmark is set in the wordmark's own family</strong> ("280 sl pagoda is
+  different from Mercedes font ... much fatter, so i suppose the same font is the way to go"):
+  <code>model_font</code> in cars.json (Spectral Light for the Corporate A serif), cap height from the
+  wordmark, tracking tightened to the serif's rhythm. The sans path is untouched for every other car.</li>
 </ul></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
-<p>Built 2026-09-05 22:12 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
+<p>Built 2026-09-05 23:15 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
 <ul>
 <li><strong>fixed · room-fixed</strong> - layer exactly pro: r4, r1, nb2: r2. founder 2026-09-05 (RULES.md 18): layer the F40 originals of r4, r1 and r2; r6-nb2 dropped forever</li>
@@ -327,7 +366,7 @@ link per store."</p>
 <td>raw</td>
 <td>0</td>
 <td>2</td>
-<td>0</td>
+<td>1</td>
 <td>0%</td>
 <td>artifact 1, note 1</td>
 </tr>
@@ -337,7 +376,7 @@ link per store."</p>
 <td>layered</td>
 <td>1</td>
 <td>1</td>
-<td>0</td>
+<td>1</td>
 <td>50%</td>
 <td></td>
 </tr>
@@ -357,7 +396,7 @@ link per store."</p>
 <td>header</td>
 <td>3</td>
 <td>0</td>
-<td>0</td>
+<td>1</td>
 <td>100%</td>
 <td></td>
 </tr>
@@ -367,7 +406,7 @@ link per store."</p>
 <td>hero-flat</td>
 <td>3</td>
 <td>0</td>
-<td>0</td>
+<td>1</td>
 <td>100%</td>
 <td></td>
 </tr>
@@ -377,7 +416,7 @@ link per store."</p>
 <td>sideview</td>
 <td>3</td>
 <td>0</td>
-<td>0</td>
+<td>1</td>
 <td>100%</td>
 <td></td>
 </tr>
@@ -387,7 +426,7 @@ link per store."</p>
 <td>titleblock</td>
 <td>3</td>
 <td>0</td>
-<td>0</td>
+<td>1</td>
 <td>100%</td>
 <td></td>
 </tr>
@@ -452,12 +491,22 @@ link per store."</p>
 <td>artifact 1</td>
 </tr>
 <tr>
+<td>hero-layered</td>
+<td>F40 tecnico cover room + layers.py</td>
+<td>-</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
 <td>macro-v2</td>
 <td>nb2</td>
 <td>bl</td>
 <td>1</td>
 <td>3</td>
-<td>0</td>
+<td>1</td>
 <td>25%</td>
 <td>excessive 1, note 1</td>
 </tr>
@@ -487,7 +536,7 @@ link per store."</p>
 <td>tr</td>
 <td>1</td>
 <td>3</td>
-<td>0</td>
+<td>1</td>
 <td>25%</td>
 <td>artifact 2</td>
 </tr>
@@ -497,7 +546,7 @@ link per store."</p>
 <td>bl</td>
 <td>5</td>
 <td>3</td>
-<td>0</td>
+<td>2</td>
 <td>62%</td>
 <td>artifact 1, excessive 1</td>
 </tr>
@@ -507,7 +556,7 @@ link per store."</p>
 <td>br</td>
 <td>2</td>
 <td>5</td>
-<td>0</td>
+<td>2</td>
 <td>29%</td>
 <td>artifact 2</td>
 </tr>
@@ -517,7 +566,7 @@ link per store."</p>
 <td>tl</td>
 <td>4</td>
 <td>3</td>
-<td>0</td>
+<td>2</td>
 <td>57%</td>
 <td>artifact 1</td>
 </tr>
@@ -527,7 +576,7 @@ link per store."</p>
 <td>tr</td>
 <td>3</td>
 <td>5</td>
-<td>0</td>
+<td>2</td>
 <td>38%</td>
 <td>note 2</td>
 </tr>
@@ -597,7 +646,7 @@ link per store."</p>
 <td>r6</td>
 <td>1</td>
 <td>2</td>
-<td>0</td>
+<td>1</td>
 <td>33%</td>
 <td>note 1</td>
 </tr>
@@ -657,7 +706,7 @@ link per store."</p>
 <td>r6</td>
 <td>3</td>
 <td>0</td>
-<td>0</td>
+<td>1</td>
 <td>100%</td>
 <td></td>
 </tr>
@@ -666,24 +715,24 @@ link per store."</p>
 <td>nb2 (F40 tecnico room) + layers.py</td>
 <td>-</td>
 <td>0</td>
-<td>3</td>
+<td>4</td>
 <td>0</td>
 <td>0%</td>
-<td>artifact 3</td>
+<td>artifact 3, note 1</td>
 </tr>
 <tr>
 <td>room-fixed</td>
 <td>pro (F40 tecnico room) + layers.py</td>
 <td>-</td>
 <td>0</td>
-<td>3</td>
+<td>4</td>
 <td>0</td>
 <td>0%</td>
-<td>artifact 2, note 1</td>
+<td>artifact 2, note 2</td>
 </tr>
 </tbody>
 </table>
-<p>Reasons across every drop: <strong>artifact</strong> 14, <strong>note</strong> 8, <strong>excessive</strong> 2. Artifact = the model erred (frame, lettering, warp); excessive = too many alike, save the money; off look = wrong room, light or composition.</p>
+<p>Reasons across every drop: <strong>artifact</strong> 14, <strong>note</strong> 10, <strong>excessive</strong> 2. Artifact = the model erred (frame, lettering, warp); excessive = too many alike, save the money; off look = wrong room, light or composition.</p>
 <h2>His words</h2>
 <ul>
 <li>930t-tecnico: hero-room-r4-layered - founder: layering does not work here - artifacts; bad gen, bad photo; no layering on r4</li>
@@ -721,7 +770,10 @@ link per store."</p>
 <li>2026-09-04 f40-tecnico: founder rejected: room-r2-pro-1, room-r3-pro-1, room-r5-pro-1, room-r1-nb2-1, room-r3-nb2-1, room-r4-nb2-1, room-r5-nb2-1</li>
 <li>2026-09-04 f40-tecnico: founder, on the board (iPhone): approved 01-hero-flat; approved 03-titleblock; approved 05-header; approved 06-sideview; approved macro-tl-pro-1; approved macro-tl-pro-2; rejected macro-tr-pro-1; rejected hero-side-nb2-1; rejected hero-flat-pro-1; approved hero-flat-pro-2; approved hero-side-pro-1; rejected wall-noir-unframed; rejected macro-tl-nb2-1; rejected macro-tr-nb2-1; approved macro-bl-pro-1; approved macro-bl-pro-2; order: room-r1-pro-1, 01-hero-flat, hero-flat-pro-2, hero-side-pro-1, macro-tl-pro-1, macro-tl-pro-2 ...; stage -&gt; set-approved</li>
 <li>2026-09-05 miura-ossido: founder, on the board (PC): sheet sent back ("lambo logo in front isnt detailed enough, slop. redo. the miura p400 box in spec box, that section itself is weird, too tall, text is all over the height there. the text has to be centered in the box and the box a bit too tall. save as a future rule so it doesnt happen again. and the third and a big one - those marking lines, actually easy to fix here - 2504mm has to go a bit farer from the wheels, so a bit moved to south-east so to speak. and the 1760 line is wayyy too long it overshots by like 3 or 4x, and its way too deep into the car, over the bumper. has to go south-west."); upload: house:nb2-p2-1, house:nb2-n4-1</li>
+<li>miura-tecnico: room-r2-nb2-fixed - one of the fixed rooms from the F40 lot, the true sheet layered in</li>
+<li>miura-tecnico: room-r4-pro-fixed - one of the fixed rooms from the F40 lot, the true sheet layered in</li>
 <li>2026-09-05 miura-tecnico: founder, on the board (PC): sheet sent back ("way too simple of a drawing. try to overcomplicate it in the way ferrari blue is drawn."); upload: house:nb2-p2-1, house:nb2-n4-1</li>
+<li>2026-09-05 miura-tecnico: founder rejected: room-r4-pro-fixed, room-r2-nb2-fixed, --note, held by the rule-17 critics (both): r4 has a translucent band along the print's right edge (x4052-4083, y750-1650); r2 lost three of the four standoff bolts the raw photo shows - layers.py painted over them. Fix in layers.py, re-lay, re-judge</li>
 <li>2026-09-05 pagoda-tecnico: founder, on the board (PC): sheet sent back ("not too bad but still too simple of a drawing, lacks details like f40 blue has. also feel like logo lacks like a font or a style, too simple to me. but not bad"); upload: house:nb2-p2-1, house:nb2-n4-1</li>
 <li>2026-09-05 stratos-ossido: founder, on the board (PC): sheet sent back ("same issues woth the spec box part with model name. and i hate the generation, redo completely."); upload: house:nb2-p2-1, house:nb2-n4-1</li>
 <li>2026-09-05 stratos-tecnico: founder, on the board (PC): sheet sent back ("prettyy cool but this is a smaller car and therefore there is an empty estate in between top and sid view drawings and front back drawings. im not sure what to do with it so use ur creaativity. and is that lancia logo in lancia style?"); upload: house:nb2-p2-1, house:nb2-n4-1</li>
@@ -729,6 +781,6 @@ link per store."</p>
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-05 22:12", "cfg": {}}</script>
-<script src="board/board.js?v=1788639165"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-05 23:15", "cfg": {}}</script>
+<script src="board/board.js?v=1788642959"></script>
 </body></html>
