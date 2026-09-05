@@ -140,10 +140,10 @@
     });
   }
   function addedRaw(s) { return { id: s.id, src: s.src, label: s.recipeLabel.replace('from the archive · ', ''), thumb: s.thumb, inspect: s.inspect, w: s.w, h: s.h, at: nowISO() }; }
-  function setNote(id, note) {
+  function setNote(id, note, opts) {
     const cur = p.verdicts[id] || { v: ev(id), at: nowISO() };
     p.verdicts[id] = { v: cur.v, at: nowISO(), note: note };
-    save(); renderGrid();
+    save(); if (!(opts && opts.quiet)) renderGrid();
   }
   function sheetStatus() { return p.sheet ? p.sheet.v : (D.stageIdx >= 1 ? 'approved' : 'pending'); }
 
@@ -452,7 +452,10 @@
       if (judgeable) {
         const v = ev(s.id), pos = order().indexOf(s.id);
         meta.appendChild(h('span', { html: '<span class="n">' + (s.recipeLabel || '') + '</span>' + (s.model ? ' · ' + s.model : '') + (v === 'approved' && pos >= 0 ? ' · <span class="n">' + (pos === 0 ? 'the cover' : '№ ' + (pos + 1)) + '</span>' : '') }));
-        const ta = h('textarea', { placeholder: 'A note on this one · artifact, excessive, off look, or your words', rows: 1, value: noteOf(s.id), onchange: e => setNote(s.id, e.target.value.trim()) });
+        // founder, 2026-09-05: "case notes don't work" - a note typed and followed by Keep / Drop / Next
+        // died with the textarea (the field is rebuilt before its change event fires). Every keystroke
+        // is saved now; the grid redraws on change.
+        const ta = h('textarea', { placeholder: 'A note on this one · artifact, excessive, off look, or your words', rows: 1, value: noteOf(s.id), oninput: e => setNote(s.id, e.target.value, { quiet: true }), onchange: e => setNote(s.id, e.target.value.trim()) });
         ta.value = noteOf(s.id); meta.appendChild(ta);
         foot.appendChild(h('button', { type: 'button', class: 'nav', 'aria-label': 'Previous', text: '‹', onclick: () => go(-1) }));
         foot.appendChild(h('button', { type: 'button', class: 'k' + (v === 'approved' ? ' on' : ''), onclick: () => { verdict(s.id, v === 'approved' ? 'pending' : 'approved', { quiet: true }); show(); } }, h('span', { class: 'x', text: '✓' }), v === 'approved' ? 'Kept' : 'Keep'));
