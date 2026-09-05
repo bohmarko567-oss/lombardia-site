@@ -440,11 +440,19 @@
     ['tl', 'tr', 'bl', 'br'].forEach(c => stage.appendChild(h('i', { class: 'reg ' + c })));
     el.appendChild(bar); el.appendChild(stage); el.appendChild(meta); el.appendChild(foot);
     document.body.appendChild(el); document.body.classList.add('locked');
-    const zoom = attachZoom(stage, img, { onTap: () => el.classList.toggle('chrome-off'), onRelease: (dx, dy, dt) => { if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.4 && dt < 600) go(dx < 0 ? 1 : -1); } });
+    // founder, 2026-09-05 (PC): "photos are zoomed in and fixed" - on a landscape viewport the image
+    // was sized by width and ran past the stage (705 px tall in a 461 px stage): the CSS height cap
+    // is not honoured for a grid item here. The cap is set from the stage itself, on show and resize.
+    const fit = () => { img.style.maxHeight = stage.clientHeight + 'px'; img.style.maxWidth = stage.clientWidth + 'px'; };
+    const onResize = () => { fit(); if (zoom) zoom.reset(); };
+    window.addEventListener('resize', onResize);
+    window.addEventListener('lomb-room-close', () => window.removeEventListener('resize', onResize), { once: true });
+    const zoom = attachZoom(stage, img, { onTap: () => { el.classList.toggle('chrome-off'); setTimeout(fit, 30); }, onRelease: (dx, dy, dt) => { if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.4 && dt < 600) go(dx < 0 ? 1 : -1); } });
     function show() {
       const s = list[i]; if (!s) return;
       zoom.reset();
       img.src = UP + (s.inspect || s.thumb); img.alt = s.id || '';
+      fit();
       bar.innerHTML = ''; meta.innerHTML = ''; foot.innerHTML = '';
       bar.appendChild(h('span', { class: 'id', text: (s.id || '') + (list.length > 1 ? '  ·  ' + (i + 1) + '/' + list.length : '') }));
       bar.appendChild(h('button', { class: 'x', type: 'button', 'aria-label': 'Close', text: '×', onclick: closeRoom }));
@@ -474,6 +482,7 @@
     show();
   }
   function closeRoom() {
+    try { window.dispatchEvent(new Event('lomb-room-close')); } catch (e) { }
     if (room) { room.el.remove(); room = roomStack.pop() || null; }
     if (!room) { document.body.classList.remove('locked'); if (D.kind === 'poster') { renderOrder(); renderGrid(); renderTools(); } }
   }

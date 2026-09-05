@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788617381">
+<link rel="stylesheet" href="board/board.css?v=1788617481">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -153,8 +153,10 @@ of the close-up shots and other shots are just gibberish text."</p>
   the reference crops show the text large. A layered macro twin is admitted only with a solid
   lock (250+ matches, under 15 % occluded); a loose lock warps the print and is worse than the
   render.</li>
-<li><strong>The board saves a note on every keystroke.</strong> A note followed by Keep / Drop / Next used to die
-  with the textarea before its change event fired ("case notes don't work").</li>
+<li><strong>The board saves a note on every keystroke, and keys typed into a field never reach the shortcuts.</strong>
+  A note followed by Keep / Drop / Next used to die with the textarea before its change event fired;
+  then a, k, r, x and the arrow keys typed INTO the note toggled verdicts and jumped shots ("notes
+  still don't work"). A board test types a real word like "artifact" plus an arrow key.</li>
 </ul></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
 <p>Built 2026-09-05 16:01 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
@@ -551,6 +553,6 @@ of the close-up shots and other shots are just gibberish text."</p>
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-05 16:09", "cfg": {}}</script>
-<script src="board/board.js?v=1788617381"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-05 16:11", "cfg": {}}</script>
+<script src="board/board.js?v=1788617481"></script>
 </body></html>
