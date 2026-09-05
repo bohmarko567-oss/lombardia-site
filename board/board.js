@@ -452,7 +452,6 @@
       const s = list[i]; if (!s) return;
       zoom.reset();
       img.src = UP + (s.inspect || s.thumb); img.alt = s.id || '';
-      fit();
       bar.innerHTML = ''; meta.innerHTML = ''; foot.innerHTML = '';
       bar.appendChild(h('span', { class: 'id', text: (s.id || '') + (list.length > 1 ? '  ·  ' + (i + 1) + '/' + list.length : '') }));
       bar.appendChild(h('button', { class: 'x', type: 'button', 'aria-label': 'Close', text: '×', onclick: closeRoom }));
@@ -475,6 +474,9 @@
       }
     }
     function go(d) { if (list.length < 2) return; i = (i + d + list.length) % list.length; show(); }
+    img.addEventListener('load', fit);
+    const show0 = show;
+    show = function () { show0(); fit(); requestAnimationFrame(fit); };
     room = { el: el, go: go, key: function (e) {
       if (e.key === 'Escape') closeRoom(); else if (e.key === 'ArrowRight') go(1); else if (e.key === 'ArrowLeft') go(-1);
       else if (D.kind === 'poster' && list[i] && byId(list[i].id)) { if (e.key === 'a' || e.key === 'k') { verdict(list[i].id, 'approved', { quiet: true }); show(); } else if (e.key === 'r' || e.key === 'x') { verdict(list[i].id, 'rejected', { quiet: true }); show(); } }
