@@ -100,7 +100,14 @@ details.sec[open] summary { margin-bottom: 14px; }
 @media (max-width: 640px) { .sechead .secacts { margin-left: 0; flex: 1 1 100%; } .sechead .secacts .btn { flex: 1 1 auto; } }
 
 /* the sheet figure */
-.sheetfig { margin: 0; }
+.sheetfig { margin: 0; position: relative; }
+/* the sheet's versions: arrows over the figure, the version and its note below */
+.vnav { display: grid; grid-template-columns: var(--tap) minmax(0, 1fr) var(--tap); align-items: center; gap: 10px; margin-top: 8px; }
+.varrow { min-height: var(--tap); border: 1px solid var(--ink); font: 400 22px var(--mono); color: var(--ink); display: grid; place-items: center; }
+.varrow:hover { background: var(--ink); color: var(--paper); }
+.vinfo { min-width: 0; font: 400 12px/1.45 var(--mono); color: var(--ink-2); }
+.vinfo b { display: block; font: 600 11px var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--tint); }
+.vinfo span { display: block; overflow-wrap: anywhere; }
 .sheetfig a { display: block; }
 .sheetfig img { width: 100%; border: 1px solid var(--rule); background: var(--paper-2); }
 .sheetfig figcaption, .hf figcaption, .bigfig figcaption { font: 400 11.5px/1.5 var(--mono); color: var(--ink-2); margin-top: 8px; overflow-wrap: anywhere; }

@@ -183,20 +183,41 @@
   function hideToast() { const t = $('#toast'); if (t) t.classList.remove('on'); }
 
   // ---------------------------------------------------------------- render: poster page
-  function render() { if (D.kind !== 'poster') { renderIndex(); renderTitleblock(); return; } renderGate(); renderLot(); renderPool(); renderTitleblock(); }
+  function render() { if (D.kind !== 'poster') { renderIndex(); renderTitleblock(); return; } renderSheetFigure(); renderGate(); renderLot(); renderPool(); renderTitleblock(); }
 
+  // the sheet's versions (founder 2026-09-05: "arrows to slide left/right to see previous and approve those"):
+  // vi is the one on screen; the current sheet comes first; Approve names the version shown
+  const VERS = (D.versions || []).length > 1 ? D.versions : [];
+  let vi = 0;
+  const shownVersion = () => VERS.length ? VERS[vi] : null;
+  function renderSheetFigure() {
+    const fig = $('#sec-sheet .sheetfig'); if (!fig || !VERS.length) return;
+    const v = VERS[vi], a = $('a.lb', fig), img = $('img', fig);
+    if (a) a.setAttribute('href', UP + v.inspect);
+    if (img) { img.src = UP + v.thumb; if (v.w) img.width = v.w; if (v.h) img.height = v.h; img.alt = 'Sheet · version ' + v.id; }
+    let nav = $('.vnav', fig);
+    if (!nav) { nav = h('div', { class: 'vnav' }); fig.appendChild(nav); }
+    nav.innerHTML = '';
+    nav.appendChild(h('button', { type: 'button', class: 'varrow prev', 'aria-label': 'Previous version', text: '‹', onclick: () => { vi = (vi - 1 + VERS.length) % VERS.length; renderSheetFigure(); renderGate(); } }));
+    nav.appendChild(h('div', { class: 'vinfo' },
+      h('b', { text: 'version ' + v.id + (v.current ? ' · the sheet' : '') + ' · ' + (vi + 1) + '/' + VERS.length }),
+      v.note ? h('span', { text: v.note }) : null));
+    nav.appendChild(h('button', { type: 'button', class: 'varrow next', 'aria-label': 'Next version', text: '›', onclick: () => { vi = (vi + 1) % VERS.length; renderSheetFigure(); renderGate(); } }));
+  }
   function renderGate() {
     const g = $('#gate-sheet'); if (!g) return; g.innerHTML = '';
-    const st = sheetStatus();
+    const st = sheetStatus(), v = shownVersion();
     if (st === 'pending') {
       const note = h('textarea', { placeholder: 'A note, if you like', rows: 2 });
+      const dec = (verdictV) => { p.sheet = { v: verdictV, at: nowISO(), note: note.value.trim() }; if (v) p.sheet.version = v.id; save(); renderGate(); };
       g.appendChild(h('div', { class: 'verdict' },
-        h('button', { class: 'btn keep big', type: 'button', onclick: () => { p.sheet = { v: 'approved', at: nowISO(), note: note.value.trim() }; save(); renderGate(); toast('Sheet approved', { label: 'Undo', fn: () => { p.sheet = null; save(); renderGate(); } }); } }, h('span', { class: 'x', text: '✓' }), 'Approve the sheet'),
-        h('button', { class: 'btn drop big', type: 'button', onclick: () => { p.sheet = { v: 'rejected', at: nowISO(), note: note.value.trim() }; save(); renderGate(); toast('Sheet sent back' + (note.value.trim() ? ' with your note' : ''), { label: 'Undo', fn: () => { p.sheet = null; save(); renderGate(); } }); } }, h('span', { class: 'x', text: '✗' }), 'Not yet')));
+        h('button', { class: 'btn keep big', type: 'button', onclick: () => { dec('approved'); toast('Sheet approved' + (v ? ' · version ' + v.id : ''), { label: 'Undo', fn: () => { p.sheet = null; save(); renderGate(); } }); } }, h('span', { class: 'x', text: '✓' }), v ? 'Approve this version' : 'Approve the sheet'),
+        h('button', { class: 'btn drop big', type: 'button', onclick: () => { dec('rejected'); toast('Sheet sent back' + (note.value.trim() ? ' with your note' : ''), { label: 'Undo', fn: () => { p.sheet = null; save(); renderGate(); } }); } }, h('span', { class: 'x', text: '✗' }), 'Not yet')));
       g.appendChild(note);
     } else {
       const local = !!p.sheet;
-      g.appendChild(h('span', { class: 'chip ' + (st === 'approved' ? 'ok' : 'no') + (local ? ' unsynced' : ''), text: st === 'approved' ? 'Sheet approved' : 'Sheet sent back' }));
+      const which = local && p.sheet.version ? ' · version ' + p.sheet.version : (!local && D.sheet.approval && D.sheet.approval.version ? ' · version ' + D.sheet.approval.version : '');
+      g.appendChild(h('span', { class: 'chip ' + (st === 'approved' ? 'ok' : 'no') + (local ? ' unsynced' : ''), text: (st === 'approved' ? 'Sheet approved' : 'Sheet sent back') + which }));
       if (local && p.sheet.note) g.appendChild(h('span', { class: 'hint', text: '“' + p.sheet.note + '”' }));
       if (local) g.appendChild(h('button', { class: 'btn quiet', type: 'button', text: 'Change', onclick: () => { p.sheet = null; save(); renderGate(); } }));
       else if (D.sheet.approval && D.sheet.approval.note) g.appendChild(h('span', { class: 'hint', text: '“' + D.sheet.approval.note + '”' }));
@@ -529,7 +550,7 @@
   document.addEventListener('click', function (e) {
     const a = e.target.closest('a.lb'); if (!a) return;
     e.preventDefault();
-    if (a.dataset.sheet) { openRoom([{ id: 'the sheet', inspect: D.sheet.inspect, label: D.sheet.file }], 0, { readonly: true }); return; }
+    if (a.dataset.sheet) { const sv = shownVersion(); openRoom(sv ? VERS.map(x => ({ id: 'version ' + x.id, inspect: x.inspect, label: x.note })) : [{ id: 'the sheet', inspect: D.sheet.inspect, label: D.sheet.file }], sv ? vi : 0, { readonly: true }); return; }
     const hs = $$('a.lb[data-house]');
     if (a.dataset.house) { const list = hs.map(x => ({ id: x.dataset.house, inspect: x.getAttribute('href').replace(/^\.\.\//, ''), label: x.querySelector('img').alt })); openRoom(list, hs.indexOf(a), { readonly: true }); return; }
     openRoom([{ id: a.querySelector('img') ? a.querySelector('img').alt : '', inspect: a.getAttribute('href').replace(/^\.\.\//, '') }], 0, { readonly: true });
@@ -643,7 +664,7 @@
       const q = S.posters[k]; const vs = Object.keys(q.verdicts || {});
       if (!vs.length && !(q.added || []).length && !q.sheet && !q.order) return;
       lines.push('', '## ' + k);
-      if (q.sheet) lines.push('sheet: ' + q.sheet.v + (q.sheet.note ? ' — "' + q.sheet.note + '"' : ''));
+      if (q.sheet) lines.push('sheet: ' + q.sheet.v + (q.sheet.version ? ' (version ' + q.sheet.version + ')' : '') + (q.sheet.note ? ' — "' + q.sheet.note + '"' : ''));
       const by = { approved: [], rejected: [], pending: [] };
       vs.forEach(id => { const e = q.verdicts[id]; (by[e.v] || by.pending).push(id + (e.note ? ' ("' + e.note + '")' : (e.note === '' ? ' (note cleared)' : ''))); });
       if (by.approved.length) lines.push('keep: ' + by.approved.join(', '));
@@ -697,7 +718,7 @@
     const notes = [];
     Object.keys(S.posters || {}).forEach(function (k) {
       const q = S.posters[k]; if (!q) return;
-      if (q.sheet && q.sheet.note && fresh(q.sheet.at)) notes.push({ id: k + ' · sheet ' + q.sheet.v, note: q.sheet.note });
+      if (q.sheet && q.sheet.note && fresh(q.sheet.at)) notes.push({ id: k + ' · sheet ' + q.sheet.v + (q.sheet.version ? ' · version ' + q.sheet.version : ''), note: q.sheet.note });
       Object.keys(q.verdicts || {}).forEach(function (id) { const e = q.verdicts[id]; if (e && e.note && fresh(e.at)) notes.push({ id: id, note: e.note }); });
     });
     if (S.note) notes.push({ id: 'for Claude', note: S.note });
