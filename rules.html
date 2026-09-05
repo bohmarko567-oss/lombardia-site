@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788617481">
+<link rel="stylesheet" href="board/board.css?v=1788617817">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -157,8 +157,23 @@ of the close-up shots and other shots are just gibberish text."</p>
   A note followed by Keep / Drop / Next used to die with the textarea before its change event fired;
   then a, k, r, x and the arrow keys typed INTO the note toggled verdicts and jumped shots ("notes
   still don't work"). A board test types a real word like "artifact" plus an arrow key.</li>
+</ul>
+<h2>16. Rooms are the fixed set from the two F40 lots, layered, never generated (2026-09-05)</h2>
+<p>Founder: "as the rule you only use fixed rooms that we fixed with previous posters - F40 Ossido and
+F40 Archivio Tecnico. That's it. Rule, skill, remember forever."</p>
+<ul>
+<li><strong>Red (Ossido):</strong> the rooms he kept on the Ossido F40 - <code>room-r4-pro-1</code> (the cover), <code>room-r6-pro-1</code>,
+  <code>room-r2-nb2-1</code>. <strong>Blue (Archivio Tecnico):</strong> the rooms he kept on the blue F40 - <code>room-r1-pro-1</code>
+  (the cover), <code>room-r4-pro-1</code>, <code>room-r6-pro-1</code>, <code>room-r2-nb2-1</code>, <code>room-r6-nb2-1</code>. The renders live in
+  <code>lots/f40-&lt;collection&gt;/_gen/rooms/</code>.</li>
+<li><strong>Every new sheet is LAYERED into those exact photographs</strong> (<code>layers.py --ref-sheet &lt;F40 sheet&gt;
+  --sheet &lt;new sheet&gt; &lt;room png&gt;</code>): the lock, the light and the occluders come from the F40 sheet
+  the room was rendered with; the new sheet is painted through the same geometry. 600-800 matches
+  against the reference, against 60-180 on a fresh render. No room is ever generated again: $0.78 a
+  poster saved, and no detail can be lost or invented.</li>
+<li>The hero of every lot stays the r4 room, layered (rule 10), from this fixed set.</li>
 </ul></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
-<p>Built 2026-09-05 16:01 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
+<p>Built 2026-09-05 16:16 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
 <ul>
 <li><strong>fixed · room</strong> - generate exactly pro: r1, r4, r6, nb2: r2, r6. founder 2026-09-04: these five rooms in every lot, nothing else - save money on gens</li>
@@ -304,7 +319,7 @@ of the close-up shots and other shots are just gibberish text."</p>
 </tr>
 <tr>
 <td>hero-layered</td>
-<td>pro</td>
+<td>F40 r4 room + layers.py</td>
 <td>-</td>
 <td>0</td>
 <td>0</td>
@@ -417,10 +432,10 @@ of the close-up shots and other shots are just gibberish text."</p>
 <td>nb2</td>
 <td>r2</td>
 <td>2</td>
-<td>0</td>
 <td>1</td>
-<td>100%</td>
-<td></td>
+<td>0</td>
+<td>67%</td>
+<td>note 1</td>
 </tr>
 <tr>
 <td>room</td>
@@ -457,20 +472,20 @@ of the close-up shots and other shots are just gibberish text."</p>
 <td>nb2</td>
 <td>r6</td>
 <td>1</td>
-<td>1</td>
-<td>1</td>
-<td>50%</td>
-<td></td>
+<td>2</td>
+<td>0</td>
+<td>33%</td>
+<td>note 1</td>
 </tr>
 <tr>
 <td>room</td>
 <td>pro</td>
 <td>r1</td>
 <td>1</td>
-<td>1</td>
-<td>1</td>
-<td>50%</td>
-<td></td>
+<td>2</td>
+<td>0</td>
+<td>33%</td>
+<td>note 1</td>
 </tr>
 <tr>
 <td>room</td>
@@ -497,10 +512,10 @@ of the close-up shots and other shots are just gibberish text."</p>
 <td>pro</td>
 <td>r4</td>
 <td>2</td>
-<td>0</td>
 <td>1</td>
-<td>100%</td>
-<td></td>
+<td>0</td>
+<td>67%</td>
+<td>note 1</td>
 </tr>
 <tr>
 <td>room</td>
@@ -517,14 +532,34 @@ of the close-up shots and other shots are just gibberish text."</p>
 <td>pro</td>
 <td>r6</td>
 <td>2</td>
-<td>0</td>
 <td>1</td>
-<td>100%</td>
+<td>0</td>
+<td>67%</td>
+<td>note 1</td>
+</tr>
+<tr>
+<td>room-fixed</td>
+<td>nb2 (F40 tecnico room) + layers.py</td>
+<td>-</td>
+<td>0</td>
+<td>0</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>room-fixed</td>
+<td>pro (F40 tecnico room) + layers.py</td>
+<td>-</td>
+<td>0</td>
+<td>0</td>
+<td>3</td>
+<td></td>
 <td></td>
 </tr>
 </tbody>
 </table>
-<p>Reasons across every drop: <strong>note</strong> 11. Artifact = the model erred (frame, lettering, warp); excessive = too many alike, save the money; off look = wrong room, light or composition.</p>
+<p>Reasons across every drop: <strong>note</strong> 16. Artifact = the model erred (frame, lettering, warp); excessive = too many alike, save the money; off look = wrong room, light or composition.</p>
 <h2>His words</h2>
 <ul>
 <li>930t-tecnico: macro-bl-nb2-1 - first round: 6 of 8 reference slots, lettering invented - founder: 'gibberish text'; replaced by the macro2 round</li>
@@ -536,6 +571,11 @@ of the close-up shots and other shots are just gibberish text."</p>
 <li>930t-tecnico: macro-tl-pro-2 - first round: 6 of 8 reference slots, lettering invented - founder: 'gibberish text'; replaced by the macro2 round</li>
 <li>930t-tecnico: macro-tr-pro-1 - first round: 6 of 8 reference slots, lettering invented - founder: 'gibberish text'; replaced by the macro2 round</li>
 <li>930t-tecnico: macro-tr-pro-2 - first round: 6 of 8 reference slots, lettering invented - founder: 'gibberish text'; replaced by the macro2 round</li>
+<li>930t-tecnico: room-r2-nb2-1 - generated room - RULES.md 16: rooms are the fixed set from the F40 lots, layered; replaced</li>
+<li>930t-tecnico: room-r6-nb2-1 - generated room - RULES.md 16: rooms are the fixed set from the F40 lots, layered; replaced</li>
+<li>930t-tecnico: room-r1-pro-1 - generated room - RULES.md 16: rooms are the fixed set from the F40 lots, layered; replaced</li>
+<li>930t-tecnico: room-r4-pro-1 - generated room - RULES.md 16: rooms are the fixed set from the F40 lots, layered; replaced</li>
+<li>930t-tecnico: room-r6-pro-1 - generated room - RULES.md 16: rooms are the fixed set from the F40 lots, layered; replaced</li>
 <li>2026-09-05 930t-tecnico: founder rejected: macro-bl-nb2-1, macro-tr-nb2-1, macro-bl-pro-1, macro-bl-pro-2, macro-br-pro-1, macro-tl-pro-1, macro-tl-pro-2, macro-tr-pro-1, macro-tr-pro-2</li>
 <li>f40-ossido: wall-noir-unframed - founder exception to rule 1: hangreal on the dark noir plate, 68% of the panel</li>
 <li>f40-ossido: wall-clips-model - raw render, fidelity 0.99</li>
@@ -553,6 +593,6 @@ of the close-up shots and other shots are just gibberish text."</p>
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-05 16:11", "cfg": {}}</script>
-<script src="board/board.js?v=1788617481"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-05 16:16", "cfg": {}}</script>
+<script src="board/board.js?v=1788617817"></script>
 </body></html>
