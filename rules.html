@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788635866">
+<link rel="stylesheet" href="board/board.css?v=1788638101">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -145,6 +145,12 @@ figures are what fills a blue sheet; a sparse base makes an empty one.</p>
   (density match, patent line quality, completeness of the SIDE view, a true plan view, no lettering
   inside a view), then by the traced figures: side &gt;= 11.0 %, plan &gt;= 12.5 % (F40 11.75 / 13.40).
   A marque script badge the real car wears (the Miura's tail script) is a badge, not stray text.
+- <strong>A missing part is added by the model to its own base, never pasted onto the trace</strong> (2026-09-05
+  night: "c3 it is but u forgor mirrors"). Lifting the mirrors from another figure onto the traced
+  line art came out displaced with fragments - slop, same lesson as rule 1. <code>edit-base.mjs &lt;base.jpg&gt;
+  &lt;out&gt; --prompt="add ..." --n=2 --go</code> ($0.18 each) has the model add the part and keep the rest;
+  then re-trace, measure the drift against the original (4-5 % ink jitter is regeneration, not
+  content), and put every edited candidate on the lot page as a version for his pick.
 - <strong>A marque without a period vector is typeset</strong> and he is told so (Lancia: the only 1974 mark on
   Commons is a 489 px badge photograph). The Pagoda carries the Mercedes-Benz serif wordmark at his
   request for "a font or a style", knowing it is the 1990s cut.</p>
@@ -715,6 +721,6 @@ link per store."</p>
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-05 21:17", "cfg": {}}</script>
-<script src="board/board.js?v=1788635866"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-05 21:55", "cfg": {}}</script>
+<script src="board/board.js?v=1788638101"></script>
 </body></html>
