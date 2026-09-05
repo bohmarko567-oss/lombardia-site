@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788570098">
+<link rel="stylesheet" href="board/board.css?v=1788576008">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -118,8 +118,26 @@ Countach is drawn doors closed. "Feels empty" was the smaller boxes.</p>
 car choice problem." A car taller than about a third of its length cannot be drawn at 1:10 in the
 blue layout and looks lost at 1:12 or 1:15. Blue takes long, low cars; the two were taken off the
 board. The first-batch 911 (930) "looks great because you draw a lot of detail" - dense traced
-figures are what fills a blue sheet; a sparse base makes an empty one.</p></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
-<p>Built 2026-09-04 18:43 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
+figures are what fills a blue sheet; a sparse base makes an empty one.</p>
+<h2>14. The spec-box title band, the dimension lines, the density of a blue plate (2026-09-05)</h2>
+<p>From the founder's first board round on the new cars:
+- <strong>A typeset title band is fitted to its text and the text is centred on its ink</strong> ("text is all
+  over the height there... the box a bit too tall... save as a future rule"). 0.22 of the block for
+  a typeset name; the asset band (F40 badge) keeps 0.30.
+- <strong>Hero dimension lines are anchored to the car, never copied from a source at its length.</strong> PASSO
+  a fixed gap below the tyre contacts, LUNGHEZZA further out between nose and tail, LARGHEZZA along
+  the bumper edge in front of the nose between the car's own front extremes ("2504 has to go a bit
+  farther from the wheels, south-east; the 1760 line is way too long, overshoots 3 or 4x, over the
+  bumper - south-west"). <code>poster.draw_hero_dims_anchored</code>; the F40 keeps the 362 system.
+- <strong>A blue plate is dense or it is "too simple".</strong> The F40 plate is a patent drawing, ~6.2 % ink;
+  bases from <code>gen-nano.mjs</code> came back as outlines at 4.5-5.6 % and were rejected on sight. Generate
+  with <code>--dense</code> (parts-diagram density) and check <code>measure-base.py</code> before tracing.
+- <strong>A short car fills the sheet at a larger scale</strong> - the Stratos (3710 mm) at 1:8, not 1:10; the
+  ladder in <code>patentsheet2</code> says which ratio still fits.
+- <strong>A marque without a period vector is typeset</strong> and he is told so (Lancia: the only 1974 mark on
+  Commons is a 489 px badge photograph). The Pagoda carries the Mercedes-Benz serif wordmark at his
+  request for "a font or a style", knowing it is the 1990s cut.</p></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
+<p>Built 2026-09-05 04:39 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
 <ul>
 <li><strong>fixed · room</strong> - generate exactly pro: r1, r4, r6, nb2: r2, r6. founder 2026-09-04: these five rooms in every lot, nothing else - save money on gens</li>
@@ -159,7 +177,7 @@ figures are what fills a blue sheet; a sparse base makes an empty one.</p></div>
 <td>raw</td>
 <td>0</td>
 <td>1</td>
-<td>0</td>
+<td>1</td>
 <td>0%</td>
 <td>note 1</td>
 </tr>
@@ -169,7 +187,7 @@ figures are what fills a blue sheet; a sparse base makes an empty one.</p></div>
 <td>layered</td>
 <td>0</td>
 <td>1</td>
-<td>0</td>
+<td>1</td>
 <td>0%</td>
 <td></td>
 </tr>
@@ -189,7 +207,7 @@ figures are what fills a blue sheet; a sparse base makes an empty one.</p></div>
 <td>header</td>
 <td>2</td>
 <td>0</td>
-<td>0</td>
+<td>1</td>
 <td>100%</td>
 <td></td>
 </tr>
@@ -199,7 +217,7 @@ figures are what fills a blue sheet; a sparse base makes an empty one.</p></div>
 <td>hero-flat</td>
 <td>2</td>
 <td>0</td>
-<td>0</td>
+<td>1</td>
 <td>100%</td>
 <td></td>
 </tr>
@@ -209,7 +227,7 @@ figures are what fills a blue sheet; a sparse base makes an empty one.</p></div>
 <td>sideview</td>
 <td>2</td>
 <td>0</td>
-<td>0</td>
+<td>1</td>
 <td>100%</td>
 <td></td>
 </tr>
@@ -219,7 +237,7 @@ figures are what fills a blue sheet; a sparse base makes an empty one.</p></div>
 <td>titleblock</td>
 <td>2</td>
 <td>0</td>
-<td>0</td>
+<td>1</td>
 <td>100%</td>
 <td></td>
 </tr>
@@ -264,12 +282,22 @@ figures are what fills a blue sheet; a sparse base makes an empty one.</p></div>
 <td></td>
 </tr>
 <tr>
+<td>hero-layered</td>
+<td>pro</td>
+<td>-</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
 <td>macro-v2</td>
 <td>nb2</td>
 <td>bl</td>
 <td>1</td>
 <td>1</td>
-<td>0</td>
+<td>1</td>
 <td>50%</td>
 <td></td>
 </tr>
@@ -299,7 +327,7 @@ figures are what fills a blue sheet; a sparse base makes an empty one.</p></div>
 <td>tr</td>
 <td>1</td>
 <td>1</td>
-<td>0</td>
+<td>1</td>
 <td>50%</td>
 <td></td>
 </tr>
@@ -309,7 +337,7 @@ figures are what fills a blue sheet; a sparse base makes an empty one.</p></div>
 <td>bl</td>
 <td>3</td>
 <td>1</td>
-<td>0</td>
+<td>2</td>
 <td>75%</td>
 <td></td>
 </tr>
@@ -319,7 +347,7 @@ figures are what fills a blue sheet; a sparse base makes an empty one.</p></div>
 <td>br</td>
 <td>1</td>
 <td>3</td>
-<td>0</td>
+<td>1</td>
 <td>25%</td>
 <td></td>
 </tr>
@@ -329,7 +357,7 @@ figures are what fills a blue sheet; a sparse base makes an empty one.</p></div>
 <td>tl</td>
 <td>3</td>
 <td>0</td>
-<td>0</td>
+<td>2</td>
 <td>100%</td>
 <td></td>
 </tr>
@@ -339,7 +367,7 @@ figures are what fills a blue sheet; a sparse base makes an empty one.</p></div>
 <td>tr</td>
 <td>1</td>
 <td>3</td>
-<td>0</td>
+<td>2</td>
 <td>25%</td>
 <td></td>
 </tr>
@@ -369,7 +397,7 @@ figures are what fills a blue sheet; a sparse base makes an empty one.</p></div>
 <td>r2</td>
 <td>2</td>
 <td>0</td>
-<td>0</td>
+<td>1</td>
 <td>100%</td>
 <td></td>
 </tr>
@@ -409,7 +437,7 @@ figures are what fills a blue sheet; a sparse base makes an empty one.</p></div>
 <td>r6</td>
 <td>1</td>
 <td>1</td>
-<td>0</td>
+<td>1</td>
 <td>50%</td>
 <td></td>
 </tr>
@@ -419,7 +447,7 @@ figures are what fills a blue sheet; a sparse base makes an empty one.</p></div>
 <td>r1</td>
 <td>1</td>
 <td>1</td>
-<td>0</td>
+<td>1</td>
 <td>50%</td>
 <td></td>
 </tr>
@@ -449,7 +477,7 @@ figures are what fills a blue sheet; a sparse base makes an empty one.</p></div>
 <td>r4</td>
 <td>2</td>
 <td>0</td>
-<td>0</td>
+<td>1</td>
 <td>100%</td>
 <td></td>
 </tr>
@@ -469,7 +497,7 @@ figures are what fills a blue sheet; a sparse base makes an empty one.</p></div>
 <td>r6</td>
 <td>2</td>
 <td>0</td>
-<td>0</td>
+<td>1</td>
 <td>100%</td>
 <td></td>
 </tr>
@@ -485,10 +513,15 @@ figures are what fills a blue sheet; a sparse base makes an empty one.</p></div>
 <li>2026-09-04 f40-tecnico: founder: the eight rejected have artifacts (the clips wall carries a white base frame); hero-flat-nb2-1 is overkill, too many similar shots, save money; he wants a few more rooms</li>
 <li>2026-09-04 f40-tecnico: founder rejected: room-r2-pro-1, room-r3-pro-1, room-r5-pro-1, room-r1-nb2-1, room-r3-nb2-1, room-r4-nb2-1, room-r5-nb2-1</li>
 <li>2026-09-04 f40-tecnico: founder, on the board (iPhone): approved 01-hero-flat; approved 03-titleblock; approved 05-header; approved 06-sideview; approved macro-tl-pro-1; approved macro-tl-pro-2; rejected macro-tr-pro-1; rejected hero-side-nb2-1; rejected hero-flat-pro-1; approved hero-flat-pro-2; approved hero-side-pro-1; rejected wall-noir-unframed; rejected macro-tl-nb2-1; rejected macro-tr-nb2-1; approved macro-bl-pro-1; approved macro-bl-pro-2; order: room-r1-pro-1, 01-hero-flat, hero-flat-pro-2, hero-side-pro-1, macro-tl-pro-1, macro-tl-pro-2 ...; stage -&gt; set-approved</li>
+<li>2026-09-05 miura-ossido: founder, on the board (PC): sheet sent back ("lambo logo in front isnt detailed enough, slop. redo. the miura p400 box in spec box, that section itself is weird, too tall, text is all over the height there. the text has to be centered in the box and the box a bit too tall. save as a future rule so it doesnt happen again. and the third and a big one - those marking lines, actually easy to fix here - 2504mm has to go a bit farer from the wheels, so a bit moved to south-east so to speak. and the 1760 line is wayyy too long it overshots by like 3 or 4x, and its way too deep into the car, over the bumper. has to go south-west."); upload: house:nb2-p2-1, house:nb2-n4-1</li>
+<li>2026-09-05 miura-tecnico: founder, on the board (PC): sheet sent back ("way too simple of a drawing. try to overcomplicate it in the way ferrari blue is drawn."); upload: house:nb2-p2-1, house:nb2-n4-1</li>
+<li>2026-09-05 pagoda-tecnico: founder, on the board (PC): sheet sent back ("not too bad but still too simple of a drawing, lacks details like f40 blue has. also feel like logo lacks like a font or a style, too simple to me. but not bad"); upload: house:nb2-p2-1, house:nb2-n4-1</li>
+<li>2026-09-05 stratos-ossido: founder, on the board (PC): sheet sent back ("same issues woth the spec box part with model name. and i hate the generation, redo completely."); upload: house:nb2-p2-1, house:nb2-n4-1</li>
+<li>2026-09-05 stratos-tecnico: founder, on the board (PC): sheet sent back ("prettyy cool but this is a smaller car and therefore there is an empty estate in between top and sid view drawings and front back drawings. im not sure what to do with it so use ur creaativity. and is that lancia logo in lancia style?"); upload: house:nb2-p2-1, house:nb2-n4-1</li>
 </ul></div></section>
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-05 03:01", "cfg": {}}</script>
-<script src="board/board.js?v=1788570098"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-05 04:40", "cfg": {}}</script>
+<script src="board/board.js?v=1788576008"></script>
 </body></html>
