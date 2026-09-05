@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788565466">
+<link rel="stylesheet" href="board/board.css?v=1788570098">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -107,7 +107,18 @@ worked hard on the blue and the red collection. We don't need old shit to get in
   again. <code>lot.py</code> refuses without <code>--retired-ok</code>. A new car is a duplicate of one of the two, never
   a reproduction of anything older.</li>
 <li>Prove it every time an engine file changes: rebuild both F40s and compare the md5s.</li>
-</ul></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
+</ul>
+<h2>13. One house box for every Ossido hero; long, low cars for the blue (2026-09-05)</h2>
+<p>Founder: "they all in ossido have to be placed exactly like F40 in matters of size and x y" - so
+every car after the F40 is contained in the F40's own box (<code>poster.HOUSE_HERO_BOX</code>, the approved
+sheet's box after its scale and shift); a car's own source box is no longer used. A raised
+scissor door or anything that lifts the silhouette above the F40's runs into the header, so the
+Countach is drawn doors closed. "Feels empty" was the smaller boxes.</p>
+<p>Founder on the blue 2CV and T1: "way too small and leave too much empty estate. I think that's a
+car choice problem." A car taller than about a third of its length cannot be drawn at 1:10 in the
+blue layout and looks lost at 1:12 or 1:15. Blue takes long, low cars; the two were taken off the
+board. The first-batch 911 (930) "looks great because you draw a lot of detail" - dense traced
+figures are what fills a blue sheet; a sparse base makes an empty one.</p></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
 <p>Built 2026-09-04 18:43 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
 <ul>
@@ -478,6 +489,6 @@ worked hard on the blue and the red collection. We don't need old shit to get in
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-05 01:44", "cfg": {}}</script>
-<script src="board/board.js?v=1788565466"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-05 03:01", "cfg": {}}</script>
+<script src="board/board.js?v=1788570098"></script>
 </body></html>
