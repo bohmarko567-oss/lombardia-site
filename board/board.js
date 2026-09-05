@@ -477,7 +477,11 @@
     if (room) { room.el.remove(); room = roomStack.pop() || null; }
     if (!room) { document.body.classList.remove('locked'); if (D.kind === 'poster') { renderOrder(); renderGrid(); renderTools(); } }
   }
-  document.addEventListener('keydown', e => { if (room && room.key) room.key(e); });
+  // founder, 2026-09-05 ("notes still don't work"): a note typed in the lightbox fed every letter to
+  // the shortcuts - a/k kept, r/x dropped, arrows jumped shots - and each rebuilt the field mid-word.
+  // Keys typed into any field belong to the field.
+  const typing = e => { const t = e.target; return !!t && (/^(INPUT|TEXTAREA|SELECT)$/i.test(t.tagName) || t.isContentEditable); };
+  document.addEventListener('keydown', e => { if (typing(e)) return; if (room && room.key) room.key(e); });
   document.addEventListener('click', function (e) {
     const a = e.target.closest('a.lb'); if (!a) return;
     e.preventDefault();
