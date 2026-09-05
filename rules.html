@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788635721">
+<link rel="stylesheet" href="board/board.css?v=1788635866">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -272,6 +272,11 @@ link per store."</p>
   note · via ntfy+mail" - and stays until he taps OK. No zip; <code>site/full/&lt;key&gt;/&lt;id&gt;.jpg</code> is the file
   as it goes up.</li>
 <li><strong>No piles of text.</strong> No hints under section labels, no counts in prose, no deck paragraphs.</li>
+<li><strong>Every version of a sheet is on the lot page</strong> (his ask the same night: "i dont see other versions,
+  just the one - arrows to slide left/right to see previous and approve those"). <code>versions.py</code> keeps
+  every candidate sheet under <code>sheets/&lt;coll&gt;/versions/</code>; 01 shows arrows and "version c4 · the sheet
+  · 1/5" with the version's note; Approve names the version shown and <code>lotset.py apply</code> makes it the
+  sheet. Nothing is pre-picked out of his sight (rule 3): the critics' pick is first, the rest follow.</li>
 </ul></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
 <p>Built 2026-09-05 19:04 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
@@ -710,6 +715,6 @@ link per store."</p>
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-05 21:15", "cfg": {}}</script>
-<script src="board/board.js?v=1788635721"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-05 21:17", "cfg": {}}</script>
+<script src="board/board.js?v=1788635866"></script>
 </body></html>
