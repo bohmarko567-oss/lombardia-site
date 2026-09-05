@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788617985">
+<link rel="stylesheet" href="board/board.css?v=1788619880">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -173,7 +173,7 @@ F40 Archivio Tecnico. That's it. Rule, skill, remember forever."</p>
   poster saved, and no detail can be lost or invented.</li>
 <li>The hero of every lot stays the r4 room, layered (rule 10), from this fixed set.</li>
 </ul></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
-<p>Built 2026-09-05 16:16 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
+<p>Built 2026-09-05 16:38 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
 <ul>
 <li><strong>fixed · room</strong> - generate exactly pro: r1, r4, r6, nb2: r2, r6. founder 2026-09-04: these five rooms in every lot, nothing else - save money on gens</li>
@@ -181,6 +181,7 @@ F40 Archivio Tecnico. That's it. Rule, skill, remember forever."</p>
 <li><strong>skip · macro-v2 · nb2 · br</strong> - dropped 2/2 times, never kept</li>
 <li><strong>skip · macro-v2 · nb2 · tl</strong> - dropped 2/2 times, never kept</li>
 <li><strong>skip · noir-wall · - · -</strong> - dropped 2/2 times, never kept (note 1)</li>
+<li><strong>prefer · macro-v2 · pro</strong> - pro kept 57% vs nb2 25% over 30+12 judged</li>
 </ul>
 <h2>The ledger</h2>
 <table>
@@ -211,20 +212,20 @@ F40 Archivio Tecnico. That's it. Rule, skill, remember forever."</p>
 <td>clips-rail</td>
 <td>pro</td>
 <td>raw</td>
+<td>1</td>
+<td>1</td>
 <td>0</td>
-<td>1</td>
-<td>1</td>
-<td>0%</td>
+<td>50%</td>
 <td>note 1</td>
 </tr>
 <tr>
 <td>clips-rail-layered</td>
 <td>-</td>
 <td>layered</td>
+<td>1</td>
+<td>1</td>
 <td>0</td>
-<td>1</td>
-<td>1</td>
-<td>0%</td>
+<td>50%</td>
 <td></td>
 </tr>
 <tr>
@@ -241,9 +242,9 @@ F40 Archivio Tecnico. That's it. Rule, skill, remember forever."</p>
 <td>flat-truth</td>
 <td>-</td>
 <td>header</td>
-<td>2</td>
+<td>3</td>
 <td>0</td>
-<td>1</td>
+<td>0</td>
 <td>100%</td>
 <td></td>
 </tr>
@@ -251,9 +252,9 @@ F40 Archivio Tecnico. That's it. Rule, skill, remember forever."</p>
 <td>flat-truth</td>
 <td>-</td>
 <td>hero-flat</td>
-<td>2</td>
+<td>3</td>
 <td>0</td>
-<td>1</td>
+<td>0</td>
 <td>100%</td>
 <td></td>
 </tr>
@@ -261,9 +262,9 @@ F40 Archivio Tecnico. That's it. Rule, skill, remember forever."</p>
 <td>flat-truth</td>
 <td>-</td>
 <td>sideview</td>
-<td>2</td>
+<td>3</td>
 <td>0</td>
-<td>1</td>
+<td>0</td>
 <td>100%</td>
 <td></td>
 </tr>
@@ -271,9 +272,9 @@ F40 Archivio Tecnico. That's it. Rule, skill, remember forever."</p>
 <td>flat-truth</td>
 <td>-</td>
 <td>titleblock</td>
-<td>2</td>
+<td>3</td>
 <td>0</td>
-<td>1</td>
+<td>0</td>
 <td>100%</td>
 <td></td>
 </tr>
@@ -322,89 +323,89 @@ F40 Archivio Tecnico. That's it. Rule, skill, remember forever."</p>
 <td>F40 r4 room + layers.py</td>
 <td>-</td>
 <td>0</td>
-<td>0</td>
 <td>1</td>
-<td></td>
-<td></td>
+<td>0</td>
+<td>0%</td>
+<td>off-look 1</td>
 </tr>
 <tr>
 <td>macro-v2</td>
 <td>nb2</td>
 <td>bl</td>
-<td>1</td>
 <td>2</td>
-<td>1</td>
-<td>33%</td>
-<td>note 1</td>
-</tr>
-<tr>
-<td>macro-v2</td>
-<td>nb2</td>
-<td>br</td>
-<td>0</td>
 <td>2</td>
 <td>0</td>
-<td>0%</td>
-<td></td>
-</tr>
-<tr>
-<td>macro-v2</td>
-<td>nb2</td>
-<td>tl</td>
-<td>0</td>
-<td>2</td>
-<td>0</td>
-<td>0%</td>
-<td></td>
-</tr>
-<tr>
-<td>macro-v2</td>
-<td>nb2</td>
-<td>tr</td>
-<td>1</td>
-<td>2</td>
-<td>1</td>
-<td>33%</td>
-<td>note 1</td>
-</tr>
-<tr>
-<td>macro-v2</td>
-<td>pro</td>
-<td>bl</td>
-<td>3</td>
-<td>3</td>
-<td>2</td>
 <td>50%</td>
-<td>note 2</td>
+<td>note 1</td>
+</tr>
+<tr>
+<td>macro-v2</td>
+<td>nb2</td>
+<td>br</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0%</td>
+<td></td>
+</tr>
+<tr>
+<td>macro-v2</td>
+<td>nb2</td>
+<td>tl</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0%</td>
+<td></td>
+</tr>
+<tr>
+<td>macro-v2</td>
+<td>nb2</td>
+<td>tr</td>
+<td>1</td>
+<td>3</td>
+<td>0</td>
+<td>25%</td>
+<td>artifact 2</td>
+</tr>
+<tr>
+<td>macro-v2</td>
+<td>pro</td>
+<td>bl</td>
+<td>6</td>
+<td>2</td>
+<td>0</td>
+<td>75%</td>
+<td>artifact 1</td>
 </tr>
 <tr>
 <td>macro-v2</td>
 <td>pro</td>
 <td>br</td>
-<td>1</td>
 <td>4</td>
-<td>2</td>
-<td>20%</td>
-<td>note 1</td>
+<td>3</td>
+<td>0</td>
+<td>57%</td>
+<td></td>
 </tr>
 <tr>
 <td>macro-v2</td>
 <td>pro</td>
 <td>tl</td>
+<td>4</td>
 <td>3</td>
-<td>2</td>
-<td>2</td>
-<td>60%</td>
-<td>note 2</td>
+<td>0</td>
+<td>57%</td>
+<td>artifact 1</td>
 </tr>
 <tr>
 <td>macro-v2</td>
 <td>pro</td>
 <td>tr</td>
-<td>1</td>
+<td>3</td>
 <td>5</td>
-<td>2</td>
-<td>17%</td>
+<td>0</td>
+<td>38%</td>
 <td>note 2</td>
 </tr>
 <tr>
@@ -541,42 +542,45 @@ F40 Archivio Tecnico. That's it. Rule, skill, remember forever."</p>
 <td>room-fixed</td>
 <td>nb2 (F40 tecnico room) + layers.py</td>
 <td>-</td>
+<td>1</td>
+<td>1</td>
 <td>0</td>
-<td>0</td>
-<td>2</td>
-<td></td>
-<td></td>
+<td>50%</td>
+<td>artifact 1</td>
 </tr>
 <tr>
 <td>room-fixed</td>
 <td>pro (F40 tecnico room) + layers.py</td>
 <td>-</td>
+<td>1</td>
+<td>2</td>
 <td>0</td>
-<td>0</td>
-<td>3</td>
-<td></td>
-<td></td>
+<td>33%</td>
+<td>artifact 2</td>
 </tr>
 </tbody>
 </table>
-<p>Reasons across every drop: <strong>note</strong> 16. Artifact = the model erred (frame, lettering, warp); excessive = too many alike, save the money; off look = wrong room, light or composition.</p>
+<p>Reasons across every drop: <strong>note</strong> 10, <strong>artifact</strong> 7, <strong>off-look</strong> 1. Artifact = the model erred (frame, lettering, warp); excessive = too many alike, save the money; off look = wrong room, light or composition.</p>
 <h2>His words</h2>
 <ul>
-<li>930t-tecnico: macro-bl-nb2-1 - first round: 6 of 8 reference slots, lettering invented - founder: 'gibberish text'; replaced by the macro2 round</li>
-<li>930t-tecnico: macro-tr-nb2-1 - first round: 6 of 8 reference slots, lettering invented - founder: 'gibberish text'; replaced by the macro2 round</li>
-<li>930t-tecnico: macro-bl-pro-1 - first round: 6 of 8 reference slots, lettering invented - founder: 'gibberish text'; replaced by the macro2 round</li>
-<li>930t-tecnico: macro-bl-pro-2 - first round: 6 of 8 reference slots, lettering invented - founder: 'gibberish text'; replaced by the macro2 round</li>
-<li>930t-tecnico: macro-br-pro-1 - first round: 6 of 8 reference slots, lettering invented - founder: 'gibberish text'; replaced by the macro2 round</li>
-<li>930t-tecnico: macro-tl-pro-1 - first round: 6 of 8 reference slots, lettering invented - founder: 'gibberish text'; replaced by the macro2 round</li>
-<li>930t-tecnico: macro-tl-pro-2 - first round: 6 of 8 reference slots, lettering invented - founder: 'gibberish text'; replaced by the macro2 round</li>
+<li>930t-tecnico: hero-room-r4-layered - off-look</li>
+<li>930t-tecnico: macro-tr-nb2-1 - artifact</li>
+<li>930t-tecnico: macro-bl-pro-1 - artifact</li>
+<li>930t-tecnico: macro-tl-pro-1 - artifact</li>
 <li>930t-tecnico: macro-tr-pro-1 - first round: 6 of 8 reference slots, lettering invented - founder: 'gibberish text'; replaced by the macro2 round</li>
 <li>930t-tecnico: macro-tr-pro-2 - first round: 6 of 8 reference slots, lettering invented - founder: 'gibberish text'; replaced by the macro2 round</li>
-<li>930t-tecnico: room-r2-nb2-1 - generated room - RULES.md 16: rooms are the fixed set from the F40 lots, layered; replaced</li>
+<li>930t-tecnico: room-r2-nb2-1 - its new</li>
 <li>930t-tecnico: room-r6-nb2-1 - generated room - RULES.md 16: rooms are the fixed set from the F40 lots, layered; replaced</li>
 <li>930t-tecnico: room-r1-pro-1 - generated room - RULES.md 16: rooms are the fixed set from the F40 lots, layered; replaced</li>
 <li>930t-tecnico: room-r4-pro-1 - generated room - RULES.md 16: rooms are the fixed set from the F40 lots, layered; replaced</li>
 <li>930t-tecnico: room-r6-pro-1 - generated room - RULES.md 16: rooms are the fixed set from the F40 lots, layered; replaced</li>
+<li>930t-tecnico: macro2-bl-nb2-1 - no checkered texture, it was lost</li>
+<li>930t-tecnico: macro2-tr-nb2-1 - artifact</li>
+<li>930t-tecnico: room-r4-pro-fixed - artifact</li>
+<li>930t-tecnico: room-r6-pro-fixed - artifact</li>
+<li>930t-tecnico: room-r6-nb2-fixed - artifact</li>
 <li>2026-09-05 930t-tecnico: founder rejected: macro-bl-nb2-1, macro-tr-nb2-1, macro-bl-pro-1, macro-bl-pro-2, macro-br-pro-1, macro-tl-pro-1, macro-tl-pro-2, macro-tr-pro-1, macro-tr-pro-2</li>
+<li>2026-09-05 930t-tecnico: founder, on the board (PC): rejected hero-room-r4-layered; note on hero-room-r4-layered: "off-look"; approved 01-hero-flat; approved 03-titleblock; approved 05-header; approved 06-sideview; approved macro-bl-nb2-1; note on macro-tr-nb2-1: "artifact"; note on macro-bl-pro-1: "artifact"; approved macro-bl-pro-2; approved macro-br-pro-1; note on macro-tl-pro-1: "artifact"; approved macro-tl-pro-2; approved wall-clips-model-pro-1; note on room-r2-nb2-1: "its new"; approved macro2-tr-pro-2; approved wall-clips-layered-1; rejected macro2-bl-nb2-1; note on macro2-bl-nb2-1: "no checkered texture, it was lost"; rejected macro2-tr-nb2-1; note on macro2-tr-nb2-1: "artifact"; approved macro2-bl-pro-1; approved macro2-bl-pro-2; approved macro2-br-pro-1; approved macro2-br-pro-2; rejected macro2-tl-pro-1; rejected macro2-tl-pro-2; approved macro2-tr-pro-1; approved room-r1-pro-fixed; rejected room-r4-pro-fixed; note on room-r4-pro-fixed: "artifact"; rejected room-r6-pro-fixed; note on room-r6-pro-fixed: "artifact"; approved room-r2-nb2-fixed; rejected room-r6-nb2-fixed; note on room-r6-nb2-fixed: "artifact"; order: 01-hero-flat, 03-titleblock, 05-header, 06-sideview, macro-bl-nb2-1, macro-bl-pro-2 ...; stage -&gt; set-approved; upload: 01-hero-flat, 03-titleblock, house:nb2-p2-1, 05-header, 06-sideview, macro-bl-nb2-1, macro-bl-pro-2, macro-br-pro-1, macro-tl-pro-2, wall-clips-model-pro-1, wall-clips-layered-1, macro2-bl-pro-1, macro2-bl-pro-2, macro2-br-pro-1, macro2-br-pro-2, macro2-tr-pro-1, macro2-tr-pro-2, room-r1-pro-fixed, room-r2-nb2-fixed, house:nb2-n4-1</li>
 <li>f40-ossido: wall-noir-unframed - founder exception to rule 1: hangreal on the dark noir plate, 68% of the panel</li>
 <li>f40-ossido: wall-clips-model - raw render, fidelity 0.99</li>
 <li>2026-09-04 f40-ossido: founder, on the board (iPhone): approved room-r2-nb2-1; rejected room-r6-nb2-1; rejected room-r1-pro-1; approved room-r4-pro-1; approved room-r6-pro-1; rejected wall-noir-unframed; rejected wall-clips-model; rejected macro-tl-nb2-1; rejected macro-br-nb2-1; rejected macro-bl-pro-1; rejected macro-br-pro-2; rejected macro-tr-pro-1; order: room-r4-pro-1, 01-hero-flat, hero-flat-nb2-1, hero-side-nb2-1, hero-side-pro-2, macro-bl-nb2-1 ...</li>
@@ -593,6 +597,6 @@ F40 Archivio Tecnico. That's it. Rule, skill, remember forever."</p>
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-05 16:19", "cfg": {}}</script>
-<script src="board/board.js?v=1788617985"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-05 16:51", "cfg": {}}</script>
+<script src="board/board.js?v=1788619880"></script>
 </body></html>

@@ -385,3 +385,26 @@ body.locked .toast { bottom: calc(72px + env(safe-area-inset-bottom)); }
 .settings pre { font: 400 11.5px/1.5 var(--mono); white-space: pre-wrap; border: 1px solid var(--rule-soft); background: var(--paper-2); padding: 10px; max-height: 240px; overflow: auto; margin: 0; }
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }
+
+/* 2026-09-05: the lot in order is the judging place */
+.lotlist { margin-top: 18px; display: flex; flex-direction: column; gap: 8px; }
+.lhead { font: 600 11px var(--mono); letter-spacing: .16em; text-transform: uppercase; color: var(--ink-2); margin: 14px 0 4px; }
+.lrow { display: grid; grid-template-columns: 132px 1fr auto; gap: 12px; align-items: center; padding: 8px; border: 1px solid var(--line); border-radius: 4px; background: var(--paper-2, transparent); }
+.lrow.ok { border-color: var(--tint, var(--ink)); }
+.lrow.no { opacity: .55; }
+.limg { position: relative; }
+.limg img { width: 132px; height: 88px; object-fit: cover; display: block; border-radius: 2px; cursor: zoom-in; }
+.limg .num { position: absolute; left: 4px; top: 4px; font: 600 10px var(--mono); padding: 2px 5px; background: var(--ink); color: var(--paper); border-radius: 2px; }
+.limg .num.cover { background: var(--tint, var(--ink)); }
+.lmeta { min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.lmeta .lnote { width: 100%; font: 12px/1.35 var(--mono); padding: 4px 6px; border: 1px solid var(--line); background: transparent; color: var(--ink); resize: vertical; min-height: 28px; }
+.lacts { display: flex; flex-direction: column; gap: 6px; align-items: stretch; }
+.lacts button { min-height: 34px; padding: 0 12px; font: 600 11px/1 var(--cond); letter-spacing: .12em; text-transform: uppercase; border: 1px solid var(--line); background: transparent; color: var(--ink); }
+.lacts .k.on { background: var(--tint, var(--ink)); color: var(--paper); border-color: transparent; }
+.lacts .d.on { background: var(--ink); color: var(--paper); border-color: transparent; }
+.lmove { display: flex; gap: 6px; }
+.lmove button { flex: 1 1 0; min-height: 30px; }
+.sendbar .sb-notes { flex: 1 1 100%; max-height: 32vh; overflow: auto; font: 12px/1.4 var(--mono); padding: 6px 0; border-top: 1px solid var(--line); }
+.sendbar .sb-note b { font-weight: 600; }
+@media (max-width: 640px) { .lrow { grid-template-columns: 96px 1fr; } .lacts { grid-column: 1 / -1; flex-direction: row; } .limg img { width: 96px; height: 64px; } }
+

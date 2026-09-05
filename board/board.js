@@ -214,6 +214,39 @@
       }
     });
     enableDrag(strip);
+    // founder, 2026-09-05: the lot in order IS the judging place - every shot, kept ones above in
+    // his order, then the waiting, then the dropped; Keep / Drop and a note on each row
+    const list = $('#lotlist');
+    if (list) {
+      list.innerHTML = '';
+      const kept = o.map(byId).filter(Boolean);
+      const rest = allShots().filter(s => o.indexOf(s.id) < 0);
+      const waiting = rest.filter(s => ev(s.id) === 'pending'), dropped = rest.filter(s => ev(s.id) === 'rejected');
+      const row = function (s, pos) {
+        const v = ev(s.id), note = noteOf(s.id);
+        const ta = h('textarea', { class: 'lnote', placeholder: 'A note on this one, if you like', rows: 1, oninput: e => setNote(s.id, e.target.value, { quiet: true }), onchange: e => setNote(s.id, e.target.value.trim(), { quiet: true }) });
+        ta.value = note;
+        return h('div', { class: 'lrow ' + ({ approved: 'ok', rejected: 'no', pending: 'wait' })[v], data: { id: s.id } },
+          h('div', { class: 'limg' }, h('img', { src: UP + s.thumb, alt: s.id, loading: 'lazy', decoding: 'async', onclick: () => openRoom(kept.concat(waiting, dropped), kept.concat(waiting, dropped).findIndex(x => x.id === s.id)) }),
+            pos >= 0 ? h('span', { class: 'num' + (pos === 0 ? ' cover' : ''), text: pos === 0 ? 'cover' : String(pos + 1) }) : null),
+          h('div', { class: 'lmeta' },
+            h('div', { class: 'tid' }, fmtId(s.id)),
+            h('div', { class: 'trec', text: s.recipeLabel + (s.model ? ' \u00b7 ' + s.model.replace('nano-banana-', 'nb-').replace('-edit', '') : '') }),
+            ta),
+          h('div', { class: 'lacts' },
+            h('button', { type: 'button', class: 'k' + (v === 'approved' ? ' on' : ''), onclick: () => verdict(s.id, v === 'approved' ? 'pending' : 'approved') }, h('span', { class: 'x', text: '\u2713' }), v === 'approved' ? 'Kept' : 'Keep'),
+            h('button', { type: 'button', class: 'd' + (v === 'rejected' ? ' on' : ''), onclick: () => verdict(s.id, v === 'rejected' ? 'pending' : 'rejected') }, h('span', { class: 'x', text: '\u2717' }), s.archive ? 'Remove' : (v === 'rejected' ? 'Dropped' : 'Drop')),
+            pos >= 0 ? h('span', { class: 'lmove' },
+              h('button', { type: 'button', 'aria-label': 'Move earlier', text: '\u2190', disabled: pos === 0 || null, onclick: () => move(s.id, -1) }),
+              h('button', { type: 'button', 'aria-label': 'Move later', text: '\u2192', disabled: pos === o.length - 1 || null, onclick: () => move(s.id, 1) })) : null));
+      };
+      if (kept.length) list.appendChild(h('div', { class: 'lhead', text: kept.length + ' kept, in your order' }));
+      kept.forEach((s, i) => list.appendChild(row(s, i)));
+      if (waiting.length) list.appendChild(h('div', { class: 'lhead', text: waiting.length + ' waiting for your word' }));
+      waiting.forEach(s => list.appendChild(row(s, -1)));
+      if (dropped.length) list.appendChild(h('div', { class: 'lhead', text: dropped.length + ' dropped' }));
+      dropped.forEach(s => list.appendChild(row(s, -1)));
+    }
     const ot = $('#ordertools'); if (ot) {
       ot.innerHTML = '';
       const total = u.filter(x => !x.empty).length;
@@ -313,7 +346,7 @@
   }
 
   function renderGrid() {
-    const g = $('#grid'); if (!g) return; g.innerHTML = '';
+    const g = $('#grid'); if (!g) { renderOrder(); return; } g.innerHTML = '';
     const o = order();
     allShots().filter(s => (filter === 'all' || ev(s.id) === filter) && (group === 'all' || s.group === group)).forEach(function (s) {
       const v = ev(s.id), pos = o.indexOf(s.id), note = noteOf(s.id);
@@ -357,7 +390,7 @@
       const card = (title, sub, go, href) => turn.appendChild(h('a', { class: 'tcard', href: href, style: '--tint:' + x.tint[0] + ';--tint-deep:' + x.tint[1] + ';--tint-ink:' + x.tint[2] },
         h('img', { src: x.sheet, alt: '', loading: 'lazy' }), h('span', { class: 'tt' }, h('b', { text: x.name }), h('span', { text: sub })), h('span', { class: 'go' }, h('span', { class: 'btn primary', text: go }))));
       if (sheetPending) card(x.name, x.collLabel + ' · the sheet waits for your word', 'Approve the sheet', 'posters/' + x.key + '.html#sheet');
-      if (c.pending) card(x.name, x.collLabel + ' · ' + c.pending + ' shots waiting', 'Review ' + c.pending, 'posters/' + x.key + '.html#review');
+      if (c.pending) card(x.name, x.collLabel + ' · ' + c.pending + ' shots waiting', 'Judge ' + c.pending + ' in the lot', 'posters/' + x.key + '.html#sec-order');
       else if (x.stageIdx === 3) card(x.name, x.collLabel + ' · ' + c.approved + ' kept, order set, files zipped', 'Ready to post', 'posters/' + x.key + '.html#sec-post');
       else if (x.stageIdx === 4 && x.lot) card(x.name, x.collLabel + ' · drafted on Catawiki as lot ' + x.lot + ' · Submit is yours', 'Submit on Catawiki', 'https://www.catawiki.com/en/v/lot/' + x.lot + '/edit');
       else if (c.approved >= 4 && x.stageIdx < 3) card(x.name, x.collLabel + ' · ' + c.approved + ' kept, order set', 'Check the order', 'posters/' + x.key + '.html#order');
@@ -719,6 +752,19 @@
     if (!dirty) { bar.classList.remove('on'); return; }
     const c = unsentCount();
     bar.appendChild(h('span', { class: 'sb-text' }, h('i', { class: 'dot' }), (c ? c + ' decision' + (c === 1 ? '' : 's') : 'Changes') + ' on this ' + S.device + ', not sent'));
+    // founder, 2026-09-05: "i wanna see notes next to the send button" - every note that goes with this send
+    const notes = [];
+    Object.keys(S.posters || {}).forEach(function (k) {
+      const q = S.posters[k]; if (!q) return;
+      if (q.sheet && q.sheet.note) notes.push({ id: k + ' \u00b7 sheet ' + q.sheet.v, note: q.sheet.note });
+      Object.keys(q.verdicts || {}).forEach(function (id) { const e = q.verdicts[id]; if (e && e.note) notes.push({ id: id + ' \u00b7 ' + e.v, note: e.note }); });
+    });
+    if (S.note) notes.push({ id: 'for Claude', note: S.note });
+    if (notes.length) {
+      const nl = h('div', { class: 'sb-notes' });
+      notes.forEach(n => nl.appendChild(h('div', { class: 'sb-note' }, h('b', { text: n.id }), ' ', h('span', { text: '\u201c' + n.note + '\u201d' }))));
+      bar.appendChild(nl);
+    }
     bar.appendChild(h('button', { class: 'btn primary big', type: 'button', text: 'Send to Claude', onclick: () => {
       bar.classList.add('busy');
       sendMail(false, true).then(() => { bar.classList.remove('busy'); if (!(sent && sent.ok)) toast('Send failed · ' + ((sent && sent.err) || '') + ' · use Copy in Sync', { label: 'Sync', fn: openSettings }); });
@@ -809,7 +855,7 @@
   // ---------------------------------------------------------------- go
   render();
   if (D.kind === 'poster') {
-    if (location.hash === '#review') setTimeout(openReview, 60);
+    if (location.hash === '#review') location.hash = '#sec-order';
     else if (location.hash === '#archive') setTimeout(openArchive, 60);
     else if (location.hash) { const t = $(location.hash === '#sheet' ? '#sec-sheet' : location.hash === '#order' ? '#sec-order' : location.hash); if (t) setTimeout(() => t.scrollIntoView({ block: 'start' }), 60); }
   }
