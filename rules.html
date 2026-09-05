@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788621980">
+<link rel="stylesheet" href="board/board.css?v=1788626599">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -199,12 +199,59 @@ light and other artifacts. do better and use judges or loops."</p>
 <li>The board: the lot in order is the one judging place (keep / drop / note per row, kept ones
   draggable), the separate judge grid and the swipe review are gone, every note is listed beside
   Send.</li>
+</ul>
+<h2>18. Layering works only on a straight-on photograph with nothing in the way (2026-09-05)</h2>
+<p>Founder, on the 930 set, in his words: "hero-room-r1-layered works. wall-clips-layered-1 works.
+room-r6-pro-1 works by luck - these need to be generated carefully with detailed and many reference
+details. hero-room-r4-layered - layering doesn't work here, sucks, artifacts. bad gen, bad photo -
+period, no layering on these. The ones it works with are straight photos with nothing in the way,
+those we can keep, others - no. room-r6-nb2-fixed - same problem with layering on a non-layer image,
+artifacts. drop this forever. room-r6-pro-fixed2 and room-r6-nb2-fixed2 same thing. room-r4-pro-1 -
+what you had to do is take the original photo from the F40's and layer on there, never regen these;
+regen broke it."</p>
+<ul>
+<li><strong>Layer only where the F40 room is a straight-on wall with nothing in front of the print:</strong> blue
+  <code>r1-pro</code> (living room) and <code>r2-nb2</code> (brick loft); red <code>r2-nb2</code>. <code>FIXED_ROOMS</code> in <code>lotset.py</code>.</li>
+<li><strong>Never layer r4 (the office: F40 model in front, print at an angle) or r6 (a car in the
+  foreground).</strong> <code>r6-nb2</code> is dropped forever. Rule 10's "layered r4 hero" is dead for every lot
+  after the Ossido F40: the blue hero is the layered r1; the red hero waits for his word.</li>
+<li><strong>A generated room is admitted only when it is generated carefully - every reference slot full,
+  the exact room and light described</strong> (his "works by luck" is not a recipe). Rule 16's "never
+  generated" is amended to that extent, pending his answer.</li>
+<li><strong>The cover room is emitted once.</strong> The 930 carried <code>room-r1-pro-fixed</code> and <code>hero-room-r1-layered</code>
+  as the same bytes under two ids; the build now skips the fixed copy of the hero room.</li>
+</ul>
+<h2>19. The poster page: hero, the lot in order (in by default), the photographs, the stores (2026-09-05)</h2>
+<p>Founder: "first the big hero, then 02 with order and accept by default / reject option with notes,
+clear and responsive, then 03 - just a pool of photos. All approving and tossing happens in 02.
+Drop the artifact / excessive buttons, leave just the note window and make it work properly - you
+leave the note, press a button and it gets over; make it clear. Make the page laconic. Get rid of
+'full size for posting'; a separate download button on each photo in 02 and 03. Keep the Catawiki
+preview. On the board, every uploaded poster appears separately below the ones that need work, and a
+card opens the lot page, never Catawiki - the store link lives inside the lot page, one section, one
+link per store."</p>
+<ul>
+<li><strong>01 the sheet, big.</strong> The gate (Approve / Not yet + note) while it waits for him; a chip after.</li>
+<li><strong>02 the lot, in order.</strong> Every shot is IN unless he drops it. Per row: number (cover first), the
+  photograph, id, a note field that saves on every keystroke ("saved" tick), a download of the
+  full-size file, drag handle, up/down, Drop. The house photographs are locked third and last.
+  Dropped rows sit below under "Dropped · N" with Restore. The preview "as Catawiki shows it" stays.
+  On Send, every untouched shot becomes an explicit keep, so the pipeline and the page agree.</li>
+<li><strong>03 the photographs.</strong> The whole pool, dropped ones dimmed, the house at the end; a download on
+  each; the lightbox from here is read-only. No judging.</li>
+<li><strong>04 print file (when there is one) · 05 stores · 06 history (collapsed).</strong> Stores: one row per
+  store with its state and one link (Catawiki now; others later). Listing text collapsed under it.</li>
+<li><strong>Send is unmistakable.</strong> The bottom bar says what is new ("2 decisions · order changed · not sent
+  yet") and lists the notes; after Send it turns green - "Sent to Claude · 18:23 · 2 decisions · 1
+  note · via ntfy+mail" - and stays until he taps OK. No zip; <code>site/full/&lt;key&gt;/&lt;id&gt;.jpg</code> is the file
+  as it goes up.</li>
+<li><strong>No piles of text.</strong> No hints under section labels, no counts in prose, no deck paragraphs.</li>
 </ul></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
-<p>Built 2026-09-05 16:38 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
+<p>Built 2026-09-05 18:29 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
 <ul>
-<li><strong>fixed · room</strong> - generate exactly pro: r1, r4, r6, nb2: r2, r6. founder 2026-09-04: these five rooms in every lot, nothing else - save money on gens</li>
-<li><strong>fixed · hero-layered</strong> - the layered r4 room is the hero, nothing generated for it. founder 2026-09-04: the r4 room layered is the hero of every future lot - no generated table hero, no detail lost</li>
+<li><strong>fixed · room-fixed</strong> - layer exactly pro: r1, nb2: r2. founder 2026-09-05 (RULES.md 18): layer only the straight-on rooms with nothing in the way - r1 and r2; r6-nb2 dropped forever</li>
+<li><strong>fixed · hero-layered</strong> - the layered r1 room is the blue hero, nothing generated for it. founder 2026-09-05 (RULES.md 18): the blue hero is the layered r1 living room; r4 'no layering on these'; the red hero waits for his word</li>
 <li><strong>skip · macro-v2 · nb2 · br</strong> - dropped 2/2 times, never kept</li>
 <li><strong>skip · macro-v2 · nb2 · tl</strong> - dropped 2/2 times, never kept</li>
 <li><strong>skip · noir-wall · - · -</strong> - dropped 2/2 times, never kept (note 1)</li>
@@ -347,13 +394,23 @@ light and other artifacts. do better and use judges or loops."</p>
 </tr>
 <tr>
 <td>hero-layered</td>
+<td>F40 blue cover room r1 + layers.py</td>
+<td>-</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+<td></td>
+</tr>
+<tr>
+<td>hero-layered</td>
 <td>F40 r4 room + layers.py</td>
 <td>-</td>
 <td>0</td>
 <td>1</td>
 <td>0</td>
 <td>0%</td>
-<td>off-look 1</td>
+<td>artifact 1</td>
 </tr>
 <tr>
 <td>macro-v2</td>
@@ -463,7 +520,7 @@ light and other artifacts. do better and use judges or loops."</p>
 <td>1</td>
 <td>0</td>
 <td>67%</td>
-<td>note 1</td>
+<td>artifact 1</td>
 </tr>
 <tr>
 <td>room</td>
@@ -559,25 +616,15 @@ light and other artifacts. do better and use judges or loops."</p>
 <td>room</td>
 <td>pro</td>
 <td>r6</td>
-<td>2</td>
-<td>1</td>
+<td>3</td>
 <td>0</td>
-<td>67%</td>
-<td>note 1</td>
+<td>0</td>
+<td>100%</td>
+<td></td>
 </tr>
 <tr>
 <td>room-fixed</td>
 <td>nb2 (F40 tecnico room) + layers.py</td>
-<td>-</td>
-<td>1</td>
-<td>1</td>
-<td>0</td>
-<td>50%</td>
-<td>artifact 1</td>
-</tr>
-<tr>
-<td>room-fixed</td>
-<td>pro (F40 tecnico room) + layers.py</td>
 <td>-</td>
 <td>1</td>
 <td>2</td>
@@ -585,29 +632,41 @@ light and other artifacts. do better and use judges or loops."</p>
 <td>33%</td>
 <td>artifact 2</td>
 </tr>
+<tr>
+<td>room-fixed</td>
+<td>pro (F40 tecnico room) + layers.py</td>
+<td>-</td>
+<td>0</td>
+<td>3</td>
+<td>0</td>
+<td>0%</td>
+<td>artifact 2, note 1</td>
+</tr>
 </tbody>
 </table>
-<p>Reasons across every drop: <strong>note</strong> 10, <strong>artifact</strong> 7, <strong>off-look</strong> 1. Artifact = the model erred (frame, lettering, warp); excessive = too many alike, save the money; off look = wrong room, light or composition.</p>
+<p>Reasons across every drop: <strong>artifact</strong> 10, <strong>note</strong> 9. Artifact = the model erred (frame, lettering, warp); excessive = too many alike, save the money; off look = wrong room, light or composition.</p>
 <h2>His words</h2>
 <ul>
-<li>930t-tecnico: hero-room-r4-layered - off-look</li>
+<li>930t-tecnico: hero-room-r4-layered - founder: layering does not work here - artifacts; bad gen, bad photo; no layering on r4</li>
 <li>930t-tecnico: macro-tr-nb2-1 - artifact</li>
 <li>930t-tecnico: macro-bl-pro-1 - artifact</li>
 <li>930t-tecnico: macro-tl-pro-1 - artifact</li>
 <li>930t-tecnico: macro-tr-pro-1 - first round: 6 of 8 reference slots, lettering invented - founder: 'gibberish text'; replaced by the macro2 round</li>
 <li>930t-tecnico: macro-tr-pro-2 - first round: 6 of 8 reference slots, lettering invented - founder: 'gibberish text'; replaced by the macro2 round</li>
-<li>930t-tecnico: room-r2-nb2-1 - its new</li>
+<li>930t-tecnico: room-r2-nb2-1 - founder: does not work, layering artifacts (the generated loft)</li>
 <li>930t-tecnico: room-r6-nb2-1 - generated room - RULES.md 16: rooms are the fixed set from the F40 lots, layered; replaced</li>
 <li>930t-tecnico: room-r1-pro-1 - generated room - RULES.md 16: rooms are the fixed set from the F40 lots, layered; replaced</li>
-<li>930t-tecnico: room-r4-pro-1 - generated room - RULES.md 16: rooms are the fixed set from the F40 lots, layered; replaced</li>
-<li>930t-tecnico: room-r6-pro-1 - generated room - RULES.md 16: rooms are the fixed set from the F40 lots, layered; replaced</li>
+<li>930t-tecnico: room-r4-pro-1 - founder: regen broke it - never regenerate these</li>
 <li>930t-tecnico: macro2-bl-nb2-1 - no checkered texture, it was lost</li>
 <li>930t-tecnico: macro2-tr-nb2-1 - artifact</li>
-<li>930t-tecnico: room-r4-pro-fixed - artifact</li>
 <li>930t-tecnico: room-r6-pro-fixed - artifact</li>
-<li>930t-tecnico: room-r6-nb2-fixed - artifact</li>
+<li>930t-tecnico: room-r6-nb2-fixed - founder: layering on a photo with something in the way - artifacts; drop this forever</li>
+<li>930t-tecnico: room-r4-pro-fixed2 - founder: no layering on r4</li>
+<li>930t-tecnico: room-r6-pro-fixed2 - founder: same - layering on a non-layer photo, artifacts</li>
+<li>930t-tecnico: room-r6-nb2-fixed2 - founder: same - layering on a non-layer photo, artifacts</li>
 <li>2026-09-05 930t-tecnico: founder rejected: macro-bl-nb2-1, macro-tr-nb2-1, macro-bl-pro-1, macro-bl-pro-2, macro-br-pro-1, macro-tl-pro-1, macro-tl-pro-2, macro-tr-pro-1, macro-tr-pro-2</li>
 <li>2026-09-05 930t-tecnico: founder, on the board (PC): rejected hero-room-r4-layered; note on hero-room-r4-layered: "off-look"; approved 01-hero-flat; approved 03-titleblock; approved 05-header; approved 06-sideview; approved macro-bl-nb2-1; note on macro-tr-nb2-1: "artifact"; note on macro-bl-pro-1: "artifact"; approved macro-bl-pro-2; approved macro-br-pro-1; note on macro-tl-pro-1: "artifact"; approved macro-tl-pro-2; approved wall-clips-model-pro-1; note on room-r2-nb2-1: "its new"; approved macro2-tr-pro-2; approved wall-clips-layered-1; rejected macro2-bl-nb2-1; note on macro2-bl-nb2-1: "no checkered texture, it was lost"; rejected macro2-tr-nb2-1; note on macro2-tr-nb2-1: "artifact"; approved macro2-bl-pro-1; approved macro2-bl-pro-2; approved macro2-br-pro-1; approved macro2-br-pro-2; rejected macro2-tl-pro-1; rejected macro2-tl-pro-2; approved macro2-tr-pro-1; approved room-r1-pro-fixed; rejected room-r4-pro-fixed; note on room-r4-pro-fixed: "artifact"; rejected room-r6-pro-fixed; note on room-r6-pro-fixed: "artifact"; approved room-r2-nb2-fixed; rejected room-r6-nb2-fixed; note on room-r6-nb2-fixed: "artifact"; order: 01-hero-flat, 03-titleblock, 05-header, 06-sideview, macro-bl-nb2-1, macro-bl-pro-2 ...; stage -&gt; set-approved; upload: 01-hero-flat, 03-titleblock, house:nb2-p2-1, 05-header, 06-sideview, macro-bl-nb2-1, macro-bl-pro-2, macro-br-pro-1, macro-tl-pro-2, wall-clips-model-pro-1, wall-clips-layered-1, macro2-bl-pro-1, macro2-bl-pro-2, macro2-br-pro-1, macro2-br-pro-2, macro2-tr-pro-1, macro2-tr-pro-2, room-r1-pro-fixed, room-r2-nb2-fixed, house:nb2-n4-1</li>
+<li>2026-09-05 930t-tecnico: founder, on the board (chat (founder 911 notes, 2026-09-05)): approved hero-room-r1-layered; note on hero-room-r1-layered: "founder: works"; note on wall-clips-layered-1: "founder: works"; approved room-r6-pro-1; note on room-r6-pro-1: "founder: works by luck - rooms like this need careful generation with many detailed references"; note on hero-room-r4-layered: "founder: layering does not work here - artifacts; bad gen, bad photo; no layering on r4"; rejected room-r4-pro-fixed2; note on room-r4-pro-fixed2: "founder: no layering on r4"; note on room-r4-pro-1: "founder: regen broke it - never regenerate these"; note on room-r2-nb2-1: "founder: does not work, layering artifacts (the generated loft)"; note on room-r6-nb2-fixed: "founder: layering on a photo with something in the way - artifacts; drop this forever"; rejected room-r6-pro-fixed2; note on room-r6-pro-fixed2: "founder: same - layering on a non-layer photo, artifacts"; rejected room-r6-nb2-fixed2; note on room-r6-nb2-fixed2: "founder: same - layering on a non-layer photo, artifacts"; order: 01-hero-flat, 03-titleblock, 05-header, 06-sideview, macro-bl-nb2-1, macro-bl-pro-2 ...; upload: 01-hero-flat, 03-titleblock, house:nb2-p2-1, 05-header, 06-sideview, macro-bl-nb2-1, macro-bl-pro-2, macro-br-pro-1, macro-tl-pro-2, wall-clips-model-pro-1, wall-clips-layered-1, macro2-bl-pro-1, macro2-bl-pro-2, macro2-br-pro-1, macro2-br-pro-2, macro2-tr-pro-1, macro2-tr-pro-2, hero-room-r1-layered, room-r2-nb2-fixed, room-r6-pro-1, house:nb2-n4-1</li>
 <li>f40-ossido: wall-noir-unframed - founder exception to rule 1: hangreal on the dark noir plate, 68% of the panel</li>
 <li>f40-ossido: wall-clips-model - raw render, fidelity 0.99</li>
 <li>2026-09-04 f40-ossido: founder, on the board (iPhone): approved room-r2-nb2-1; rejected room-r6-nb2-1; rejected room-r1-pro-1; approved room-r4-pro-1; approved room-r6-pro-1; rejected wall-noir-unframed; rejected wall-clips-model; rejected macro-tl-nb2-1; rejected macro-br-nb2-1; rejected macro-bl-pro-1; rejected macro-br-pro-2; rejected macro-tr-pro-1; order: room-r4-pro-1, 01-hero-flat, hero-flat-nb2-1, hero-side-nb2-1, hero-side-pro-2, macro-bl-nb2-1 ...</li>
@@ -624,6 +683,6 @@ light and other artifacts. do better and use judges or loops."</p>
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-05 17:26", "cfg": {}}</script>
-<script src="board/board.js?v=1788621980"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-05 18:43", "cfg": {}}</script>
+<script src="board/board.js?v=1788626599"></script>
 </body></html>
