@@ -134,7 +134,12 @@ details.sec[open] summary { margin-bottom: 14px; }
 .chip.unsynced::after { content: "· not yet read by Claude"; font-weight: 500; letter-spacing: .06em; text-transform: none; }
 
 /* ---- 02 · the lot, in order: one list, every shot in by default ---- */
-.lotlist { display: flex; flex-direction: column; gap: 8px; }
+.lotlist { display: flex; flex-direction: column; gap: 8px; position: relative; }
+.landing { position: absolute; left: -6px; right: -6px; height: 0; border-top: 4px solid var(--tint); pointer-events: none; display: none; z-index: 6; transform: translateY(-2px); }
+.landing.on { display: block; }
+.landing .ll { position: absolute; right: 0; top: -14px; transform: translateY(-100%); background: var(--tint); color: var(--tint-ink); font: 600 10px/1 var(--cond); text-transform: uppercase; letter-spacing: .14em; padding: 5px 8px; white-space: nowrap; }
+.landing::before, .landing::after { content: ''; position: absolute; top: -8px; width: 12px; height: 12px; background: var(--tint); border-radius: 50%; }
+.landing::before { left: -4px; } .landing::after { right: -4px; }
 .lhead { font: 600 11px var(--mono); letter-spacing: .16em; text-transform: uppercase; color: var(--ink-2); margin: 18px 0 2px; }
 .lrow { display: grid; grid-template-columns: 148px minmax(0, 1fr) auto; gap: 12px 14px; align-items: center; padding: 8px; border: 1px solid var(--rule); background: var(--paper-2); transition: transform .12s, opacity .12s, border-color .12s, background .3s; }
 .lrow.ok { border-color: var(--rule); }
@@ -168,7 +173,7 @@ body.dragging .sendbar, body.dragging .toast { display: none; }
 .lacts button, .lacts .dl { min-height: var(--tap); min-width: var(--tap); display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 0 10px; border: 1px solid var(--rule); background: transparent; color: var(--ink); font: 600 11px/1 var(--cond); letter-spacing: .12em; text-transform: uppercase; text-decoration: none; }
 .lacts .dl, .lacts .mv, .lacts .handle { font: 600 16px var(--mono); padding: 0; color: var(--ink-2); }
 .lacts .dl:hover, .lacts .mv:hover, .lacts .handle:hover { color: var(--ink); border-color: var(--ink); }
-.lacts .handle { cursor: grab; touch-action: none; letter-spacing: -2px; user-select: none; -webkit-user-select: none; }
+.lacts .handle { cursor: grab; touch-action: none; letter-spacing: -2px; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; }
 .lacts .mv[disabled] { opacity: .3; pointer-events: none; }
 .lacts .d { border-color: var(--drop); color: var(--drop); } .lacts .d:hover { background: var(--drop); color: #fff; }
 .lacts .k { border-color: var(--keep); color: var(--keep); } .lacts .k:hover { background: var(--keep); color: #fff; }

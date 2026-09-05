@@ -318,6 +318,15 @@
     if (dragBound === list) return; dragBound = list;
     let drag = null, raf = null;
     // where the finger is, in the viewport; the row's transform follows it and the page scroll under it
+    let landing = null;
+    function landAt(top, n) {
+      if (!landing) { landing = h('div', { class: 'landing' }, h('span', { class: 'll' })); list.appendChild(landing); }
+      const lr = list.getBoundingClientRect();
+      landing.style.top = (top - lr.top) + 'px';
+      landing.firstChild.textContent = n ? 'lands here · ' + (n === 1 ? 'cover' : '№ ' + n) : 'lands here';
+      landing.classList.add('on');
+    }
+    function landClear() { if (landing) landing.classList.remove('on'); }
     function aim() {
       if (!drag) return;
       drag.row.style.transform = 'translateY(' + (drag.cy - drag.y + (window.scrollY - drag.sy)) + 'px)';
@@ -328,7 +337,11 @@
         const r = over.getBoundingClientRect(), after = drag.cy > r.top + r.height / 2;
         over.classList.add('over'); if (after) over.classList.add('after');
         drag.over = { id: over.dataset.id, after: after };
-      } else drag.over = null;
+        // the position it will take, counted the way the rows are numbered (house slots included)
+        const o = order().filter(x => x !== drag.id); o.splice(o.indexOf(over.dataset.id) + (after ? 1 : 0), 0, drag.id);
+        const k = o.indexOf(drag.id); const n = k + 1 + (k >= 2 ? 1 : 0);
+        landAt(after ? r.bottom : r.top, n);
+      } else { drag.over = null; landClear(); }
     }
     // runs every frame during a drag: near the top or bottom edge the page scrolls on its own, faster the
     // deeper the finger sits in the zone - a finger held still at the edge keeps scrolling (a pointermove-only
@@ -365,7 +378,7 @@
       const o = order(); let list_ = o;
       if (drag.over) { list_ = o.filter(x => x !== drag.id); list_.splice(list_.indexOf(drag.over.id) + (drag.over.after ? 1 : 0), 0, drag.id); }
       drag.row.classList.remove('drag'); drag.row.style.transform = ''; document.body.classList.remove('dragging');
-      $$('.lrow.over', list).forEach(r => r.classList.remove('over', 'after'));
+      $$('.lrow.over', list).forEach(r => r.classList.remove('over', 'after')); landClear();
       const changed = list_.join() !== o.join(); const moved = drag.id; drag = null;
       if (changed) {
         setOrder(list_); renderLot(); renderPool(); toast('Order updated');
