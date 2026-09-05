@@ -284,7 +284,9 @@
       g.appendChild(h('figure', { class: 'ph' + (dropped ? ' no' : '') + (s.house ? ' house' : ''), data: { id: s.id } },
         h('a', { class: 'pimg', href: UP + s.inspect, style: s.w && s.h ? 'aspect-ratio:' + s.w + '/' + s.h : '', onclick: e => { e.preventDefault(); openRoom(list, i, { readonly: true }); } },
           h('img', { src: UP + s.thumb, width: s.w || null, height: s.h || null, alt: s.id, loading: 'lazy', decoding: 'async' })),
-        h('figcaption', {}, h('span', { class: 'pid' }, s.house ? '⌂ ' + s.id : fmtId(s.id)), dlLink(s))));
+        h('figcaption', {}, h('span', { class: 'pid' }, s.house ? '⌂ ' + s.id : fmtId(s.id)),
+          dropped ? h('button', { type: 'button', class: 'restore', 'aria-label': 'Restore ' + s.id, title: 'Back in the lot', onclick: () => verdict(s.id, 'approved') }, '↶') : null,
+          dlLink(s))));
     });
     const c = $('#poolcount'); if (c) c.textContent = shots.length + (house.length ? ' + ' + house.length + ' house' : '');
   }
@@ -314,36 +316,61 @@
   let dragBound = null;
   function enableDrag(list) {
     if (dragBound === list) return; dragBound = list;
-    let drag = null;
+    let drag = null, raf = null;
+    // where the finger is, in the viewport; the row's transform follows it and the page scroll under it
+    function aim() {
+      if (!drag) return;
+      drag.row.style.transform = 'translateY(' + (drag.cy - drag.y + (window.scrollY - drag.sy)) + 'px)';
+      const el = document.elementFromPoint(drag.cx, drag.cy);
+      const over = el && el.closest('.lrow.ok[data-id]');
+      $$('.lrow.over', list).forEach(r => r.classList.remove('over', 'after'));
+      if (over && over !== drag.row) {
+        const r = over.getBoundingClientRect(), after = drag.cy > r.top + r.height / 2;
+        over.classList.add('over'); if (after) over.classList.add('after');
+        drag.over = { id: over.dataset.id, after: after };
+      } else drag.over = null;
+    }
+    // runs every frame during a drag: near the top or bottom edge the page scrolls on its own, faster the
+    // deeper the finger sits in the zone - a finger held still at the edge keeps scrolling (a pointermove-only
+    // scroll stopped as soon as the finger stopped)
+    function tick() {
+      if (!drag) return;
+      const top = 52 + 64, bottom = window.innerHeight - 64;   // below the sticky header; the send bar hides while dragging
+      let dy = 0;
+      if (drag.cy > bottom) dy = Math.min(22, 3 + (drag.cy - bottom) / 4);
+      else if (drag.cy < top) dy = -Math.min(22, 3 + (top - drag.cy) / 4);
+      if (dy) {
+        const max = document.documentElement.scrollHeight - window.innerHeight;
+        if ((dy > 0 && window.scrollY < max) || (dy < 0 && window.scrollY > 0)) window.scrollBy(0, dy);
+      }
+      aim();
+      raf = requestAnimationFrame(tick);
+    }
     list.addEventListener('pointerdown', function (e) {
       const handle = e.target.closest('.handle'); if (!handle) return;
       const row = handle.closest('.lrow'); if (!row || !row.dataset.id) return;
       e.preventDefault();
       try { handle.setPointerCapture(e.pointerId); } catch (x) { }
-      drag = { id: row.dataset.id, row: row, y: e.clientY, over: null };
-      row.classList.add('drag');
+      drag = { id: row.dataset.id, row: row, y: e.clientY, cx: e.clientX, cy: e.clientY, sy: window.scrollY, over: null };
+      row.classList.add('drag'); document.body.classList.add('dragging');
+      cancelAnimationFrame(raf); raf = requestAnimationFrame(tick);
     });
     list.addEventListener('pointermove', function (e) {
       if (!drag) return; e.preventDefault();
-      drag.row.style.transform = 'translateY(' + (e.clientY - drag.y) + 'px)';
-      const el = document.elementFromPoint(e.clientX, e.clientY);
-      const over = el && el.closest('.lrow.ok[data-id]');
-      $$('.lrow.over', list).forEach(r => r.classList.remove('over', 'after'));
-      if (over && over !== drag.row) {
-        const r = over.getBoundingClientRect(), after = e.clientY > r.top + r.height / 2;
-        over.classList.add('over'); if (after) over.classList.add('after');
-        drag.over = { id: over.dataset.id, after: after };
-      } else drag.over = null;
-      if (e.clientY > window.innerHeight - 80) window.scrollBy(0, 14); else if (e.clientY < 120) window.scrollBy(0, -14);
+      drag.cx = e.clientX; drag.cy = e.clientY; aim();
     });
     const end = function () {
       if (!drag) return;
+      cancelAnimationFrame(raf); raf = null;
       const o = order(); let list_ = o;
       if (drag.over) { list_ = o.filter(x => x !== drag.id); list_.splice(list_.indexOf(drag.over.id) + (drag.over.after ? 1 : 0), 0, drag.id); }
-      drag.row.classList.remove('drag'); drag.row.style.transform = '';
+      drag.row.classList.remove('drag'); drag.row.style.transform = ''; document.body.classList.remove('dragging');
       $$('.lrow.over', list).forEach(r => r.classList.remove('over', 'after'));
-      const changed = list_.join() !== o.join(); drag = null;
-      if (changed) { setOrder(list_); renderLot(); renderPool(); toast('Order updated'); }
+      const changed = list_.join() !== o.join(); const moved = drag.id; drag = null;
+      if (changed) {
+        setOrder(list_); renderLot(); renderPool(); toast('Order updated');
+        const row = $('.lrow[data-id="' + moved + '"]'); if (row) { row.classList.add('moved'); setTimeout(() => row.classList.remove('moved'), 700); }
+      }
     };
     list.addEventListener('pointerup', end); list.addEventListener('pointercancel', end);
   }
@@ -463,6 +490,7 @@
       } else {
         meta.appendChild(h('span', { text: s.label || s.recipeLabel || s.file || '' }));
       }
+      if (!judgeable && D.kind === 'poster' && byId(s.id) && ev(s.id) === 'rejected') foot.appendChild(h('button', { type: 'button', class: 'k', onclick: () => { verdict(s.id, 'approved', { quiet: true }); toast(s.id + ' · back in the lot'); show(); } }, h('span', { class: 'x', text: '↶' }), 'Restore'));
       if (s.full || s.inspect) foot.appendChild(dlLink(s, 'dlf'));
       foot.appendChild(h('button', { type: 'button', class: 'nav', 'aria-label': 'Next', text: '›', onclick: () => go(1), disabled: list.length < 2 || null }));
     }
