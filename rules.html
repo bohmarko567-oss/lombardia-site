@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788619880">
+<link rel="stylesheet" href="board/board.css?v=1788620399">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -172,6 +172,27 @@ F40 Archivio Tecnico. That's it. Rule, skill, remember forever."</p>
   against the reference, against 60-180 on a fresh render. No room is ever generated again: $0.78 a
   poster saved, and no detail can be lost or invented.</li>
 <li>The hero of every lot stays the r4 room, layered (rule 10), from this fixed set.</li>
+</ul>
+<h2>17. A layered room passes two fresh critics before it reaches the board (2026-09-05)</h2>
+<p>Founder, on the first fixed rooms: "those rooms were rejected because the poster was inserted with
+light and other artifacts. do better and use judges or loops."</p>
+<ul>
+<li>Before any layered room or hero goes on the board, a judge set is written (<code>_serve/judge*/</code>: the
+  raw render, the composite, a 100 % crop of the header and of a corner) and TWO fresh-context
+  critics (sonnet, independent, the rubric in the lot-photos skill) grade every room PASS or FAIL
+  with the exact place of each defect. A FAIL is fixed in the compositing and re-judged; nothing
+  is hand-picked past a FAIL. The founder still judges last, on the board.</li>
+<li>What the critics and the 100 % crops caught this night, now in <code>layers.py</code>: the ink mask covers
+  letter INTERIORS, not only edges (thick wordmarks came out pink or cyan inside with white rims);
+  in fixed-room mode only non-print colours are occluders (the other poster's redraw is never an
+  object, it came back as white smears); the paint is clipped to the model's own paper (a blue tab
+  stuck out past the edge); no unsharp mask (dark rings around bright letters); highlights
+  compressed so glare never blows the lettering out.</li>
+<li>The hero of a lot is the collection's own F40 cover room (red r4, blue r1): the r4 office holds
+  a Ferrari model, off-look under any other marque.</li>
+<li>The board: the lot in order is the one judging place (keep / drop / note per row, kept ones
+  draggable), the separate judge grid and the swipe review are gone, every note is listed beside
+  Send.</li>
 </ul></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
 <p>Built 2026-09-05 16:38 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
@@ -597,6 +618,6 @@ F40 Archivio Tecnico. That's it. Rule, skill, remember forever."</p>
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-05 16:51", "cfg": {}}</script>
-<script src="board/board.js?v=1788619880"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-05 16:59", "cfg": {}}</script>
+<script src="board/board.js?v=1788620399"></script>
 </body></html>
