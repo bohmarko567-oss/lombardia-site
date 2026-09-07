@@ -747,6 +747,11 @@
     return wrap;
   }
   function renderSendbar() {
+    // founder 2026-09-07: "general notes don't work, it's impossible to type" - every keystroke in the field ran
+    // renderTitleblock() -> renderSendbar(), which emptied the bar and destroyed the textarea under his thumb.
+    // While the general-notes field has the focus the bar is left alone; the change event (blur) rebuilds it.
+    const ae = document.activeElement;
+    if (ae && ae.tagName === 'TEXTAREA' && ae.closest && ae.closest('#sendbar .sb-general')) return;
     let bar = $('#sendbar'); if (!bar) { bar = h('div', { id: 'sendbar', class: 'sendbar' }); document.body.appendChild(bar); }
     bar.innerHTML = ''; bar.className = 'sendbar';
     const unseen = unseenCount();
