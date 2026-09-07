@@ -662,8 +662,9 @@
     if (S.note) lines.push('', 'NOTE: ' + S.note);
     Object.keys(S.posters).forEach(function (k) {
       const q = S.posters[k]; const vs = Object.keys(q.verdicts || {});
-      if (!vs.length && !(q.added || []).length && !q.sheet && !q.order) return;
+      if (!vs.length && !(q.added || []).length && !q.sheet && !q.order && !q.gnote) return;
       lines.push('', '## ' + k);
+      if (q.gnote) lines.push('general note: "' + q.gnote + '"');
       if (q.sheet) lines.push('sheet: ' + q.sheet.v + (q.sheet.version ? ' (version ' + q.sheet.version + ')' : '') + (q.sheet.note ? ' — "' + q.sheet.note + '"' : ''));
       const by = { approved: [], rejected: [], pending: [] };
       vs.forEach(id => { const e = q.verdicts[id]; (by[e.v] || by.pending).push(id + (e.note ? ' ("' + e.note + '")' : (e.note === '' ? ' (note cleared)' : ''))); });
@@ -691,7 +692,7 @@
     let c = 0;
     Object.keys(S.posters).forEach(k => {
       const q = S.posters[k];
-      c += Object.keys(q.verdicts || {}).filter(id => fresh(q.verdicts[id].at)).length + (q.added || []).filter(a => fresh(a.at)).length + (q.sheet && fresh(q.sheet.at) ? 1 : 0);
+      c += Object.keys(q.verdicts || {}).filter(id => fresh(q.verdicts[id].at)).length + (q.added || []).filter(a => fresh(a.at)).length + (q.sheet && fresh(q.sheet.at) ? 1 : 0) + (q.gnote !== undefined && fresh(q.gnoteAt) ? 1 : 0);
     });
     return c;
   }
@@ -709,6 +710,7 @@
       if (c) parts.push(c + ' decision' + (c === 1 ? '' : 's'));
       if (q.sheet && fresh(q.sheet.at)) parts.push('sheet ' + (q.sheet.v === 'approved' ? 'approved' : 'sent back'));
       if (q.order && fresh(q.orderAt)) parts.push('order changed');
+      if (q.gnote !== undefined && fresh(q.gnoteAt)) parts.push(q.gnote ? 'general note' : 'general note cleared');
       if (parts.length) lines.push({ key: k, name: nameOf(k), text: parts.join(' · ') });
     });
     return lines;
@@ -720,9 +722,29 @@
       const q = S.posters[k]; if (!q) return;
       if (q.sheet && q.sheet.note && fresh(q.sheet.at)) notes.push({ id: k + ' · sheet ' + q.sheet.v + (q.sheet.version ? ' · version ' + q.sheet.version : ''), note: q.sheet.note });
       Object.keys(q.verdicts || {}).forEach(function (id) { const e = q.verdicts[id]; if (e && e.note && fresh(e.at)) notes.push({ id: id, note: e.note }); });
+      if (q.gnote && fresh(q.gnoteAt) && !(D.kind === 'poster' && k === D.key)) notes.push({ id: k + ' · general', note: q.gnote });
     });
     if (S.note) notes.push({ id: 'for Claude', note: S.note });
     return notes;
+  }
+  // founder 2026-09-07: "add 'general notes' in lot pages in that task bar somewhere next to 'send to claude' button"
+  // Saved on every keystroke WITHOUT rebuilding the bar (a rebuild would take the focus mid-word, the rule-15 trap);
+  // the bar is rebuilt on blur. Goes up inside the snapshot as posters[key].gnote; lotset.py apply reads it.
+  function generalNotes() {
+    const wrap = h('div', { class: 'sb-general' });
+    const ta = h('textarea', { class: 'notefield', placeholder: 'General notes for this lot · sent with the next Send', rows: 2 });
+    ta.value = p.gnote || '';
+    ta.addEventListener('input', () => {
+      p.gnote = ta.value; p.gnoteAt = nowISO(); S.savedAt = p.gnoteAt; persist(); setDirty(true); justSent = null;
+      if (token()) { clearTimeout(ghTimer); ghTimer = setTimeout(pushGithub, 3000); }
+      renderTitleblock();
+      const bar = $('#sendbar'); if (bar) bar.classList.remove('quiet');
+      const b = $('#sendbar .btn.primary.big'); if (b) b.disabled = sending;
+      const q = $('#sendbar .sb-not'); if (q) q.textContent = 'not sent yet';
+    });
+    ta.addEventListener('change', () => { p.gnote = ta.value.trim(); if (p.gnote !== ta.value) { p.gnoteAt = nowISO(); persist(); } renderSendbar(); });
+    wrap.appendChild(h('label', { text: 'General notes' })); wrap.appendChild(ta);
+    return wrap;
   }
   function renderSendbar() {
     let bar = $('#sendbar'); if (!bar) { bar = h('div', { id: 'sendbar', class: 'sendbar' }); document.body.appendChild(bar); }
@@ -738,9 +760,15 @@
       return;
     }
     if (sent && !sent.ok && !dirty && sent.shown !== true) { /* a failed send with nothing new: the title block says so */ }
-    if (!dirty && !unseen) { bar.classList.remove('on'); document.body.classList.remove('has-sendbar'); return; }
+    // founder 2026-09-07: general notes for the lot live in this bar, next to Send, so on a lot page the bar
+    // stays up in a quiet state even with nothing waiting
+    const quiet = !dirty && !unseen, lotPage = D.kind === 'poster' && !!p;
+    if (quiet && !lotPage) { bar.classList.remove('on'); document.body.classList.remove('has-sendbar'); return; }
     bar.classList.add('on'); document.body.classList.add('has-sendbar');
-    const lines = pendingLines();
+    if (quiet) bar.classList.add('quiet');
+    const lines = quiet ? [] : pendingLines();
+    if (quiet) bar.appendChild(h('span', { class: 'sb-text' }, h('i', { class: 'dot ok' }), h('span', { class: 'sb-lines' }, h('span', { class: 'sb-not', text: 'Nothing waiting · a general note goes with the next Send' }))));
+    else {
     if (unseen) {
       const mine = lines.find(l => l.key === D.key);
       if (mine) mine.text += ' · ' + unseen + ' new, in by default'; else lines.unshift({ key: D.key, name: D.name, text: unseen + ' new, in the lot by default' });
@@ -756,7 +784,9 @@
       bar.appendChild(nl);
     }
     if (sent && !sent.ok && sent.at && (!S.savedAt || Date.parse(sent.at) > Date.parse(S.savedAt))) bar.appendChild(h('div', { class: 'sb-fail', text: 'Last send failed · ' + (sent.err || '') }));
-    const btn = h('button', { class: 'btn primary big', type: 'button', text: sending ? 'Sending…' : 'Send to Claude', disabled: sending || null, onclick: () => {
+    }
+    if (lotPage) bar.appendChild(generalNotes());
+    const btn = h('button', { class: 'btn primary big', type: 'button', text: sending ? 'Sending…' : 'Send to Claude', disabled: (sending || quiet) || null, onclick: () => {
       sending = true; renderSendbar();
       sendMail(false, true).then(() => { sending = false; renderSendbar(); if (!(sent && sent.ok)) toast('Send failed · ' + ((sent && sent.err) || '') + ' · use Copy in Sync', { label: 'Sync', fn: openSettings }); });
     } });
