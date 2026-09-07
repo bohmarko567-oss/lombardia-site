@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788796523">
+<link rel="stylesheet" href="board/board.css?v=1788796594">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -408,7 +408,30 @@ subtitle, title block, elevations - plus the corners at 45/28/18 %):</p>
 mount, Perspex, fulfilled from NL, EUR 63 + EUR 13-19 shipping in the EU) - brown for the Ossido, natural for the
 blue. The GB <code>FRA-</code> line and the box frame in the first matrix were the wrong line; their rows say "Acrylic",
 these say "Perspex", and the filter dropped them. A1 keeps the outer rule clear of the lip and the file goes up
-unchanged. Break-even hammer about EUR 53 with EUR 30 shipping charged. Mounted (<code>GLOBAL-CFPM-*</code>) still crops.</p></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
+unchanged. Break-even hammer about EUR 53 with EUR 30 shipping charged. Mounted (<code>GLOBAL-CFPM-*</code>) still crops.</p>
+<h2>25. The lot page has marketplace tabs; the house lives in 03; the framed set is GPT-image-2 with the maker's frame photographs (2026-09-07, evening)</h2>
+<p>Founder, on the board at 17:45: "gpt 2 is an absolute monster. screw everything, take good references for frame
+(especially texture, scale of width/depth so it looks the same on every render) and let's do proper photos.
+clean everything up, it's almost hard to navigate in this lot page because of the amount of photos, drop house
+photos into 03 (we won't use them for Catawiki but the same lot page will be used for other marketplaces). and
+I'd like to have a Catawiki tab first, then add '+' and more tabs for other marketplaces, so each tab remembers
+its photos and their order for each marketplace. make it nice and useful and smart."</p>
+<ul>
+<li><strong>02 carries tabs.</strong> Catawiki first; "+ marketplace" makes another (Etsy, eBay, Delcampe, own store), which
+  starts with the current tab's list. Each tab has its own order (drag, arrows) and its own "−" (not in this
+  marketplace; listed under "Not in <tab>" with a Here button). Drop stays global - a bad photograph is bad
+  everywhere - and the dropped list is folded away. State: <code>posters[key].markets[tab] = {order, out, at, label}</code>
+  in the board and in <code>pipeline/state.json</code>; <code>lotset.upload_list(p, market)</code> is the list for one marketplace;
+  <code>p["uploads"]</code> carries all of them after every apply. <code>catawiki-upload</code> reads the Catawiki one.</li>
+<li><strong>The house photographs live in 03</strong> with a "+ <tab>" button; they enter a marketplace only where he puts
+  them. Rule 11 (house third and last of every Catawiki upload) is retired.</li>
+<li><strong>The framed set is <code>gen-framed.mjs</code> on GPT-image-2 with the v2 stack AND the maker's own photographs of the
+  frame</strong> (<code>refs-frame/&lt;brown|natural&gt;/</code>: Prodigi's chevron for colour and grain, their corner / near / far /
+  back shots for the profile, fetched from the public assets on the classic-frames page): wall x2, table, lean,
+  four corners = 8 x $0.15 a collection, <code>--frame-refs=refs-frame/&lt;wood&gt; --refs=lots/&lt;key&gt;/_refs2 --out=..._gen/proper</code>.
+  Folded in as <code>proper-&lt;concept&gt;-gpt2-&lt;k&gt;</code>, recipe <code>framed-proper</code>. The frame in the prompt is the classic
+  profile (20 mm face, 22 mm deep) - the product is <code>GLOBAL-CFP-A1</code>.</li>
+</ul></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
 <p>Built 2026-09-07 17:46 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
 <ul>
@@ -1014,6 +1037,6 @@ unchanged. Break-even hammer about EUR 53 with EUR 30 shipping charged. Mounted 
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-07 17:55", "cfg": {}}</script>
-<script src="board/board.js?v=1788796523"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-07 17:56", "cfg": {}}</script>
+<script src="board/board.js?v=1788796594"></script>
 </body></html>
