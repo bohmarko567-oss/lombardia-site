@@ -78,6 +78,7 @@
       const s = Date.parse(x.synced), p = P(x.key);
       Object.keys(p.verdicts).forEach(id => { if (!(Date.parse(p.verdicts[id].at) > s)) delete p.verdicts[id]; });
       if (p.orderAt && !(Date.parse(p.orderAt) > s)) { p.order = null; p.orderAt = null; }
+      Object.keys(p.markets || {}).forEach(k => { const e = p.markets[k]; if (e && e.at && !(Date.parse(e.at) > s)) delete p.markets[k]; });
       p.added = p.added.filter(a => Date.parse(a.at) > s);
       if (p.sheet && !(Date.parse(p.sheet.at) > s)) p.sheet = null;
     });
@@ -111,22 +112,68 @@
     if (/RULES\.md|re-laid|first round|second build|one of the fixed rooms|the hero of every lot|the true print|fidelity/.test(n) || n.length > 90) return '';
     return n.replace(/^founder:\s*/i, '');
   }
-  function order() {
-    const ap = allShots().filter(s => inLot(s.id)).map(s => s.id);
-    const base = (p.order || D.order || []).filter(id => ap.indexOf(id) >= 0);
-    return base.concat(ap.filter(id => base.indexOf(id) < 0));
+  // ---- marketplaces (founder 2026-09-07 evening: "a catawiki tab first, then add '+' and more tabs for other
+  // marketplaces, so each tab remembers its photos and their order"). A Drop (quality) is global; "not here" is per
+  // marketplace. The house photographs live in 03 and join a marketplace only where he adds them (never forced).
+  const HP = 'house:';
+  const isHouse = id => typeof id === 'string' && id.indexOf(HP) === 0;
+  const houseById = id => (D.house || []).find(x => HP + x.id === id);
+  function marketsList() {
+    const base = (D.markets && D.markets.length) ? D.markets : [{ key: 'catawiki', label: 'Catawiki', order: D.order || [], out: [] }];
+    const local = p.markets || {}, removed = p.marketsRemoved || [];
+    const keys = base.map(m => m.key).concat(Object.keys(local).filter(k => !base.some(m => m.key === k)));
+    return keys.filter(k => k === 'catawiki' || removed.indexOf(k) < 0).map(k => {
+      const b = base.find(m => m.key === k) || {}, l = local[k] || {};
+      return { key: k, label: l.label || b.label || k, order: l.order || (k === 'catawiki' && p.order) || b.order || [], out: l.out || b.out || [] };
+    });
   }
-  function setOrder(list) { p.order = list; p.orderAt = nowISO(); save(); }
-  // founder 2026-09-04: his first two, house photograph one, every other kept shot, house photograph two last
-  function uploadList() {
-    const o = order().slice(), hs = (D.house || []).slice(0, 2), up = [];
-    if (o.length) up.push({ id: o.shift() });
-    if (o.length) up.push({ id: o.shift() });
-    if (hs[0]) up.push({ house: hs[0] });
-    o.forEach(id => up.push({ id: id }));
-    if (hs[1]) up.push({ house: hs[1], last: true });
-    return up;
+  function curMarket() { const ms = marketsList(); return ms.find(m => m.key === (p.market || 'catawiki')) || ms[0]; }
+  function marketEntry(key) {
+    p.markets = p.markets || {};
+    if (!p.markets[key]) { const m = marketsList().find(x => x.key === key) || { label: key, order: [], out: [] }; p.markets[key] = { label: m.label, order: (m.order || []).slice(), out: (m.out || []).slice(), at: nowISO() }; }
+    return p.markets[key];
   }
+  // one marketplace's list: the kept shots in its order, minus what he took out of it; a house photograph only where placed
+  function marketFull(m) {
+    m = m || curMarket();
+    const kept = allShots().filter(s => inLot(s.id)).map(s => s.id);
+    const houseIds = (D.house || []).map(x => HP + x.id), out = m.out || [];
+    const base = (m.order || []).filter(id => (kept.indexOf(id) >= 0 || houseIds.indexOf(id) >= 0) && out.indexOf(id) < 0);
+    return base.concat(kept.filter(id => base.indexOf(id) < 0 && out.indexOf(id) < 0));
+  }
+  function order() { return marketFull().filter(id => !isHouse(id)); }
+  function setOrder(list) {
+    const m = curMarket(), e = marketEntry(m.key);
+    e.order = list.slice(); e.at = nowISO();
+    if (m.key === 'catawiki') { p.order = list.filter(id => !isHouse(id)); p.orderAt = e.at; }
+    save();
+  }
+  function marketOut(id, back) {
+    const m = curMarket(), e = marketEntry(m.key);
+    e.out = (e.out || []).filter(x => x !== id); if (!back) e.out.push(id);
+    if (back && e.order.indexOf(id) < 0) e.order.push(id);
+    e.at = nowISO(); save(); render();
+    toast(id + (back ? ' · in ' + m.label : ' · not in ' + m.label), { label: 'Undo', fn: () => marketOut(id, !back) });
+  }
+  function marketAdd(id) {   // from 03: put a photograph (house or a kept shot) into the current marketplace
+    const m = curMarket(), e = marketEntry(m.key);
+    e.out = (e.out || []).filter(x => x !== id); if (e.order.indexOf(id) < 0) e.order.push(id);
+    e.at = nowISO(); save(); render(); toast(id + ' · added to ' + m.label);
+  }
+  function addMarket() {
+    const name = (prompt('Marketplace name (Etsy, eBay, Delcampe, own store ...)') || '').trim(); if (!name) return;
+    const key = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'market';
+    if (marketsList().some(m => m.key === key)) { p.market = key; persist(); render(); return; }
+    p.markets = p.markets || {}; p.markets[key] = { label: name, order: marketFull().slice(), out: [], at: nowISO() };
+    p.marketsRemoved = (p.marketsRemoved || []).filter(k => k !== key);
+    p.market = key; save(); render(); toast(name + ' · new tab, starts with the current list');
+  }
+  function removeMarket(key) {
+    const m = marketsList().find(x => x.key === key); if (!m || key === 'catawiki' || !confirm('Remove the ' + m.label + ' tab?')) return;
+    p.marketsRemoved = (p.marketsRemoved || []).concat([key]); if (p.markets) delete p.markets[key];
+    p.market = 'catawiki'; save(); render();
+  }
+  function uploadList() { return marketFull().map(id => isHouse(id) ? { house: houseById(id) || { id: id.slice(HP.length) } } : { id: id }); }
   function counts() {
     const c = { approved: 0, pending: 0, rejected: 0, total: 0, in: 0 };
     allShots().forEach(s => { const v = ev(s.id); c[v]++; c.total++; if (v !== 'rejected') c.in++; });
@@ -140,7 +187,7 @@
       const raw = addedRaw(s);
       // the pipeline may already hold this add from an earlier send, so the removal travels as a drop
       p.added = p.added.filter(a => a.id !== id); p.verdicts[id] = { v: 'rejected', at: nowISO() };
-      p.order = order().filter(x => x !== id); p.orderAt = nowISO(); save(); render();
+      setOrder(marketFull().filter(x => x !== id)); render();
       if (!opts.quiet) toast(s.id + ' · removed from the lot', { label: 'Undo', fn: () => { delete p.verdicts[id]; p.added.push(raw); save(); render(); } });
       return;
     }
@@ -148,12 +195,11 @@
     const nn = opts.note !== undefined ? opts.note : prevNote;
     if (nn !== undefined) nv.note = nn;             // a note key travels only when he wrote (or cleared) one
     p.verdicts[id] = nv;
-    let o = order();
+    let o = marketFull();
     if (v !== 'rejected') { if (o.indexOf(id) < 0) o.push(id); } else o = o.filter(x => x !== id);
-    p.order = o; p.orderAt = nowISO();
-    save(); render();
+    setOrder(o); render();
     if (!opts.quiet) toast(id + (v === 'rejected' ? ' · dropped' : ' · back in the lot'), {
-      label: 'Undo', fn: () => { if (prev === 'pending') { delete p.verdicts[id]; p.order = order(); p.orderAt = nowISO(); save(); render(); } else verdict(id, prev, { quiet: true, note: prevNote }); }
+      label: 'Undo', fn: () => { if (prev === 'pending') { delete p.verdicts[id]; setOrder(marketFull()); render(); } else verdict(id, prev, { quiet: true, note: prevNote }); }
     });
   }
   function addedRaw(s) { return { id: s.id, src: s.src, label: s.recipeLabel.replace('from the archive · ', ''), thumb: s.thumb, inspect: s.inspect, w: s.w, h: s.h, at: nowISO() }; }
@@ -247,7 +293,14 @@
   }
   function renderLot() {
     const list = $('#lotlist'); if (!list) return; list.innerHTML = '';
-    const o = order(), u = uploadList();
+    const m = curMarket(), ms = marketsList(), full = marketFull(m), o = full, u = uploadList();
+    const tabs = $('#mtabs');
+    if (tabs) {
+      tabs.innerHTML = '';
+      ms.forEach(x => tabs.appendChild(h('button', { type: 'button', class: 'mtab' + (x.key === m.key ? ' on' : ''), text: x.label + ' · ' + marketFull(x).length, onclick: () => { p.market = x.key; persist(); render(); } })));
+      if (m.key !== 'catawiki') tabs.appendChild(h('button', { type: 'button', class: 'mtab', title: 'Remove this tab', text: '× ' + m.label, onclick: () => removeMarket(m.key) }));
+      tabs.appendChild(h('button', { type: 'button', class: 'mtab add', text: '+ marketplace', onclick: addMarket }));
+    }
     const judgeList = () => o.map(byId).filter(Boolean).concat(allShots().filter(s => ev(s.id) === 'rejected'));
     const openAt = id => { const l = judgeList(); openRoom(l, l.findIndex(x => x.id === id)); };
     const row = function (s, pos, k) {
@@ -258,6 +311,7 @@
         acts.appendChild(h('button', { type: 'button', class: 'handle', 'aria-label': 'Drag to reorder', text: '⋮⋮' }));
         acts.appendChild(h('button', { type: 'button', class: 'mv', 'aria-label': 'Move up', text: '▲', disabled: k === 0 || null, onclick: () => move(s.id, -1) }));
         acts.appendChild(h('button', { type: 'button', class: 'mv', 'aria-label': 'Move down', text: '▼', disabled: k === o.length - 1 || null, onclick: () => move(s.id, 1) }));
+        acts.appendChild(h('button', { type: 'button', class: 'mv', title: 'Not in ' + m.label, 'aria-label': 'Not in ' + m.label, text: '−', onclick: () => marketOut(s.id) }));
         acts.appendChild(h('button', { type: 'button', class: 'd', onclick: () => verdict(s.id, 'rejected') }, h('span', { class: 'x', text: '✗' }), s.archive ? 'Remove' : 'Drop'));
       } else {
         acts.appendChild(h('button', { type: 'button', class: 'k', onclick: () => verdict(s.id, 'approved') }, h('span', { class: 'x', text: '↶' }), 'Restore'));
@@ -271,21 +325,41 @@
           noteField(s.id)),
         acts);
     };
-    const houseRow = function (hh, pos, last) {
-      return h('div', { class: 'lrow house' },
+    const houseRow = function (hh, pos) {
+      const hid = HP + hh.id;
+      return h('div', { class: 'lrow ok house', data: { id: hid } },
         h('div', { class: 'limg' }, h('img', { src: UP + hh.thumb, alt: hh.id, loading: 'lazy', decoding: 'async', onclick: () => openRoom((D.house || []).map(x => ({ id: x.id, inspect: x.inspect, full: x.full, label: x.label })), (D.house || []).indexOf(hh), { readonly: true }) }),
-          h('span', { class: 'num house', text: String(pos + 1) })),
-        h('div', { class: 'lmeta' }, h('div', { class: 'tid' }, '⌂ house · ' + (last ? 'last' : (['first', 'second', 'third'][pos] || '№ ' + (pos + 1)))), h('div', { class: 'trec', text: hh.label })),
-        h('div', { class: 'lacts' }, dlLink(hh)));
+          h('span', { class: 'num' + (pos === 0 ? ' cover' : ''), text: pos === 0 ? 'cover' : String(pos + 1) })),
+        h('div', { class: 'lmeta' }, h('div', { class: 'tid' }, '⌂ house · ' + hh.id), h('div', { class: 'trec', text: hh.label })),
+        h('div', { class: 'lacts' }, dlLink(hh),
+          h('button', { type: 'button', class: 'handle', 'aria-label': 'Drag to reorder', text: '⋮⋮' }),
+          h('button', { type: 'button', class: 'mv', 'aria-label': 'Move up', text: '▲', disabled: pos === 0 || null, onclick: () => move(hid, -1) }),
+          h('button', { type: 'button', class: 'mv', 'aria-label': 'Move down', text: '▼', disabled: pos === full.length - 1 || null, onclick: () => move(hid, 1) }),
+          h('button', { type: 'button', class: 'mv', title: 'Not in ' + m.label, text: '−', onclick: () => marketOut(hid) })));
     };
-    u.forEach(function (x, i) {
-      if (x.house) list.appendChild(houseRow(x.house, i, x.last));
-      else { const s = byId(x.id); if (s) list.appendChild(row(s, i, o.indexOf(x.id))); }
+    full.forEach(function (id, i) {
+      if (isHouse(id)) { const hh = houseById(id); if (hh) list.appendChild(houseRow(hh, i)); }
+      else { const s = byId(id); if (s) list.appendChild(row(s, i, i)); }
     });
+    if (!full.length) list.appendChild(h('div', { class: 'lhead sub', text: 'Nothing in ' + m.label + ' yet · add from 03 below' }));
+    // taken out of this marketplace only (kept photographs, still in the others)
+    const outs = (m.out || []).filter(id => isHouse(id) ? !!houseById(id) : inLot(id) && !!byId(id));
+    if (outs.length) {
+      list.appendChild(h('div', { class: 'lhead sub', text: 'Not in ' + m.label + ' · ' + outs.length }));
+      outs.forEach(id => {
+        const s = isHouse(id) ? houseById(id) : byId(id); if (!s) return;
+        list.appendChild(h('div', { class: 'lrow mo', data: { id: id } },
+          h('div', { class: 'limg' }, h('img', { src: UP + s.thumb, alt: id, loading: 'lazy', decoding: 'async' })),
+          h('div', { class: 'lmeta' }, h('div', { class: 'tid' }, isHouse(id) ? '⌂ house · ' + s.id : fmtId(id)), h('div', { class: 'trec', text: s.recipeLabel || s.label || '' })),
+          h('div', { class: 'lacts' }, h('button', { type: 'button', class: 'k', onclick: () => marketOut(id, true) }, h('span', { class: 'x', text: '+' }), 'Here'))));
+      });
+    }
+    // dropped for quality (every marketplace), folded away so the page stays short (founder: "almost hard to navigate")
     const dropped = allShots().filter(s => ev(s.id) === 'rejected');
     if (dropped.length) {
-      list.appendChild(h('div', { class: 'lhead', text: 'Dropped · ' + dropped.length }));
-      dropped.forEach(s => list.appendChild(row(s, -1, -1)));
+      const det = h('details', { class: 'ldropped' }); det.appendChild(h('summary', { class: 'lhead', text: 'Dropped · ' + dropped.length }));
+      dropped.forEach(s => det.appendChild(row(s, -1, -1)));
+      list.appendChild(det);
     }
     enableDrag(list);
     const ot = $('#ordertools'); if (ot) {
@@ -307,6 +381,8 @@
           h('img', { src: UP + s.thumb, width: s.w || null, height: s.h || null, alt: s.id, loading: 'lazy', decoding: 'async' })),
         h('figcaption', {}, h('span', { class: 'pid' }, s.house ? '⌂ ' + s.id : fmtId(s.id)),
           dropped ? h('button', { type: 'button', class: 'restore', 'aria-label': 'Restore ' + s.id, title: 'Back in the lot', onclick: () => verdict(s.id, 'approved') }, '↶') : null,
+          (!dropped ? (function () { const mid = s.house ? HP + s.id : s.id, m = curMarket(), inM = marketFull(m).indexOf(mid) >= 0;
+            return h('button', { type: 'button', class: 'mk' + (inM ? ' in' : ''), text: inM ? 'in ' + m.label : '+ ' + m.label, onclick: () => { if (!inM) marketAdd(mid); } }); })() : null),
           dlLink(s))));
     });
     const c = $('#poolcount'); if (c) c.textContent = shots.length + (house.length ? ' + ' + house.length + ' house' : '');
@@ -328,7 +404,7 @@
     room = { el: el, key: e => { if (e.key === 'Escape') closeRoom(); } };
   }
   function move(id, dir) {
-    const o = order(), i = o.indexOf(id), j = i + dir;
+    const o = marketFull(), i = o.indexOf(id), j = i + dir;
     if (i < 0 || j < 0 || j >= o.length) return;
     o.splice(i, 1); o.splice(j, 0, id); setOrder(o); renderLot(); renderPool();
     const row = $('.lrow[data-id="' + id + '"]'); if (row) { row.classList.add('moved'); setTimeout(() => row.classList.remove('moved'), 500); }
@@ -359,7 +435,7 @@
         over.classList.add('over'); if (after) over.classList.add('after');
         drag.over = { id: over.dataset.id, after: after };
         // the position it will take, counted the way the rows are numbered (house slots included)
-        const o = order().filter(x => x !== drag.id); o.splice(o.indexOf(over.dataset.id) + (after ? 1 : 0), 0, drag.id);
+        const o = marketFull().filter(x => x !== drag.id); o.splice(o.indexOf(over.dataset.id) + (after ? 1 : 0), 0, drag.id);
         const k = o.indexOf(drag.id); const n = k + 1 + (k >= 2 ? 1 : 0);
         landAt(after ? r.bottom : r.top, n);
       } else { drag.over = null; landClear(); }
@@ -662,7 +738,7 @@
     if (S.note) lines.push('', 'NOTE: ' + S.note);
     Object.keys(S.posters).forEach(function (k) {
       const q = S.posters[k]; const vs = Object.keys(q.verdicts || {});
-      if (!vs.length && !(q.added || []).length && !q.sheet && !q.order && !q.gnote) return;
+      if (!vs.length && !(q.added || []).length && !q.sheet && !q.order && !q.gnote && !Object.keys(q.markets || {}).length && !(q.marketsRemoved || []).length) return;
       lines.push('', '## ' + k);
       if (q.gnote) lines.push('general note: "' + q.gnote + '"');
       if (q.sheet) lines.push('sheet: ' + q.sheet.v + (q.sheet.version ? ' (version ' + q.sheet.version + ')' : '') + (q.sheet.note ? ' — "' + q.sheet.note + '"' : ''));
@@ -673,8 +749,10 @@
       if (by.pending.length) lines.push('back to waiting: ' + by.pending.join(', '));
       (q.added || []).forEach(a => lines.push('add: ' + a.id + ' <- ' + a.src));
       const ord = (D.kind === 'poster' && k === D.key) ? order() : q.order;
-      if (ord && ord.length) lines.push('order: ' + ord.join(', ') + '  (all go up; the house third and last)');
-      if (D.kind === 'poster' && k === D.key) { lines.push('upload: ' + uploadList().map(x => x.house ? 'HOUSE ' + x.house.id : x.id).join(', ')); }
+      if (ord && ord.length) lines.push('order: ' + ord.join(', '));
+      Object.keys(q.markets || {}).forEach(mk => { const e = q.markets[mk]; if (!e || !fresh(e.at)) return; lines.push('market ' + (e.label || mk) + ' [' + mk + ']: ' + (e.order || []).join(', ') + ((e.out || []).length ? '  (not here: ' + e.out.join(', ') + ')' : '')); });
+      (q.marketsRemoved || []).forEach(mk => lines.push('market removed: ' + mk));
+      if (D.kind === 'poster' && k === D.key) { lines.push('upload ' + curMarket().label + ': ' + uploadList().map(x => x.house ? 'house:' + x.house.id : x.id).join(', ')); }
     });
     if (lines.length <= 3 && !Object.keys(S.posters).length) lines.push('', 'no decisions yet');
     return lines.join('\n');
@@ -692,7 +770,7 @@
     let c = 0;
     Object.keys(S.posters).forEach(k => {
       const q = S.posters[k];
-      c += Object.keys(q.verdicts || {}).filter(id => fresh(q.verdicts[id].at)).length + (q.added || []).filter(a => fresh(a.at)).length + (q.sheet && fresh(q.sheet.at) ? 1 : 0) + (q.gnote !== undefined && fresh(q.gnoteAt) ? 1 : 0);
+      c += Object.keys(q.verdicts || {}).filter(id => fresh(q.verdicts[id].at)).length + (q.added || []).filter(a => fresh(a.at)).length + (q.sheet && fresh(q.sheet.at) ? 1 : 0) + (q.gnote !== undefined && fresh(q.gnoteAt) ? 1 : 0) + Object.keys(q.markets || {}).filter(mk => q.markets[mk] && fresh(q.markets[mk].at)).length;
     });
     return c;
   }
@@ -710,6 +788,7 @@
       if (c) parts.push(c + ' decision' + (c === 1 ? '' : 's'));
       if (q.sheet && fresh(q.sheet.at)) parts.push('sheet ' + (q.sheet.v === 'approved' ? 'approved' : 'sent back'));
       if (q.order && fresh(q.orderAt)) parts.push('order changed');
+      const mks = Object.keys(q.markets || {}).filter(mk => q.markets[mk] && fresh(q.markets[mk].at)); if (mks.length) parts.push(mks.map(mk => (q.markets[mk].label || mk)).join(' + ') + ' list');
       if (q.gnote !== undefined && fresh(q.gnoteAt)) parts.push(q.gnote ? 'general note' : 'general note cleared');
       if (parts.length) lines.push({ key: k, name: nameOf(k), text: parts.join(' · ') });
     });
@@ -808,6 +887,7 @@
     if (D.kind === 'poster' && p) {
       materialize();
       const o = order(); if (!p.order || p.order.join() !== o.join() || !p.orderAt) { p.order = o; p.orderAt = nowISO(); }
+      const me = marketEntry(curMarket().key), mf = marketFull(); if (me.order.join() !== mf.join()) { me.order = mf; me.at = nowISO(); }
       S.savedAt = nowISO(); persist();
     }
     const n = unsentCount(), notes = allNotes().length;

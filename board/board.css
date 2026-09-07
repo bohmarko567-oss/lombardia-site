@@ -382,3 +382,15 @@ body.locked .toast { bottom: calc(72px + env(safe-area-inset-bottom)); }
 .settings pre { font: 400 11.5px/1.5 var(--mono); white-space: pre-wrap; border: 1px solid var(--rule-soft); background: var(--paper-2); padding: 10px; max-height: 240px; overflow: auto; margin: 0; }
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }
+
+/* marketplace tabs (founder 2026-09-07 evening): Catawiki first, + for more, each remembers its photos and order */
+.mtabs{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px;align-items:center}
+.mtab{font:inherit;font-size:14px;padding:7px 14px;border:1px solid currentColor;border-radius:999px;background:transparent;color:inherit;cursor:pointer;line-height:1}
+.mtab.on{background:#1e1913;color:#f6efe1;border-color:#1e1913}
+.mtab.add{border-style:dashed;opacity:.75}
+.mtab .mx{margin-left:8px;opacity:.6}
+.lhead.sub{opacity:.7;font-size:13px;margin-top:14px}
+.lrow.mo{opacity:.6}
+.lrow.mo .num{visibility:hidden}
+.ph .mk{font:inherit;font-size:12px;padding:3px 8px;border:1px solid currentColor;border-radius:999px;background:transparent;color:inherit;cursor:pointer;margin-left:6px}
+.ph .mk.in{opacity:.55;cursor:default}
