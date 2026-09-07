@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788750696">
+<link rel="stylesheet" href="board/board.css?v=1788791582">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -333,19 +333,48 @@ obvious AI and dropship"):</p>
 <li><strong>Photos: only the flat truth, the white-table shots and the paper close-ups.</strong> Rooms, studio and
   house scenes, clip walls and noir walls go, on every lot. Order: the flat sheet as cover, the
   table shots, the close-ups, then the native crops (title block, header, side view).</li>
-<li><strong>Seller bio is his text and nothing more:</strong> "Lombardia Automobili is a small drawing studio ...
-  We draw engineering sheets of the cars that mattered. One car per sheet, its elevations and a
-  three-quarter study, real factory dimensions. Sheets are printed in small numbered editions on
-  200 gsm archival matte paper, signed in pencil, and shipped rolled in a rigid tube with care."
-  "In Denmark" is replaced by a value phrase. Anything longer "affects image".</li>
-<li><strong>Editions without a cap.</strong> Call it an edition, number it, never state a finite size and never
-  say it will not be reprinted - reprinting must stay effortless.</li>
+<li><strong>Seller bio is his text and nothing more (final, 2026-09-07):</strong> "Lombardia Automobili is a small
+  drawing studio working from the factory's own dimensions. We draw engineering sheets of the cars
+  that mattered. One car per sheet, its elevations and real factory dimensions. Sheets are printed
+  in small editions on 200 gsm archival matte paper, signed and shipped rolled in a rigid tube with
+  care." Anything longer "affects image".</li>
+<li><strong>"Limited edition", never numbered, never capped</strong> (founder 2026-09-07, second pass: "dont number
+  editions"). Never say it will not be reprinted - reprinting must stay effortless. "Signed" means the
+  signature drawn on the sheet; nobody signs by hand. Paper in a listing is "exclusive archival paper",
+  not a stock name that reads as print-on-demand. Copy stays general enough for other poster types.</li>
 <li><strong>Copy is personal and short.</strong> "This F40", not "the F40"; every sentence adds value or goes.
   No Shmidt structure ("Technical Engineering Poster / Perfect for / Technical specification").</li>
-<li><strong>Effort and cost stay minimal.</strong> No costly moves, cheap subagent models, no agent swarms; the
+<li><strong>Effort and cost stay minimal.</strong> No costly moves; agents are fine in proportion to the task, one or a
+  few Fable at most, the rest on cheaper models; no swarms; the
   three sheets that exist are the whole scope until they sell. F40 Ossido goes first, new photos,
   new everything.</li>
 <li><strong>The board's Send bar carries a General notes field</strong> next to the Send button on every lot page.</li>
+</ul>
+<h2>22. The framed lot: what Prodigi frames do to the sheet, and the photo set for it (2026-09-07)</h2>
+<p>The expert's first specific rejection (Charara, 2026-09-07, on the rule-21 Ossido F40): "unlikely to
+meet our minimum price requirement of EUR 50 ... if you add similar objects to the lot to increase its
+overall value, we would be happy to reconsider it. Please ensure that you update the images." Founder:
+"lot is good, it's perceived value that kills it. Prodigi does framed posters, let's try that ... for
+blue I'd go with natural wood and for ossido with brown wood." Cap $6 on MUAPI.</p>
+<ul>
+<li><strong>Only a frame WITHOUT a mount keeps the sheet's proportions.</strong> Prodigi's frame size names the
+  glaze; the A sizes share the sheet's ratio, so the 9933 px file goes up unchanged at A1 or A2.
+  A mounted classic frame carries a 2" mount at these sizes and its window is 1.50 (A1) / 1.63 (A2):
+  6-13 % of the sheet is cut and the outer rule goes. Never say "paste and go" of a mounted frame.</li>
+<li><strong>The outer rule sits 11.7 mm from the edge on both sheets.</strong> Under a 5 mm classic lip it shows at
+  A1 and touches at A2; under the 8 mm box lip it shows at A1 and is GONE at A2. Moving the rule in
+  is a sheet change (<code>patentsheet2.MARGIN</code>, rule 12) and needs his word.</li>
+<li><strong>Numbers, SKUs and the recommendation live in <code>PRODIGI-FRAMED-OPTIONS.md</code></strong>; the listing draft in
+  <code>listings/ossido-f40-framed.md</code>. Recommended: A2 box frame, no mount, EMA, <code>FRA-BOX-EMA-NM-ACRY-A2</code>
+  brown (Ossido) / natural (blue), about EUR 123 landed to Germany - a EUR 95-106 break-even lot.</li>
+<li><strong>The framed photo set</strong> is <code>gen-framed.mjs</code> (pro 8 refs + nb2 14 refs, every slot full, the
+  no-mount box frame in the collection's wood): wall (square-on, nothing in the way - the one that is
+  layered), table (three-quarter on the white table), corner (the mitre over the title block), lean.
+  <code>lotset.py add &lt;car&gt; &lt;coll&gt; lots/&lt;key&gt;/_gen/framed framed framed</code> folds the renders in; the layered
+  wall twins pass two fresh critics at 100 % crops (rule 17, <code>judgeset.py</code>) before the board. Rooms,
+  studio, house: still never (rule 21).</li>
+<li><strong>The other door the expert opened</strong> - two sheets in one lot - costs EUR 28 to fulfil and clears his
+  EUR 50 floor on his own words. Not built; the founder chose framed. Tell him both every time.</li>
 </ul></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
 <p>Built 2026-09-05 23:15 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
@@ -805,6 +834,6 @@ obvious AI and dropship"):</p>
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-07 05:11", "cfg": {}}</script>
-<script src="board/board.js?v=1788750696"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-07 16:33", "cfg": {}}</script>
+<script src="board/board.js?v=1788791582"></script>
 </body></html>
