@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788799142">
+<link rel="stylesheet" href="board/board.css?v=1788805324">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -431,6 +431,28 @@ its photos and their order for each marketplace. make it nice and useful and sma
   four corners = 8 x $0.15 a collection, <code>--frame-refs=refs-frame/&lt;wood&gt; --refs=lots/&lt;key&gt;/_refs2 --out=..._gen/proper</code>.
   Folded in as <code>proper-&lt;concept&gt;-gpt2-&lt;k&gt;</code>, recipe <code>framed-proper</code>. The frame in the prompt is the classic
   profile (20 mm face, 22 mm deep) - the product is <code>GLOBAL-CFP-A1</code>.</li>
+</ul>
+<h2>26. The 60 x 80 budget-frame lot: a sized sheet is the A1 re-anchored, never redrawn; the copy says what ships (2026-09-07, night)</h2>
+<p>Founder: "prodigi budget frames, white ones ... max size is 24x31" 150gsm ... case that option is 68eur all in, clear winner
+... redraw the ossido f40 (basically just change the a1 below the spec box to new sizing and change the sizing a bit) and do
+new lot photos - exactly the same but new frame and new poster. new description new specs."</p>
+<ul>
+<li><strong>A sheet size is a canvas plus anchors, not a new layout.</strong> <code>poster.SHEET_SIZES</code> + <code>hybrid_layout_for(size)</code>: the block,
+  sheet line, band and LA + TAV ride with the bottom rule, the block and signature with the right rule, the imprint and
+  header stay centred, the elevations stay top-left, the hero box is fractions of the sheet. <code>python sheet.py &lt;car&gt; ossido
+  landscape --size=6080</code> -&gt; <code>sheets/hybrid/&lt;car&gt;-ossido6080-landscape.jpg</code> (9449 x 7087 = 800 x 600 mm). The sheet line names
+  the format (<code>FORMATO 60 × 80 · 600 × 800 MM</code>). Rule 12 still binds: rebuild the A1 F40 and compare the md5 after any engine
+  change (held at 37ed0df5049c... on 2026-09-07 night). A car after the F40 needs <code>HOUSE_HERO_BOX</code> re-anchored first.</li>
+<li><strong>The size rides in the collection key</strong> (<code>ossido6080</code>, collections.json carries <code>size</code>, <code>print_mm</code>, <code>print_label</code>,
+  <code>frame</code>), so lotset, refs2, mk-board and gen-framed.mjs pick the right crops, print file and frame profile without new code paths.</li>
+<li><strong>The frame in the renders is the frame that ships.</strong> <code>gen-framed.mjs --profile=budget</code> (from <code>COLL.frame</code>): white,
+  20 mm face, 15 mm deep, Perspex, satin poster paper; Prodigi's own photographs of the budget frame in <code>refs-frame/white/</code>.
+  No bare-paper macro on a silk-paper lot - the top-right is a framed corner.</li>
+<li><strong>The listing says what the buyer receives.</strong> Prodigi's budget frame is frame-it-yourself (frame and print delivered
+  together) on 150 gsm silk poster paper: the copy may not say "ready to hang the day it arrives" or "archival"; it says the
+  print drops into the frame, and "a smooth satin stock". The founder was told once (listing file); his edit stands.</li>
+<li><strong>On Catawiki, "Update preset" goes OFF before a rate is touched</strong>, every time - the founder's presets ("global", "a1 50eur")
+  are his. Draft 106687737 (60 x 80) sits beside 106685155 (A1 framed); Submit is his.</li>
 </ul></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
 <p>Built 2026-09-07 18:26 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
@@ -1060,6 +1082,6 @@ its photos and their order for each marketplace. make it nice and useful and sma
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-07 18:39", "cfg": {}}</script>
-<script src="board/board.js?v=1788799142"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-07 20:22", "cfg": {}}</script>
+<script src="board/board.js?v=1788805324"></script>
 </body></html>
