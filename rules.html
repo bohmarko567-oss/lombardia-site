@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788792602">
+<link rel="stylesheet" href="board/board.css?v=1788793769">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -375,7 +375,16 @@ blue I'd go with natural wood and for ossido with brown wood." Cap $6 on MUAPI.<
   studio, house: still never (rule 21).</li>
 <li><strong>The other door the expert opened</strong> - two sheets in one lot - costs EUR 28 to fulfil and clears his
   EUR 50 floor on his own words. Not built; the founder chose framed. Tell him both every time.</li>
-</ul></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
+</ul>
+<h2>23. Layering holds only on the square-on shot; the angled framed shots failed six critics (2026-09-07)</h2>
+<p>Tried the same night the framed set went up: a global SIFT lock (<code>layers.py --global</code>) on the table and lean
+shots. Blue lean locked at 701 matches, blue table 410, Ossido lean 292 - solid numbers - and all three
+still FAILED both critics at 100 % crops: the paint stops at the colour quad so the header band under the
+glare kept the render's own gibberish; a glare band came back as a hard-edged blob; the grain split the
+sheet in two. So rule 18 stands as written: layer the straight-on wall shot only. An angled or glazed shot
+goes up raw or not at all. The failed files sit in <code>lots/&lt;key&gt;/_gen/framed/layered/_failed-angled/</code>.</p>
+<p>The loose locks (12-50 matches on the other five angled shots) are the same lesson from the other side:
+under 250 the print was redrawn, and a lock on a redrawn print paints garbage.</p></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
 <p>Built 2026-09-05 23:15 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
 <ul>
@@ -834,6 +843,6 @@ blue I'd go with natural wood and for ossido with brown wood." Cap $6 on MUAPI.<
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-07 16:50", "cfg": {}}</script>
-<script src="board/board.js?v=1788792602"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-07 17:09", "cfg": {}}</script>
+<script src="board/board.js?v=1788793769"></script>
 </body></html>
