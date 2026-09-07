@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788821030">
+<link rel="stylesheet" href="board/board.css?v=1788821457">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -515,6 +515,21 @@ business based on this lot." <code>GOLD-STANDARD-6080.md</code> is the full reco
   His three touches per lot: approve the sheet, pick and order the photos, press Submit. Rules 3, 4, 8, 17, 27 bind inside it.</li>
 <li><strong>Everything older is history:</strong> the A1 sheets and lots (four Not approved, one Draft), the wooden frames (rules 22, 24, 25),
   the old lot set (rules 6-11, 15-16, 18, 21's photo list), <code>lotset.py build</code>. Read them as the trail, never as the procedure.</li>
+</ul>
+<h2>29. Perspective on the hero's dimension lines: the house cars' lines lean with the view (2026-09-08)</h2>
+<p>Founder, 00:38, on the Countach / Miura / Stratos at 60 x 80 ("pretty good but the same as countach, exactly", "same
+problem with lines"): "Larghezza line has to go counter clockwise two degrees, and moved south east like 15 mm. The
+2450 and 4140 lines are fine, but farer-away complimentary 90 degree lines have to be turned counterclockwise like 5
+degrees, case perspective. Rest is good."</p>
+<ul>
+<li><code>poster.HERO_ANCHORED</code> carries it for every anchored (house) car: <code>larghezza_rot_deg=2</code> about the line's middle,
+  <code>larghezza_shift_px=(125, 125)</code> (15 mm south-east at 11.81 px/mm), <code>far_ext_rot_deg=5</code> on the extension pieces at
+  the FAR ends of PASSO (the rear tyre contact) and LUNGHEZZA (the tail); the line's far end moves to where the turned
+  piece meets it, so the lines themselves stay where he said they were fine. Counter-clockwise as seen on the sheet:
+  with y down, R(t) = [[cos t, sin t], [-sin t, cos t]].</li>
+<li>The F40 keeps its own 362 system (<code>draw_hero_dims_from_source</code>) and never reads these - the A1 F40 and the 60 x 80 F40
+  rebuild byte-identical after the change (37ed0df5049c..., 5e4d5a9ed8d8...).</li>
+<li>Every house sheet is rebuilt and re-registered on the board when this changes; he judges it there (rule 8).</li>
 </ul></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
 <p>Built 2026-09-07 23:03 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
@@ -1209,6 +1224,6 @@ business based on this lot." <code>GOLD-STANDARD-6080.md</code> is the full reco
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-08 00:43", "cfg": {}}</script>
-<script src="board/board.js?v=1788821030"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-08 00:50", "cfg": {}}</script>
+<script src="board/board.js?v=1788821457"></script>
 </body></html>
