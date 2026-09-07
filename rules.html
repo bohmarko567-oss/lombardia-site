@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788793769">
+<link rel="stylesheet" href="board/board.css?v=1788794114">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -384,7 +384,26 @@ glare kept the render's own gibberish; a glare band came back as a hard-edged bl
 sheet in two. So rule 18 stands as written: layer the straight-on wall shot only. An angled or glazed shot
 goes up raw or not at all. The failed files sit in <code>lots/&lt;key&gt;/_gen/framed/layered/_failed-angled/</code>.</p>
 <p>The loose locks (12-50 matches on the other five angled shots) are the same lesson from the other side:
-under 250 the print was redrawn, and a lock on a redrawn print paints garbage.</p></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
+under 250 the print was redrawn, and a lock on a redrawn print paints garbage.</p>
+<h2>24. The model that holds the letters is GPT-image-2; the references were never the problem (2026-09-07)</h2>
+<p>Founder: "the model isn't holding the details, we need better model and better references ... I wanna keep
+every and each small detail and letter if possible." The research case (<code>research/MODEL-DETAIL-2026-09-07.md</code>,
+<code>gen-research.mjs</code>, <code>measure-detail.py</code>) ran seven models on the same three corners with the same v2 stack
+(<code>refs2.py</code>: 100 % crops of every lettered element - imprint, monogram, scale bar, signature, wordmark,
+subtitle, title block, elevations - plus the corners at 45/28/18 %):</p>
+<ul>
+<li><strong>gpt-image-2-image-to-image locks on the true corner at 77-387 feature matches, structure 0.84-0.88</strong>:
+  it reproduces the print. nano-banana-pro / nano-banana-2 / kling-o3 / qwen redraw it (0-26 matches) with
+  the v2 stack exactly as they did with the old one. flux-2-pro-edit fails every submit; seedream 5 pro has
+  no route on MUAPI.</li>
+<li>So: corner macros, the table and the lean shots run on <code>gpt2</code> (<code>gen-framed.mjs</code> default plan), with
+  <code>--refs=lots/&lt;key&gt;/_refs2</code>. 4:3 at 3264 x 2448, $0.15. The square-on wall shot stays nano-banana-pro plus
+  its layered twin (the founder's "perfect").</li>
+<li>A GPT corner locks at 250 - the first macro past the rule-15 bar, so a layered twin of a GPT macro is
+  admissible if the critics pass it.</li>
+<li>Ask for one candidate per prompt on nano-banana-pro, or vary the light per candidate: two identical
+  prompts gave the founder "4 identical photos".</li>
+</ul></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
 <p>Built 2026-09-05 23:15 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
 <ul>
@@ -843,6 +862,6 @@ under 250 the print was redrawn, and a lock on a redrawn print paints garbage.</
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-07 17:09", "cfg": {}}</script>
-<script src="board/board.js?v=1788793769"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-07 17:15", "cfg": {}}</script>
+<script src="board/board.js?v=1788794114"></script>
 </body></html>
