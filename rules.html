@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788797708">
+<link rel="stylesheet" href="board/board.css?v=1788798415">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -432,7 +432,7 @@ its photos and their order for each marketplace. make it nice and useful and sma
   Folded in as <code>proper-&lt;concept&gt;-gpt2-&lt;k&gt;</code>, recipe <code>framed-proper</code>. The frame in the prompt is the classic
   profile (20 mm face, 22 mm deep) - the product is <code>GLOBAL-CFP-A1</code>.</li>
 </ul></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
-<p>Built 2026-09-07 17:46 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
+<p>Built 2026-09-07 18:26 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
 <ul>
 <li><strong>fixed · room-fixed</strong> - layer exactly pro: r4, r1, nb2: r2. founder 2026-09-05 (RULES.md 18): layer the F40 originals of r4, r1 and r2; r6-nb2 dropped forever</li>
@@ -441,6 +441,7 @@ its photos and their order for each marketplace. make it nice and useful and sma
 <li><strong>skip · clips-rail · pro · raw</strong> - dropped 2/2 times, never kept (artifact 1, note 1)</li>
 <li><strong>skip · framed · nb2 · -</strong> - dropped 3/3 times, never kept (note 3)</li>
 <li><strong>skip · framed · pro · -</strong> - dropped 6/6 times, never kept (note 4, artifact 2)</li>
+<li><strong>skip · framed-layered · pro · -</strong> - dropped 2/2 times, never kept (note 1, artifact 1)</li>
 <li><strong>skip · hero · nb2 · flat</strong> - dropped 2/2 times, never kept (note 1)</li>
 <li><strong>skip · hero · nb2 · side</strong> - dropped 2/2 times, never kept (note 1)</li>
 <li><strong>skip · macro-v2 · nb2 · bl</strong> - dropped 4/4 times, never kept (excessive 1, note 2)</li>
@@ -450,6 +451,7 @@ its photos and their order for each marketplace. make it nice and useful and sma
 <li><strong>skip · noir-wall · - · -</strong> - dropped 2/2 times, never kept (note 1)</li>
 <li><strong>skip · research · kling-o3-image-edit · -</strong> - dropped 3/3 times, never kept (note 3)</li>
 <li><strong>skip · research · nb2 · -</strong> - dropped 3/3 times, never kept (note 1, artifact 2)</li>
+<li><strong>skip · research · pro · -</strong> - dropped 3/3 times, never kept (note 3)</li>
 <li><strong>skip · research · qwen-image-2.0-pro-edit · -</strong> - dropped 3/3 times, never kept (note 3)</li>
 <li><strong>prefer · hero · pro</strong> - pro kept 40% vs nb2 0% over 5+4 judged</li>
 <li><strong>prefer · macro-v2 · pro</strong> - pro kept 37% vs nb2 0% over 30+12 judged</li>
@@ -573,11 +575,11 @@ its photos and their order for each marketplace. make it nice and useful and sma
 <td>framed-gpt2</td>
 <td>gpt-image-2-image-to-image</td>
 <td>-</td>
-<td>3</td>
+<td>1</td>
+<td>2</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
-<td></td>
+<td>33%</td>
+<td>note 2</td>
 </tr>
 <tr>
 <td>framed-layered</td>
@@ -593,11 +595,21 @@ its photos and their order for each marketplace. make it nice and useful and sma
 <td>framed-layered</td>
 <td>pro</td>
 <td>-</td>
-<td>1</td>
-<td>1</td>
+<td>0</td>
 <td>2</td>
-<td>50%</td>
-<td>artifact 1</td>
+<td>2</td>
+<td>0%</td>
+<td>note 1, artifact 1</td>
+</tr>
+<tr>
+<td>framed-proper</td>
+<td>gpt-image-2-image-to-image</td>
+<td>-</td>
+<td>3</td>
+<td>4</td>
+<td>8</td>
+<td>43%</td>
+<td>note 4</td>
 </tr>
 <tr>
 <td>hero</td>
@@ -763,11 +775,11 @@ its photos and their order for each marketplace. make it nice and useful and sma
 <td>research</td>
 <td>gpt-image-2-image-to-image</td>
 <td>-</td>
-<td>2</td>
 <td>1</td>
+<td>2</td>
 <td>0</td>
-<td>67%</td>
-<td>note 1</td>
+<td>33%</td>
+<td>note 2</td>
 </tr>
 <tr>
 <td>research</td>
@@ -793,11 +805,11 @@ its photos and their order for each marketplace. make it nice and useful and sma
 <td>research</td>
 <td>pro</td>
 <td>-</td>
-<td>2</td>
-<td>1</td>
 <td>0</td>
-<td>67%</td>
-<td>note 1</td>
+<td>3</td>
+<td>0</td>
+<td>0%</td>
+<td>note 3</td>
 </tr>
 <tr>
 <td>research</td>
@@ -951,7 +963,7 @@ its photos and their order for each marketplace. make it nice and useful and sma
 </tr>
 </tbody>
 </table>
-<p>Reasons across every drop: <strong>note</strong> 38, <strong>artifact</strong> 20, <strong>excessive</strong> 2. Artifact = the model erred (frame, lettering, warp); excessive = too many alike, save the money; off look = wrong room, light or composition.</p>
+<p>Reasons across every drop: <strong>note</strong> 48, <strong>artifact</strong> 20, <strong>excessive</strong> 2. Artifact = the model erred (frame, lettering, warp); excessive = too many alike, save the money; off look = wrong room, light or composition.</p>
 <h2>His words</h2>
 <ul>
 <li>930t-tecnico: hero-room-r4-layered - founder: layering does not work here - artifacts; bad gen, bad photo; no layering on r4</li>
@@ -1005,22 +1017,33 @@ its photos and their order for each marketplace. make it nice and useful and sma
 <li>f40-ossido: framed-wall-pro-1 - also not good - artifacts. and why there are 4 identical photos? keep those good ones.</li>
 <li>f40-ossido: framed-wall-pro-2 - not good - artifacts.</li>
 <li>f40-ossido: framed-wall-nb2-1-layered - critics: a sharp-edged flat lighter patch over the paper grain (the glaze reflection carried as light) at the lower edge of the top-left lip crop; major at 100 % | the true sheet under the render's light (layers.py): 333 matches, raw render fidelity 0.745</li>
+<li>f40-ossido: framed-wall-pro-1-layered - perfect</li>
 <li>f40-ossido: framed-wall-pro-2-layered - artifacts</li>
+<li>f40-ossido: framed-lean-gpt2-1 - wow. incredible details</li>
+<li>f40-ossido: framed-table-gpt2-1 - great, each letter and small detail is there. impressed</li>
 <li>f40-ossido: research-tr-gpt2-1 - nah the proportions are off</li>
 <li>f40-ossido: research-bl-kling-1 - garbage</li>
 <li>f40-ossido: research-tl-kling-1 - gust garbage</li>
 <li>f40-ossido: research-tr-kling-1 - research case, v2 references (kling-o3-image-edit): no lock (0 matches) - the corner was redrawn</li>
 <li>f40-ossido: research-tl-nb2-1 - a bit of gibberish text in one place, drop. otherwise could be good</li>
 <li>f40-ossido: research-tr-nb2-1 - nope, artifacts and weird size and frame is unnaturally tall yet thin</li>
+<li>f40-ossido: research-bl-nbpro-1 - good</li>
 <li>f40-ossido: research-tl-nbpro-1 - research case, v2 references (nano-banana-pro-edit): no lock (16 matches) - the corner was redrawn</li>
+<li>f40-ossido: research-tr-nbpro-1 - good</li>
 <li>f40-ossido: research-bl-qwen-1 - research case, v2 references (qwen-image-2.0-pro-edit): lock 167 matches, structure 0.126 - the frame is not exactly the color, idk its off but not bad</li>
 <li>f40-ossido: research-tl-qwen-1 - very bad</li>
 <li>f40-ossido: research-tr-qwen-1 - adtifacts, white base and weird random frame - not the frame from prodigi</li>
+<li>f40-ossido: research-tl-gpt2-1 - perfect</li>
 <li>f40-ossido: research-bl-nb2-1 - artifacts</li>
+<li>f40-ossido: proper-corner-gpt2-1 - GPT-image-2 with the v2 references and Prodigi's own frame photographs (classic brown, GLOBAL-CFP-A1)</li>
+<li>f40-ossido: proper-corner-tr-gpt2-1 - GPT-image-2 with the v2 references and Prodigi's own frame photographs (classic brown, GLOBAL-CFP-A1)</li>
+<li>f40-ossido: proper-lean-gpt2-1 - GPT-image-2 with the v2 references and Prodigi's own frame photographs (classic brown, GLOBAL-CFP-A1)</li>
+<li>f40-ossido: proper-wall-gpt2-1 - wrong frame</li>
 <li>2026-09-04 f40-ossido: founder, on the board (iPhone): approved room-r2-nb2-1; rejected room-r6-nb2-1; rejected room-r1-pro-1; approved room-r4-pro-1; approved room-r6-pro-1; rejected wall-noir-unframed; rejected wall-clips-model; rejected macro-tl-nb2-1; rejected macro-br-nb2-1; rejected macro-bl-pro-1; rejected macro-br-pro-2; rejected macro-tr-pro-1; order: room-r4-pro-1, 01-hero-flat, hero-flat-nb2-1, hero-side-nb2-1, hero-side-pro-2, macro-bl-nb2-1 ...</li>
 <li>2026-09-07 f40-ossido: founder, on the board (PC): approved framed-wall-pro-1-layered; note on framed-wall-pro-1-layered: "perfect"; approved framed-wall-pro-2-layered; note on framed-wall-pro-2-layered: "also perfect but exactly the same picture, nd i mean 100 percent identical."; approved framed-wall-pro-2; note on framed-wall-pro-2: "not good - artifacts."; approved framed-wall-pro-1; note on framed-wall-pro-1: "also not good - artifacts. and why there are 4 identical photos? keep those good ones."; approved framed-corner-nb2-1; approved framed-table-nb2-1; approved framed-wall-nb2-1; approved framed-corner-pro-1; approved framed-lean-pro-1; approved framed-table-pro-1; approved framed-table-pro-2; general note: "the"; order: room-r4-pro-1, 01-hero-flat, hero-flat-nb2-1, hero-side-nb2-1, hero-side-pro-2, macro-bl-nb2-1 ...; upload: 01-hero-flat, hero-flat-nb2-1, hero-side-nb2-1, hero-side-pro-2, macro-bl-nb2-1, macro-tr-nb2-1, macro-bl-pro-2, macro-br-pro-1, macro-tl-pro-2, macro-tr-pro-2, 05-header, 03-titleblock, 06-sideview</li>
 <li>2026-09-07 f40-ossido: founder (board, 16:41): the two layered wall twins 'perfect' (identical); raw framed-wall-pro-1/2 rejected 'artifacts'; general note field broken ('the')</li>
 <li>2026-09-07 f40-ossido: founder, on the board (PC): rejected research-bl-nb2-1; note on research-bl-nb2-1: "artifacts"; approved research-tl-gpt2-1; note on research-tl-gpt2-1: "perfect"; rejected research-tr-qwen-1; note on research-tr-qwen-1: "adtifacts, white base and weird random frame - not the frame from prodigi"; rejected research-tl-qwen-1; note on research-tl-qwen-1: "very bad"; approved research-tr-nbpro-1; note on research-tr-nbpro-1: "good"; rejected research-bl-qwen-1; note on research-bl-qwen-1: "research case, v2 references (qwen-image-2.0-pro-edit): lock 167 matches, structure 0.126 - the frame is not exactly the color, idk its off but not bad"; approved research-bl-nbpro-1; note on research-bl-nbpro-1: "good"; rejected research-tl-nbpro-1; rejected research-tr-nb2-1; note on research-tr-nb2-1: "nope, artifacts and weird size and frame is unnaturally tall yet thin"; rejected research-tl-nb2-1; note on research-tl-nb2-1: "a bit of gibberish text in one place, drop. otherwise could be good"; rejected research-tr-kling-1; rejected research-tl-kling-1; note on research-tl-kling-1: "gust garbage"; rejected research-bl-kling-1; note on research-bl-kling-1: "garbage"; rejected research-tr-gpt2-1; note on research-tr-gpt2-1: "nah the proportions are off"; approved research-bl-gpt2-1; note on research-bl-gpt2-1: "very good"; approved framed-table-gpt2-1; note on framed-table-gpt2-1: "great, each letter and small detail is there. impressed"; approved framed-lean-gpt2-1; note on framed-lean-gpt2-1: "wow. incredible details"; approved framed-corner-gpt2-1; note on framed-corner-gpt2-1: "absolutely perfect"; rejected framed-wall-pro-2-layered; note on framed-wall-pro-2-layered: "artifacts"; rejected framed-table-pro-2; note on framed-table-pro-2: "gibberish logo"; rejected framed-table-pro-1; note on framed-table-pro-1: "gibberish text"; rejected framed-lean-pro-1; note on framed-lean-pro-1: "lost details and text is gibberish"; rejected framed-corner-pro-1; note on framed-corner-pro-1: "gibberish text"; rejected framed-wall-nb2-1; note on framed-wall-nb2-1: "gibberish logo and details"; rejected framed-table-nb2-1; note on framed-table-nb2-1: "text is gibberish"; rejected framed-corner-nb2-1; note on framed-corner-nb2-1: "lost small text"; rejected room-r2-nb2-1; note on room-r2-nb2-1: "gibberish text and logos and details"; rejected room-r6-pro-1; note on room-r6-pro-1: "actually the dets arent up o code, u can notice its ai."; rejected wall-clips-layered; note on wall-clips-layered: "still perfect details but actually the text and model and ither items have this weird red glow around them, it has to be fixed."; rejected macro-br-pro-1; note on macro-br-pro-1: "very good details but there are artifact - its just they are hard to notice almsot even for me, ig by luck. keep for noe."; rejected room-r4-pro-1; note on room-r4-pro-1: "gibberish text"; note on 01-hero-flat: "the true file, 3000 px - perfection, of course."; rejected hero-flat-nb2-1; note on hero-flat-nb2-1: "perfect detailing."; rejected hero-side-nb2-1; note on hero-side-nb2-1: "text gets gibberish."; rejected hero-side-pro-2; note on hero-side-pro-2: "logo is gibberish"; rejected macro-bl-nb2-1; note on macro-bl-nb2-1: "bad small text"; rejected macro-tr-nb2-1; note on macro-tr-nb2-1: "perfect"; rejected macro-bl-pro-2; note on macro-bl-pro-2: "a bit wrong la and tav and ossido text - misleading. dump"; rejected macro-tl-pro-2; note on macro-tl-pro-2: "text gets a bit gibberish"; note on macro-tr-pro-2: "good enough"; general note: "gpt 2 is an absolute monster. screw everything, take good references for frame (especially tecture, scale of width/depth so it looks the same on every render) and lets do proper photos. clean everything up, its almsot hard to nivigate in this lot page because of amount of photos, drop house photos into 03 (we wont use them for ctawiki but the same lot page will be used for other marketplaces). and id like to have a catawiki tab first, then add '+' and more tabs for other marketplaces, so each tab remembers its photos and their order for each marketplace. make it nice and usefull and smart."; order: 01-hero-flat, macro-tr-pro-2, 05-header, 03-titleblock, 06-sideview, framed-wall-pro-1-layered ...; upload: 01-hero-flat, macro-tr-pro-2, 05-header, 03-titleblock, 06-sideview</li>
+<li>2026-09-07 f40-ossido: founder, on the board (PC): rejected proper-wall-gpt2-1; note on proper-wall-gpt2-1: "wrong frame"; rejected proper-lean-gpt2-1; rejected proper-corner-tr-gpt2-1; rejected research-tr-nbpro-1; rejected framed-wall-pro-1-layered; rejected framed-table-gpt2-1; rejected research-bl-nbpro-1; rejected framed-lean-gpt2-1; rejected proper-corner-gpt2-1; rejected research-tl-gpt2-1; approved proper-corner-tl-gpt2-1; approved proper-table-gpt2-1; approved proper-wall-gpt2-2; general note: "new finished set and order. 10 catawiki photos. done. ready to post, lets also craft a small follow up mesage to the same expert on how we in lombardia added frames and like regular framed posters go way above 100 and its our first lot and wed love to see how it works out once to chekc the real value. the shipping tho has to reflect that i pay 100eur for it, and frame of course included - therefore id say 40 eur delivery at least, or just 50. yeah 50 is good. articulate in the description and other things now that this is so fucking premium with wooden frame perfectly matching and sale it properly - to expert as well. pictures are absolutely perfect now."; order: proper-wall-gpt2-2, 01-hero-flat, proper-table-gpt2-1, framed-corner-gpt2-1, proper-corner-tl-gpt2-1, macro-tr-pro-2 ...; catawiki: proper-wall-gpt2-2, 01-hero-flat, proper-table-gpt2-1, framed-corner-gpt2-1, proper-corner-tl-gpt2-1, macro-tr-pro-2 ...; upload: 01-hero-flat, proper-wall-gpt2-2, proper-table-gpt2-1, framed-corner-gpt2-1, proper-corner-tl-gpt2-1, macro-tr-pro-2, 05-header, 03-titleblock, 06-sideview, research-bl-gpt2-1, proper-corner-bl-gpt2-1</li>
 <li>2026-09-04 f40-tecnico: founder rejected: macro-bl-nb2-1, macro-br-nb2-1, macro-br-pro-1, macro-br-pro-2, macro-tr-pro-2, hero-side-pro-2, wall-clips-layered-1, wall-clips-model-1, hero-flat-nb2-1</li>
 <li>2026-09-04 f40-tecnico: founder: the eight rejected have artifacts (the clips wall carries a white base frame); hero-flat-nb2-1 is overkill, too many similar shots, save money; he wants a few more rooms</li>
 <li>2026-09-04 f40-tecnico: founder rejected: room-r2-pro-1, room-r3-pro-1, room-r5-pro-1, room-r1-nb2-1, room-r3-nb2-1, room-r4-nb2-1, room-r5-nb2-1</li>
@@ -1037,6 +1060,6 @@ its photos and their order for each marketplace. make it nice and useful and sma
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-07 18:15", "cfg": {}}</script>
-<script src="board/board.js?v=1788797708"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-07 18:26", "cfg": {}}</script>
+<script src="board/board.js?v=1788798415"></script>
 </body></html>
