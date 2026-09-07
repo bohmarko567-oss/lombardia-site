@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788824129">
+<link rel="stylesheet" href="board/board.css?v=1788824350">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -530,7 +530,28 @@ degrees, case perspective. Rest is good."</p>
 <li>The F40 keeps its own 362 system (<code>draw_hero_dims_from_source</code>) and never reads these - the A1 F40 and the 60 x 80 F40
   rebuild byte-identical after the change (37ed0df5049c..., 5e4d5a9ed8d8...).</li>
 <li>Every house sheet is rebuilt and re-registered on the board when this changes; he judges it there (rule 8).</li>
-</ul></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
+</ul>
+<h2>30. The hero is the F40's approved wall render with the new sheet laid in - never regenerated (2026-09-08, 01:33)</h2>
+<p>Founder, on the blue 911's two generated walls: "Just add main lot layered photo. Again I'll say this as a rule - we had
+a good hero photo in frame for the F40 we just submitted. Why would you regenerate that? Just overlay the blue poster on
+top perfectly. Gimme one hero and we'll have 9 photos, enough."</p>
+<ul>
+<li>The cover of every 60 x 80 lot = <code>lots/f40-ossido6080/_gen/proper/gpt2-wall-1.png</code> (the render behind the gold
+  standard's cover) with the new sheet laid in by the window lock: <code>layers.py --window 59 --grain 0.10 --ref-sheet
+  sheets/hybrid/f40-ossido6080-landscape.jpg --sheet &lt;the new sheet&gt; &lt;a copy of that png in lots/&lt;key&gt;/_gen/hero/&gt;</code>.
+  Free, and the frame, wall and light are the ones he approved. Registration on the 930: 6.6-7.3 mm all sides.</li>
+<li><code>lot60.py render</code> makes the eight corners only ($1.20); <code>lot60.py layer</code> builds this hero; no wall render is bought.</li>
+<li>Shot id <code>hero-f40wall-layered</code>, recipe <code>framed-layered</code>, first in the Catawiki order; the nine = hero, the flat file,
+  four corners, three crops. (Rule 10's spirit, restated for the framed lot: the hero is layered, never generated.)</li>
+<li>Blue on the F40's red render: the light is a luminance field with one cast eased on the ink (layers.py), so the blue
+  plate takes the red render's light without its colour - checked on the 930 before this rule was written.</li>
+</ul>
+<p><strong>Amended the same night, 01:36, his "easy rule for every following poster in Ossido":</strong> "The 1887 line's additional 90 degree
+lines have to be parallel to the other two main lines, and the other two main lines' additional four 90 degree lines have to be
+parallel to the 1887 mm main line." So: the four extension pieces of PASSO and LUNGHEZZA all run parallel to the LARGHEZZA
+line (which is turned 2 degrees), their line ends moved to where the pieces meet; the LARGHEZZA line's own pieces run parallel
+to the length lines (along the car's length axis). The separate 5 degree far turn is history (<code>far_ext_rot_deg</code> 0). F40
+md5s held again after the change.</p></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
 <p>Built 2026-09-07 23:03 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
 <ul>
@@ -1224,6 +1245,6 @@ degrees, case perspective. Rest is good."</p>
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-08 01:35", "cfg": {}}</script>
-<script src="board/board.js?v=1788824129"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-08 01:39", "cfg": {}}</script>
+<script src="board/board.js?v=1788824350"></script>
 </body></html>
