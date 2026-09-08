@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788826800">
+<link rel="stylesheet" href="board/board.css?v=1788828449">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -556,7 +556,32 @@ md5s held again after the change.
   NEUTRAL when the hero is built - <code>layers.py --light-smooth 120 --no-cast</code> (lot60 passes them). The ratio of the red render's
   print to the true red sheet carried the F40's own drawn car as a lighter patch (seen behind the 911's plan-view grille) and
   the red render's cast tinted the blue; a 120 px blur of the light keeps the wall's gradient and the glaze and drops the
-  drawing, the neutral cast keeps the blue blue (plain ground 19/59/111 against the true 19/59/111 after the fix).</p></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
+  drawing, the neutral cast keeps the blue blue (plain ground 19/59/111 against the true 19/59/111 after the fix).</p>
+<h2>31. The bonnet badge is the marque's real crest, laid into the traced figure - never the tracer's blob (2026-09-08, 02:30)</h2>
+<p>Founder, on the 911: "make top view 911 have actual Porsche logo instead of whatever is there on the bonnet rn ... and
+front view, same." The traced figures (patent-figs/<car>-<view>.png) turn a bonnet badge into a blob; a real sheet draws
+the crest.</p>
+<ul>
+<li><code>crest.py</code> does it once per figure: <code>python crest.py --fig patent-figs/930-plan.png --crest
+  library/marques/porsche/crest-lineart-2.png --slot 263,1077,92,79 --rot -90</code> (plan: point toward the nose, PORSCHE
+  band toward the windscreen) and <code>... --fig patent-figs/930-front.png --slot 1033,821,71,55 --squash 1.2</code> (front:
+  upright, foreshortened on the bonnet slope). The slot is the blob's bbox (connected components on the figure). The
+  original figure is kept once under <code>patent-figs/_pre-crest/</code>.</li>
+<li>The crest line art comes from <code>gen-crest.mjs</code> (nano-banana-pro-edit, two photographs of the real badge as references,
+  $0.12 each; pick the candidate without stipple). Kept in <code>library/marques/&lt;marque&gt;/crest-lineart-&lt;k&gt;.png</code>, sources
+  and licences in <code>library/marques/&lt;marque&gt;/source/CREDITS.txt</code>.</li>
+<li>Two weights: the outer shield line at the figure's own stroke (2.5 px), the interior at 1.3 px kept as grey coverage -
+  patentsheet2's <code>place()</code> pastes the figure through its luminance, so grey survives as lighter ink. A binary crest at the
+  figure's stroke merges the quarters into a blob (tried first).</li>
+<li>The crest is 8 mm on the 60 x 80 sheet (figure px = sheet px at 1:10). At 5x it reads: shield, four quarters, antlers,
+  bars, inner shield with the horse, the PORSCHE band as lettering texture.</li>
+<li>After the figure changes: rebuild the sheet, <code>lot60.py refs</code>, <code>lot60.py layer</code>, re-cut the flat truth
+  (<code>lotset.flat_truth</code>, the fold stage skips it once it exists), and re-render only the corners that show the badge with
+  <code>gen-corners.mjs --plan=tr:2,bl:2 --from=5</code> (<code>--from</code> keeps the earlier numbers as history; the earlier renders show
+  the blob and are marked so in the state).</li>
+<li>The crest is a registered trademark. Its use on a sheet sold as the founder's own drawing is his call, taken on
+  2026-09-08 for the 930; every new marque asks again.</li>
+</ul></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
 <p>Built 2026-09-07 23:03 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
 <ul>
@@ -1250,6 +1275,6 @@ md5s held again after the change.
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-08 02:20", "cfg": {}}</script>
-<script src="board/board.js?v=1788826800"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-08 02:47", "cfg": {}}</script>
+<script src="board/board.js?v=1788828449"></script>
 </body></html>
