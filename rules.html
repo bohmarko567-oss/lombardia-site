@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1788826428">
+<link rel="stylesheet" href="board/board.css?v=1788826535">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
@@ -551,7 +551,12 @@ lines have to be parallel to the other two main lines, and the other two main li
 parallel to the 1887 mm main line." So: the four extension pieces of PASSO and LUNGHEZZA all run parallel to the LARGHEZZA
 line (which is turned 2 degrees), their line ends moved to where the pieces meet; the LARGHEZZA line's own pieces run parallel
 to the length lines (along the car's length axis). The separate 5 degree far turn is history (<code>far_ext_rot_deg</code> 0). F40
-md5s held again after the change.</p></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
+md5s held again after the change.
+- <strong>Addendum 02:50, his "the 911 cover is still weird, it has colouring and shadow artifacts":</strong> the light must be SMOOTH and
+  NEUTRAL when the hero is built - <code>layers.py --light-smooth 120 --no-cast</code> (lot60 passes them). The ratio of the red render's
+  print to the true red sheet carried the F40's own drawn car as a lighter patch (seen behind the 911's plan-view grille) and
+  the red render's cast tinted the blue; a 120 px blur of the light keeps the wall's gradient and the glaze and drops the
+  drawing, the neutral cast keeps the blue blue (plain ground 19/59/111 against the true 19/59/111 after the fix).</p></div></section><section class="sec" id="sec-lessons"><div class="sechead"><h2 class="lab">Lessons</h2><span class="hint">what your verdicts taught the pipeline · <code>python lessons.py</code></span></div><div class="md"><h1>Lessons - what the founder's verdicts taught the pipeline</h1>
 <p>Built 2026-09-07 23:03 from <code>pipeline/state.json</code>. <code>lotset.py build</code> applies the rules below; the table is every shot he has judged.</p>
 <h2>Rules the build applies</h2>
 <ul>
@@ -1245,6 +1250,6 @@ md5s held again after the change.</p></div></section><section class="sec" id="se
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-08 02:13", "cfg": {}}</script>
-<script src="board/board.js?v=1788826428"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-08 02:15", "cfg": {}}</script>
+<script src="board/board.js?v=1788826535"></script>
 </body></html>
