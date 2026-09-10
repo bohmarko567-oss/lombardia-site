@@ -938,7 +938,7 @@
     if (D.kind === 'poster') {
       const c = counts(), o = order();
       row('Tavola', D.folio + ' · ' + D.name + ' · ' + D.collLabel);
-      row('Stage', (D.stageIdx + 1) + '/6 · ' + D.stages[D.stageIdx].label + (sheetStatus() === 'approved' && D.stageIdx === 0 ? ' → approved here' : ''));
+      row('Stage', (D.stageIdx + 1) + '/' + D.stages.length + ' · ' + D.stages[D.stageIdx].label + (sheetStatus() === 'approved' && D.stageIdx === 0 ? ' → approved here' : ''));
       if (c.total) row('The lot', c.in + ' in' + (c.pending ? ' · ' + c.pending + ' new' : '') + ' · ' + c.rejected + ' dropped' + (p.added.length ? ' · ' + p.added.length + ' from the archive' : ''));
       if (o.length) row('Order', o.slice(0, 4).map((id, i) => (i + 1) + ' ' + id).join(' · ') + (o.length > 4 ? ' · +' + (o.length - 4) : ''));
     } else if (D.kind === 'index') {
