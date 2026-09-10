@@ -4,10 +4,10 @@
 <meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="board/board.css?v=1789070149">
+<link rel="stylesheet" href="board/board.css?v=1789072231">
 </head><body class="page-rules" style="--tint:#1B3A6B;--tint-deep:#0d2b52;--tint-ink:#efe9d8">
 <header class="top"><a class="brand" href="index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
-<nav class="nav"><a href="index.html">Board</a><a href="house.html">House</a><a href="rules.html" class=on>Rules</a><a href="lab.html">Lab</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
+<nav class="nav"><a href="index.html">Board</a><a href="rules.html" class=on>Rules</a></nav><button class="gear" id="btn-settings" type="button" aria-label="Settings and sync"><span></span></button></header>
 <main class="sheet"><i class="reg tl"></i><i class="reg tr"></i><i class="reg bl"></i><i class="reg br"></i>
 <div class="crumbs"><span class="tinted">Standing rules</span></div><h1>Rules</h1><p class="deck">Each one was paid for with a rejection. <code>lombardia/RULES.md</code> is the file; this is its rendering.</p><section class="sec"><div class="md"><h1>Lombardia Automobili - standing rules from the founder</h1>
 <p>Each rule was paid for with a rejection. Read before any lot photo, mockup or scene work.</p>
@@ -73,10 +73,12 @@ and layered, noir wall, plus the three house photographs. Change the set only on
 photos, I just need heroes to approve. That's a rule." So a new car's path is: sheet built -&gt;
 <code>lotset.py register</code> -&gt; on the board as sheet-pending -&gt; his approval -&gt; only then <code>lotset.py build</code>.
 The only spend before his approval is the car render itself (about $0.36 a car).</p>
-<h2>9. The site is the workplace, nothing else lives on it (2026-09-04)</h2>
-<p>"Perfect structure for work, no junk or garbage, well designed workplace." One pipeline index,
-one page per poster, the house, the rules, and a Lab page that only links the tools that make a
-sheet. Experiments, rejects and contact sheets never reach the site; the attic keeps them.</p>
+<h2>9. The public site is the visual board; Notion is the file archive (2026-09-10)</h2>
+<p>The public site keeps the Board, every poster page, display-quality previews and Rules. House, Lab,
+tool pages, print files, originals, ZIPs and source packs do not publish. Each apparent download
+control opens that lot's verified Notion archive instead, where the original is downloaded. The
+Notion URL is recorded in <code>pipeline/notion-archive-map.json</code>; do not invent a lot URL. A new lot
+gets its own Notion archive before its public archive control is treated as mapped.</p>
 <h2>10. The hero is the layered r4 room, never a generated hero (2026-09-04)</h2>
 <p>Founder: "I set room-r4-pro-1 as a hero and I want it as a hero for every lot, since it can be layered
 instead of being generated, so we save money and never have a chance of losing a detail on a hero."
@@ -261,22 +263,21 @@ link per store."</p>
 <ul>
 <li><strong>01 the sheet, big.</strong> The gate (Approve / Not yet + note) while it waits for him; a chip after.</li>
 <li><strong>02 the lot, in order.</strong> Every shot is IN unless he drops it. Per row: number (cover first), the
-  photograph, id, a note field that saves on every keystroke ("saved" tick), a download of the
-  full-size file, drag handle, up/down, Drop. The house photographs are locked third and last.
+  photograph, id, a note field that saves on every keystroke ("saved" tick), an archive control,
+  drag handle, up/down, Drop. The house photographs are locked third and last.
   Dropped rows sit below under "Dropped · N" with Restore. The preview "as Catawiki shows it" stays.
   On Send, every untouched shot becomes an explicit keep, so the pipeline and the page agree.</li>
-<li><strong>03 the photographs.</strong> The whole pool, dropped ones dimmed, the house at the end; a download on
+<li><strong>03 the photographs.</strong> The whole pool, dropped ones dimmed, the house at the end; an archive control on
   each. No dropping here; a dropped photograph carries Restore (↶) on its tile and in its lightbox
   (his ask, the same night: "add restore option to photographs section").</li>
 <li><strong>Drag is real.</strong> The handle drags a row; at the top or bottom edge of the screen the page scrolls
   on its own while the finger holds, the row stays under the finger, the target is marked as it
   passes ("when I drag and reach the end of screen the scroll has to begin automatically").</li>
-<li><strong>04 print file (when there is one) · 05 stores · 06 history (collapsed).</strong> Stores: one row per
+<li><strong>04 print file in Notion · 05 stores · 06 history (collapsed).</strong> Stores: one row per
   store with its state and one link (Catawiki now; others later). Listing text collapsed under it.</li>
 <li><strong>Send is unmistakable.</strong> The bottom bar says what is new ("2 decisions · order changed · not sent
   yet") and lists the notes; after Send it turns green - "Sent to Claude · 18:23 · 2 decisions · 1
-  note · via ntfy+mail" - and stays until he taps OK. No zip; <code>site/full/&lt;key&gt;/&lt;id&gt;.jpg</code> is the file
-  as it goes up.</li>
+  note · via ntfy+mail" - and stays until he taps OK. The public site never hosts full-size files.</li>
 <li><strong>No piles of text.</strong> No hints under section labels, no counts in prose, no deck paragraphs.</li>
 <li><strong>Every version of a sheet is on the lot page</strong> (his ask the same night: "i dont see other versions,
   just the one - arrows to slide left/right to see previous and approve those"). <code>versions.py</code> keeps
@@ -1242,6 +1243,6 @@ the crest.</p>
 <aside class="titleblock" id="titleblock" aria-label="Title block"></aside>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-10 21:55", "cfg": {}}</script>
-<script src="board/board.js?v=1789070149"></script>
+<script id="board-data" type="application/json">{"kind": "rules", "built": "2026-09-10 22:30", "cfg": {}}</script>
+<script src="board/board.js?v=1789072231"></script>
 </body></html>

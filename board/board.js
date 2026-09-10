@@ -271,8 +271,10 @@
   }
 
   function dlLink(s, cls) {
-    const href = UP + (s.full || s.inspect || s.thumb);
-    return h('a', { class: cls || 'dl', href: href, download: '', title: s.full ? 'Download the full-size file' : 'Download (2000 px - the full-size file is on the site for shots in the lot)', 'aria-label': 'Download ' + (s.id || '') }, '⤓');
+    const href = D.archiveUrl || '';
+    if (!href) return null;
+    const label = D.archiveMapped ? 'Open this lot\'s Notion archive to download the original file' : 'Open the Lombardia Notion archive';
+    return h('a', { class: cls || 'dl', href: href, target: '_blank', rel: 'noopener', title: label, 'aria-label': label }, '⤓');
   }
   function noteField(id) {
     const wrap = h('div', { class: 'lnotewrap' });
