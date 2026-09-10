@@ -255,7 +255,7 @@
     const st = sheetStatus(), v = shownVersion();
     if (st === 'pending') {
       const note = h('textarea', { placeholder: 'A note, if you like', rows: 2 });
-      const dec = (verdictV) => { p.sheet = { v: verdictV, at: nowISO(), note: note.value.trim() }; if (v) p.sheet.version = v.id; save(); renderGate(); };
+      const dec = (verdictV) => { p.sheet = { v: verdictV, at: nowISO(), note: note.value.trim() }; if (v) p.sheet.version = v.id; if (D.sheet.sha256) p.sheet.artwork_sha256 = D.sheet.sha256; save(); renderGate(); };
       g.appendChild(h('div', { class: 'verdict' },
         h('button', { class: 'btn keep big', type: 'button', onclick: () => { dec('approved'); toast('Sheet approved' + (v ? ' · version ' + v.id : ''), { label: 'Undo', fn: () => { p.sheet = null; save(); renderGate(); } }); } }, h('span', { class: 'x', text: '✓' }), v ? 'Approve this version' : 'Approve the sheet'),
         h('button', { class: 'btn drop big', type: 'button', onclick: () => { dec('rejected'); toast('Sheet sent back' + (note.value.trim() ? ' with your note' : ''), { label: 'Undo', fn: () => { p.sheet = null; save(); renderGate(); } }); } }, h('span', { class: 'x', text: '✗' }), 'Not yet')));
