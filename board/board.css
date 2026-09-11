@@ -70,19 +70,26 @@ h1 { font: 700 clamp(34px, 8vw, 64px)/.95 var(--cond); text-transform: uppercase
 .folio { font: 600 12px var(--mono); letter-spacing: .1em; font-variant-numeric: tabular-nums; }
 .deck { max-width: 64ch; margin: 16px 0 0; color: var(--ink-2); font-size: 15.5px; }
 
-/* stage stepper: six numbered stations joined by a rule */
-.stepper { list-style: none; margin: 22px 0 0; padding: 0; display: flex; align-items: flex-start; gap: 0; }
-.stepper li { position: relative; flex: 1 1 0; display: flex; flex-direction: column; align-items: center; gap: 6px; min-width: 0; }
-.stepper li b { display: grid; place-items: center; width: 24px; height: 24px; border: 1px solid var(--ink-3); border-radius: 50%; font: 600 10.5px var(--mono); color: var(--ink-3); background: var(--paper); z-index: 1; }
-.stepper li span { font: 600 9.5px/1 var(--cond); text-transform: uppercase; letter-spacing: .12em; color: var(--ink-3); white-space: nowrap; }
-.stepper li::before { content: ""; position: absolute; top: 12px; left: -50%; right: 50%; height: 1px; background: var(--rule); }
+/* stage stepper: nine numbered stations joined by a rule.
+   Three rows per station - label above / station / label below - and the labels alternate
+   (odd below, even above) so each name owns two stations' width and never touches its neighbour.
+   Founder, 2026-09-11: "give the step line more space ... one below, next one above". */
+.stepper { --st-lbl: 16px; --st-dot: 30px; --st-gap: 5px; list-style: none; margin: 24px 0 0; padding: 0 2px; display: flex; align-items: start; gap: 0; }
+.stepper li { position: relative; flex: 1 1 0; min-width: 0; display: grid; grid-template-rows: var(--st-lbl) var(--st-dot) var(--st-lbl); grid-template-columns: minmax(0, 1fr); row-gap: var(--st-gap); justify-items: center; align-items: center; }
+.stepper li b { grid-row: 2; display: grid; place-items: center; width: var(--st-dot); height: var(--st-dot); border: 1.5px solid var(--ink-2); border-radius: 50%; font: 600 12px var(--mono); font-variant-numeric: tabular-nums; color: var(--ink-2); background: var(--paper); z-index: 1; }
+.stepper li span { grid-row: 3; font: 600 10px/1 var(--cond); text-transform: uppercase; letter-spacing: .1em; color: var(--ink-2); white-space: nowrap; }
+.stepper li:nth-child(even) span { grid-row: 1; }
+.stepper li::before { content: ""; position: absolute; top: calc(var(--st-lbl) + var(--st-gap) + var(--st-dot) / 2 - .5px); left: -50%; right: 50%; height: 1px; background: var(--rule); }
 .stepper li:first-child::before { display: none; }
 .stepper li.done b { background: var(--tint); border-color: var(--tint); color: var(--tint-ink); }
 .stepper li.done span { color: var(--ink-2); }
-.stepper li.done::before, .stepper li.now::before { background: var(--tint); }
+.stepper li.done::before, .stepper li.now::before { background: var(--tint); height: 2px; margin-top: -.5px; }
 .stepper li.now b { border: 2px solid var(--tint); color: var(--tint); }
 .stepper li.now span { color: var(--ink); }
-@media (max-width: 420px) { .stepper li span { font-size: 8.5px; letter-spacing: .06em; } }
+.stepper li.now span::after { content: ""; display: block; height: 2px; margin-top: 4px; background: var(--tint); }
+.stepper li:nth-child(even).now span::after { display: none; }
+.stepper li:nth-child(even).now span::before { content: ""; display: block; height: 2px; margin-bottom: 4px; background: var(--tint); }
+@media (max-width: 420px) { .stepper { --st-dot: 28px; } .stepper li span { font-size: 9.5px; letter-spacing: .08em; } }
 
 /* sections */
 .sec { margin-top: clamp(32px, 5vw, 52px); }
@@ -246,7 +253,9 @@ body.dragging .sendbar, body.dragging .toast { display: none; }
 .pcard .pbody { display: block; padding: 12px 13px 14px; }
 .pcard .peyebrow { display: block; font: 500 10.5px var(--mono); text-transform: uppercase; letter-spacing: .16em; color: var(--tint); }
 .pcard .pname { display: block; font: 700 24px/1 var(--cond); text-transform: uppercase; letter-spacing: .03em; margin-top: 4px; }
-.pcard .stepper { margin-top: 14px; }
+.pcard .stepper { margin-top: 12px; --st-dot: 26px; --st-lbl: 14px; --st-gap: 4px; }
+.pcard .stepper li span { font-size: 9.5px; letter-spacing: .07em; }
+.pcard .stepper li b { font-size: 11px; }
 .pcard .pcounts { display: block; margin-top: 12px; font: 400 12px var(--mono); color: var(--ink-2); }
 .pcard .pcounts b { color: var(--ink); font-weight: 600; }
 
