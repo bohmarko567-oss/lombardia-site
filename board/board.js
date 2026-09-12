@@ -109,6 +109,8 @@
   function hisNote(id) {
     if (p.verdicts[id] && p.verdicts[id].note !== undefined) return p.verdicts[id].note;   // his, even when he cleared it
     const s = byId(id); let n = (s && s.note) || '';
+    // Structured pipeline reviews are metadata, not an editable founder note.
+    if (typeof n !== 'string') return '';
     if (/RULES\.md|re-laid|first round|second build|one of the fixed rooms|the hero of every lot|the true print|fidelity/.test(n) || n.length > 90) return '';
     return n.replace(/^founder:\s*/i, '');
   }
