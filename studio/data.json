@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-09-20 19:00",
+ "built": "2026-09-20 19:05",
  "accessed_date": "2026-09-20",
  "collections": [
   "American Form",
@@ -2828,10 +2828,10 @@
    "photo_count": 9,
    "notion_url": "https://app.notion.com/p/3e1219427f6981e89766fb99299a4096",
    "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-next-20260920-lexus-lfa.html",
-   "completion_verified": false,
-   "delivery_status": "Delivery finishing · prints, photos and copy prepared",
-   "delivery_evidence": null,
-   "delivery_verified_at": null,
+   "completion_verified": true,
+   "delivery_status": "Ready · Notion and board verified",
+   "delivery_evidence": "pipeline/studio-execute-20260920/completion-receipt.json",
+   "delivery_verified_at": "2026-09-20T16:57:51.386543+00:00",
    "production_evidence": "pipeline/studio-execute-20260920/production/INTEGRATION-MANIFEST.json",
    "production": {
     "print_jpg_sha256": "30901df07ca418f819ee8af1b0fc7b9ece7fa10d4dabfdbf0c8369631cc7a519",
@@ -2840,7 +2840,8 @@
     "collection": "STUDIO DI FORMA",
     "edition_label": "Edition of 50"
    },
-   "delivery_note": "Prints and photos are prepared; final delivery checks are running.",
+   "board_verified_at": "2026-09-20T17:05:01.451491+00:00",
+   "board_evidence": "pipeline/studio-execute-20260920/completion-receipt.json",
    "full_source_url": "../artwork/30901df07ca4-studio-next-20260920-lexus-lfa.jpg",
    "full_source_sha256": "30901df07ca418f819ee8af1b0fc7b9ece7fa10d4dabfdbf0c8369631cc7a519",
    "full_source_bytes": 12202306,
@@ -2877,16 +2878,16 @@
    "timeline": {
     "created_at": "2026-09-20T00:00:00+00:00",
     "created_source": "ledger history",
-    "updated_at": "2026-09-20T16:54:19.690047+00:00",
-    "updated_source": "owner selection"
+    "updated_at": "2026-09-20T17:05:01.451491+00:00",
+    "updated_source": "board verified"
    },
    "status": {
-    "code": "production",
-    "label": "Lot in production",
-    "tone": "tint",
-    "detail": "Prints and photos are prepared; final delivery checks are running.",
-    "meaning": "approved; prints, photos, copy and Notion being built",
-    "order": 4
+    "code": "ready",
+    "label": "Ready · delivered",
+    "tone": "keep",
+    "detail": "9 photos · Notion and board verified",
+    "meaning": "Notion and the board read back and verified",
+    "order": 6
    }
   },
   {
@@ -2907,10 +2908,10 @@
    "photo_count": 9,
    "notion_url": "https://app.notion.com/p/3e1219427f69818989f1cfb6157993e1",
    "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-next-20260920-de-tomaso-pantera.html",
-   "completion_verified": false,
-   "delivery_status": "Delivery finishing · prints, photos and copy prepared",
-   "delivery_evidence": null,
-   "delivery_verified_at": null,
+   "completion_verified": true,
+   "delivery_status": "Ready · Notion and board verified",
+   "delivery_evidence": "pipeline/studio-execute-20260920/completion-receipt.json",
+   "delivery_verified_at": "2026-09-20T16:57:59.471298+00:00",
    "production_evidence": "pipeline/studio-execute-20260920/production/INTEGRATION-MANIFEST.json",
    "production": {
     "print_jpg_sha256": "bd3494024d5504a812a99b9be6a85fa561c3a736ac78736ace22835f9ed4b7c8",
@@ -2919,7 +2920,8 @@
     "collection": "STUDIO DI FORMA",
     "edition_label": "Edition of 50"
    },
-   "delivery_note": "Prints and photos are prepared; final delivery checks are running.",
+   "board_verified_at": "2026-09-20T17:05:01.451491+00:00",
+   "board_evidence": "pipeline/studio-execute-20260920/completion-receipt.json",
    "full_source_url": "../artwork/bd3494024d55-studio-next-20260920-de-tomaso-pantera.jpg",
    "full_source_sha256": "bd3494024d5504a812a99b9be6a85fa561c3a736ac78736ace22835f9ed4b7c8",
    "full_source_bytes": 17708814,
@@ -2956,16 +2958,16 @@
    "timeline": {
     "created_at": "2026-09-20T00:00:00+00:00",
     "created_source": "ledger history",
-    "updated_at": "2026-09-20T16:54:22.042469+00:00",
-    "updated_source": "owner selection"
+    "updated_at": "2026-09-20T17:05:01.451491+00:00",
+    "updated_source": "board verified"
    },
    "status": {
-    "code": "production",
-    "label": "Lot in production",
-    "tone": "tint",
-    "detail": "Prints and photos are prepared; final delivery checks are running.",
-    "meaning": "approved; prints, photos, copy and Notion being built",
-    "order": 4
+    "code": "ready",
+    "label": "Ready · delivered",
+    "tone": "keep",
+    "detail": "9 photos · Notion and board verified",
+    "meaning": "Notion and the board read back and verified",
+    "order": 6
    }
   }
  ],
