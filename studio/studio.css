@@ -51,7 +51,11 @@ body.page-studio { padding-bottom: calc(96px + env(safe-area-inset-bottom)); }
 .picked .pk { min-width: 0; display: grid; gap: 4px; }
 .picked .pk b { font: 700 20px/1 var(--cond); text-transform: uppercase; letter-spacing: .03em; }
 .picked .pk span { font: 400 11.5px/1.4 var(--mono); color: var(--ink-2); overflow-wrap: anywhere; }
-.picked .pk .change { justify-self: start; font: 600 10px var(--cond); text-transform: uppercase; letter-spacing: .14em; color: var(--tint); border-bottom: 1px solid var(--tint); }
+.picked .pk .change { justify-self: start; font: 600 10px var(--cond); text-transform: uppercase; letter-spacing: .14em; color: var(--tint); border-bottom: 1px solid var(--tint); text-decoration: none; min-height: 28px; display: inline-flex; align-items: center; }
+.picked .pkimg { display: block; }
+.picked .pk .edn { color: var(--ink); font-weight: 500; }
+.picked .pklinks { display: flex; flex-wrap: wrap; gap: 4px 16px; margin-top: 2px; }
+.picked .pk .change.na { color: var(--ink-3); border-bottom: 0; }
 .choices { border: 0; padding: 0; margin: 22px 0 0; min-width: 0; }
 .choices[hidden] { display: none; }
 .choices legend { font: 600 11px/1.4 var(--mono); text-transform: uppercase; letter-spacing: .22em; color: var(--tint); padding: 0; margin-bottom: 10px; }
@@ -65,6 +69,19 @@ body.page-studio { padding-bottom: calc(96px + env(safe-area-inset-bottom)); }
 .opt b { display: block; font: 700 15px/1.15 var(--cond); text-transform: uppercase; letter-spacing: .04em; }
 .opt span { display: block; font: 400 12px/1.4 var(--sans); color: var(--ink-2); margin-top: 3px; }
 .opt.na { opacity: .5; }
+/* the agent's suggestion: a small tag next to one collection (owner, 20 September); never a preselection */
+.opt b .rec { display: inline-block; margin-left: 8px; padding: 3px 5px 2px; font: 600 8.5px/1 var(--mono); font-style: normal; letter-spacing: .14em; text-transform: uppercase; color: var(--tint); border: 1px solid var(--tint); vertical-align: 2px; }
+.card .ccoll.rec { color: var(--ink-3); }
+.card .ccoll.rec em { font-style: normal; color: var(--tint); }
+/* New / Other: the owner's own name and "1 of N" */
+.newcoll { grid-column: 1 / -1; display: grid; gap: 10px; margin-top: -8px; padding: 12px 14px 12px; border: 1px solid var(--tint); border-top: 0; background: var(--paper-3); }
+.newcoll[hidden] { display: none; }
+.newcoll .nf { display: grid; grid-template-columns: 96px minmax(0, 1fr); align-items: center; gap: 10px; font: 600 10px/1.3 var(--mono); text-transform: uppercase; letter-spacing: .16em; color: var(--ink-2); }
+.newcoll input { width: 100%; min-height: var(--tap); padding: 0 12px; border: 1px solid var(--rule); background: var(--paper-2); font: 400 16px/1.2 var(--sans); color: var(--ink); }
+.newcoll input:focus { border-color: var(--ink); }
+.newcoll input[readonly] { color: var(--ink-2); background: var(--paper-3); }
+.newcoll input[aria-invalid="true"] { border-color: var(--drop); }
+.newcoll .hint { margin: 0; }
 .field { margin-top: 22px; display: grid; gap: 8px; }
 .field label { font: 600 11px/1.4 var(--mono); text-transform: uppercase; letter-spacing: .22em; color: var(--tint); }
 .field textarea { width: 100%; min-height: 110px; padding: 12px; border: 1px solid var(--rule); background: var(--paper-2); font: 400 15px/1.5 var(--sans); resize: vertical; }
@@ -80,6 +97,9 @@ body.page-studio { padding-bottom: calc(96px + env(safe-area-inset-bottom)); }
 .review .v { min-width: 0; overflow-wrap: anywhere; white-space: pre-wrap; }
 .review .v b { font-weight: 600; }
 .review .v.mono { font-family: var(--mono); font-size: 11.5px; }
+.review .v.links { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 16px; }
+.review .v.links a { color: var(--tint); font-weight: 600; text-decoration: none; border-bottom: 1px solid var(--tint); min-height: 28px; display: inline-flex; align-items: center; }
+.review .v.links .change { font: 600 10px var(--cond); text-transform: uppercase; letter-spacing: .14em; color: var(--tint); border-bottom: 1px solid var(--tint); min-height: 28px; }
 .review .head { grid-column: 1 / -1; display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; align-items: center; padding: 10px 12px; border-bottom: 1px solid var(--ink); }
 .review .head img { width: 72px; aspect-ratio: 3 / 4; object-fit: contain; background: var(--paper-3); border: 1px solid var(--rule); }
 .review .head b { font: 700 22px/1 var(--cond); text-transform: uppercase; letter-spacing: .03em; }

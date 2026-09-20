@@ -24,6 +24,8 @@
       "position": 1,
       "filename": "01-hero-white-wall-layered.jpg",
       "role": "Cover: framed white-wall hero",
+      "id": "hero-white-wall-layered",
+      "sha256": "a7328067a7a67940a0c535ff362ba4207f1ca0d18f96855d3c42431f5b68b087",
       "cover": true,
       "warning": null
     },
@@ -31,6 +33,8 @@
       "position": 2,
       "filename": "02-01-hero-flat.jpg",
       "role": "Full flat artwork",
+      "id": "01-hero-flat",
+      "sha256": "4c13b636d1b7f11d6692df2ac335a0456206d408a6d7975ca2697ee28460a9cb",
       "cover": false,
       "warning": null
     },
@@ -38,6 +42,8 @@
       "position": 3,
       "filename": "03-true-corner-tl.jpg",
       "role": "Top-left frame corner",
+      "id": "true-corner-tl",
+      "sha256": "b652ea432346a99df0d55d3646cd48db68425715ef15bc9e4bc9d02a7ade4618",
       "cover": false,
       "warning": null
     },
@@ -45,6 +51,8 @@
       "position": 4,
       "filename": "04-true-corner-bl.jpg",
       "role": "Bottom-left frame corner",
+      "id": "true-corner-bl",
+      "sha256": "4b6278d8b3046fa8c3016ad012faf6b429a3d28a0b11b71d88f067298d3a5c91",
       "cover": false,
       "warning": null
     },
@@ -52,6 +60,8 @@
       "position": 5,
       "filename": "05-true-corner-br.jpg",
       "role": "Bottom-right frame corner",
+      "id": "true-corner-br",
+      "sha256": "46de69e207d0d9ed0472db49b57aa708351b6fa78f60e98b94df6e5f511ebbba",
       "cover": false,
       "warning": null
     },
@@ -59,6 +69,8 @@
       "position": 6,
       "filename": "06-true-corner-tr.jpg",
       "role": "Top-right frame corner",
+      "id": "true-corner-tr",
+      "sha256": "2133c0e41067eecca0780b10ea69ab1acb33866669d6cbc68197ecdd24e624db",
       "cover": false,
       "warning": null
     },
@@ -66,6 +78,8 @@
       "position": 7,
       "filename": "07-03-specs-footer.jpg",
       "role": "Native specifications/footer crop",
+      "id": "03-specs-footer",
+      "sha256": "0472d3c8fc4e6b3d51c8f415300bb5ccf71b74e875592c0a37e9a46ee830639b",
       "cover": false,
       "warning": null
     },
@@ -73,6 +87,8 @@
       "position": 8,
       "filename": "08-05-header.jpg",
       "role": "Native header crop",
+      "id": "05-header",
+      "sha256": "1d4a1fa5251d2e07c1cc08fef79d83b5775fba600e53938b549b88dbb9185b68",
       "cover": false,
       "warning": null
     },
@@ -80,6 +96,8 @@
       "position": 9,
       "filename": "09-06-vehicle-detail.jpg",
       "role": "Native vehicle detail crop",
+      "id": "06-vehicle-detail",
+      "sha256": "8ef57b0dd82557a5fcff483099b0aa8917e86e138615d6848caf0c602466785c",
       "cover": false,
       "warning": null
     }
@@ -278,7 +296,7 @@
     "edition": "For eligible new designs, use the recorded per-design cap: Edition of N in titles, with explicit shared size/colour/frame scope in description. Never imply print serial 1; actual serials require allocation. Preserve legacy collection-wide promises. This staged revision remains pending owner confirmation of eligibility."
   },
   "edition_registry": "listings/collection-editions.json",
-  "status": "LOCAL FIELD PAYLOAD - not entered, saved or submitted on Catawiki",
+  "status": "Owner-approved artwork; nine Carrera-method photos assembled; local payload — not entered, saved or submitted on Catawiki",
   "authority": "Current six-paragraph copy contract with poster-specific substitutions only",
   "gold_standard_source": "C:\\Users\\bohma\\code ux rep\\lombardia\\listings\\catawiki-gold-standard.json",
   "product": {

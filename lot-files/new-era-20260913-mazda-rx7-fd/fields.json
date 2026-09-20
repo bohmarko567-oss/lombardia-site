@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "access_date": "2026-09-20",
+  "timezone": "Europe/Copenhagen",
+  "lot_key": "new-era-20260913-mazda-rx7-fd",
+  "section_order": [
+    "Object",
+    "Images",
+    "Details",
+    "Value",
+    "Shipping",
+    "Message the expert",
+    "Save as draft / Preview / Submit"
+  ],
+  "object": {
+    "type": "Poster",
+    "category": "Automobilia Art & Posters",
+    "auction": "Automobilia Art & Posters - Weekly auction",
+    "language": "English",
+    "category_evidence": "Current object-selection UI reads: Poster - in Automobilia Art & Posters."
+  },
+  "images": [
+    {
+      "position": 1,
+      "filename": "01-hero-white-wall-layered.jpg",
+      "role": "Cover: framed white-wall hero",
+      "id": "hero-white-wall-layered",
+      "sha256": "bbfbb19741220295afe0db70ccdd8d58c6ef2b02336cf71e169bd344e588a8d9",
+      "cover": true,
+      "warning": null
+    },
+    {
+      "position": 2,
+      "filename": "02-01-hero-flat.jpg",
+      "role": "Full flat artwork",
+      "id": "01-hero-flat",
+      "sha256": "96c0d131d10ac35718ed4097d0cb3f33f11965775e86035c0a57c028cf96b0a8",
+      "cover": false,
+      "warning": null
+    },
+    {
+      "position": 3,
+      "filename": "03-true-corner-tl.jpg",
+      "role": "Top-left frame corner",
+      "id": "true-corner-tl",
+      "sha256": "4166589cb0998d7538170145161fac81f1cee6540e45b830a0f89dc433dd5fff",
+      "cover": false,
+      "warning": null
+    },
+    {
+      "position": 4,
+      "filename": "04-true-corner-bl.jpg",
+      "role": "Bottom-left frame corner",
+      "id": "true-corner-bl",
+      "sha256": "0afd31c9a0b0a5801b1f96844209578e154febdc7c9580fd24bd4300e162f3a9",
+      "cover": false,
+      "warning": null
+    },
+    {
+      "position": 5,
+      "filename": "05-true-corner-br.jpg",
+      "role": "Bottom-right frame corner",
+      "id": "true-corner-br",
+      "sha256": "677490e72ceea8c3bd0a1e65f5aa026b33cd820895783ddcb759eca6bbd4cbcc",
+      "cover": false,
+      "warning": null
+    },
+    {
+      "position": 6,
+      "filename": "06-true-corner-tr.jpg",
+      "role": "Top-right frame corner",
+      "id": "true-corner-tr",
+      "sha256": "026c68b45d1deda20d6754e032ebf399c8c1863c0a71810407ffe5cead138d23",
+      "cover": false,
+      "warning": null
+    },
+    {
+      "position": 7,
+      "filename": "07-03-specs-footer.jpg",
+      "role": "Native specifications/footer crop",
+      "id": "03-specs-footer",
+      "sha256": "b06bb466cf56586ecbde40859806cc39aeefc6b1aa2f7897f1cc755adb488b5d",
+      "cover": false,
+      "warning": null
+    },
+    {
+      "position": 8,
+      "filename": "08-05-header.jpg",
+      "role": "Native header crop",
+      "id": "05-header",
+      "sha256": "0baf77b5aac54ae375af928ddeea897c4dab29f5bce98ab3c5eff2782de34d6a",
+      "cover": false,
+      "warning": null
+    },
+    {
+      "position": 9,
+      "filename": "09-06-vehicle-detail.jpg",
+      "role": "Native vehicle detail crop",
+      "id": "06-vehicle-detail",
+      "sha256": "fa599f878c63d5dfc5c18910a4682ed2e00ba758d30a8e22a6be197d523c9d83",
+      "cover": false,
+      "warning": null
+    }
+  ],
+  "details": {
+    "era": "1900-2000",
+    "manufacturer_brand": {
+      "selection": "Other",
+      "custom": "Mazda"
+    },
+    "poster_title": "RX-7 FD - FORMA / MOTION - 80 × 60 cm - Edition of 100",
+    "estimated_period": "1990s",
+    "condition": "A (excellent - mint condition)",
+    "number_of_objects": 1,
+    "height": 630,
+    "height_unit": "mm",
+    "width": 830,
+    "width_unit": "mm",
+    "autographed_by_a_famous_person": "No",
+    "designer_artist": {
+      "selection": [
+        "Other"
+      ],
+      "custom": "Lombardia Automobili"
+    },
+    "subject": [
+      "Transport",
+      "Graphic design",
+      "Vintage",
+      "Advertising",
+      "Technology",
+      "Illustrated",
+      "Applied art",
+      "Other"
+    ],
+    "subject_other": "1993 Mazda RX-7 FD, FORMA / MOTION, car design, limited edition, framed poster",
+    "country_of_origin": "Japan",
+    "specific_region_of_origin": "",
+    "reference_label_colour": "",
+    "reference_label": "RX-7 FD 80x60",
+    "description": "You’re bidding on a 80 × 60 cm FORMA / MOTION poster by Lombardia Automobili, featuring the 1993 Mazda RX-7 FD. The artwork is 100% unique combination of a detailed illustration of the car and our own layout and typography. A white frame and Perspex glazing are included; poster and frame are shipped together with care.\n\nPale celadon, deep red brush arcs and tall serif RX-7 typography give the artwork presence across a room. The red FD on its reflective floor and its technical details invite a closer look. Above a desk or in a garage lounge, it’s a conversation piece for anyone who knows what that name means.\n\nLombardia Automobili is an independent automotive design house. This artwork is limited to 100 physical prints in total across all sizes, colour variants, framing options and sales channels. FORMA / MOTION is made for people who appreciate the design of a car as much as the way it drives.\n\nThe subject is the 1993 RX-7, the third-generation FD. Its twin-rotor 13B-REW rotary engine with sequential twin turbochargers, low kerb weight and flowing bodywork made it a defining Mazda. The FD put its emphasis on balance and driver involvement rather than outright size.\n\nSheet size: 80 × 60 cm. Nominal assembled frame dimensions: 83 × 63 cm. This is a contemporary, retro-inspired studio edition.\n\nAn independent artwork by Lombardia Automobili, not affiliated with or endorsed by Mazda.",
+    "generated_title": "Lombardia Automobili - Mazda - RX-7 FD - FORMA / MOTION - 80 × 60 cm - Edition of 100 - 1990s"
+  },
+  "estimate_policy": {
+    "owner_decision_date": "2026-09-10",
+    "currency": "EUR",
+    "landscape": 275,
+    "basic_45x60_cm": 225,
+    "note": "Current owner size policy applied to this local payload; no Catawiki save or submission performed."
+  },
+  "value": {
+    "currency": "EUR",
+    "estimated_value": 275,
+    "reserve_enabled": false,
+    "reserve_value": null,
+    "buy_now_enabled": false,
+    "buy_now_value": null
+  },
+  "shipping": {
+    "preset": "50usd",
+    "display_currency": "EUR",
+    "update_preset_if_changes_are_made": true,
+    "package_size": "Large package",
+    "package_display_max_weight": "up to 20 kg",
+    "package_display_max_dimensions_cm": "100x50x50",
+    "custom_package": false,
+    "exact_package_weight": null,
+    "exact_package_dimensions": null,
+    "free_shipping": false,
+    "rates": [
+      {
+        "destination": "Denmark",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Italy",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "The Netherlands",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "France",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Belgium",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Germany",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Spain",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "United Kingdom",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Portugal",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Austria",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Romania",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Poland",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Switzerland",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Greece",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Sweden",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Hungary",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "United States",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Rest of European Union",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Rest of world",
+        "amount": 50,
+        "currency": "EUR"
+      }
+    ],
+    "free_pickup": false,
+    "combined_shipping": false
+  },
+  "expert": {
+    "name": "Evan Lacey",
+    "specialism": "Expert in Automobilia Art & Posters",
+    "message": ""
+  },
+  "blank_field_semantics": "Empty strings are observed blank UI values. Null inactive value fields were not set; no hidden value is asserted.",
+  "reuse_rules": {
+    "fixed": [
+      "Six paragraphs, their order, grammar, punctuation and tone",
+      "100% unique combination wording",
+      "Independent automotive design house identity",
+      "Purchase/frame/shipping sentence structure",
+      "Contemporary retro-inspired studio-edition sentence",
+      "Independent-artwork/non-affiliation sentence structure"
+    ],
+    "poster_specific_only": [
+      "Actual collection and title",
+      "Car marque, model, year, configuration and supported history/specifications",
+      "Artwork palette, car colours and typography motif",
+      "Actual sheet size, orientation, frame size/colour and glazing",
+      "Approved edition specification for the particular poster",
+      "Matching title, factual subject keywords, label and image files/order"
+    ],
+    "commercial": "Current owner size policy: EUR 225 for 45 x 60 cm, EUR 275 for landscape. Reserve and buy now OFF; retain saved shipping preset and all other commercial defaults.",
+    "edition": "Finite per-artwork policy 20 Sep 2026: Edition of N in title, shared size/colour/frame/channel scope in description. Never imply print serial 1; actual serials require allocation."
+  },
+  "status": "Owner-approved artwork; nine Carrera-method photos assembled; local payload — not entered, saved or submitted on Catawiki",
+  "authority": "Current six-paragraph copy contract with poster-specific substitutions only; owner collection choice in Studio request 2870dca4-5fe4-4d01-a9fe-56d10c171766 (2026-09-20)",
+  "gold_standard_source": "C:\\Users\\bohma\\code ux rep\\lombardia\\listings\\catawiki-gold-standard.json",
+  "product": {
+    "sheet_cm": {
+      "width": 80,
+      "height": 60
+    },
+    "nominal_assembled_frame_cm": {
+      "width": 83,
+      "height": 63
+    },
+    "orientation": "landscape",
+    "frame_colour": "white",
+    "glazing": "Perspex",
+    "edition": "Edition of 100",
+    "collection": "FORMA / MOTION",
+    "car": "1993 Mazda RX-7 FD",
+    "frame_range": "Prodigi Budget",
+    "paper": "UNKNOWN — exact paper stock, finish and gsm not stated in the read supplier evidence; verify current selected SKU before supplier order"
+  },
+  "evidence": {
+    "car_sources": [
+      {
+        "url": "https://rmsothebys.com/auctions/am19/lots/r0024-1993-mazda-rx7/",
+        "access_date": "2026-09-13",
+        "note": "Identity, year 1993, chassis JM1FD3316P0209466, red exterior / black interior; recorded in pipeline/new-era-20260913/new-five-jobs/mazda-rx7-fd/references.json"
+      }
+    ],
+    "car_facts_basis": "Third-generation RX-7 (FD chassis code), twin-rotor 13B-REW rotary with sequential twin turbochargers — standard published FD specification; no trim level (R1/R2/Spirit R) asserted, per the job's identity boundary.",
+    "metadata_convention": "Era/period/country follow subject-car data under the owner-approved gold standard; description explicitly states contemporary studio edition.",
+    "era_label_source": "C:\\Users\\bohma\\code ux rep\\lombardia\\CATAWIKI-GOLD-STANDARD.md"
+  },
+  "edition_record": {
+    "edition_cohort": "new",
+    "edition_id": "art-7f39dbc036a799e29c31205f",
+    "design_key": "new-era-20260913-mazda-rx7-fd",
+    "cap": 100,
+    "edition_mode": "finite",
+    "scope": "artwork_all_variants_all_channels",
+    "policy_id": "finite-per-artwork-2026-09-20",
+    "eligibility_evidence": "New artwork generated 13 Sep 2026 (new-era-20260913-mazda-rx7-fd). Prior wave01-mazda-rx7-fd is a different, owner-discarded work (pipeline/work-retirements/owner-polish-20260911.json, model_eligible_for_fresh_work true), never listed, no edition record. No ledger edition record exists for this design key. Owner chose FORMA / MOTION in Studio request 2870dca4-5fe4-4d01-a9fe-56d10c171766 on 2026-09-20.",
+    "edition_label": "Edition of 100",
+    "description_scope": "This artwork is limited to 100 physical prints in total across all sizes, colour variants, framing options and sales channels.",
+    "allocation_blocked": true
+  }
+}

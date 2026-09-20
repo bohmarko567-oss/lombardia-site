@@ -46,6 +46,30 @@
   const typeById = id => TYPES.find(t => t.id === id);
   const itemByKey = key => DATA.items.find(x => x.key === key);
   const validCollection = c => !!c && DATA.collections.indexOf(c) >= 0;
+  // The sixth collection choice: New / Other. An owner proposal (a name and a "1 of N"), carried in the request as
+  // proposed_collection; it changes no existing edition and migrates nothing by itself (EDITION-POLICY.md).
+  const NEW = DATA.new_option || '__new__';
+  const NEW_DEFAULT_EDITION = +DATA.new_collection_default_edition || 77;
+  const isNew = c => c === NEW;
+  const validEdition = n => Number.isInteger(n) && n > 0;
+  const parseEdition = v => { const s = String(v == null ? '' : v).trim(); return /^\d+$/.test(s) ? parseInt(s, 10) : NaN; };
+  const recOf = p => (p && p.recommendation) || {};
+  const fixedEdition = p => (p && p.edition && p.edition.fixed && p.edition.limit) ? p.edition : null;
+  const edText = fe => /^edition/i.test(fe.label || '') ? fe.label : 'Edition ' + fe.label;   // "1of100" -> "Edition 1of100"; "Edition of 77" stays
+  // the edition the New / Other field starts from: the artwork's fixed edition when it has one, else 77
+  const suggestedEdition = p => { const f = fixedEdition(p); if (f) return f.limit; const n = recOf(p).new; return (n && validEdition(+n.edition)) ? +n.edition : NEW_DEFAULT_EDITION; };
+  const suggestedName = p => ((recOf(p).new || {}).name || '');
+  // the full-quality file: exact bytes (the review PNG under studio/full, or the print master under ../artwork) or the Notion page
+  function fullLink(p) {
+    if (!p) return null;
+    if (/^exact_current_/.test(p.full_source_kind || '') && p.full_source_sha256 === p.source_sha256 && p.full_source_url) {
+      const px = (p.full_source_pixels || []).join(' × '), mb = Math.round((p.full_source_bytes || 0) / 1e5) / 10;
+      return { href: p.full_source_url, exact: true, kind: p.full_source_kind, text: 'Open full poster · exact master' + (px ? ' · ' + px + ' px' : '') + (mb ? ' · ' + mb + ' MB' : ''), short: 'Full poster ↗' };
+    }
+    if (p.full_source_kind === 'notion_print_page' && p.full_source_url) return { href: p.full_source_url, exact: false, kind: 'notion', text: 'Print file · Notion (private) ↗', short: 'Print file · Notion ↗' };
+    return null;
+  }
+  function absolute(href) { try { return new URL(href, location.href).href; } catch (e) { return href; } }
 
   // ---------------------------------------------------------------- store
   function load() {
@@ -58,7 +82,7 @@
   function newDraft(key) {
     const p = key && key !== OTHER ? itemByKey(key) : null;
     return { id: uuid(), key: key || null, artwork_sha256: p ? (p.source_sha256 || null) : null, artwork_name: p ? p.name : null,
-      type: key === OTHER ? 'other' : null, collection: null, note: '', created_at: nowISO(), updated_at: nowISO(), step: 1 };
+      type: key === OTHER ? 'other' : null, collection: null, new_name: null, new_edition: null, note: '', created_at: nowISO(), updated_at: nowISO(), step: 1 };
   }
   function draft() { if (!S.draft) S.draft = newDraft(null); return S.draft; }
   function touch() { draft().updated_at = nowISO(); const ok = persist(); renderDraftline(ok); renderTitleblock(); }
@@ -72,7 +96,7 @@
       else if ((p.source_sha256 || null) !== (d.artwork_sha256 || null)) d.stale = 'The artwork changed since you drafted this (new master ' + (p.source_sha256 || '').slice(0, 12) + '). Look at it again and choose it afresh.';
     }
     if (d.type && !typeById(d.type)) d.type = null;
-    if (d.collection && !validCollection(d.collection)) d.collection = null;
+    if (d.collection && !validCollection(d.collection) && !isNew(d.collection)) d.collection = null;
     if (d.stale) { d.key = null; d.artwork_sha256 = null; d.step = 1; }
     persist();
   }
@@ -83,6 +107,7 @@
     if (!p) return '';
     const bits = [];
     if (p.recorded_approval === 'owner_review_pending') bits.push('new hero · your review');
+    else if (p.recorded_approval === 'owner_visual_review_pending') bits.push('edit done · your review');
     else if (p.owner_collection_pending) bits.push('approved · collection needed');
     else if (p.recorded_approval === 'approved') bits.push('approved');
     else if (p.recorded_approval === 'rejected') bits.push('sent back');
@@ -105,7 +130,7 @@
       g.appendChild(h('article', { class: 'card' + (on ? ' on' : '') + (isLandscape(p) ? ' land' : ''), role: 'listitem', 'data-key': p.key },
         h('a', { class: 'cimg', href: p.preview, onclick: e => { e.preventDefault(); openViewer(p); } }, h('img', { src: p.preview, alt: p.name + ' · artwork', loading: 'lazy', decoding: 'async' })),
         h('div', { class: 'cbody' },
-          h('span', { class: 'ccoll', text: collectionOf(p) || p.existing_collection || 'collection not chosen' }),
+          h('span', { class: 'ccoll' + (!(collectionOf(p) || p.existing_collection) && recOf(p).kind ? ' rec' : '') }, collectionOf(p) || p.existing_collection || (recOf(p).kind ? ['not chosen · ', h('em', { text: 'recommended ' + (recOf(p).collection || 'new: ' + (suggestedName(p) || 'a new collection')) })] : 'collection not chosen')),
           h('span', { class: 'cname', text: p.name }),
           h('span', { class: 'cstate', text: stateLine(p) }),
           h('div', { class: 'cacts' },
@@ -135,10 +160,15 @@
     const d = draft(), p = d.key && d.key !== OTHER ? itemByKey(d.key) : null;
     const pk = $('#picked'); pk.innerHTML = '';
     if (p) {
-      pk.appendChild(h('img', { src: p.preview, alt: '' }));
+      const fl = fullLink(p), fe = fixedEdition(p);
+      pk.appendChild(h('a', { class: 'pkimg', href: p.preview, 'aria-label': 'View ' + p.name, onclick: e => { e.preventDefault(); openViewer(p); } }, h('img', { src: p.preview, alt: '' })));
       pk.appendChild(h('div', { class: 'pk' }, h('b', { text: p.name }), h('span', { text: stateLine(p) }),
         h('span', { text: (p.photo_count ? p.photo_count + ' lot photos' : 'no lot photos yet') + ' · chosen ' + hhmm(d.created_at) }),
-        h('button', { type: 'button', class: 'change', text: 'Change artwork', onclick: () => go(1) })));
+        fe ? h('span', { class: 'edn', text: edText(fe) + ' · fixed for this artwork' }) : null,
+        h('div', { class: 'pklinks' },
+          h('button', { type: 'button', class: 'change', text: 'View', onclick: () => openViewer(p) }),
+          fl ? h('a', { class: 'change' + (fl.exact ? ' exact' : ''), href: fl.href, target: '_blank', rel: 'noopener', text: fl.short, title: fl.text }) : h('span', { class: 'change na', text: 'full file follows the build' }),
+          h('button', { type: 'button', class: 'change', text: 'Change artwork', onclick: () => go(1) }))));
     } else {
       pk.appendChild(h('span', { class: 'cimg', 'aria-hidden': 'true', style: 'display:grid;place-items:center;width:96px;aspect-ratio:3/4;border:1px solid var(--rule);background:var(--paper-3);font:700 40px var(--cond);color:var(--ink-3)', text: '+' }));
       pk.appendChild(h('div', { class: 'pk' }, h('b', { text: 'Something else' }), h('span', { text: 'no artwork attached' }),
@@ -158,16 +188,43 @@
     const t = typeById(d.type), cw = $('#collections');
     cw.hidden = !(t && t.collection);
     if (t && t.collection) {
-      const saved = collectionOf(p);
+      const saved = collectionOf(p), rec = recOf(p), fe = fixedEdition(p), eds = DATA.collection_editions || {};
       if (saved && !d.collection && validCollection(saved)) d.collection = saved;
-      $('#collhint').textContent = p && p.saved_collection ? 'Your saved choice is ' + p.saved_collection + '. Change it here if you want.' : (saved ? 'The existing label is ' + saved + '.' : 'Choose one of the five. Nothing is assigned on its own.');
+      const hint = [];
+      hint.push(p && p.saved_collection ? 'Your saved choice is ' + p.saved_collection + '. Change it here if you want.' : (saved ? 'The existing label is ' + saved + '.' : 'Choose one of the five, or propose a new one. Nothing is assigned on its own.'));
+      if (rec.kind === 'existing') hint.push('Recommended: ' + rec.collection + (rec.why ? ' · ' + rec.why : '') + '.');
+      else if (rec.kind === 'new') hint.push('Recommended: a new collection' + (suggestedName(p) ? ', ' + suggestedName(p) : '') + (rec.why ? ' · ' + rec.why : '') + '.');
+      if (fe) hint.push('This artwork’s edition (' + fe.label + ') stays whatever you choose here.');
+      $('#collhint').textContent = hint.join(' ');
       const co = $('#collopts'); co.innerHTML = '';
+      const tag = txt => h('em', { class: 'rec', text: txt });
       DATA.collections.forEach(c => {
-        const on = d.collection === c, id = 'coll-' + c.replace(/\W+/g, '-');
-        co.appendChild(h('label', { class: 'opt' + (on ? ' on' : ''), for: id },
+        const on = d.collection === c, id = 'coll-' + c.replace(/\W+/g, '-'), isRec = rec.kind === 'existing' && rec.collection === c;
+        co.appendChild(h('label', { class: 'opt' + (on ? ' on' : '') + (isRec ? ' isrec' : ''), for: id },
           h('input', { type: 'radio', name: 'collection', value: c, id: id, checked: on || null, onchange: () => { d.collection = c; touch(); renderRequest(); } }),
-          h('span', {}, h('b', { text: c }))));
+          h('span', {}, h('b', {}, c, isRec ? tag('recommended') : null),
+            h('span', { text: fe ? edText(fe).toLowerCase() + ' stays' : (eds[c] ? 'a new artwork here starts at 1 of ' + eds[c] : '') }))));
       });
+      // New / Other: an owner proposal. Name and "1 of N" editable; the number is the artwork's fixed edition when it has one.
+      const onNew = isNew(d.collection), isRecNew = rec.kind === 'new';
+      if (onNew) {
+        if (d.new_name == null) d.new_name = suggestedName(p);
+        if (d.new_edition == null) d.new_edition = String(suggestedEdition(p));
+      }
+      const nameIn = h('input', { type: 'text', id: 'newname', maxlength: 80, autocomplete: 'off', autocapitalize: 'words', placeholder: 'Name the collection', value: d.new_name || '',
+        oninput: e => { d.new_name = e.target.value; touch(); renderBar(); } });
+      const edIn = h('input', { type: 'text', id: 'newedition', inputmode: 'numeric', pattern: '[0-9]*', maxlength: 6, autocomplete: 'off', value: d.new_edition || '', readonly: fe ? true : null, 'aria-describedby': 'newedhint',
+        oninput: e => { d.new_edition = e.target.value; touch(); renderBar(); const ok = validEdition(parseEdition(e.target.value)); e.target.setAttribute('aria-invalid', ok ? 'false' : 'true'); } });
+      const newBody = h('div', { class: 'newcoll', hidden: onNew ? null : true },
+        h('label', { class: 'nf' }, h('span', { text: 'Collection name' }), nameIn),
+        h('label', { class: 'nf' }, h('span', { text: '1 of' }), edIn),
+        h('p', { class: 'hint', id: 'newedhint', text: fe ? 'The edition of this artwork is fixed at ' + fe.limit + ' (' + fe.label + '). A collection choice never changes it; to change an edition, send a separate "Something else" request.'
+          : (rec.new && rec.new.edition_reason ? rec.new.edition_reason + '.' : NEW_DEFAULT_EDITION + ' is the usual start for a new collection; adjust it if you have a reason.') + ' Your proposal, read by the agent; it creates nothing on its own.' }));
+      co.appendChild(h('label', { class: 'opt other' + (onNew ? ' on' : '') + (isRecNew ? ' isrec' : ''), for: 'coll-new' },
+        h('input', { type: 'radio', name: 'collection', value: NEW, id: 'coll-new', checked: onNew || null, onchange: () => { d.collection = NEW; touch(); renderRequest(); setTimeout(() => { const n = $('#newname'); if (n && !n.value) n.focus(); }, 0); } }),
+        h('span', {}, h('b', {}, 'New / Other', isRecNew ? tag('recommended') : null),
+          h('span', { text: 'Propose a collection that is not one of the five' + (suggestedName(p) ? ' · suggested: ' + suggestedName(p) : '') + ' · 1 of ' + suggestedEdition(p) + (fe ? ' (fixed)' : '') }))));
+      co.appendChild(newBody);
     }
     const note = $('#note'); if (note.value !== (d.note || '')) note.value = d.note || '';
     $('#notelabel').textContent = t && t.note ? 'Notes · needed' : 'Notes · optional';
@@ -186,7 +243,13 @@
     if (!t) out.push('Pick a request.');
     if (t && t.needs === 'artwork' && !p) out.push('That request needs an artwork.');
     if (t && t.needs === 'lot' && !(p && p.photo_count)) out.push('That request needs a lot with photos.');
-    if (t && t.collection && !validCollection(d.collection)) out.push('Choose a collection.');
+    if (t && t.collection && !validCollection(d.collection) && !isNew(d.collection)) out.push('Choose a collection.');
+    if (t && t.collection && isNew(d.collection)) {
+      if (!(d.new_name || '').trim()) out.push('Name the new collection.');
+      if (!validEdition(parseEdition(d.new_edition))) out.push('The edition must be a whole number above 0.');
+      const fe = fixedEdition(p);
+      if (fe && validEdition(parseEdition(d.new_edition)) && parseEdition(d.new_edition) !== fe.limit) out.push('This artwork’s edition is fixed at ' + fe.limit + '; it cannot change here.');
+    }
     if (t && t.note && !(d.note || '').trim()) out.push('Write a note.');
     if (p && !p.source_sha256) out.push('This artwork has no bound master; the agent cannot act on it.');
     return out;
@@ -196,15 +259,27 @@
   function deviceName() { const u = navigator.userAgent; return /iPhone/.test(u) ? 'iPhone' : /iPad/.test(u) ? 'iPad' : /Android/.test(u) ? 'Android' : /Mac/.test(u) ? 'Mac' : /Windows/.test(u) ? 'PC' : 'device'; }
   function requestObject(d, sentAt) {
     const p = d.key && d.key !== OTHER ? itemByKey(d.key) : null, t = typeById(d.type);
+    const approve = !!(t && t.collection), newColl = approve && isNew(d.collection), rec = recOf(p), fe = fixedEdition(p), fl = fullLink(p);
+    const proposed = newColl ? { name: (d.new_name || '').trim(), edition: parseEdition(d.new_edition), edition_basis: fe ? 'existing fixed edition of this artwork' : 'owner-adjusted default for a genuinely new collection (' + NEW_DEFAULT_EDITION + ')', status: 'owner proposal; not a migration, not an allocation' } : null;
+    const chosen = approve ? (newColl ? (proposed.name || null) : (d.collection || null)) : null;
     return {
-      kind: 'lombardia_studio_request', schema_version: 2, request_id: d.id, created_at: d.created_at, sent_at: sentAt || null, is_test: IS_TEST,
+      kind: 'lombardia_studio_request', schema_version: 3, request_id: d.id, created_at: d.created_at, sent_at: sentAt || null, is_test: IS_TEST,
       request_type: d.type, request_label: t ? t.label : '',
       lot_key: p ? p.key : null, artwork_name: p ? p.name : null, artwork_sha256: d.artwork_sha256 || null, source_file: p ? p.source_file : null,
       recorded_stage: p ? p.recorded_stage : null, recorded_approval: p ? p.recorded_approval : null,
-      collection: d.collection || null, previous_collection: p ? (p.saved_collection || p.existing_collection || null) : null,
+      collection: chosen, collection_kind: approve ? (newColl ? 'new' : (chosen ? 'existing' : null)) : null,
+      proposed_collection: proposed, previous_collection: p ? (p.saved_collection || p.existing_collection || null) : null,
+      recommended_collection: approve ? (rec.kind === 'existing' ? rec.collection : rec.kind === 'new' ? 'new: ' + (suggestedName(p) || 'unnamed') : null) : null,
+      recommendation_followed: approve ? (rec.kind === 'existing' ? chosen === rec.collection : rec.kind === 'new' ? newColl : null) : null,
+      edition_fixed: fe ? { label: fe.label, limit: fe.limit, kind: fe.kind } : null,
+      full_source_url: fl ? absolute(fl.href) : null, full_source_kind: fl ? fl.kind : null,
       note: d.note || '', notion_url: p ? p.notion_url : null, board_url: p ? p.board_url : null,
       studio_built: DATA.built || '', device: deviceName()
     };
+  }
+  function collectionText(r) {
+    if (r.collection_kind === 'new' && r.proposed_collection) return 'New / Other · ' + r.proposed_collection.name + ' · 1 of ' + r.proposed_collection.edition + ' (your proposal)';
+    return r.collection || 'not chosen - do not assign';
   }
   function summaryText(r) {
     const lines = [(r.is_test ? '[TEST] ' : '') + 'LOMBARDIA STUDIO REQUEST - ' + r.device + ' - ' + new Date().toLocaleString()];
@@ -212,12 +287,25 @@
     lines.push('', 'Request: ' + r.request_label + (r.request_type ? ' [' + r.request_type + ']' : ''));
     if (r.lot_key) { lines.push('Artwork: ' + r.artwork_name, 'Lot: ' + r.lot_key, 'Master SHA256: ' + r.artwork_sha256); }
     else lines.push('Artwork: none (general request)');
-    if (r.request_type === 'approve') lines.push('Collection: ' + (r.collection || 'not chosen - do not assign'));
+    if (r.request_type === 'approve') {
+      lines.push('Collection: ' + collectionText(r));
+      if (r.recommended_collection) lines.push('Recommended was: ' + r.recommended_collection + (r.recommendation_followed ? ' (followed)' : ' (owner chose otherwise)'));
+      if (r.edition_fixed) lines.push('Edition: ' + r.edition_fixed.label + ' - fixed, unchanged by this request');
+    }
+    if (r.full_source_url) lines.push('Full poster: ' + r.full_source_url);
     lines.push('Notes: ' + (r.note || 'none'));
     lines.push('', 'Request id: ' + r.request_id, 'Apply only to this exact master hash. Sent from the Studio; not read automatically.');
     return lines.join('\n');
   }
   let sending = false, sentView = null;   // sentView: the record just sent, shown in place of the draft
+  // the full-quality file, in the review table: a real link (exact bytes when we have them), plus View for the preview
+  function fullRow(p) {
+    if (!p) return;
+    const rv = $('#review'), fl = fullLink(p);
+    rv.appendChild(h('div', {}, h('span', { class: 'k', text: 'Full poster' }), h('span', { class: 'v links' },
+      fl ? h('a', { href: fl.href, target: '_blank', rel: 'noopener', text: fl.text }) : h('span', { text: 'full-quality file follows the lot build' }),
+      h('button', { type: 'button', class: 'change', text: 'View preview', onclick: () => openViewer(p) }))));
+  }
   function renderReview() {
     const rv = $('#review'); rv.innerHTML = '';
     if (sentView) { renderSentView(); return; }
@@ -225,8 +313,11 @@
     const row = (k, v) => rv.appendChild(h('div', {}, h('span', { class: 'k', text: k }), h('span', { class: 'v', text: v })));
     rv.appendChild(h('div', { class: 'head' }, p ? h('img', { src: p.preview, alt: '' }) : h('span', { 'aria-hidden': 'true', style: 'display:grid;place-items:center;width:72px;aspect-ratio:3/4;border:1px solid var(--rule);background:var(--paper-3);font:700 30px var(--cond);color:var(--ink-3)', text: '+' }),
       h('div', {}, h('b', { text: p ? p.name : 'Something else' }), h('span', { text: r.request_label + (IS_TEST ? ' · TEST' : '') }))));
-    if (r.request_type === 'approve') row('Collection', r.collection || 'not chosen');
+    if (r.request_type === 'approve') row('Collection', collectionText(r));
+    if (r.request_type === 'approve' && r.recommended_collection) row('Recommended', r.recommended_collection + (r.recommendation_followed ? ' · followed' : ' · you chose otherwise'));
+    if (r.edition_fixed) row('Edition', r.edition_fixed.label + ' · fixed, unchanged by this request');
     if (p && r.request_type === 'approve' && p.saved_collection && p.saved_collection !== r.collection) row('Changes', 'your saved choice was ' + p.saved_collection);
+    fullRow(p);
     row('Notes', r.note || 'none');
     const route = DATA.route || {};
     $('#routenote').textContent = (route.form || route.ntfy)
@@ -241,7 +332,9 @@
     const row = (k, v) => rv.appendChild(h('div', {}, h('span', { class: 'k', text: k }), h('span', { class: 'v', text: v })));
     rv.appendChild(h('div', { class: 'head' }, p ? h('img', { src: p.preview, alt: '' }) : h('span', { 'aria-hidden': 'true', style: 'display:grid;place-items:center;width:72px;aspect-ratio:3/4;border:1px solid var(--rule);background:var(--paper-3);font:700 30px var(--cond);color:var(--ink-3)', text: '+' }),
       h('div', {}, h('b', { text: r.artwork_name || 'Something else' }), h('span', { text: r.request_label + (r.is_test ? ' · TEST' : '') }))));
-    if (r.request_type === 'approve') row('Collection', r.collection || 'not chosen');
+    if (r.request_type === 'approve') row('Collection', collectionText(r));
+    if (r.edition_fixed) row('Edition', r.edition_fixed.label + ' · fixed');
+    fullRow(p);
     row('Notes', r.note || 'none');
     row('Sent', dmy(s.at) + ' · via ' + s.via);
     $('#routenote').textContent = 'In the Lombardia inbox. The agent reads it in the next task; nothing happens on its own.';
@@ -322,7 +415,7 @@
     opts = opts || {};
     const d = draft();
     if (n === 2 && !d.key) { toast('Choose an artwork first'); n = 1; }
-    if (n === 3 && !sentView) { const probs = problems(); if (probs.length) { markProblems(probs); toast(probs[0]); n = d.key ? 2 : 1; } }
+    if (n === 3 && !sentView) { const probs = problems(); if (probs.length) { markProblems(probs); toast(probs[0]); n = d.key ? 2 : 1; if (n === step) opts.silent = true; } }   // stay where the problem is; keep the field focus markProblems set
     step = n; d.step = n; persist();
     [1, 2, 3].forEach(i => { $('#step-' + i).hidden = i !== n; });
     Array.from($('#steps').children).forEach(li => { const i = +li.dataset.step; li.className = i < n ? 'done' : i === n ? 'now' : ''; });
@@ -331,7 +424,13 @@
     if (!opts.silent) { const hd = $('#h-step-' + n); if (hd) { hd.focus({ preventScroll: true }); window.scrollTo({ top: Math.max(0, hd.getBoundingClientRect().top + window.scrollY - 70) }); } }
   }
   function markProblems(probs) {
-    const t = typeById(draft().type);
+    const d = draft(), t = typeById(d.type);
+    if (t && t.collection && isNew(d.collection)) {
+      const n = $('#newname'), e = $('#newedition');
+      if (e) e.setAttribute('aria-invalid', validEdition(parseEdition(d.new_edition)) ? 'false' : 'true');
+      if (n && !(d.new_name || '').trim()) { n.setAttribute('aria-invalid', 'true'); n.focus(); return; }
+      if (e && !validEdition(parseEdition(d.new_edition))) { e.focus(); return; }
+    }
     if (t && t.note && !(draft().note || '').trim()) { $('#note').setAttribute('aria-invalid', 'true'); $('#notehint').textContent = 'Write a note for this request.'; $('#notehint').classList.add('err'); $('#note').focus(); }
   }
   function renderBar() {
@@ -358,7 +457,7 @@
     const tb = $('#titleblock'); if (!tb) return; tb.innerHTML = '';
     const row = (k, v) => tb.appendChild(h('div', {}, h('span', { class: 'k', text: k }), h('span', { class: 'v', text: v })));
     tb.appendChild(h('div', { class: 'head' }, h('span', { class: 'mono', text: 'LA' }), h('span', { text: 'Lombardia Automobili · studio' })));
-    row('Artworks', DATA.items.length + ' · ' + DATA.items.filter(p => p.recorded_approval === 'owner_review_pending' || p.owner_collection_pending).length + ' waiting for your word');
+    row('Artworks', DATA.items.length + ' · ' + DATA.items.filter(p => p.recorded_approval === 'owner_review_pending' || p.recorded_approval === 'owner_visual_review_pending' || p.owner_collection_pending).length + ' waiting for your word');
     row('Draft', S.draft && S.draft.key ? 'saved on this device · ' + hhmm(S.draft.updated_at) : 'none');
     row('Sent', S.sent.length ? S.sent.length + ' from this device · last ' + hhmm(S.sent[0].at) : 'nothing yet');
     row('Built', DATA.built || '');
@@ -369,11 +468,10 @@
   function openViewer(p) {
     const dlg = $('#view'); $('#vtitle').textContent = p.name; const img = $('#vimg'); img.src = p.preview; img.alt = p.name + ' · complete artwork · ' + (p.preview_pixels || []).join(' × ') + ' px preview';
     const f = $('#vfoot'); f.innerHTML = '';
-    if (p.full_source_kind === 'exact_current_png' && p.full_source_sha256 === p.source_sha256) {
-      f.appendChild(h('a', { href: p.full_source_url, target: '_blank', rel: 'noopener', text: 'Exact master file · ' + (p.full_source_pixels || []).join(' × ') + ' px · ' + Math.round((p.full_source_bytes || 0) / 1e5) / 10 + ' MB' }));
-    } else if (p.full_source_kind === 'notion_print_page') {
-      f.appendChild(h('a', { href: p.full_source_url, target: '_blank', rel: 'noopener', text: 'Print file · Notion (private) ↗' }));
-    } else f.appendChild(h('span', { text: 'Full-quality file: follows the lot build' }));
+    const fl = fullLink(p);
+    if (fl && fl.exact) f.appendChild(h('a', { href: fl.href, target: '_blank', rel: 'noopener', text: 'Exact master file · ' + (p.full_source_pixels || []).join(' × ') + ' px · ' + Math.round((p.full_source_bytes || 0) / 1e5) / 10 + ' MB' }));
+    else if (fl) f.appendChild(h('a', { href: fl.href, target: '_blank', rel: 'noopener', text: fl.text }));
+    else f.appendChild(h('span', { text: 'Full-quality file: follows the lot build' }));
     if (p.review_url) f.appendChild(h('a', { href: p.review_url, target: '_blank', rel: 'noopener', text: 'MuAPI review link ↗' }));
     if (p.board_url) f.appendChild(h('a', { href: '../posters/' + encodeURIComponent(p.key) + '.html', text: 'Lot page ↗' }));
     f.appendChild(h('span', { text: 'this view is a ' + (p.preview_pixels || []).join(' × ') + ' px preview' }));
