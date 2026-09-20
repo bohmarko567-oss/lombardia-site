@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-09-20 05:12",
+ "built": "2026-09-20 05:18",
  "accessed_date": "2026-09-20",
  "collections": [
   "American Form",
@@ -1633,10 +1633,10 @@
    "photo_count": 9,
    "notion_url": "https://app.notion.com/p/3d7219427f6981049915d05522971446",
    "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/batch12-ferrari-testarossa.html",
-   "completion_verified": false,
-   "delivery_status": "Delivery finishing · prints, photos and copy prepared",
-   "delivery_evidence": null,
-   "delivery_verified_at": null,
+   "completion_verified": true,
+   "delivery_status": "Ready · Notion and board verified",
+   "delivery_evidence": "pipeline/studio-next-20260920/completion-receipt.json",
+   "delivery_verified_at": "2026-09-20T03:07:54.401461+00:00",
    "saved_collection": "Studio Di Forma",
    "collection_evidence": "Owner choice in active task, 20 September 2026; relayed by root",
    "owner_collection_pending": false,
@@ -1648,7 +1648,8 @@
     "collection": "STUDIO DI FORMA",
     "edition_label": "Edition of 100"
    },
-   "delivery_note": "Prints and photos are prepared; final delivery checks are running.",
+   "board_verified_at": "2026-09-20T03:18:11.964424+00:00",
+   "board_evidence": "pipeline/studio-next-20260920/completion-receipt.json",
    "full_source_url": "full/55dadb721a56-batch12-ferrari-testarossa.jpg",
    "full_source_sha256": "55dadb721a56281d16842bec07a565a7952fce26f1f9d761d5607d6ae7e31ae5",
    "full_source_bytes": 10671151,
@@ -1706,16 +1707,16 @@
    "timeline": {
     "created_at": "2026-09-10T00:00:00+00:00",
     "created_source": "ledger history",
-    "updated_at": "2026-09-20T02:59:43.742368+00:00",
-    "updated_source": "owner selection"
+    "updated_at": "2026-09-20T03:18:11.964424+00:00",
+    "updated_source": "board verified"
    },
    "status": {
-    "code": "production",
-    "label": "Lot in production",
-    "tone": "tint",
-    "detail": "Prints and photos are prepared; final delivery checks are running.",
-    "meaning": "approved; prints, photos, copy and Notion being built",
-    "order": 4
+    "code": "ready",
+    "label": "Ready · delivered",
+    "tone": "keep",
+    "detail": "9 photos · Notion and board verified",
+    "meaning": "Notion and the board read back and verified",
+    "order": 6
    }
   },
   {
@@ -2281,10 +2282,10 @@
    "photo_count": 9,
    "notion_url": "https://app.notion.com/p/3e1219427f698134a9a9ca85daf55921",
    "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/new-era-20260913-lamborghini-diablo.html",
-   "completion_verified": false,
-   "delivery_status": "Delivery finishing · prints, photos and copy prepared",
-   "delivery_evidence": null,
-   "delivery_verified_at": null,
+   "completion_verified": true,
+   "delivery_status": "Ready · Notion and board verified",
+   "delivery_evidence": "pipeline/studio-next-20260920/completion-receipt.json",
+   "delivery_verified_at": "2026-09-20T03:08:02.754314+00:00",
    "production_evidence": "pipeline/studio-next-20260920/production/INTEGRATION-MANIFEST.json",
    "production": {
     "print_jpg_sha256": "046edf9acfa6cd247d71151dd5d3194d176b829b9369d622da09a373b7b4df89",
@@ -2293,7 +2294,8 @@
     "collection": "FORMA / MOTION",
     "edition_label": "Edition of 100"
    },
-   "delivery_note": "Prints and photos are prepared; final delivery checks are running.",
+   "board_verified_at": "2026-09-20T03:18:11.964424+00:00",
+   "board_evidence": "pipeline/studio-next-20260920/completion-receipt.json",
    "full_source_url": "full/046edf9acfa6-new-era-20260913-lamborghini-diablo.jpg",
    "full_source_sha256": "046edf9acfa6cd247d71151dd5d3194d176b829b9369d622da09a373b7b4df89",
    "full_source_bytes": 13569738,
@@ -2361,16 +2363,16 @@
    "timeline": {
     "created_at": "2026-09-13T02:56:37.547084+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-09-20T02:59:44.709630+00:00",
-    "updated_source": "owner selection"
+    "updated_at": "2026-09-20T03:18:11.964424+00:00",
+    "updated_source": "board verified"
    },
    "status": {
-    "code": "production",
-    "label": "Lot in production",
-    "tone": "tint",
-    "detail": "Prints and photos are prepared; final delivery checks are running.",
-    "meaning": "approved; prints, photos, copy and Notion being built",
-    "order": 4
+    "code": "ready",
+    "label": "Ready · delivered",
+    "tone": "keep",
+    "detail": "9 photos · Notion and board verified",
+    "meaning": "Notion and the board read back and verified",
+    "order": 6
    }
   }
  ],
