@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-09-20 19:42",
+ "built": "2026-09-20 19:46",
  "accessed_date": "2026-09-20",
  "collections": [
   "American Form",
@@ -156,7 +156,10 @@
      ]
     }
    ],
-   "recommendation_override": "Forma / Motion",
+   "recommendation_override": {
+    "collection": "Forma / Motion",
+    "why": "Suggested from this concept: spare silhouette (one shape, one field). Your collection choice is final."
+   },
    "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
    "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
    "full_source_url": "full/1e8ebcd8a137-studio-diverse-20260920-alfa-duetto-1600.png",
@@ -172,15 +175,16 @@
    "edition": null,
    "collection_category": null,
    "recommendation": {
-    "kind": null,
-    "collection": null,
+    "kind": "existing",
+    "collection": "Forma / Motion",
     "new": {
      "name": "",
      "edition": 77,
      "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
     },
-    "why": "no suggestion yet",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+    "why": "Suggested from this concept: spare silhouette (one shape, one field). Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 100
    },
    "generations": [
     {
@@ -322,7 +326,10 @@
      ]
     }
    ],
-   "recommendation_override": "Studio Di Forma",
+   "recommendation_override": {
+    "collection": "Studio Di Forma",
+    "why": "Suggested from this concept: delicate copperplate engraving. Your collection choice is final."
+   },
    "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
    "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
    "full_source_url": "full/e0b2c5b11e96-studio-diverse-20260920-mazda-cosmo-110s.png",
@@ -338,15 +345,16 @@
    "edition": null,
    "collection_category": null,
    "recommendation": {
-    "kind": null,
-    "collection": null,
+    "kind": "existing",
+    "collection": "Studio Di Forma",
     "new": {
      "name": "",
      "edition": 77,
      "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
     },
-    "why": "no suggestion yet",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+    "why": "Suggested from this concept: delicate copperplate engraving. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 50
    },
    "generations": [
     {
@@ -488,7 +496,10 @@
      ]
     }
    ],
-   "recommendation_override": "Forma / Motion",
+   "recommendation_override": {
+    "collection": "Forma / Motion",
+    "why": "Suggested from this concept: editorial photomontage / halftone collage. Your collection choice is final."
+   },
    "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
    "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
    "full_source_url": "full/b626aa56570d-studio-diverse-20260920-saab-900-turbo.png",
@@ -504,15 +515,16 @@
    "edition": null,
    "collection_category": null,
    "recommendation": {
-    "kind": null,
-    "collection": null,
+    "kind": "existing",
+    "collection": "Forma / Motion",
     "new": {
      "name": "",
      "edition": 77,
      "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
     },
-    "why": "no suggestion yet",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+    "why": "Suggested from this concept: editorial photomontage / halftone collage. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 100
    },
    "generations": [
     {
@@ -649,7 +661,10 @@
      ]
     }
    ],
-   "recommendation_override": "Studio Di Forma",
+   "recommendation_override": {
+    "collection": "Studio Di Forma",
+    "why": "Suggested from this concept: dramatic chiaroscuro (tenebrist). Your collection choice is final."
+   },
    "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
    "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
    "full_source_url": "full/e240c40d5420-studio-diverse-20260920-ferrari-dino-246gt.png",
@@ -665,15 +680,16 @@
    "edition": null,
    "collection_category": null,
    "recommendation": {
-    "kind": null,
-    "collection": null,
+    "kind": "existing",
+    "collection": "Studio Di Forma",
     "new": {
      "name": "",
      "edition": 77,
      "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
     },
-    "why": "no suggestion yet",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+    "why": "Suggested from this concept: dramatic chiaroscuro (tenebrist). Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 50
    },
    "generations": [
     {
@@ -810,7 +826,10 @@
      ]
     }
    ],
-   "recommendation_override": "Gran Turismo",
+   "recommendation_override": {
+    "collection": "Gran Turismo",
+    "why": "Suggested from this concept: atmospheric landscape painting. Your collection choice is final."
+   },
    "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
    "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
    "full_source_url": "full/75fd87172010-studio-diverse-20260920-lancia-aurelia-b24.png",
@@ -826,15 +845,16 @@
    "edition": null,
    "collection_category": null,
    "recommendation": {
-    "kind": null,
-    "collection": null,
+    "kind": "existing",
+    "collection": "Gran Turismo",
     "new": {
      "name": "",
      "edition": 77,
      "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
     },
-    "why": "no suggestion yet",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+    "why": "Suggested from this concept: atmospheric landscape painting. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
    },
    "generations": [
     {
@@ -971,7 +991,10 @@
      ]
     }
    ],
-   "recommendation_override": "Gran Turismo",
+   "recommendation_override": {
+    "collection": "Gran Turismo",
+    "why": "Suggested from this concept: precision single-line drawing with one wash. Your collection choice is final."
+   },
    "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
    "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
    "full_source_url": "full/b964e75c02cf-studio-diverse-20260920-bmw-507.png",
@@ -987,15 +1010,16 @@
    "edition": null,
    "collection_category": null,
    "recommendation": {
-    "kind": null,
-    "collection": null,
+    "kind": "existing",
+    "collection": "Gran Turismo",
     "new": {
      "name": "",
      "edition": 77,
      "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
     },
-    "why": "no suggestion yet",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+    "why": "Suggested from this concept: precision single-line drawing with one wash. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
    },
    "generations": [
     {
@@ -1127,7 +1151,10 @@
      ]
     }
    ],
-   "recommendation_override": "Sport / Leicht",
+   "recommendation_override": {
+    "collection": "Sport / Leicht",
+    "why": "Suggested from this concept: typographic construction. Your collection choice is final."
+   },
    "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
    "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
    "full_source_url": "full/9c72802de514-studio-diverse-20260920-vw-golf-gti-mk1.png",
@@ -1143,15 +1170,16 @@
    "edition": null,
    "collection_category": null,
    "recommendation": {
-    "kind": null,
-    "collection": null,
+    "kind": "existing",
+    "collection": "Sport / Leicht",
     "new": {
      "name": "",
      "edition": 77,
      "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
     },
-    "why": "no suggestion yet",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+    "why": "Suggested from this concept: typographic construction. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
    },
    "generations": [
     {
@@ -1278,7 +1306,10 @@
      ]
     }
    ],
-   "recommendation_override": "American Form",
+   "recommendation_override": {
+    "collection": "American Form",
+    "why": "Suggested from this concept: colour-field velocity (hard-edge bands). Your collection choice is final."
+   },
    "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
    "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
    "full_source_url": "full/4b3ba7928bae-studio-diverse-20260920-ford-gt40-mk1.png",
@@ -1294,15 +1325,16 @@
    "edition": null,
    "collection_category": null,
    "recommendation": {
-    "kind": null,
-    "collection": null,
+    "kind": "existing",
+    "collection": "American Form",
     "new": {
      "name": "",
      "edition": 77,
      "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
     },
-    "why": "no suggestion yet",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+    "why": "Suggested from this concept: colour-field velocity (hard-edge bands). Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
    },
    "generations": [
     {
@@ -1434,7 +1466,10 @@
      ]
     }
    ],
-   "recommendation_override": "Sport / Leicht",
+   "recommendation_override": {
+    "collection": "Sport / Leicht",
+    "why": "Suggested from this concept: bold flat two-ink screenprint with misregistration. Your collection choice is final."
+   },
    "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
    "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
    "full_source_url": "full/52138ed9e419-studio-diverse-20260920-peugeot-205-t16.png",
@@ -1450,15 +1485,16 @@
    "edition": null,
    "collection_category": null,
    "recommendation": {
-    "kind": null,
-    "collection": null,
+    "kind": "existing",
+    "collection": "Sport / Leicht",
     "new": {
      "name": "",
      "edition": 77,
      "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
     },
-    "why": "no suggestion yet",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+    "why": "Suggested from this concept: bold flat two-ink screenprint with misregistration. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
    },
    "generations": [
     {
@@ -1595,7 +1631,10 @@
      ]
     }
    ],
-   "recommendation_override": "Studio Di Forma",
+   "recommendation_override": {
+    "collection": "Studio Di Forma",
+    "why": "Suggested from this concept: cut-paper abstraction (papier découpé). Your collection choice is final."
+   },
    "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
    "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
    "full_source_url": "full/797477aa153e-studio-diverse-20260920-citroen-ds19.png",
@@ -1611,15 +1650,16 @@
    "edition": null,
    "collection_category": null,
    "recommendation": {
-    "kind": null,
-    "collection": null,
+    "kind": "existing",
+    "collection": "Studio Di Forma",
     "new": {
      "name": "",
      "edition": 77,
      "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
     },
-    "why": "no suggestion yet",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+    "why": "Suggested from this concept: cut-paper abstraction (papier découpé). Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 50
    },
    "generations": [
     {
@@ -3782,10 +3822,10 @@
    "photo_count": 9,
    "notion_url": "https://app.notion.com/p/3e1219427f6981be9325da906128b1ea",
    "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-next-20260920-aston-martin-db5.html",
-   "completion_verified": false,
-   "delivery_status": "Delivery finishing · prints, photos and copy prepared",
-   "delivery_evidence": null,
-   "delivery_verified_at": null,
+   "completion_verified": true,
+   "delivery_status": "Ready · Notion and board verified",
+   "delivery_evidence": "pipeline/studio-diverse-20260920/completion-receipt.json",
+   "delivery_verified_at": "2026-09-20T17:41:21.931361+00:00",
    "production_evidence": "pipeline/studio-diverse-20260920/production/INTEGRATION-MANIFEST.json",
    "production": {
     "print_jpg_sha256": "90354d001682913949deda3cf51c5a72a99ce6699e9216262283b4b02799abe5",
@@ -3794,7 +3834,8 @@
     "collection": "GRAN TURISMO",
     "edition_label": "Edition of 77"
    },
-   "delivery_note": "Prints and photos are prepared; final delivery checks are running.",
+   "board_verified_at": "2026-09-20T17:46:53.024771+00:00",
+   "board_evidence": "pipeline/studio-diverse-20260920/completion-receipt.json",
    "full_source_url": "../artwork/90354d001682-studio-next-20260920-aston-martin-db5.jpg",
    "full_source_sha256": "90354d001682913949deda3cf51c5a72a99ce6699e9216262283b4b02799abe5",
    "full_source_bytes": 17946041,
@@ -3831,16 +3872,16 @@
    "timeline": {
     "created_at": "2026-09-20T00:00:00+00:00",
     "created_source": "ledger history",
-    "updated_at": "2026-09-20T17:37:40.710484+00:00",
-    "updated_source": "owner selection"
+    "updated_at": "2026-09-20T17:46:53.024771+00:00",
+    "updated_source": "board verified"
    },
    "status": {
-    "code": "production",
-    "label": "Lot in production",
-    "tone": "tint",
-    "detail": "Prints and photos are prepared; final delivery checks are running.",
-    "meaning": "approved; prints, photos, copy and Notion being built",
-    "order": 4
+    "code": "ready",
+    "label": "Ready · delivered",
+    "tone": "keep",
+    "detail": "9 photos · Notion and board verified",
+    "meaning": "Notion and the board read back and verified",
+    "order": 6
    }
   }
  ],
