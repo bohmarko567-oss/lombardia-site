@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "access_date": "2026-09-11",
+  "timezone": "Europe/Copenhagen",
+  "lot_key": "batch12-mercedes-190e-evo2",
+  "section_order": [
+    "Object",
+    "Images",
+    "Details",
+    "Value",
+    "Shipping",
+    "Message the expert",
+    "Save as draft / Preview / Submit"
+  ],
+  "object": {
+    "type": "Poster",
+    "category": "Automobilia Art & Posters",
+    "auction": "Automobilia Art & Posters - Weekly auction",
+    "language": "English",
+    "category_evidence": "Current object-selection UI reads: Poster - in Automobilia Art & Posters."
+  },
+  "images": [
+    {
+      "position": 1,
+      "filename": "01-hero-white-wall-layered.jpg",
+      "role": "Cover: framed white-wall hero",
+      "cover": true,
+      "warning": null
+    },
+    {
+      "position": 2,
+      "filename": "02-01-hero-flat.jpg",
+      "role": "Full flat artwork",
+      "cover": false,
+      "warning": null
+    },
+    {
+      "position": 3,
+      "filename": "03-true-corner-tl.jpg",
+      "role": "Top-left frame corner",
+      "cover": false,
+      "warning": null
+    },
+    {
+      "position": 4,
+      "filename": "04-true-corner-bl.jpg",
+      "role": "Bottom-left frame corner",
+      "cover": false,
+      "warning": null
+    },
+    {
+      "position": 5,
+      "filename": "05-true-corner-br.jpg",
+      "role": "Bottom-right frame corner",
+      "cover": false,
+      "warning": null
+    },
+    {
+      "position": 6,
+      "filename": "06-true-corner-tr.jpg",
+      "role": "Top-right frame corner",
+      "cover": false,
+      "warning": null
+    },
+    {
+      "position": 7,
+      "filename": "07-03-specs-footer.jpg",
+      "role": "Native specifications/footer crop",
+      "cover": false,
+      "warning": null
+    },
+    {
+      "position": 8,
+      "filename": "08-05-header.jpg",
+      "role": "Native header crop",
+      "cover": false,
+      "warning": null
+    },
+    {
+      "position": 9,
+      "filename": "09-06-vehicle-detail.jpg",
+      "role": "Native vehicle detail crop",
+      "cover": false,
+      "warning": null
+    }
+  ],
+  "details": {
+    "era": "1900-2000",
+    "manufacturer_brand": {
+      "selection": "Other",
+      "custom": "Mercedes-Benz"
+    },
+    "poster_title": "190 E 2.5-16 Evolution II - FORMA / MOTION - 45 × 60 cm - Edition of 100",
+    "estimated_period": "1990s",
+    "condition": "A (excellent - mint condition)",
+    "number_of_objects": 1,
+    "height": 630,
+    "height_unit": "mm",
+    "width": 480,
+    "width_unit": "mm",
+    "autographed_by_a_famous_person": "No",
+    "designer_artist": {
+      "selection": [
+        "Other"
+      ],
+      "custom": "Lombardia Automobili"
+    },
+    "subject": [
+      "Transport",
+      "Graphic design",
+      "Vintage",
+      "Advertising",
+      "Technology",
+      "Illustrated",
+      "Applied art",
+      "Other"
+    ],
+    "subject_other": "Mercedes-Benz 190 E 2.5-16 Evolution II, FORMA / MOTION, car design, limited edition, framed",
+    "country_of_origin": "Germany",
+    "specific_region_of_origin": "",
+    "reference_label_colour": "",
+    "reference_label": "190 E 2.5-16 Evolution II 45x60",
+    "description": "You’re bidding on a 45 × 60 cm FORMA / MOTION poster by Lombardia Automobili, featuring the 1990 Mercedes-Benz 190 E 2.5-16 Evolution II. The artwork is 100% unique combination of a detailed illustration of the car and our own layout and typography. A white frame and Perspex glazing are included; poster and frame are shipped together with care. \n\nWarm ivory, deep green and oversized EVO II typography give the artwork presence across a room. The blue-black 190 E and its technical details invite a closer look. Above a desk or in a garage lounge, it’s a conversation piece for anyone who knows what that name means.\n\nLombardia Automobili is an independent automotive design house. This artwork is limited to 100 physical prints in total across all sizes, colour variants, framing options and sales channels. FORMA / MOTION is made for people who appreciate the design of a car as much as the way it drives.\n\nThe subject is the 1990 190 E 2.5-16 Evolution II, a road-going homologation model developed for touring-car competition. Its sixteen-valve engine, widened arches and tall rear wing made it a defining Mercedes-Benz. The Evolution II gave the compact W201 saloon an unmistakable motorsport silhouette.\n\nSheet size: 45 × 60 cm. Nominal assembled frame dimensions: 48 × 63 cm. This is a contemporary, retro-inspired studio edition.\n\nAn independent artwork by Lombardia Automobili, not affiliated with or endorsed by Mercedes-Benz.",
+    "generated_title": "Lombardia Automobili - Mercedes-Benz - 190 E 2.5-16 Evolution II - FORMA / MOTION - 45 × 60 cm - Edition of 100 - 1990s"
+  },
+  "estimate_policy": {
+    "owner_decision_date": "2026-09-10",
+    "currency": "EUR",
+    "landscape": 275,
+    "basic_45x60_cm": 225,
+    "note": "Current owner size policy applied to this local payload; no Catawiki save or submission performed."
+  },
+  "value": {
+    "currency": "EUR",
+    "estimated_value": 225,
+    "reserve_enabled": false,
+    "reserve_value": null,
+    "buy_now_enabled": false,
+    "buy_now_value": null
+  },
+  "shipping": {
+    "preset": "50usd",
+    "display_currency": "EUR",
+    "update_preset_if_changes_are_made": true,
+    "package_size": "Large package",
+    "package_display_max_weight": "up to 20 kg",
+    "package_display_max_dimensions_cm": "100x50x50",
+    "custom_package": false,
+    "exact_package_weight": null,
+    "exact_package_dimensions": null,
+    "free_shipping": false,
+    "rates": [
+      {
+        "destination": "Denmark",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Italy",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "The Netherlands",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "France",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Belgium",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Germany",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Spain",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "United Kingdom",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Portugal",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Austria",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Romania",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Poland",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Switzerland",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Greece",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Sweden",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Hungary",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "United States",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Rest of European Union",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Rest of world",
+        "amount": 50,
+        "currency": "EUR"
+      }
+    ],
+    "free_pickup": false,
+    "combined_shipping": false
+  },
+  "expert": {
+    "name": "Evan Lacey",
+    "specialism": "Expert in Automobilia Art & Posters",
+    "message": ""
+  },
+  "blank_field_semantics": "Empty strings are observed blank UI values. Null inactive value fields were not set; no hidden value is asserted.",
+  "reuse_rules": {
+    "fixed": [
+      "Six paragraphs, their order, grammar, punctuation and tone",
+      "100% unique combination wording",
+      "Independent automotive design house identity",
+      "Purchase/frame/shipping sentence structure",
+      "Contemporary retro-inspired studio-edition sentence",
+      "Independent-artwork/non-affiliation sentence structure"
+    ],
+    "poster_specific_only": [
+      "Actual collection and title",
+      "Car marque, model, year, configuration and supported history/specifications",
+      "Artwork palette, car colours and typography motif",
+      "Actual sheet size, orientation, frame size/colour and glazing",
+      "Approved edition specification for the particular poster",
+      "Matching title, factual subject keywords, label and image files/order"
+    ],
+    "commercial": "Current owner size policy: EUR 225 for 45 x 60 cm, EUR 275 for landscape. Reserve and buy now OFF; retain saved shipping preset and all other commercial defaults.",
+    "new_lot": "Read current approved poster data; adapt only listed poster-specific facts. Do not carry the Porsche's M471 or 200-car-production fact to a different car. Keep all other text exact. Save and reopen every draft; record its own ID. Submit remains separate.",
+    "legacy": "Older F40/930/A1 Catawiki descriptions and older 911 draft prose are superseded as templates. eBay/store copy and physical assets retain their separate scope.",
+    "edition": "For eligible new designs, use the recorded per-design cap: Edition of N in titles, with explicit shared size/colour/frame scope in description. Never imply print serial 1; actual serials require allocation. Preserve legacy collection-wide promises. This staged revision remains pending owner confirmation of eligibility."
+  },
+  "edition_registry": "listings/collection-editions.json",
+  "status": "LOCAL FIELD PAYLOAD - not entered, saved or submitted on Catawiki",
+  "authority": "Current six-paragraph copy contract with poster-specific substitutions only",
+  "gold_standard_source": "C:\\Users\\bohma\\code ux rep\\lombardia\\listings\\catawiki-gold-standard.json",
+  "product": {
+    "sheet_cm": {
+      "width": 45,
+      "height": 60
+    },
+    "nominal_assembled_frame_cm": {
+      "width": 48,
+      "height": 63
+    },
+    "orientation": "portrait",
+    "frame_colour": "white",
+    "glazing": "Perspex",
+    "edition": "Edition of 100",
+    "collection": "FORMA / MOTION",
+    "car": "1990 Mercedes-Benz 190 E 2.5-16 Evolution II"
+  },
+  "evidence": {
+    "car_sources": [
+      {
+        "url": "https://media.mercedes-benz.com/article/4e61dcd8-fd75-47ca-830c-056734a165c2",
+        "access_date": "2026-09-11"
+      },
+      {
+        "url": "https://rmsothebys.com/auctions/0120/lots/r0167-1990-mercedesbenz-190-e-2516-evolution-ii/",
+        "access_date": "2026-09-11"
+      }
+    ],
+    "supplier_source": "C:\\Users\\bohma\\Documents\\Codex\\2026-09-11\\hey-i-want-to-improve-or\\owner-polish\\supplier\\evidence.md",
+    "supplier_sha256": "44f6aeebc962271151b360d7b0eef883f2f256f42ef06c894b004c27f890161e",
+    "copy_contract_sha256": "ccea0bc9db7e52bc2e0ef42e9f9f89f9a784205cc24abb8a3e04fbe15dab8bfd",
+    "edition_registry_sha256": "f94081726ab85c08d61d2d474ab6d995724c70b8e07f463993c1cfcf1732c5fe",
+    "metadata_convention": "Era/period/country follow subject-car data under the owner-approved gold standard; description explicitly states contemporary studio edition.",
+    "era_label_source": "C:\\Users\\bohma\\code ux rep\\lombardia\\CATAWIKI-GOLD-STANDARD.md"
+  },
+  "edition_record": {
+    "edition_cohort": "new",
+    "edition_id": "art-ff99d84da9f05281b9dd829e",
+    "design_key": "batch12-mercedes-190e-evo2",
+    "cap": 100,
+    "scope": "artwork_all_variants_all_channels",
+    "policy_id": "prospective-artwork-2026-09-12",
+    "eligibility_evidence": "Owner, 12 September 2026: Old stuff is old stuff and cannot block the best next step in that regard. There are no buyers, nothing was ever sold so we are good. Latest eleven remain unsubmitted locally; current session prepared a cart only, no physical order for these designs.",
+    "edition_label": "Edition of 100",
+    "description_scope": "This artwork is limited to 100 physical prints in total across all sizes, colour variants, framing options and sales channels.",
+    "allocation_blocked": true
+  },
+  "edition_policy_revision": {
+    "at": "2026-09-12T21:29:15.705534+00:00",
+    "authority": "Owner, 12 September 2026: Old stuff is old stuff and cannot block the best next step in that regard. There are no buyers, nothing was ever sold so we are good.",
+    "scope": "Only edition and numbering scope changed; unrelated facts/fields preserved."
+  }
+}

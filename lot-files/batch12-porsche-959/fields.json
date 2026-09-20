@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "access_date": "2026-09-11",
+  "timezone": "Europe/Copenhagen",
+  "lot_key": "batch12-porsche-959",
+  "section_order": [
+    "Object",
+    "Images",
+    "Details",
+    "Value",
+    "Shipping",
+    "Message the expert",
+    "Save as draft / Preview / Submit"
+  ],
+  "object": {
+    "type": "Poster",
+    "category": "Automobilia Art & Posters",
+    "auction": "Automobilia Art & Posters - Weekly auction",
+    "language": "English",
+    "category_evidence": "Current object-selection UI reads: Poster - in Automobilia Art & Posters."
+  },
+  "images": [
+    {
+      "position": 1,
+      "filename": "01-hero-white-wall-layered.jpg",
+      "role": "hero-white-wall-layered",
+      "sha256": "06ddbf78aeb66a6e033c3ac5d478b76473dee5a86d117651dd98d9855bb0122f",
+      "cover": true
+    },
+    {
+      "position": 2,
+      "filename": "02-01-hero-flat.jpg",
+      "role": "01-hero-flat",
+      "sha256": "e511239374e41938d31525f894a442314402f5a60427f6a198a6cf139a148c05",
+      "cover": false
+    },
+    {
+      "position": 3,
+      "filename": "03-true-corner-tl.jpg",
+      "role": "true-corner-tl",
+      "sha256": "3308dfd838035100954c0d6e48b23e22f201dc8f3428eb2ae4019518d0db3826",
+      "cover": false
+    },
+    {
+      "position": 4,
+      "filename": "04-true-corner-bl.jpg",
+      "role": "true-corner-bl",
+      "sha256": "3e1b41999b223f1957f707f72a762a280f98b97b4be5813257c7eaad563bcb2d",
+      "cover": false
+    },
+    {
+      "position": 5,
+      "filename": "05-true-corner-br.jpg",
+      "role": "true-corner-br",
+      "sha256": "5b4854e0ec34d20e37a55e076e56807477846848e8a859e13fc172f1412e0a4f",
+      "cover": false
+    },
+    {
+      "position": 6,
+      "filename": "06-true-corner-tr.jpg",
+      "role": "true-corner-tr",
+      "sha256": "601bf509a6ef86a4e134eac407f75823f2a1779d56b138ff4b9fb3a586d6126a",
+      "cover": false
+    },
+    {
+      "position": 7,
+      "filename": "07-03-specs-footer.jpg",
+      "role": "03-specs-footer",
+      "sha256": "2bf8a374432b854ee9058023806ae9e42ce301a9973d2ff7b8f6371a66dd2e3e",
+      "cover": false
+    },
+    {
+      "position": 8,
+      "filename": "08-05-header.jpg",
+      "role": "05-header",
+      "sha256": "18687cebb8ee0617797f79dfccf2b4966207c85c089a45bb23fedf5da899bcae",
+      "cover": false
+    },
+    {
+      "position": 9,
+      "filename": "09-06-vehicle-detail.jpg",
+      "role": "06-vehicle-detail",
+      "sha256": "3159b71269c230af47ecba3ab3a902649aa280242c79e0b3f1c0ca8ffa4481cb",
+      "cover": false
+    }
+  ],
+  "details": {
+    "era": "1900-2000",
+    "manufacturer_brand": {
+      "selection": "Other",
+      "custom": "Porsche"
+    },
+    "poster_title": "959 Komfort - SPORT / LEICHT - 45 × 60 cm - Edition of 100",
+    "estimated_period": "1980s",
+    "condition": "A (excellent - mint condition)",
+    "number_of_objects": 1,
+    "height": 630,
+    "height_unit": "mm",
+    "width": 480,
+    "width_unit": "mm",
+    "autographed_by_a_famous_person": "No",
+    "designer_artist": {
+      "selection": [
+        "Other"
+      ],
+      "custom": "Lombardia Automobili"
+    },
+    "subject": [
+      "Transport",
+      "Graphic design",
+      "Vintage",
+      "Advertising",
+      "Technology",
+      "Illustrated",
+      "Applied art",
+      "Other"
+    ],
+    "subject_other": "Porsche 959 Komfort, SPORT / LEICHT, car design, limited edition, framed",
+    "country_of_origin": "Germany",
+    "specific_region_of_origin": "",
+    "reference_label_colour": "",
+    "reference_label": "959 Komfort 45x60",
+    "description": "You’re bidding on a 45 × 60 cm SPORT / LEICHT poster by Lombardia Automobili, featuring the 1987 Porsche 959 Komfort. The artwork is 100% unique combination of a detailed illustration of the car and our own layout and typography. A white frame and Perspex glazing are included; poster and frame are shipped together with care. \n\nDeep burgundy, silver and oversized outlined 959 typography give the artwork presence across a room. The silver 959 and its technical details invite a closer look. Above a desk or in a garage lounge, it’s a conversation piece for anyone who knows what that name means.\n\nLombardia Automobili is an independent automotive design house. This artwork is limited to 100 physical prints in total across all sizes, colour variants, framing options and sales channels. SPORT / LEICHT is made for people who appreciate the design of a car as much as the way it drives.\n\nThe subject is the 1987 959 Komfort, a road-going expression of Porsche’s advanced engineering. Its twin-turbocharged flat-six engine, electronically controlled all-wheel drive and wide bodywork made it a defining Porsche. The 959 brought an unusually sophisticated combination of performance technologies to a road car.\n\nSheet size: 45 × 60 cm. Nominal assembled frame dimensions: 48 × 63 cm. This is a contemporary, retro-inspired studio edition.\n\nAn independent artwork by Lombardia Automobili, not affiliated with or endorsed by Porsche AG.\n",
+    "generated_title": "Lombardia Automobili - Porsche - 959 Komfort - SPORT / LEICHT - 45 × 60 cm - Edition of 100 - 1980s"
+  },
+  "estimate_policy": {
+    "owner_decision_date": "2026-09-10",
+    "currency": "EUR",
+    "landscape": 275,
+    "basic_45x60_cm": 225,
+    "note": "Current owner size policy applied to this local payload; no Catawiki save or submission performed."
+  },
+  "value": {
+    "currency": "EUR",
+    "estimated_value": 225,
+    "reserve_enabled": false,
+    "reserve_value": null,
+    "buy_now_enabled": false,
+    "buy_now_value": null
+  },
+  "shipping": {
+    "preset": "50usd",
+    "display_currency": "EUR",
+    "update_preset_if_changes_are_made": true,
+    "package_size": "Large package",
+    "package_display_max_weight": "up to 20 kg",
+    "package_display_max_dimensions_cm": "100x50x50",
+    "custom_package": false,
+    "exact_package_weight": null,
+    "exact_package_dimensions": null,
+    "free_shipping": false,
+    "rates": [
+      {
+        "destination": "Denmark",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Italy",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "The Netherlands",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "France",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Belgium",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Germany",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Spain",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "United Kingdom",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Portugal",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Austria",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Romania",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Poland",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Switzerland",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Greece",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Sweden",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Hungary",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "United States",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Rest of European Union",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Rest of world",
+        "amount": 50,
+        "currency": "EUR"
+      }
+    ],
+    "free_pickup": false,
+    "combined_shipping": false
+  },
+  "expert": {
+    "name": "Evan Lacey",
+    "specialism": "Expert in Automobilia Art & Posters",
+    "message": ""
+  },
+  "blank_field_semantics": "Empty strings are observed blank UI values. Null inactive value fields were not set; no hidden value is asserted.",
+  "reuse_rules": {
+    "fixed": [
+      "Six paragraphs, their order, grammar, punctuation and tone",
+      "100% unique combination wording",
+      "Independent automotive design house identity",
+      "Purchase/frame/shipping sentence structure",
+      "Contemporary retro-inspired studio-edition sentence",
+      "Independent-artwork/non-affiliation sentence structure"
+    ],
+    "poster_specific_only": [
+      "Actual collection and title",
+      "Car marque, model, year, configuration and supported history/specifications",
+      "Artwork palette, car colours and typography motif",
+      "Actual sheet size, orientation, frame size/colour and glazing",
+      "Approved edition specification for the particular poster",
+      "Matching title, factual subject keywords, label and image files/order"
+    ],
+    "commercial": "Current owner size policy: EUR 225 for 45 x 60 cm, EUR 275 for landscape. Reserve and buy now OFF; retain saved shipping preset and all other commercial defaults.",
+    "new_lot": "Read current approved poster data; adapt only listed poster-specific facts. Do not carry the Porsche's M471 or 200-car-production fact to a different car. Keep all other text exact. Save and reopen every draft; record its own ID. Submit remains separate.",
+    "legacy": "Older F40/930/A1 Catawiki descriptions and older 911 draft prose are superseded as templates. eBay/store copy and physical assets retain their separate scope.",
+    "edition": "For eligible new designs, use the recorded per-design cap: Edition of N in titles, with explicit shared size/colour/frame scope in description. Never imply print serial 1; actual serials require allocation. Preserve legacy collection-wide promises. This staged revision remains pending owner confirmation of eligibility."
+  },
+  "edition_registry": "listings/collection-editions.json",
+  "status": "Owner-selected artwork; nine Carrera-method photos assembled; Catawiki submission on hold",
+  "authority": "Current six-paragraph copy contract with poster-specific substitutions only",
+  "gold_standard_source": "C:\\Users\\bohma\\code ux rep\\lombardia\\listings\\catawiki-gold-standard.json",
+  "product": {
+    "sheet_cm": {
+      "width": 45,
+      "height": 60
+    },
+    "nominal_assembled_frame_cm": {
+      "width": 48,
+      "height": 63
+    },
+    "orientation": "portrait",
+    "frame_colour": "white",
+    "glazing": "Perspex",
+    "edition": "Edition of 100",
+    "collection": "SPORT / LEICHT",
+    "car": "1987 Porsche 959 Komfort"
+  },
+  "evidence": {
+    "car_sources": [
+      {
+        "url": "https://newsroom.porsche.com/en/press-kits/Porsche-Museum/Porsche-959-Coup%C3%A9.html",
+        "access_date": "2026-09-11"
+      }
+    ],
+    "supplier_source": "C:\\Users\\bohma\\Documents\\Codex\\2026-09-11\\hey-i-want-to-improve-or\\owner-polish\\supplier\\evidence.md",
+    "supplier_sha256": "44f6aeebc962271151b360d7b0eef883f2f256f42ef06c894b004c27f890161e",
+    "copy_contract_sha256": "ccea0bc9db7e52bc2e0ef42e9f9f89f9a784205cc24abb8a3e04fbe15dab8bfd",
+    "edition_registry_sha256": "f94081726ab85c08d61d2d474ab6d995724c70b8e07f463993c1cfcf1732c5fe",
+    "metadata_convention": "Era/period/country follow subject-car data under the owner-approved gold standard; description explicitly states contemporary studio edition.",
+    "era_label_source": "C:\\Users\\bohma\\code ux rep\\lombardia\\CATAWIKI-GOLD-STANDARD.md"
+  },
+  "edition_record": {
+    "edition_cohort": "new",
+    "edition_id": "art-92601542485ae15f8baad660",
+    "design_key": "batch12-porsche-959",
+    "cap": 100,
+    "scope": "artwork_all_variants_all_channels",
+    "policy_id": "prospective-artwork-2026-09-12",
+    "eligibility_evidence": "Owner, 12 September 2026: Old stuff is old stuff and cannot block the best next step in that regard. There are no buyers, nothing was ever sold so we are good. Latest eleven remain unsubmitted locally; current session prepared a cart only, no physical order for these designs.",
+    "edition_label": "Edition of 100",
+    "description_scope": "This artwork is limited to 100 physical prints in total across all sizes, colour variants, framing options and sales channels.",
+    "allocation_blocked": true
+  },
+  "edition_policy_revision": {
+    "at": "2026-09-12T21:29:15.705534+00:00",
+    "authority": "Owner, 12 September 2026: Old stuff is old stuff and cannot block the best next step in that regard. There are no buyers, nothing was ever sold so we are good.",
+    "scope": "Only edition and numbering scope changed; unrelated facts/fields preserved."
+  },
+  "selected_native_sha256": "e8247f4b0a82329903efc65fac1cdce311d938bd03ce89d14f90b0b404d37978"
+}

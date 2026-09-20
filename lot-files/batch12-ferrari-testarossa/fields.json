@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "access_date": "2026-09-13",
+  "timezone": "Europe/Copenhagen",
+  "lot_key": "batch12-ferrari-testarossa",
+  "section_order": [
+    "Object",
+    "Images",
+    "Details",
+    "Value",
+    "Shipping",
+    "Message the expert",
+    "Save as draft / Preview / Submit"
+  ],
+  "object": {
+    "type": "Poster",
+    "category": "Automobilia Art & Posters",
+    "auction": "Automobilia Art & Posters - Weekly auction",
+    "language": "English",
+    "category_evidence": "Current object-selection UI reads: Poster - in Automobilia Art & Posters."
+  },
+  "images": [
+    {
+      "position": 1,
+      "filename": "01-hero-white-wall.png",
+      "role": "hero-white-wall",
+      "cover": true,
+      "sha256": "6b3d5ffd6bdda2951c1b07052589da8f1b9e11dcd6d858b6676d24931e4e06c1"
+    },
+    {
+      "position": 2,
+      "filename": "02-01-hero-flat.jpg",
+      "role": "01-hero-flat",
+      "cover": false,
+      "sha256": "c8539a063e3a92e51d3d86f066671618058b2e85d318df546b96e56d7a175ea7"
+    },
+    {
+      "position": 3,
+      "filename": "03-true-corner-tl.png",
+      "role": "true-corner-tl",
+      "cover": false,
+      "sha256": "eacdfb83695baef2f69a348cb094e815fa0e9198aec8c3cdc2136cc2e88b5380"
+    },
+    {
+      "position": 4,
+      "filename": "04-true-corner-bl.png",
+      "role": "true-corner-bl",
+      "cover": false,
+      "sha256": "e21a90c908e4a405e05a18c29645121235dbcbae8a8bfb2b16194934d1b02757"
+    },
+    {
+      "position": 5,
+      "filename": "05-true-corner-br.png",
+      "role": "true-corner-br",
+      "cover": false,
+      "sha256": "3e735d668417072095ab961259973001888cf3d305d8251a33c0fcb30a5884b8"
+    },
+    {
+      "position": 6,
+      "filename": "06-true-corner-tr.png",
+      "role": "true-corner-tr",
+      "cover": false,
+      "sha256": "a2741bb9230a964c3594995e6ac3e322aa7639ba873d3c5edce9e25eca1ed51d"
+    },
+    {
+      "position": 7,
+      "filename": "07-03-specs-footer.jpg",
+      "role": "03-specs-footer",
+      "cover": false,
+      "sha256": "96c0cd1ece4110467420f33e311370b7362869b012ef1d5695ee764bbc2687ec"
+    },
+    {
+      "position": 8,
+      "filename": "08-05-header.jpg",
+      "role": "05-header",
+      "cover": false,
+      "sha256": "d7be3e7c49d47686908aa1b26b7a6173fab40182e4dd243618adac08abe26af4"
+    },
+    {
+      "position": 9,
+      "filename": "09-06-vehicle-detail.jpg",
+      "role": "06-vehicle-detail",
+      "cover": false,
+      "sha256": "e1fa4934251f90245c13485aed24f88d74320465bb1e75538b97a4e656f7c796"
+    }
+  ],
+  "details": {
+    "era": "1900-2000",
+    "manufacturer_brand": {
+      "selection": "Other",
+      "custom": "Ferrari"
+    },
+    "poster_title": "Testarossa Monodado - FORMA / MOTION - 80 × 60 cm - Edition of 100",
+    "estimated_period": "1980s",
+    "condition": "A (excellent - mint condition)",
+    "number_of_objects": 1,
+    "height": 630,
+    "height_unit": "mm",
+    "width": 830,
+    "width_unit": "mm",
+    "autographed_by_a_famous_person": "No",
+    "designer_artist": {
+      "selection": [
+        "Other"
+      ],
+      "custom": "Lombardia Automobili"
+    },
+    "subject": [
+      "Transport",
+      "Graphic design",
+      "Vintage",
+      "Advertising",
+      "Technology",
+      "Illustrated",
+      "Applied art",
+      "Other"
+    ],
+    "subject_other": "Ferrari Testarossa Monodado, FORMA / MOTION, car design, limited edition, framed",
+    "country_of_origin": "Italy",
+    "specific_region_of_origin": "",
+    "reference_label_colour": "",
+    "reference_label": "Testarossa Monodado 80x60",
+    "description": "You’re bidding on a 80 × 60 cm FORMA / MOTION poster by Lombardia Automobili, featuring the 1988 Ferrari Testarossa Monodado. The artwork is 100% unique combination of a detailed illustration of the car and our own layout and typography. A white frame and Perspex glazing are included; poster and frame are shipped together with care. \n\nVermilion, warm white and oversized outlined Testarossa typography give the artwork presence across a room. The white Testarossa and its technical details invite a closer look. Above a desk or in a garage lounge, it’s a conversation piece for anyone who knows what that name means.\n\nLombardia Automobili is an independent automotive design house. This artwork is limited to 100 physical prints in total across all sizes, colour variants, framing options and sales channels. FORMA / MOTION is made for people who appreciate the design of a car as much as the way it drives.\n\nThe subject is the 1988 Testarossa Monodado, with low-mounted twin mirrors and single-nut wheels. Its twelve-cylinder engine, wide rear bodywork and horizontal side strakes made it a defining Ferrari. The Monodado combines the later mirror arrangement with the early centre-lock wheel design.\n\nSheet size: 80 × 60 cm. Nominal assembled frame dimensions: 83 × 63 cm. This is a contemporary, retro-inspired studio edition.\n\nAn independent artwork by Lombardia Automobili, not affiliated with or endorsed by Ferrari S.p.A.",
+    "generated_title": "Lombardia Automobili - Ferrari - Testarossa Monodado - FORMA / MOTION - 80 × 60 cm - Edition of 100 - 1980s"
+  },
+  "estimate_policy": {
+    "owner_decision_date": "2026-09-10",
+    "currency": "EUR",
+    "landscape": 275,
+    "basic_45x60_cm": 225,
+    "note": "Current owner size policy applied to this local payload; no Catawiki save or submission performed."
+  },
+  "value": {
+    "currency": "EUR",
+    "estimated_value": 275,
+    "reserve_enabled": false,
+    "reserve_value": null,
+    "buy_now_enabled": false,
+    "buy_now_value": null
+  },
+  "shipping": {
+    "preset": "50usd",
+    "display_currency": "EUR",
+    "update_preset_if_changes_are_made": true,
+    "package_size": "Large package",
+    "package_display_max_weight": "up to 20 kg",
+    "package_display_max_dimensions_cm": "100x50x50",
+    "custom_package": false,
+    "exact_package_weight": null,
+    "exact_package_dimensions": null,
+    "free_shipping": false,
+    "rates": [
+      {
+        "destination": "Denmark",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Italy",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "The Netherlands",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "France",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Belgium",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Germany",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Spain",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "United Kingdom",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Portugal",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Austria",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Romania",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Poland",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Switzerland",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Greece",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Sweden",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Hungary",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "United States",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Rest of European Union",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Rest of world",
+        "amount": 50,
+        "currency": "EUR"
+      }
+    ],
+    "free_pickup": false,
+    "combined_shipping": false
+  },
+  "expert": {
+    "name": "Evan Lacey",
+    "specialism": "Expert in Automobilia Art & Posters",
+    "message": ""
+  },
+  "blank_field_semantics": "Empty strings are observed blank UI values. Null inactive value fields were not set; no hidden value is asserted.",
+  "reuse_rules": {
+    "fixed": [
+      "Six paragraphs, their order, grammar, punctuation and tone",
+      "100% unique combination wording",
+      "Independent automotive design house identity",
+      "Purchase/frame/shipping sentence structure",
+      "Contemporary retro-inspired studio-edition sentence",
+      "Independent-artwork/non-affiliation sentence structure"
+    ],
+    "poster_specific_only": [
+      "Actual collection and title",
+      "Car marque, model, year, configuration and supported history/specifications",
+      "Artwork palette, car colours and typography motif",
+      "Actual sheet size, orientation, frame size/colour and glazing",
+      "Approved edition specification for the particular poster",
+      "Matching title, factual subject keywords, label and image files/order"
+    ],
+    "commercial": "Current owner size policy: EUR 225 for 45 x 60 cm, EUR 275 for landscape. Reserve and buy now OFF; retain saved shipping preset and all other commercial defaults.",
+    "new_lot": "Read current approved poster data; adapt only listed poster-specific facts. Do not carry the Porsche's M471 or 200-car-production fact to a different car. Keep all other text exact. Save and reopen every draft; record its own ID. Submit remains separate.",
+    "legacy": "Older F40/930/A1 Catawiki descriptions and older 911 draft prose are superseded as templates. eBay/store copy and physical assets retain their separate scope.",
+    "edition": "For eligible new designs, use the recorded per-design cap: Edition of N in titles, with explicit shared size/colour/frame scope in description. Never imply print serial 1; actual serials require allocation. Preserve legacy collection-wide promises. This staged revision remains pending owner confirmation of eligibility."
+  },
+  "edition_registry": "listings/collection-editions.json",
+  "status": "Artwork owner-approved; complete lot preparation; no Catawiki save or submission",
+  "authority": "Current six-paragraph copy contract with poster-specific substitutions only",
+  "gold_standard_source": "C:\\Users\\bohma\\code ux rep\\lombardia\\listings\\catawiki-gold-standard.json",
+  "product": {
+    "sheet_cm": {
+      "width": 80,
+      "height": 60
+    },
+    "nominal_assembled_frame_cm": {
+      "width": 83,
+      "height": 63
+    },
+    "orientation": "landscape",
+    "frame_colour": "white",
+    "glazing": "Perspex",
+    "edition": "Edition of 100",
+    "collection": "FORMA / MOTION",
+    "car": "1988 Ferrari Testarossa Monodado"
+  },
+  "evidence": {
+    "car_sources": [
+      {
+        "url": "https://rmsothebys.com/auctions/0420/lots/r0012-1987-ferrari-testarossa-monodado/",
+        "access_date": "2026-09-11"
+      }
+    ],
+    "supplier_source": "C:\\Users\\bohma\\Documents\\Codex\\2026-09-11\\hey-i-want-to-improve-or\\owner-polish\\supplier\\evidence.md",
+    "supplier_sha256": "44f6aeebc962271151b360d7b0eef883f2f256f42ef06c894b004c27f890161e",
+    "copy_contract_sha256": "ccea0bc9db7e52bc2e0ef42e9f9f89f9a784205cc24abb8a3e04fbe15dab8bfd",
+    "edition_registry_sha256": "f94081726ab85c08d61d2d474ab6d995724c70b8e07f463993c1cfcf1732c5fe",
+    "metadata_convention": "Era/period/country follow subject-car data under the owner-approved gold standard; description explicitly states contemporary studio edition.",
+    "era_label_source": "C:\\Users\\bohma\\code ux rep\\lombardia\\CATAWIKI-GOLD-STANDARD.md"
+  },
+  "edition_record": {
+    "edition_cohort": "new",
+    "edition_id": "art-644864f4aeaa47790a36c776",
+    "design_key": "batch12-ferrari-testarossa",
+    "cap": 100,
+    "scope": "artwork_all_variants_all_channels",
+    "policy_id": "prospective-artwork-2026-09-12",
+    "eligibility_evidence": "Owner, 12 September 2026: Old stuff is old stuff and cannot block the best next step in that regard. There are no buyers, nothing was ever sold so we are good. Latest eleven remain unsubmitted locally; current session prepared a cart only, no physical order for these designs.",
+    "edition_label": "Edition of 100",
+    "description_scope": "This artwork is limited to 100 physical prints in total across all sizes, colour variants, framing options and sales channels.",
+    "allocation_blocked": true
+  },
+  "edition_policy_revision": {
+    "at": "2026-09-12T21:29:15.705534+00:00",
+    "authority": "Owner, 12 September 2026: Old stuff is old stuff and cannot block the best next step in that regard. There are no buyers, nothing was ever sold so we are good.",
+    "scope": "Only edition and numbering scope changed; unrelated facts/fields preserved."
+  },
+  "selected_native_sha256": "53cac56750d976f65bf53de1f7fa444b894f10b00478b2dd2765a5da2f210a2d",
+  "photo_visual_status": "Owner visual review only; no agent visual pass claimed",
+  "source_copy": {
+    "path": "C:\\Users\\bohma\\code ux rep\\lombardia\\pipeline\\approved-lots\\batch12-ferrari-testarossa\\fields.json",
+    "sha256": "d3ddc8afbd465542bf45e396b377da5e93dd4a72680543e33004948025acfa47"
+  }
+}

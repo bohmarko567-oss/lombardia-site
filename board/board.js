@@ -273,6 +273,8 @@
   }
 
   function dlLink(s, cls) {
+    // v4: a photograph that carries its own web file downloads directly (lot pages); otherwise the Notion archive
+    if (s && s.full) return h('a', { class: cls || 'dl', href: UP + s.full, download: s.dlname || '', title: 'Download · 2000 px', 'aria-label': 'Download ' + (s.label || s.id || '') + ' · 2000 px' }, '⤓');
     const href = D.archiveUrl || '';
     if (!href) return null;
     const label = D.archiveMapped ? 'Open this lot\'s Notion archive to download the original file' : 'Open the Lombardia Notion archive';
@@ -630,7 +632,13 @@
   document.addEventListener('click', function (e) {
     const a = e.target.closest('a.lb'); if (!a) return;
     e.preventDefault();
-    if (a.dataset.sheet) { const sv = shownVersion(); openRoom(sv ? VERS.map(x => ({ id: 'version ' + x.id, inspect: x.inspect, label: x.note })) : [{ id: 'the sheet', inspect: D.sheet.inspect, label: D.sheet.file }], sv ? vi : 0, { readonly: true }); return; }
+    if (a.dataset.sheet) { const sv = shownVersion(); openRoom(sv ? VERS.map(x => ({ id: 'version ' + x.id, inspect: x.inspect, label: x.note })) : [{ id: 'the artwork · 2400 px preview', inspect: D.sheet.inspect, label: D.name || '' }], sv ? vi : 0, { readonly: true }); return; }
+    // v4 lot pages: the nine photographs swipe as one gallery, each with its own download
+    if (a.dataset.gallery) {
+      const gs = $$('a.lb[data-gallery="' + a.dataset.gallery + '"]');
+      const list = gs.map(x => ({ id: x.dataset.label || (x.querySelector('img') ? x.querySelector('img').alt : ''), label: x.dataset.label || '', inspect: x.getAttribute('href').replace(/^\.\.\//, ''), full: x.getAttribute('href').replace(/^\.\.\//, '').split('?')[0], dlname: x.dataset.download || '' }));
+      openRoom(list, gs.indexOf(a), { readonly: true }); return;
+    }
     const hs = $$('a.lb[data-house]');
     if (a.dataset.house) { const list = hs.map(x => ({ id: x.dataset.house, inspect: x.getAttribute('href').replace(/^\.\.\//, ''), label: x.querySelector('img').alt })); openRoom(list, hs.indexOf(a), { readonly: true }); return; }
     openRoom([{ id: a.querySelector('img') ? a.querySelector('img').alt : '', inspect: a.getAttribute('href').replace(/^\.\.\//, '') }], 0, { readonly: true });
@@ -939,6 +947,14 @@
     const tb = $('#titleblock'); if (!tb) return; tb.innerHTML = '';
     const row = (k, v) => { tb.appendChild(h('div', {}, h('span', { class: 'k', text: k }), typeof v === 'string' ? h('span', { class: 'v', text: v }) : h('span', { class: 'v' }, v))); };
     tb.appendChild(h('div', { class: 'head' }, h('span', { class: 'mono', text: 'LA' }), h('span', { text: 'Lombardia Automobili · il banco' })));
+    if (D.kind === 'lot') {
+      // v4 lot page: the signature says what the page shows; nothing here is saved or sent - the Studio does that
+      row('Tavola', (D.folio ? D.folio + ' · ' : '') + D.name + ' · ' + D.collLabel);
+      if ((D.shots || []).length) row('Photographs', (D.order || []).length + ' in posting order');
+      row('Requests', [h('a', { href: '../studio/?lot=' + encodeURIComponent(D.key), text: 'through the Studio' })]);
+      row('Built', D.built || '');
+      return;
+    }
     if (D.kind === 'poster') {
       const c = counts(), o = order();
       row('Tavola', D.folio + ' · ' + D.name + ' · ' + D.collLabel);

@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "section_order": [
+    "Object",
+    "Images",
+    "Details",
+    "Value",
+    "Shipping",
+    "Message the expert",
+    "Save as draft / Preview / Submit"
+  ],
+  "object": {
+    "type": "Poster",
+    "category": "Automobilia Art & Posters",
+    "auction": "Automobilia Art & Posters - Weekly auction",
+    "language": "English",
+    "category_evidence": "Inherited canonical category from dated saved UI evidence; no new-lot UI inspection or save performed."
+  },
+  "images": [
+    {
+      "position": 1,
+      "filename": "01-hero-white-wall-layered.jpg",
+      "role": "hero-white-wall-layered",
+      "sha256": "a299c22fd6aae13640906947cc5aa274a9b53338df06f2d5d1783894dce92f2f",
+      "cover": true
+    },
+    {
+      "position": 2,
+      "filename": "02-01-hero-flat.jpg",
+      "role": "01-hero-flat",
+      "sha256": "aa9107886a03995b790634035e88498985b723811a47f7954e2d4406aabfd1f0",
+      "cover": false
+    },
+    {
+      "position": 3,
+      "filename": "03-true-corner-tl.jpg",
+      "role": "true-corner-tl",
+      "sha256": "6d4d00f3f9c228fee7226bbcebe3402c3997404cc783b939d46d480afc13d36c",
+      "cover": false
+    },
+    {
+      "position": 4,
+      "filename": "04-true-corner-bl.jpg",
+      "role": "true-corner-bl",
+      "sha256": "7af93d693e5c1e937dbcd833b601d4b57d65857d9790f9f4bf137ed610245d64",
+      "cover": false
+    },
+    {
+      "position": 5,
+      "filename": "05-true-corner-br.jpg",
+      "role": "true-corner-br",
+      "sha256": "16dafaadf92f31852b0d22eaf8cb80cfbb8dad23955622e4cd4e0d583a7fc519",
+      "cover": false
+    },
+    {
+      "position": 6,
+      "filename": "06-true-corner-tr.jpg",
+      "role": "true-corner-tr",
+      "sha256": "c92acb6b80a6328849c4ec6a4256fb31358bebea34da57f106a16d16980b22c4",
+      "cover": false
+    },
+    {
+      "position": 7,
+      "filename": "07-03-specs-footer.jpg",
+      "role": "03-specs-footer",
+      "sha256": "4b5806d149b7d2e69293be7e78717119902ee61ec3beb56467c7835f3e28b76f",
+      "cover": false
+    },
+    {
+      "position": 8,
+      "filename": "08-05-header.jpg",
+      "role": "05-header",
+      "sha256": "7eadd2b094e144cd911e5f133946a72ca1c1571d5ffd71179cde2cfe801f5cc4",
+      "cover": false
+    },
+    {
+      "position": 9,
+      "filename": "09-06-vehicle-detail.jpg",
+      "role": "06-vehicle-detail",
+      "sha256": "9170d96fe973c6e8208dc2d57e41f7757f7770dc589fac71f3a47d12e8c6e2d6",
+      "cover": false
+    }
+  ],
+  "details": {
+    "era": "1900-2000",
+    "manufacturer_brand": {
+      "selection": "Other",
+      "custom": "Vector"
+    },
+    "poster_title": "W8 - AMERICAN FORM - 80 × 60 cm - Edition of 77",
+    "estimated_period": "1990s",
+    "condition": "A (excellent - mint condition)",
+    "number_of_objects": 1,
+    "height": 630,
+    "height_unit": "mm",
+    "width": 830,
+    "width_unit": "mm",
+    "autographed_by_a_famous_person": "No",
+    "designer_artist": {
+      "selection": [
+        "Other"
+      ],
+      "custom": "Lombardia Automobili"
+    },
+    "subject": [
+      "Transport",
+      "Graphic design",
+      "Vintage",
+      "Advertising",
+      "Technology",
+      "Illustrated",
+      "Applied art",
+      "Other"
+    ],
+    "subject_other": "1991 Vector W8, AMERICAN FORM, car design, limited edition, framed poster",
+    "country_of_origin": "United States",
+    "specific_region_of_origin": "",
+    "reference_label_colour": "",
+    "reference_label": "W8 80x60",
+    "description": "You’re bidding on a 80 × 60 cm AMERICAN FORM poster by Lombardia Automobili, featuring the 1991 Vector W8. The artwork is 100% unique combination of a detailed illustration of the car and our own layout and typography. A white frame and Perspex glazing are included; poster and frame are shipped together with care.\n\nDeep purple, warm ivory and angular VECTOR typography give the artwork presence across a room. The long, low purple wedge sits beneath fine technical linework, with silver wheels and a broad rear wing inviting a closer look. Above a desk or in a garage lounge, it’s a conversation piece for anyone drawn to unconventional American car design.\n\nLombardia Automobili is an independent automotive design house. This artwork is limited to 77 physical prints in total across all sizes, colour variants, framing options and sales channels. AMERICAN FORM is made for people who appreciate the design of a car as much as the way it drives.\n\nThe subject is the 1991 Vector W8 Twin Turbo road coupe. Its low wedge-shaped body, broad rear wing and slanted side intakes give the model a distinctive presence. The artwork depicts the purple production W8 rather than the earlier W2 prototype.\n\nSheet size: 80 × 60 cm. Nominal assembled frame dimensions: 83 × 63 cm. This is a contemporary, retro-inspired studio edition.\n\nAn independent artwork by Lombardia Automobili, not affiliated with or endorsed by Vector.",
+    "generated_title": "Lombardia Automobili - Vector - W8 - AMERICAN FORM - 80 × 60 cm - Edition of 77 - 1990s"
+  },
+  "estimate_policy": {
+    "owner_decision_date": "2026-09-10",
+    "currency": "EUR",
+    "landscape": 275,
+    "basic_45x60_cm": 225,
+    "note": "Current owner size policy applied to this local payload; no Catawiki save or submission performed."
+  },
+  "value": {
+    "currency": "EUR",
+    "estimated_value": 275,
+    "reserve_enabled": false,
+    "reserve_value": null,
+    "buy_now_enabled": false,
+    "buy_now_value": null
+  },
+  "shipping": {
+    "preset": "50usd",
+    "display_currency": "EUR",
+    "update_preset_if_changes_are_made": true,
+    "package_size": "Large package",
+    "package_display_max_weight": "up to 20 kg",
+    "package_display_max_dimensions_cm": "100x50x50",
+    "custom_package": false,
+    "exact_package_weight": null,
+    "exact_package_dimensions": null,
+    "free_shipping": false,
+    "rates": [
+      {
+        "destination": "Denmark",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Italy",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "The Netherlands",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "France",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Belgium",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Germany",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Spain",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "United Kingdom",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Portugal",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Austria",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Romania",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Poland",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Switzerland",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Greece",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Sweden",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Hungary",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "United States",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Rest of European Union",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Rest of world",
+        "amount": 50,
+        "currency": "EUR"
+      }
+    ],
+    "free_pickup": false,
+    "combined_shipping": false
+  },
+  "expert": {
+    "name": "Evan Lacey",
+    "specialism": "Expert in Automobilia Art & Posters",
+    "message": ""
+  },
+  "product": {
+    "sheet_cm": {
+      "width": 80,
+      "height": 60
+    },
+    "nominal_assembled_frame_cm": {
+      "width": 83,
+      "height": 63
+    },
+    "orientation": "landscape",
+    "frame_colour": "white",
+    "glazing": "Perspex",
+    "edition": "Edition of 77",
+    "collection": "AMERICAN FORM",
+    "car": "1991 Vector W8",
+    "frame_range": "Prodigi Budget",
+    "paper": "UNKNOWN — exact paper stock, finish and gsm not stated in the read supplier evidence; verify current selected SKU before supplier order"
+  },
+  "access_date": "2026-09-13",
+  "timezone": "Europe/Copenhagen",
+  "lot_key": "vector-w8",
+  "status": "Owner-selected artwork; nine Carrera-method photos assembled; Catawiki submission on hold",
+  "blank_field_semantics": "Inherited empty strings and inactive nulls are draft defaults from the dated canonical field template, not a fresh observation of a new Catawiki draft.",
+  "evidence": {
+    "field_template": "pipeline/native-layered-20260913/listing-preparation/maserati-bora-47-1972/fields.json",
+    "field_template_sha256": "d36c4f6d87e52204db28d83f0c88119949cfaa7a51384ae58c8e6ddb5a9768d4",
+    "copy_contract": "CATAWIKI-GOLD-STANDARD.md and current six-paragraph amendment",
+    "car_reference_packet": "C:\\Users\\bohma\\code ux rep\\lombardia\\pipeline\\sunburst-new-heroes-20260913\\references\\vector-w8\\packet.json",
+    "supplier_source": "C:/Users/bohma/Documents/Codex/2026-09-11/hey-i-want-to-improve-or/owner-polish/supplier/evidence.md",
+    "commercial_defaults": "Owner size rule: EUR 225 portrait 45x60; EUR 275 landscape. Nineteen EUR 50 shipping rates, reserve/buy now off, inherited from canonical template. Not a fresh supplier quote or live auction assignment.",
+    "metadata_convention": "Era/period/country describe subject car; description states contemporary artwork.",
+    "package_gap": "UNKNOWN — packed dimensions/weight. Inherited UI envelope 100x50x50 cm is not proof either framed size fits; check actual packaging before entry/order.",
+    "car_source_url": "https://rmsothebys.com/auctions/mo24/lots/r0199-1991-vector-w8-twin-turbo/",
+    "car_source_access_date": "2026-09-13",
+    "supplier_evidence_date": "2026-09-11 retained evidence; not refreshed in this copy task"
+  },
+  "edition_policy": {
+    "mode": "limited_per_artwork",
+    "cap": 77,
+    "serial_allocated": false,
+    "owner_decision": "20 September 2026: preserve existing per-artwork quantity, not collection-wide."
+  },
+  "selected_native_sha256": "1cf000f011bbdf5f71b5af9df3c443d8b7cc0402233e5cf481e84409c4e6f27a",
+  "photo_visual_status": "Owner visual review only; no agent visual pass claimed",
+  "source_copy": {
+    "path": "C:\\Users\\bohma\\code ux rep\\lombardia\\pipeline\\sunburst-new-heroes-20260913\\new2\\listing\\vector-w8-fields.json",
+    "sha256": "ab65478e08904506cd37d20b1dbcc5061b24c775dd5d28b6f70f6870b896e42b"
+  },
+  "edition_proposal": {
+    "cap": 77,
+    "collection": "AMERICAN FORM",
+    "scope": "artwork_all_variants_all_channels",
+    "public_label": "Edition of 77",
+    "description_scope": "This artwork is limited to 77 physical prints in total across all sizes, colour variants, framing options and sales channels.",
+    "edition_id": "art-542c04d9adbb0e6ff1ae289a",
+    "serial_allocated": false,
+    "allocation_blocked": true
+  }
+}
