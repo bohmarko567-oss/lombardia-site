@@ -446,3 +446,13 @@ h3.lab.sub { margin-top: 18px; color: var(--ink-2); letter-spacing: .18em; }
 .pcard .pstatus { align-self: flex-start; }
 .statuslegend { display: flex; flex-wrap: wrap; gap: 6px 8px; margin: 8px 0 12px; }
 .statuslegend .pstatus { margin-top: 0; }
+/* 20 September: the status legend is one equal-height row - never an orphan wrap. Desktop fits; narrow screens scroll it sideways. */
+.statuslegend { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: thin; align-items: stretch; padding-bottom: 6px; scroll-snap-type: x proximity; }
+.statuslegend .pstatus { flex: 0 0 auto; scroll-snap-align: start; }
+/* the board's sort, same three modes as the Studio (board.js renderBoardSort); group headers span the poster grid */
+.sortrow { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-top: 16px; }
+.sortbar { display: flex; gap: 0; border: 1px solid var(--rule); }
+.sortbtn { min-height: 36px; padding: 0 12px; font: 600 10px/1 var(--cond); text-transform: uppercase; letter-spacing: .12em; color: var(--ink-2); background: var(--paper-2); border: 0; border-right: 1px solid var(--rule); border-radius: 0; cursor: pointer; }
+.sortbtn:last-child { border-right: 0; }
+.sortbtn.on { background: var(--ink); color: var(--paper); }
+.posters .ggroup { grid-column: 1 / -1; margin: 10px 0 -4px; font: 600 11px/1.4 var(--mono); text-transform: uppercase; letter-spacing: .22em; color: var(--tint); border-bottom: 1px solid var(--rule); padding-bottom: 4px; }

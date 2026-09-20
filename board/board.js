@@ -518,6 +518,40 @@
       const el = $('[data-counts="' + x.key + '"]');
       if (el) el.innerHTML = c.in + ' in the lot' + (c.pending ? ' · ' + c.pending + ' new' : '') + (c.rejected ? ' · ' + c.rejected + ' dropped' : '') + ' · <span class="tinted">edited here</span>';
     });
+    renderBoardSort();
+  }
+  // ---------------------------------------------------------------- the board's sort (owner, 20 September): same three modes as
+  // the Studio. Cards are moved, never rebuilt: links, decisions and the two sections (Your turn / Uploaded) stay as they are.
+  const BOARD_SORT_KEY = 'lomb.board.sort', BOARD_SORTS = [['newest', 'Newest first'], ['oldest', 'Oldest first'], ['collection', 'By collection']];
+  function boardSortMode() { try { const v = localStorage.getItem(BOARD_SORT_KEY); if (BOARD_SORTS.some(s => s[0] === v)) return v; } catch (e) { } return D.sort_default || 'newest'; }
+  // >>> sortPosters (pure; tests evaluate this block on its own)
+  function sortPosters(list, mode, collections) {
+    const ts = (x, w) => { const v = Date.parse((w === 'created' ? (x.created_at || x.updated_at) : (x.updated_at || x.created_at)) || ''); return isNaN(v) ? 0 : v; };
+    const l = list.slice();
+    if (mode === 'oldest') l.sort((a, b) => ts(a, 'created') - ts(b, 'created') || ts(a, 'updated') - ts(b, 'updated') || a.name.localeCompare(b.name));
+    else l.sort((a, b) => ts(b, 'created') - ts(a, 'created') || ts(b, 'updated') - ts(a, 'updated') || a.name.localeCompare(b.name));
+    if (mode !== 'collection') return [[null, l]];
+    const order = ['No collection yet'].concat(collections || []), by = {};
+    l.forEach(x => { const c = x.category || 'No collection yet'; (by[c] = by[c] || []).push(x); });
+    return Object.keys(by).sort((a, b) => { const ia = order.indexOf(a), ib = order.indexOf(b); return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib) || a.localeCompare(b); }).map(c => [c, by[c]]);
+  }
+  // <<< sortPosters
+  function renderBoardSort() {
+    const sb = $('#boardsort'); if (!sb) return;
+    const mode = boardSortMode();
+    sb.innerHTML = '';
+    BOARD_SORTS.forEach(([v, label]) => sb.appendChild(h('button', { type: 'button', class: 'sortbtn' + (mode === v ? ' on' : ''), 'aria-pressed': String(mode === v), text: label,
+      onclick: () => { try { localStorage.setItem(BOARD_SORT_KEY, v); } catch (e) { } renderBoardSort(); } })));
+    $$('.posters').forEach(cont => {
+      const byKey = {}; $$('.pcard', cont).forEach(c => { byKey[c.dataset.key] = c; });
+      const list = (D.posters || []).filter(x => byKey[x.key]);
+      if (!list.length) return;
+      $$('.ggroup', cont).forEach(g => g.remove());
+      sortPosters(list, mode, D.collections).forEach(([name, ps]) => {
+        if (name) cont.appendChild(h('h3', { class: 'ggroup', text: name + ' · ' + ps.length }));
+        ps.forEach(x => cont.appendChild(byKey[x.key]));
+      });
+    });
   }
 
   // ---------------------------------------------------------------- the room (lightbox)
@@ -854,6 +888,10 @@
     // founder 2026-09-07: "general notes don't work, it's impossible to type" - every keystroke in the field ran
     // renderTitleblock() -> renderSendbar(), which emptied the bar and destroyed the textarea under his thumb.
     // While the general-notes field has the focus the bar is left alone; the change event (blur) rebuilds it.
+    // Owner, 20 September: the sticky "Send to Claude" bar belongs to the old judging pages (kind 'poster') only. The
+    // board index and the v4 lot pages send nothing themselves - the Studio does - so the bar never appears there,
+    // whatever old decisions this device still holds (those stay saved; nothing is deleted).
+    if (D.kind !== 'poster') { const old = $('#sendbar'); if (old) old.remove(); document.body.classList.remove('has-sendbar'); return; }
     const ae = document.activeElement;
     if (ae && ae.tagName === 'TEXTAREA' && ae.closest && ae.closest('#sendbar .sb-general')) return;
     let bar = $('#sendbar'); if (!bar) { bar = h('div', { id: 'sendbar', class: 'sendbar' }); document.body.appendChild(bar); }
@@ -959,7 +997,7 @@
   function renderTitleblock() {
     const tb = $('#titleblock'); if (!tb) return; tb.innerHTML = '';
     const row = (k, v) => { tb.appendChild(h('div', {}, h('span', { class: 'k', text: k }), typeof v === 'string' ? h('span', { class: 'v', text: v }) : h('span', { class: 'v' }, v))); };
-    tb.appendChild(h('div', { class: 'head' }, h('span', { class: 'mono', text: 'LA' }), h('span', { text: 'Lombardia Automobili · il banco' })));
+    tb.appendChild(h('div', { class: 'head' }, h('span', { class: 'mono', text: 'LA' }), h('span', { text: D.kind === 'index' ? 'Lombardia Automobili · The board' : 'Lombardia Automobili · il banco' })));
     if (D.kind === 'lot') {
       // v4 lot page: the signature says what the page shows; nothing here is saved or sent - the Studio does that
       row('Tavola', (D.folio ? D.folio + ' · ' : '') + D.name + ' · ' + D.collLabel);

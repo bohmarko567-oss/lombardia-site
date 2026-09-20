@@ -396,7 +396,8 @@
     $('#routenote').textContent = 'In the Lombardia inbox. The agent reads it in the next task; nothing happens on its own.';
     $('#payload').textContent = summaryText(r) + '\n\n---- agent metadata ----\n' + JSON.stringify(r, null, 1);
     $('#send').hidden = true; $('#copy').hidden = true; $('#share').hidden = true;
-    if (!$('#newreq')) $('.acts').appendChild(h('button', { class: 'btn primary big', type: 'button', id: 'newreq', text: 'New request', onclick: () => { sentView = null; lastSend = null; renderAll(1); } }));
+    // New request: back to step 1 at the very top of the page, heading focused (owner, 20 September: "not bottom")
+    if (!$('#newreq')) $('.acts').appendChild(h('button', { class: 'btn primary big', type: 'button', id: 'newreq', text: 'New request', onclick: () => { sentView = null; lastSend = null; renderAll(1); backToTop(); } }));
     renderStatus();
   }
   let lastSend = null;   // {draftId, ok, at, via, err, partial} for the current draft
@@ -519,6 +520,12 @@
     row('Built', DATA.built || '');
   }
   function renderAll(n, opts) { renderGrid(); renderSent(); renderDraftline(true); renderTitleblock(); go(n, Object.assign({ silent: true }, opts || {})); }
+  // scroll to the absolute top, then put keyboard focus on the step-1 heading without scrolling it back down
+  function backToTop() {
+    window.scrollTo({ top: 0, left: 0 });
+    const hd = $('#h-step-1'); if (hd) { hd.focus({ preventScroll: true }); }
+    if (document.scrollingElement) document.scrollingElement.scrollTop = 0;
+  }
 
   // ---------------------------------------------------------------- the viewer
   function openViewer(p) {
