@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "access_date": "2026-09-20",
+  "timezone": "Europe/Copenhagen",
+  "lot_key": "studio-next-20260920-aston-martin-db5",
+  "section_order": [
+    "Object",
+    "Images",
+    "Details",
+    "Value",
+    "Shipping",
+    "Message the expert",
+    "Save as draft / Preview / Submit"
+  ],
+  "object": {
+    "type": "Poster",
+    "category": "Automobilia Art & Posters",
+    "auction": "Automobilia Art & Posters - Weekly auction",
+    "language": "English",
+    "category_evidence": "Current object-selection UI reads: Poster - in Automobilia Art & Posters."
+  },
+  "images": [
+    {
+      "position": 1,
+      "filename": "01-hero-white-wall-layered.jpg",
+      "role": "Cover: framed white-wall hero",
+      "id": "hero-white-wall-layered",
+      "sha256": "296b9c5a2a74d9d63f9d76fe1fd473ebea5408d15a5d061ff57c5ae0196dcfe6",
+      "cover": true,
+      "warning": null
+    },
+    {
+      "position": 2,
+      "filename": "02-01-hero-flat.jpg",
+      "role": "Full flat artwork",
+      "id": "01-hero-flat",
+      "sha256": "aa646f3ccc7cff5773c071c72b46201e831a2c1abf25b4a15005a1d366b917d0",
+      "cover": false,
+      "warning": null
+    },
+    {
+      "position": 3,
+      "filename": "03-true-corner-tl.jpg",
+      "role": "Top-left frame corner",
+      "id": "true-corner-tl",
+      "sha256": "a45fdbfcede5177225362769d97b1c4cbe2f2d179b5ec5c04da266f10664e424",
+      "cover": false,
+      "warning": null
+    },
+    {
+      "position": 4,
+      "filename": "04-true-corner-bl.jpg",
+      "role": "Bottom-left frame corner",
+      "id": "true-corner-bl",
+      "sha256": "b6c19247b2fa3a518af9f2ea5650dd045efc538a9d3244ee550015c6c4c8c43b",
+      "cover": false,
+      "warning": null
+    },
+    {
+      "position": 5,
+      "filename": "05-true-corner-br.jpg",
+      "role": "Bottom-right frame corner",
+      "id": "true-corner-br",
+      "sha256": "2f8f4a78218c8ede5cce32aeb21de3fab1c2df7312456d0827a5fe8027b3ad65",
+      "cover": false,
+      "warning": null
+    },
+    {
+      "position": 6,
+      "filename": "06-true-corner-tr.jpg",
+      "role": "Top-right frame corner",
+      "id": "true-corner-tr",
+      "sha256": "5a13ebf7fd273314dcba7d82f650bdd77773e86ac31998fc685a109311ce07ff",
+      "cover": false,
+      "warning": null
+    },
+    {
+      "position": 7,
+      "filename": "07-03-specs-footer.jpg",
+      "role": "Native specifications/footer crop",
+      "id": "03-specs-footer",
+      "sha256": "ccbe0cbc5d416efe3b8043cb226907f257a774b66ac2d3f993067938ac7aeb34",
+      "cover": false,
+      "warning": null
+    },
+    {
+      "position": 8,
+      "filename": "08-05-header.jpg",
+      "role": "Native header crop",
+      "id": "05-header",
+      "sha256": "0d3b12c11e9c3184f38f12b0db40b46557d4d20d731fd0aee84e81d487d73d4b",
+      "cover": false,
+      "warning": null
+    },
+    {
+      "position": 9,
+      "filename": "09-06-vehicle-detail.jpg",
+      "role": "Native vehicle detail crop",
+      "id": "06-vehicle-detail",
+      "sha256": "3d37362394706271b63308751f428ea6b531f3e12c93b8862430f94512e4c3a6",
+      "cover": false,
+      "warning": null
+    }
+  ],
+  "details": {
+    "era": "1900-2000",
+    "manufacturer_brand": {
+      "selection": "Other",
+      "custom": "Aston Martin"
+    },
+    "poster_title": "DB5 - GRAN TURISMO - 60 × 80 cm - Edition of 77",
+    "estimated_period": "1960s",
+    "condition": "A (excellent - mint condition)",
+    "number_of_objects": 1,
+    "height": 830,
+    "height_unit": "mm",
+    "width": 630,
+    "width_unit": "mm",
+    "autographed_by_a_famous_person": "No",
+    "designer_artist": {
+      "selection": [
+        "Other"
+      ],
+      "custom": "Lombardia Automobili"
+    },
+    "subject": [
+      "Transport",
+      "Graphic design",
+      "Vintage",
+      "Advertising",
+      "Technology",
+      "Illustrated",
+      "Applied art",
+      "Other"
+    ],
+    "subject_other": "1964 Aston Martin DB5, GRAN TURISMO, straight-six, British grand tourer, car design, limited edition, framed poster",
+    "country_of_origin": "United Kingdom",
+    "specific_region_of_origin": "",
+    "reference_label_colour": "",
+    "reference_label": "DB5 60x80",
+    "description": "You’re bidding on a 60 × 80 cm GRAN TURISMO poster by Lombardia Automobili, featuring the 1964 Aston Martin DB5. The artwork is 100% unique combination of a detailed illustration of the car and our own layout and typography. A white frame and Perspex glazing are included; poster and frame are shipped together with care. \n\nWarm parchment, a sweeping tobacco brushstroke and classic serif ASTON MARTIN / DB5 lettering give the artwork presence across a room. The dark graphite DB5 on its wet evening road, its chrome wire wheels, grille and wings badge invite a closer look. Above a desk or in a garage lounge, it’s a conversation piece for anyone who knows what those three characters mean.\n\nLombardia Automobili is an independent automotive design house. This artwork is limited to 77 physical prints in total across all sizes, colour variants, framing options and sales channels. GRAN TURISMO is made for people who appreciate the design of a car as much as the way it drives.\n\nThe subject is the 1964 DB5, the definitive 1960s Aston Martin grand tourer. Its 4.0-litre straight-six, Superleggera aluminium body built on the Touring of Milan principle and long, unhurried lines made it a defining Aston Martin. Around a thousand were built between 1963 and 1965, and this is the closed saloon.\n\nSheet size: 60 × 80 cm. Nominal assembled frame dimensions: 63 × 83 cm. This is a contemporary, retro-inspired studio edition.\n\nAn independent artwork by Lombardia Automobili, not affiliated with or endorsed by Aston Martin Lagonda.",
+    "generated_title": "Lombardia Automobili - Aston Martin - DB5 - GRAN TURISMO - 60 × 80 cm - Edition of 77 - 1960s"
+  },
+  "estimate_policy": {
+    "owner_decision_date": "2026-09-10",
+    "currency": "EUR",
+    "landscape": 275,
+    "basic_45x60_cm": 225,
+    "note": "Owner size policy (10 Sep 2026): landscape 275 / basic 45x60 225. The 60 x 80 portrait is the same sheet area and frame product (Prodigi Budget 24x32in) as the 80 x 60 landscape, so 275 is applied; no separate owner price decision for 60 x 80 portrait is recorded — confirm at upload.",
+    "portrait_60x80_cm": 275
+  },
+  "value": {
+    "currency": "EUR",
+    "estimated_value": 275,
+    "reserve_enabled": false,
+    "reserve_value": null,
+    "buy_now_enabled": false,
+    "buy_now_value": null
+  },
+  "shipping": {
+    "preset": "50usd",
+    "display_currency": "EUR",
+    "update_preset_if_changes_are_made": true,
+    "package_size": "Large package",
+    "package_display_max_weight": "up to 20 kg",
+    "package_display_max_dimensions_cm": "100x50x50",
+    "custom_package": false,
+    "exact_package_weight": null,
+    "exact_package_dimensions": null,
+    "free_shipping": false,
+    "rates": [
+      {
+        "destination": "Denmark",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Italy",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "The Netherlands",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "France",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Belgium",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Germany",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Spain",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "United Kingdom",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Portugal",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Austria",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Romania",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Poland",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Switzerland",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Greece",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Sweden",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Hungary",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "United States",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Rest of European Union",
+        "amount": 50,
+        "currency": "EUR"
+      },
+      {
+        "destination": "Rest of world",
+        "amount": 50,
+        "currency": "EUR"
+      }
+    ],
+    "free_pickup": false,
+    "combined_shipping": false
+  },
+  "expert": {
+    "name": "Evan Lacey",
+    "specialism": "Expert in Automobilia Art & Posters",
+    "message": ""
+  },
+  "blank_field_semantics": "Empty strings are observed blank UI values. Null inactive value fields were not set; no hidden value is asserted.",
+  "reuse_rules": {
+    "fixed": [
+      "Six paragraphs, their order, grammar, punctuation and tone",
+      "100% unique combination wording",
+      "Independent automotive design house identity",
+      "Purchase/frame/shipping sentence structure",
+      "Contemporary retro-inspired studio-edition sentence",
+      "Independent-artwork/non-affiliation sentence structure"
+    ],
+    "poster_specific_only": [
+      "Actual collection and title",
+      "Car marque, model, year, configuration and supported history/specifications",
+      "Artwork palette, car colours and typography motif",
+      "Actual sheet size, orientation, frame size/colour and glazing",
+      "Approved edition specification for the particular poster",
+      "Matching title, factual subject keywords, label and image files/order"
+    ],
+    "commercial": "Current owner size policy: EUR 225 for 45 x 60 cm, EUR 275 for landscape. Reserve and buy now OFF; retain saved shipping preset and all other commercial defaults.",
+    "new_lot": "Read current approved poster data; adapt only listed poster-specific facts. Do not carry the Porsche's M471 or 200-car-production fact to a different car. Keep all other text exact. Save and reopen every draft; record its own ID. Submit remains separate.",
+    "legacy": "Older F40/930/A1 Catawiki descriptions and older 911 draft prose are superseded as templates. eBay/store copy and physical assets retain their separate scope.",
+    "edition": "Finite per-artwork policy 20 Sep 2026: Edition of N in title, shared size/colour/frame/channel scope in description. Never imply print serial 1; actual serials require allocation."
+  },
+  "edition_registry": "listings/collection-editions.json",
+  "status": "Owner-approved artwork; nine Carrera-method photos assembled; local payload — not entered, saved or submitted on Catawiki",
+  "authority": "Current six-paragraph copy contract with poster-specific substitutions only; owner collection choice Gran Turismo in Studio request 7d15125d-532d-4e90-bcdd-8cf872e5aad7 (2026-09-20); owner active task authorizes execution.",
+  "gold_standard_source": "C:\\Users\\bohma\\code ux rep\\lombardia\\listings\\catawiki-gold-standard.json",
+  "product": {
+    "sheet_cm": {
+      "width": 60,
+      "height": 80
+    },
+    "nominal_assembled_frame_cm": {
+      "width": 63,
+      "height": 83
+    },
+    "orientation": "portrait",
+    "frame_colour": "white",
+    "glazing": "Perspex",
+    "edition": "Edition of 77",
+    "collection": "GRAN TURISMO",
+    "car": "1964 Aston Martin DB5",
+    "frame_range": "Prodigi Budget",
+    "paper": "UNKNOWN — exact paper stock, finish and gsm not stated in the read supplier evidence; verify current selected SKU before supplier order"
+  },
+  "evidence": {
+    "car_sources": [
+      {
+        "url": "https://rmsothebys.com/auctions/lf24/lots/r0065-1964-aston-martin-db5/",
+        "access_date": "2026-09-20",
+        "note": "Identity, year 1964, closed saloon, wire wheels; pipeline/studio-next-20260920/heroes/aston-martin-db5/references.json (six reference photographs)"
+      }
+    ],
+    "car_facts_basis": "Identity per the hero job (RM Sotheby’s lf24 lot r0065, 1964 Aston Martin DB5 saloon); 4.0-litre (3,995 cc) straight-six, Superleggera aluminium body construction under Touring licence and a production run of roughly one thousand cars 1963–1965 are standard published DB5 facts. No film, character or celebrity association is claimed; no chassis number, power figure, gearbox or colour-name claim in the copy.",
+    "metadata_convention": "Era/period/country follow subject-car data under the owner-approved gold standard; description explicitly states contemporary studio edition.",
+    "era_label_source": "C:\\Users\\bohma\\code ux rep\\lombardia\\CATAWIKI-GOLD-STANDARD.md",
+    "era_field_note": "Era 1900-2000 / period 1960s per the owner-approved gold standard convention (subject-car data); the \"1960s\" period label has a saved prior payload (pipeline/approved-lots/revival10-alfa-romeo-33-stradale/fields.json)."
+  },
+  "edition_record": {
+    "edition_cohort": "new",
+    "edition_id": "art-691d54fbe730e706b0f3fe43",
+    "design_key": "studio-next-20260920-aston-martin-db5",
+    "cap": 77,
+    "edition_mode": "finite",
+    "scope": "artwork_all_variants_all_channels",
+    "policy_id": "finite-per-artwork-2026-09-20",
+    "eligibility_evidence": "New artwork generated 20 Sep 2026 (hero job studio-20260920-aston-martin-db5), refined by two owner-requested localized edits to the exact approved composite b6ca9aa0…: hero attempt1 d7e905fe… (Sunburst high request 7c975c7a-ca18-4354-af7d-185e0baee279) -> details (badge object edit) request 9e856d43-16bc-468c-bfb7-c3da38c578ca -> 90cace45… (bonnet wings badge object mask (5,931 changed px, outside union mask identical per receipt)) -> details (grille region edit) request e4fea03f-03fc-415c-ab46-4a7bfc422269 -> b6ca9aa0… (whole radiator grille region incl. chrome surround, ECC-aligned feathered transfer (123,857 changed px, outside union mask identical per receipt)). No ledger entry, no archived entry, no retirement and no edition record under any aston/db5 key in pipeline/state.json, pipeline/notion-lot-index.json, pipeline/notion-archive-map.json, cars.json, collections/collections.json, listings/, EDITION-POLICY.md or COLLECTION-TAXONOMY.md (grep 2026-09-20, this task; the only matches are inside unrelated sha256 strings). Studio item notion_url null, board_url null. Owner approved exact sha b6ca9aa0… and chose Gran Turismo (collection_kind existing) in Studio request 7d15125d-532d-4e90-bcdd-8cf872e5aad7 on 2026-09-20 (recommendation Gran Turismo, followed=True); Gran Turismo new-artwork default cap 77 per EDITION-POLICY.md / listings/edition-policy.json.",
+    "edition_label": "Edition of 77",
+    "description_scope": "This artwork is limited to 77 physical prints in total across all sizes, colour variants, framing options and sales channels.",
+    "allocation_blocked": true
+  },
+  "selected_native_sha256": "b6ca9aa0bdc043636612227d373d7dac5138ff33500ea993267777e34a60766a"
+}

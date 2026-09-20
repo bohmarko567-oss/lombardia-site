@@ -1,5 +1,5 @@
 {
- "built": "2026-09-20T17:05:05.142345+00:00",
+ "built": "2026-09-20T17:42:33.501551+00:00",
  "items": [
   {
    "key": "911-carrera-rs27-1973-sport-white-45x60",
@@ -249,6 +249,32 @@
    "evidence": "lean delivery print.jpg for selected native 9942b1a5f854; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
   },
   {
+   "key": "studio-next-20260920-de-tomaso-pantera",
+   "file": "artwork/bd3494024d55-studio-next-20260920-de-tomaso-pantera.jpg",
+   "sha256": "bd3494024d5504a812a99b9be6a85fa561c3a736ac78736ace22835f9ed4b7c8",
+   "bytes": 17708814,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/lean-delivery/studio-next-20260920-de-tomaso-pantera/8d08a2df2522/print.jpg",
+   "evidence": "lean delivery print.jpg for selected native 8d08a2df2522; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
+  },
+  {
+   "key": "studio-next-20260920-lexus-lfa",
+   "file": "artwork/30901df07ca4-studio-next-20260920-lexus-lfa.jpg",
+   "sha256": "30901df07ca418f819ee8af1b0fc7b9ece7fa10d4dabfdbf0c8369631cc7a519",
+   "bytes": 12202306,
+   "px": [
+    5315,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/lean-delivery/studio-next-20260920-lexus-lfa/d238f5b7fe8b/print.jpg",
+   "evidence": "lean delivery print.jpg for selected native d238f5b7fe8b; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
+  },
+  {
    "key": "sunburst-new2-20260913-bmw-m3-e30",
    "file": "artwork/c62c28ae8df3-sunburst-new2-20260913-bmw-m3-e30.jpg",
    "sha256": "c62c28ae8df39becc718dff8d9006feb9426c1be8e64a29d150071495757f6bc",
@@ -275,30 +301,17 @@
    "evidence": "lean delivery print.jpg for selected native 1cf000f011bb; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
   },
   {
-   "key": "studio-next-20260920-lexus-lfa",
-   "file": "artwork/30901df07ca4-studio-next-20260920-lexus-lfa.jpg",
-   "sha256": "30901df07ca418f819ee8af1b0fc7b9ece7fa10d4dabfdbf0c8369631cc7a519",
-   "bytes": 12202306,
+   "key": "studio-next-20260920-aston-martin-db5",
+   "file": "artwork/90354d001682-studio-next-20260920-aston-martin-db5.jpg",
+   "sha256": "90354d001682913949deda3cf51c5a72a99ce6699e9216262283b4b02799abe5",
+   "bytes": 17946041,
    "px": [
-    5315,
-    7087
+    7087,
+    9449
    ],
    "format": "JPEG",
-   "source": "pipeline/lean-delivery/studio-next-20260920-lexus-lfa/d238f5b7fe8b/print.jpg",
-   "evidence": "lean delivery print.jpg for selected native d238f5b7fe8b; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
-  },
-  {
-   "key": "studio-next-20260920-de-tomaso-pantera",
-   "file": "artwork/bd3494024d55-studio-next-20260920-de-tomaso-pantera.jpg",
-   "sha256": "bd3494024d5504a812a99b9be6a85fa561c3a736ac78736ace22835f9ed4b7c8",
-   "bytes": 17708814,
-   "px": [
-    9449,
-    7087
-   ],
-   "format": "JPEG",
-   "source": "pipeline/lean-delivery/studio-next-20260920-de-tomaso-pantera/8d08a2df2522/print.jpg",
-   "evidence": "lean delivery print.jpg for selected native 8d08a2df2522; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
+   "source": "pipeline/lean-delivery/studio-next-20260920-aston-martin-db5/b6ca9aa0bdc0/print.jpg",
+   "evidence": "lean delivery print.jpg for selected native b6ca9aa0bdc0; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
   }
  ]
 }

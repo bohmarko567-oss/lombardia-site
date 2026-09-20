@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-09-20 19:23",
+ "built": "2026-09-20 19:42",
  "accessed_date": "2026-09-20",
  "collections": [
   "American Form",
@@ -86,132 +86,82 @@
  "muapi_note": "generation page_url is filled only from board.config.json muapi_generation_page; result_url is the CDN file, never presented as the page",
  "items": [
   {
-   "key": "studio-next-20260920-aston-martin-db5",
-   "name": "Aston Martin DB5",
+   "key": "studio-diverse-20260920-alfa-duetto-1600",
+   "name": "Alfa Romeo 1600 Spider 'Duetto'",
    "notion_url": null,
    "board_url": null,
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-next-20260920-aston-martin-db5-b6ca9aa0bdc0-current.jpg",
+   "preview": "assets/studio-diverse-20260920-alfa-duetto-1600-1e8ebcd8a137-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
-   "source_file": "pipeline/studio-execute-20260920/details/composites/aston-martin-db5-region-edit.png",
-   "source_sha256": "b6ca9aa0bdc043636612227d373d7dac5138ff33500ea993267777e34a60766a",
+   "source_file": "pipeline/studio-diverse-20260920/heroes/alfa-duetto-1600/attempt1-native.png",
+   "source_sha256": "1e8ebcd8a137878a5635832d1103c46e40fd84769ced21565fa0ece18911aa57",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
-   "stage1_edited": true,
+   "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
    "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-09-20T02:50:39.229254+00:00",
+   "candidate_created_at": "2026-09-20T17:39:18.849273+00:00",
    "review_url": null,
    "stage1_generations": [
     {
      "role": "original",
-     "request_id": "7c975c7a-ca18-4354-af7d-185e0baee279",
+     "request_id": "00e261bf-4f4c-4754-8368-9863ebec77e0",
      "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T02:50:39.229254+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/f3683d2592f541b0bcc4c3a6a98484f3.png",
-     "page_url": "https://muapi.ai/predictions/7c975c7a-ca18-4354-af7d-185e0baee279",
+     "created_at": "2026-09-20T17:39:18.849273+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d9e94a4d941a4001ada4ae588aca093c.png",
+     "page_url": null,
      "references": [
       {
-       "role": "Front three-quarter: actual Black Pearl DB5 geometry and chrome wire wheels",
-       "url": "https://cdn.muapi.ai/outputs/303403c98c59472dbfb8878c8c826588_01.webp"
+       "role": "Side profile top down: the exact boat-tail silhouette, door scallop, wheel openings, windscreen rake",
+       "url": "https://cdn.muapi.ai/outputs/dda0932df6484c1085fa71549167781a_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0011-1966-alfa-romeo-1600-duetto-spider/"
       },
       {
-       "role": "Rear three-quarter: saloon roof and rear lamp/body shapes",
-       "url": "https://cdn.muapi.ai/outputs/ee54a5cded6e44ad9f093c4698bf541d_06.webp"
+       "role": "Front three-quarter top down: rounded nose, scudetto grille, lamp cowls",
+       "url": "https://cdn.muapi.ai/outputs/674997e480ae4360bd159326df960f8c_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0011-1966-alfa-romeo-1600-duetto-spider/"
       },
       {
-       "role": "Side profile: wheelbase, cabin length and side vent",
-       "url": "https://cdn.muapi.ai/outputs/d91b4049b8254467933f4b7be5885b5c_12.webp"
+       "role": "Rear three-quarter top down: tapering boat tail and rear lamps",
+       "url": "https://cdn.muapi.ai/outputs/2ff47593a3e34420a2c097c3d2878e5f_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0011-1966-alfa-romeo-1600-duetto-spider/"
       },
       {
-       "role": "Aston Martin wing badge detail",
-       "url": "https://cdn.muapi.ai/outputs/217903cf40644ce7896aabb81ad83630_14.webp"
+       "role": "Rear-side view top down: tail and rear wheel",
+       "url": "https://cdn.muapi.ai/outputs/c82418731f0e4cc98d11dbf7a9cadefc_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0011-1966-alfa-romeo-1600-duetto-spider/"
       },
       {
-       "role": "Front face: grille, lamps, bonnet intake and bumper",
-       "url": "https://cdn.muapi.ai/outputs/ee2050252ea04883a1cbaf8a650eeeea_16.webp"
+       "role": "Front: face, scudetto, lamps",
+       "url": "https://cdn.muapi.ai/outputs/f155b187a2a84696852be3ea645955e6_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0011-1966-alfa-romeo-1600-duetto-spider/"
       },
       {
-       "role": "Fawn interior and wood-rim wheel behind glass",
-       "url": "https://cdn.muapi.ai/outputs/248a58c6e36f4a6ba8fdd5141700dacc_10.webp"
+       "role": "'Alfa Romeo' script on the boot lid: source for the script lettering, supporting only",
+       "url": "https://cdn.muapi.ai/outputs/494dfa24eef6441f926b453a1f394d4a_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0011-1966-alfa-romeo-1600-duetto-spider/"
+      },
+      {
+       "role": "Cockpit: wood-rim wheel, windscreen frame, supporting only",
+       "url": "https://cdn.muapi.ai/outputs/ace6249279a04865b21e9963f9e89a03_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0011-1966-alfa-romeo-1600-duetto-spider/"
       }
      ]
-    },
-    {
-     "role": "edit",
-     "request_id": "ea4afdf2-f0e9-4697-9e4c-08039270d431",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T04:10:55.546159+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/1479a5c19c6b44dcb1e30a25d28a2dcd.png",
-     "page_url": "https://muapi.ai/predictions/ea4afdf2-f0e9-4697-9e4c-08039270d431",
-     "references": [
-      {
-       "role": "Edit context crop",
-       "url": "https://cdn.muapi.ai/outputs/generated/8c5e0dfb20284982b6d2fc625b1f2d2c.png"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/a346015cf63f4234a073f1536d2a99ea_14.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/771d8c507ff542c685e347f5cf4233c3_100.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/be295666e226451d9fc8d6da1b9f076c_16.webp"
-      }
-     ],
-     "target_id": "db5-front-badges"
-    },
-    {
-     "role": "edit",
-     "request_id": "7f0445d5-cf2a-419b-878c-d691983aab5d",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T16:46:25.754213+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/ac99966814bb44139e93f7b9cef0a591.png",
-     "page_url": "https://muapi.ai/predictions/7f0445d5-cf2a-419b-878c-d691983aab5d",
-     "references": [
-      {
-       "role": "Edit context crop",
-       "url": "https://cdn.muapi.ai/outputs/generated/98a353269baf4d838ead4a4568e40295.png"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/b89ba35de8d94c16a2d62a4a8e9dbaea_16.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/1d73d49aaf504a4aafa1eae8139d066e_080.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/f202f5fa42ce401b81ef085b337c79c6_100.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/73ea7e7b9ff54e3d8707dad2071c7ae8_072.webp"
-      }
-     ],
-     "target_id": "db5-grille-region"
     }
    ],
-   "recommendation_override": {
-    "collection": "Gran Turismo",
-    "why": "Suggested from the authored central idea; your collection choice is final."
-   },
+   "recommendation_override": "Forma / Motion",
    "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
    "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
-   "full_source_url": "full/b6ca9aa0bdc0-studio-next-20260920-aston-martin-db5.png",
-   "full_source_sha256": "b6ca9aa0bdc043636612227d373d7dac5138ff33500ea993267777e34a60766a",
-   "full_source_bytes": 11492793,
+   "full_source_url": "full/1e8ebcd8a137-studio-diverse-20260920-alfa-duetto-1600.png",
+   "full_source_sha256": "1e8ebcd8a137878a5635832d1103c46e40fd84769ced21565fa0ece18911aa57",
+   "full_source_bytes": 7625062,
    "full_source_pixels": [
     2480,
     3312
@@ -222,126 +172,1515 @@
    "edition": null,
    "collection_category": null,
    "recommendation": {
-    "kind": "existing",
-    "collection": "Gran Turismo",
+    "kind": null,
+    "collection": null,
     "new": {
      "name": "",
      "edition": 77,
      "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
     },
-    "why": "Suggested from the authored central idea; your collection choice is final.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 77
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
    },
    "generations": [
     {
      "role": "original",
-     "request_id": "7c975c7a-ca18-4354-af7d-185e0baee279",
+     "request_id": "00e261bf-4f4c-4754-8368-9863ebec77e0",
      "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T02:50:39.229254+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/f3683d2592f541b0bcc4c3a6a98484f3.png",
-     "page_url": "https://muapi.ai/predictions/7c975c7a-ca18-4354-af7d-185e0baee279",
+     "created_at": "2026-09-20T17:39:18.849273+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d9e94a4d941a4001ada4ae588aca093c.png",
+     "page_url": "https://muapi.ai/predictions/00e261bf-4f4c-4754-8368-9863ebec77e0",
      "history_url": "https://muapi.ai/predictions",
      "references": [
       {
-       "role": "Front three-quarter: actual Black Pearl DB5 geometry and chrome wire wheels",
-       "url": "https://cdn.muapi.ai/outputs/303403c98c59472dbfb8878c8c826588_01.webp"
+       "role": "Side profile top down: the exact boat-tail silhouette, door scallop, wheel openings, windscreen rake",
+       "url": "https://cdn.muapi.ai/outputs/dda0932df6484c1085fa71549167781a_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0011-1966-alfa-romeo-1600-duetto-spider/"
       },
       {
-       "role": "Rear three-quarter: saloon roof and rear lamp/body shapes",
-       "url": "https://cdn.muapi.ai/outputs/ee54a5cded6e44ad9f093c4698bf541d_06.webp"
+       "role": "Front three-quarter top down: rounded nose, scudetto grille, lamp cowls",
+       "url": "https://cdn.muapi.ai/outputs/674997e480ae4360bd159326df960f8c_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0011-1966-alfa-romeo-1600-duetto-spider/"
       },
       {
-       "role": "Side profile: wheelbase, cabin length and side vent",
-       "url": "https://cdn.muapi.ai/outputs/d91b4049b8254467933f4b7be5885b5c_12.webp"
+       "role": "Rear three-quarter top down: tapering boat tail and rear lamps",
+       "url": "https://cdn.muapi.ai/outputs/2ff47593a3e34420a2c097c3d2878e5f_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0011-1966-alfa-romeo-1600-duetto-spider/"
       },
       {
-       "role": "Aston Martin wing badge detail",
-       "url": "https://cdn.muapi.ai/outputs/217903cf40644ce7896aabb81ad83630_14.webp"
+       "role": "Rear-side view top down: tail and rear wheel",
+       "url": "https://cdn.muapi.ai/outputs/c82418731f0e4cc98d11dbf7a9cadefc_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0011-1966-alfa-romeo-1600-duetto-spider/"
       },
       {
-       "role": "Front face: grille, lamps, bonnet intake and bumper",
-       "url": "https://cdn.muapi.ai/outputs/ee2050252ea04883a1cbaf8a650eeeea_16.webp"
+       "role": "Front: face, scudetto, lamps",
+       "url": "https://cdn.muapi.ai/outputs/f155b187a2a84696852be3ea645955e6_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0011-1966-alfa-romeo-1600-duetto-spider/"
       },
       {
-       "role": "Fawn interior and wood-rim wheel behind glass",
-       "url": "https://cdn.muapi.ai/outputs/248a58c6e36f4a6ba8fdd5141700dacc_10.webp"
-      }
-     ],
-     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "ea4afdf2-f0e9-4697-9e4c-08039270d431",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T04:10:55.546159+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/1479a5c19c6b44dcb1e30a25d28a2dcd.png",
-     "page_url": "https://muapi.ai/predictions/ea4afdf2-f0e9-4697-9e4c-08039270d431",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Edit context crop",
-       "url": "https://cdn.muapi.ai/outputs/generated/8c5e0dfb20284982b6d2fc625b1f2d2c.png"
+       "role": "'Alfa Romeo' script on the boot lid: source for the script lettering, supporting only",
+       "url": "https://cdn.muapi.ai/outputs/494dfa24eef6441f926b453a1f394d4a_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0011-1966-alfa-romeo-1600-duetto-spider/"
       },
       {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/a346015cf63f4234a073f1536d2a99ea_14.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/771d8c507ff542c685e347f5cf4233c3_100.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/be295666e226451d9fc8d6da1b9f076c_16.webp"
-      }
-     ],
-     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "7f0445d5-cf2a-419b-878c-d691983aab5d",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T16:46:25.754213+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/ac99966814bb44139e93f7b9cef0a591.png",
-     "page_url": "https://muapi.ai/predictions/7f0445d5-cf2a-419b-878c-d691983aab5d",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Edit context crop",
-       "url": "https://cdn.muapi.ai/outputs/generated/98a353269baf4d838ead4a4568e40295.png"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/b89ba35de8d94c16a2d62a4a8e9dbaea_16.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/1d73d49aaf504a4aafa1eae8139d066e_080.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/f202f5fa42ce401b81ef085b337c79c6_100.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/73ea7e7b9ff54e3d8707dad2071c7ae8_072.webp"
+       "role": "Cockpit: wood-rim wheel, windscreen frame, supporting only",
+       "url": "https://cdn.muapi.ai/outputs/ace6249279a04865b21e9963f9e89a03_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0011-1966-alfa-romeo-1600-duetto-spider/"
       }
      ],
      "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
     }
    ],
    "timeline": {
-    "created_at": "2026-09-20T02:50:39.229254+00:00",
+    "created_at": "2026-09-20T17:39:18.849273+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-09-20T16:46:25.754213+00:00",
-    "updated_source": "MuAPI edit"
+    "updated_at": "2026-09-20T17:39:18.849273+00:00",
+    "updated_source": "candidate generated"
    },
    "status": {
     "code": "review",
     "label": "Your review",
     "tone": "wait",
-    "detail": "edit done",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-diverse-20260920-mazda-cosmo-110s",
+   "name": "Mazda Cosmo Sport 110S",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-diverse-20260920-mazda-cosmo-110s-e0b2c5b11e96-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-diverse-20260920/heroes/mazda-cosmo-110s/attempt1-native.png",
+   "source_sha256": "e0b2c5b11e96792681773c11910bf81768f118efc6a66b6a3e2c2cfdb77a025c",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-09-20T17:39:15.582954+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "95d7921f-dd95-4573-9237-6b78353b4758",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T17:39:15.582954+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/37956462f77845c1a6969346aad7eb6a.png",
+     "page_url": null,
+     "references": [
+      {
+       "role": "Side profile: full Cosmo silhouette, long glasshouse, rear haunch, hubcaps",
+       "url": "https://cdn.muapi.ai/outputs/6a4c0139a65c44568b7bae5f4ade3357_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/el20/lots/r0260-1967-mazda-cosmo-sport-series-i/"
+      },
+      {
+       "role": "Front three-quarter: nose, oval lamp bezels, front bumper",
+       "url": "https://cdn.muapi.ai/outputs/4600ccc311bb489daa4afc928f682f8c_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/el20/lots/r0260-1967-mazda-cosmo-sport-series-i/"
+      },
+      {
+       "role": "Front: face, lamps, lower grille slots",
+       "url": "https://cdn.muapi.ai/outputs/24967f5b0a80439392b1c2420b6426bf_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/el20/lots/r0260-1967-mazda-cosmo-sport-series-i/"
+      },
+      {
+       "role": "Rear: tail panel, rear lamps, bumper",
+       "url": "https://cdn.muapi.ai/outputs/d448ad91bffc4022a61b35d6de360a35_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/el20/lots/r0260-1967-mazda-cosmo-sport-series-i/"
+      },
+      {
+       "role": "Rear three-quarter: rear glass and haunch",
+       "url": "https://cdn.muapi.ai/outputs/aaa7833d8fc14fccbba5cda40818234d_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/el20/lots/r0260-1967-mazda-cosmo-sport-series-i/"
+      },
+      {
+       "role": "Headlamp bezel and 'Cosmo' wing script detail",
+       "url": "https://cdn.muapi.ai/outputs/9d41d4a1e7ec49f59dcf6f359a4c33da_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/el20/lots/r0260-1967-mazda-cosmo-sport-series-i/"
+      },
+      {
+       "role": "Mazda rotor-shaped badge: shape for the small rotor diagram and seal",
+       "url": "https://cdn.muapi.ai/outputs/553bfb1cda8b4c1187b149cfa57246ea_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/el20/lots/r0260-1967-mazda-cosmo-sport-series-i/"
+      },
+      {
+       "role": "Side vent and wheel detail: front wing vent slots and hubcap",
+       "url": "https://cdn.muapi.ai/outputs/17ea4a983410497ba289fbfd07d48ebb_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/el20/lots/r0260-1967-mazda-cosmo-sport-series-i/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": "Studio Di Forma",
+   "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
+   "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
+   "full_source_url": "full/e0b2c5b11e96-studio-diverse-20260920-mazda-cosmo-110s.png",
+   "full_source_sha256": "e0b2c5b11e96792681773c11910bf81768f118efc6a66b6a3e2c2cfdb77a025c",
+   "full_source_bytes": 16140322,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": null,
+    "collection": null,
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "95d7921f-dd95-4573-9237-6b78353b4758",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T17:39:15.582954+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/37956462f77845c1a6969346aad7eb6a.png",
+     "page_url": "https://muapi.ai/predictions/95d7921f-dd95-4573-9237-6b78353b4758",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Side profile: full Cosmo silhouette, long glasshouse, rear haunch, hubcaps",
+       "url": "https://cdn.muapi.ai/outputs/6a4c0139a65c44568b7bae5f4ade3357_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/el20/lots/r0260-1967-mazda-cosmo-sport-series-i/"
+      },
+      {
+       "role": "Front three-quarter: nose, oval lamp bezels, front bumper",
+       "url": "https://cdn.muapi.ai/outputs/4600ccc311bb489daa4afc928f682f8c_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/el20/lots/r0260-1967-mazda-cosmo-sport-series-i/"
+      },
+      {
+       "role": "Front: face, lamps, lower grille slots",
+       "url": "https://cdn.muapi.ai/outputs/24967f5b0a80439392b1c2420b6426bf_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/el20/lots/r0260-1967-mazda-cosmo-sport-series-i/"
+      },
+      {
+       "role": "Rear: tail panel, rear lamps, bumper",
+       "url": "https://cdn.muapi.ai/outputs/d448ad91bffc4022a61b35d6de360a35_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/el20/lots/r0260-1967-mazda-cosmo-sport-series-i/"
+      },
+      {
+       "role": "Rear three-quarter: rear glass and haunch",
+       "url": "https://cdn.muapi.ai/outputs/aaa7833d8fc14fccbba5cda40818234d_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/el20/lots/r0260-1967-mazda-cosmo-sport-series-i/"
+      },
+      {
+       "role": "Headlamp bezel and 'Cosmo' wing script detail",
+       "url": "https://cdn.muapi.ai/outputs/9d41d4a1e7ec49f59dcf6f359a4c33da_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/el20/lots/r0260-1967-mazda-cosmo-sport-series-i/"
+      },
+      {
+       "role": "Mazda rotor-shaped badge: shape for the small rotor diagram and seal",
+       "url": "https://cdn.muapi.ai/outputs/553bfb1cda8b4c1187b149cfa57246ea_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/el20/lots/r0260-1967-mazda-cosmo-sport-series-i/"
+      },
+      {
+       "role": "Side vent and wheel detail: front wing vent slots and hubcap",
+       "url": "https://cdn.muapi.ai/outputs/17ea4a983410497ba289fbfd07d48ebb_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/el20/lots/r0260-1967-mazda-cosmo-sport-series-i/"
+      }
+     ],
+     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-20T17:39:15.582954+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-20T17:39:15.582954+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-diverse-20260920-saab-900-turbo",
+   "name": "Saab 900 Turbo 16",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-diverse-20260920-saab-900-turbo-b626aa56570d-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-diverse-20260920/heroes/saab-900-turbo/attempt1-native.png",
+   "source_sha256": "b626aa56570d9d9441e39c57b4fb5f13637c35ed9a7d6dd66d5293e878ee130e",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-09-20T17:39:12.328609+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "25e5faff-3cac-42a4-82d8-3f71280e6654",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T17:39:12.328609+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d8ae82abbcbb4f279d36c86547500337.png",
+     "page_url": null,
+     "references": [
+      {
+       "role": "Front three-quarter (black car): sloped facelift nose, grille, long door, three-door glasshouse",
+       "url": "https://cdn.muapi.ai/outputs/generated/0a815a9348a04b9fb4813b4ef068d790.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:1989_Saab_900_Turbo_16.jpg"
+      },
+      {
+       "role": "Front three-quarter, other side (silver car): nose and bonnet line, alloy wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/54e90d4cf3384c2ca26a1b9f92bc3a53.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:1990_Saab_900_Turbo_16.jpg"
+      },
+      {
+       "role": "Front three-quarter (red car): nose, headlamp and grille geometry, three-spoke wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/692d94fa9b4245e7b578cb306272180a.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:1990_Saab_900_Turbo_3_DOHC_16.jpg"
+      },
+      {
+       "role": "Rear three-quarter (silver-blue car): hatch glass, rear spoiler lip, rear lamps (ignore rally plate and stickers)",
+       "url": "https://cdn.muapi.ai/outputs/generated/2d860c04d4e543a3abeec2787a6bd82d.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Schwetzingen_(20250726-P1048559).jpg"
+      },
+      {
+       "role": "Rear three-quarter, other side (same silver-blue car): hatch and tail (ignore rally plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/a009a66d931e418e97ee857901a97dd3.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Schwetzingen_(20250726-P1048598).jpg"
+      },
+      {
+       "role": "Rear (same silver-blue car): tail lamps, hatch, width (ignore rally plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/4367d76b17f7452db15d551edc835609.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Schwetzingen_(20250726-P1048599).jpg"
+      },
+      {
+       "role": "Front (same silver-blue car): face and grille (ignore Hella spot lamps and rally plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/51ceba5835704da2b214e513136745be.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Heidelberg_(20250726-P1048822).jpg"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": "Forma / Motion",
+   "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
+   "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
+   "full_source_url": "full/b626aa56570d-studio-diverse-20260920-saab-900-turbo.png",
+   "full_source_sha256": "b626aa56570d9d9441e39c57b4fb5f13637c35ed9a7d6dd66d5293e878ee130e",
+   "full_source_bytes": 21432386,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": null,
+    "collection": null,
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "25e5faff-3cac-42a4-82d8-3f71280e6654",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T17:39:12.328609+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d8ae82abbcbb4f279d36c86547500337.png",
+     "page_url": "https://muapi.ai/predictions/25e5faff-3cac-42a4-82d8-3f71280e6654",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter (black car): sloped facelift nose, grille, long door, three-door glasshouse",
+       "url": "https://cdn.muapi.ai/outputs/generated/0a815a9348a04b9fb4813b4ef068d790.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:1989_Saab_900_Turbo_16.jpg"
+      },
+      {
+       "role": "Front three-quarter, other side (silver car): nose and bonnet line, alloy wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/54e90d4cf3384c2ca26a1b9f92bc3a53.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:1990_Saab_900_Turbo_16.jpg"
+      },
+      {
+       "role": "Front three-quarter (red car): nose, headlamp and grille geometry, three-spoke wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/692d94fa9b4245e7b578cb306272180a.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:1990_Saab_900_Turbo_3_DOHC_16.jpg"
+      },
+      {
+       "role": "Rear three-quarter (silver-blue car): hatch glass, rear spoiler lip, rear lamps (ignore rally plate and stickers)",
+       "url": "https://cdn.muapi.ai/outputs/generated/2d860c04d4e543a3abeec2787a6bd82d.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Schwetzingen_(20250726-P1048559).jpg"
+      },
+      {
+       "role": "Rear three-quarter, other side (same silver-blue car): hatch and tail (ignore rally plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/a009a66d931e418e97ee857901a97dd3.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Schwetzingen_(20250726-P1048598).jpg"
+      },
+      {
+       "role": "Rear (same silver-blue car): tail lamps, hatch, width (ignore rally plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/4367d76b17f7452db15d551edc835609.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Schwetzingen_(20250726-P1048599).jpg"
+      },
+      {
+       "role": "Front (same silver-blue car): face and grille (ignore Hella spot lamps and rally plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/51ceba5835704da2b214e513136745be.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Heidelberg_(20250726-P1048822).jpg"
+      }
+     ],
+     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-20T17:39:12.328609+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-20T17:39:12.328609+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-diverse-20260920-ferrari-dino-246gt",
+   "name": "Ferrari Dino 246 GT",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-diverse-20260920-ferrari-dino-246gt-e240c40d5420-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-diverse-20260920/heroes/ferrari-dino-246gt/attempt1-native.png",
+   "source_sha256": "e240c40d5420cc1aa850497f84c26d1bf941b2d32a0d05f06008943eb9003204",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-09-20T17:39:09.112355+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "3fd91d3f-d7e6-48b5-88ab-4c68a714d43e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T17:39:09.112355+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f29536161e1b480fb50503ebae1803e5.png",
+     "page_url": null,
+     "references": [
+      {
+       "role": "Front three-quarter: full Dino form, wings, buttresses, Campagnolo wheels",
+       "url": "https://cdn.muapi.ai/outputs/ebdf26cf5bf34f46bb279b7290c7db06_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0040-1971-ferrari-dino-246-gt-by-scaglietti/"
+      },
+      {
+       "role": "Side profile: proportions, buttress line, wheel size",
+       "url": "https://cdn.muapi.ai/outputs/0fb7be290ef447b1ad1a7b2dfeae9257_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0040-1971-ferrari-dino-246-gt-by-scaglietti/"
+      },
+      {
+       "role": "Rear three-quarter: rear window, buttresses, tail",
+       "url": "https://cdn.muapi.ai/outputs/7fa3db13f77848d986c96e8f7a657a9d_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0040-1971-ferrari-dino-246-gt-by-scaglietti/"
+      },
+      {
+       "role": "Nose detail: bonnet vents, headlamp, Dino badge",
+       "url": "https://cdn.muapi.ai/outputs/8c555fd3fa1347b5b2281ad3c11f21db_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0040-1971-ferrari-dino-246-gt-by-scaglietti/"
+      },
+      {
+       "role": "Front: face, lamps, grille",
+       "url": "https://cdn.muapi.ai/outputs/4b544334bc98432d9d364e8125cf1c25_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0040-1971-ferrari-dino-246-gt-by-scaglietti/"
+      },
+      {
+       "role": "Rear: tail lamps and engine cover",
+       "url": "https://cdn.muapi.ai/outputs/0666c51287c643229e74c1ee1a1d6e2b_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0040-1971-ferrari-dino-246-gt-by-scaglietti/"
+      },
+      {
+       "role": "Cockpit: three-spoke wheel and gauges, supporting only",
+       "url": "https://cdn.muapi.ai/outputs/12c16529620c46f79d4cd34cf7e5fabd_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0040-1971-ferrari-dino-246-gt-by-scaglietti/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": "Studio Di Forma",
+   "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
+   "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
+   "full_source_url": "full/e240c40d5420-studio-diverse-20260920-ferrari-dino-246gt.png",
+   "full_source_sha256": "e240c40d5420cc1aa850497f84c26d1bf941b2d32a0d05f06008943eb9003204",
+   "full_source_bytes": 9522430,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": null,
+    "collection": null,
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "3fd91d3f-d7e6-48b5-88ab-4c68a714d43e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T17:39:09.112355+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f29536161e1b480fb50503ebae1803e5.png",
+     "page_url": "https://muapi.ai/predictions/3fd91d3f-d7e6-48b5-88ab-4c68a714d43e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter: full Dino form, wings, buttresses, Campagnolo wheels",
+       "url": "https://cdn.muapi.ai/outputs/ebdf26cf5bf34f46bb279b7290c7db06_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0040-1971-ferrari-dino-246-gt-by-scaglietti/"
+      },
+      {
+       "role": "Side profile: proportions, buttress line, wheel size",
+       "url": "https://cdn.muapi.ai/outputs/0fb7be290ef447b1ad1a7b2dfeae9257_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0040-1971-ferrari-dino-246-gt-by-scaglietti/"
+      },
+      {
+       "role": "Rear three-quarter: rear window, buttresses, tail",
+       "url": "https://cdn.muapi.ai/outputs/7fa3db13f77848d986c96e8f7a657a9d_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0040-1971-ferrari-dino-246-gt-by-scaglietti/"
+      },
+      {
+       "role": "Nose detail: bonnet vents, headlamp, Dino badge",
+       "url": "https://cdn.muapi.ai/outputs/8c555fd3fa1347b5b2281ad3c11f21db_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0040-1971-ferrari-dino-246-gt-by-scaglietti/"
+      },
+      {
+       "role": "Front: face, lamps, grille",
+       "url": "https://cdn.muapi.ai/outputs/4b544334bc98432d9d364e8125cf1c25_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0040-1971-ferrari-dino-246-gt-by-scaglietti/"
+      },
+      {
+       "role": "Rear: tail lamps and engine cover",
+       "url": "https://cdn.muapi.ai/outputs/0666c51287c643229e74c1ee1a1d6e2b_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0040-1971-ferrari-dino-246-gt-by-scaglietti/"
+      },
+      {
+       "role": "Cockpit: three-spoke wheel and gauges, supporting only",
+       "url": "https://cdn.muapi.ai/outputs/12c16529620c46f79d4cd34cf7e5fabd_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0040-1971-ferrari-dino-246-gt-by-scaglietti/"
+      }
+     ],
+     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-20T17:39:09.112355+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-20T17:39:09.112355+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-diverse-20260920-lancia-aurelia-b24",
+   "name": "Lancia Aurelia B24 Spider America",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-diverse-20260920-lancia-aurelia-b24-75fd87172010-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-diverse-20260920/heroes/lancia-aurelia-b24/attempt1-native.png",
+   "source_sha256": "75fd8717201074cd55ad2dbd5681e3d40c8fb1ce610fa730f88c521d8152b889",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-09-20T17:39:05.749741+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "92dbdeb3-5d6c-46dd-88c3-697c6b775f3b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T17:39:05.749741+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/8503748cc40248a9845cd0437b2dad22.png",
+     "page_url": null,
+     "references": [
+      {
+       "role": "Rear three-quarter open: wraparound windscreen, tail, tan cockpit",
+       "url": "https://cdn.muapi.ai/outputs/a0f1a36e7f164cbf83a75dc9243c2136_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Front three-quarter open: shield grille, lamps, wire wheels",
+       "url": "https://cdn.muapi.ai/outputs/7692f706d8214a799475430728a736b5_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Side profile open: fender line, wheelbase, low windscreen",
+       "url": "https://cdn.muapi.ai/outputs/094bf70f1d2044339d63e880708c6a07_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Front: Lancia shield grille and lamps",
+       "url": "https://cdn.muapi.ai/outputs/2fe883cc485f4192963ffb5f3fade58f_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Rear: rounded tail and lamps",
+       "url": "https://cdn.muapi.ai/outputs/a281ed77d6374f328fb232f261adcf8e_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Grille and badge detail: shield shape",
+       "url": "https://cdn.muapi.ai/outputs/b2c0f6b09dce4782ac2607d751454192_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Cockpit: tan leather, wood-rim wheel, windscreen frame, supporting only",
+       "url": "https://cdn.muapi.ai/outputs/d78e50aa37a6414da468cf629327c6b0_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": "Gran Turismo",
+   "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
+   "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
+   "full_source_url": "full/75fd87172010-studio-diverse-20260920-lancia-aurelia-b24.png",
+   "full_source_sha256": "75fd8717201074cd55ad2dbd5681e3d40c8fb1ce610fa730f88c521d8152b889",
+   "full_source_bytes": 12491778,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": null,
+    "collection": null,
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "92dbdeb3-5d6c-46dd-88c3-697c6b775f3b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T17:39:05.749741+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/8503748cc40248a9845cd0437b2dad22.png",
+     "page_url": "https://muapi.ai/predictions/92dbdeb3-5d6c-46dd-88c3-697c6b775f3b",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Rear three-quarter open: wraparound windscreen, tail, tan cockpit",
+       "url": "https://cdn.muapi.ai/outputs/a0f1a36e7f164cbf83a75dc9243c2136_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Front three-quarter open: shield grille, lamps, wire wheels",
+       "url": "https://cdn.muapi.ai/outputs/7692f706d8214a799475430728a736b5_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Side profile open: fender line, wheelbase, low windscreen",
+       "url": "https://cdn.muapi.ai/outputs/094bf70f1d2044339d63e880708c6a07_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Front: Lancia shield grille and lamps",
+       "url": "https://cdn.muapi.ai/outputs/2fe883cc485f4192963ffb5f3fade58f_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Rear: rounded tail and lamps",
+       "url": "https://cdn.muapi.ai/outputs/a281ed77d6374f328fb232f261adcf8e_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Grille and badge detail: shield shape",
+       "url": "https://cdn.muapi.ai/outputs/b2c0f6b09dce4782ac2607d751454192_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Cockpit: tan leather, wood-rim wheel, windscreen frame, supporting only",
+       "url": "https://cdn.muapi.ai/outputs/d78e50aa37a6414da468cf629327c6b0_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      }
+     ],
+     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-20T17:39:05.749741+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-20T17:39:05.749741+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-diverse-20260920-bmw-507",
+   "name": "BMW 507",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-diverse-20260920-bmw-507-b964e75c02cf-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-diverse-20260920/heroes/bmw-507/attempt1-native.png",
+   "source_sha256": "b964e75c02cff19edbff414300538576a9acdd7c9a9c77f1c3f5c61c29332e94",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-09-20T17:39:02.417058+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "2d687dc7-23bc-464a-845f-8766149c9049",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T17:39:02.417058+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/518ce2c5fcb943b3966bbf295ed1c9d2.png",
+     "page_url": null,
+     "references": [
+      {
+       "role": "Front three-quarter: full 507 form, kidney grille, wheels, red cockpit top down",
+       "url": "https://cdn.muapi.ai/outputs/05e50b07369f46bdbecfb9f4c3363e19_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0051-1957-bmw-507-roadster-series-ii/"
+      },
+      {
+       "role": "Side profile: bonnet length, side cove and vent, wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/ea9efaeb64d749c0b46d38a96758e262_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0051-1957-bmw-507-roadster-series-ii/"
+      },
+      {
+       "role": "Nose detail: twin kidney grille, bonnet crease, bumper",
+       "url": "https://cdn.muapi.ai/outputs/886288934b854cb4920d8db9d261bf9d_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0051-1957-bmw-507-roadster-series-ii/"
+      },
+      {
+       "role": "Front: face, lamp spacing",
+       "url": "https://cdn.muapi.ai/outputs/0eea68e1334f4b2598c48a0bc0826026_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0051-1957-bmw-507-roadster-series-ii/"
+      },
+      {
+       "role": "Rear: tail, rear lamps",
+       "url": "https://cdn.muapi.ai/outputs/52f6fd04576941b4a7376d69c445f69f_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0051-1957-bmw-507-roadster-series-ii/"
+      },
+      {
+       "role": "Rear three-quarter: rear deck and cockpit surround",
+       "url": "https://cdn.muapi.ai/outputs/0de5bc712db4445a979a76e1b1de7120_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0051-1957-bmw-507-roadster-series-ii/"
+      },
+      {
+       "role": "High viewpoint from above: plan proportion of the open roadster",
+       "url": "https://cdn.muapi.ai/outputs/f2b67023821f4535bb177c9fcad18031_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0051-1957-bmw-507-roadster-series-ii/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": "Gran Turismo",
+   "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
+   "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
+   "full_source_url": "full/b964e75c02cf-studio-diverse-20260920-bmw-507.png",
+   "full_source_sha256": "b964e75c02cff19edbff414300538576a9acdd7c9a9c77f1c3f5c61c29332e94",
+   "full_source_bytes": 11498883,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": null,
+    "collection": null,
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "2d687dc7-23bc-464a-845f-8766149c9049",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T17:39:02.417058+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/518ce2c5fcb943b3966bbf295ed1c9d2.png",
+     "page_url": "https://muapi.ai/predictions/2d687dc7-23bc-464a-845f-8766149c9049",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter: full 507 form, kidney grille, wheels, red cockpit top down",
+       "url": "https://cdn.muapi.ai/outputs/05e50b07369f46bdbecfb9f4c3363e19_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0051-1957-bmw-507-roadster-series-ii/"
+      },
+      {
+       "role": "Side profile: bonnet length, side cove and vent, wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/ea9efaeb64d749c0b46d38a96758e262_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0051-1957-bmw-507-roadster-series-ii/"
+      },
+      {
+       "role": "Nose detail: twin kidney grille, bonnet crease, bumper",
+       "url": "https://cdn.muapi.ai/outputs/886288934b854cb4920d8db9d261bf9d_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0051-1957-bmw-507-roadster-series-ii/"
+      },
+      {
+       "role": "Front: face, lamp spacing",
+       "url": "https://cdn.muapi.ai/outputs/0eea68e1334f4b2598c48a0bc0826026_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0051-1957-bmw-507-roadster-series-ii/"
+      },
+      {
+       "role": "Rear: tail, rear lamps",
+       "url": "https://cdn.muapi.ai/outputs/52f6fd04576941b4a7376d69c445f69f_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0051-1957-bmw-507-roadster-series-ii/"
+      },
+      {
+       "role": "Rear three-quarter: rear deck and cockpit surround",
+       "url": "https://cdn.muapi.ai/outputs/0de5bc712db4445a979a76e1b1de7120_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0051-1957-bmw-507-roadster-series-ii/"
+      },
+      {
+       "role": "High viewpoint from above: plan proportion of the open roadster",
+       "url": "https://cdn.muapi.ai/outputs/f2b67023821f4535bb177c9fcad18031_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu25/lots/r0051-1957-bmw-507-roadster-series-ii/"
+      }
+     ],
+     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-20T17:39:02.417058+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-20T17:39:02.417058+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-diverse-20260920-vw-golf-gti-mk1",
+   "name": "Volkswagen Golf GTI Mk1",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-diverse-20260920-vw-golf-gti-mk1-9c72802de514-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-diverse-20260920/heroes/vw-golf-gti-mk1/attempt1-native.png",
+   "source_sha256": "9c72802de514b021fe5a045294729a628d47f955f0834c63e717ba3d148681f8",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-09-20T17:38:58.972533+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "07f76271-3505-4c79-aa63-cbf7404534d2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T17:38:58.972533+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0b523673950a4d1886f0806c4731cfa7.png",
+     "page_url": null,
+     "references": [
+      {
+       "role": "Front three-quarter: black Mk1 body, quad round headlamps, red grille surround, steel wheels",
+       "url": "https://cdn.muapi.ai/outputs/d73c4e02f2a14e9783dd09482f81f305_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0078-1978-volkswagen-golf-gti/"
+      },
+      {
+       "role": "Front three-quarter, other side: grille stripe and lamp spacing",
+       "url": "https://cdn.muapi.ai/outputs/e60b05dbeeb54a6b8ae236e88afe2490_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0078-1978-volkswagen-golf-gti/"
+      },
+      {
+       "role": "Side profile: three-door proportions, C-pillar, wheel size",
+       "url": "https://cdn.muapi.ai/outputs/aa526c3b22c64ef6ad014d73660731db_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0078-1978-volkswagen-golf-gti/"
+      },
+      {
+       "role": "Rear: hatch, rear lamps, black plastic trim",
+       "url": "https://cdn.muapi.ai/outputs/4abf824022c34a2ba37a38fb7cb81732_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0078-1978-volkswagen-golf-gti/"
+      },
+      {
+       "role": "Rear three-quarter: roof line and hatch",
+       "url": "https://cdn.muapi.ai/outputs/4d7bdff782a9412a9b9c4c6b0a301660_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0078-1978-volkswagen-golf-gti/"
+      },
+      {
+       "role": "Tartan seat pattern: source for the fine grid, supporting only",
+       "url": "https://cdn.muapi.ai/outputs/18526d59427445559ee86e320cab719a_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0078-1978-volkswagen-golf-gti/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": "Sport / Leicht",
+   "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
+   "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
+   "full_source_url": "full/9c72802de514-studio-diverse-20260920-vw-golf-gti-mk1.png",
+   "full_source_sha256": "9c72802de514b021fe5a045294729a628d47f955f0834c63e717ba3d148681f8",
+   "full_source_bytes": 4926770,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": null,
+    "collection": null,
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "07f76271-3505-4c79-aa63-cbf7404534d2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T17:38:58.972533+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0b523673950a4d1886f0806c4731cfa7.png",
+     "page_url": "https://muapi.ai/predictions/07f76271-3505-4c79-aa63-cbf7404534d2",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter: black Mk1 body, quad round headlamps, red grille surround, steel wheels",
+       "url": "https://cdn.muapi.ai/outputs/d73c4e02f2a14e9783dd09482f81f305_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0078-1978-volkswagen-golf-gti/"
+      },
+      {
+       "role": "Front three-quarter, other side: grille stripe and lamp spacing",
+       "url": "https://cdn.muapi.ai/outputs/e60b05dbeeb54a6b8ae236e88afe2490_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0078-1978-volkswagen-golf-gti/"
+      },
+      {
+       "role": "Side profile: three-door proportions, C-pillar, wheel size",
+       "url": "https://cdn.muapi.ai/outputs/aa526c3b22c64ef6ad014d73660731db_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0078-1978-volkswagen-golf-gti/"
+      },
+      {
+       "role": "Rear: hatch, rear lamps, black plastic trim",
+       "url": "https://cdn.muapi.ai/outputs/4abf824022c34a2ba37a38fb7cb81732_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0078-1978-volkswagen-golf-gti/"
+      },
+      {
+       "role": "Rear three-quarter: roof line and hatch",
+       "url": "https://cdn.muapi.ai/outputs/4d7bdff782a9412a9b9c4c6b0a301660_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0078-1978-volkswagen-golf-gti/"
+      },
+      {
+       "role": "Tartan seat pattern: source for the fine grid, supporting only",
+       "url": "https://cdn.muapi.ai/outputs/18526d59427445559ee86e320cab719a_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/sm23/lots/p0078-1978-volkswagen-golf-gti/"
+      }
+     ],
+     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-20T17:38:58.972533+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-20T17:38:58.972533+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-diverse-20260920-ford-gt40-mk1",
+   "name": "Ford GT40 Mk I",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-diverse-20260920-ford-gt40-mk1-4b3ba7928bae-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-diverse-20260920/heroes/ford-gt40-mk1/attempt1-native.png",
+   "source_sha256": "4b3ba7928bae25b24059b3e317d0cd53f95d14e4a86bf52697f25eaa4c52c6a9",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-09-20T17:38:54.241687+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "e2a27f56-49de-4eb9-bf86-cbaa73c7cf01",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T17:38:54.241687+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/53abb0b63e364708b44589e2dc1f634d.png",
+     "page_url": null,
+     "references": [
+      {
+       "role": "Side profile in motion: true GT40 height-to-length ratio, cabin bubble, rear deck humps",
+       "url": "https://cdn.muapi.ai/outputs/151de0b62c2a468ebf9a5c94c417f73b_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi26/lots/r0056-1967-ford-gt40-mk-i/"
+      },
+      {
+       "role": "Front three-quarter static: nose, lamp clusters under covers, wheel design",
+       "url": "https://cdn.muapi.ai/outputs/b7c396a99c394c3a966ae3f22435748a_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi26/lots/r0056-1967-ford-gt40-mk-i/"
+      },
+      {
+       "role": "Rear three-quarter static: rear deck, humps, tail treatment",
+       "url": "https://cdn.muapi.ai/outputs/58cdcc0c41f441589f070a18a6e1c040_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi26/lots/r0056-1967-ford-gt40-mk-i/"
+      },
+      {
+       "role": "Plan view from above: body outline and cabin placement",
+       "url": "https://cdn.muapi.ai/outputs/34f0aae056e44a2ab2c3ef969868d16a_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi26/lots/r0056-1967-ford-gt40-mk-i/"
+      },
+      {
+       "role": "Rear: tail lamps, exhausts, width",
+       "url": "https://cdn.muapi.ai/outputs/645aa6ae86af4974a48e7fdbf1b30cc6_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi26/lots/r0056-1967-ford-gt40-mk-i/"
+      },
+      {
+       "role": "Front: nose width and lamp layout",
+       "url": "https://cdn.muapi.ai/outputs/7a560486d7ae48bd8703c4af32b8b17e_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi26/lots/r0056-1967-ford-gt40-mk-i/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": "American Form",
+   "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
+   "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
+   "full_source_url": "full/4b3ba7928bae-studio-diverse-20260920-ford-gt40-mk1.png",
+   "full_source_sha256": "4b3ba7928bae25b24059b3e317d0cd53f95d14e4a86bf52697f25eaa4c52c6a9",
+   "full_source_bytes": 5292878,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": null,
+    "collection": null,
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "e2a27f56-49de-4eb9-bf86-cbaa73c7cf01",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T17:38:54.241687+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/53abb0b63e364708b44589e2dc1f634d.png",
+     "page_url": "https://muapi.ai/predictions/e2a27f56-49de-4eb9-bf86-cbaa73c7cf01",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Side profile in motion: true GT40 height-to-length ratio, cabin bubble, rear deck humps",
+       "url": "https://cdn.muapi.ai/outputs/151de0b62c2a468ebf9a5c94c417f73b_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi26/lots/r0056-1967-ford-gt40-mk-i/"
+      },
+      {
+       "role": "Front three-quarter static: nose, lamp clusters under covers, wheel design",
+       "url": "https://cdn.muapi.ai/outputs/b7c396a99c394c3a966ae3f22435748a_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi26/lots/r0056-1967-ford-gt40-mk-i/"
+      },
+      {
+       "role": "Rear three-quarter static: rear deck, humps, tail treatment",
+       "url": "https://cdn.muapi.ai/outputs/58cdcc0c41f441589f070a18a6e1c040_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi26/lots/r0056-1967-ford-gt40-mk-i/"
+      },
+      {
+       "role": "Plan view from above: body outline and cabin placement",
+       "url": "https://cdn.muapi.ai/outputs/34f0aae056e44a2ab2c3ef969868d16a_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi26/lots/r0056-1967-ford-gt40-mk-i/"
+      },
+      {
+       "role": "Rear: tail lamps, exhausts, width",
+       "url": "https://cdn.muapi.ai/outputs/645aa6ae86af4974a48e7fdbf1b30cc6_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi26/lots/r0056-1967-ford-gt40-mk-i/"
+      },
+      {
+       "role": "Front: nose width and lamp layout",
+       "url": "https://cdn.muapi.ai/outputs/7a560486d7ae48bd8703c4af32b8b17e_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi26/lots/r0056-1967-ford-gt40-mk-i/"
+      }
+     ],
+     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-20T17:38:54.241687+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-20T17:38:54.241687+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-diverse-20260920-peugeot-205-t16",
+   "name": "Peugeot 205 Turbo 16",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-diverse-20260920-peugeot-205-t16-52138ed9e419-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-diverse-20260920/heroes/peugeot-205-t16/attempt1-native.png",
+   "source_sha256": "52138ed9e419ca682752dabe5dc76aafe9833a5f44704630a31e6cf082811768",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-09-20T17:38:50.934283+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "6b69efca-7d8b-4dd4-9c03-1178941d2b48",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T17:38:50.934283+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2a4605b58d094fb0abfadac7b859bbed.png",
+     "page_url": null,
+     "references": [
+      {
+       "role": "Front three-quarter: road-car nose, bonnet, wide rear haunch line, road wheels",
+       "url": "https://cdn.muapi.ai/outputs/19530ff2764a4e03a032678846021747_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0046-1984-peugeot-205-turbo-16/"
+      },
+      {
+       "role": "Side profile: wheelbase, roof intake, rear quarter widening, sill pinstripe",
+       "url": "https://cdn.muapi.ai/outputs/f23aeed11cf549a4b03f484073c97b50_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0046-1984-peugeot-205-turbo-16/"
+      },
+      {
+       "role": "Front: grille, lamp layout, spot lamps under the bumper (ignore the dealer board on the plate)",
+       "url": "https://cdn.muapi.ai/outputs/51353d9852b24cbeba5f7935b8a3d20d_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0046-1984-peugeot-205-turbo-16/"
+      },
+      {
+       "role": "Rear: hatch, rear lamps, lower bumper line (ignore the dealer board)",
+       "url": "https://cdn.muapi.ai/outputs/377efbe551b743a4a7cad66aee093fcf_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0046-1984-peugeot-205-turbo-16/"
+      },
+      {
+       "role": "Rear-side profile: rear quarter and roof vent",
+       "url": "https://cdn.muapi.ai/outputs/3cee9d723eb043ee9074187f737811b7_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0046-1984-peugeot-205-turbo-16/"
+      },
+      {
+       "role": "Nose lamp cluster detail: yellow spot lamp and headlamp shape",
+       "url": "https://cdn.muapi.ai/outputs/a7f11692512b4b6bbdb88ea39faa41a4_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0046-1984-peugeot-205-turbo-16/"
+      },
+      {
+       "role": "Interior: grey seats with lion embossing, supporting evidence only",
+       "url": "https://cdn.muapi.ai/outputs/ee692b415a0c4b16a5d5fb5dd18ef0d2_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0046-1984-peugeot-205-turbo-16/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": "Sport / Leicht",
+   "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
+   "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
+   "full_source_url": "full/52138ed9e419-studio-diverse-20260920-peugeot-205-t16.png",
+   "full_source_sha256": "52138ed9e419ca682752dabe5dc76aafe9833a5f44704630a31e6cf082811768",
+   "full_source_bytes": 13750053,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": null,
+    "collection": null,
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "6b69efca-7d8b-4dd4-9c03-1178941d2b48",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T17:38:50.934283+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2a4605b58d094fb0abfadac7b859bbed.png",
+     "page_url": "https://muapi.ai/predictions/6b69efca-7d8b-4dd4-9c03-1178941d2b48",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter: road-car nose, bonnet, wide rear haunch line, road wheels",
+       "url": "https://cdn.muapi.ai/outputs/19530ff2764a4e03a032678846021747_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0046-1984-peugeot-205-turbo-16/"
+      },
+      {
+       "role": "Side profile: wheelbase, roof intake, rear quarter widening, sill pinstripe",
+       "url": "https://cdn.muapi.ai/outputs/f23aeed11cf549a4b03f484073c97b50_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0046-1984-peugeot-205-turbo-16/"
+      },
+      {
+       "role": "Front: grille, lamp layout, spot lamps under the bumper (ignore the dealer board on the plate)",
+       "url": "https://cdn.muapi.ai/outputs/51353d9852b24cbeba5f7935b8a3d20d_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0046-1984-peugeot-205-turbo-16/"
+      },
+      {
+       "role": "Rear: hatch, rear lamps, lower bumper line (ignore the dealer board)",
+       "url": "https://cdn.muapi.ai/outputs/377efbe551b743a4a7cad66aee093fcf_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0046-1984-peugeot-205-turbo-16/"
+      },
+      {
+       "role": "Rear-side profile: rear quarter and roof vent",
+       "url": "https://cdn.muapi.ai/outputs/3cee9d723eb043ee9074187f737811b7_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0046-1984-peugeot-205-turbo-16/"
+      },
+      {
+       "role": "Nose lamp cluster detail: yellow spot lamp and headlamp shape",
+       "url": "https://cdn.muapi.ai/outputs/a7f11692512b4b6bbdb88ea39faa41a4_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0046-1984-peugeot-205-turbo-16/"
+      },
+      {
+       "role": "Interior: grey seats with lion embossing, supporting evidence only",
+       "url": "https://cdn.muapi.ai/outputs/ee692b415a0c4b16a5d5fb5dd18ef0d2_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0046-1984-peugeot-205-turbo-16/"
+      }
+     ],
+     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-20T17:38:50.934283+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-20T17:38:50.934283+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-diverse-20260920-citroen-ds19",
+   "name": "Citroën DS 19",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-diverse-20260920-citroen-ds19-797477aa153e-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-diverse-20260920/heroes/citroen-ds19/attempt1-native.png",
+   "source_sha256": "797477aa153eb68873328fd79f426b964422511c4dde8a1ce271b4d13a12161e",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-09-20T17:38:47.632726+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "3094e17c-2ede-420a-8370-f4cbcd1a0789",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T17:38:47.632726+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/fa95a781ef1544a2819916c739ea87ed.png",
+     "page_url": null,
+     "references": [
+      {
+       "role": "Side profile: full DS silhouette, teardrop roof, spat rear wheel, ground clearance",
+       "url": "https://cdn.muapi.ai/outputs/ac2b3eadf1a048419d3b4e9051701c42_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0050-1967-citroen-ds-19-pallas/"
+      },
+      {
+       "role": "Front three-quarter: nose, twin round headlamps under chrome brows, single-spoke feel of the shape",
+       "url": "https://cdn.muapi.ai/outputs/ab19b1fbe1ae47c0af03c4b74faa5dd7_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0050-1967-citroen-ds-19-pallas/"
+      },
+      {
+       "role": "Rear: sloping tail, rear light clusters, indicator trumpets on the C-pillars",
+       "url": "https://cdn.muapi.ai/outputs/0c52d998f31342d0b07a4e48e6210edb_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0050-1967-citroen-ds-19-pallas/"
+      },
+      {
+       "role": "Front: face, bumper, headlamp spacing",
+       "url": "https://cdn.muapi.ai/outputs/04584a2fd98f4484b8a4600dbfb3e9af_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0050-1967-citroen-ds-19-pallas/"
+      },
+      {
+       "role": "Rear three-quarter: roof taper and pontoon body",
+       "url": "https://cdn.muapi.ai/outputs/2ae8f3472fb74b5b8964d681a54c4ec6_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0050-1967-citroen-ds-19-pallas/"
+      },
+      {
+       "role": "Chevron badge detail: true double-chevron shape and proportions",
+       "url": "https://cdn.muapi.ai/outputs/bccc0000adc4499cac58a028726dfb08_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0050-1967-citroen-ds-19-pallas/"
+      },
+      {
+       "role": "Dashboard and single-spoke steering wheel behind the glass, supporting only",
+       "url": "https://cdn.muapi.ai/outputs/c6f33a29ef734685a04bf3f91d4ab4ff_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0050-1967-citroen-ds-19-pallas/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": "Studio Di Forma",
+   "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
+   "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
+   "full_source_url": "full/797477aa153e-studio-diverse-20260920-citroen-ds19.png",
+   "full_source_sha256": "797477aa153eb68873328fd79f426b964422511c4dde8a1ce271b4d13a12161e",
+   "full_source_bytes": 12192384,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": null,
+    "collection": null,
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "3094e17c-2ede-420a-8370-f4cbcd1a0789",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T17:38:47.632726+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/fa95a781ef1544a2819916c739ea87ed.png",
+     "page_url": "https://muapi.ai/predictions/3094e17c-2ede-420a-8370-f4cbcd1a0789",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Side profile: full DS silhouette, teardrop roof, spat rear wheel, ground clearance",
+       "url": "https://cdn.muapi.ai/outputs/ac2b3eadf1a048419d3b4e9051701c42_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0050-1967-citroen-ds-19-pallas/"
+      },
+      {
+       "role": "Front three-quarter: nose, twin round headlamps under chrome brows, single-spoke feel of the shape",
+       "url": "https://cdn.muapi.ai/outputs/ab19b1fbe1ae47c0af03c4b74faa5dd7_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0050-1967-citroen-ds-19-pallas/"
+      },
+      {
+       "role": "Rear: sloping tail, rear light clusters, indicator trumpets on the C-pillars",
+       "url": "https://cdn.muapi.ai/outputs/0c52d998f31342d0b07a4e48e6210edb_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0050-1967-citroen-ds-19-pallas/"
+      },
+      {
+       "role": "Front: face, bumper, headlamp spacing",
+       "url": "https://cdn.muapi.ai/outputs/04584a2fd98f4484b8a4600dbfb3e9af_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0050-1967-citroen-ds-19-pallas/"
+      },
+      {
+       "role": "Rear three-quarter: roof taper and pontoon body",
+       "url": "https://cdn.muapi.ai/outputs/2ae8f3472fb74b5b8964d681a54c4ec6_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0050-1967-citroen-ds-19-pallas/"
+      },
+      {
+       "role": "Chevron badge detail: true double-chevron shape and proportions",
+       "url": "https://cdn.muapi.ai/outputs/bccc0000adc4499cac58a028726dfb08_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0050-1967-citroen-ds-19-pallas/"
+      },
+      {
+       "role": "Dashboard and single-spoke steering wheel behind the glass, supporting only",
+       "url": "https://cdn.muapi.ai/outputs/c6f33a29ef734685a04bf3f91d4ab4ff_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf22/lots/r0050-1967-citroen-ds-19-pallas/"
+      }
+     ],
+     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-20T17:38:47.632726+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-20T17:38:47.632726+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
     "meaning": "a new hero or a finished edit waits for your word",
     "order": 0
    }
@@ -2424,6 +3763,85 @@
     "meaning": "Notion and the board read back and verified",
     "order": 6
    }
+  },
+  {
+   "key": "studio-next-20260920-aston-martin-db5",
+   "name": "Aston Martin DB5",
+   "preview": "assets/studio-next-20260920-aston-martin-db5.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "90354d001682913949deda3cf51c5a72a99ce6699e9216262283b4b02799abe5",
+   "source_file": "pipeline/lean-delivery/studio-next-20260920-aston-martin-db5/b6ca9aa0bdc0/print.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "GRAN TURISMO",
+   "ledger_selected_sha256": "b6ca9aa0bdc043636612227d373d7dac5138ff33500ea993267777e34a60766a",
+   "approved_source_sha256": "b6ca9aa0bdc043636612227d373d7dac5138ff33500ea993267777e34a60766a",
+   "photo_count": 9,
+   "notion_url": "https://app.notion.com/p/3e1219427f6981be9325da906128b1ea",
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-next-20260920-aston-martin-db5.html",
+   "completion_verified": false,
+   "delivery_status": "Delivery finishing · prints, photos and copy prepared",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "production_evidence": "pipeline/studio-diverse-20260920/production/INTEGRATION-MANIFEST.json",
+   "production": {
+    "print_jpg_sha256": "90354d001682913949deda3cf51c5a72a99ce6699e9216262283b4b02799abe5",
+    "print_pdf_sha256": "79ea5d6dd0c9fa1add3c5782ada54354e8a7a860ef798bb02bd55168f90151fe",
+    "approved_bytes_sha256": "b6ca9aa0bdc043636612227d373d7dac5138ff33500ea993267777e34a60766a",
+    "collection": "GRAN TURISMO",
+    "edition_label": "Edition of 77"
+   },
+   "delivery_note": "Prints and photos are prepared; final delivery checks are running.",
+   "full_source_url": "../artwork/90354d001682-studio-next-20260920-aston-martin-db5.jpg",
+   "full_source_sha256": "90354d001682913949deda3cf51c5a72a99ce6699e9216262283b4b02799abe5",
+   "full_source_bytes": 17946041,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Gran Turismo",
+   "edition": {
+    "limit": 77,
+    "label": "Edition of 77",
+    "series_label": "",
+    "kind": "finite_per_artwork",
+    "edition_id": "art-691d54fbe730e706b0f3fe43",
+    "authority": "finite-per-artwork-2026-09-20",
+    "fixed": true
+   },
+   "collection_category": "Gran Turismo",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Gran Turismo",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (Edition of 77) stays as promised"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-20T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-09-20T17:37:40.710484+00:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "Prints and photos are prepared; final delivery checks are running.",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
   }
  ],
  "excluded_keys": [
@@ -2470,12 +3888,8 @@
   {
    "key": "studio-next-20260920-aston-martin-db5",
    "declared_sha256": "b6ca9aa0bdc043636612227d373d7dac5138ff33500ea993267777e34a60766a",
-   "applied": true,
-   "preview": "assets/studio-next-20260920-aston-martin-db5-b6ca9aa0bdc0-current.jpg",
-   "pixels": [
-    2480,
-    3312
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-next-20260920-lexus-lfa",
@@ -2488,6 +3902,106 @@
    "declared_sha256": "8d08a2df2522308fa113c3cd13a33ce53f1c0082a3d123d6534386c3d95bdc37",
    "applied": false,
    "reason": "ledger already carries this key with a selected source; the lot record stands"
+  },
+  {
+   "key": "studio-diverse-20260920-citroen-ds19",
+   "declared_sha256": "797477aa153eb68873328fd79f426b964422511c4dde8a1ce271b4d13a12161e",
+   "applied": true,
+   "preview": "assets/studio-diverse-20260920-citroen-ds19-797477aa153e-current.jpg",
+   "pixels": [
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-diverse-20260920-peugeot-205-t16",
+   "declared_sha256": "52138ed9e419ca682752dabe5dc76aafe9833a5f44704630a31e6cf082811768",
+   "applied": true,
+   "preview": "assets/studio-diverse-20260920-peugeot-205-t16-52138ed9e419-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-diverse-20260920-ford-gt40-mk1",
+   "declared_sha256": "4b3ba7928bae25b24059b3e317d0cd53f95d14e4a86bf52697f25eaa4c52c6a9",
+   "applied": true,
+   "preview": "assets/studio-diverse-20260920-ford-gt40-mk1-4b3ba7928bae-current.jpg",
+   "pixels": [
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-diverse-20260920-vw-golf-gti-mk1",
+   "declared_sha256": "9c72802de514b021fe5a045294729a628d47f955f0834c63e717ba3d148681f8",
+   "applied": true,
+   "preview": "assets/studio-diverse-20260920-vw-golf-gti-mk1-9c72802de514-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-diverse-20260920-bmw-507",
+   "declared_sha256": "b964e75c02cff19edbff414300538576a9acdd7c9a9c77f1c3f5c61c29332e94",
+   "applied": true,
+   "preview": "assets/studio-diverse-20260920-bmw-507-b964e75c02cf-current.jpg",
+   "pixels": [
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-diverse-20260920-lancia-aurelia-b24",
+   "declared_sha256": "75fd8717201074cd55ad2dbd5681e3d40c8fb1ce610fa730f88c521d8152b889",
+   "applied": true,
+   "preview": "assets/studio-diverse-20260920-lancia-aurelia-b24-75fd87172010-current.jpg",
+   "pixels": [
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-diverse-20260920-ferrari-dino-246gt",
+   "declared_sha256": "e240c40d5420cc1aa850497f84c26d1bf941b2d32a0d05f06008943eb9003204",
+   "applied": true,
+   "preview": "assets/studio-diverse-20260920-ferrari-dino-246gt-e240c40d5420-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-diverse-20260920-saab-900-turbo",
+   "declared_sha256": "b626aa56570d9d9441e39c57b4fb5f13637c35ed9a7d6dd66d5293e878ee130e",
+   "applied": true,
+   "preview": "assets/studio-diverse-20260920-saab-900-turbo-b626aa56570d-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-diverse-20260920-mazda-cosmo-110s",
+   "declared_sha256": "e0b2c5b11e96792681773c11910bf81768f118efc6a66b6a3e2c2cfdb77a025c",
+   "applied": true,
+   "preview": "assets/studio-diverse-20260920-mazda-cosmo-110s-e0b2c5b11e96-current.jpg",
+   "pixels": [
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-diverse-20260920-alfa-duetto-1600",
+   "declared_sha256": "1e8ebcd8a137878a5635832d1103c46e40fd84769ced21565fa0ece18911aa57",
+   "applied": true,
+   "preview": "assets/studio-diverse-20260920-alfa-duetto-1600-1e8ebcd8a137-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
   }
  ],
  "ledger": "pipeline/state.json",
