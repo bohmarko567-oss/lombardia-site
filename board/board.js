@@ -14,7 +14,18 @@
   const KEY = 'lomb.decisions.v1', TOK = 'lomb.gh.token', SENT = 'lomb.sent.v1', GH = 'lomb.gh.v1', DIRTY = 'lomb.dirty.v1';
   const $ = (s, el) => (el || document).querySelector(s);
   const $$ = (s, el) => Array.prototype.slice.call((el || document).querySelectorAll(s));
-  const UP = D.kind === 'poster' ? '../' : '';
+  // the site root, relative to this page. Read from this script's own src: mk-board.py writes it as
+  // "{up}board/board.js" with up = "../" per folder of depth, so a page one folder down (posters/*.html, kind
+  // "poster" or "lot") resolves to "../" and the root pages to "". Owner 2026-09-20: the v4 lot pages carry kind
+  // "lot", the old kind check gave them "" and every overlay photo, the artwork lightbox and the downloads pointed
+  // at posters/img/... (a broken image on the iPhone). The kind check stays only as the fallback.
+  const UP = (function () {
+    const sc = document.currentScript, src = (sc && sc.getAttribute('src')) || '';
+    const m = /^((?:\.\.\/)+)/.exec(src);
+    if (m) return m[1];
+    if (src && !/^(?:[a-z][a-z0-9+.-]*:|\/)/i.test(src)) return '';
+    return (D.kind === 'poster' || D.kind === 'lot') ? '../' : '';
+  })();
   const nowISO = () => new Date().toISOString();
   const hhmm = iso => iso ? new Date(iso).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : '—';
   const dmy = iso => iso ? new Date(iso).toLocaleDateString([], { day: '2-digit', month: 'short' }) + ' ' + hhmm(iso) : '—';
@@ -607,7 +618,9 @@
         meta.appendChild(h('span', { text: s.label || s.recipeLabel || s.file || '' }));
       }
       if (!judgeable && D.kind === 'poster' && byId(s.id) && ev(s.id) === 'rejected') foot.appendChild(h('button', { type: 'button', class: 'k', onclick: () => { verdict(s.id, 'approved', { quiet: true }); toast(s.id + ' · back in the lot'); show(); } }, h('span', { class: 'x', text: '↶' }), 'Restore'));
-      if (s.full || s.inspect) foot.appendChild(dlLink(s, 'dlf'));
+      // dlLink is null on a page with no archive link (the root index's house photographs); appending null threw
+      // and left the room without its Next button
+      const dl = (s.full || s.inspect) ? dlLink(s, 'dlf') : null; if (dl) foot.appendChild(dl);
       foot.appendChild(h('button', { type: 'button', class: 'nav', 'aria-label': 'Next', text: '›', onclick: () => go(1), disabled: list.length < 2 || null }));
     }
     function go(d) { if (list.length < 2) return; i = (i + d + list.length) % list.length; show(); }
