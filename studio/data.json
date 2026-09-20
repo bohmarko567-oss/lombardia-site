@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-09-20 06:26",
+ "built": "2026-09-20 19:00",
  "accessed_date": "2026-09-20",
  "collections": [
   "American Form",
@@ -93,13 +93,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-next-20260920-mercedes-clk-gtr-3833132e7e47-current.jpg",
+   "preview": "assets/studio-next-20260920-mercedes-clk-gtr-8649b9ee673c-current.jpg",
    "preview_pixels": [
     1600,
     1198
    ],
-   "source_file": "pipeline/studio-refine-20260920/panels/composites/mercedes-clk-gtr-refine.png",
-   "source_sha256": "3833132e7e475503fc70a1a04f0b5651fe26bf912ebcd754788f2e6a35123745",
+   "source_file": "pipeline/studio-execute-20260920/panels/composites/mercedes-clk-gtr-execute.png",
+   "source_sha256": "8649b9ee673c2f62042dcb58620501d5511e7aa8e93966912411dc69c360cb95",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -271,6 +271,76 @@
       }
      ],
      "target_id": "clk-card4-rear-view"
+    },
+    {
+     "role": "edit",
+     "request_id": "1701f919-0ba5-4b77-8369-27986541189d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T16:43:17.770893+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/251081e0e4dd4ce9a359696f2f3ca9a1.png",
+     "page_url": "https://muapi.ai/predictions/1701f919-0ba5-4b77-8369-27986541189d",
+     "references": [
+      {
+       "role": "Edit context crop",
+       "url": "https://cdn.muapi.ai/outputs/generated/b5e83768846e4481ac162400e2a28fd3.png"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/611fb2e1e951479e88d124ec9b356de2_10.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/115baa91c551467396fddf3f23ad1391_11.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/6879f9c1b4a44b3c859866b5e58f7261_16.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/generated/558145d9f2f049068945519c0f94d610.jpg"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/generated/6a830e0dc2c14f7291d12f91a9e820ee.jpg"
+      }
+     ],
+     "target_id": "clk-card3-interior-v2"
+    },
+    {
+     "role": "edit",
+     "request_id": "cee37661-b147-46f5-a67e-3a26c19836ab",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T16:43:22.017145+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6ec9f3642f3c447ca0a779aea049105b.png",
+     "page_url": "https://muapi.ai/predictions/cee37661-b147-46f5-a67e-3a26c19836ab",
+     "references": [
+      {
+       "role": "Edit context crop",
+       "url": "https://cdn.muapi.ai/outputs/generated/10dec1f652b24bdb97c4a8521e2dfd04.png"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/7054d42769744371a83bf8b26fd9d477_06.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/96299de3199e44f999a569d959caf317_07.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/760e38d562834accb20994cbf4f4d897_16.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/generated/ec8953b5589840a38b36bbf167245602.jpg"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/6448ae53e740404d85b203460b289ffb_12.webp"
+      }
+     ],
+     "target_id": "clk-card4-rear-view-v2"
     }
    ],
    "recommendation_override": {
@@ -279,9 +349,9 @@
    },
    "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
    "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
-   "full_source_url": "full/3833132e7e47-studio-next-20260920-mercedes-clk-gtr.png",
-   "full_source_sha256": "3833132e7e475503fc70a1a04f0b5651fe26bf912ebcd754788f2e6a35123745",
-   "full_source_bytes": 11022312,
+   "full_source_url": "full/8649b9ee673c-studio-next-20260920-mercedes-clk-gtr.png",
+   "full_source_sha256": "8649b9ee673c2f62042dcb58620501d5511e7aa8e93966912411dc69c360cb95",
+   "full_source_bytes": 11028571,
    "full_source_pixels": [
     3312,
     2480
@@ -471,652 +541,84 @@
       }
      ],
      "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "1701f919-0ba5-4b77-8369-27986541189d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T16:43:17.770893+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/251081e0e4dd4ce9a359696f2f3ca9a1.png",
+     "page_url": "https://muapi.ai/predictions/1701f919-0ba5-4b77-8369-27986541189d",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Edit context crop",
+       "url": "https://cdn.muapi.ai/outputs/generated/b5e83768846e4481ac162400e2a28fd3.png"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/611fb2e1e951479e88d124ec9b356de2_10.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/115baa91c551467396fddf3f23ad1391_11.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/6879f9c1b4a44b3c859866b5e58f7261_16.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/generated/558145d9f2f049068945519c0f94d610.jpg"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/generated/6a830e0dc2c14f7291d12f91a9e820ee.jpg"
+      }
+     ],
+     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "cee37661-b147-46f5-a67e-3a26c19836ab",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T16:43:22.017145+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6ec9f3642f3c447ca0a779aea049105b.png",
+     "page_url": "https://muapi.ai/predictions/cee37661-b147-46f5-a67e-3a26c19836ab",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Edit context crop",
+       "url": "https://cdn.muapi.ai/outputs/generated/10dec1f652b24bdb97c4a8521e2dfd04.png"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/7054d42769744371a83bf8b26fd9d477_06.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/96299de3199e44f999a569d959caf317_07.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/760e38d562834accb20994cbf4f4d897_16.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/generated/ec8953b5589840a38b36bbf167245602.jpg"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/6448ae53e740404d85b203460b289ffb_12.webp"
+      }
+     ],
+     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-09-20T02:50:49.320971+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-09-20T04:12:11.756879+00:00",
-    "updated_source": "MuAPI edit"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "edit done",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-next-20260920-de-tomaso-pantera",
-   "name": "De Tomaso Pantera",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-next-20260920-de-tomaso-pantera-8d08a2df2522-current.jpg",
-   "preview_pixels": [
-    1600,
-    1198
-   ],
-   "source_file": "pipeline/studio-refine-20260920/panels/composites/de-tomaso-pantera-refine.png",
-   "source_sha256": "8d08a2df2522308fa113c3cd13a33ce53f1c0082a3d123d6534386c3d95bdc37",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": true,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-09-20T02:50:45.932260+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "678162fc-dd25-4676-93d1-92ab18d710ab",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T02:50:45.932260+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/ac90a13ae998454b8e228fb38170ce50.png",
-     "page_url": "https://muapi.ai/predictions/678162fc-dd25-4676-93d1-92ab18d710ab",
-     "references": [
-      {
-       "role": "Front three-quarter: early silver Pantera body; reference car wheel design is not asserted original",
-       "url": "https://cdn.muapi.ai/outputs/8ddf811867a943b8bea80facf1cd9138_01.webp"
-      },
-      {
-       "role": "Rear three-quarter: early rear body, lamps and bumper",
-       "url": "https://cdn.muapi.ai/outputs/8ae99cc244844bf9b9f6169afc431b72_06.webp"
-      },
-      {
-       "role": "Side profile: wedge proportion and roofline",
-       "url": "https://cdn.muapi.ai/outputs/d2cde2f3300a4e34819666e86d3a9129_12.webp"
-      },
-      {
-       "role": "Front grille and actual De Tomaso emblem placement",
-       "url": "https://cdn.muapi.ai/outputs/a2cdb96b0a104a44a06f96882bd7dd18_14.webp"
-      },
-      {
-       "role": "Pantera script and rear light detail",
-       "url": "https://cdn.muapi.ai/outputs/a0eda6d5fff84073af03a9b8dd6dd303_16.webp"
-      },
-      {
-       "role": "Black cabin geometry",
-       "url": "https://cdn.muapi.ai/outputs/5a185bf6d1e14edc93974c0a1caac9f0_10.webp"
-      }
-     ]
-    },
-    {
-     "role": "edit",
-     "request_id": "110b2b78-3542-4b05-977f-f047c8cea77c",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T04:10:49.055053+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/541b7a2a5a4a4ef3b5b0dc78b33754bd.png",
-     "page_url": "https://muapi.ai/predictions/110b2b78-3542-4b05-977f-f047c8cea77c",
-     "references": [
-      {
-       "role": "Edit context crop",
-       "url": "https://cdn.muapi.ai/outputs/generated/21988009884d4be8983de99f551e6a81.png"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/8ec1fb6af1194923b5ebd7b6adf132bb_12.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/f4893fe2ffea4a03a4cffd11706c9d52_01.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/generated/88251bcd32c740cd964ff0ff866ce21d.jpg"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/generated/27a24dfee1f14e31aba71678501be2d4.png"
-      }
-     ],
-     "target_id": "pantera-main-front-cap"
-    },
-    {
-     "role": "edit",
-     "request_id": "5c2cc82e-3d7d-4d59-8030-23b419d236f6",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T04:10:52.420529+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/536dfdfbf8cd4b14b78c6115a3e396eb.png",
-     "page_url": "https://muapi.ai/predictions/5c2cc82e-3d7d-4d59-8030-23b419d236f6",
-     "references": [
-      {
-       "role": "Edit context crop",
-       "url": "https://cdn.muapi.ai/outputs/generated/417c837a428c4ec2859252a7a4a5f783.png"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/0b66baccc1cd4665985fa61860749e7d_12.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/eb10036b44854d529a3a8b3747379fa9_01.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/generated/c0f7b9776ecc44798857b6725529adeb.jpg"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/generated/ddde566076254f1ca03a56aff95f2741.png"
-      }
-     ],
-     "target_id": "pantera-main-rear-cap"
-    },
-    {
-     "role": "edit",
-     "request_id": "9802426b-9002-4b15-8dbf-e3bfa02a1f67",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T04:10:55.788838+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/bb7c6f12bc624c0da1cd91fb999ae1b3.png",
-     "page_url": "https://muapi.ai/predictions/9802426b-9002-4b15-8dbf-e3bfa02a1f67",
-     "references": [
-      {
-       "role": "Edit context crop",
-       "url": "https://cdn.muapi.ai/outputs/generated/c671a806db1443208491123b60d4e375.png"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/39044e99c39f45918d38148d5b305665_12.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/504a9ea6acf24faaaa864f3b702c2058_01.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/generated/78e36c6e5e3e438eb10c7f0f080513f9.jpg"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/generated/6124517866c54d76abe2ced91027d42a.png"
-      }
-     ],
-     "target_id": "pantera-rear-shot-left-cap"
-    },
-    {
-     "role": "edit",
-     "request_id": "11b37b10-b418-458d-a39c-f80cb005e05d",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T04:10:59.427621+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/d4456199e2934c54afa745f7e3e0aa1f.png",
-     "page_url": "https://muapi.ai/predictions/11b37b10-b418-458d-a39c-f80cb005e05d",
-     "references": [
-      {
-       "role": "Edit context crop",
-       "url": "https://cdn.muapi.ai/outputs/generated/6526dbb609294afd8cdbbe270136dca8.png"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/d0432d76c2ce444cb5f0e9a8c1d7db6c_12.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/8b927643c96c403a86eff8fd4e9e6d3d_01.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/generated/f600ff59157c43169faed121ff3a1cac.jpg"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/generated/eee5f5415f724d139f85ef2c96657a87.png"
-      }
-     ],
-     "target_id": "pantera-rear-shot-right-cap"
-    },
-    {
-     "role": "edit",
-     "request_id": "b7bd9af6-47eb-49d9-8cac-1552850739c3",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T04:11:02.720818+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/b5214bf6e2004f70a4f684e8b3128d2d.png",
-     "page_url": "https://muapi.ai/predictions/b7bd9af6-47eb-49d9-8cac-1552850739c3",
-     "references": [
-      {
-       "role": "Edit context crop",
-       "url": "https://cdn.muapi.ai/outputs/generated/e0921fcbd5b04d40a62a4eafa0616707.png"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/generated/223c632ca4ed4965b6c7136842a062e4.jpg"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/generated/8cacdadd9b7049dabcb774a9815cee0d.jpg"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/a0bb301f02aa4178ab66aebaf0cb8518_16.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/generated/24d5dc0596734eaf90b720a122668e21.jpg"
-      }
-     ],
-     "target_id": "pantera-rear-badges"
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Studio Di Forma",
-    "why": "Suggested from the authored central idea; your collection choice is final."
-   },
-   "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
-   "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
-   "full_source_url": "full/8d08a2df2522-studio-next-20260920-de-tomaso-pantera.png",
-   "full_source_sha256": "8d08a2df2522308fa113c3cd13a33ce53f1c0082a3d123d6534386c3d95bdc37",
-   "full_source_bytes": 10876373,
-   "full_source_pixels": [
-    3312,
-    2480
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Studio Di Forma",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Suggested from the authored central idea; your collection choice is final.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 50
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "678162fc-dd25-4676-93d1-92ab18d710ab",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T02:50:45.932260+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/ac90a13ae998454b8e228fb38170ce50.png",
-     "page_url": "https://muapi.ai/predictions/678162fc-dd25-4676-93d1-92ab18d710ab",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter: early silver Pantera body; reference car wheel design is not asserted original",
-       "url": "https://cdn.muapi.ai/outputs/8ddf811867a943b8bea80facf1cd9138_01.webp"
-      },
-      {
-       "role": "Rear three-quarter: early rear body, lamps and bumper",
-       "url": "https://cdn.muapi.ai/outputs/8ae99cc244844bf9b9f6169afc431b72_06.webp"
-      },
-      {
-       "role": "Side profile: wedge proportion and roofline",
-       "url": "https://cdn.muapi.ai/outputs/d2cde2f3300a4e34819666e86d3a9129_12.webp"
-      },
-      {
-       "role": "Front grille and actual De Tomaso emblem placement",
-       "url": "https://cdn.muapi.ai/outputs/a2cdb96b0a104a44a06f96882bd7dd18_14.webp"
-      },
-      {
-       "role": "Pantera script and rear light detail",
-       "url": "https://cdn.muapi.ai/outputs/a0eda6d5fff84073af03a9b8dd6dd303_16.webp"
-      },
-      {
-       "role": "Black cabin geometry",
-       "url": "https://cdn.muapi.ai/outputs/5a185bf6d1e14edc93974c0a1caac9f0_10.webp"
-      }
-     ],
-     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "110b2b78-3542-4b05-977f-f047c8cea77c",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T04:10:49.055053+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/541b7a2a5a4a4ef3b5b0dc78b33754bd.png",
-     "page_url": "https://muapi.ai/predictions/110b2b78-3542-4b05-977f-f047c8cea77c",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Edit context crop",
-       "url": "https://cdn.muapi.ai/outputs/generated/21988009884d4be8983de99f551e6a81.png"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/8ec1fb6af1194923b5ebd7b6adf132bb_12.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/f4893fe2ffea4a03a4cffd11706c9d52_01.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/generated/88251bcd32c740cd964ff0ff866ce21d.jpg"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/generated/27a24dfee1f14e31aba71678501be2d4.png"
-      }
-     ],
-     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "5c2cc82e-3d7d-4d59-8030-23b419d236f6",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T04:10:52.420529+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/536dfdfbf8cd4b14b78c6115a3e396eb.png",
-     "page_url": "https://muapi.ai/predictions/5c2cc82e-3d7d-4d59-8030-23b419d236f6",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Edit context crop",
-       "url": "https://cdn.muapi.ai/outputs/generated/417c837a428c4ec2859252a7a4a5f783.png"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/0b66baccc1cd4665985fa61860749e7d_12.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/eb10036b44854d529a3a8b3747379fa9_01.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/generated/c0f7b9776ecc44798857b6725529adeb.jpg"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/generated/ddde566076254f1ca03a56aff95f2741.png"
-      }
-     ],
-     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "9802426b-9002-4b15-8dbf-e3bfa02a1f67",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T04:10:55.788838+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/bb7c6f12bc624c0da1cd91fb999ae1b3.png",
-     "page_url": "https://muapi.ai/predictions/9802426b-9002-4b15-8dbf-e3bfa02a1f67",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Edit context crop",
-       "url": "https://cdn.muapi.ai/outputs/generated/c671a806db1443208491123b60d4e375.png"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/39044e99c39f45918d38148d5b305665_12.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/504a9ea6acf24faaaa864f3b702c2058_01.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/generated/78e36c6e5e3e438eb10c7f0f080513f9.jpg"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/generated/6124517866c54d76abe2ced91027d42a.png"
-      }
-     ],
-     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "11b37b10-b418-458d-a39c-f80cb005e05d",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T04:10:59.427621+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/d4456199e2934c54afa745f7e3e0aa1f.png",
-     "page_url": "https://muapi.ai/predictions/11b37b10-b418-458d-a39c-f80cb005e05d",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Edit context crop",
-       "url": "https://cdn.muapi.ai/outputs/generated/6526dbb609294afd8cdbbe270136dca8.png"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/d0432d76c2ce444cb5f0e9a8c1d7db6c_12.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/8b927643c96c403a86eff8fd4e9e6d3d_01.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/generated/f600ff59157c43169faed121ff3a1cac.jpg"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/generated/eee5f5415f724d139f85ef2c96657a87.png"
-      }
-     ],
-     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "b7bd9af6-47eb-49d9-8cac-1552850739c3",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T04:11:02.720818+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/b5214bf6e2004f70a4f684e8b3128d2d.png",
-     "page_url": "https://muapi.ai/predictions/b7bd9af6-47eb-49d9-8cac-1552850739c3",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Edit context crop",
-       "url": "https://cdn.muapi.ai/outputs/generated/e0921fcbd5b04d40a62a4eafa0616707.png"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/generated/223c632ca4ed4965b6c7136842a062e4.jpg"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/generated/8cacdadd9b7049dabcb774a9815cee0d.jpg"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/a0bb301f02aa4178ab66aebaf0cb8518_16.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/generated/24d5dc0596734eaf90b720a122668e21.jpg"
-      }
-     ],
-     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-09-20T02:50:45.932260+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-09-20T04:11:02.720818+00:00",
-    "updated_source": "MuAPI edit"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "edit done",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-next-20260920-lexus-lfa",
-   "name": "Lexus LFA",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-next-20260920-lexus-lfa-d238f5b7fe8b-current.jpg",
-   "preview_pixels": [
-    1600,
-    2137
-   ],
-   "source_file": "pipeline/studio-refine-20260920/details/composites/lexus-lfa-detail-edit.png",
-   "source_sha256": "d238f5b7fe8b6c3888f803c3ccf79dcb9842ab93fbc93ff70cff8430925e69cd",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": true,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-09-20T02:50:42.570081+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "4c40280e-32f6-4b63-a3a3-03e5028a120f",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T02:50:42.570081+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/11cfd235ab6949d4b73702d2bfb99583.png",
-     "page_url": "https://muapi.ai/predictions/4c40280e-32f6-4b63-a3a3-03e5028a120f",
-     "references": [
-      {
-       "role": "Front three-quarter: standard red LFA body, wheels, lamps and side intake",
-       "url": "https://cdn.muapi.ai/outputs/93a94e79f168423cbdd92158cc32d812_01.webp"
-      },
-      {
-       "role": "Rear three-quarter: standard production rear and triangular exhaust geometry",
-       "url": "https://cdn.muapi.ai/outputs/5d8f8ab992e54e58a5020a471fcfea93_06.webp"
-      },
-      {
-       "role": "Left side profile and wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/9055b48eda3240638cf30f0a2268dc16_12.webp"
-      },
-      {
-       "role": "Front face: headlamps, bonnet vent and triangular ducts",
-       "url": "https://cdn.muapi.ai/outputs/0bd9b5254b92474ab5e2650c9660662b_16.webp"
-      },
-      {
-       "role": "Authentic cabin seats and dashboard/glass relation",
-       "url": "https://cdn.muapi.ai/outputs/569cb398def0467799c31ab11f956ebb_10.webp"
-      }
-     ]
-    },
-    {
-     "role": "edit",
-     "request_id": "a5787642-4ecd-4328-9521-6bf28ca0680a",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T04:10:58.911104+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/9a84deed055d447c9e47df0422d7c279.png",
-     "page_url": "https://muapi.ai/predictions/a5787642-4ecd-4328-9521-6bf28ca0680a",
-     "references": [
-      {
-       "role": "Edit context crop",
-       "url": "https://cdn.muapi.ai/outputs/generated/b13ff1ee50cf4ab6bb2b7bd379097cda.png"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/999acafa3ea94903b2e5ba433d187431_052.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/2ee40e66698d4887b998862a6aba979d_048.webp"
-      }
-     ],
-     "target_id": "lfa-rear-badge"
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Forma / Motion",
-    "why": "Suggested from the authored central idea; your collection choice is final."
-   },
-   "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
-   "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
-   "full_source_url": "full/d238f5b7fe8b-studio-next-20260920-lexus-lfa.png",
-   "full_source_sha256": "d238f5b7fe8b6c3888f803c3ccf79dcb9842ab93fbc93ff70cff8430925e69cd",
-   "full_source_bytes": 12464507,
-   "full_source_pixels": [
-    2480,
-    3312
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Forma / Motion",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Suggested from the authored central idea; your collection choice is final.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 100
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "4c40280e-32f6-4b63-a3a3-03e5028a120f",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T02:50:42.570081+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/11cfd235ab6949d4b73702d2bfb99583.png",
-     "page_url": "https://muapi.ai/predictions/4c40280e-32f6-4b63-a3a3-03e5028a120f",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter: standard red LFA body, wheels, lamps and side intake",
-       "url": "https://cdn.muapi.ai/outputs/93a94e79f168423cbdd92158cc32d812_01.webp"
-      },
-      {
-       "role": "Rear three-quarter: standard production rear and triangular exhaust geometry",
-       "url": "https://cdn.muapi.ai/outputs/5d8f8ab992e54e58a5020a471fcfea93_06.webp"
-      },
-      {
-       "role": "Left side profile and wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/9055b48eda3240638cf30f0a2268dc16_12.webp"
-      },
-      {
-       "role": "Front face: headlamps, bonnet vent and triangular ducts",
-       "url": "https://cdn.muapi.ai/outputs/0bd9b5254b92474ab5e2650c9660662b_16.webp"
-      },
-      {
-       "role": "Authentic cabin seats and dashboard/glass relation",
-       "url": "https://cdn.muapi.ai/outputs/569cb398def0467799c31ab11f956ebb_10.webp"
-      }
-     ],
-     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "a5787642-4ecd-4328-9521-6bf28ca0680a",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T04:10:58.911104+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/9a84deed055d447c9e47df0422d7c279.png",
-     "page_url": "https://muapi.ai/predictions/a5787642-4ecd-4328-9521-6bf28ca0680a",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Edit context crop",
-       "url": "https://cdn.muapi.ai/outputs/generated/b13ff1ee50cf4ab6bb2b7bd379097cda.png"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/999acafa3ea94903b2e5ba433d187431_052.webp"
-      },
-      {
-       "role": "Authentic detail reference",
-       "url": "https://cdn.muapi.ai/outputs/2ee40e66698d4887b998862a6aba979d_048.webp"
-      }
-     ],
-     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-09-20T02:50:42.570081+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-09-20T04:10:58.911104+00:00",
+    "updated_at": "2026-09-20T16:43:22.017145+00:00",
     "updated_source": "MuAPI edit"
    },
    "status": {
@@ -1136,13 +638,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-next-20260920-aston-martin-db5-90cace4536fd-current.jpg",
+   "preview": "assets/studio-next-20260920-aston-martin-db5-b6ca9aa0bdc0-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
-   "source_file": "pipeline/studio-refine-20260920/details/composites/aston-martin-db5-detail-edit.png",
-   "source_sha256": "90cace4536fddb19d62fb161085747066c869f42610a8f10471b71c566b41e43",
+   "source_file": "pipeline/studio-execute-20260920/details/composites/aston-martin-db5-region-edit.png",
+   "source_sha256": "b6ca9aa0bdc043636612227d373d7dac5138ff33500ea993267777e34a60766a",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -1213,6 +715,37 @@
       }
      ],
      "target_id": "db5-front-badges"
+    },
+    {
+     "role": "edit",
+     "request_id": "7f0445d5-cf2a-419b-878c-d691983aab5d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T16:46:25.754213+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ac99966814bb44139e93f7b9cef0a591.png",
+     "page_url": "https://muapi.ai/predictions/7f0445d5-cf2a-419b-878c-d691983aab5d",
+     "references": [
+      {
+       "role": "Edit context crop",
+       "url": "https://cdn.muapi.ai/outputs/generated/98a353269baf4d838ead4a4568e40295.png"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/b89ba35de8d94c16a2d62a4a8e9dbaea_16.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/1d73d49aaf504a4aafa1eae8139d066e_080.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/f202f5fa42ce401b81ef085b337c79c6_100.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/73ea7e7b9ff54e3d8707dad2071c7ae8_072.webp"
+      }
+     ],
+     "target_id": "db5-grille-region"
     }
    ],
    "recommendation_override": {
@@ -1221,9 +754,9 @@
    },
    "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
    "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
-   "full_source_url": "full/90cace4536fd-studio-next-20260920-aston-martin-db5.png",
-   "full_source_sha256": "90cace4536fddb19d62fb161085747066c869f42610a8f10471b71c566b41e43",
-   "full_source_bytes": 11513024,
+   "full_source_url": "full/b6ca9aa0bdc0-studio-next-20260920-aston-martin-db5.png",
+   "full_source_sha256": "b6ca9aa0bdc043636612227d373d7dac5138ff33500ea993267777e34a60766a",
+   "full_source_bytes": 11492793,
    "full_source_pixels": [
     2480,
     3312
@@ -1309,12 +842,44 @@
       }
      ],
      "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "7f0445d5-cf2a-419b-878c-d691983aab5d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T16:46:25.754213+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ac99966814bb44139e93f7b9cef0a591.png",
+     "page_url": "https://muapi.ai/predictions/7f0445d5-cf2a-419b-878c-d691983aab5d",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Edit context crop",
+       "url": "https://cdn.muapi.ai/outputs/generated/98a353269baf4d838ead4a4568e40295.png"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/b89ba35de8d94c16a2d62a4a8e9dbaea_16.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/1d73d49aaf504a4aafa1eae8139d066e_080.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/f202f5fa42ce401b81ef085b337c79c6_100.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/73ea7e7b9ff54e3d8707dad2071c7ae8_072.webp"
+      }
+     ],
+     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-09-20T02:50:39.229254+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-09-20T04:10:55.546159+00:00",
+    "updated_at": "2026-09-20T16:46:25.754213+00:00",
     "updated_source": "MuAPI edit"
    },
    "status": {
@@ -1334,13 +899,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-next-20260920-bugatti-eb110-ss-855192b0a8a4-current.jpg",
+   "preview": "assets/studio-next-20260920-bugatti-eb110-ss-6433eaff303f-current.jpg",
    "preview_pixels": [
     1600,
     1198
    ],
-   "source_file": "pipeline/studio-refine-20260920/details/composites/bugatti-eb110-ss-detail-edit.png",
-   "source_sha256": "855192b0a8a46f17ca6e3ebf0cfc672ff6e8a8c61ef64f9b47b94d539dbc6c10",
+   "source_file": "pipeline/studio-execute-20260920/details/composites/bugatti-eb110-ss-region-edit.png",
+   "source_sha256": "6433eaff303f7518474899a31dbb96f6f89bdd9287dfbb5a29ed627748b7f3a6",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -1422,6 +987,60 @@
       }
      ],
      "target_id": "bugatti-side-marking"
+    },
+    {
+     "role": "edit",
+     "request_id": "3d7d77f0-c8fa-42de-913e-886116859364",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T16:46:15.417226+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/68d59db5395a430d9bfdcbaa11e61430.png",
+     "page_url": "https://muapi.ai/predictions/3d7d77f0-c8fa-42de-913e-886116859364",
+     "references": [
+      {
+       "role": "Edit context crop",
+       "url": "https://cdn.muapi.ai/outputs/generated/3704448074c040c182969caa259b92bf.png"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/580d42bf356c46ff93488b73669a1dd1_126.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/d66fa2dc0785432e9cca0357b367e5fd_14.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/3d7fe1829cba4afe97e2bdfe4e30119b_068.webp"
+      }
+     ],
+     "target_id": "bugatti-nose-region"
+    },
+    {
+     "role": "edit",
+     "request_id": "798d3077-3915-4020-b6bf-776009958320",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T16:46:20.291731+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6c2c4f4f38864f32bf84374398441867.png",
+     "page_url": "https://muapi.ai/predictions/798d3077-3915-4020-b6bf-776009958320",
+     "references": [
+      {
+       "role": "Edit context crop",
+       "url": "https://cdn.muapi.ai/outputs/generated/96c80fd5ff7a4ccfbff2a2f14464237f.png"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/d4c061d717f14bdbbcc09b6fb83c734c_16.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/88719491e7f8432d82645fdf062cc166_221.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/59adf6a8fd1e45a299778d144b6d7e0c_062.webp"
+      }
+     ],
+     "target_id": "bugatti-pillar-region"
     }
    ],
    "recommendation_override": {
@@ -1430,9 +1049,9 @@
    },
    "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
    "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
-   "full_source_url": "full/855192b0a8a4-studio-next-20260920-bugatti-eb110-ss.png",
-   "full_source_sha256": "855192b0a8a46f17ca6e3ebf0cfc672ff6e8a8c61ef64f9b47b94d539dbc6c10",
-   "full_source_bytes": 11865184,
+   "full_source_url": "full/6433eaff303f-studio-next-20260920-bugatti-eb110-ss.png",
+   "full_source_sha256": "6433eaff303f7518474899a31dbb96f6f89bdd9287dfbb5a29ed627748b7f3a6",
+   "full_source_bytes": 11865530,
    "full_source_pixels": [
     3312,
     2480
@@ -1530,12 +1149,68 @@
       }
      ],
      "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "3d7d77f0-c8fa-42de-913e-886116859364",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T16:46:15.417226+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/68d59db5395a430d9bfdcbaa11e61430.png",
+     "page_url": "https://muapi.ai/predictions/3d7d77f0-c8fa-42de-913e-886116859364",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Edit context crop",
+       "url": "https://cdn.muapi.ai/outputs/generated/3704448074c040c182969caa259b92bf.png"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/580d42bf356c46ff93488b73669a1dd1_126.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/d66fa2dc0785432e9cca0357b367e5fd_14.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/3d7fe1829cba4afe97e2bdfe4e30119b_068.webp"
+      }
+     ],
+     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "798d3077-3915-4020-b6bf-776009958320",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T16:46:20.291731+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6c2c4f4f38864f32bf84374398441867.png",
+     "page_url": "https://muapi.ai/predictions/798d3077-3915-4020-b6bf-776009958320",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Edit context crop",
+       "url": "https://cdn.muapi.ai/outputs/generated/96c80fd5ff7a4ccfbff2a2f14464237f.png"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/d4c061d717f14bdbbcc09b6fb83c734c_16.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/88719491e7f8432d82645fdf062cc166_221.webp"
+      },
+      {
+       "role": "Authentic detail reference",
+       "url": "https://cdn.muapi.ai/outputs/59adf6a8fd1e45a299778d144b6d7e0c_062.webp"
+      }
+     ],
+     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-09-20T02:50:35.896046+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-09-20T04:10:52.292332+00:00",
+    "updated_at": "2026-09-20T16:46:20.291731+00:00",
     "updated_source": "MuAPI edit"
    },
    "status": {
@@ -3134,6 +2809,164 @@
     "meaning": "Notion and the board read back and verified",
     "order": 6
    }
+  },
+  {
+   "key": "studio-next-20260920-lexus-lfa",
+   "name": "Lexus LFA",
+   "preview": "assets/studio-next-20260920-lexus-lfa.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "30901df07ca418f819ee8af1b0fc7b9ece7fa10d4dabfdbf0c8369631cc7a519",
+   "source_file": "pipeline/lean-delivery/studio-next-20260920-lexus-lfa/d238f5b7fe8b/print.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "STUDIO DI FORMA",
+   "ledger_selected_sha256": "d238f5b7fe8b6c3888f803c3ccf79dcb9842ab93fbc93ff70cff8430925e69cd",
+   "approved_source_sha256": "d238f5b7fe8b6c3888f803c3ccf79dcb9842ab93fbc93ff70cff8430925e69cd",
+   "photo_count": 9,
+   "notion_url": "https://app.notion.com/p/3e1219427f6981e89766fb99299a4096",
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-next-20260920-lexus-lfa.html",
+   "completion_verified": false,
+   "delivery_status": "Delivery finishing · prints, photos and copy prepared",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "production_evidence": "pipeline/studio-execute-20260920/production/INTEGRATION-MANIFEST.json",
+   "production": {
+    "print_jpg_sha256": "30901df07ca418f819ee8af1b0fc7b9ece7fa10d4dabfdbf0c8369631cc7a519",
+    "print_pdf_sha256": "1278373cace20df7e0041e5b7152f850a6891b6b02767b86846175fbd1778da5",
+    "approved_bytes_sha256": "d238f5b7fe8b6c3888f803c3ccf79dcb9842ab93fbc93ff70cff8430925e69cd",
+    "collection": "STUDIO DI FORMA",
+    "edition_label": "Edition of 50"
+   },
+   "delivery_note": "Prints and photos are prepared; final delivery checks are running.",
+   "full_source_url": "../artwork/30901df07ca4-studio-next-20260920-lexus-lfa.jpg",
+   "full_source_sha256": "30901df07ca418f819ee8af1b0fc7b9ece7fa10d4dabfdbf0c8369631cc7a519",
+   "full_source_bytes": 12202306,
+   "full_source_pixels": [
+    5315,
+    7087
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Studio Di Forma",
+   "edition": {
+    "limit": 50,
+    "label": "Edition of 50",
+    "series_label": "",
+    "kind": "finite_per_artwork",
+    "edition_id": "art-b96f31f0239094c474a98cb2",
+    "authority": "finite-per-artwork-2026-09-20",
+    "fixed": true
+   },
+   "collection_category": "Studio Di Forma",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Studio Di Forma",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (Edition of 50) stays as promised"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 50
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-20T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-09-20T16:54:19.690047+00:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "Prints and photos are prepared; final delivery checks are running.",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-next-20260920-de-tomaso-pantera",
+   "name": "De Tomaso Pantera",
+   "preview": "assets/studio-next-20260920-de-tomaso-pantera.jpg",
+   "preview_pixels": [
+    1600,
+    1200
+   ],
+   "source_sha256": "bd3494024d5504a812a99b9be6a85fa561c3a736ac78736ace22835f9ed4b7c8",
+   "source_file": "pipeline/lean-delivery/studio-next-20260920-de-tomaso-pantera/8d08a2df2522/print.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "STUDIO DI FORMA",
+   "ledger_selected_sha256": "8d08a2df2522308fa113c3cd13a33ce53f1c0082a3d123d6534386c3d95bdc37",
+   "approved_source_sha256": "8d08a2df2522308fa113c3cd13a33ce53f1c0082a3d123d6534386c3d95bdc37",
+   "photo_count": 9,
+   "notion_url": "https://app.notion.com/p/3e1219427f69818989f1cfb6157993e1",
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-next-20260920-de-tomaso-pantera.html",
+   "completion_verified": false,
+   "delivery_status": "Delivery finishing · prints, photos and copy prepared",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "production_evidence": "pipeline/studio-execute-20260920/production/INTEGRATION-MANIFEST.json",
+   "production": {
+    "print_jpg_sha256": "bd3494024d5504a812a99b9be6a85fa561c3a736ac78736ace22835f9ed4b7c8",
+    "print_pdf_sha256": "3878661976e4f9632d3694daa70b8700e74c0f70a5a66f74a871ada4b86145f9",
+    "approved_bytes_sha256": "8d08a2df2522308fa113c3cd13a33ce53f1c0082a3d123d6534386c3d95bdc37",
+    "collection": "STUDIO DI FORMA",
+    "edition_label": "Edition of 50"
+   },
+   "delivery_note": "Prints and photos are prepared; final delivery checks are running.",
+   "full_source_url": "../artwork/bd3494024d55-studio-next-20260920-de-tomaso-pantera.jpg",
+   "full_source_sha256": "bd3494024d5504a812a99b9be6a85fa561c3a736ac78736ace22835f9ed4b7c8",
+   "full_source_bytes": 17708814,
+   "full_source_pixels": [
+    9449,
+    7087
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Studio Di Forma",
+   "edition": {
+    "limit": 50,
+    "label": "Edition of 50",
+    "series_label": "",
+    "kind": "finite_per_artwork",
+    "edition_id": "art-365961f8332ecc3fe2d41c75",
+    "authority": "finite-per-artwork-2026-09-20",
+    "fixed": true
+   },
+   "collection_category": "Studio Di Forma",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Studio Di Forma",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (Edition of 50) stays as promised"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 50
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-20T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-09-20T16:54:22.042469+00:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "Prints and photos are prepared; final delivery checks are running.",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
   }
  ],
  "excluded_keys": [
@@ -3169,9 +3002,9 @@
  "stage1_candidates": [
   {
    "key": "studio-next-20260920-bugatti-eb110-ss",
-   "declared_sha256": "855192b0a8a46f17ca6e3ebf0cfc672ff6e8a8c61ef64f9b47b94d539dbc6c10",
+   "declared_sha256": "6433eaff303f7518474899a31dbb96f6f89bdd9287dfbb5a29ed627748b7f3a6",
    "applied": true,
-   "preview": "assets/studio-next-20260920-bugatti-eb110-ss-855192b0a8a4-current.jpg",
+   "preview": "assets/studio-next-20260920-bugatti-eb110-ss-6433eaff303f-current.jpg",
    "pixels": [
     3312,
     2480
@@ -3179,9 +3012,9 @@
   },
   {
    "key": "studio-next-20260920-aston-martin-db5",
-   "declared_sha256": "90cace4536fddb19d62fb161085747066c869f42610a8f10471b71c566b41e43",
+   "declared_sha256": "b6ca9aa0bdc043636612227d373d7dac5138ff33500ea993267777e34a60766a",
    "applied": true,
-   "preview": "assets/studio-next-20260920-aston-martin-db5-90cace4536fd-current.jpg",
+   "preview": "assets/studio-next-20260920-aston-martin-db5-b6ca9aa0bdc0-current.jpg",
    "pixels": [
     2480,
     3312
@@ -3190,28 +3023,20 @@
   {
    "key": "studio-next-20260920-lexus-lfa",
    "declared_sha256": "d238f5b7fe8b6c3888f803c3ccf79dcb9842ab93fbc93ff70cff8430925e69cd",
-   "applied": true,
-   "preview": "assets/studio-next-20260920-lexus-lfa-d238f5b7fe8b-current.jpg",
-   "pixels": [
-    2480,
-    3312
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-next-20260920-de-tomaso-pantera",
    "declared_sha256": "8d08a2df2522308fa113c3cd13a33ce53f1c0082a3d123d6534386c3d95bdc37",
-   "applied": true,
-   "preview": "assets/studio-next-20260920-de-tomaso-pantera-8d08a2df2522-current.jpg",
-   "pixels": [
-    3312,
-    2480
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-next-20260920-mercedes-clk-gtr",
-   "declared_sha256": "3833132e7e475503fc70a1a04f0b5651fe26bf912ebcd754788f2e6a35123745",
+   "declared_sha256": "8649b9ee673c2f62042dcb58620501d5511e7aa8e93966912411dc69c360cb95",
    "applied": true,
-   "preview": "assets/studio-next-20260920-mercedes-clk-gtr-3833132e7e47-current.jpg",
+   "preview": "assets/studio-next-20260920-mercedes-clk-gtr-8649b9ee673c-current.jpg",
    "pixels": [
     3312,
     2480

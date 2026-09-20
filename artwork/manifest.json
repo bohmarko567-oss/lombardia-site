@@ -1,5 +1,5 @@
 {
- "built": "2026-09-20T03:18:32.343071+00:00",
+ "built": "2026-09-20T17:00:38.805759+00:00",
  "items": [
   {
    "key": "911-carrera-rs27-1973-sport-white-45x60",
@@ -39,6 +39,19 @@
    "format": "JPEG",
    "source": "pipeline/lean-delivery/batch12-bmw-30-csl/ef868240ca4f/print.jpg",
    "evidence": "lean delivery print.jpg for selected native ef868240ca4f; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
+  },
+  {
+   "key": "batch12-ferrari-testarossa",
+   "file": "artwork/55dadb721a56-batch12-ferrari-testarossa.jpg",
+   "sha256": "55dadb721a56281d16842bec07a565a7952fce26f1f9d761d5607d6ae7e31ae5",
+   "bytes": 10671151,
+   "px": [
+    9448,
+    7086
+   ],
+   "format": "JPEG",
+   "source": "pipeline/lean-delivery/batch12-ferrari-testarossa/4fbc59b34940/print.jpg",
+   "evidence": "lean delivery print.jpg for selected native 4fbc59b34940; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
   },
   {
    "key": "batch12-mercedes-190e-evo2",
@@ -104,6 +117,19 @@
    "format": "JPEG",
    "source": "sheets/scale-18/miura-p400sv-1971-gran-turismo-white-80x60.jpg",
    "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)"
+  },
+  {
+   "key": "new-era-20260913-lamborghini-diablo",
+   "file": "artwork/046edf9acfa6-new-era-20260913-lamborghini-diablo.jpg",
+   "sha256": "046edf9acfa6cd247d71151dd5d3194d176b829b9369d622da09a373b7b4df89",
+   "bytes": 13569738,
+   "px": [
+    5315,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/lean-delivery/new-era-20260913-lamborghini-diablo/3167dcb09cb4/print.jpg",
+   "evidence": "lean delivery print.jpg for selected native 3167dcb09cb4; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
   },
   {
    "key": "new-era-20260913-mazda-rx7-fd",
@@ -249,30 +275,30 @@
    "evidence": "lean delivery print.jpg for selected native 1cf000f011bb; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
   },
   {
-   "key": "batch12-ferrari-testarossa",
-   "file": "artwork/55dadb721a56-batch12-ferrari-testarossa.jpg",
-   "sha256": "55dadb721a56281d16842bec07a565a7952fce26f1f9d761d5607d6ae7e31ae5",
-   "bytes": 10671151,
-   "px": [
-    9448,
-    7086
-   ],
-   "format": "JPEG",
-   "source": "pipeline/lean-delivery/batch12-ferrari-testarossa/4fbc59b34940/print.jpg",
-   "evidence": "lean delivery print.jpg for selected native 4fbc59b34940; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
-  },
-  {
-   "key": "new-era-20260913-lamborghini-diablo",
-   "file": "artwork/046edf9acfa6-new-era-20260913-lamborghini-diablo.jpg",
-   "sha256": "046edf9acfa6cd247d71151dd5d3194d176b829b9369d622da09a373b7b4df89",
-   "bytes": 13569738,
+   "key": "studio-next-20260920-lexus-lfa",
+   "file": "artwork/30901df07ca4-studio-next-20260920-lexus-lfa.jpg",
+   "sha256": "30901df07ca418f819ee8af1b0fc7b9ece7fa10d4dabfdbf0c8369631cc7a519",
+   "bytes": 12202306,
    "px": [
     5315,
     7087
    ],
    "format": "JPEG",
-   "source": "pipeline/lean-delivery/new-era-20260913-lamborghini-diablo/3167dcb09cb4/print.jpg",
-   "evidence": "lean delivery print.jpg for selected native 3167dcb09cb4; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
+   "source": "pipeline/lean-delivery/studio-next-20260920-lexus-lfa/d238f5b7fe8b/print.jpg",
+   "evidence": "lean delivery print.jpg for selected native d238f5b7fe8b; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
+  },
+  {
+   "key": "studio-next-20260920-de-tomaso-pantera",
+   "file": "artwork/bd3494024d55-studio-next-20260920-de-tomaso-pantera.jpg",
+   "sha256": "bd3494024d5504a812a99b9be6a85fa561c3a736ac78736ace22835f9ed4b7c8",
+   "bytes": 17708814,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/lean-delivery/studio-next-20260920-de-tomaso-pantera/8d08a2df2522/print.jpg",
+   "evidence": "lean delivery print.jpg for selected native 8d08a2df2522; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
   }
  ]
 }
