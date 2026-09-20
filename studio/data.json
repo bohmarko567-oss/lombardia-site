@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-09-20 04:16",
+ "built": "2026-09-20 05:12",
  "accessed_date": "2026-09-20",
  "collections": [
   "American Form",
@@ -19,53 +19,420 @@
  "new_collection_default_edition": 77,
  "new_option": "__new__",
  "recommendation_note": "Per-item `recommendation` is the agent's suggestion (owner request 2870dca4, 20 September 2026): shown as 'recommended', never assigned. Per-item `edition` is the ledger's fixed edition; a collection choice never changes it (EDITION-POLICY.md). A New / Other choice is an owner proposal carried in the request as proposed_collection; it migrates nothing by itself.",
+ "statuses": [
+  {
+   "code": "review",
+   "label": "Your review",
+   "tone": "wait",
+   "meaning": "a new hero or a finished edit waits for your word"
+  },
+  {
+   "code": "collection",
+   "label": "Choose a collection",
+   "tone": "wait",
+   "meaning": "artwork approved; the lot waits for your collection choice"
+  },
+  {
+   "code": "pending",
+   "label": "Waiting for your word",
+   "tone": "wait",
+   "meaning": "nothing approved yet"
+  },
+  {
+   "code": "edit",
+   "label": "Edit in progress",
+   "tone": "tint",
+   "meaning": "the agent is working on what you sent back"
+  },
+  {
+   "code": "production",
+   "label": "Lot in production",
+   "tone": "tint",
+   "meaning": "approved; prints, photos, copy and Notion being built"
+  },
+  {
+   "code": "photos",
+   "label": "Photos being rebuilt",
+   "tone": "tint",
+   "meaning": "the nine photographs are being redone"
+  },
+  {
+   "code": "ready",
+   "label": "Ready · delivered",
+   "tone": "keep",
+   "meaning": "Notion and the board read back and verified"
+  },
+  {
+   "code": "listed",
+   "label": "On Catawiki",
+   "tone": "ink",
+   "meaning": "uploaded to the marketplace"
+  },
+  {
+   "code": "rejected",
+   "label": "Sent back",
+   "tone": "drop",
+   "meaning": "you retired this artwork"
+  }
+ ],
+ "sort_default": "newest",
+ "sorts": [
+  "newest",
+  "oldest",
+  "collection"
+ ],
+ "muapi_history_url": "https://muapi.ai/predictions",
+ "muapi_generation_page": "https://muapi.ai/predictions/{request_id}",
+ "muapi_note": "generation page_url is filled only from board.config.json muapi_generation_page; result_url is the CDN file, never presented as the page",
  "items": [
   {
-   "key": "new-era-20260913-lamborghini-diablo",
-   "name": "Lamborghini Diablo",
+   "key": "studio-next-20260920-mercedes-clk-gtr",
+   "name": "Mercedes-Benz CLK GTR",
    "notion_url": null,
    "board_url": null,
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/new-era-20260913-lamborghini-diablo-current.jpg",
+   "preview": "assets/studio-next-20260920-mercedes-clk-gtr-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-next-20260920/heroes/mercedes-clk-gtr/attempt1-native.png",
+   "source_sha256": "f5770f9dcff7944ea5f52637b824a3a5bf49e7df7a32b5b6d9ebd442830826d8",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-09-20T02:50:49.320971+00:00",
+   "review_url": "https://cdn.muapi.ai/outputs/generated/2b5a60b1202e438fa90359e49a9ede1b.png",
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "db101069-2efc-4131-8569-f1a21fbc650e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T02:50:49.320971+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2b5a60b1202e438fa90359e49a9ede1b.png",
+     "page_url": "https://muapi.ai/predictions/db101069-2efc-4131-8569-f1a21fbc650e",
+     "references": [
+      {
+       "role": "Low front/side three-quarter: actual road coupe silhouette, wing and wheels",
+       "url": "https://cdn.muapi.ai/outputs/1ef81dcc66bc4cb79b198dd5d1fe941e_01.webp"
+      },
+      {
+       "role": "Rear three-quarter: road rear fascia and integral wing",
+       "url": "https://cdn.muapi.ai/outputs/87009a826126408a95015de58624ab9f_06.webp"
+      },
+      {
+       "role": "Full side geometry, roof scoop and huge rear wing",
+       "url": "https://cdn.muapi.ai/outputs/e5e75c5f41c847c3bb311b3ec5b50551_12.webp"
+      },
+      {
+       "role": "Road front grille and Mercedes star detail",
+       "url": "https://cdn.muapi.ai/outputs/8a192fd6c8ca45148214d7bc44cedc1c_14.webp"
+      },
+      {
+       "role": "Rear lamp, AMG badge and rear-wing construction",
+       "url": "https://cdn.muapi.ai/outputs/055fc389072a4d13989e8a7952f88296_16.webp"
+      },
+      {
+       "role": "Road car cabin; supporting reference only",
+       "url": "https://cdn.muapi.ai/outputs/aa7d9f06e9604f55bbf3a29710bbaac9_10.webp"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Sport / Leicht",
+    "why": "Suggested from the authored central idea; your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
+   "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
+   "full_source_url": "full/f5770f9dcff7-studio-next-20260920-mercedes-clk-gtr.png",
+   "full_source_sha256": "f5770f9dcff7944ea5f52637b824a3a5bf49e7df7a32b5b6d9ebd442830826d8",
+   "full_source_bytes": 12430340,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Suggested from the authored central idea; your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "db101069-2efc-4131-8569-f1a21fbc650e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T02:50:49.320971+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2b5a60b1202e438fa90359e49a9ede1b.png",
+     "page_url": "https://muapi.ai/predictions/db101069-2efc-4131-8569-f1a21fbc650e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Low front/side three-quarter: actual road coupe silhouette, wing and wheels",
+       "url": "https://cdn.muapi.ai/outputs/1ef81dcc66bc4cb79b198dd5d1fe941e_01.webp"
+      },
+      {
+       "role": "Rear three-quarter: road rear fascia and integral wing",
+       "url": "https://cdn.muapi.ai/outputs/87009a826126408a95015de58624ab9f_06.webp"
+      },
+      {
+       "role": "Full side geometry, roof scoop and huge rear wing",
+       "url": "https://cdn.muapi.ai/outputs/e5e75c5f41c847c3bb311b3ec5b50551_12.webp"
+      },
+      {
+       "role": "Road front grille and Mercedes star detail",
+       "url": "https://cdn.muapi.ai/outputs/8a192fd6c8ca45148214d7bc44cedc1c_14.webp"
+      },
+      {
+       "role": "Rear lamp, AMG badge and rear-wing construction",
+       "url": "https://cdn.muapi.ai/outputs/055fc389072a4d13989e8a7952f88296_16.webp"
+      },
+      {
+       "role": "Road car cabin; supporting reference only",
+       "url": "https://cdn.muapi.ai/outputs/aa7d9f06e9604f55bbf3a29710bbaac9_10.webp"
+      }
+     ],
+     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-20T02:50:49.320971+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-20T02:50:49.320971+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-next-20260920-de-tomaso-pantera",
+   "name": "De Tomaso Pantera",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-next-20260920-de-tomaso-pantera-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-next-20260920/heroes/de-tomaso-pantera/attempt1-native.png",
+   "source_sha256": "082b4c74fe6a619e4b88a9034ea94a82683ccfd33f4bc31ad3b02bf11f9f5498",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-09-20T02:50:45.932260+00:00",
+   "review_url": "https://cdn.muapi.ai/outputs/generated/ac90a13ae998454b8e228fb38170ce50.png",
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "678162fc-dd25-4676-93d1-92ab18d710ab",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T02:50:45.932260+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ac90a13ae998454b8e228fb38170ce50.png",
+     "page_url": "https://muapi.ai/predictions/678162fc-dd25-4676-93d1-92ab18d710ab",
+     "references": [
+      {
+       "role": "Front three-quarter: early silver Pantera body; reference car wheel design is not asserted original",
+       "url": "https://cdn.muapi.ai/outputs/8ddf811867a943b8bea80facf1cd9138_01.webp"
+      },
+      {
+       "role": "Rear three-quarter: early rear body, lamps and bumper",
+       "url": "https://cdn.muapi.ai/outputs/8ae99cc244844bf9b9f6169afc431b72_06.webp"
+      },
+      {
+       "role": "Side profile: wedge proportion and roofline",
+       "url": "https://cdn.muapi.ai/outputs/d2cde2f3300a4e34819666e86d3a9129_12.webp"
+      },
+      {
+       "role": "Front grille and actual De Tomaso emblem placement",
+       "url": "https://cdn.muapi.ai/outputs/a2cdb96b0a104a44a06f96882bd7dd18_14.webp"
+      },
+      {
+       "role": "Pantera script and rear light detail",
+       "url": "https://cdn.muapi.ai/outputs/a0eda6d5fff84073af03a9b8dd6dd303_16.webp"
+      },
+      {
+       "role": "Black cabin geometry",
+       "url": "https://cdn.muapi.ai/outputs/5a185bf6d1e14edc93974c0a1caac9f0_10.webp"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Studio Di Forma",
+    "why": "Suggested from the authored central idea; your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
+   "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
+   "full_source_url": "full/082b4c74fe6a-studio-next-20260920-de-tomaso-pantera.png",
+   "full_source_sha256": "082b4c74fe6a619e4b88a9034ea94a82683ccfd33f4bc31ad3b02bf11f9f5498",
+   "full_source_bytes": 11680614,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Studio Di Forma",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Suggested from the authored central idea; your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 50
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "678162fc-dd25-4676-93d1-92ab18d710ab",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T02:50:45.932260+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ac90a13ae998454b8e228fb38170ce50.png",
+     "page_url": "https://muapi.ai/predictions/678162fc-dd25-4676-93d1-92ab18d710ab",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter: early silver Pantera body; reference car wheel design is not asserted original",
+       "url": "https://cdn.muapi.ai/outputs/8ddf811867a943b8bea80facf1cd9138_01.webp"
+      },
+      {
+       "role": "Rear three-quarter: early rear body, lamps and bumper",
+       "url": "https://cdn.muapi.ai/outputs/8ae99cc244844bf9b9f6169afc431b72_06.webp"
+      },
+      {
+       "role": "Side profile: wedge proportion and roofline",
+       "url": "https://cdn.muapi.ai/outputs/d2cde2f3300a4e34819666e86d3a9129_12.webp"
+      },
+      {
+       "role": "Front grille and actual De Tomaso emblem placement",
+       "url": "https://cdn.muapi.ai/outputs/a2cdb96b0a104a44a06f96882bd7dd18_14.webp"
+      },
+      {
+       "role": "Pantera script and rear light detail",
+       "url": "https://cdn.muapi.ai/outputs/a0eda6d5fff84073af03a9b8dd6dd303_16.webp"
+      },
+      {
+       "role": "Black cabin geometry",
+       "url": "https://cdn.muapi.ai/outputs/5a185bf6d1e14edc93974c0a1caac9f0_10.webp"
+      }
+     ],
+     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-20T02:50:45.932260+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-20T02:50:45.932260+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-next-20260920-lexus-lfa",
+   "name": "Lexus LFA",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-next-20260920-lexus-lfa-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
-   "source_file": "pipeline/studio-comments-20260920/edits/diablo/lamborghini-diablo-studio-edit-r2.png",
-   "source_sha256": "3167dcb09cb445e7be022a4b841d591bc2b536e1f8f7ba39a54398661bf54120",
+   "source_file": "pipeline/studio-next-20260920/heroes/lexus-lfa/attempt1-native.png",
+   "source_sha256": "a006841ea68b789d637a68f633c4f2e2f532fcf35b62d2dbdaf624824b0d485b",
    "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "collection_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "approval_evidence": "Owner current goal, relayed by root 2026-09-20: latest Porsche / Diablo / RX7 good enough; approved artwork, owner collection choice pending.",
    "delivery_status": "Lot follows your approval",
-   "delivery_evidence": null,
-   "delivery_verified_at": null,
-   "previous_master_sha256": "00b052e750de29ad98007279c224ebc5e5f078386184bc6ac3c1d66869d594c0",
-   "hero_edit_pending": true,
-   "review_url": "https://cdn.muapi.ai/outputs/generated/dd8e77256cef4b1290f492a010155523.jpg",
-   "edit": {
-    "candidate": "studio-edit-r2",
-    "request_id": "75443711-d07d-4531-ab39-e2492b31f741",
-    "owner_note": "Bonnet logo and closest wheel cap logo arent clear, make them proper.",
-    "replaces_sha256": "00b052e750de29ad98007279c224ebc5e5f078386184bc6ac3c1d66869d594c0",
-    "targets": [
-     "nose emblem",
-     "front (nearest) wheel-cap emblem"
-    ],
-    "muapi_result_urls": [
-     "https://cdn.muapi.ai/outputs/generated/229c743aff5e434c91dcae1b1166e047.png",
-     "https://cdn.muapi.ai/outputs/generated/f965d69dbe8242aa86a6f43d9d7c2e6d.png"
-    ],
-    "receipt": "pipeline/studio-comments-20260920/edits/diablo/receipt.json",
-    "provenance": "pipeline/studio-comments-20260920/edits/diablo/provenance.json",
-    "outside_masks_pixel_identical": true,
-    "status": "edited candidate awaiting the owner's visual review; not approved, not a lot"
+   "candidate_created_at": "2026-09-20T02:50:42.570081+00:00",
+   "review_url": "https://cdn.muapi.ai/outputs/generated/11cfd235ab6949d4b73702d2bfb99583.png",
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "4c40280e-32f6-4b63-a3a3-03e5028a120f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T02:50:42.570081+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/11cfd235ab6949d4b73702d2bfb99583.png",
+     "page_url": "https://muapi.ai/predictions/4c40280e-32f6-4b63-a3a3-03e5028a120f",
+     "references": [
+      {
+       "role": "Front three-quarter: standard red LFA body, wheels, lamps and side intake",
+       "url": "https://cdn.muapi.ai/outputs/93a94e79f168423cbdd92158cc32d812_01.webp"
+      },
+      {
+       "role": "Rear three-quarter: standard production rear and triangular exhaust geometry",
+       "url": "https://cdn.muapi.ai/outputs/5d8f8ab992e54e58a5020a471fcfea93_06.webp"
+      },
+      {
+       "role": "Left side profile and wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/9055b48eda3240638cf30f0a2268dc16_12.webp"
+      },
+      {
+       "role": "Front face: headlamps, bonnet vent and triangular ducts",
+       "url": "https://cdn.muapi.ai/outputs/0bd9b5254b92474ab5e2650c9660662b_16.webp"
+      },
+      {
+       "role": "Authentic cabin seats and dashboard/glass relation",
+       "url": "https://cdn.muapi.ai/outputs/569cb398def0467799c31ab11f956ebb_10.webp"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Forma / Motion",
+    "why": "Suggested from the authored central idea; your collection choice is final."
    },
-   "full_source_url": "full/3167dcb09cb4-new-era-20260913-lamborghini-diablo.png",
-   "full_source_sha256": "3167dcb09cb445e7be022a4b841d591bc2b536e1f8f7ba39a54398661bf54120",
-   "full_source_bytes": 12263512,
+   "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
+   "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
+   "full_source_url": "full/a006841ea68b-studio-next-20260920-lexus-lfa.png",
+   "full_source_sha256": "a006841ea68b789d637a68f633c4f2e2f532fcf35b62d2dbdaf624824b0d485b",
+   "full_source_bytes": 13571772,
    "full_source_pixels": [
     2480,
     3312
@@ -74,17 +441,350 @@
    "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
    "collection_choice": "",
    "edition": null,
+   "collection_category": null,
    "recommendation": {
     "kind": "existing",
-    "collection": "Studio Di Forma",
+    "collection": "Forma / Motion",
     "new": {
      "name": "",
      "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; adjust it if you have a reason"
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
     },
-    "why": "a wedge lit as an object in a dark studio: a form study, next to the Testarossa you put there",
+    "why": "Suggested from the authored central idea; your collection choice is final.",
     "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 50
+    "collection_default_edition": 100
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "4c40280e-32f6-4b63-a3a3-03e5028a120f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T02:50:42.570081+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/11cfd235ab6949d4b73702d2bfb99583.png",
+     "page_url": "https://muapi.ai/predictions/4c40280e-32f6-4b63-a3a3-03e5028a120f",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter: standard red LFA body, wheels, lamps and side intake",
+       "url": "https://cdn.muapi.ai/outputs/93a94e79f168423cbdd92158cc32d812_01.webp"
+      },
+      {
+       "role": "Rear three-quarter: standard production rear and triangular exhaust geometry",
+       "url": "https://cdn.muapi.ai/outputs/5d8f8ab992e54e58a5020a471fcfea93_06.webp"
+      },
+      {
+       "role": "Left side profile and wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/9055b48eda3240638cf30f0a2268dc16_12.webp"
+      },
+      {
+       "role": "Front face: headlamps, bonnet vent and triangular ducts",
+       "url": "https://cdn.muapi.ai/outputs/0bd9b5254b92474ab5e2650c9660662b_16.webp"
+      },
+      {
+       "role": "Authentic cabin seats and dashboard/glass relation",
+       "url": "https://cdn.muapi.ai/outputs/569cb398def0467799c31ab11f956ebb_10.webp"
+      }
+     ],
+     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-20T02:50:42.570081+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-20T02:50:42.570081+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-next-20260920-aston-martin-db5",
+   "name": "Aston Martin DB5",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-next-20260920-aston-martin-db5-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-next-20260920/heroes/aston-martin-db5/attempt1-native.png",
+   "source_sha256": "d7e905fe3032bc68e3e08ba1042e82a57695247d61996930081c0b648e692d8e",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-09-20T02:50:39.229254+00:00",
+   "review_url": "https://cdn.muapi.ai/outputs/generated/f3683d2592f541b0bcc4c3a6a98484f3.png",
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "7c975c7a-ca18-4354-af7d-185e0baee279",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T02:50:39.229254+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f3683d2592f541b0bcc4c3a6a98484f3.png",
+     "page_url": "https://muapi.ai/predictions/7c975c7a-ca18-4354-af7d-185e0baee279",
+     "references": [
+      {
+       "role": "Front three-quarter: actual Black Pearl DB5 geometry and chrome wire wheels",
+       "url": "https://cdn.muapi.ai/outputs/303403c98c59472dbfb8878c8c826588_01.webp"
+      },
+      {
+       "role": "Rear three-quarter: saloon roof and rear lamp/body shapes",
+       "url": "https://cdn.muapi.ai/outputs/ee54a5cded6e44ad9f093c4698bf541d_06.webp"
+      },
+      {
+       "role": "Side profile: wheelbase, cabin length and side vent",
+       "url": "https://cdn.muapi.ai/outputs/d91b4049b8254467933f4b7be5885b5c_12.webp"
+      },
+      {
+       "role": "Aston Martin wing badge detail",
+       "url": "https://cdn.muapi.ai/outputs/217903cf40644ce7896aabb81ad83630_14.webp"
+      },
+      {
+       "role": "Front face: grille, lamps, bonnet intake and bumper",
+       "url": "https://cdn.muapi.ai/outputs/ee2050252ea04883a1cbaf8a650eeeea_16.webp"
+      },
+      {
+       "role": "Fawn interior and wood-rim wheel behind glass",
+       "url": "https://cdn.muapi.ai/outputs/248a58c6e36f4a6ba8fdd5141700dacc_10.webp"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Gran Turismo",
+    "why": "Suggested from the authored central idea; your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
+   "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
+   "full_source_url": "full/d7e905fe3032-studio-next-20260920-aston-martin-db5.png",
+   "full_source_sha256": "d7e905fe3032bc68e3e08ba1042e82a57695247d61996930081c0b648e692d8e",
+   "full_source_bytes": 12329040,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Gran Turismo",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Suggested from the authored central idea; your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "7c975c7a-ca18-4354-af7d-185e0baee279",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T02:50:39.229254+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f3683d2592f541b0bcc4c3a6a98484f3.png",
+     "page_url": "https://muapi.ai/predictions/7c975c7a-ca18-4354-af7d-185e0baee279",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter: actual Black Pearl DB5 geometry and chrome wire wheels",
+       "url": "https://cdn.muapi.ai/outputs/303403c98c59472dbfb8878c8c826588_01.webp"
+      },
+      {
+       "role": "Rear three-quarter: saloon roof and rear lamp/body shapes",
+       "url": "https://cdn.muapi.ai/outputs/ee54a5cded6e44ad9f093c4698bf541d_06.webp"
+      },
+      {
+       "role": "Side profile: wheelbase, cabin length and side vent",
+       "url": "https://cdn.muapi.ai/outputs/d91b4049b8254467933f4b7be5885b5c_12.webp"
+      },
+      {
+       "role": "Aston Martin wing badge detail",
+       "url": "https://cdn.muapi.ai/outputs/217903cf40644ce7896aabb81ad83630_14.webp"
+      },
+      {
+       "role": "Front face: grille, lamps, bonnet intake and bumper",
+       "url": "https://cdn.muapi.ai/outputs/ee2050252ea04883a1cbaf8a650eeeea_16.webp"
+      },
+      {
+       "role": "Fawn interior and wood-rim wheel behind glass",
+       "url": "https://cdn.muapi.ai/outputs/248a58c6e36f4a6ba8fdd5141700dacc_10.webp"
+      }
+     ],
+     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-20T02:50:39.229254+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-20T02:50:39.229254+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-next-20260920-bugatti-eb110-ss",
+   "name": "Bugatti EB110 Super Sport",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-next-20260920-bugatti-eb110-ss-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-next-20260920/heroes/bugatti-eb110-ss/attempt1-native.png",
+   "source_sha256": "e4f30452277591a90a474c94c6f787c9769d5ade7c1073e00ac3068afabfd00e",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-09-20T02:50:35.896046+00:00",
+   "review_url": "https://cdn.muapi.ai/outputs/generated/c1e6f563d0f644d6a10f9144ebb194c6.png",
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "d73bcb7d-f482-4719-b5ba-5b32480c4f97",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T02:50:35.896046+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c1e6f563d0f644d6a10f9144ebb194c6.png",
+     "page_url": "https://muapi.ai/predictions/d73bcb7d-f482-4719-b5ba-5b32480c4f97",
+     "references": [
+      {
+       "role": "Full front three-quarter: authentic silver Super Sport body, lamps, wheels and fixed rear wing",
+       "url": "https://cdn.muapi.ai/outputs/d926dc5e597c424bbd92819d79822702_01.webp"
+      },
+      {
+       "role": "Elevated rear three-quarter: rear wing, deck, canopy, side cut-outs",
+       "url": "https://cdn.muapi.ai/outputs/803353a214ea46d3a836ee78f0e4574b_06.webp"
+      },
+      {
+       "role": "True side proportion and wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/2f16cbab52f14e5ca116e3ab75b92b88_12.webp"
+      },
+      {
+       "role": "Authentic oval Bugatti nose emblem",
+       "url": "https://cdn.muapi.ai/outputs/41f17a46772d42d4bda4444243c0224a_14.webp"
+      },
+      {
+       "role": "Super Sport rear-quarter holes and model marking",
+       "url": "https://cdn.muapi.ai/outputs/57de3223881a4d46856cd203cc342e4d_16.webp"
+      },
+      {
+       "role": "Interior/glass construction, supporting evidence only",
+       "url": "https://cdn.muapi.ai/outputs/d7a7008df789485fa5672bcd6ed0ba90_10.webp"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Forma / Motion",
+    "why": "Suggested from the authored central idea; your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
+   "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
+   "full_source_url": "full/e4f304522775-studio-next-20260920-bugatti-eb110-ss.png",
+   "full_source_sha256": "e4f30452277591a90a474c94c6f787c9769d5ade7c1073e00ac3068afabfd00e",
+   "full_source_bytes": 12268492,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Forma / Motion",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Suggested from the authored central idea; your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 100
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "d73bcb7d-f482-4719-b5ba-5b32480c4f97",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T02:50:35.896046+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c1e6f563d0f644d6a10f9144ebb194c6.png",
+     "page_url": "https://muapi.ai/predictions/d73bcb7d-f482-4719-b5ba-5b32480c4f97",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Full front three-quarter: authentic silver Super Sport body, lamps, wheels and fixed rear wing",
+       "url": "https://cdn.muapi.ai/outputs/d926dc5e597c424bbd92819d79822702_01.webp"
+      },
+      {
+       "role": "Elevated rear three-quarter: rear wing, deck, canopy, side cut-outs",
+       "url": "https://cdn.muapi.ai/outputs/803353a214ea46d3a836ee78f0e4574b_06.webp"
+      },
+      {
+       "role": "True side proportion and wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/2f16cbab52f14e5ca116e3ab75b92b88_12.webp"
+      },
+      {
+       "role": "Authentic oval Bugatti nose emblem",
+       "url": "https://cdn.muapi.ai/outputs/41f17a46772d42d4bda4444243c0224a_14.webp"
+      },
+      {
+       "role": "Super Sport rear-quarter holes and model marking",
+       "url": "https://cdn.muapi.ai/outputs/57de3223881a4d46856cd203cc342e4d_16.webp"
+      },
+      {
+       "role": "Interior/glass construction, supporting evidence only",
+       "url": "https://cdn.muapi.ai/outputs/d7a7008df789485fa5672bcd6ed0ba90_10.webp"
+      }
+     ],
+     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-20T02:50:35.896046+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-20T02:50:35.896046+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
    }
   },
   {
@@ -120,17 +820,33 @@
    "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
    "collection_choice": "",
    "edition": null,
+   "collection_category": "Studio Di Forma",
    "recommendation": {
     "kind": "existing",
     "collection": "Studio Di Forma",
     "new": {
      "name": "",
      "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; adjust it if you have a reason"
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
     },
     "why": "its printed series is Studio di Forma",
     "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
     "collection_default_edition": 50
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-09T00:00:00+00:00",
+    "created_source": "artwork approval",
+    "updated_at": "2026-09-09T00:00:00+00:00",
+    "updated_source": "ledger history"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
    }
   },
   {
@@ -173,17 +889,33 @@
     "authority": "Owner; verified submitted title on 2026-09-10",
     "fixed": true
    },
+   "collection_category": "Studio Di Forma",
    "recommendation": {
     "kind": "existing",
     "collection": "Studio Di Forma",
     "new": {
      "name": "",
-     "edition": 50,
-     "edition_reason": "this artwork's edition is fixed at 50 and a collection choice never changes it"
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (1of50) stays as promised"
     },
     "why": "its printed series is Studio di Forma; edition 1of50 stays",
     "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
     "collection_default_edition": 50
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-09T00:00:00+00:00",
+    "created_source": "artwork approval",
+    "updated_at": "2026-09-19T00:00:00+00:00",
+    "updated_source": "ledger history"
+   },
+   "status": {
+    "code": "listed",
+    "label": "On Catawiki",
+    "tone": "ink",
+    "detail": "live · lot 106752329",
+    "meaning": "uploaded to the marketplace",
+    "order": 7
    }
   },
   {
@@ -226,17 +958,33 @@
     "authority": "Owner; verified submitted title on 2026-09-10",
     "fixed": true
    },
+   "collection_category": "Gran Turismo",
    "recommendation": {
     "kind": "existing",
     "collection": "Gran Turismo",
     "new": {
      "name": "",
      "edition": 77,
-     "edition_reason": "this artwork's edition is fixed at 77 and a collection choice never changes it"
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (1of77) stays as promised"
     },
     "why": "the grand tourer itself; printed series Gran Turismo, edition 1of77 stays",
     "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
     "collection_default_edition": 77
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-09T00:00:00+00:00",
+    "created_source": "artwork approval",
+    "updated_at": "2026-09-10T00:00:00+00:00",
+    "updated_source": "ledger history"
+   },
+   "status": {
+    "code": "listed",
+    "label": "On Catawiki",
+    "tone": "ink",
+    "detail": "approved · lot 106752475",
+    "meaning": "uploaded to the marketplace",
+    "order": 7
    }
   },
   {
@@ -279,17 +1027,33 @@
     "authority": "Owner; verified submitted title on 2026-09-10",
     "fixed": true
    },
+   "collection_category": "Forma / Sculpture",
    "recommendation": {
     "kind": "existing",
     "collection": "Gran Turismo",
     "new": {
      "name": "Forma / Sculpture",
-     "edition": 100,
-     "edition_reason": "this artwork's edition is fixed at 100 and a collection choice never changes it"
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (1of100) stays as promised"
     },
     "why": "a long-bonnet grand tourer drawn as one long line; the artwork carries FORMA / SCULPTURE, which is not one of the five, so New / Other can keep that name",
     "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
     "collection_default_edition": 77
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-09T00:00:00+00:00",
+    "created_source": "artwork approval",
+    "updated_at": "2026-09-10T00:00:00+00:00",
+    "updated_source": "ledger history"
+   },
+   "status": {
+    "code": "listed",
+    "label": "On Catawiki",
+    "tone": "ink",
+    "detail": "approved · lot 106752592",
+    "meaning": "uploaded to the marketplace",
+    "order": 7
    }
   },
   {
@@ -332,16 +1096,32 @@
     "authority": "Owner; verified submitted title on 2026-09-10",
     "fixed": true
    },
+   "collection_category": "Forma / Precision",
    "recommendation": {
     "kind": "new",
     "collection": null,
     "new": {
      "name": "Forma / Precision",
-     "edition": 100,
-     "edition_reason": "this artwork's edition is fixed at 100 and a collection choice never changes it"
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (1of100) stays as promised"
     },
     "why": "the artwork carries FORMA / PRECISION in print and its edition record says the same; none of the five is that name. Nearest of the five: Sport / Leicht (a small, light homologation special)",
     "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-09T00:00:00+00:00",
+    "created_source": "artwork approval",
+    "updated_at": "2026-09-10T00:00:00+00:00",
+    "updated_source": "ledger history"
+   },
+   "status": {
+    "code": "listed",
+    "label": "On Catawiki",
+    "tone": "ink",
+    "detail": "approved · lot 106752573",
+    "meaning": "uploaded to the marketplace",
+    "order": 7
    }
   },
   {
@@ -384,17 +1164,33 @@
     "authority": "Owner; verified submitted title on 2026-09-10",
     "fixed": true
    },
+   "collection_category": "Forma / Motion",
    "recommendation": {
     "kind": "existing",
     "collection": "Forma / Motion",
     "new": {
      "name": "",
-     "edition": 100,
-     "edition_reason": "this artwork's edition is fixed at 100 and a collection choice never changes it"
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (1of100) stays as promised"
     },
     "why": "printed FORMA / MOTION on the artwork; the white slash is the movement",
     "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
     "collection_default_edition": 100
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-09T00:00:00+00:00",
+    "created_source": "artwork approval",
+    "updated_at": "2026-09-10T00:00:00+00:00",
+    "updated_source": "ledger history"
+   },
+   "status": {
+    "code": "listed",
+    "label": "On Catawiki",
+    "tone": "ink",
+    "detail": "approved · lot 106752557",
+    "meaning": "uploaded to the marketplace",
+    "order": 7
    }
   },
   {
@@ -437,17 +1233,33 @@
     "authority": "Owner; verified submitted title on 2026-09-10",
     "fixed": true
    },
+   "collection_category": "Forma / Motion",
    "recommendation": {
     "kind": "existing",
     "collection": "Forma / Motion",
     "new": {
      "name": "",
-     "edition": 100,
-     "edition_reason": "this artwork's edition is fixed at 100 and a collection choice never changes it"
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (1of100) stays as promised"
     },
     "why": "printed FORMA / MOTION on the artwork; a rally car on a mountain road",
     "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
     "collection_default_edition": 100
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-09T00:00:00+00:00",
+    "created_source": "artwork approval",
+    "updated_at": "2026-09-10T00:00:00+00:00",
+    "updated_source": "ledger history"
+   },
+   "status": {
+    "code": "listed",
+    "label": "On Catawiki",
+    "tone": "ink",
+    "detail": "approved · lot 106752619",
+    "meaning": "uploaded to the marketplace",
+    "order": 7
    }
   },
   {
@@ -490,17 +1302,33 @@
     "authority": "Owner; verified submitted title on 2026-09-10",
     "fixed": true
    },
+   "collection_category": "Forma / Motion",
    "recommendation": {
     "kind": "existing",
     "collection": "Forma / Motion",
     "new": {
      "name": "",
-     "edition": 100,
-     "edition_reason": "this artwork's edition is fixed at 100 and a collection choice never changes it"
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (1of100) stays as promised"
     },
     "why": "printed FORMA / MOTION on the artwork",
     "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
     "collection_default_edition": 100
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-09T00:00:00+00:00",
+    "created_source": "artwork approval",
+    "updated_at": "2026-09-10T00:00:00+00:00",
+    "updated_source": "ledger history"
+   },
+   "status": {
+    "code": "listed",
+    "label": "On Catawiki",
+    "tone": "ink",
+    "detail": "approved · lot 106752502",
+    "meaning": "uploaded to the marketplace",
+    "order": 7
    }
   },
   {
@@ -543,17 +1371,33 @@
     "authority": "Owner; verified submitted title on 2026-09-10",
     "fixed": true
    },
+   "collection_category": "Forma / Motion",
    "recommendation": {
     "kind": "existing",
     "collection": "Forma / Motion",
     "new": {
      "name": "",
-     "edition": 100,
-     "edition_reason": "this artwork's edition is fixed at 100 and a collection choice never changes it"
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (1of100) stays as promised"
     },
     "why": "printed FORMA / MOTION on the artwork",
     "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
     "collection_default_edition": 100
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-09T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-09-10T00:00:00+00:00",
+    "updated_source": "ledger history"
+   },
+   "status": {
+    "code": "listed",
+    "label": "On Catawiki",
+    "tone": "ink",
+    "detail": "approved · lot 106752391",
+    "meaning": "uploaded to the marketplace",
+    "order": 7
    }
   },
   {
@@ -596,16 +1440,32 @@
     "authority": "Owner; verified submitted title on 2026-09-10",
     "fixed": true
    },
+   "collection_category": "Forma / Precision",
    "recommendation": {
     "kind": "new",
     "collection": null,
     "new": {
      "name": "Forma / Precision",
-     "edition": 100,
-     "edition_reason": "this artwork's edition is fixed at 100 and a collection choice never changes it"
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (1of100) stays as promised"
     },
     "why": "the artwork carries FORMA / PRECISION in print and its edition record says the same; none of the five is that name. Nearest of the five: Sport / Leicht (all-aluminium body)",
     "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-09T00:00:00+00:00",
+    "created_source": "artwork approval",
+    "updated_at": "2026-09-10T00:00:00+00:00",
+    "updated_source": "ledger history"
+   },
+   "status": {
+    "code": "listed",
+    "label": "On Catawiki",
+    "tone": "ink",
+    "detail": "approved · lot 106752631",
+    "meaning": "uploaded to the marketplace",
+    "order": 7
    }
   },
   {
@@ -648,17 +1508,33 @@
     "authority": "Owner; verified submitted title on 2026-09-10",
     "fixed": true
    },
+   "collection_category": "Sport / Leicht",
    "recommendation": {
     "kind": "existing",
     "collection": "Sport / Leicht",
     "new": {
      "name": "",
-     "edition": 200,
-     "edition_reason": "this artwork's edition is fixed at 200 and a collection choice never changes it"
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (1of200) stays as promised"
     },
     "why": "the lightweight itself; printed SPORT / LEICHT, edition 1of200 stays",
     "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
     "collection_default_edition": 200
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-09T00:00:00+00:00",
+    "created_source": "artwork approval",
+    "updated_at": "2026-09-12T00:00:00+00:00",
+    "updated_source": "ledger history"
+   },
+   "status": {
+    "code": "listed",
+    "label": "On Catawiki",
+    "tone": "ink",
+    "detail": "live · lot 106746066",
+    "meaning": "uploaded to the marketplace",
+    "order": 7
    }
   },
   {
@@ -710,73 +1586,77 @@
     "authority": "prospective-artwork-2026-09-12",
     "fixed": true
    },
+   "collection_category": "Sport / Leicht",
    "recommendation": {
     "kind": "existing",
     "collection": "Sport / Leicht",
     "new": {
      "name": "",
-     "edition": 100,
-     "edition_reason": "this artwork's edition is fixed at 100 and a collection choice never changes it"
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (Edition of 100) stays as promised"
     },
     "why": "your saved choice; a technology car drawn lean",
     "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
     "collection_default_edition": 200
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-10T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-09-19T23:24:56.199385+00:00",
+    "updated_source": "board verified"
+   },
+   "status": {
+    "code": "ready",
+    "label": "Ready · delivered",
+    "tone": "keep",
+    "detail": "9 photos · Notion and board verified",
+    "meaning": "Notion and the board read back and verified",
+    "order": 6
    }
   },
   {
    "key": "batch12-ferrari-testarossa",
    "name": "Ferrari Testarossa",
-   "preview": "assets/batch12-ferrari-testarossa-current.jpg",
+   "preview": "assets/batch12-ferrari-testarossa.jpg",
    "preview_pixels": [
     1600,
     1200
    ],
-   "source_sha256": "4fbc59b3494067ff9dfa343358684d4106438a497c49efc793ca790f30e1e543",
-   "source_file": "pipeline/studio-comments-20260920/edits/testarossa/r3/ferrari-testarossa-studio-edit-r3.png",
-   "recorded_approval": "owner_visual_review_pending",
+   "source_sha256": "55dadb721a56281d16842bec07a565a7952fce26f1f9d761d5607d6ae7e31ae5",
+   "source_file": "pipeline/lean-delivery/batch12-ferrari-testarossa/4fbc59b34940/print.jpg",
+   "recorded_approval": "approved",
    "recorded_stage": "set-generated",
    "existing_collection": "STUDIO DI FORMA",
-   "ledger_selected_sha256": "53cac56750d976f65bf53de1f7fa444b894f10b00478b2dd2765a5da2f210a2d",
-   "approved_source_sha256": "53cac56750d976f65bf53de1f7fa444b894f10b00478b2dd2765a5da2f210a2d",
+   "ledger_selected_sha256": "4fbc59b3494067ff9dfa343358684d4106438a497c49efc793ca790f30e1e543",
+   "approved_source_sha256": "4fbc59b3494067ff9dfa343358684d4106438a497c49efc793ca790f30e1e543",
    "photo_count": 9,
    "notion_url": "https://app.notion.com/p/3d7219427f6981049915d05522971446",
    "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/batch12-ferrari-testarossa.html",
    "completion_verified": false,
-   "delivery_status": "Photos stay as they are until you approve the edit",
+   "delivery_status": "Delivery finishing · prints, photos and copy prepared",
    "delivery_evidence": null,
    "delivery_verified_at": null,
    "saved_collection": "Studio Di Forma",
    "collection_evidence": "Owner choice in active task, 20 September 2026; relayed by root",
    "owner_collection_pending": false,
-   "hero_edit_pending": true,
-   "review_url": "https://cdn.muapi.ai/outputs/generated/0be909a870a446bc8ae064e9ee381f2d.jpg",
-   "previous_master_sha256": "a588d1d23bcfaf6163b628fb78c7a53a2d19d39658262aa3fe78be28be483fc7",
-   "edit": {
-    "candidate": "studio-edit-r3",
-    "request_id": "b4379555-ba68-44ee-b24f-958ca9fb0085",
-    "owner_note": "Ferrari logo has a square around it, needs to be smoother; cap on the front wheel has something yellow in the center, paint it in cap color.",
-    "replaces_sha256": "a588d1d23bcfaf6163b628fb78c7a53a2d19d39658262aa3fe78be28be483fc7",
-    "targets": [
-     "bonnet badge + owner-reported square seam",
-     "front hub-cap face (yellow mark removed)"
-    ],
-    "muapi_result_urls": [
-     "https://cdn.muapi.ai/outputs/generated/c516764da2fd4378ba06095aec6d9bcf.png",
-     "https://cdn.muapi.ai/outputs/generated/7814b838c9f448668e847d3b84c3834f.png"
-    ],
-    "receipt": "pipeline/studio-comments-20260920/edits/testarossa/r3/receipt.json",
-    "provenance": "pipeline/studio-comments-20260920/edits/testarossa/r3/provenance.json",
-    "outside_masks_pixel_identical": true,
-    "status": "edited candidate awaiting the owner's visual review; not approved, not a lot"
+   "production_evidence": "pipeline/studio-next-20260920/production/INTEGRATION-MANIFEST.json",
+   "production": {
+    "print_jpg_sha256": "55dadb721a56281d16842bec07a565a7952fce26f1f9d761d5607d6ae7e31ae5",
+    "print_pdf_sha256": "ca33ce105b454b02fbd0c6da2265db3baf2f85cd9007c169ed05bdcf69b0752b",
+    "approved_bytes_sha256": "4fbc59b3494067ff9dfa343358684d4106438a497c49efc793ca790f30e1e543",
+    "collection": "STUDIO DI FORMA",
+    "edition_label": "Edition of 100"
    },
-   "full_source_url": "full/4fbc59b34940-batch12-ferrari-testarossa.png",
-   "full_source_sha256": "4fbc59b3494067ff9dfa343358684d4106438a497c49efc793ca790f30e1e543",
-   "full_source_bytes": 38033632,
+   "delivery_note": "Prints and photos are prepared; final delivery checks are running.",
+   "full_source_url": "full/55dadb721a56-batch12-ferrari-testarossa.jpg",
+   "full_source_sha256": "55dadb721a56281d16842bec07a565a7952fce26f1f9d761d5607d6ae7e31ae5",
+   "full_source_bytes": 10671151,
    "full_source_pixels": [
     9448,
     7086
    ],
-   "full_source_kind": "exact_current_png",
+   "full_source_kind": "exact_current_jpg",
    "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
    "collection_choice": "Studio Di Forma",
    "edition": {
@@ -788,17 +1668,54 @@
     "authority": "prospective-artwork-2026-09-12",
     "fixed": true
    },
+   "collection_category": "Studio Di Forma",
    "recommendation": {
     "kind": "existing",
     "collection": "Studio Di Forma",
     "new": {
      "name": "",
-     "edition": 100,
-     "edition_reason": "this artwork's edition is fixed at 100 and a collection choice never changes it"
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (Edition of 100) stays as promised"
     },
     "why": "your saved choice; the strakes as a form study",
     "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
     "collection_default_edition": 50
+   },
+   "generations": [
+    {
+     "role": "edit",
+     "request_id": "117b4290-6c7b-4708-a99b-3c1bd6911c1a",
+     "model": null,
+     "created_at": "2026-09-20T01:51:47+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c516764da2fd4378ba06095aec6d9bcf.png",
+     "page_url": "https://muapi.ai/predictions/117b4290-6c7b-4708-a99b-3c1bd6911c1a",
+     "history_url": "https://muapi.ai/predictions",
+     "source": "pipeline/studio-comments-20260920/edits/testarossa/r3/receipt.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "779087e1-56aa-4a39-b3ba-f82a951b26ee",
+     "model": null,
+     "created_at": "2026-09-20T01:51:47+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/7814b838c9f448668e847d3b84c3834f.png",
+     "page_url": "https://muapi.ai/predictions/779087e1-56aa-4a39-b3ba-f82a951b26ee",
+     "history_url": "https://muapi.ai/predictions",
+     "source": "pipeline/studio-comments-20260920/edits/testarossa/r3/receipt.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-10T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-09-20T02:59:43.742368+00:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "Prints and photos are prepared; final delivery checks are running.",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
    }
   },
   {
@@ -850,17 +1767,33 @@
     "authority": "prospective-artwork-2026-09-12",
     "fixed": true
    },
+   "collection_category": "Forma / Motion",
    "recommendation": {
     "kind": "existing",
     "collection": "Forma / Motion",
     "new": {
      "name": "",
-     "edition": 200,
-     "edition_reason": "this artwork's edition is fixed at 200 and a collection choice never changes it"
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (Edition of 200) stays as promised"
     },
     "why": "your saved choice; the Batmobile wing is about air moving",
     "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
     "collection_default_edition": 100
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-10T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-09-19T23:24:56.199385+00:00",
+    "updated_source": "board verified"
+   },
+   "status": {
+    "code": "ready",
+    "label": "Ready · delivered",
+    "tone": "keep",
+    "detail": "9 photos · Notion and board verified",
+    "meaning": "Notion and the board read back and verified",
+    "order": 6
    }
   },
   {
@@ -897,17 +1830,33 @@
     "authority": "prospective-artwork-2026-09-12",
     "fixed": true
    },
+   "collection_category": "Forma / Motion",
    "recommendation": {
     "kind": "existing",
     "collection": "Forma / Motion",
     "new": {
      "name": "",
-     "edition": 100,
-     "edition_reason": "this artwork's edition is fixed at 100 and a collection choice never changes it"
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (Edition of 100) stays as promised"
     },
     "why": "printed FORMA / MOTION on the artwork; a DTM homologation saloon",
     "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
     "collection_default_edition": 100
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-10T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-09-12T21:29:15.705534+00:00",
+    "updated_source": "ledger history"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
    }
   },
   {
@@ -959,17 +1908,33 @@
     "authority": "prospective-artwork-2026-09-12",
     "fixed": true
    },
+   "collection_category": "Forma / Motion",
    "recommendation": {
     "kind": "existing",
     "collection": "Forma / Motion",
     "new": {
      "name": "",
-     "edition": 100,
-     "edition_reason": "this artwork's edition is fixed at 100 and a collection choice never changes it"
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (Edition of 100) stays as promised"
     },
     "why": "your saved choice; a rally berlinette",
     "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
     "collection_default_edition": 100
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-10T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-09-19T23:24:56.199385+00:00",
+    "updated_source": "board verified"
+   },
+   "status": {
+    "code": "ready",
+    "label": "Ready · delivered",
+    "tone": "keep",
+    "detail": "9 photos · Notion and board verified",
+    "meaning": "Notion and the board read back and verified",
+    "order": 6
    }
   },
   {
@@ -1026,17 +1991,33 @@
     "authority": "prospective-artwork-2026-09-12",
     "fixed": true
    },
+   "collection_category": "American Form",
    "recommendation": {
     "kind": "existing",
     "collection": "American Form",
     "new": {
      "name": "",
      "edition": 77,
-     "edition_reason": "this artwork's edition is fixed at 77 and a collection choice never changes it"
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (Edition of 77) stays as promised"
     },
     "why": "your saved choice; the American shape",
     "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
     "collection_default_edition": 77
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-11T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-09-20T02:15:58.179888+00:00",
+    "updated_source": "board verified"
+   },
+   "status": {
+    "code": "ready",
+    "label": "Ready · delivered",
+    "tone": "keep",
+    "detail": "9 photos · Notion and board verified",
+    "meaning": "Notion and the board read back and verified",
+    "order": 6
    }
   },
   {
@@ -1085,17 +2066,33 @@
     "authority": "prospective-artwork-2026-09-12",
     "fixed": true
    },
+   "collection_category": "Forma / Motion",
    "recommendation": {
     "kind": "existing",
     "collection": "Forma / Motion",
     "new": {
      "name": "",
-     "edition": 100,
-     "edition_reason": "this artwork's edition is fixed at 100 and a collection choice never changes it"
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (Edition of 100) stays as promised"
     },
     "why": "printed FORMA / MOTION on the artwork; a touring-car homologation",
     "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
     "collection_default_edition": 100
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-13T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-09-19T23:24:56.199385+00:00",
+    "updated_source": "board verified"
+   },
+   "status": {
+    "code": "ready",
+    "label": "Ready · delivered",
+    "tone": "keep",
+    "detail": "9 photos · Notion and board verified",
+    "meaning": "Notion and the board read back and verified",
+    "order": 6
    }
   },
   {
@@ -1144,17 +2141,33 @@
     "authority": "prospective-artwork-2026-09-12",
     "fixed": true
    },
+   "collection_category": "American Form",
    "recommendation": {
     "kind": "existing",
     "collection": "American Form",
     "new": {
      "name": "",
      "edition": 77,
-     "edition_reason": "this artwork's edition is fixed at 77 and a collection choice never changes it"
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (Edition of 77) stays as promised"
     },
     "why": "printed AMERICAN FORM on the artwork; an American supercar",
     "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
     "collection_default_edition": 77
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-13T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-09-19T23:24:56.199385+00:00",
+    "updated_source": "board verified"
+   },
+   "status": {
+    "code": "ready",
+    "label": "Ready · delivered",
+    "tone": "keep",
+    "detail": "9 photos · Notion and board verified",
+    "meaning": "Notion and the board read back and verified",
+    "order": 6
    }
   },
   {
@@ -1210,17 +2223,154 @@
     "authority": "finite-per-artwork-2026-09-20",
     "fixed": true
    },
+   "collection_category": "Forma / Motion",
    "recommendation": {
     "kind": "existing",
     "collection": "Forma / Motion",
     "new": {
      "name": "",
-     "edition": 100,
-     "edition_reason": "this artwork's edition is fixed at 100 and a collection choice never changes it"
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (Edition of 100) stays as promised"
     },
     "why": "the brushed arc behind the car is the idea: rotary motion, one continuous curve of a body",
     "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
     "collection_default_edition": 100
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "9ca19fe3-db6a-4bff-ab6c-932a7b84d7eb",
+     "model": null,
+     "created_at": "2026-09-13T02:56:42.605306+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/63653858c95e49449ca4b81c5c0e22d0.png",
+     "page_url": "https://muapi.ai/predictions/9ca19fe3-db6a-4bff-ab6c-932a7b84d7eb",
+     "history_url": "https://muapi.ai/predictions",
+     "source": "pipeline/new-era-20260913/new-five-jobs/mazda-rx7-fd/state.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-13T02:56:42.605306+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-20T02:15:58.179888+00:00",
+    "updated_source": "board verified"
+   },
+   "status": {
+    "code": "ready",
+    "label": "Ready · delivered",
+    "tone": "keep",
+    "detail": "9 photos · Notion and board verified",
+    "meaning": "Notion and the board read back and verified",
+    "order": 6
+   }
+  },
+  {
+   "key": "new-era-20260913-lamborghini-diablo",
+   "name": "Lamborghini Diablo",
+   "preview": "assets/new-era-20260913-lamborghini-diablo.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "046edf9acfa6cd247d71151dd5d3194d176b829b9369d622da09a373b7b4df89",
+   "source_file": "pipeline/lean-delivery/new-era-20260913-lamborghini-diablo/3167dcb09cb4/print.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "FORMA / MOTION",
+   "ledger_selected_sha256": "3167dcb09cb445e7be022a4b841d591bc2b536e1f8f7ba39a54398661bf54120",
+   "approved_source_sha256": "3167dcb09cb445e7be022a4b841d591bc2b536e1f8f7ba39a54398661bf54120",
+   "photo_count": 9,
+   "notion_url": "https://app.notion.com/p/3e1219427f698134a9a9ca85daf55921",
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/new-era-20260913-lamborghini-diablo.html",
+   "completion_verified": false,
+   "delivery_status": "Delivery finishing · prints, photos and copy prepared",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "production_evidence": "pipeline/studio-next-20260920/production/INTEGRATION-MANIFEST.json",
+   "production": {
+    "print_jpg_sha256": "046edf9acfa6cd247d71151dd5d3194d176b829b9369d622da09a373b7b4df89",
+    "print_pdf_sha256": "fa1f2acefeabfc297a46d2abd69e76b897a75fd982678ca028265e5e3c1074a9",
+    "approved_bytes_sha256": "3167dcb09cb445e7be022a4b841d591bc2b536e1f8f7ba39a54398661bf54120",
+    "collection": "FORMA / MOTION",
+    "edition_label": "Edition of 100"
+   },
+   "delivery_note": "Prints and photos are prepared; final delivery checks are running.",
+   "full_source_url": "full/046edf9acfa6-new-era-20260913-lamborghini-diablo.jpg",
+   "full_source_sha256": "046edf9acfa6cd247d71151dd5d3194d176b829b9369d622da09a373b7b4df89",
+   "full_source_bytes": 13569738,
+   "full_source_pixels": [
+    5315,
+    7087
+   ],
+   "full_source_kind": "exact_current_jpg",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "Forma / Motion",
+   "edition": {
+    "limit": 100,
+    "label": "Edition of 100",
+    "series_label": "",
+    "kind": "finite_per_artwork",
+    "edition_id": "art-ec84a887a0089d0c43e78b0d",
+    "authority": "finite-per-artwork-2026-09-20",
+    "fixed": true
+   },
+   "collection_category": "Forma / Motion",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Studio Di Forma",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (Edition of 100) stays as promised"
+    },
+    "why": "a wedge lit as an object in a dark studio: a form study, next to the Testarossa you put there",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 50
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "bd0e52b3-8afd-4271-811b-7853f31421bc",
+     "model": null,
+     "created_at": "2026-09-13T02:56:37.547084+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b2d639dd96ab4c79b3c3325ceb926e58.png",
+     "page_url": "https://muapi.ai/predictions/bd0e52b3-8afd-4271-811b-7853f31421bc",
+     "history_url": "https://muapi.ai/predictions",
+     "source": "pipeline/new-era-20260913/new-five-jobs/lamborghini-diablo/state.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "b9e187b6-aad7-485b-b7a7-68e531ab1380",
+     "model": null,
+     "created_at": "2026-09-20T01:43:47+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/229c743aff5e434c91dcae1b1166e047.png",
+     "page_url": "https://muapi.ai/predictions/b9e187b6-aad7-485b-b7a7-68e531ab1380",
+     "history_url": "https://muapi.ai/predictions",
+     "source": "pipeline/studio-comments-20260920/edits/diablo/receipt.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "d3b7cc2a-af72-48be-b69f-b6ff74d735d3",
+     "model": null,
+     "created_at": "2026-09-20T01:43:47+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f965d69dbe8242aa86a6f43d9d7c2e6d.png",
+     "page_url": "https://muapi.ai/predictions/d3b7cc2a-af72-48be-b69f-b6ff74d735d3",
+     "history_url": "https://muapi.ai/predictions",
+     "source": "pipeline/studio-comments-20260920/edits/diablo/receipt.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-13T02:56:37.547084+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-20T02:59:44.709630+00:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "Prints and photos are prepared; final delivery checks are running.",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
    }
   }
  ],
@@ -1242,23 +2392,67 @@
    "candidate": "studio-edit-r2",
    "request_id": "75443711-d07d-4531-ab39-e2492b31f741",
    "declared_sha256": "3167dcb09cb445e7be022a4b841d591bc2b536e1f8f7ba39a54398661bf54120",
-   "applied": true,
-   "preview": "assets/new-era-20260913-lamborghini-diablo-current.jpg",
-   "pixels": [
-    2480,
-    3312
-   ]
+   "applied": false,
+   "reason": "ledger already selected these bytes; the lot record stands"
   },
   {
    "lot_key": "batch12-ferrari-testarossa",
    "candidate": "studio-edit-r3",
    "request_id": "b4379555-ba68-44ee-b24f-958ca9fb0085",
    "declared_sha256": "4fbc59b3494067ff9dfa343358684d4106438a497c49efc793ca790f30e1e543",
+   "applied": false,
+   "reason": "ledger already selected these bytes; the lot record stands"
+  }
+ ],
+ "stage1_candidates": [
+  {
+   "key": "studio-next-20260920-bugatti-eb110-ss",
+   "declared_sha256": "e4f30452277591a90a474c94c6f787c9769d5ade7c1073e00ac3068afabfd00e",
    "applied": true,
-   "preview": "assets/batch12-ferrari-testarossa-current.jpg",
+   "preview": "assets/studio-next-20260920-bugatti-eb110-ss-current.jpg",
    "pixels": [
-    9448,
-    7086
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-next-20260920-aston-martin-db5",
+   "declared_sha256": "d7e905fe3032bc68e3e08ba1042e82a57695247d61996930081c0b648e692d8e",
+   "applied": true,
+   "preview": "assets/studio-next-20260920-aston-martin-db5-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-next-20260920-lexus-lfa",
+   "declared_sha256": "a006841ea68b789d637a68f633c4f2e2f532fcf35b62d2dbdaf624824b0d485b",
+   "applied": true,
+   "preview": "assets/studio-next-20260920-lexus-lfa-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-next-20260920-de-tomaso-pantera",
+   "declared_sha256": "082b4c74fe6a619e4b88a9034ea94a82683ccfd33f4bc31ad3b02bf11f9f5498",
+   "applied": true,
+   "preview": "assets/studio-next-20260920-de-tomaso-pantera-current.jpg",
+   "pixels": [
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-next-20260920-mercedes-clk-gtr",
+   "declared_sha256": "f5770f9dcff7944ea5f52637b824a3a5bf49e7df7a32b5b6d9ebd442830826d8",
+   "applied": true,
+   "preview": "assets/studio-next-20260920-mercedes-clk-gtr-current.jpg",
+   "pixels": [
+    3312,
+    2480
    ]
   }
  ],

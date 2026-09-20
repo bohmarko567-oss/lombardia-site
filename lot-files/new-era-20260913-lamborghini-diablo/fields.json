@@ -2,7 +2,7 @@
   "schema_version": 1,
   "access_date": "2026-09-20",
   "timezone": "Europe/Copenhagen",
-  "lot_key": "batch12-ferrari-testarossa",
+  "lot_key": "new-era-20260913-lamborghini-diablo",
   "section_order": [
     "Object",
     "Images",
@@ -23,9 +23,9 @@
     {
       "position": 1,
       "filename": "01-hero-white-wall-layered.jpg",
-      "role": "hero-white-wall",
+      "role": "hero-white-wall-layered",
       "id": "hero-white-wall-layered",
-      "sha256": "78ad1af0d3bf0fa32c6d72f30dbddd85d03715633c6fc5b01eab39475dd87c1b",
+      "sha256": "5a5ea2c19b9846542904d671d965c04b496b78bdfafe1b0c75e14ee67c240cb8",
       "cover": true,
       "warning": null
     },
@@ -34,7 +34,7 @@
       "filename": "02-01-hero-flat.jpg",
       "role": "01-hero-flat",
       "id": "01-hero-flat",
-      "sha256": "b6ab2eab61c691fcdc4db4e5522d9c00a6d62859440be6172a0d3c28f5d3069c",
+      "sha256": "13e0cd6c30c866e1b5ea17209d7e6019ebf03d5d6712945389ddfbb3f9009df8",
       "cover": false,
       "warning": null
     },
@@ -43,7 +43,7 @@
       "filename": "03-true-corner-tl.jpg",
       "role": "true-corner-tl",
       "id": "true-corner-tl",
-      "sha256": "0af08706965528ebdb02709354635d1fa37bb6cfe9bcc39b0c82a1857c4ea4a0",
+      "sha256": "914a6baa61401a1bdd9bb6e9d1590aa9c59419aa378979f7a602e19ca125d55e",
       "cover": false,
       "warning": null
     },
@@ -52,7 +52,7 @@
       "filename": "04-true-corner-bl.jpg",
       "role": "true-corner-bl",
       "id": "true-corner-bl",
-      "sha256": "69655ddf05911c67b61313d2faed083e5048323c78096ebef0516d702914eb8c",
+      "sha256": "e222c4c2879820139cb6cceb825d94ccc05558309375dff0ce146b946d18a01d",
       "cover": false,
       "warning": null
     },
@@ -61,7 +61,7 @@
       "filename": "05-true-corner-br.jpg",
       "role": "true-corner-br",
       "id": "true-corner-br",
-      "sha256": "dfbd6fda684cdc9fd88ef3eb5c68182d9d5c8c4652db31cdf6fb3cf6895e60df",
+      "sha256": "9f4914744a90ea8e1c0c336da2fd35fceaca7d824f112691cdf526cdd6d1bca1",
       "cover": false,
       "warning": null
     },
@@ -70,7 +70,7 @@
       "filename": "06-true-corner-tr.jpg",
       "role": "true-corner-tr",
       "id": "true-corner-tr",
-      "sha256": "c6c0c73192d13963f084e0fe3cbed068f0c0c39ecf3b131e2c3e37854a513349",
+      "sha256": "8a1a5ad61b4f3162a104f6f132c2f05b72f35a4261c87b60314cc21f3db29ba5",
       "cover": false,
       "warning": null
     },
@@ -79,7 +79,7 @@
       "filename": "07-03-specs-footer.jpg",
       "role": "03-specs-footer",
       "id": "03-specs-footer",
-      "sha256": "8c2f8d3e13d5e1cf0c7e540abb382128a0d667b7eb175a3dec9cedd946d7cb96",
+      "sha256": "bad5a66e291103c064fd3e02add314208a32f777a0e42cce853c67cd9343be2d",
       "cover": false,
       "warning": null
     },
@@ -88,7 +88,7 @@
       "filename": "08-05-header.jpg",
       "role": "05-header",
       "id": "05-header",
-      "sha256": "dbe8989061020d31d982e3b9f63eb51ac25969c681788f7fb18e4d0cdf9f6635",
+      "sha256": "c30c98edff6279ff3a34fdd7cf7b7fdcd57402e046761b3ef017529cd9c426ed",
       "cover": false,
       "warning": null
     },
@@ -97,7 +97,7 @@
       "filename": "09-06-vehicle-detail.jpg",
       "role": "06-vehicle-detail",
       "id": "06-vehicle-detail",
-      "sha256": "765479b7bab314b3adc43fb55cc6306623a4675b36801034f3b039d4da9f53a3",
+      "sha256": "f4e4f5664097db9fbed8a4a31ec101e5a0c7c4d44f91fa3d2a59c905c330b179",
       "cover": false,
       "warning": null
     }
@@ -106,15 +106,15 @@
     "era": "1900-2000",
     "manufacturer_brand": {
       "selection": "Other",
-      "custom": "Ferrari"
+      "custom": "Lamborghini"
     },
-    "poster_title": "Testarossa Monodado - STUDIO DI FORMA - 80 × 60 cm - Edition of 100",
-    "estimated_period": "1980s",
+    "poster_title": "Diablo - FORMA / MOTION - 45 × 60 cm - Edition of 100",
+    "estimated_period": "1990s",
     "condition": "A (excellent - mint condition)",
     "number_of_objects": 1,
     "height": 630,
     "height_unit": "mm",
-    "width": 830,
+    "width": 480,
     "width_unit": "mm",
     "autographed_by_a_famous_person": "No",
     "designer_artist": {
@@ -133,13 +133,13 @@
       "Applied art",
       "Other"
     ],
-    "subject_other": "Ferrari Testarossa Monodado, STUDIO DI FORMA, car design, limited edition, framed",
+    "subject_other": "1991 Lamborghini Diablo, FORMA / MOTION, car design, limited edition, framed poster",
     "country_of_origin": "Italy",
     "specific_region_of_origin": "",
     "reference_label_colour": "",
-    "reference_label": "Testarossa Monodado 80x60",
-    "description": "You’re bidding on a 80 × 60 cm STUDIO DI FORMA poster by Lombardia Automobili, featuring the 1988 Ferrari Testarossa Monodado. The artwork is 100% unique combination of a detailed illustration of the car and our own layout and typography. A white frame and Perspex glazing are included; poster and frame are shipped together with care. \n\nVermilion, warm white and oversized outlined Testarossa typography give the artwork presence across a room. The white Testarossa and its technical details invite a closer look. Above a desk or in a garage lounge, it’s a conversation piece for anyone who knows what that name means.\n\nLombardia Automobili is an independent automotive design house. This artwork is limited to 100 physical prints in total across all sizes, colour variants, framing options and sales channels. STUDIO DI FORMA is made for people who appreciate the design of a car as much as the way it drives.\n\nThe subject is the 1988 Testarossa Monodado, with low-mounted twin mirrors and single-nut wheels. Its twelve-cylinder engine, wide rear bodywork and horizontal side strakes made it a defining Ferrari. The Monodado combines the later mirror arrangement with the early centre-lock wheel design.\n\nSheet size: 80 × 60 cm. Nominal assembled frame dimensions: 83 × 63 cm. This is a contemporary, retro-inspired studio edition.\n\nAn independent artwork by Lombardia Automobili, not affiliated with or endorsed by Ferrari S.p.A.",
-    "generated_title": "Lombardia Automobili - Ferrari - Testarossa Monodado - STUDIO DI FORMA - 80 × 60 cm - Edition of 100 - 1980s"
+    "reference_label": "Diablo 45x60",
+    "description": "You’re bidding on a 45 × 60 cm FORMA / MOTION poster by Lombardia Automobili, featuring the 1991 Lamborghini Diablo. The artwork is 100% unique combination of a detailed illustration of the car and our own layout and typography. A white frame and Perspex glazing are included; poster and frame are shipped together with care. \n\nNear-black violet, a tall electric-yellow aperture and sharp DIABLO typography give the artwork presence across a room. The yellow Diablo on its wet reflective floor and its technical details invite a closer look. Above a desk or in a garage lounge, it’s a conversation piece for anyone who knows what that name means.\n\nLombardia Automobili is an independent automotive design house. This artwork is limited to 100 physical prints in total across all sizes, colour variants, framing options and sales channels. FORMA / MOTION is made for people who appreciate the design of a car as much as the way it drives.\n\nThe subject is the 1991 Diablo, the first-generation rear-wheel-drive car with pop-up headlamps and no rear wing. Its mid-mounted V12, wide wedge body and scissor doors made it a defining Lamborghini. The early Diablo put its emphasis on raw speed and presence rather than driver aids.\n\nSheet size: 45 × 60 cm. Nominal assembled frame dimensions: 48 × 63 cm. This is a contemporary, retro-inspired studio edition.\n\nAn independent artwork by Lombardia Automobili, not affiliated with or endorsed by Lamborghini.",
+    "generated_title": "Lombardia Automobili - Lamborghini - Diablo - FORMA / MOTION - 45 × 60 cm - Edition of 100 - 1990s"
   },
   "estimate_policy": {
     "owner_decision_date": "2026-09-10",
@@ -150,7 +150,7 @@
   },
   "value": {
     "currency": "EUR",
-    "estimated_value": 275,
+    "estimated_value": 225,
     "reserve_enabled": false,
     "reserve_value": null,
     "buy_now_enabled": false,
@@ -293,69 +293,54 @@
     "commercial": "Current owner size policy: EUR 225 for 45 x 60 cm, EUR 275 for landscape. Reserve and buy now OFF; retain saved shipping preset and all other commercial defaults.",
     "new_lot": "Read current approved poster data; adapt only listed poster-specific facts. Do not carry the Porsche's M471 or 200-car-production fact to a different car. Keep all other text exact. Save and reopen every draft; record its own ID. Submit remains separate.",
     "legacy": "Older F40/930/A1 Catawiki descriptions and older 911 draft prose are superseded as templates. eBay/store copy and physical assets retain their separate scope.",
-    "edition": "For eligible new designs, use the recorded per-design cap: Edition of N in titles, with explicit shared size/colour/frame scope in description. Never imply print serial 1; actual serials require allocation. Preserve legacy collection-wide promises. This staged revision remains pending owner confirmation of eligibility."
+    "edition": "Finite per-artwork policy 20 Sep 2026: Edition of N in title, shared size/colour/frame/channel scope in description. Never imply print serial 1; actual serials require allocation."
   },
   "edition_registry": "listings/collection-editions.json",
   "status": "Owner-approved artwork; nine Carrera-method photos assembled; local payload — not entered, saved or submitted on Catawiki",
-  "authority": "Verified 13 Sep payload; owner collection choice 20 Sep 2026 (Testarossa -> Studio Di Forma; Studio request 171076f0-2692-48c5-bd7b-3126f9eae6b4, previous_collection Studio Di Forma). Edition of 100 unchanged.",
+  "authority": "Current six-paragraph copy contract with poster-specific substitutions only; owner collection choice in Studio request a27a7e2b-98c7-4c20-bad1-537da1fcf451 (2026-09-20)",
   "gold_standard_source": "C:\\Users\\bohma\\code ux rep\\lombardia\\listings\\catawiki-gold-standard.json",
   "product": {
     "sheet_cm": {
-      "width": 80,
+      "width": 45,
       "height": 60
     },
     "nominal_assembled_frame_cm": {
-      "width": 83,
+      "width": 48,
       "height": 63
     },
-    "orientation": "landscape",
+    "orientation": "portrait",
     "frame_colour": "white",
     "glazing": "Perspex",
     "edition": "Edition of 100",
-    "collection": "STUDIO DI FORMA",
-    "car": "1988 Ferrari Testarossa Monodado"
+    "collection": "FORMA / MOTION",
+    "car": "1991 Lamborghini Diablo",
+    "frame_range": "Prodigi Budget",
+    "paper": "UNKNOWN — exact paper stock, finish and gsm not stated in the read supplier evidence; verify current selected SKU before supplier order"
   },
   "evidence": {
     "car_sources": [
       {
-        "url": "https://rmsothebys.com/auctions/0420/lots/r0012-1987-ferrari-testarossa-monodado/",
-        "access_date": "2026-09-11"
+        "url": "https://rmsothebys.com/auctions/es20/lots/r0054-1991-lamborghini-diablo/",
+        "access_date": "2026-09-13",
+        "note": "Identity, year 1991, chassis ZA9DE07A0MLA12086, Giallo Fly / Nero; pipeline/new-era-20260913/new-five-jobs/lamborghini-diablo/references.json"
       }
     ],
-    "supplier_source": "C:\\Users\\bohma\\Documents\\Codex\\2026-09-11\\hey-i-want-to-improve-or\\owner-polish\\supplier\\evidence.md",
-    "supplier_sha256": "44f6aeebc962271151b360d7b0eef883f2f256f42ef06c894b004c27f890161e",
-    "copy_contract_sha256": "ccea0bc9db7e52bc2e0ef42e9f9f89f9a784205cc24abb8a3e04fbe15dab8bfd",
-    "edition_registry_sha256": "f94081726ab85c08d61d2d474ab6d995724c70b8e07f463993c1cfcf1732c5fe",
+    "car_facts_basis": "First-generation rear-wheel-drive Diablo (pre-VT), pop-up headlamps, no rear wing per the job identity boundary; mid-mounted V12 and scissor doors are standard published Diablo facts. No VT/SV/SE30 claim.",
     "metadata_convention": "Era/period/country follow subject-car data under the owner-approved gold standard; description explicitly states contemporary studio edition.",
     "era_label_source": "C:\\Users\\bohma\\code ux rep\\lombardia\\CATAWIKI-GOLD-STANDARD.md"
   },
   "edition_record": {
     "edition_cohort": "new",
-    "edition_id": "art-644864f4aeaa47790a36c776",
-    "design_key": "batch12-ferrari-testarossa",
+    "edition_id": "art-ec84a887a0089d0c43e78b0d",
+    "design_key": "new-era-20260913-lamborghini-diablo",
     "cap": 100,
+    "edition_mode": "finite",
     "scope": "artwork_all_variants_all_channels",
-    "policy_id": "prospective-artwork-2026-09-12",
-    "eligibility_evidence": "Owner, 12 September 2026: Old stuff is old stuff and cannot block the best next step in that regard. There are no buyers, nothing was ever sold so we are good. Latest eleven remain unsubmitted locally; current session prepared a cart only, no physical order for these designs.",
+    "policy_id": "finite-per-artwork-2026-09-20",
+    "eligibility_evidence": "New artwork generated 13 Sep 2026 (new-era-20260913-lamborghini-diablo, Sunburst high bd0e52b3-8afd-4271-811b-7853f31421bc), badge edit r1 (00b052e7…) and Studio edit r2 (3167dcb0…, request 75443711). No ledger entry, no archived entry, no edition record under this design key (pipeline/state.json has no lamborghini/diablo key). Owner approved exact sha 3167dcb0… and chose FORMA / MOTION in Studio request a27a7e2b-98c7-4c20-bad1-537da1fcf451 on 2026-09-20 (recommendation Studio Di Forma not followed).",
     "edition_label": "Edition of 100",
     "description_scope": "This artwork is limited to 100 physical prints in total across all sizes, colour variants, framing options and sales channels.",
     "allocation_blocked": true
   },
-  "edition_policy_revision": {
-    "at": "2026-09-12T21:29:15.705534+00:00",
-    "authority": "Owner, 12 September 2026: Old stuff is old stuff and cannot block the best next step in that regard. There are no buyers, nothing was ever sold so we are good.",
-    "scope": "Only edition and numbering scope changed; unrelated facts/fields preserved."
-  },
-  "selected_native_sha256": "53cac56750d976f65bf53de1f7fa444b894f10b00478b2dd2765a5da2f210a2d",
-  "photo_visual_status": "Owner visual review only; no agent visual pass claimed",
-  "source_copy": {
-    "path": "C:\\Users\\bohma\\code ux rep\\lombardia\\pipeline\\approved-lots\\batch12-ferrari-testarossa\\fields.json",
-    "sha256": "d3ddc8afbd465542bf45e396b377da5e93dd4a72680543e33004948025acfa47"
-  },
-  "collection_change": {
-    "from_": "FORMA / MOTION",
-    "to": "STUDIO DI FORMA",
-    "authority": "COLLECTION-TAXONOMY.md owner choices 20 Sep 2026; intake 171076f0",
-    "edition_unchanged": true
-  }
+  "selected_native_sha256": "d4874d4f4459988a5e1909bcc28fbc8dfbfdc4c6d7c5e68b223f10ef03f91ecd"
 }

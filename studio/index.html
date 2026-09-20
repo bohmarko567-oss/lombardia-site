@@ -5,7 +5,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="../board/board.css">
-<link rel="stylesheet" href="studio.css?v=d9eb69480e04">
+<link rel="stylesheet" href="studio.css?v=11c4e4cff1a9">
 </head><body class="page-studio">
 <header class="top"><a class="brand" href="../index.html"><span class="mono">LA</span><span>Lombardia Automobili</span></a>
 <nav class="nav"><a href="../index.html">Lots</a><a href="../calendar.html">Calendar</a><a href="index.html" class="on" aria-current="page">Studio</a></nav></header>
@@ -23,7 +23,9 @@
 
 <section class="step" id="step-1" aria-labelledby="h-step-1">
   <div class="sechead"><h2 class="lab" id="h-step-1" tabindex="-1">01 · Which artwork?</h2>
-    <label class="search"><span class="vh">Search artworks</span><input id="search" type="search" placeholder="Search by car or collection" autocomplete="off"></label></div>
+    <label class="search"><span class="vh">Search artworks</span><input id="search" type="search" placeholder="Search by car, collection or status" autocomplete="off"></label></div>
+  <div class="sortrow"><div class="sortbar" id="sortbar" role="group" aria-label="Sort artworks"></div>
+    <details class="legend" id="legend"><summary>Status legend</summary><ul id="legendlist"></ul></details></div>
   <div class="grid" id="grid" role="list"></div>
 </section>
 
@@ -70,6 +72,6 @@
   <div class="vfoot" id="vfoot"></div>
 </dialog>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script src="data.js?v=60baf3f0a6c0"></script>
-<script src="studio.js?v=9afc94fa1732"></script>
+<script src="data.js?v=ef3b84d827e3"></script>
+<script src="studio.js?v=45bf256e2c0c"></script>
 </body></html>

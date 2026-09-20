@@ -437,3 +437,12 @@ h3.lab.sub { margin-top: 18px; color: var(--ink-2); letter-spacing: .18em; }
 .kit .printrow .btn.cp { min-height: 34px; }
 #board-foot { font: 500 11px var(--mono); letter-spacing: .1em; text-transform: uppercase; }
 #board-foot a { text-decoration: none; color: var(--ink-2); } #board-foot a:hover { color: var(--ink); }
+
+/* 20 September: the Studio's one status system on the board cards (mk-board.py status_chip / status_legend). A dot and a
+   word; the colour repeats the word, never replaces it. Tones: wait amber, tint blue, keep green, ink dark, drop red. */
+.pstatus { display: inline-flex; align-items: center; gap: 6px; margin-top: 8px; padding: 3px 7px 2px; border: 1px solid currentColor; font: 600 9.5px/1 var(--cond); text-transform: uppercase; letter-spacing: .12em; white-space: nowrap; color: var(--ink-2); }
+.pstatus .dot { width: 7px; height: 7px; border-radius: 50%; background: currentColor; flex: 0 0 auto; }
+.pstatus.wait { color: var(--wait); } .pstatus.tint { color: var(--tint); } .pstatus.keep { color: var(--keep); } .pstatus.ink { color: var(--ink); } .pstatus.drop { color: var(--drop); }
+.pcard .pstatus { align-self: flex-start; }
+.statuslegend { display: flex; flex-wrap: wrap; gap: 6px 8px; margin: 8px 0 12px; }
+.statuslegend .pstatus { margin-top: 0; }

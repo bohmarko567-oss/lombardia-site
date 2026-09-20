@@ -57,7 +57,7 @@
   const fixedEdition = p => (p && p.edition && p.edition.fixed && p.edition.limit) ? p.edition : null;
   const edText = fe => /^edition/i.test(fe.label || '') ? fe.label : 'Edition ' + fe.label;   // "1of100" -> "Edition 1of100"; "Edition of 77" stays
   // the edition the New / Other field starts from: the artwork's fixed edition when it has one, else 77
-  const suggestedEdition = p => { const f = fixedEdition(p); if (f) return f.limit; const n = recOf(p).new; return (n && validEdition(+n.edition)) ? +n.edition : NEW_DEFAULT_EDITION; };
+  const suggestedEdition = p => { const n = recOf(p).new; return (n && validEdition(+n.edition)) ? +n.edition : NEW_DEFAULT_EDITION; };   // the proposed collection's size for new artworks, never this artwork's own edition
   const suggestedName = p => ((recOf(p).new || {}).name || '');
   // the full-quality file: exact bytes (the review PNG under studio/full, or the print master under ../artwork) or the Notion page
   function fullLink(p) {
@@ -102,48 +102,98 @@
   }
   reconcile();
 
-  // ---------------------------------------------------------------- state of an artwork, in his words
-  function stateLine(p) {
-    if (!p) return '';
-    const bits = [];
-    if (p.recorded_approval === 'owner_review_pending') bits.push('new hero · your review');
-    else if (p.recorded_approval === 'owner_visual_review_pending') bits.push('edit done · your review');
-    else if (p.owner_collection_pending) bits.push('approved · collection needed');
-    else if (p.recorded_approval === 'approved') bits.push('approved');
-    else if (p.recorded_approval === 'rejected') bits.push('sent back');
-    else bits.push('waiting for your word');
-    if (p.saved_collection) bits.push(p.saved_collection + ' · your choice');
-    if (p.delivery_status && !/^Approved/.test(p.delivery_status)) bits.push(p.delivery_status.toLowerCase());
-    return bits.filter((b, i) => bits.indexOf(b) === i).join(' · ');
+  // ---------------------------------------------------------------- state of an artwork: one status, one colour
+  // `status` is derived by mk-studio.py from the ledger and the receipts (approval, master, package, delivery); the
+  // page shows that and one detail line, never the older fragments (delivery_status, saved choice) that used to pile up.
+  const FALLBACK_STATUS = { code: 'pending', label: 'Waiting for your word', tone: 'wait', detail: '' };
+  const statusOf = p => (p && p.status && p.status.code) ? p.status : FALLBACK_STATUS;
+  const WAITING = { review: 1, collection: 1, pending: 1 };
+  function statusPill(p, small) {
+    const s = statusOf(p);
+    return h('span', { class: 'pill ' + s.tone + (small ? ' sm' : ''), 'data-status': s.code, title: s.meaning || '' }, h('i', { class: 'dot', 'aria-hidden': 'true' }), s.label);
   }
+  const dShort = iso => { const t = Date.parse(iso || ''); return isNaN(t) ? '' : new Date(t).toLocaleDateString([], { day: '2-digit', month: 'short' }); };
+  function detailLine(p) {
+    const s = statusOf(p), t = p.timeline || {}, bits = [];
+    if (s.detail) bits.push(s.detail);
+    else if (p.photo_count) bits.push(p.photo_count + ' lot photos');
+    if (t.updated_at) bits.push(dShort(t.updated_at) + (t.updated_source ? ' · ' + t.updated_source : ''));
+    return bits.join(' · ');
+  }
+  function stateLine(p) { if (!p) return ''; const s = statusOf(p), d = detailLine(p); return s.label + (d ? ' · ' + d : ''); }
   function collectionOf(p) { return p ? (p.saved_collection || p.collection_choice || '') : ''; }
+  function categoryOf(p) { return p ? (p.collection_category || collectionOf(p) || p.existing_collection || '') : ''; }
   function isLandscape(p) { return p && p.preview_pixels && p.preview_pixels[0] > p.preview_pixels[1]; }
+  // the honest MuAPI trail: one link per paid call. A generation page only when the build knows a real route
+  // (page_url); otherwise the real History page plus the full request id. The CDN file is labelled as the result image.
+  function genLinks(p, compact) {
+    const out = [];
+    (p && p.generations || []).forEach((g, i) => {
+      const id = g.request_id || '', role = g.role || 'call';
+      const label = compact ? ('MuAPI ' + role + ' ' + id.slice(0, 8)) : ('MuAPI ' + role + ' · ' + (g.page_url ? 'generation page' : 'history') + ' · ' + id.slice(0, 8) + ' ↗');
+      out.push(h('a', { class: 'change gen', href: g.page_url || g.history_url || DATA.muapi_history_url, target: '_blank', rel: 'noopener', text: label,
+        title: (g.page_url ? 'MuAPI generation page' : 'MuAPI history (find request ' + id + ')') + (g.model ? ' · ' + g.model : '') + (g.created_at ? ' · ' + g.created_at : '') }));
+    });
+    if (!out.length && p && p.review_url) out.push(h('a', { class: 'change gen', href: p.review_url, target: '_blank', rel: 'noopener', text: compact ? 'Result image' : 'MuAPI result image (file) ↗', title: 'the generated file on MuAPI’s CDN, not a generation page' }));
+    return out;
+  }
 
-  // ---------------------------------------------------------------- 01 · the grid
+  // ---------------------------------------------------------------- 01 · the grid: sort, legend, cards
+  const SORTS = [['newest', 'Newest first'], ['oldest', 'Oldest first'], ['collection', 'By collection']];
+  const SORT_KEY = 'lomb.studio.sort';
+  function sortMode() { try { const v = localStorage.getItem(SORT_KEY); if (SORTS.some(s => s[0] === v)) return v; } catch (e) { } return DATA.sort_default || 'newest'; }
+  function setSort(v) { try { localStorage.setItem(SORT_KEY, v); } catch (e) { } renderGrid(); }
+  const tsOf = (p, which) => { const t = p.timeline || {}; const v = Date.parse((which === 'created' ? (t.created_at || t.updated_at) : (t.updated_at || t.created_at)) || ''); return isNaN(v) ? 0 : v; };
+  function renderSortbar() {
+    const sb = $('#sortbar'); if (!sb) return; sb.innerHTML = '';
+    const mode = sortMode();
+    SORTS.forEach(([v, label]) => sb.appendChild(h('button', { type: 'button', class: 'sortbtn' + (mode === v ? ' on' : ''), 'aria-pressed': String(mode === v), text: label, onclick: () => setSort(v) })));
+    const lg = $('#legendlist'); if (!lg) return; lg.innerHTML = '';
+    (DATA.statuses || []).forEach(s => lg.appendChild(h('li', {}, h('span', { class: 'pill ' + s.tone + ' sm' }, h('i', { class: 'dot', 'aria-hidden': 'true' }), s.label), h('span', { class: 'lgmean', text: s.meaning || '' }))));
+  }
   function renderGrid() {
     const g = $('#grid'); g.innerHTML = '';
+    renderSortbar();
     const term = ($('#search').value || '').trim().toLowerCase();
-    const d = draft();
-    const list = DATA.items.filter(p => !term || (p.name + ' ' + (p.existing_collection || '') + ' ' + (p.saved_collection || '') + ' ' + p.key).toLowerCase().indexOf(term) >= 0);
-    list.forEach(p => {
+    const d = draft(), mode = sortMode();
+    let list = DATA.items.filter(p => !term || (p.name + ' ' + (p.existing_collection || '') + ' ' + (p.saved_collection || '') + ' ' + categoryOf(p) + ' ' + statusOf(p).label + ' ' + p.key).toLowerCase().indexOf(term) >= 0);
+    // newest / oldest by when the artwork came into being (timeline.created_at, real provenance); ties by latest activity, then name
+    if (mode === 'oldest') list = list.slice().sort((a, b) => tsOf(a, 'created') - tsOf(b, 'created') || tsOf(a, 'updated') - tsOf(b, 'updated') || a.name.localeCompare(b.name));
+    else list = list.slice().sort((a, b) => tsOf(b, 'created') - tsOf(a, 'created') || tsOf(b, 'updated') - tsOf(a, 'updated') || a.name.localeCompare(b.name));
+    const groups = [];
+    if (mode === 'collection') {
+      const order = ['No collection yet'].concat(DATA.collections || []);
+      const by = {};
+      list.forEach(p => { const c = categoryOf(p) || 'No collection yet'; (by[c] = by[c] || []).push(p); });
+      Object.keys(by).sort((a, b) => { const ia = order.indexOf(a), ib = order.indexOf(b); return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib) || a.localeCompare(b); }).forEach(c => groups.push([c, by[c]]));
+    } else groups.push([null, list]);
+    groups.forEach(([name, ps]) => {
+      if (name) g.appendChild(h('h3', { class: 'ggroup', text: name + ' · ' + ps.length }));
+      ps.forEach(p => g.appendChild(cardOf(p, d)));
+    });
+    if (!list.length) g.insertBefore(h('p', { class: 'empty', text: 'Nothing matches that. Clear the search.' }), g.firstChild);
+    appendOtherCard(g, d);
+  }
+  function cardOf(p, d) {
       const on = d.key === p.key;
-      g.appendChild(h('article', { class: 'card' + (on ? ' on' : '') + (isLandscape(p) ? ' land' : ''), role: 'listitem', 'data-key': p.key },
+      return h('article', { class: 'card' + (on ? ' on' : '') + (isLandscape(p) ? ' land' : ''), role: 'listitem', 'data-key': p.key, 'data-status': statusOf(p).code },
         h('a', { class: 'cimg', href: p.preview, onclick: e => { e.preventDefault(); openViewer(p); } }, h('img', { src: p.preview, alt: p.name + ' · artwork', loading: 'lazy', decoding: 'async' })),
         h('div', { class: 'cbody' },
-          h('span', { class: 'ccoll' + (!(collectionOf(p) || p.existing_collection) && recOf(p).kind ? ' rec' : '') }, collectionOf(p) || p.existing_collection || (recOf(p).kind ? ['not chosen · ', h('em', { text: 'recommended ' + (recOf(p).collection || 'new: ' + (suggestedName(p) || 'a new collection')) })] : 'collection not chosen')),
+          h('span', { class: 'ccoll' + (!categoryOf(p) && recOf(p).kind ? ' rec' : '') }, categoryOf(p) || (recOf(p).kind ? ['no collection · ', h('em', { text: 'recommended ' + (recOf(p).collection || 'new: ' + (suggestedName(p) || 'a new collection')) })] : 'no collection yet')),
           h('span', { class: 'cname', text: p.name }),
-          h('span', { class: 'cstate', text: stateLine(p) }),
+          statusPill(p, true),
+          h('span', { class: 'cstate', text: detailLine(p) }),
           h('div', { class: 'cacts' },
             h('button', { type: 'button', text: 'View', 'aria-label': 'View ' + p.name, onclick: () => openViewer(p) }),
-            h('button', { type: 'button', class: 'pick', text: on ? 'Chosen' : 'Choose', 'aria-pressed': String(on), 'aria-label': (on ? 'Chosen: ' : 'Choose ') + p.name, onclick: () => pick(p.key) })))));
-    });
+            h('button', { type: 'button', class: 'pick', text: on ? 'Chosen' : 'Choose', 'aria-pressed': String(on), 'aria-label': (on ? 'Chosen: ' : 'Choose ') + p.name, onclick: () => pick(p.key) }))));
+  }
+  function appendOtherCard(g, d) {
     const onOther = d.key === OTHER;
     g.appendChild(h('article', { class: 'card other' + (onOther ? ' on' : ''), role: 'listitem' },
       h('span', { class: 'cimg', 'aria-hidden': 'true', text: '+' }),
       h('div', { class: 'cbody' }, h('span', { class: 'ccoll', text: 'no artwork' }), h('span', { class: 'cname', text: 'Something else' }),
         h('span', { class: 'cstate', text: 'a new poster idea, a question, a note' }),
         h('div', { class: 'cacts' }, h('button', { type: 'button', class: 'pick', text: onOther ? 'Chosen' : 'Choose', 'aria-pressed': String(onOther), onclick: () => pick(OTHER) })))));
-    if (!list.length) g.insertBefore(h('p', { class: 'empty', text: 'Nothing matches that. Clear the search.' }), g.firstChild);
   }
   function pick(key) {
     const d = draft();
@@ -162,12 +212,15 @@
     if (p) {
       const fl = fullLink(p), fe = fixedEdition(p);
       pk.appendChild(h('a', { class: 'pkimg', href: p.preview, 'aria-label': 'View ' + p.name, onclick: e => { e.preventDefault(); openViewer(p); } }, h('img', { src: p.preview, alt: '' })));
-      pk.appendChild(h('div', { class: 'pk' }, h('b', { text: p.name }), h('span', { text: stateLine(p) }),
-        h('span', { text: (p.photo_count ? p.photo_count + ' lot photos' : 'no lot photos yet') + ' · chosen ' + hhmm(d.created_at) }),
-        fe ? h('span', { class: 'edn', text: edText(fe) + ' · fixed for this artwork' }) : null,
+      pk.appendChild(h('div', { class: 'pk' }, h('b', { text: p.name }),
+        h('span', { class: 'pkstatus' }, statusPill(p), categoryOf(p) ? h('span', { class: 'pkcoll', text: categoryOf(p) }) : null),
+        h('span', { text: detailLine(p) || ((p.photo_count ? p.photo_count + ' lot photos' : 'no lot photos yet')) }),
+        h('span', { text: 'chosen ' + hhmm(d.created_at) }),
+        fe ? h('span', { class: 'edn', text: edText(fe) + ' · this artwork’s own edition, stays as promised' }) : null,
         h('div', { class: 'pklinks' },
           h('button', { type: 'button', class: 'change', text: 'View', onclick: () => openViewer(p) }),
           fl ? h('a', { class: 'change' + (fl.exact ? ' exact' : ''), href: fl.href, target: '_blank', rel: 'noopener', text: fl.short, title: fl.text }) : h('span', { class: 'change na', text: 'full file follows the build' }),
+          genLinks(p, true),
           h('button', { type: 'button', class: 'change', text: 'Change artwork', onclick: () => go(1) }))));
     } else {
       pk.appendChild(h('span', { class: 'cimg', 'aria-hidden': 'true', style: 'display:grid;place-items:center;width:96px;aspect-ratio:3/4;border:1px solid var(--rule);background:var(--paper-3);font:700 40px var(--cond);color:var(--ink-3)', text: '+' }));
@@ -194,7 +247,9 @@
       hint.push(p && p.saved_collection ? 'Your saved choice is ' + p.saved_collection + '. Change it here if you want.' : (saved ? 'The existing label is ' + saved + '.' : 'Choose one of the five, or propose a new one. Nothing is assigned on its own.'));
       if (rec.kind === 'existing') hint.push('Recommended: ' + rec.collection + (rec.why ? ' · ' + rec.why : '') + '.');
       else if (rec.kind === 'new') hint.push('Recommended: a new collection' + (suggestedName(p) ? ', ' + suggestedName(p) : '') + (rec.why ? ' · ' + rec.why : '') + '.');
-      if (fe) hint.push('This artwork’s edition (' + fe.label + ') stays whatever you choose here.');
+      // the artwork's own edition is said once, here; the numbers under the options are each collection's size for NEW artworks
+      if (fe) hint.push('This artwork keeps its own edition, ' + fe.label + ', whatever you choose; the numbers below are what new artworks in each collection get.');
+      else hint.push('The number under each collection is the edition a new artwork there gets.');
       $('#collhint').textContent = hint.join(' ');
       const co = $('#collopts'); co.innerHTML = '';
       const tag = txt => h('em', { class: 'rec', text: txt });
@@ -203,9 +258,10 @@
         co.appendChild(h('label', { class: 'opt' + (on ? ' on' : '') + (isRec ? ' isrec' : ''), for: id },
           h('input', { type: 'radio', name: 'collection', value: c, id: id, checked: on || null, onchange: () => { d.collection = c; touch(); renderRequest(); } }),
           h('span', {}, h('b', {}, c, isRec ? tag('recommended') : null),
-            h('span', { text: fe ? edText(fe).toLowerCase() + ' stays' : (eds[c] ? 'a new artwork here starts at 1 of ' + eds[c] : '') }))));
+            h('span', { text: eds[c] ? 'new artworks here: edition of ' + eds[c] : '' }))));
       });
-      // New / Other: an owner proposal. Name and "1 of N" editable; the number is the artwork's fixed edition when it has one.
+      // New / Other: an owner proposal. Name and edition size editable; the number is the size for new artworks in the
+      // proposed collection (77 by default), never this artwork's own edition.
       const onNew = isNew(d.collection), isRecNew = rec.kind === 'new';
       if (onNew) {
         if (d.new_name == null) d.new_name = suggestedName(p);
@@ -213,17 +269,16 @@
       }
       const nameIn = h('input', { type: 'text', id: 'newname', maxlength: 80, autocomplete: 'off', autocapitalize: 'words', placeholder: 'Name the collection', value: d.new_name || '',
         oninput: e => { d.new_name = e.target.value; touch(); renderBar(); } });
-      const edIn = h('input', { type: 'text', id: 'newedition', inputmode: 'numeric', pattern: '[0-9]*', maxlength: 6, autocomplete: 'off', value: d.new_edition || '', readonly: fe ? true : null, 'aria-describedby': 'newedhint',
+      const edIn = h('input', { type: 'text', id: 'newedition', inputmode: 'numeric', pattern: '[0-9]*', maxlength: 6, autocomplete: 'off', value: d.new_edition || '', 'aria-describedby': 'newedhint',
         oninput: e => { d.new_edition = e.target.value; touch(); renderBar(); const ok = validEdition(parseEdition(e.target.value)); e.target.setAttribute('aria-invalid', ok ? 'false' : 'true'); } });
       const newBody = h('div', { class: 'newcoll', hidden: onNew ? null : true },
         h('label', { class: 'nf' }, h('span', { text: 'Collection name' }), nameIn),
-        h('label', { class: 'nf' }, h('span', { text: '1 of' }), edIn),
-        h('p', { class: 'hint', id: 'newedhint', text: fe ? 'The edition of this artwork is fixed at ' + fe.limit + ' (' + fe.label + '). A collection choice never changes it; to change an edition, send a separate "Something else" request.'
-          : (rec.new && rec.new.edition_reason ? rec.new.edition_reason + '.' : NEW_DEFAULT_EDITION + ' is the usual start for a new collection; adjust it if you have a reason.') + ' Your proposal, read by the agent; it creates nothing on its own.' }));
+        h('label', { class: 'nf' }, h('span', { text: 'Edition of' }), edIn),
+        h('p', { class: 'hint', id: 'newedhint', text: (rec.new && rec.new.edition_reason ? rec.new.edition_reason : NEW_DEFAULT_EDITION + ' is the usual start for a new collection; it is the edition size for new artworks in it' + (fe ? '; this artwork’s own edition (' + fe.label + ') stays as promised' : '')) + '. Your proposal, read by the agent; it creates nothing on its own.' }));
       co.appendChild(h('label', { class: 'opt other' + (onNew ? ' on' : '') + (isRecNew ? ' isrec' : ''), for: 'coll-new' },
         h('input', { type: 'radio', name: 'collection', value: NEW, id: 'coll-new', checked: onNew || null, onchange: () => { d.collection = NEW; touch(); renderRequest(); setTimeout(() => { const n = $('#newname'); if (n && !n.value) n.focus(); }, 0); } }),
         h('span', {}, h('b', {}, 'New / Other', isRecNew ? tag('recommended') : null),
-          h('span', { text: 'Propose a collection that is not one of the five' + (suggestedName(p) ? ' · suggested: ' + suggestedName(p) : '') + ' · 1 of ' + suggestedEdition(p) + (fe ? ' (fixed)' : '') }))));
+          h('span', { text: 'Propose a collection that is not one of the five' + (suggestedName(p) ? ' · suggested: ' + suggestedName(p) : '') + ' · new artworks there: edition of ' + suggestedEdition(p) }))));
       co.appendChild(newBody);
     }
     const note = $('#note'); if (note.value !== (d.note || '')) note.value = d.note || '';
@@ -247,8 +302,6 @@
     if (t && t.collection && isNew(d.collection)) {
       if (!(d.new_name || '').trim()) out.push('Name the new collection.');
       if (!validEdition(parseEdition(d.new_edition))) out.push('The edition must be a whole number above 0.');
-      const fe = fixedEdition(p);
-      if (fe && validEdition(parseEdition(d.new_edition)) && parseEdition(d.new_edition) !== fe.limit) out.push('This artwork’s edition is fixed at ' + fe.limit + '; it cannot change here.');
     }
     if (t && t.note && !(d.note || '').trim()) out.push('Write a note.');
     if (p && !p.source_sha256) out.push('This artwork has no bound master; the agent cannot act on it.');
@@ -260,7 +313,7 @@
   function requestObject(d, sentAt) {
     const p = d.key && d.key !== OTHER ? itemByKey(d.key) : null, t = typeById(d.type);
     const approve = !!(t && t.collection), newColl = approve && isNew(d.collection), rec = recOf(p), fe = fixedEdition(p), fl = fullLink(p);
-    const proposed = newColl ? { name: (d.new_name || '').trim(), edition: parseEdition(d.new_edition), edition_basis: fe ? 'existing fixed edition of this artwork' : 'owner-adjusted default for a genuinely new collection (' + NEW_DEFAULT_EDITION + ')', status: 'owner proposal; not a migration, not an allocation' } : null;
+    const proposed = newColl ? { name: (d.new_name || '').trim(), edition: parseEdition(d.new_edition), edition_basis: 'proposed edition size for new artworks in this collection (default ' + NEW_DEFAULT_EDITION + ')' + (fe ? '; this artwork keeps its own edition ' + fe.label : ''), status: 'owner proposal; not a migration, not an allocation' } : null;
     const chosen = approve ? (newColl ? (proposed.name || null) : (d.collection || null)) : null;
     return {
       kind: 'lombardia_studio_request', schema_version: 3, request_id: d.id, created_at: d.created_at, sent_at: sentAt || null, is_test: IS_TEST,
@@ -278,7 +331,7 @@
     };
   }
   function collectionText(r) {
-    if (r.collection_kind === 'new' && r.proposed_collection) return 'New / Other · ' + r.proposed_collection.name + ' · 1 of ' + r.proposed_collection.edition + ' (your proposal)';
+    if (r.collection_kind === 'new' && r.proposed_collection) return 'New / Other · ' + r.proposed_collection.name + ' · edition of ' + r.proposed_collection.edition + ' for new artworks (your proposal)';
     return r.collection || 'not chosen - do not assign';
   }
   function summaryText(r) {
@@ -302,9 +355,12 @@
   function fullRow(p) {
     if (!p) return;
     const rv = $('#review'), fl = fullLink(p);
+    rv.appendChild(h('div', {}, h('span', { class: 'k', text: 'Status' }), h('span', { class: 'v links' }, statusPill(p), h('span', { text: detailLine(p) }))));
     rv.appendChild(h('div', {}, h('span', { class: 'k', text: 'Full poster' }), h('span', { class: 'v links' },
       fl ? h('a', { href: fl.href, target: '_blank', rel: 'noopener', text: fl.text }) : h('span', { text: 'full-quality file follows the lot build' }),
       h('button', { type: 'button', class: 'change', text: 'View preview', onclick: () => openViewer(p) }))));
+    const gl = genLinks(p, false);
+    if (gl.length) rv.appendChild(h('div', {}, h('span', { class: 'k', text: 'MuAPI' }), h('span', { class: 'v links' }, gl)));
   }
   function renderReview() {
     const rv = $('#review'); rv.innerHTML = '';
@@ -457,7 +513,7 @@
     const tb = $('#titleblock'); if (!tb) return; tb.innerHTML = '';
     const row = (k, v) => tb.appendChild(h('div', {}, h('span', { class: 'k', text: k }), h('span', { class: 'v', text: v })));
     tb.appendChild(h('div', { class: 'head' }, h('span', { class: 'mono', text: 'LA' }), h('span', { text: 'Lombardia Automobili · studio' })));
-    row('Artworks', DATA.items.length + ' · ' + DATA.items.filter(p => p.recorded_approval === 'owner_review_pending' || p.recorded_approval === 'owner_visual_review_pending' || p.owner_collection_pending).length + ' waiting for your word');
+    row('Artworks', DATA.items.length + ' · ' + DATA.items.filter(p => WAITING[statusOf(p).code]).length + ' waiting for your word');
     row('Draft', S.draft && S.draft.key ? 'saved on this device · ' + hhmm(S.draft.updated_at) : 'none');
     row('Sent', S.sent.length ? S.sent.length + ' from this device · last ' + hhmm(S.sent[0].at) : 'nothing yet');
     row('Built', DATA.built || '');
@@ -472,7 +528,7 @@
     if (fl && fl.exact) f.appendChild(h('a', { href: fl.href, target: '_blank', rel: 'noopener', text: 'Exact master file · ' + (p.full_source_pixels || []).join(' × ') + ' px · ' + Math.round((p.full_source_bytes || 0) / 1e5) / 10 + ' MB' }));
     else if (fl) f.appendChild(h('a', { href: fl.href, target: '_blank', rel: 'noopener', text: fl.text }));
     else f.appendChild(h('span', { text: 'Full-quality file: follows the lot build' }));
-    if (p.review_url) f.appendChild(h('a', { href: p.review_url, target: '_blank', rel: 'noopener', text: 'MuAPI review link ↗' }));
+    genLinks(p, true).forEach(a => f.appendChild(a));
     if (p.board_url) f.appendChild(h('a', { href: '../posters/' + encodeURIComponent(p.key) + '.html', text: 'Lot page ↗' }));
     f.appendChild(h('span', { text: 'this view is a ' + (p.preview_pixels || []).join(' × ') + ' px preview' }));
     document.body.classList.add('viewing');
