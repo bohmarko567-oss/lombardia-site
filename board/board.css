@@ -463,6 +463,13 @@ h3.lab.sub { margin-top: 18px; color: var(--ink-2); letter-spacing: .18em; }
 .localbox .lbody { padding: 12px; display: grid; gap: 12px; }
 .localbox .printrow .cp.btn { min-height: 40px; padding: 0 14px; font-size: 11.5px; border-color: var(--ink); color: var(--ink); }
 .localbox .printrow .cp.btn:hover, .localbox .printrow .cp.btn.ok { background: var(--ink); color: var(--paper); }
+/* the folder is the primary path: printed in full, one dark button, a one-line how-to; single files fold under it */
+.folderrow { display: grid; gap: 8px; }
+.folderrow .pk { font: 600 10.5px/1.6 var(--mono); text-transform: uppercase; letter-spacing: .12em; color: var(--ink-2); }
+.folderrow .path.folder { font-size: 13px; padding: 8px 10px; background: var(--paper-3); border: 1px solid var(--rule); }
+.folderrow .cp.btn.primary { min-height: var(--tap, 44px); padding: 0 16px; font-size: 12px; background: var(--ink); color: var(--paper); border-color: var(--ink); justify-self: start; }
+.folderrow .cp.btn.primary:hover, .folderrow .cp.btn.primary.ok { background: var(--tint); border-color: var(--tint); color: var(--tint-ink); }
+.folderrow .hint { margin: 0; }
 .pathlist { display: grid; gap: 6px; margin-top: 10px; }
 .pathrow { display: grid; grid-template-columns: minmax(64px, 130px) 1fr auto; align-items: start; gap: 8px 10px; padding: 6px 0; border-bottom: 1px solid var(--rule-soft); min-width: 0; }
 .pathrow:last-child { border-bottom: 0; }
@@ -472,7 +479,7 @@ h3.lab.sub { margin-top: 18px; color: var(--ink-2); letter-spacing: .18em; }
 .cp.tiny { padding: 4px 9px; font-size: 9.5px; align-self: center; }
 .localbox .missing { margin: 0; padding-left: 18px; font-size: 12.5px; color: var(--drop); }
 .kit.paths summary { margin-top: 2px; }
-@media (max-width: 640px) { .pathrow { grid-template-columns: 1fr auto; } .pathrow .pk { grid-column: 1 / -1; } .localbox .printrow .cp.btn { flex: 1 1 100%; } }
+@media (max-width: 640px) { .pathrow { grid-template-columns: 1fr auto; } .pathrow .pk { grid-column: 1 / -1; } .localbox .printrow .cp.btn { flex: 1 1 100%; } .folderrow .cp.btn.primary { justify-self: stretch; } }
 .page-files .lotfiles { border-top: 1px solid var(--rule); padding: 18px 0 10px; }
 .page-files .lfhead { display: flex; gap: 14px; align-items: center; }
 .page-files .lfhead .pimg { flex: 0 0 72px; width: 72px; display: block; background: var(--paper-3); border: 1px solid var(--rule); }
