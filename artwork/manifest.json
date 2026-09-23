@@ -1,5 +1,5 @@
 {
- "built": "2026-09-20T17:46:56.139055+00:00",
+ "built": "2026-09-23 03:56",
  "items": [
   {
    "key": "911-carrera-rs27-1973-sport-white-45x60",
@@ -12,7 +12,8 @@
    ],
    "format": "JPEG",
    "source": "sheets/scale-18/911-carrera-rs27-1973-sport-white-45x60.jpg",
-   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)"
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)",
+   "basis": "approval"
   },
   {
    "key": "batch12-alpine-a110",
@@ -25,7 +26,8 @@
    ],
    "format": "JPEG",
    "source": "pipeline/lean-delivery/batch12-alpine-a110/d4874d4f4459/print.jpg",
-   "evidence": "lean delivery print.jpg for selected native d4874d4f4459; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
+   "evidence": "lean delivery print.jpg for selected native d4874d4f4459; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly",
+   "basis": "approval"
   },
   {
    "key": "batch12-bmw-30-csl",
@@ -38,7 +40,8 @@
    ],
    "format": "JPEG",
    "source": "pipeline/lean-delivery/batch12-bmw-30-csl/ef868240ca4f/print.jpg",
-   "evidence": "lean delivery print.jpg for selected native ef868240ca4f; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
+   "evidence": "lean delivery print.jpg for selected native ef868240ca4f; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly",
+   "basis": "approval"
   },
   {
    "key": "batch12-ferrari-testarossa",
@@ -51,7 +54,8 @@
    ],
    "format": "JPEG",
    "source": "pipeline/lean-delivery/batch12-ferrari-testarossa/4fbc59b34940/print.jpg",
-   "evidence": "lean delivery print.jpg for selected native 4fbc59b34940; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
+   "evidence": "lean delivery print.jpg for selected native 4fbc59b34940; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly",
+   "basis": "approval"
   },
   {
    "key": "batch12-mercedes-190e-evo2",
@@ -64,7 +68,8 @@
    ],
    "format": "JPEG",
    "source": "pipeline/approved-lots/batch12-mercedes-190e-evo2/exports/artwork.jpg",
-   "evidence": "pipeline/approved-lots/batch12-mercedes-190e-evo2/delivery.json print_jpg; production-manifest approval hero == sheet (bd3c959b5de0)"
+   "evidence": "pipeline/approved-lots/batch12-mercedes-190e-evo2/delivery.json print_jpg; production-manifest approval hero == sheet (bd3c959b5de0)",
+   "basis": "approval"
   },
   {
    "key": "batch12-porsche-959",
@@ -77,7 +82,22 @@
    ],
    "format": "JPEG",
    "source": "pipeline/lean-delivery/batch12-porsche-959/e8247f4b0a82/print.jpg",
-   "evidence": "lean delivery print.jpg for selected native e8247f4b0a82; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
+   "evidence": "lean delivery print.jpg for selected native e8247f4b0a82; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly",
+   "basis": "approval"
+  },
+  {
+   "key": "f40-ossido6080",
+   "file": "artwork/f7d768f9b5fd-f40-ossido6080.jpg",
+   "sha256": "f7d768f9b5fde4e14384fd3451a0bf436609693a1431203dda41d1f10f8a10b9",
+   "bytes": 11288729,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "sheets/hybrid/f40-ossido6080-landscape.jpg",
+   "evidence": "not an artwork approval: the source file of active Etsy listing 4580052107 (listings/ossido6080-f40-etsy.md names sheets/hybrid/f40-ossido6080-landscape.jpg); sha256 f7d768f9b5fd recorded for that path in PRINT-LIBRARY/manifest.json, pipeline/new-era-20260913/catalogue/all-active-mappings.json",
+   "basis": "listing-source"
   },
   {
    "key": "giuliatz-studio-di-forma-v1-white-45x60",
@@ -90,7 +110,8 @@
    ],
    "format": "JPEG",
    "source": "sheets/studio-di-forma/v1-white-45x60.jpg",
-   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)"
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)",
+   "basis": "approval"
   },
   {
    "key": "giuliatz-studio-di-forma-v2-white-80x60",
@@ -103,7 +124,8 @@
    ],
    "format": "JPEG",
    "source": "sheets/studio-di-forma/v2-white-80x60.jpg",
-   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)"
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)",
+   "basis": "approval"
   },
   {
    "key": "miura-p400sv-1971-gran-turismo-white-80x60",
@@ -116,7 +138,8 @@
    ],
    "format": "JPEG",
    "source": "sheets/scale-18/miura-p400sv-1971-gran-turismo-white-80x60.jpg",
-   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)"
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)",
+   "basis": "approval"
   },
   {
    "key": "new-era-20260913-lamborghini-diablo",
@@ -129,7 +152,8 @@
    ],
    "format": "JPEG",
    "source": "pipeline/lean-delivery/new-era-20260913-lamborghini-diablo/3167dcb09cb4/print.jpg",
-   "evidence": "lean delivery print.jpg for selected native 3167dcb09cb4; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
+   "evidence": "lean delivery print.jpg for selected native 3167dcb09cb4; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly",
+   "basis": "approval"
   },
   {
    "key": "new-era-20260913-mazda-rx7-fd",
@@ -142,7 +166,8 @@
    ],
    "format": "JPEG",
    "source": "pipeline/lean-delivery/new-era-20260913-mazda-rx7-fd/876a9ca1cd57/print.jpg",
-   "evidence": "lean delivery print.jpg for selected native 876a9ca1cd57; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
+   "evidence": "lean delivery print.jpg for selected native 876a9ca1cd57; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly",
+   "basis": "approval"
   },
   {
    "key": "review-05-long-green-sentence",
@@ -155,7 +180,8 @@
    ],
    "format": "JPEG",
    "source": "sheets/scale-18/review-05-long-green-sentence.jpg",
-   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)"
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)",
+   "basis": "approval"
   },
   {
    "key": "review-07-orange-margin",
@@ -168,7 +194,8 @@
    ],
    "format": "JPEG",
    "source": "sheets/scale-18/review-07-orange-margin.jpg",
-   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)"
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)",
+   "basis": "approval"
   },
   {
    "key": "review-09-white-slash",
@@ -181,7 +208,8 @@
    ],
    "format": "JPEG",
    "source": "sheets/scale-18/review-09-white-slash.jpg",
-   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)"
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)",
+   "basis": "approval"
   },
   {
    "key": "review-10-four-corners",
@@ -194,7 +222,8 @@
    ],
    "format": "JPEG",
    "source": "sheets/scale-18/review-10-four-corners.jpg",
-   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)"
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)",
+   "basis": "approval"
   },
   {
    "key": "review-11-early-wedge",
@@ -207,7 +236,8 @@
    ],
    "format": "JPEG",
    "source": "sheets/scale-18/review-11-early-wedge.jpg",
-   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)"
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)",
+   "basis": "approval"
   },
   {
    "key": "review-14-turbo-at-the-edge",
@@ -220,7 +250,8 @@
    ],
    "format": "JPEG",
    "source": "sheets/scale-18/review-14-turbo-at-the-edge.jpg",
-   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-10)"
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-10)",
+   "basis": "approval"
   },
   {
    "key": "review-17-red-horizontal",
@@ -233,7 +264,8 @@
    ],
    "format": "JPEG",
    "source": "sheets/scale-18/review-17-red-horizontal.jpg",
-   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)"
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)",
+   "basis": "approval"
   },
   {
    "key": "revival10-dodge-viper-rt10",
@@ -246,59 +278,8 @@
    ],
    "format": "JPEG",
    "source": "pipeline/lean-delivery/revival10-dodge-viper-rt10/9942b1a5f854/print.jpg",
-   "evidence": "lean delivery print.jpg for selected native 9942b1a5f854; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
-  },
-  {
-   "key": "studio-next-20260920-de-tomaso-pantera",
-   "file": "artwork/bd3494024d55-studio-next-20260920-de-tomaso-pantera.jpg",
-   "sha256": "bd3494024d5504a812a99b9be6a85fa561c3a736ac78736ace22835f9ed4b7c8",
-   "bytes": 17708814,
-   "px": [
-    9449,
-    7087
-   ],
-   "format": "JPEG",
-   "source": "pipeline/lean-delivery/studio-next-20260920-de-tomaso-pantera/8d08a2df2522/print.jpg",
-   "evidence": "lean delivery print.jpg for selected native 8d08a2df2522; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
-  },
-  {
-   "key": "studio-next-20260920-lexus-lfa",
-   "file": "artwork/30901df07ca4-studio-next-20260920-lexus-lfa.jpg",
-   "sha256": "30901df07ca418f819ee8af1b0fc7b9ece7fa10d4dabfdbf0c8369631cc7a519",
-   "bytes": 12202306,
-   "px": [
-    5315,
-    7087
-   ],
-   "format": "JPEG",
-   "source": "pipeline/lean-delivery/studio-next-20260920-lexus-lfa/d238f5b7fe8b/print.jpg",
-   "evidence": "lean delivery print.jpg for selected native d238f5b7fe8b; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
-  },
-  {
-   "key": "sunburst-new2-20260913-bmw-m3-e30",
-   "file": "artwork/c62c28ae8df3-sunburst-new2-20260913-bmw-m3-e30.jpg",
-   "sha256": "c62c28ae8df39becc718dff8d9006feb9426c1be8e64a29d150071495757f6bc",
-   "bytes": 10249038,
-   "px": [
-    5315,
-    7087
-   ],
-   "format": "JPEG",
-   "source": "pipeline/lean-delivery/sunburst-new2-20260913-bmw-m3-e30/6617914653c1/print.jpg",
-   "evidence": "lean delivery print.jpg for selected native 6617914653c1; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
-  },
-  {
-   "key": "sunburst-new2-20260913-vector-w8",
-   "file": "artwork/73280bfa574e-sunburst-new2-20260913-vector-w8.jpg",
-   "sha256": "73280bfa574e96d2b9e76489ef33320bb66a65446058a32f8d11174d12bb6f33",
-   "bytes": 19146904,
-   "px": [
-    9449,
-    7087
-   ],
-   "format": "JPEG",
-   "source": "pipeline/lean-delivery/sunburst-new2-20260913-vector-w8/1cf000f011bb/print.jpg",
-   "evidence": "lean delivery print.jpg for selected native 1cf000f011bb; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
+   "evidence": "lean delivery print.jpg for selected native 9942b1a5f854; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly",
+   "basis": "approval"
   },
   {
    "key": "studio-next-20260920-aston-martin-db5",
@@ -311,7 +292,64 @@
    ],
    "format": "JPEG",
    "source": "pipeline/lean-delivery/studio-next-20260920-aston-martin-db5/b6ca9aa0bdc0/print.jpg",
-   "evidence": "lean delivery print.jpg for selected native b6ca9aa0bdc0; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly"
+   "evidence": "lean delivery print.jpg for selected native b6ca9aa0bdc0; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-next-20260920-de-tomaso-pantera",
+   "file": "artwork/bd3494024d55-studio-next-20260920-de-tomaso-pantera.jpg",
+   "sha256": "bd3494024d5504a812a99b9be6a85fa561c3a736ac78736ace22835f9ed4b7c8",
+   "bytes": 17708814,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/lean-delivery/studio-next-20260920-de-tomaso-pantera/8d08a2df2522/print.jpg",
+   "evidence": "lean delivery print.jpg for selected native 8d08a2df2522; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-next-20260920-lexus-lfa",
+   "file": "artwork/30901df07ca4-studio-next-20260920-lexus-lfa.jpg",
+   "sha256": "30901df07ca418f819ee8af1b0fc7b9ece7fa10d4dabfdbf0c8369631cc7a519",
+   "bytes": 12202306,
+   "px": [
+    5315,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/lean-delivery/studio-next-20260920-lexus-lfa/d238f5b7fe8b/print.jpg",
+   "evidence": "lean delivery print.jpg for selected native d238f5b7fe8b; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly",
+   "basis": "approval"
+  },
+  {
+   "key": "sunburst-new2-20260913-bmw-m3-e30",
+   "file": "artwork/c62c28ae8df3-sunburst-new2-20260913-bmw-m3-e30.jpg",
+   "sha256": "c62c28ae8df39becc718dff8d9006feb9426c1be8e64a29d150071495757f6bc",
+   "bytes": 10249038,
+   "px": [
+    5315,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/lean-delivery/sunburst-new2-20260913-bmw-m3-e30/6617914653c1/print.jpg",
+   "evidence": "lean delivery print.jpg for selected native 6617914653c1; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly",
+   "basis": "approval"
+  },
+  {
+   "key": "sunburst-new2-20260913-vector-w8",
+   "file": "artwork/73280bfa574e-sunburst-new2-20260913-vector-w8.jpg",
+   "sha256": "73280bfa574e96d2b9e76489ef33320bb66a65446058a32f8d11174d12bb6f33",
+   "bytes": 19146904,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/lean-delivery/sunburst-new2-20260913-vector-w8/1cf000f011bb/print.jpg",
+   "evidence": "lean delivery print.jpg for selected native 1cf000f011bb; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly",
+   "basis": "approval"
   }
  ]
 }

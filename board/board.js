@@ -1002,7 +1002,13 @@
       // v4 lot page: the signature says what the page shows; nothing here is saved or sent - the Studio does that
       row('Tavola', (D.folio ? D.folio + ' · ' : '') + D.name + ' · ' + D.collLabel);
       if ((D.shots || []).length) row('Photographs', (D.order || []).length + ' in posting order');
-      row('Requests', [h('a', { href: '../studio/?lot=' + encodeURIComponent(D.key), text: 'through the Studio' })]);
+      // a lot the Studio does not carry (retired there) gets no dead Studio door - 23 September
+      row('Requests', D.inStudio === false ? [h('a', { href: '../archive.html#' + encodeURIComponent(D.key), text: 'not in the Studio · Archive' })] : [h('a', { href: '../studio/?lot=' + encodeURIComponent(D.key), text: 'through the Studio' })]);
+      row('Built', D.built || '');
+      return;
+    }
+    if (D.kind === 'archive') {
+      row('Archive', (D.total || 0) + ' works · kept, never redone');
       row('Built', D.built || '');
       return;
     }
@@ -1042,4 +1048,25 @@
     if (location.hash === '#archive') setTimeout(openArchive, 60);
     else if (location.hash) { const t = $(map[location.hash] || location.hash); if (t) setTimeout(() => t.scrollIntoView({ block: 'start' }), 60); }
   }
+  // the Archive: archive.html#<key> (the lot page's "History in the Archive") opens that card's details
+  if (D.kind === 'archive' && location.hash) {
+    let t = null; try { t = document.getElementById(decodeURIComponent(location.hash.slice(1))); } catch (e) { }
+    const dt = t && t.querySelector('details.adetails');
+    if (dt) { dt.open = true; setTimeout(() => t.scrollIntoView({ block: 'start' }), 60); }
+  }
+})();
+
+// marketplace panes on the lot page (owner 2026-09-22: "a new tab along catawiki, we name it etsy" - each tab has
+// its own 02 photographs and 03 listing, server-rendered by mk-board.py; this only switches which pane shows)
+(function () {
+  var tabs = document.getElementById('market-tabs'); if (!tabs) return;
+  var key = 'lombardia.market.' + location.pathname;
+  function show(k) {
+    tabs.querySelectorAll('.mtab').forEach(function (b) { b.classList.toggle('on', b.dataset.market === k); b.setAttribute('aria-selected', b.dataset.market === k ? 'true' : 'false'); });
+    document.querySelectorAll('.mpane').forEach(function (p) { p.hidden = p.dataset.market !== k; });
+    try { localStorage.setItem(key, k); } catch (e) {}
+  }
+  tabs.addEventListener('click', function (e) { var b = e.target.closest('.mtab'); if (b) show(b.dataset.market); });
+  var k = null; try { k = localStorage.getItem(key); } catch (e) {}
+  if (k && tabs.querySelector('.mtab[data-market="' + k + '"]')) show(k);
 })();
