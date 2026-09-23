@@ -1,5 +1,5 @@
 {
- "built": "2026-09-23 03:56",
+ "built": "2026-09-23 19:58",
  "items": [
   {
    "key": "911-carrera-rs27-1973-sport-white-45x60",
@@ -128,20 +128,6 @@
    "basis": "approval"
   },
   {
-   "key": "miura-p400sv-1971-gran-turismo-white-80x60",
-   "file": "artwork/3577e4d329dc-miura-p400sv-1971-gran-turismo-white-80x60.jpg",
-   "sha256": "3577e4d329dc89265dfb0956440c81799f05d78a3a46b61838cf5acfc6c06992",
-   "bytes": 16266601,
-   "px": [
-    9448,
-    7086
-   ],
-   "format": "JPEG",
-   "source": "sheets/scale-18/miura-p400sv-1971-gran-turismo-white-80x60.jpg",
-   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)",
-   "basis": "approval"
-  },
-  {
    "key": "new-era-20260913-lamborghini-diablo",
    "file": "artwork/046edf9acfa6-new-era-20260913-lamborghini-diablo.jpg",
    "sha256": "046edf9acfa6cd247d71151dd5d3194d176b829b9369d622da09a373b7b4df89",
@@ -184,20 +170,6 @@
    "basis": "approval"
   },
   {
-   "key": "review-07-orange-margin",
-   "file": "artwork/5c5ebd5bcb94-review-07-orange-margin.jpg",
-   "sha256": "5c5ebd5bcb9446ac079561958bd2163a4456b2f6105d89ea0c5c3fdbb913c875",
-   "bytes": 10671636,
-   "px": [
-    5314,
-    7086
-   ],
-   "format": "JPEG",
-   "source": "sheets/scale-18/review-07-orange-margin.jpg",
-   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)",
-   "basis": "approval"
-  },
-  {
    "key": "review-09-white-slash",
    "file": "artwork/451485b34caf-review-09-white-slash.jpg",
    "sha256": "451485b34cafc535ecfbdfb23562b14c3a5d67cda39e1e3a9f09a62e60ec570a",
@@ -222,20 +194,6 @@
    ],
    "format": "JPEG",
    "source": "sheets/scale-18/review-10-four-corners.jpg",
-   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)",
-   "basis": "approval"
-  },
-  {
-   "key": "review-11-early-wedge",
-   "file": "artwork/55ad401034c9-review-11-early-wedge.jpg",
-   "sha256": "55ad401034c9f6362a9f8ba337ec2b4d53dd93b062a1cbf8b1618ebc5bff5f9d",
-   "bytes": 11175450,
-   "px": [
-    5314,
-    7086
-   ],
-   "format": "JPEG",
-   "source": "sheets/scale-18/review-11-early-wedge.jpg",
    "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-09)",
    "basis": "approval"
   },
