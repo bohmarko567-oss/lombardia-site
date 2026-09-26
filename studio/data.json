@@ -1,7 +1,7 @@
 {
  "schema_version": 3,
- "built": "2026-09-20 19:46",
- "accessed_date": "2026-09-20",
+ "built": "2026-09-26 22:22",
+ "accessed_date": "2026-09-26",
  "collections": [
   "American Form",
   "Forma / Motion",
@@ -426,171 +426,6 @@
    }
   },
   {
-   "key": "studio-diverse-20260920-saab-900-turbo",
-   "name": "Saab 900 Turbo 16",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-diverse-20260920-saab-900-turbo-b626aa56570d-current.jpg",
-   "preview_pixels": [
-    1600,
-    2137
-   ],
-   "source_file": "pipeline/studio-diverse-20260920/heroes/saab-900-turbo/attempt1-native.png",
-   "source_sha256": "b626aa56570d9d9441e39c57b4fb5f13637c35ed9a7d6dd66d5293e878ee130e",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-09-20T17:39:12.328609+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "25e5faff-3cac-42a4-82d8-3f71280e6654",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T17:39:12.328609+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/d8ae82abbcbb4f279d36c86547500337.png",
-     "page_url": null,
-     "references": [
-      {
-       "role": "Front three-quarter (black car): sloped facelift nose, grille, long door, three-door glasshouse",
-       "url": "https://cdn.muapi.ai/outputs/generated/0a815a9348a04b9fb4813b4ef068d790.jpg",
-       "source_page": "https://commons.wikimedia.org/wiki/File:1989_Saab_900_Turbo_16.jpg"
-      },
-      {
-       "role": "Front three-quarter, other side (silver car): nose and bonnet line, alloy wheels",
-       "url": "https://cdn.muapi.ai/outputs/generated/54e90d4cf3384c2ca26a1b9f92bc3a53.jpg",
-       "source_page": "https://commons.wikimedia.org/wiki/File:1990_Saab_900_Turbo_16.jpg"
-      },
-      {
-       "role": "Front three-quarter (red car): nose, headlamp and grille geometry, three-spoke wheels",
-       "url": "https://cdn.muapi.ai/outputs/generated/692d94fa9b4245e7b578cb306272180a.jpg",
-       "source_page": "https://commons.wikimedia.org/wiki/File:1990_Saab_900_Turbo_3_DOHC_16.jpg"
-      },
-      {
-       "role": "Rear three-quarter (silver-blue car): hatch glass, rear spoiler lip, rear lamps (ignore rally plate and stickers)",
-       "url": "https://cdn.muapi.ai/outputs/generated/2d860c04d4e543a3abeec2787a6bd82d.jpg",
-       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Schwetzingen_(20250726-P1048559).jpg"
-      },
-      {
-       "role": "Rear three-quarter, other side (same silver-blue car): hatch and tail (ignore rally plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/a009a66d931e418e97ee857901a97dd3.jpg",
-       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Schwetzingen_(20250726-P1048598).jpg"
-      },
-      {
-       "role": "Rear (same silver-blue car): tail lamps, hatch, width (ignore rally plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/4367d76b17f7452db15d551edc835609.jpg",
-       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Schwetzingen_(20250726-P1048599).jpg"
-      },
-      {
-       "role": "Front (same silver-blue car): face and grille (ignore Hella spot lamps and rally plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/51ceba5835704da2b214e513136745be.jpg",
-       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Heidelberg_(20250726-P1048822).jpg"
-      }
-     ]
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Forma / Motion",
-    "why": "Suggested from this concept: editorial photomontage / halftone collage. Your collection choice is final."
-   },
-   "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
-   "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
-   "full_source_url": "full/b626aa56570d-studio-diverse-20260920-saab-900-turbo.png",
-   "full_source_sha256": "b626aa56570d9d9441e39c57b4fb5f13637c35ed9a7d6dd66d5293e878ee130e",
-   "full_source_bytes": 21432386,
-   "full_source_pixels": [
-    2480,
-    3312
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Forma / Motion",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Suggested from this concept: editorial photomontage / halftone collage. Your collection choice is final.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 100
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "25e5faff-3cac-42a4-82d8-3f71280e6654",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T17:39:12.328609+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/d8ae82abbcbb4f279d36c86547500337.png",
-     "page_url": "https://muapi.ai/predictions/25e5faff-3cac-42a4-82d8-3f71280e6654",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter (black car): sloped facelift nose, grille, long door, three-door glasshouse",
-       "url": "https://cdn.muapi.ai/outputs/generated/0a815a9348a04b9fb4813b4ef068d790.jpg",
-       "source_page": "https://commons.wikimedia.org/wiki/File:1989_Saab_900_Turbo_16.jpg"
-      },
-      {
-       "role": "Front three-quarter, other side (silver car): nose and bonnet line, alloy wheels",
-       "url": "https://cdn.muapi.ai/outputs/generated/54e90d4cf3384c2ca26a1b9f92bc3a53.jpg",
-       "source_page": "https://commons.wikimedia.org/wiki/File:1990_Saab_900_Turbo_16.jpg"
-      },
-      {
-       "role": "Front three-quarter (red car): nose, headlamp and grille geometry, three-spoke wheels",
-       "url": "https://cdn.muapi.ai/outputs/generated/692d94fa9b4245e7b578cb306272180a.jpg",
-       "source_page": "https://commons.wikimedia.org/wiki/File:1990_Saab_900_Turbo_3_DOHC_16.jpg"
-      },
-      {
-       "role": "Rear three-quarter (silver-blue car): hatch glass, rear spoiler lip, rear lamps (ignore rally plate and stickers)",
-       "url": "https://cdn.muapi.ai/outputs/generated/2d860c04d4e543a3abeec2787a6bd82d.jpg",
-       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Schwetzingen_(20250726-P1048559).jpg"
-      },
-      {
-       "role": "Rear three-quarter, other side (same silver-blue car): hatch and tail (ignore rally plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/a009a66d931e418e97ee857901a97dd3.jpg",
-       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Schwetzingen_(20250726-P1048598).jpg"
-      },
-      {
-       "role": "Rear (same silver-blue car): tail lamps, hatch, width (ignore rally plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/4367d76b17f7452db15d551edc835609.jpg",
-       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Schwetzingen_(20250726-P1048599).jpg"
-      },
-      {
-       "role": "Front (same silver-blue car): face and grille (ignore Hella spot lamps and rally plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/51ceba5835704da2b214e513136745be.jpg",
-       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Heidelberg_(20250726-P1048822).jpg"
-      }
-     ],
-     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-09-20T17:39:12.328609+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-09-20T17:39:12.328609+00:00",
-    "updated_source": "candidate generated"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
    "key": "studio-diverse-20260920-ferrari-dino-246gt",
    "name": "Ferrari Dino 246 GT",
    "notion_url": null,
@@ -744,171 +579,6 @@
     "created_at": "2026-09-20T17:39:09.112355+00:00",
     "created_source": "MuAPI original",
     "updated_at": "2026-09-20T17:39:09.112355+00:00",
-    "updated_source": "candidate generated"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-diverse-20260920-lancia-aurelia-b24",
-   "name": "Lancia Aurelia B24 Spider America",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-diverse-20260920-lancia-aurelia-b24-75fd87172010-current.jpg",
-   "preview_pixels": [
-    1600,
-    1198
-   ],
-   "source_file": "pipeline/studio-diverse-20260920/heroes/lancia-aurelia-b24/attempt1-native.png",
-   "source_sha256": "75fd8717201074cd55ad2dbd5681e3d40c8fb1ce610fa730f88c521d8152b889",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-09-20T17:39:05.749741+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "92dbdeb3-5d6c-46dd-88c3-697c6b775f3b",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T17:39:05.749741+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/8503748cc40248a9845cd0437b2dad22.png",
-     "page_url": null,
-     "references": [
-      {
-       "role": "Rear three-quarter open: wraparound windscreen, tail, tan cockpit",
-       "url": "https://cdn.muapi.ai/outputs/a0f1a36e7f164cbf83a75dc9243c2136_ref-1.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
-      },
-      {
-       "role": "Front three-quarter open: shield grille, lamps, wire wheels",
-       "url": "https://cdn.muapi.ai/outputs/7692f706d8214a799475430728a736b5_ref-2.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
-      },
-      {
-       "role": "Side profile open: fender line, wheelbase, low windscreen",
-       "url": "https://cdn.muapi.ai/outputs/094bf70f1d2044339d63e880708c6a07_ref-3.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
-      },
-      {
-       "role": "Front: Lancia shield grille and lamps",
-       "url": "https://cdn.muapi.ai/outputs/2fe883cc485f4192963ffb5f3fade58f_ref-4.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
-      },
-      {
-       "role": "Rear: rounded tail and lamps",
-       "url": "https://cdn.muapi.ai/outputs/a281ed77d6374f328fb232f261adcf8e_ref-5.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
-      },
-      {
-       "role": "Grille and badge detail: shield shape",
-       "url": "https://cdn.muapi.ai/outputs/b2c0f6b09dce4782ac2607d751454192_ref-6.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
-      },
-      {
-       "role": "Cockpit: tan leather, wood-rim wheel, windscreen frame, supporting only",
-       "url": "https://cdn.muapi.ai/outputs/d78e50aa37a6414da468cf629327c6b0_ref-7.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
-      }
-     ]
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Gran Turismo",
-    "why": "Suggested from this concept: atmospheric landscape painting. Your collection choice is final."
-   },
-   "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
-   "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
-   "full_source_url": "full/75fd87172010-studio-diverse-20260920-lancia-aurelia-b24.png",
-   "full_source_sha256": "75fd8717201074cd55ad2dbd5681e3d40c8fb1ce610fa730f88c521d8152b889",
-   "full_source_bytes": 12491778,
-   "full_source_pixels": [
-    3312,
-    2480
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Gran Turismo",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Suggested from this concept: atmospheric landscape painting. Your collection choice is final.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 77
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "92dbdeb3-5d6c-46dd-88c3-697c6b775f3b",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-20T17:39:05.749741+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/8503748cc40248a9845cd0437b2dad22.png",
-     "page_url": "https://muapi.ai/predictions/92dbdeb3-5d6c-46dd-88c3-697c6b775f3b",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Rear three-quarter open: wraparound windscreen, tail, tan cockpit",
-       "url": "https://cdn.muapi.ai/outputs/a0f1a36e7f164cbf83a75dc9243c2136_ref-1.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
-      },
-      {
-       "role": "Front three-quarter open: shield grille, lamps, wire wheels",
-       "url": "https://cdn.muapi.ai/outputs/7692f706d8214a799475430728a736b5_ref-2.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
-      },
-      {
-       "role": "Side profile open: fender line, wheelbase, low windscreen",
-       "url": "https://cdn.muapi.ai/outputs/094bf70f1d2044339d63e880708c6a07_ref-3.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
-      },
-      {
-       "role": "Front: Lancia shield grille and lamps",
-       "url": "https://cdn.muapi.ai/outputs/2fe883cc485f4192963ffb5f3fade58f_ref-4.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
-      },
-      {
-       "role": "Rear: rounded tail and lamps",
-       "url": "https://cdn.muapi.ai/outputs/a281ed77d6374f328fb232f261adcf8e_ref-5.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
-      },
-      {
-       "role": "Grille and badge detail: shield shape",
-       "url": "https://cdn.muapi.ai/outputs/b2c0f6b09dce4782ac2607d751454192_ref-6.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
-      },
-      {
-       "role": "Cockpit: tan leather, wood-rim wheel, windscreen frame, supporting only",
-       "url": "https://cdn.muapi.ai/outputs/d78e50aa37a6414da468cf629327c6b0_ref-7.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
-      }
-     ],
-     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-09-20T17:39:05.749741+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-09-20T17:39:05.749741+00:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -1733,13 +1403,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-next-20260920-bugatti-eb110-ss-12c7ae745f63-current.jpg",
+   "preview": "assets/studio-next-20260920-bugatti-eb110-ss-61df3254f650-current.jpg",
    "preview_pixels": [
     1600,
     1198
    ],
-   "source_file": "pipeline/studio-diverse-20260920/bugatti/bugatti-whole-pillar.png",
-   "source_sha256": "12c7ae745f633eed30e42dda3e010fad72aa83d7777863f1ed0773f6b1cb9040",
+   "source_file": "pipeline/one-cycle-20260926/redo/bugatti/bugatti-eb110-ss-r2.png",
+   "source_sha256": "61df3254f6506a0bc2b60ef1bebc7c03293487366331addd377dfe38da760983",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -1747,7 +1417,7 @@
    "hero_edit_pending": false,
    "owner_collection_pending": false,
    "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-09-20T02:50:35.896046+00:00",
+   "candidate_created_at": "2026-09-26T22:22:54+02:00",
    "review_url": null,
    "stage1_generations": [
     {
@@ -1881,11 +1551,11 @@
     "collection": "Forma / Motion",
     "why": "Suggested from the authored central idea; your collection choice is final."
    },
-   "candidate_source": "pipeline/studio-next-20260920/heroes/studio-candidates.json",
-   "candidate_authority": "Owner Studio request78f45a17, confirmed active task; five heroes for owner review",
-   "full_source_url": "full/12c7ae745f63-studio-next-20260920-bugatti-eb110-ss.png",
-   "full_source_sha256": "12c7ae745f633eed30e42dda3e010fad72aa83d7777863f1ed0773f6b1cb9040",
-   "full_source_bytes": 11858221,
+   "candidate_source": "pipeline/one-cycle-20260926/redo/studio-candidates.json",
+   "candidate_authority": "Owner 26 Sep 2026 21:33: redo Codex's Saab (badges), Lancia (front view), Bugatti (EB110 logo) properly; 205 as is; heroes only, no lots before approval; put them in the Studio",
+   "full_source_url": "full/61df3254f650-studio-next-20260920-bugatti-eb110-ss.png",
+   "full_source_sha256": "61df3254f6506a0bc2b60ef1bebc7c03293487366331addd377dfe38da760983",
+   "full_source_bytes": 11781239,
    "full_source_pixels": [
     3312,
     2480
@@ -1942,7 +1612,7 @@
        "url": "https://cdn.muapi.ai/outputs/d7a7008df789485fa5672bcd6ed0ba90_10.webp"
       }
      ],
-     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+     "source": "pipeline/one-cycle-20260926/redo/studio-candidates.json"
     },
     {
      "role": "edit",
@@ -1962,7 +1632,7 @@
        "url": "https://cdn.muapi.ai/outputs/f053d94f86484036bb299aadd7f82822_14.webp"
       }
      ],
-     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+     "source": "pipeline/one-cycle-20260926/redo/studio-candidates.json"
     },
     {
      "role": "edit",
@@ -1982,7 +1652,7 @@
        "url": "https://cdn.muapi.ai/outputs/000bfab9e56b4467bcb26439631aa49b_16.webp"
       }
      ],
-     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+     "source": "pipeline/one-cycle-20260926/redo/studio-candidates.json"
     },
     {
      "role": "edit",
@@ -2010,7 +1680,7 @@
        "url": "https://cdn.muapi.ai/outputs/3d7fe1829cba4afe97e2bdfe4e30119b_068.webp"
       }
      ],
-     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+     "source": "pipeline/one-cycle-20260926/redo/studio-candidates.json"
     },
     {
      "role": "edit",
@@ -2038,14 +1708,494 @@
        "url": "https://cdn.muapi.ai/outputs/59adf6a8fd1e45a299778d144b6d7e0c_062.webp"
       }
      ],
-     "source": "pipeline/studio-next-20260920/heroes/studio-candidates.json"
+     "source": "pipeline/one-cycle-20260926/redo/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-09-20T02:50:35.896046+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-09-20T16:46:20.291731+00:00",
-    "updated_source": "MuAPI edit"
+    "updated_at": "2026-09-26T22:22:54+02:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "edit done",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-diverse-20260920-lancia-aurelia-b24",
+   "name": "Lancia Aurelia B24 Spider America",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-diverse-20260920-lancia-aurelia-b24-34b3721c195e-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/one-cycle-20260926/redo/lancia/lancia-aurelia-b24-r2.png",
+   "source_sha256": "34b3721c195e7036646194f9007166d526980034a37489831633564477af01a2",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": true,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-09-26T22:22:54+02:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "92dbdeb3-5d6c-46dd-88c3-697c6b775f3b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T17:39:05.749741+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/8503748cc40248a9845cd0437b2dad22.png",
+     "page_url": null,
+     "references": [
+      {
+       "role": "Rear three-quarter open: wraparound windscreen, tail, tan cockpit",
+       "url": "https://cdn.muapi.ai/outputs/a0f1a36e7f164cbf83a75dc9243c2136_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Front three-quarter open: shield grille, lamps, wire wheels",
+       "url": "https://cdn.muapi.ai/outputs/7692f706d8214a799475430728a736b5_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Side profile open: fender line, wheelbase, low windscreen",
+       "url": "https://cdn.muapi.ai/outputs/094bf70f1d2044339d63e880708c6a07_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Front: Lancia shield grille and lamps",
+       "url": "https://cdn.muapi.ai/outputs/2fe883cc485f4192963ffb5f3fade58f_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Rear: rounded tail and lamps",
+       "url": "https://cdn.muapi.ai/outputs/a281ed77d6374f328fb232f261adcf8e_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Grille and badge detail: shield shape",
+       "url": "https://cdn.muapi.ai/outputs/b2c0f6b09dce4782ac2607d751454192_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Cockpit: tan leather, wood-rim wheel, windscreen frame, supporting only",
+       "url": "https://cdn.muapi.ai/outputs/d78e50aa37a6414da468cf629327c6b0_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      }
+     ]
+    },
+    {
+     "role": "edit",
+     "request_id": "a21347ec-d0a6-4056-84d7-f5533e0ef3bb",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T22:22:54+02:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a21347ec-d0a6-4056-84d7-f5533e0ef3bb_646f04c9.png",
+     "page_url": "https://muapi.ai/predictions/a21347ec-d0a6-4056-84d7-f5533e0ef3bb",
+     "references": [
+      {
+       "role": "Paris - RM auctions - 20150204 - Lancia Aurelia B24 Spider America - 1954 (CC BY-SA 4.0), front 3/4 and cockpit"
+      },
+      {
+       "role": "Aurelia B24 Spider America Auto Italia Stanford Hall June 2010 IMG 9649.jpg (CC BY-SA 2.0)"
+      },
+      {
+       "role": "Lancia B24 spider 0006.tif (CC BY-SA 3.0)"
+      },
+      {
+       "role": "1955 Lancia Aurelia B24 Spider HCC24.jpg (CC BY-SA 4.0)"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Gran Turismo",
+    "why": "Suggested from this concept: atmospheric landscape painting. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/one-cycle-20260926/redo/studio-candidates.json",
+   "candidate_authority": "Owner 26 Sep 2026 21:33: redo Codex's Saab (badges), Lancia (front view), Bugatti (EB110 logo) properly; 205 as is; heroes only, no lots before approval; put them in the Studio",
+   "full_source_url": "full/34b3721c195e-studio-diverse-20260920-lancia-aurelia-b24.png",
+   "full_source_sha256": "34b3721c195e7036646194f9007166d526980034a37489831633564477af01a2",
+   "full_source_bytes": 11932281,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Gran Turismo",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Suggested from this concept: atmospheric landscape painting. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "92dbdeb3-5d6c-46dd-88c3-697c6b775f3b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T17:39:05.749741+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/8503748cc40248a9845cd0437b2dad22.png",
+     "page_url": "https://muapi.ai/predictions/92dbdeb3-5d6c-46dd-88c3-697c6b775f3b",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Rear three-quarter open: wraparound windscreen, tail, tan cockpit",
+       "url": "https://cdn.muapi.ai/outputs/a0f1a36e7f164cbf83a75dc9243c2136_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Front three-quarter open: shield grille, lamps, wire wheels",
+       "url": "https://cdn.muapi.ai/outputs/7692f706d8214a799475430728a736b5_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Side profile open: fender line, wheelbase, low windscreen",
+       "url": "https://cdn.muapi.ai/outputs/094bf70f1d2044339d63e880708c6a07_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Front: Lancia shield grille and lamps",
+       "url": "https://cdn.muapi.ai/outputs/2fe883cc485f4192963ffb5f3fade58f_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Rear: rounded tail and lamps",
+       "url": "https://cdn.muapi.ai/outputs/a281ed77d6374f328fb232f261adcf8e_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Grille and badge detail: shield shape",
+       "url": "https://cdn.muapi.ai/outputs/b2c0f6b09dce4782ac2607d751454192_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      },
+      {
+       "role": "Cockpit: tan leather, wood-rim wheel, windscreen frame, supporting only",
+       "url": "https://cdn.muapi.ai/outputs/d78e50aa37a6414da468cf629327c6b0_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0042-1955-lancia-aurelia-b24-spider-america-by-pinin-farina/"
+      }
+     ],
+     "source": "pipeline/one-cycle-20260926/redo/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "a21347ec-d0a6-4056-84d7-f5533e0ef3bb",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T22:22:54+02:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a21347ec-d0a6-4056-84d7-f5533e0ef3bb_646f04c9.png",
+     "page_url": "https://muapi.ai/predictions/a21347ec-d0a6-4056-84d7-f5533e0ef3bb",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Paris - RM auctions - 20150204 - Lancia Aurelia B24 Spider America - 1954 (CC BY-SA 4.0), front 3/4 and cockpit"
+      },
+      {
+       "role": "Aurelia B24 Spider America Auto Italia Stanford Hall June 2010 IMG 9649.jpg (CC BY-SA 2.0)"
+      },
+      {
+       "role": "Lancia B24 spider 0006.tif (CC BY-SA 3.0)"
+      },
+      {
+       "role": "1955 Lancia Aurelia B24 Spider HCC24.jpg (CC BY-SA 4.0)"
+      }
+     ],
+     "source": "pipeline/one-cycle-20260926/redo/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-20T17:39:05.749741+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-26T22:22:54+02:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "edit done",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-diverse-20260920-saab-900-turbo",
+   "name": "Saab 900 Turbo 16",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-diverse-20260920-saab-900-turbo-7bd006c9de8f-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/one-cycle-20260926/redo/saab/saab-900-turbo-r2.png",
+   "source_sha256": "7bd006c9de8fff6f7996e58c365ae0d3b7ea1a69b2109b2393a234f1c192a02a",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": true,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-09-26T22:22:53+02:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "25e5faff-3cac-42a4-82d8-3f71280e6654",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T17:39:12.328609+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d8ae82abbcbb4f279d36c86547500337.png",
+     "page_url": null,
+     "references": [
+      {
+       "role": "Front three-quarter (black car): sloped facelift nose, grille, long door, three-door glasshouse",
+       "url": "https://cdn.muapi.ai/outputs/generated/0a815a9348a04b9fb4813b4ef068d790.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:1989_Saab_900_Turbo_16.jpg"
+      },
+      {
+       "role": "Front three-quarter, other side (silver car): nose and bonnet line, alloy wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/54e90d4cf3384c2ca26a1b9f92bc3a53.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:1990_Saab_900_Turbo_16.jpg"
+      },
+      {
+       "role": "Front three-quarter (red car): nose, headlamp and grille geometry, three-spoke wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/692d94fa9b4245e7b578cb306272180a.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:1990_Saab_900_Turbo_3_DOHC_16.jpg"
+      },
+      {
+       "role": "Rear three-quarter (silver-blue car): hatch glass, rear spoiler lip, rear lamps (ignore rally plate and stickers)",
+       "url": "https://cdn.muapi.ai/outputs/generated/2d860c04d4e543a3abeec2787a6bd82d.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Schwetzingen_(20250726-P1048559).jpg"
+      },
+      {
+       "role": "Rear three-quarter, other side (same silver-blue car): hatch and tail (ignore rally plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/a009a66d931e418e97ee857901a97dd3.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Schwetzingen_(20250726-P1048598).jpg"
+      },
+      {
+       "role": "Rear (same silver-blue car): tail lamps, hatch, width (ignore rally plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/4367d76b17f7452db15d551edc835609.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Schwetzingen_(20250726-P1048599).jpg"
+      },
+      {
+       "role": "Front (same silver-blue car): face and grille (ignore Hella spot lamps and rally plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/51ceba5835704da2b214e513136745be.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Heidelberg_(20250726-P1048822).jpg"
+      }
+     ]
+    },
+    {
+     "role": "edit",
+     "request_id": "26fa4a11-0354-4639-a049-23d908a4eeb8",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T22:22:53+02:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/26fa4a11-0354-4639-a049-23d908a4eeb8_66797f53.png",
+     "page_url": "https://muapi.ai/predictions/26fa4a11-0354-4639-a049-23d908a4eeb8",
+     "references": [
+      {
+       "role": "Saab 900 cabrio black front.jpg (CC BY-SA 4.0)"
+      },
+      {
+       "role": "1993 Saab 900 Turbo convertible (27248321706).jpg (CC BY 2.0)"
+      },
+      {
+       "role": "1987 Saab 900 Turbo Red Arrow (10040957885).jpg (CC BY 2.0)"
+      },
+      {
+       "role": "1993 Saab 900 Turbo convertible (26675977973).jpg (CC BY 2.0)"
+      },
+      {
+       "role": "SAAB 900 Turbo (5042905656).jpg (CC BY 2.0)"
+      }
+     ]
+    },
+    {
+     "role": "edit",
+     "request_id": "31a6d1c8-c041-4d90-9485-8e8999e06de2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T22:22:53+02:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/31a6d1c8-c041-4d90-9485-8e8999e06de2_4436baa3.png",
+     "page_url": "https://muapi.ai/predictions/31a6d1c8-c041-4d90-9485-8e8999e06de2",
+     "references": [
+      {
+       "role": "Saab 900 cabrio black front.jpg (CC BY-SA 4.0)"
+      },
+      {
+       "role": "1993 Saab 900 Turbo convertible (27248321706).jpg (CC BY 2.0)"
+      },
+      {
+       "role": "1987 Saab 900 Turbo Red Arrow (10040957885).jpg (CC BY 2.0)"
+      },
+      {
+       "role": "1993 Saab 900 Turbo convertible (26675977973).jpg (CC BY 2.0)"
+      },
+      {
+       "role": "SAAB 900 Turbo (5042905656).jpg (CC BY 2.0)"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Forma / Motion",
+    "why": "Suggested from this concept: editorial photomontage / halftone collage. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/one-cycle-20260926/redo/studio-candidates.json",
+   "candidate_authority": "Owner 26 Sep 2026 21:33: redo Codex's Saab (badges), Lancia (front view), Bugatti (EB110 logo) properly; 205 as is; heroes only, no lots before approval; put them in the Studio",
+   "full_source_url": "full/7bd006c9de8f-studio-diverse-20260920-saab-900-turbo.png",
+   "full_source_sha256": "7bd006c9de8fff6f7996e58c365ae0d3b7ea1a69b2109b2393a234f1c192a02a",
+   "full_source_bytes": 19252443,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Forma / Motion",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Suggested from this concept: editorial photomontage / halftone collage. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 100
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "25e5faff-3cac-42a4-82d8-3f71280e6654",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-20T17:39:12.328609+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d8ae82abbcbb4f279d36c86547500337.png",
+     "page_url": "https://muapi.ai/predictions/25e5faff-3cac-42a4-82d8-3f71280e6654",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter (black car): sloped facelift nose, grille, long door, three-door glasshouse",
+       "url": "https://cdn.muapi.ai/outputs/generated/0a815a9348a04b9fb4813b4ef068d790.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:1989_Saab_900_Turbo_16.jpg"
+      },
+      {
+       "role": "Front three-quarter, other side (silver car): nose and bonnet line, alloy wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/54e90d4cf3384c2ca26a1b9f92bc3a53.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:1990_Saab_900_Turbo_16.jpg"
+      },
+      {
+       "role": "Front three-quarter (red car): nose, headlamp and grille geometry, three-spoke wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/692d94fa9b4245e7b578cb306272180a.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:1990_Saab_900_Turbo_3_DOHC_16.jpg"
+      },
+      {
+       "role": "Rear three-quarter (silver-blue car): hatch glass, rear spoiler lip, rear lamps (ignore rally plate and stickers)",
+       "url": "https://cdn.muapi.ai/outputs/generated/2d860c04d4e543a3abeec2787a6bd82d.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Schwetzingen_(20250726-P1048559).jpg"
+      },
+      {
+       "role": "Rear three-quarter, other side (same silver-blue car): hatch and tail (ignore rally plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/a009a66d931e418e97ee857901a97dd3.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Schwetzingen_(20250726-P1048598).jpg"
+      },
+      {
+       "role": "Rear (same silver-blue car): tail lamps, hatch, width (ignore rally plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/4367d76b17f7452db15d551edc835609.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Schwetzingen_(20250726-P1048599).jpg"
+      },
+      {
+       "role": "Front (same silver-blue car): face and grille (ignore Hella spot lamps and rally plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/51ceba5835704da2b214e513136745be.jpg",
+       "source_page": "https://commons.wikimedia.org/wiki/File:Saab_900_Turbo,_ADAC_Deutschland_Klassik_2025,_Heidelberg_(20250726-P1048822).jpg"
+      }
+     ],
+     "source": "pipeline/one-cycle-20260926/redo/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "26fa4a11-0354-4639-a049-23d908a4eeb8",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T22:22:53+02:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/26fa4a11-0354-4639-a049-23d908a4eeb8_66797f53.png",
+     "page_url": "https://muapi.ai/predictions/26fa4a11-0354-4639-a049-23d908a4eeb8",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Saab 900 cabrio black front.jpg (CC BY-SA 4.0)"
+      },
+      {
+       "role": "1993 Saab 900 Turbo convertible (27248321706).jpg (CC BY 2.0)"
+      },
+      {
+       "role": "1987 Saab 900 Turbo Red Arrow (10040957885).jpg (CC BY 2.0)"
+      },
+      {
+       "role": "1993 Saab 900 Turbo convertible (26675977973).jpg (CC BY 2.0)"
+      },
+      {
+       "role": "SAAB 900 Turbo (5042905656).jpg (CC BY 2.0)"
+      }
+     ],
+     "source": "pipeline/one-cycle-20260926/redo/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "31a6d1c8-c041-4d90-9485-8e8999e06de2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T22:22:53+02:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/31a6d1c8-c041-4d90-9485-8e8999e06de2_4436baa3.png",
+     "page_url": "https://muapi.ai/predictions/31a6d1c8-c041-4d90-9485-8e8999e06de2",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Saab 900 cabrio black front.jpg (CC BY-SA 4.0)"
+      },
+      {
+       "role": "1993 Saab 900 Turbo convertible (27248321706).jpg (CC BY 2.0)"
+      },
+      {
+       "role": "1987 Saab 900 Turbo Red Arrow (10040957885).jpg (CC BY 2.0)"
+      },
+      {
+       "role": "1993 Saab 900 Turbo convertible (26675977973).jpg (CC BY 2.0)"
+      },
+      {
+       "role": "SAAB 900 Turbo (5042905656).jpg (CC BY 2.0)"
+      }
+     ],
+     "source": "pipeline/one-cycle-20260926/redo/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-20T17:39:12.328609+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-26T22:22:53+02:00",
+    "updated_source": "candidate generated"
    },
    "status": {
     "code": "review",
@@ -2106,7 +2256,7 @@
    "timeline": {
     "created_at": "2026-09-09T00:00:00+00:00",
     "created_source": "artwork approval",
-    "updated_at": "2026-09-09T00:00:00+00:00",
+    "updated_at": "2026-09-23T00:00:00+00:00",
     "updated_source": "ledger history"
    },
    "status": {
@@ -2175,7 +2325,7 @@
    "timeline": {
     "created_at": "2026-09-09T00:00:00+00:00",
     "created_source": "artwork approval",
-    "updated_at": "2026-09-19T00:00:00+00:00",
+    "updated_at": "2026-09-23T00:00:00+00:00",
     "updated_source": "ledger history"
    },
    "status": {
@@ -2183,75 +2333,6 @@
     "label": "On Catawiki",
     "tone": "ink",
     "detail": "live · lot 106752329",
-    "meaning": "uploaded to the marketplace",
-    "order": 7
-   }
-  },
-  {
-   "key": "miura-p400sv-1971-gran-turismo-white-80x60",
-   "name": "Lamborghini Miura P400 SV",
-   "preview": "assets/miura-p400sv-1971-gran-turismo-white-80x60.jpg",
-   "preview_pixels": [
-    2400,
-    1800
-   ],
-   "source_sha256": "3577e4d329dc89265dfb0956440c81799f05d78a3a46b61838cf5acfc6c06992",
-   "source_file": "sheets/scale-18/miura-p400sv-1971-gran-turismo-white-80x60.jpg",
-   "recorded_approval": "approved",
-   "recorded_stage": "approved",
-   "existing_collection": "Gran Turismo · MIURASV1971PILOT · 80 × 60",
-   "ledger_selected_sha256": null,
-   "approved_source_sha256": null,
-   "photo_count": 9,
-   "notion_url": "https://app.notion.com/p/3d6219427f6981bf897ac93aebe22d9b",
-   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/miura-p400sv-1971-gran-turismo-white-80x60.html",
-   "completion_verified": false,
-   "delivery_status": "Existing marketplace lot · approved",
-   "delivery_evidence": null,
-   "delivery_verified_at": null,
-   "full_source_url": "../artwork/3577e4d329dc-miura-p400sv-1971-gran-turismo-white-80x60.jpg",
-   "full_source_sha256": "3577e4d329dc89265dfb0956440c81799f05d78a3a46b61838cf5acfc6c06992",
-   "full_source_bytes": 16266601,
-   "full_source_pixels": [
-    9448,
-    7086
-   ],
-   "full_source_kind": "exact_current_master",
-   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
-   "collection_choice": "",
-   "edition": {
-    "limit": 77,
-    "label": "1of77",
-    "series_label": "GRAN TURISMO",
-    "kind": "legacy",
-    "authority": "Owner; verified submitted title on 2026-09-10",
-    "fixed": true
-   },
-   "collection_category": "Gran Turismo",
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Gran Turismo",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (1of77) stays as promised"
-    },
-    "why": "the grand tourer itself; printed series Gran Turismo, edition 1of77 stays",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 77
-   },
-   "generations": [],
-   "timeline": {
-    "created_at": "2026-09-09T00:00:00+00:00",
-    "created_source": "artwork approval",
-    "updated_at": "2026-09-10T00:00:00+00:00",
-    "updated_source": "ledger history"
-   },
-   "status": {
-    "code": "listed",
-    "label": "On Catawiki",
-    "tone": "ink",
-    "detail": "approved · lot 106752475",
     "meaning": "uploaded to the marketplace",
     "order": 7
    }
@@ -2313,7 +2394,7 @@
    "timeline": {
     "created_at": "2026-09-09T00:00:00+00:00",
     "created_source": "artwork approval",
-    "updated_at": "2026-09-10T00:00:00+00:00",
+    "updated_at": "2026-09-23T00:00:00+00:00",
     "updated_source": "ledger history"
    },
    "status": {
@@ -2321,74 +2402,6 @@
     "label": "On Catawiki",
     "tone": "ink",
     "detail": "approved · lot 106752592",
-    "meaning": "uploaded to the marketplace",
-    "order": 7
-   }
-  },
-  {
-   "key": "review-07-orange-margin",
-   "name": "Nissan Fairlady Z432 PS30",
-   "preview": "assets/review-07-orange-margin.jpg",
-   "preview_pixels": [
-    2400,
-    3200
-   ],
-   "source_sha256": "5c5ebd5bcb9446ac079561958bd2163a4456b2f6105d89ea0c5c3fdbb913c875",
-   "source_file": "sheets/scale-18/review-07-orange-margin.jpg",
-   "recorded_approval": "approved",
-   "recorded_stage": "approved",
-   "existing_collection": "Orange Margin - 45 x 60 cm",
-   "ledger_selected_sha256": null,
-   "approved_source_sha256": null,
-   "photo_count": 9,
-   "notion_url": "https://app.notion.com/p/3d6219427f698106be4cece0af69b6ab",
-   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/review-07-orange-margin.html",
-   "completion_verified": false,
-   "delivery_status": "Existing marketplace lot · approved",
-   "delivery_evidence": null,
-   "delivery_verified_at": null,
-   "full_source_url": "../artwork/5c5ebd5bcb94-review-07-orange-margin.jpg",
-   "full_source_sha256": "5c5ebd5bcb9446ac079561958bd2163a4456b2f6105d89ea0c5c3fdbb913c875",
-   "full_source_bytes": 10671636,
-   "full_source_pixels": [
-    5314,
-    7086
-   ],
-   "full_source_kind": "exact_current_master",
-   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
-   "collection_choice": "",
-   "edition": {
-    "limit": 100,
-    "label": "1of100",
-    "series_label": "FORMA / PRECISION",
-    "kind": "legacy",
-    "authority": "Owner; verified submitted title on 2026-09-10",
-    "fixed": true
-   },
-   "collection_category": "Forma / Precision",
-   "recommendation": {
-    "kind": "new",
-    "collection": null,
-    "new": {
-     "name": "Forma / Precision",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (1of100) stays as promised"
-    },
-    "why": "the artwork carries FORMA / PRECISION in print and its edition record says the same; none of the five is that name. Nearest of the five: Sport / Leicht (a small, light homologation special)",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
-   },
-   "generations": [],
-   "timeline": {
-    "created_at": "2026-09-09T00:00:00+00:00",
-    "created_source": "artwork approval",
-    "updated_at": "2026-09-10T00:00:00+00:00",
-    "updated_source": "ledger history"
-   },
-   "status": {
-    "code": "listed",
-    "label": "On Catawiki",
-    "tone": "ink",
-    "detail": "approved · lot 106752573",
     "meaning": "uploaded to the marketplace",
     "order": 7
    }
@@ -2450,7 +2463,7 @@
    "timeline": {
     "created_at": "2026-09-09T00:00:00+00:00",
     "created_source": "artwork approval",
-    "updated_at": "2026-09-10T00:00:00+00:00",
+    "updated_at": "2026-09-23T00:00:00+00:00",
     "updated_source": "ledger history"
    },
    "status": {
@@ -2519,7 +2532,7 @@
    "timeline": {
     "created_at": "2026-09-09T00:00:00+00:00",
     "created_source": "artwork approval",
-    "updated_at": "2026-09-10T00:00:00+00:00",
+    "updated_at": "2026-09-23T00:00:00+00:00",
     "updated_source": "ledger history"
    },
    "status": {
@@ -2527,75 +2540,6 @@
     "label": "On Catawiki",
     "tone": "ink",
     "detail": "approved · lot 106752619",
-    "meaning": "uploaded to the marketplace",
-    "order": 7
-   }
-  },
-  {
-   "key": "review-11-early-wedge",
-   "name": "Lancia Stratos HF Stradale early",
-   "preview": "assets/review-11-early-wedge.jpg",
-   "preview_pixels": [
-    2400,
-    3200
-   ],
-   "source_sha256": "55ad401034c9f6362a9f8ba337ec2b4d53dd93b062a1cbf8b1618ebc5bff5f9d",
-   "source_file": "sheets/scale-18/review-11-early-wedge.jpg",
-   "recorded_approval": "approved",
-   "recorded_stage": "approved",
-   "existing_collection": "Early Wedge - 45 x 60 cm",
-   "ledger_selected_sha256": null,
-   "approved_source_sha256": null,
-   "photo_count": 9,
-   "notion_url": "https://app.notion.com/p/3d6219427f6981e796b0f6947d1c5d30",
-   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/review-11-early-wedge.html",
-   "completion_verified": false,
-   "delivery_status": "Existing marketplace lot · approved",
-   "delivery_evidence": null,
-   "delivery_verified_at": null,
-   "full_source_url": "../artwork/55ad401034c9-review-11-early-wedge.jpg",
-   "full_source_sha256": "55ad401034c9f6362a9f8ba337ec2b4d53dd93b062a1cbf8b1618ebc5bff5f9d",
-   "full_source_bytes": 11175450,
-   "full_source_pixels": [
-    5314,
-    7086
-   ],
-   "full_source_kind": "exact_current_master",
-   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
-   "collection_choice": "",
-   "edition": {
-    "limit": 100,
-    "label": "1of100",
-    "series_label": "FORMA / MOTION",
-    "kind": "legacy",
-    "authority": "Owner; verified submitted title on 2026-09-10",
-    "fixed": true
-   },
-   "collection_category": "Forma / Motion",
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Forma / Motion",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it; this artwork's own edition (1of100) stays as promised"
-    },
-    "why": "printed FORMA / MOTION on the artwork",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 100
-   },
-   "generations": [],
-   "timeline": {
-    "created_at": "2026-09-09T00:00:00+00:00",
-    "created_source": "artwork approval",
-    "updated_at": "2026-09-10T00:00:00+00:00",
-    "updated_source": "ledger history"
-   },
-   "status": {
-    "code": "listed",
-    "label": "On Catawiki",
-    "tone": "ink",
-    "detail": "approved · lot 106752502",
     "meaning": "uploaded to the marketplace",
     "order": 7
    }
@@ -2657,7 +2601,7 @@
    "timeline": {
     "created_at": "2026-09-09T00:00:00+00:00",
     "created_source": "ledger history",
-    "updated_at": "2026-09-10T00:00:00+00:00",
+    "updated_at": "2026-09-23T00:00:00+00:00",
     "updated_source": "ledger history"
    },
    "status": {
@@ -2725,7 +2669,7 @@
    "timeline": {
     "created_at": "2026-09-09T00:00:00+00:00",
     "created_source": "artwork approval",
-    "updated_at": "2026-09-10T00:00:00+00:00",
+    "updated_at": "2026-09-23T00:00:00+00:00",
     "updated_source": "ledger history"
    },
    "status": {
@@ -2794,7 +2738,7 @@
    "timeline": {
     "created_at": "2026-09-09T00:00:00+00:00",
     "created_source": "artwork approval",
-    "updated_at": "2026-09-12T00:00:00+00:00",
+    "updated_at": "2026-09-23T00:00:00+00:00",
     "updated_source": "ledger history"
    },
    "status": {
@@ -2872,8 +2816,8 @@
    "timeline": {
     "created_at": "2026-09-10T00:00:00+00:00",
     "created_source": "ledger history",
-    "updated_at": "2026-09-19T23:24:56.199385+00:00",
-    "updated_source": "board verified"
+    "updated_at": "2026-09-23T00:00:00+00:00",
+    "updated_source": "ledger history"
    },
    "status": {
     "code": "ready",
@@ -2976,8 +2920,8 @@
    "timeline": {
     "created_at": "2026-09-10T00:00:00+00:00",
     "created_source": "ledger history",
-    "updated_at": "2026-09-20T03:18:11.964424+00:00",
-    "updated_source": "board verified"
+    "updated_at": "2026-09-23T00:00:00+00:00",
+    "updated_source": "ledger history"
    },
    "status": {
     "code": "ready",
@@ -3054,8 +2998,8 @@
    "timeline": {
     "created_at": "2026-09-10T00:00:00+00:00",
     "created_source": "ledger history",
-    "updated_at": "2026-09-19T23:24:56.199385+00:00",
-    "updated_source": "board verified"
+    "updated_at": "2026-09-23T00:00:00+00:00",
+    "updated_source": "ledger history"
    },
    "status": {
     "code": "ready",
@@ -3117,7 +3061,7 @@
    "timeline": {
     "created_at": "2026-09-10T00:00:00+00:00",
     "created_source": "ledger history",
-    "updated_at": "2026-09-12T21:29:15.705534+00:00",
+    "updated_at": "2026-09-23T00:00:00+00:00",
     "updated_source": "ledger history"
    },
    "status": {
@@ -3195,8 +3139,8 @@
    "timeline": {
     "created_at": "2026-09-10T00:00:00+00:00",
     "created_source": "ledger history",
-    "updated_at": "2026-09-19T23:24:56.199385+00:00",
-    "updated_source": "board verified"
+    "updated_at": "2026-09-23T00:00:00+00:00",
+    "updated_source": "ledger history"
    },
    "status": {
     "code": "ready",
@@ -3278,8 +3222,8 @@
    "timeline": {
     "created_at": "2026-09-11T00:00:00+00:00",
     "created_source": "ledger history",
-    "updated_at": "2026-09-20T02:15:58.179888+00:00",
-    "updated_source": "board verified"
+    "updated_at": "2026-09-23T00:00:00+00:00",
+    "updated_source": "ledger history"
    },
    "status": {
     "code": "ready",
@@ -3353,8 +3297,8 @@
    "timeline": {
     "created_at": "2026-09-13T00:00:00+00:00",
     "created_source": "ledger history",
-    "updated_at": "2026-09-19T23:24:56.199385+00:00",
-    "updated_source": "board verified"
+    "updated_at": "2026-09-23T00:00:00+00:00",
+    "updated_source": "ledger history"
    },
    "status": {
     "code": "ready",
@@ -3428,8 +3372,8 @@
    "timeline": {
     "created_at": "2026-09-13T00:00:00+00:00",
     "created_source": "ledger history",
-    "updated_at": "2026-09-19T23:24:56.199385+00:00",
-    "updated_source": "board verified"
+    "updated_at": "2026-09-23T00:00:00+00:00",
+    "updated_source": "ledger history"
    },
    "status": {
     "code": "ready",
@@ -3521,8 +3465,8 @@
    "timeline": {
     "created_at": "2026-09-13T02:56:42.605306+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-09-20T02:15:58.179888+00:00",
-    "updated_source": "board verified"
+    "updated_at": "2026-09-23T00:00:00+00:00",
+    "updated_source": "ledger history"
    },
    "status": {
     "code": "ready",
@@ -3632,8 +3576,8 @@
    "timeline": {
     "created_at": "2026-09-13T02:56:37.547084+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-09-20T03:18:11.964424+00:00",
-    "updated_source": "board verified"
+    "updated_at": "2026-09-23T00:00:00+00:00",
+    "updated_source": "ledger history"
    },
    "status": {
     "code": "ready",
@@ -3712,8 +3656,8 @@
    "timeline": {
     "created_at": "2026-09-20T00:00:00+00:00",
     "created_source": "ledger history",
-    "updated_at": "2026-09-20T17:05:01.451491+00:00",
-    "updated_source": "board verified"
+    "updated_at": "2026-09-23T00:00:00+00:00",
+    "updated_source": "ledger history"
    },
    "status": {
     "code": "ready",
@@ -3792,8 +3736,8 @@
    "timeline": {
     "created_at": "2026-09-20T00:00:00+00:00",
     "created_source": "ledger history",
-    "updated_at": "2026-09-20T17:05:01.451491+00:00",
-    "updated_source": "board verified"
+    "updated_at": "2026-09-23T00:00:00+00:00",
+    "updated_source": "ledger history"
    },
    "status": {
     "code": "ready",
@@ -3872,8 +3816,8 @@
    "timeline": {
     "created_at": "2026-09-20T00:00:00+00:00",
     "created_source": "ledger history",
-    "updated_at": "2026-09-20T17:46:53.024771+00:00",
-    "updated_source": "board verified"
+    "updated_at": "2026-09-23T00:00:00+00:00",
+    "updated_source": "ledger history"
    },
    "status": {
     "code": "ready",
@@ -3882,6 +3826,311 @@
     "detail": "9 photos · Notion and board verified",
     "meaning": "Notion and the board read back and verified",
     "order": 6
+   }
+  },
+  {
+   "key": "one-cycle-20260926-countach",
+   "name": "Lamborghini Countach 5000 Quattrovalvole",
+   "preview": "assets/one-cycle-20260926-countach.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "b31890eef5623ceb2a016677c686d1492f0dfaeb03738a6d6a1bf322904ab7ee",
+   "source_file": "pipeline/one-cycle-20260926/lots/countach/lot/print-60x80.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "COLLECTION TO CHOOSE",
+   "ledger_selected_sha256": "abe6baa90a9f92f3c911fbc18de08a66e0191e3da9608dd6acf9c69bde9dcbad",
+   "approved_source_sha256": "abe6baa90a9f92f3c911fbc18de08a66e0191e3da9608dd6acf9c69bde9dcbad",
+   "photo_count": 5,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/one-cycle-20260926-countach.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/b31890eef562-one-cycle-20260926-countach.jpg",
+   "full_source_sha256": "b31890eef5623ceb2a016677c686d1492f0dfaeb03738a6d6a1bf322904ab7ee",
+   "full_source_bytes": 12068517,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": "COLLECTION TO CHOOSE",
+   "recommendation": {
+    "kind": null,
+    "collection": null,
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-26T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-09-26T05:37:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "one-cycle-20260926-p930",
+   "name": "Porsche 911 Turbo (930)",
+   "preview": "assets/one-cycle-20260926-p930.jpg",
+   "preview_pixels": [
+    1600,
+    1200
+   ],
+   "source_sha256": "a3364bea631448818cd6c5ad302b8271cfdc7fa3f693c179493ae125ff2f1f99",
+   "source_file": "pipeline/one-cycle-20260926/lots/p930/lot/print-80x60.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "COLLECTION TO CHOOSE",
+   "ledger_selected_sha256": "4fd21e770c6d928465eca174b62804081c20bde67d3ea4ebb8e087fcc889b4d5",
+   "approved_source_sha256": "4fd21e770c6d928465eca174b62804081c20bde67d3ea4ebb8e087fcc889b4d5",
+   "photo_count": 5,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/one-cycle-20260926-p930.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/a3364bea6314-one-cycle-20260926-p930.jpg",
+   "full_source_sha256": "a3364bea631448818cd6c5ad302b8271cfdc7fa3f693c179493ae125ff2f1f99",
+   "full_source_bytes": 17248292,
+   "full_source_pixels": [
+    9449,
+    7087
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": "COLLECTION TO CHOOSE",
+   "recommendation": {
+    "kind": null,
+    "collection": null,
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-26T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-09-26T05:37:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "one-cycle-20260926-sl300",
+   "name": "Mercedes-Benz 300 SL Gullwing",
+   "preview": "assets/one-cycle-20260926-sl300.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "d168dadbe3f8c4888322dad372f21463914678702b8db7f92393a9cdb823acdb",
+   "source_file": "pipeline/one-cycle-20260926/lots/sl300/lot/print-60x80.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "COLLECTION TO CHOOSE",
+   "ledger_selected_sha256": "e4bab6aa3415c8bae772a93c77af17be777439cc2e7015b2a6dfb5c8519c479b",
+   "approved_source_sha256": "e4bab6aa3415c8bae772a93c77af17be777439cc2e7015b2a6dfb5c8519c479b",
+   "photo_count": 5,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/one-cycle-20260926-sl300.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/d168dadbe3f8-one-cycle-20260926-sl300.jpg",
+   "full_source_sha256": "d168dadbe3f8c4888322dad372f21463914678702b8db7f92393a9cdb823acdb",
+   "full_source_bytes": 16726149,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": "COLLECTION TO CHOOSE",
+   "recommendation": {
+    "kind": null,
+    "collection": null,
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-26T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-09-26T05:37:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "one-cycle-20260926-r34",
+   "name": "Nissan Skyline GT-R V-spec (R34)",
+   "preview": "assets/one-cycle-20260926-r34.jpg",
+   "preview_pixels": [
+    1600,
+    1200
+   ],
+   "source_sha256": "e2367aa8514d9999af11dcb8a9020735b8f3a7136d9790c3caa9d2204e2b7f2c",
+   "source_file": "pipeline/one-cycle-20260926/lots/r34/lot/print-80x60.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "COLLECTION TO CHOOSE",
+   "ledger_selected_sha256": "75d4603c3b37305099a19dbb2374b640ae49176836d07b66a2142f51ed41e5e9",
+   "approved_source_sha256": "75d4603c3b37305099a19dbb2374b640ae49176836d07b66a2142f51ed41e5e9",
+   "photo_count": 5,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/one-cycle-20260926-r34.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/e2367aa8514d-one-cycle-20260926-r34.jpg",
+   "full_source_sha256": "e2367aa8514d9999af11dcb8a9020735b8f3a7136d9790c3caa9d2204e2b7f2c",
+   "full_source_bytes": 16084458,
+   "full_source_pixels": [
+    9449,
+    7087
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": "COLLECTION TO CHOOSE",
+   "recommendation": {
+    "kind": null,
+    "collection": null,
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-26T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-09-26T05:37:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "one-cycle-20260926-cobra",
+   "name": "Shelby Cobra 427",
+   "preview": "assets/one-cycle-20260926-cobra.jpg",
+   "preview_pixels": [
+    1600,
+    1200
+   ],
+   "source_sha256": "75390c60f0b863cb72c9e3e79052cb273c03414a161d6e42440fc47eab672def",
+   "source_file": "pipeline/one-cycle-20260926/lots/cobra/lot/print-80x60.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "COLLECTION TO CHOOSE",
+   "ledger_selected_sha256": "95e59f208cb0da7df9a5e2af15cfee5e174ebeb651f1334fe67ff55204305c0f",
+   "approved_source_sha256": "95e59f208cb0da7df9a5e2af15cfee5e174ebeb651f1334fe67ff55204305c0f",
+   "photo_count": 5,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/one-cycle-20260926-cobra.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/75390c60f0b8-one-cycle-20260926-cobra.jpg",
+   "full_source_sha256": "75390c60f0b863cb72c9e3e79052cb273c03414a161d6e42440fc47eab672def",
+   "full_source_bytes": 16120476,
+   "full_source_pixels": [
+    9449,
+    7087
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": "COLLECTION TO CHOOSE",
+   "recommendation": {
+    "kind": null,
+    "collection": null,
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-09-26T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-09-26T05:37:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
    }
   }
  ],
@@ -3917,14 +4166,40 @@
  ],
  "stage1_candidates": [
   {
-   "key": "studio-next-20260920-bugatti-eb110-ss",
-   "declared_sha256": "12c7ae745f633eed30e42dda3e010fad72aa83d7777863f1ed0773f6b1cb9040",
+   "key": "studio-diverse-20260920-saab-900-turbo",
+   "declared_sha256": "7bd006c9de8fff6f7996e58c365ae0d3b7ea1a69b2109b2393a234f1c192a02a",
    "applied": true,
-   "preview": "assets/studio-next-20260920-bugatti-eb110-ss-12c7ae745f63-current.jpg",
+   "preview": "assets/studio-diverse-20260920-saab-900-turbo-7bd006c9de8f-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-diverse-20260920-lancia-aurelia-b24",
+   "declared_sha256": "34b3721c195e7036646194f9007166d526980034a37489831633564477af01a2",
+   "applied": true,
+   "preview": "assets/studio-diverse-20260920-lancia-aurelia-b24-34b3721c195e-current.jpg",
    "pixels": [
     3312,
     2480
    ]
+  },
+  {
+   "key": "studio-next-20260920-bugatti-eb110-ss",
+   "declared_sha256": "61df3254f6506a0bc2b60ef1bebc7c03293487366331addd377dfe38da760983",
+   "applied": true,
+   "preview": "assets/studio-next-20260920-bugatti-eb110-ss-61df3254f650-current.jpg",
+   "pixels": [
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-next-20260920-bugatti-eb110-ss",
+   "declared_sha256": "12c7ae745f633eed30e42dda3e010fad72aa83d7777863f1ed0773f6b1cb9040",
+   "applied": false,
+   "reason": "the Studio already lists this key"
   },
   {
    "key": "studio-next-20260920-aston-martin-db5",
@@ -3997,12 +4272,8 @@
   {
    "key": "studio-diverse-20260920-lancia-aurelia-b24",
    "declared_sha256": "75fd8717201074cd55ad2dbd5681e3d40c8fb1ce610fa730f88c521d8152b889",
-   "applied": true,
-   "preview": "assets/studio-diverse-20260920-lancia-aurelia-b24-75fd87172010-current.jpg",
-   "pixels": [
-    3312,
-    2480
-   ]
+   "applied": false,
+   "reason": "the Studio already lists this key"
   },
   {
    "key": "studio-diverse-20260920-ferrari-dino-246gt",
@@ -4017,12 +4288,8 @@
   {
    "key": "studio-diverse-20260920-saab-900-turbo",
    "declared_sha256": "b626aa56570d9d9441e39c57b4fb5f13637c35ed9a7d6dd66d5293e878ee130e",
-   "applied": true,
-   "preview": "assets/studio-diverse-20260920-saab-900-turbo-b626aa56570d-current.jpg",
-   "pixels": [
-    2480,
-    3312
-   ]
+   "applied": false,
+   "reason": "the Studio already lists this key"
   },
   {
    "key": "studio-diverse-20260920-mazda-cosmo-110s",

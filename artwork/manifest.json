@@ -1,5 +1,5 @@
 {
- "built": "2026-09-23 19:58",
+ "built": "2026-09-26 22:23",
  "items": [
   {
    "key": "911-carrera-rs27-1973-sport-white-45x60",
@@ -153,6 +153,76 @@
    "format": "JPEG",
    "source": "pipeline/lean-delivery/new-era-20260913-mazda-rx7-fd/876a9ca1cd57/print.jpg",
    "evidence": "lean delivery print.jpg for selected native 876a9ca1cd57; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly",
+   "basis": "approval"
+  },
+  {
+   "key": "one-cycle-20260926-cobra",
+   "file": "artwork/75390c60f0b8-one-cycle-20260926-cobra.jpg",
+   "sha256": "75390c60f0b863cb72c9e3e79052cb273c03414a161d6e42440fc47eab672def",
+   "bytes": 16120476,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/cobra/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-26T05:37:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "one-cycle-20260926-countach",
+   "file": "artwork/b31890eef562-one-cycle-20260926-countach.jpg",
+   "sha256": "b31890eef5623ceb2a016677c686d1492f0dfaeb03738a6d6a1bf322904ab7ee",
+   "bytes": 12068517,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/countach/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-26T05:37:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "one-cycle-20260926-p930",
+   "file": "artwork/a3364bea6314-one-cycle-20260926-p930.jpg",
+   "sha256": "a3364bea631448818cd6c5ad302b8271cfdc7fa3f693c179493ae125ff2f1f99",
+   "bytes": 17248292,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/p930/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-26T05:37:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "one-cycle-20260926-r34",
+   "file": "artwork/e2367aa8514d-one-cycle-20260926-r34.jpg",
+   "sha256": "e2367aa8514d9999af11dcb8a9020735b8f3a7136d9790c3caa9d2204e2b7f2c",
+   "bytes": 16084458,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/r34/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-26T05:37:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "one-cycle-20260926-sl300",
+   "file": "artwork/d168dadbe3f8-one-cycle-20260926-sl300.jpg",
+   "sha256": "d168dadbe3f8c4888322dad372f21463914678702b8db7f92393a9cdb823acdb",
+   "bytes": 16726149,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/sl300/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-26T05:37:00+02:00)",
    "basis": "approval"
   },
   {
