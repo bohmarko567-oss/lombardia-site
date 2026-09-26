@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-09-27 00:55",
+ "built": "2026-09-27 01:46",
  "accessed_date": "2026-09-27",
  "collections": [
   "American Form",
@@ -1220,6 +1220,1510 @@
     "created_source": "MuAPI original",
     "updated_at": "2026-09-20T17:38:47.632726+00:00",
     "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-bold-20260927-lancia-037-stradale",
+   "name": "Lancia Rally 037 Stradale",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-bold-20260927-lancia-037-stradale-88497777f073-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-bold-20260927/heroes/lancia-037-stradale/x1-f1-native.png",
+   "source_sha256": "88497777f07379172b7205b5c2c50806847f8b3644c4c9c4557b0f906144a95c",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-09-26T23:13:56.588731+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "53727d3e-1e41-4fdc-9529-9077a93d9ab4",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:10:08.961490+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/53727d3e-1e41-4fdc-9529-9077a93d9ab4_98feefb6.png",
+     "page_url": "https://muapi.ai/predictions/53727d3e-1e41-4fdc-9529-9077a93d9ab4",
+     "references": [
+      {
+       "role": "Front three-quarter: whole car, nose, bonnet vents, wedge profile, wheels",
+       "url": "https://cdn.muapi.ai/outputs/56a66bcf790b4768a5ebb8c9d5720f18_ref-1.webp"
+      },
+      {
+       "role": "Side profile: wheelbase, glasshouse, flat rear deck, door and intake positions",
+       "url": "https://cdn.muapi.ai/outputs/3ff61ec81be5405f8e6d2873e08cdcf9_ref-2.webp"
+      },
+      {
+       "role": "Front: four round headlamps, grille, lower lamps and bumper",
+       "url": "https://cdn.muapi.ai/outputs/37b87293ad3044c680a37b7e497321c8_ref-3.webp"
+      },
+      {
+       "role": "Rear: tail lamps, louvred panel, LANCIA lettering position",
+       "url": "https://cdn.muapi.ai/outputs/10b7e9dad21f47e6a5cda269862f3cd6_ref-4.webp"
+      },
+      {
+       "role": "Nose detail: chrome grille frame with the small Lancia shield badge, fog and indicator lamps",
+       "url": "https://cdn.muapi.ai/outputs/4e08b5eb83704fcca160a1006db7f42a_ref-5.webp"
+      },
+      {
+       "role": "Rear detail: LANCIA serif capitals above the left tail lamp",
+       "url": "https://cdn.muapi.ai/outputs/31b39c694347482a908b0dd9d3244250_ref-6.webp"
+      },
+      {
+       "role": "Abarth scorpion shield badge on the front wing just ahead of the door",
+       "url": "https://cdn.muapi.ai/outputs/62cec871376549a4915104a657a99da6_ref-7.webp"
+      },
+      {
+       "role": "Wheel detail: silver Speedline wheel with round holes, Lancia centre cap; Abarth badge on the wing",
+       "url": "https://cdn.muapi.ai/outputs/039b2bb8debd4f478684a3615dd58436_ref-8.webp"
+      }
+     ]
+    },
+    {
+     "role": "edit",
+     "request_id": "f6fcf3ea-67ab-4eb2-9aeb-62b9cabd9a76",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:28:51.060124+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f6fcf3ea-67ab-4eb2-9aeb-62b9cabd9a76_67c25a65.png",
+     "page_url": "https://muapi.ai/predictions/f6fcf3ea-67ab-4eb2-9aeb-62b9cabd9a76",
+     "target_id": "abarth-wing",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "c9333929-5925-4c56-8597-69476ec99652",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:28:52.910177+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c9333929-5925-4c56-8597-69476ec99652_d7a90b6f.png",
+     "page_url": "https://muapi.ai/predictions/c9333929-5925-4c56-8597-69476ec99652",
+     "target_id": "abarth-door",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "ba963893-af68-4ef4-84cd-38adbcc846b0",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:28:54.695902+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ba963893-af68-4ef4-84cd-38adbcc846b0_cbe50fce.png",
+     "page_url": "https://muapi.ai/predictions/ba963893-af68-4ef4-84cd-38adbcc846b0",
+     "target_id": "lancia-grille",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "32339754-f6d6-4dfa-b0cb-9c980dc4b89a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:28:56.464201+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/32339754-f6d6-4dfa-b0cb-9c980dc4b89a_022fd472.png",
+     "page_url": "https://muapi.ai/predictions/32339754-f6d6-4dfa-b0cb-9c980dc4b89a",
+     "target_id": "wheel-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "a8d9db22-932f-4e61-8521-676f70a78f6d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:28:58.263555+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a8d9db22-932f-4e61-8521-676f70a78f6d_a46dfcc6.png",
+     "page_url": "https://muapi.ai/predictions/a8d9db22-932f-4e61-8521-676f70a78f6d",
+     "target_id": "wheel-rear",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Sport / Leicht",
+    "why": "Suggested from this concept: Swiss International Style, giant numerals. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-bold-20260927/studio-candidates.json",
+   "candidate_authority": "Owner 27 Sep 2026 00:51: 'Good make more beautiful posters, perfect details/badges etc is non negotiable ... make bold nice creatives, dont restrict urself, but details part is a must. Create me 7 more poster heros to review, i wait in lombardia lot studio.'",
+   "full_source_url": "full/88497777f073-studio-bold-20260927-lancia-037-stradale.png",
+   "full_source_sha256": "88497777f07379172b7205b5c2c50806847f8b3644c4c9c4557b0f906144a95c",
+   "full_source_bytes": 10943499,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Suggested from this concept: Swiss International Style, giant numerals. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "53727d3e-1e41-4fdc-9529-9077a93d9ab4",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:10:08.961490+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/53727d3e-1e41-4fdc-9529-9077a93d9ab4_98feefb6.png",
+     "page_url": "https://muapi.ai/predictions/53727d3e-1e41-4fdc-9529-9077a93d9ab4",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter: whole car, nose, bonnet vents, wedge profile, wheels",
+       "url": "https://cdn.muapi.ai/outputs/56a66bcf790b4768a5ebb8c9d5720f18_ref-1.webp"
+      },
+      {
+       "role": "Side profile: wheelbase, glasshouse, flat rear deck, door and intake positions",
+       "url": "https://cdn.muapi.ai/outputs/3ff61ec81be5405f8e6d2873e08cdcf9_ref-2.webp"
+      },
+      {
+       "role": "Front: four round headlamps, grille, lower lamps and bumper",
+       "url": "https://cdn.muapi.ai/outputs/37b87293ad3044c680a37b7e497321c8_ref-3.webp"
+      },
+      {
+       "role": "Rear: tail lamps, louvred panel, LANCIA lettering position",
+       "url": "https://cdn.muapi.ai/outputs/10b7e9dad21f47e6a5cda269862f3cd6_ref-4.webp"
+      },
+      {
+       "role": "Nose detail: chrome grille frame with the small Lancia shield badge, fog and indicator lamps",
+       "url": "https://cdn.muapi.ai/outputs/4e08b5eb83704fcca160a1006db7f42a_ref-5.webp"
+      },
+      {
+       "role": "Rear detail: LANCIA serif capitals above the left tail lamp",
+       "url": "https://cdn.muapi.ai/outputs/31b39c694347482a908b0dd9d3244250_ref-6.webp"
+      },
+      {
+       "role": "Abarth scorpion shield badge on the front wing just ahead of the door",
+       "url": "https://cdn.muapi.ai/outputs/62cec871376549a4915104a657a99da6_ref-7.webp"
+      },
+      {
+       "role": "Wheel detail: silver Speedline wheel with round holes, Lancia centre cap; Abarth badge on the wing",
+       "url": "https://cdn.muapi.ai/outputs/039b2bb8debd4f478684a3615dd58436_ref-8.webp"
+      }
+     ],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "f6fcf3ea-67ab-4eb2-9aeb-62b9cabd9a76",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:28:51.060124+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f6fcf3ea-67ab-4eb2-9aeb-62b9cabd9a76_67c25a65.png",
+     "page_url": "https://muapi.ai/predictions/f6fcf3ea-67ab-4eb2-9aeb-62b9cabd9a76",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "c9333929-5925-4c56-8597-69476ec99652",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:28:52.910177+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c9333929-5925-4c56-8597-69476ec99652_d7a90b6f.png",
+     "page_url": "https://muapi.ai/predictions/c9333929-5925-4c56-8597-69476ec99652",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "ba963893-af68-4ef4-84cd-38adbcc846b0",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:28:54.695902+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ba963893-af68-4ef4-84cd-38adbcc846b0_cbe50fce.png",
+     "page_url": "https://muapi.ai/predictions/ba963893-af68-4ef4-84cd-38adbcc846b0",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "32339754-f6d6-4dfa-b0cb-9c980dc4b89a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:28:56.464201+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/32339754-f6d6-4dfa-b0cb-9c980dc4b89a_022fd472.png",
+     "page_url": "https://muapi.ai/predictions/32339754-f6d6-4dfa-b0cb-9c980dc4b89a",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "a8d9db22-932f-4e61-8521-676f70a78f6d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:28:58.263555+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a8d9db22-932f-4e61-8521-676f70a78f6d_a46dfcc6.png",
+     "page_url": "https://muapi.ai/predictions/a8d9db22-932f-4e61-8521-676f70a78f6d",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-26T23:10:08.961490+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-26T23:28:58.263555+00:00",
+    "updated_source": "MuAPI edit"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-bold-20260927-ford-rs200",
+   "name": "Ford RS200",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-bold-20260927-ford-rs200-5b2e1fd7d0a8-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-bold-20260927/heroes/ford-rs200/x1-f2-native.png",
+   "source_sha256": "5b2e1fd7d0a892992af100da1b08f255a5e33e1e57467fa815a78153a2d67a8d",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-09-26T23:13:59.632446+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "7359833c-8b7e-45f4-be19-7ffb289afc4e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:10:15.727533+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/7359833c-8b7e-45f4-be19-7ffb289afc4e_9911743c.png",
+     "page_url": "https://muapi.ai/predictions/7359833c-8b7e-45f4-be19-7ffb289afc4e",
+     "references": [
+      {
+       "role": "Front three-quarter: nose, headlamps, auxiliary lamps, doors, rear intake, wheels",
+       "url": "https://cdn.muapi.ai/outputs/6baabfd535ed45399a987a69d2317e4e_ref-1.webp"
+      },
+      {
+       "role": "Front three-quarter in motion: body attitude, bonnet and roof spoiler",
+       "url": "https://cdn.muapi.ai/outputs/d0f749e8ffeb4a07b2f79af2babacc1d_ref-2.webp"
+      },
+      {
+       "role": "Side profile: wheelbase, cabin, rear intake, rear wing",
+       "url": "https://cdn.muapi.ai/outputs/997f27aaefc74649a182080d87dd5ad4_ref-3.webp"
+      },
+      {
+       "role": "Front: two round headlamps, Ford oval badge, round auxiliary lamps (ignore their printed covers), lower grille",
+       "url": "https://cdn.muapi.ai/outputs/b97e19181c2b4e648adfa20082995ef0_ref-4.webp"
+      },
+      {
+       "role": "Rear three-quarter: rear wing, tail, rear quarter",
+       "url": "https://cdn.muapi.ai/outputs/57405dc5f0dd4b409407859f41c3ec08_ref-5.webp"
+      },
+      {
+       "role": "Rear: tail lamps, RS 200 lettering left, Ford oval right, black lower panels",
+       "url": "https://cdn.muapi.ai/outputs/d22ace8ebd5944d69775f2ce3f97ec33_ref-6.webp"
+      },
+      {
+       "role": "Rear detail: RS 200 dark red lettering above the left tail lamp",
+       "url": "https://cdn.muapi.ai/outputs/756407f67edc412592a9376e5fd686e4_ref-7.webp"
+      },
+      {
+       "role": "Roof spoiler and rear window louvres detail",
+       "url": "https://cdn.muapi.ai/outputs/3b4a9decaef64662bd1df37ed3bc75b0_ref-8.webp"
+      }
+     ]
+    },
+    {
+     "role": "edit",
+     "request_id": "01220465-cb19-430f-b290-567418ab1449",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:36:58.488074+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/01220465-cb19-430f-b290-567418ab1449_8bd86184.png",
+     "page_url": "https://muapi.ai/predictions/01220465-cb19-430f-b290-567418ab1449",
+     "target_id": "wheel-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "fdd0686c-100b-446b-a5b0-2467cd211f5b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:32:09.134223+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/fdd0686c-100b-446b-a5b0-2467cd211f5b_a5376d15.png",
+     "page_url": "https://muapi.ai/predictions/fdd0686c-100b-446b-a5b0-2467cd211f5b",
+     "target_id": "wheel-rear",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "c5db4f1c-1e75-48a9-b739-7e7d6014c682",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:44:35.434923+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c5db4f1c-1e75-48a9-b739-7e7d6014c682_b3618cd4.png",
+     "page_url": "https://muapi.ai/predictions/c5db4f1c-1e75-48a9-b739-7e7d6014c682",
+     "target_id": "quarter-badge",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Sport / Leicht",
+    "why": "Suggested from this concept: Constructivist wedges, Group B. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-bold-20260927/studio-candidates.json",
+   "candidate_authority": "Owner 27 Sep 2026 00:51: 'Good make more beautiful posters, perfect details/badges etc is non negotiable ... make bold nice creatives, dont restrict urself, but details part is a must. Create me 7 more poster heros to review, i wait in lombardia lot studio.'",
+   "full_source_url": "full/5b2e1fd7d0a8-studio-bold-20260927-ford-rs200.png",
+   "full_source_sha256": "5b2e1fd7d0a892992af100da1b08f255a5e33e1e57467fa815a78153a2d67a8d",
+   "full_source_bytes": 12429700,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Suggested from this concept: Constructivist wedges, Group B. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "7359833c-8b7e-45f4-be19-7ffb289afc4e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:10:15.727533+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/7359833c-8b7e-45f4-be19-7ffb289afc4e_9911743c.png",
+     "page_url": "https://muapi.ai/predictions/7359833c-8b7e-45f4-be19-7ffb289afc4e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter: nose, headlamps, auxiliary lamps, doors, rear intake, wheels",
+       "url": "https://cdn.muapi.ai/outputs/6baabfd535ed45399a987a69d2317e4e_ref-1.webp"
+      },
+      {
+       "role": "Front three-quarter in motion: body attitude, bonnet and roof spoiler",
+       "url": "https://cdn.muapi.ai/outputs/d0f749e8ffeb4a07b2f79af2babacc1d_ref-2.webp"
+      },
+      {
+       "role": "Side profile: wheelbase, cabin, rear intake, rear wing",
+       "url": "https://cdn.muapi.ai/outputs/997f27aaefc74649a182080d87dd5ad4_ref-3.webp"
+      },
+      {
+       "role": "Front: two round headlamps, Ford oval badge, round auxiliary lamps (ignore their printed covers), lower grille",
+       "url": "https://cdn.muapi.ai/outputs/b97e19181c2b4e648adfa20082995ef0_ref-4.webp"
+      },
+      {
+       "role": "Rear three-quarter: rear wing, tail, rear quarter",
+       "url": "https://cdn.muapi.ai/outputs/57405dc5f0dd4b409407859f41c3ec08_ref-5.webp"
+      },
+      {
+       "role": "Rear: tail lamps, RS 200 lettering left, Ford oval right, black lower panels",
+       "url": "https://cdn.muapi.ai/outputs/d22ace8ebd5944d69775f2ce3f97ec33_ref-6.webp"
+      },
+      {
+       "role": "Rear detail: RS 200 dark red lettering above the left tail lamp",
+       "url": "https://cdn.muapi.ai/outputs/756407f67edc412592a9376e5fd686e4_ref-7.webp"
+      },
+      {
+       "role": "Roof spoiler and rear window louvres detail",
+       "url": "https://cdn.muapi.ai/outputs/3b4a9decaef64662bd1df37ed3bc75b0_ref-8.webp"
+      }
+     ],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "fdd0686c-100b-446b-a5b0-2467cd211f5b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:32:09.134223+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/fdd0686c-100b-446b-a5b0-2467cd211f5b_a5376d15.png",
+     "page_url": "https://muapi.ai/predictions/fdd0686c-100b-446b-a5b0-2467cd211f5b",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "01220465-cb19-430f-b290-567418ab1449",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:36:58.488074+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/01220465-cb19-430f-b290-567418ab1449_8bd86184.png",
+     "page_url": "https://muapi.ai/predictions/01220465-cb19-430f-b290-567418ab1449",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "c5db4f1c-1e75-48a9-b739-7e7d6014c682",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:44:35.434923+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c5db4f1c-1e75-48a9-b739-7e7d6014c682_b3618cd4.png",
+     "page_url": "https://muapi.ai/predictions/c5db4f1c-1e75-48a9-b739-7e7d6014c682",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-26T23:10:15.727533+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-26T23:44:35.434923+00:00",
+    "updated_source": "MuAPI edit"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-bold-20260927-nissan-skyline-2000gtr-kpgc10",
+   "name": "Nissan Skyline 2000GT-R 'Hakosuka'",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-bold-20260927-nissan-skyline-2000gtr-kpgc10-d1b1b0841de3-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-bold-20260927/heroes/nissan-skyline-2000gtr-kpgc10/x1-f1-native.png",
+   "source_sha256": "d1b1b0841de3944f25f42b381051ce8f30da41bcdaadc20fc7ea5cd993a1653b",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-09-26T23:14:05.836911+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "50b7a3c9-981f-4105-970b-ad05dd27f6c3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:10:22.451690+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/50b7a3c9-981f-4105-970b-ad05dd27f6c3_0e3887cc.png",
+     "page_url": "https://muapi.ai/predictions/50b7a3c9-981f-4105-970b-ad05dd27f6c3",
+     "references": [
+      {
+       "role": "Front three-quarter: whole car, quad headlamps, grille, overfenders, fender mirrors, wheels",
+       "url": "https://cdn.muapi.ai/outputs/1cb6753af9f04d85ba09ee999ea065f4_ref-1.webp"
+      },
+      {
+       "role": "Front: quad round headlamps, split mesh grille with red GT-R emblem on the right half, chrome bumper",
+       "url": "https://cdn.muapi.ai/outputs/92a1a0dca0fd4807a33d7ab9dd2ca973_ref-2.webp"
+      },
+      {
+       "role": "Side profile: hardtop roofline, wheelbase, overfenders, Skyline script position behind the front wheel",
+       "url": "https://cdn.muapi.ai/outputs/dd9ecf9e59f04546af4b17f823a576f2_ref-3.webp"
+      },
+      {
+       "role": "Wing detail: chrome Skyline script and small GT-R emblem, eight-spoke wheel",
+       "url": "https://cdn.muapi.ai/outputs/9397b947306146c88d45f55e39538ab4_ref-4.webp"
+      },
+      {
+       "role": "Rear three-quarter: boot spoiler, twin tail lamps, overfenders",
+       "url": "https://cdn.muapi.ai/outputs/92c2f34409644cdca18c0e4b246eedac_ref-5.webp"
+      },
+      {
+       "role": "Rear: twin rectangular tail lamps each side, boot spoiler, GT-R emblem right of the plate",
+       "url": "https://cdn.muapi.ai/outputs/30b00f1464904b07a3f346a6f55a1de0_ref-6.webp"
+      }
+     ]
+    },
+    {
+     "role": "edit",
+     "request_id": "b22ce4b5-c5e7-4324-aada-316191e38fb8",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:32:11.329311+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b22ce4b5-c5e7-4324-aada-316191e38fb8_dd825abe.png",
+     "page_url": "https://muapi.ai/predictions/b22ce4b5-c5e7-4324-aada-316191e38fb8",
+     "target_id": "wing-script",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "ceb3eb90-c413-4b1b-b6ce-613bd938c11c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:32:13.057563+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ceb3eb90-c413-4b1b-b6ce-613bd938c11c_228d760d.png",
+     "page_url": "https://muapi.ai/predictions/ceb3eb90-c413-4b1b-b6ce-613bd938c11c",
+     "target_id": "cpillar-emblem",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "6d604692-190d-4545-bc7b-00a52e01785c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:32:14.875123+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6d604692-190d-4545-bc7b-00a52e01785c_cb44e162.png",
+     "page_url": "https://muapi.ai/predictions/6d604692-190d-4545-bc7b-00a52e01785c",
+     "target_id": "tyre-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "d982d389-8449-43e9-93df-466d61a1e354",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:32:16.713838+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d982d389-8449-43e9-93df-466d61a1e354_b5c1cb2e.png",
+     "page_url": "https://muapi.ai/predictions/d982d389-8449-43e9-93df-466d61a1e354",
+     "target_id": "tyre-rear",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Forma / Motion",
+    "why": "Suggested from this concept: Showa-era speed poster, vermilion disc. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-bold-20260927/studio-candidates.json",
+   "candidate_authority": "Owner 27 Sep 2026 00:51: 'Good make more beautiful posters, perfect details/badges etc is non negotiable ... make bold nice creatives, dont restrict urself, but details part is a must. Create me 7 more poster heros to review, i wait in lombardia lot studio.'",
+   "full_source_url": "full/d1b1b0841de3-studio-bold-20260927-nissan-skyline-2000gtr-kpgc10.png",
+   "full_source_sha256": "d1b1b0841de3944f25f42b381051ce8f30da41bcdaadc20fc7ea5cd993a1653b",
+   "full_source_bytes": 13824173,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Forma / Motion",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Suggested from this concept: Showa-era speed poster, vermilion disc. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 100
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "50b7a3c9-981f-4105-970b-ad05dd27f6c3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:10:22.451690+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/50b7a3c9-981f-4105-970b-ad05dd27f6c3_0e3887cc.png",
+     "page_url": "https://muapi.ai/predictions/50b7a3c9-981f-4105-970b-ad05dd27f6c3",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter: whole car, quad headlamps, grille, overfenders, fender mirrors, wheels",
+       "url": "https://cdn.muapi.ai/outputs/1cb6753af9f04d85ba09ee999ea065f4_ref-1.webp"
+      },
+      {
+       "role": "Front: quad round headlamps, split mesh grille with red GT-R emblem on the right half, chrome bumper",
+       "url": "https://cdn.muapi.ai/outputs/92a1a0dca0fd4807a33d7ab9dd2ca973_ref-2.webp"
+      },
+      {
+       "role": "Side profile: hardtop roofline, wheelbase, overfenders, Skyline script position behind the front wheel",
+       "url": "https://cdn.muapi.ai/outputs/dd9ecf9e59f04546af4b17f823a576f2_ref-3.webp"
+      },
+      {
+       "role": "Wing detail: chrome Skyline script and small GT-R emblem, eight-spoke wheel",
+       "url": "https://cdn.muapi.ai/outputs/9397b947306146c88d45f55e39538ab4_ref-4.webp"
+      },
+      {
+       "role": "Rear three-quarter: boot spoiler, twin tail lamps, overfenders",
+       "url": "https://cdn.muapi.ai/outputs/92c2f34409644cdca18c0e4b246eedac_ref-5.webp"
+      },
+      {
+       "role": "Rear: twin rectangular tail lamps each side, boot spoiler, GT-R emblem right of the plate",
+       "url": "https://cdn.muapi.ai/outputs/30b00f1464904b07a3f346a6f55a1de0_ref-6.webp"
+      }
+     ],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "b22ce4b5-c5e7-4324-aada-316191e38fb8",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:32:11.329311+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b22ce4b5-c5e7-4324-aada-316191e38fb8_dd825abe.png",
+     "page_url": "https://muapi.ai/predictions/b22ce4b5-c5e7-4324-aada-316191e38fb8",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "ceb3eb90-c413-4b1b-b6ce-613bd938c11c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:32:13.057563+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ceb3eb90-c413-4b1b-b6ce-613bd938c11c_228d760d.png",
+     "page_url": "https://muapi.ai/predictions/ceb3eb90-c413-4b1b-b6ce-613bd938c11c",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "6d604692-190d-4545-bc7b-00a52e01785c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:32:14.875123+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6d604692-190d-4545-bc7b-00a52e01785c_cb44e162.png",
+     "page_url": "https://muapi.ai/predictions/6d604692-190d-4545-bc7b-00a52e01785c",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "d982d389-8449-43e9-93df-466d61a1e354",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:32:16.713838+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d982d389-8449-43e9-93df-466d61a1e354_b5c1cb2e.png",
+     "page_url": "https://muapi.ai/predictions/d982d389-8449-43e9-93df-466d61a1e354",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-26T23:10:22.451690+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-26T23:32:16.713838+00:00",
+    "updated_source": "MuAPI edit"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-bold-20260927-subaru-impreza-22b-sti",
+   "name": "Subaru Impreza 22B STi",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-bold-20260927-subaru-impreza-22b-sti-8e3ecf171962-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-bold-20260927/heroes/subaru-impreza-22b-sti/x1-f1-native.png",
+   "source_sha256": "8e3ecf171962eed550eef875577f9de327c2dd47e4dfa2dc819cd1de73c33f16",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-09-26T23:14:11.996688+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "c4858014-4bed-487f-bb55-2d6a3df9b0ea",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:10:29.194622+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c4858014-4bed-487f-bb55-2d6a3df9b0ea_e6e39e02.png",
+     "page_url": "https://muapi.ai/predictions/c4858014-4bed-487f-bb55-2d6a3df9b0ea",
+     "references": [
+      {
+       "role": "Front three-quarter: whole car, bonnet scoop, widened arches, rear wing, gold wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/7bbb09d40e70461d94c933e18131d3ed.jpg"
+      },
+      {
+       "role": "Side profile: two-door body, wheelbase, arches, wing",
+       "url": "https://cdn.muapi.ai/outputs/generated/6811ffcbecf648aab2bee0bf5c8b12e9.jpg"
+      },
+      {
+       "role": "Rear three-quarter: rear wing, tail lamps, arches",
+       "url": "https://cdn.muapi.ai/outputs/generated/59c3c5408fa1485f90e07b7c5eb38c33.jpg"
+      },
+      {
+       "role": "Rear: wing, tail lamps, 22B plaque right of the right tail lamp (ignore the UK plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/52133f67b3d3480185ba4f072c2ae11a.jpg"
+      },
+      {
+       "role": "Grille detail: pink Subaru six-star oval badge on a blue mount in the black mesh grille",
+       "url": "https://cdn.muapi.ai/outputs/generated/40f0b9c1196443129ac0e516d21d8045.jpg"
+      },
+      {
+       "role": "Front corner detail: round black STi badge in the bumper, headlamp shape",
+       "url": "https://cdn.muapi.ai/outputs/generated/93ebf2286faa48b48eda08c9fba49430.jpg"
+      },
+      {
+       "role": "Wing detail: oval silver STi badge behind the front wheel",
+       "url": "https://cdn.muapi.ai/outputs/generated/f03ea09733404a05b1843883188256b2.jpg"
+      },
+      {
+       "role": "Wheel detail: gold BBS wheel with black STi centre cap",
+       "url": "https://cdn.muapi.ai/outputs/generated/8530fdeae63a483084c5ae13ee0bf8df.jpg"
+      },
+      {
+       "role": "Rear badge detail: 22B STi Subaru Impreza plaque",
+       "url": "https://cdn.muapi.ai/outputs/generated/6b9f3f3257cc47a08fb99b0e41dd52d2.jpg"
+      },
+      {
+       "role": "Bonnet scoop detail",
+       "url": "https://cdn.muapi.ai/outputs/generated/c1192a161afe48d797ae8e85d7d008d1.jpg"
+      }
+     ]
+    },
+    {
+     "role": "edit",
+     "request_id": "b7a4dbe7-0e3b-4ea3-8152-1a89c2b839cc",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:40:19.221854+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b7a4dbe7-0e3b-4ea3-8152-1a89c2b839cc_34811b6a.png",
+     "page_url": "https://muapi.ai/predictions/b7a4dbe7-0e3b-4ea3-8152-1a89c2b839cc",
+     "target_id": "tyre-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "78f2b7d8-9c4c-4480-b7ef-db0dda5d66be",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:40:20.918314+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/78f2b7d8-9c4c-4480-b7ef-db0dda5d66be_d8b6ffd3.png",
+     "page_url": "https://muapi.ai/predictions/78f2b7d8-9c4c-4480-b7ef-db0dda5d66be",
+     "target_id": "tyre-rear",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Sport / Leicht",
+    "why": "Suggested from this concept: Night sky, Pleiades. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-bold-20260927/studio-candidates.json",
+   "candidate_authority": "Owner 27 Sep 2026 00:51: 'Good make more beautiful posters, perfect details/badges etc is non negotiable ... make bold nice creatives, dont restrict urself, but details part is a must. Create me 7 more poster heros to review, i wait in lombardia lot studio.'",
+   "full_source_url": "full/8e3ecf171962-studio-bold-20260927-subaru-impreza-22b-sti.png",
+   "full_source_sha256": "8e3ecf171962eed550eef875577f9de327c2dd47e4dfa2dc819cd1de73c33f16",
+   "full_source_bytes": 13264676,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Suggested from this concept: Night sky, Pleiades. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "c4858014-4bed-487f-bb55-2d6a3df9b0ea",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:10:29.194622+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c4858014-4bed-487f-bb55-2d6a3df9b0ea_e6e39e02.png",
+     "page_url": "https://muapi.ai/predictions/c4858014-4bed-487f-bb55-2d6a3df9b0ea",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter: whole car, bonnet scoop, widened arches, rear wing, gold wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/7bbb09d40e70461d94c933e18131d3ed.jpg"
+      },
+      {
+       "role": "Side profile: two-door body, wheelbase, arches, wing",
+       "url": "https://cdn.muapi.ai/outputs/generated/6811ffcbecf648aab2bee0bf5c8b12e9.jpg"
+      },
+      {
+       "role": "Rear three-quarter: rear wing, tail lamps, arches",
+       "url": "https://cdn.muapi.ai/outputs/generated/59c3c5408fa1485f90e07b7c5eb38c33.jpg"
+      },
+      {
+       "role": "Rear: wing, tail lamps, 22B plaque right of the right tail lamp (ignore the UK plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/52133f67b3d3480185ba4f072c2ae11a.jpg"
+      },
+      {
+       "role": "Grille detail: pink Subaru six-star oval badge on a blue mount in the black mesh grille",
+       "url": "https://cdn.muapi.ai/outputs/generated/40f0b9c1196443129ac0e516d21d8045.jpg"
+      },
+      {
+       "role": "Front corner detail: round black STi badge in the bumper, headlamp shape",
+       "url": "https://cdn.muapi.ai/outputs/generated/93ebf2286faa48b48eda08c9fba49430.jpg"
+      },
+      {
+       "role": "Wing detail: oval silver STi badge behind the front wheel",
+       "url": "https://cdn.muapi.ai/outputs/generated/f03ea09733404a05b1843883188256b2.jpg"
+      },
+      {
+       "role": "Wheel detail: gold BBS wheel with black STi centre cap",
+       "url": "https://cdn.muapi.ai/outputs/generated/8530fdeae63a483084c5ae13ee0bf8df.jpg"
+      },
+      {
+       "role": "Rear badge detail: 22B STi Subaru Impreza plaque",
+       "url": "https://cdn.muapi.ai/outputs/generated/6b9f3f3257cc47a08fb99b0e41dd52d2.jpg"
+      },
+      {
+       "role": "Bonnet scoop detail",
+       "url": "https://cdn.muapi.ai/outputs/generated/c1192a161afe48d797ae8e85d7d008d1.jpg"
+      }
+     ],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "b7a4dbe7-0e3b-4ea3-8152-1a89c2b839cc",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:40:19.221854+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b7a4dbe7-0e3b-4ea3-8152-1a89c2b839cc_34811b6a.png",
+     "page_url": "https://muapi.ai/predictions/b7a4dbe7-0e3b-4ea3-8152-1a89c2b839cc",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "78f2b7d8-9c4c-4480-b7ef-db0dda5d66be",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:40:20.918314+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/78f2b7d8-9c4c-4480-b7ef-db0dda5d66be_d8b6ffd3.png",
+     "page_url": "https://muapi.ai/predictions/78f2b7d8-9c4c-4480-b7ef-db0dda5d66be",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-26T23:10:29.194622+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-26T23:40:20.918314+00:00",
+    "updated_source": "MuAPI edit"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-bold-20260927-lamborghini-lm002",
+   "name": "Lamborghini LM002",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-bold-20260927-lamborghini-lm002-0548dbbb1da7-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-bold-20260927/heroes/lamborghini-lm002/x1-f1-native.png",
+   "source_sha256": "0548dbbb1da7e206bcf822258cf91078e19aae0f60db3446fefb77de7fde55a0",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-09-26T23:14:15.169060+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "4f72e31c-5ebf-4db1-9f66-6ebc53aa3ba6",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:10:35.877173+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4f72e31c-5ebf-4db1-9f66-6ebc53aa3ba6_8dbe895a.png",
+     "page_url": "https://muapi.ai/predictions/4f72e31c-5ebf-4db1-9f66-6ebc53aa3ba6",
+     "references": [
+      {
+       "role": "Front three-quarter: whole vehicle, bonnet bulge, headlamps, bumper bar, flares, tyres",
+       "url": "https://cdn.muapi.ai/outputs/709a6388d8d340a5ac43eebb3990c68f_ref-1.webp"
+      },
+      {
+       "role": "Front three-quarter, other side: bulge decal position, flares, roll bars",
+       "url": "https://cdn.muapi.ai/outputs/2a430a3cf79349fca35e3bc0c4f21437_ref-2.webp"
+      },
+      {
+       "role": "Front: square headlamp housings, grille, tubular bar, bonnet bulge with red decal",
+       "url": "https://cdn.muapi.ai/outputs/43c78a263b0945ffbe996f65f949eb79_ref-3.webp"
+      },
+      {
+       "role": "Decal detail: red Lamborghini bull and lowercase lamborghini lettering on the bonnet bulge",
+       "url": "https://cdn.muapi.ai/outputs/0f0b16063aad4431935a420d8312f0d0_ref-4.webp"
+      },
+      {
+       "role": "Front three-quarter on the road: stance and proportions",
+       "url": "https://cdn.muapi.ai/outputs/f398d9c3c3b145f9b39565552ff7cfda_ref-5.webp"
+      },
+      {
+       "role": "Rear three-quarter: tailgate spare wheel, roll bars, rear lamps",
+       "url": "https://cdn.muapi.ai/outputs/83ee9d4ccc2e44d9a7c4ec3fa7cadea3_ref-6.webp"
+      },
+      {
+       "role": "Rear: spare wheel, tail lamps, small red decal on the rear panel",
+       "url": "https://cdn.muapi.ai/outputs/df8f1edcc1c94d7ca030df042585ac12_ref-7.webp"
+      }
+     ]
+    },
+    {
+     "role": "edit",
+     "request_id": "33662c34-e72d-4025-82b6-a1d3673399d2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:40:13.515653+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/33662c34-e72d-4025-82b6-a1d3673399d2_1f6b234a.png",
+     "page_url": "https://muapi.ai/predictions/33662c34-e72d-4025-82b6-a1d3673399d2",
+     "target_id": "windscreen-sticker",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "baebcf3c-9aa9-4fcd-b4d6-237cc14ac6a8",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:40:15.293716+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/baebcf3c-9aa9-4fcd-b4d6-237cc14ac6a8_f1ff816b.png",
+     "page_url": "https://muapi.ai/predictions/baebcf3c-9aa9-4fcd-b4d6-237cc14ac6a8",
+     "target_id": "tyre-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "3fad7ac1-5e6f-4963-920d-d15597c7ee34",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:40:17.079142+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/3fad7ac1-5e6f-4963-920d-d15597c7ee34_e40e29f3.png",
+     "page_url": "https://muapi.ai/predictions/3fad7ac1-5e6f-4963-920d-d15597c7ee34",
+     "target_id": "tyre-rear",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Forma / Motion",
+    "why": "Suggested from this concept: Military survey map, stencil. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-bold-20260927/studio-candidates.json",
+   "candidate_authority": "Owner 27 Sep 2026 00:51: 'Good make more beautiful posters, perfect details/badges etc is non negotiable ... make bold nice creatives, dont restrict urself, but details part is a must. Create me 7 more poster heros to review, i wait in lombardia lot studio.'",
+   "full_source_url": "full/0548dbbb1da7-studio-bold-20260927-lamborghini-lm002.png",
+   "full_source_sha256": "0548dbbb1da7e206bcf822258cf91078e19aae0f60db3446fefb77de7fde55a0",
+   "full_source_bytes": 14903083,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Forma / Motion",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Suggested from this concept: Military survey map, stencil. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 100
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "4f72e31c-5ebf-4db1-9f66-6ebc53aa3ba6",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:10:35.877173+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4f72e31c-5ebf-4db1-9f66-6ebc53aa3ba6_8dbe895a.png",
+     "page_url": "https://muapi.ai/predictions/4f72e31c-5ebf-4db1-9f66-6ebc53aa3ba6",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter: whole vehicle, bonnet bulge, headlamps, bumper bar, flares, tyres",
+       "url": "https://cdn.muapi.ai/outputs/709a6388d8d340a5ac43eebb3990c68f_ref-1.webp"
+      },
+      {
+       "role": "Front three-quarter, other side: bulge decal position, flares, roll bars",
+       "url": "https://cdn.muapi.ai/outputs/2a430a3cf79349fca35e3bc0c4f21437_ref-2.webp"
+      },
+      {
+       "role": "Front: square headlamp housings, grille, tubular bar, bonnet bulge with red decal",
+       "url": "https://cdn.muapi.ai/outputs/43c78a263b0945ffbe996f65f949eb79_ref-3.webp"
+      },
+      {
+       "role": "Decal detail: red Lamborghini bull and lowercase lamborghini lettering on the bonnet bulge",
+       "url": "https://cdn.muapi.ai/outputs/0f0b16063aad4431935a420d8312f0d0_ref-4.webp"
+      },
+      {
+       "role": "Front three-quarter on the road: stance and proportions",
+       "url": "https://cdn.muapi.ai/outputs/f398d9c3c3b145f9b39565552ff7cfda_ref-5.webp"
+      },
+      {
+       "role": "Rear three-quarter: tailgate spare wheel, roll bars, rear lamps",
+       "url": "https://cdn.muapi.ai/outputs/83ee9d4ccc2e44d9a7c4ec3fa7cadea3_ref-6.webp"
+      },
+      {
+       "role": "Rear: spare wheel, tail lamps, small red decal on the rear panel",
+       "url": "https://cdn.muapi.ai/outputs/df8f1edcc1c94d7ca030df042585ac12_ref-7.webp"
+      }
+     ],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "33662c34-e72d-4025-82b6-a1d3673399d2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:40:13.515653+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/33662c34-e72d-4025-82b6-a1d3673399d2_1f6b234a.png",
+     "page_url": "https://muapi.ai/predictions/33662c34-e72d-4025-82b6-a1d3673399d2",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "baebcf3c-9aa9-4fcd-b4d6-237cc14ac6a8",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:40:15.293716+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/baebcf3c-9aa9-4fcd-b4d6-237cc14ac6a8_f1ff816b.png",
+     "page_url": "https://muapi.ai/predictions/baebcf3c-9aa9-4fcd-b4d6-237cc14ac6a8",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "3fad7ac1-5e6f-4963-920d-d15597c7ee34",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:40:17.079142+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/3fad7ac1-5e6f-4963-920d-d15597c7ee34_e40e29f3.png",
+     "page_url": "https://muapi.ai/predictions/3fad7ac1-5e6f-4963-920d-d15597c7ee34",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-26T23:10:35.877173+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-26T23:40:17.079142+00:00",
+    "updated_source": "MuAPI edit"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-bold-20260927-alfa-romeo-sz",
+   "name": "Alfa Romeo SZ 'Il Mostro'",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-bold-20260927-alfa-romeo-sz-8fc3d748a1a3-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-bold-20260927/heroes/alfa-romeo-sz/x1-f1-native.png",
+   "source_sha256": "8fc3d748a1a362c5da2c3d2cacd24000288ec8e4e16f3baa5ea8120d7552c61a",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-09-26T23:14:21.037401+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "03898978-85c3-4c95-884e-c94a35e4599d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:10:42.543957+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/03898978-85c3-4c95-884e-c94a35e4599d_9937c79a.png",
+     "page_url": "https://muapi.ai/predictions/03898978-85c3-4c95-884e-c94a35e4599d",
+     "references": [
+      {
+       "role": "Front three-quarter: whole car, scudetto, triple headlamps, gold wheels",
+       "url": "https://cdn.muapi.ai/outputs/19a8bddcdefa4c379ae066f88bb78e26_ref-1.webp"
+      },
+      {
+       "role": "Side profile: wedge body, black roof, wheelbase, Z emblem position",
+       "url": "https://cdn.muapi.ai/outputs/258c2adb16624a668ea19cc5bb54443e_ref-2.webp"
+      },
+      {
+       "role": "Front: V-shaped scudetto grille, round Alfa Romeo badge, three small headlamps each side",
+       "url": "https://cdn.muapi.ai/outputs/3ab051b6bf0246a1b4038a58aed77321_ref-3.webp"
+      },
+      {
+       "role": "Badge detail: round Alfa Romeo badge, red cross and green serpent, gold rim",
+       "url": "https://cdn.muapi.ai/outputs/8d618bc966974b06b30104a7bcaac5d6_ref-4.webp"
+      },
+      {
+       "role": "Wing detail: chrome Zagato Z emblem, amber side marker, gold wheel with round holes",
+       "url": "https://cdn.muapi.ai/outputs/fa5478bfffe5461ab234102044762096_ref-5.webp"
+      },
+      {
+       "role": "Rear three-quarter: black roof, rear spoiler, full-width tail lamps",
+       "url": "https://cdn.muapi.ai/outputs/1423fb8d63ab404cba529b9bcfad0ee0_ref-6.webp"
+      },
+      {
+       "role": "Rear: S.Z. badge left, Alfa roundel centre, black tail-lamp band",
+       "url": "https://cdn.muapi.ai/outputs/d0a452a8b7fc479995ad65629d074e4a_ref-7.webp"
+      }
+     ]
+    },
+    {
+     "role": "edit",
+     "request_id": "ec68de58-4a70-4570-99f1-c8bf96db514f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:34:57.252633+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ec68de58-4a70-4570-99f1-c8bf96db514f_6cf92bd2.png",
+     "page_url": "https://muapi.ai/predictions/ec68de58-4a70-4570-99f1-c8bf96db514f",
+     "target_id": "nose-badge",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Gran Turismo",
+    "why": "Suggested from this concept: Memphis Milano pattern. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-bold-20260927/studio-candidates.json",
+   "candidate_authority": "Owner 27 Sep 2026 00:51: 'Good make more beautiful posters, perfect details/badges etc is non negotiable ... make bold nice creatives, dont restrict urself, but details part is a must. Create me 7 more poster heros to review, i wait in lombardia lot studio.'",
+   "full_source_url": "full/8fc3d748a1a3-studio-bold-20260927-alfa-romeo-sz.png",
+   "full_source_sha256": "8fc3d748a1a362c5da2c3d2cacd24000288ec8e4e16f3baa5ea8120d7552c61a",
+   "full_source_bytes": 10174017,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Gran Turismo",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Suggested from this concept: Memphis Milano pattern. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "03898978-85c3-4c95-884e-c94a35e4599d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:10:42.543957+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/03898978-85c3-4c95-884e-c94a35e4599d_9937c79a.png",
+     "page_url": "https://muapi.ai/predictions/03898978-85c3-4c95-884e-c94a35e4599d",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter: whole car, scudetto, triple headlamps, gold wheels",
+       "url": "https://cdn.muapi.ai/outputs/19a8bddcdefa4c379ae066f88bb78e26_ref-1.webp"
+      },
+      {
+       "role": "Side profile: wedge body, black roof, wheelbase, Z emblem position",
+       "url": "https://cdn.muapi.ai/outputs/258c2adb16624a668ea19cc5bb54443e_ref-2.webp"
+      },
+      {
+       "role": "Front: V-shaped scudetto grille, round Alfa Romeo badge, three small headlamps each side",
+       "url": "https://cdn.muapi.ai/outputs/3ab051b6bf0246a1b4038a58aed77321_ref-3.webp"
+      },
+      {
+       "role": "Badge detail: round Alfa Romeo badge, red cross and green serpent, gold rim",
+       "url": "https://cdn.muapi.ai/outputs/8d618bc966974b06b30104a7bcaac5d6_ref-4.webp"
+      },
+      {
+       "role": "Wing detail: chrome Zagato Z emblem, amber side marker, gold wheel with round holes",
+       "url": "https://cdn.muapi.ai/outputs/fa5478bfffe5461ab234102044762096_ref-5.webp"
+      },
+      {
+       "role": "Rear three-quarter: black roof, rear spoiler, full-width tail lamps",
+       "url": "https://cdn.muapi.ai/outputs/1423fb8d63ab404cba529b9bcfad0ee0_ref-6.webp"
+      },
+      {
+       "role": "Rear: S.Z. badge left, Alfa roundel centre, black tail-lamp band",
+       "url": "https://cdn.muapi.ai/outputs/d0a452a8b7fc479995ad65629d074e4a_ref-7.webp"
+      }
+     ],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "ec68de58-4a70-4570-99f1-c8bf96db514f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:34:57.252633+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ec68de58-4a70-4570-99f1-c8bf96db514f_6cf92bd2.png",
+     "page_url": "https://muapi.ai/predictions/ec68de58-4a70-4570-99f1-c8bf96db514f",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-26T23:10:42.543957+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-26T23:34:57.252633+00:00",
+    "updated_source": "MuAPI edit"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-bold-20260927-bmw-2002-turbo",
+   "name": "BMW 2002 turbo",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-bold-20260927-bmw-2002-turbo-383ec5245137-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-bold-20260927/heroes/bmw-2002-turbo/x1-f1-native.png",
+   "source_sha256": "383ec5245137f37181e910bbfde37d556be6fee5c9dd14478414ceac37dc15f5",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-09-26T23:14:27.201575+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "f887e8b9-9d00-41b8-928f-cbe1be9191e7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:10:49.460586+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f887e8b9-9d00-41b8-928f-cbe1be9191e7_5025f4f1.png",
+     "page_url": "https://muapi.ai/predictions/f887e8b9-9d00-41b8-928f-cbe1be9191e7",
+     "references": [
+      {
+       "role": "Front three-quarter: whole car, kidney grille, air dam with mirror-reversed lettering, stripes, arches",
+       "url": "https://cdn.muapi.ai/outputs/4e40c821eec247edbf341708242780e8_ref-1.webp"
+      },
+      {
+       "role": "Front detail: air dam stripes with mirror-reversed 2002 and turbo, grille, headlamps, wing stripe with turbo script",
+       "url": "https://cdn.muapi.ai/outputs/11d300cd243a4002b3af5dce40154f2a_ref-2.webp"
+      },
+      {
+       "role": "Side profile: two-door body, stripe run along the sill and up the front wing, riveted arch extensions",
+       "url": "https://cdn.muapi.ai/outputs/810530a5a03346f2b176940f8a8869af_ref-3.webp"
+      },
+      {
+       "role": "Wing detail: tricolour stripe flag with the italic turbo script, steel-look wheel",
+       "url": "https://cdn.muapi.ai/outputs/89a12710ed254b4e8f34f1d2c8725b88_ref-4.webp"
+      },
+      {
+       "role": "Front: kidney grille, round headlamps, bonnet roundel, air dam",
+       "url": "https://cdn.muapi.ai/outputs/12604053e0c841559fcb1e4d6a779e20_ref-5.webp"
+      },
+      {
+       "role": "Rear three-quarter: boot spoiler, tail lamps, stripes",
+       "url": "https://cdn.muapi.ai/outputs/366b71b95bf34b3ca1c84dcc05dd6c01_ref-6.webp"
+      },
+      {
+       "role": "Rear: black boot spoiler, turbo script left, 2002 badge right, roundel, tail lamps",
+       "url": "https://cdn.muapi.ai/outputs/3d164b3e88094ff68e8779ea4ff329d2_ref-7.webp"
+      },
+      {
+       "role": "Rear detail: turbo script and 2002 badge on the boot lid",
+       "url": "https://cdn.muapi.ai/outputs/7481a6f3894a425b986cdb28a7621b47_ref-8.webp"
+      },
+      {
+       "role": "Badge detail: black 2002 lettering and BMW roundel",
+       "url": "https://cdn.muapi.ai/outputs/03b962e53e7446378632148c8059f35e_ref-9.webp"
+      }
+     ]
+    },
+    {
+     "role": "edit",
+     "request_id": "40a93aae-9e68-4506-8802-591834fcb1f8",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:34:59.428192+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/40a93aae-9e68-4506-8802-591834fcb1f8_a6f23b9e.png",
+     "page_url": "https://muapi.ai/predictions/40a93aae-9e68-4506-8802-591834fcb1f8",
+     "target_id": "bonnet-roundel",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Sport / Leicht",
+    "why": "Suggested from this concept: Op-art stripe bands. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-bold-20260927/studio-candidates.json",
+   "candidate_authority": "Owner 27 Sep 2026 00:51: 'Good make more beautiful posters, perfect details/badges etc is non negotiable ... make bold nice creatives, dont restrict urself, but details part is a must. Create me 7 more poster heros to review, i wait in lombardia lot studio.'",
+   "full_source_url": "full/383ec5245137-studio-bold-20260927-bmw-2002-turbo.png",
+   "full_source_sha256": "383ec5245137f37181e910bbfde37d556be6fee5c9dd14478414ceac37dc15f5",
+   "full_source_bytes": 11631833,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Suggested from this concept: Op-art stripe bands. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "f887e8b9-9d00-41b8-928f-cbe1be9191e7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:10:49.460586+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f887e8b9-9d00-41b8-928f-cbe1be9191e7_5025f4f1.png",
+     "page_url": "https://muapi.ai/predictions/f887e8b9-9d00-41b8-928f-cbe1be9191e7",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter: whole car, kidney grille, air dam with mirror-reversed lettering, stripes, arches",
+       "url": "https://cdn.muapi.ai/outputs/4e40c821eec247edbf341708242780e8_ref-1.webp"
+      },
+      {
+       "role": "Front detail: air dam stripes with mirror-reversed 2002 and turbo, grille, headlamps, wing stripe with turbo script",
+       "url": "https://cdn.muapi.ai/outputs/11d300cd243a4002b3af5dce40154f2a_ref-2.webp"
+      },
+      {
+       "role": "Side profile: two-door body, stripe run along the sill and up the front wing, riveted arch extensions",
+       "url": "https://cdn.muapi.ai/outputs/810530a5a03346f2b176940f8a8869af_ref-3.webp"
+      },
+      {
+       "role": "Wing detail: tricolour stripe flag with the italic turbo script, steel-look wheel",
+       "url": "https://cdn.muapi.ai/outputs/89a12710ed254b4e8f34f1d2c8725b88_ref-4.webp"
+      },
+      {
+       "role": "Front: kidney grille, round headlamps, bonnet roundel, air dam",
+       "url": "https://cdn.muapi.ai/outputs/12604053e0c841559fcb1e4d6a779e20_ref-5.webp"
+      },
+      {
+       "role": "Rear three-quarter: boot spoiler, tail lamps, stripes",
+       "url": "https://cdn.muapi.ai/outputs/366b71b95bf34b3ca1c84dcc05dd6c01_ref-6.webp"
+      },
+      {
+       "role": "Rear: black boot spoiler, turbo script left, 2002 badge right, roundel, tail lamps",
+       "url": "https://cdn.muapi.ai/outputs/3d164b3e88094ff68e8779ea4ff329d2_ref-7.webp"
+      },
+      {
+       "role": "Rear detail: turbo script and 2002 badge on the boot lid",
+       "url": "https://cdn.muapi.ai/outputs/7481a6f3894a425b986cdb28a7621b47_ref-8.webp"
+      },
+      {
+       "role": "Badge detail: black 2002 lettering and BMW roundel",
+       "url": "https://cdn.muapi.ai/outputs/03b962e53e7446378632148c8059f35e_ref-9.webp"
+      }
+     ],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "40a93aae-9e68-4506-8802-591834fcb1f8",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-26T23:34:59.428192+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/40a93aae-9e68-4506-8802-591834fcb1f8_a6f23b9e.png",
+     "page_url": "https://muapi.ai/predictions/40a93aae-9e68-4506-8802-591834fcb1f8",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-bold-20260927/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-26T23:10:49.460586+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-09-26T23:34:59.428192+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -3657,6 +5161,76 @@
    "pixels": [
     3312,
     2480
+   ]
+  },
+  {
+   "key": "studio-bold-20260927-bmw-2002-turbo",
+   "declared_sha256": "383ec5245137f37181e910bbfde37d556be6fee5c9dd14478414ceac37dc15f5",
+   "applied": true,
+   "preview": "assets/studio-bold-20260927-bmw-2002-turbo-383ec5245137-current.jpg",
+   "pixels": [
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-bold-20260927-alfa-romeo-sz",
+   "declared_sha256": "8fc3d748a1a362c5da2c3d2cacd24000288ec8e4e16f3baa5ea8120d7552c61a",
+   "applied": true,
+   "preview": "assets/studio-bold-20260927-alfa-romeo-sz-8fc3d748a1a3-current.jpg",
+   "pixels": [
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-bold-20260927-lamborghini-lm002",
+   "declared_sha256": "0548dbbb1da7e206bcf822258cf91078e19aae0f60db3446fefb77de7fde55a0",
+   "applied": true,
+   "preview": "assets/studio-bold-20260927-lamborghini-lm002-0548dbbb1da7-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-bold-20260927-subaru-impreza-22b-sti",
+   "declared_sha256": "8e3ecf171962eed550eef875577f9de327c2dd47e4dfa2dc819cd1de73c33f16",
+   "applied": true,
+   "preview": "assets/studio-bold-20260927-subaru-impreza-22b-sti-8e3ecf171962-current.jpg",
+   "pixels": [
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-bold-20260927-nissan-skyline-2000gtr-kpgc10",
+   "declared_sha256": "d1b1b0841de3944f25f42b381051ce8f30da41bcdaadc20fc7ea5cd993a1653b",
+   "applied": true,
+   "preview": "assets/studio-bold-20260927-nissan-skyline-2000gtr-kpgc10-d1b1b0841de3-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-bold-20260927-ford-rs200",
+   "declared_sha256": "5b2e1fd7d0a892992af100da1b08f255a5e33e1e57467fa815a78153a2d67a8d",
+   "applied": true,
+   "preview": "assets/studio-bold-20260927-ford-rs200-5b2e1fd7d0a8-current.jpg",
+   "pixels": [
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-bold-20260927-lancia-037-stradale",
+   "declared_sha256": "88497777f07379172b7205b5c2c50806847f8b3644c4c9c4557b0f906144a95c",
+   "applied": true,
+   "preview": "assets/studio-bold-20260927-lancia-037-stradale-88497777f073-current.jpg",
+   "pixels": [
+    2480,
+    3312
    ]
   },
   {
