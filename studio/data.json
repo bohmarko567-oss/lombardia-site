@@ -1,7 +1,7 @@
 {
  "schema_version": 3,
- "built": "2026-09-26 23:48",
- "accessed_date": "2026-09-26",
+ "built": "2026-09-27 00:48",
+ "accessed_date": "2026-09-27",
  "collections": [
   "American Form",
   "Forma / Motion",
@@ -3515,6 +3515,15 @@
    "delivery_status": "Build / delivery pending",
    "delivery_evidence": null,
    "delivery_verified_at": null,
+   "full_source_url": "../artwork/af20b98ef210-studio-diverse-20260920-saab-900-turbo.jpg",
+   "full_source_sha256": "af20b98ef2109bc2750716a3b52d4f803dd82e56de3d711c051ce91d6c4e8114",
+   "full_source_bytes": 27852380,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
    "collection_choice": "Forma / Motion",
    "edition": null,
    "collection_category": "Forma / Motion",
@@ -3568,6 +3577,15 @@
    "delivery_status": "Build / delivery pending",
    "delivery_evidence": null,
    "delivery_verified_at": null,
+   "full_source_url": "../artwork/d6f5b2e0a324-studio-diverse-20260920-peugeot-205-t16.jpg",
+   "full_source_sha256": "d6f5b2e0a32402046783872528ca9ef054bad567296c808a96558e2504c3a6ff",
+   "full_source_bytes": 17244457,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
    "collection_choice": "Sport / Leicht",
    "edition": null,
    "collection_category": "Sport / Leicht",
