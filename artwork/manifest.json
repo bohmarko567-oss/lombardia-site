@@ -1,5 +1,5 @@
 {
- "built": "2026-09-26 22:26",
+ "built": "2026-09-26 23:48",
  "items": [
   {
    "key": "911-carrera-rs27-1973-sport-white-45x60",
@@ -307,6 +307,34 @@
    "format": "JPEG",
    "source": "pipeline/lean-delivery/revival10-dodge-viper-rt10/9942b1a5f854/print.jpg",
    "evidence": "lean delivery print.jpg for selected native 9942b1a5f854; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-diverse-20260920-peugeot-205-t16",
+   "file": "artwork/d6f5b2e0a324-studio-diverse-20260920-peugeot-205-t16.jpg",
+   "sha256": "d6f5b2e0a32402046783872528ca9ef054bad567296c808a96558e2504c3a6ff",
+   "bytes": 17244457,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/p205/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-26T22:40:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-diverse-20260920-saab-900-turbo",
+   "file": "artwork/af20b98ef210-studio-diverse-20260920-saab-900-turbo.jpg",
+   "sha256": "af20b98ef2109bc2750716a3b52d4f803dd82e56de3d711c051ce91d6c4e8114",
+   "bytes": 27852380,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/saab900/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-26T22:40:00+02:00)",
    "basis": "approval"
   },
   {
