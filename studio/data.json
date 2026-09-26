@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-09-26 22:22",
+ "built": "2026-09-26 22:26",
  "accessed_date": "2026-09-26",
  "collections": [
   "American Form",
@@ -1403,13 +1403,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-next-20260920-bugatti-eb110-ss-61df3254f650-current.jpg",
+   "preview": "assets/studio-next-20260920-bugatti-eb110-ss-9b0b7f5d22a5-current.jpg",
    "preview_pixels": [
     1600,
     1198
    ],
    "source_file": "pipeline/one-cycle-20260926/redo/bugatti/bugatti-eb110-ss-r2.png",
-   "source_sha256": "61df3254f6506a0bc2b60ef1bebc7c03293487366331addd377dfe38da760983",
+   "source_sha256": "9b0b7f5d22a5bcd6594c7ff550556d8c3e12f3123417b8e0391fea56da296332",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -1417,7 +1417,7 @@
    "hero_edit_pending": false,
    "owner_collection_pending": false,
    "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-09-26T22:22:54+02:00",
+   "candidate_created_at": "2026-09-26T22:26:47+02:00",
    "review_url": null,
    "stage1_generations": [
     {
@@ -1553,9 +1553,9 @@
    },
    "candidate_source": "pipeline/one-cycle-20260926/redo/studio-candidates.json",
    "candidate_authority": "Owner 26 Sep 2026 21:33: redo Codex's Saab (badges), Lancia (front view), Bugatti (EB110 logo) properly; 205 as is; heroes only, no lots before approval; put them in the Studio",
-   "full_source_url": "full/61df3254f650-studio-next-20260920-bugatti-eb110-ss.png",
-   "full_source_sha256": "61df3254f6506a0bc2b60ef1bebc7c03293487366331addd377dfe38da760983",
-   "full_source_bytes": 11781239,
+   "full_source_url": "full/9b0b7f5d22a5-studio-next-20260920-bugatti-eb110-ss.png",
+   "full_source_sha256": "9b0b7f5d22a5bcd6594c7ff550556d8c3e12f3123417b8e0391fea56da296332",
+   "full_source_bytes": 11778377,
    "full_source_pixels": [
     3312,
     2480
@@ -1714,7 +1714,7 @@
    "timeline": {
     "created_at": "2026-09-20T02:50:35.896046+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-09-26T22:22:54+02:00",
+    "updated_at": "2026-09-26T22:26:47+02:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -1748,7 +1748,7 @@
    "hero_edit_pending": false,
    "owner_collection_pending": false,
    "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-09-26T22:22:54+02:00",
+   "candidate_created_at": "2026-09-26T22:26:47+02:00",
    "review_url": null,
    "stage1_generations": [
     {
@@ -1800,7 +1800,7 @@
      "role": "edit",
      "request_id": "a21347ec-d0a6-4056-84d7-f5533e0ef3bb",
      "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-26T22:22:54+02:00",
+     "created_at": "2026-09-26T22:26:47+02:00",
      "result_url": "https://cdn.muapi.ai/outputs/generated/a21347ec-d0a6-4056-84d7-f5533e0ef3bb_646f04c9.png",
      "page_url": "https://muapi.ai/predictions/a21347ec-d0a6-4056-84d7-f5533e0ef3bb",
      "references": [
@@ -1901,7 +1901,7 @@
      "role": "edit",
      "request_id": "a21347ec-d0a6-4056-84d7-f5533e0ef3bb",
      "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-26T22:22:54+02:00",
+     "created_at": "2026-09-26T22:26:47+02:00",
      "result_url": "https://cdn.muapi.ai/outputs/generated/a21347ec-d0a6-4056-84d7-f5533e0ef3bb_646f04c9.png",
      "page_url": "https://muapi.ai/predictions/a21347ec-d0a6-4056-84d7-f5533e0ef3bb",
      "history_url": "https://muapi.ai/predictions",
@@ -1925,7 +1925,7 @@
    "timeline": {
     "created_at": "2026-09-20T17:39:05.749741+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-09-26T22:22:54+02:00",
+    "updated_at": "2026-09-26T22:26:47+02:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -1959,7 +1959,7 @@
    "hero_edit_pending": false,
    "owner_collection_pending": false,
    "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-09-26T22:22:53+02:00",
+   "candidate_created_at": "2026-09-26T22:26:47+02:00",
    "review_url": null,
    "stage1_generations": [
     {
@@ -2011,7 +2011,7 @@
      "role": "edit",
      "request_id": "26fa4a11-0354-4639-a049-23d908a4eeb8",
      "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-26T22:22:53+02:00",
+     "created_at": "2026-09-26T22:26:47+02:00",
      "result_url": "https://cdn.muapi.ai/outputs/generated/26fa4a11-0354-4639-a049-23d908a4eeb8_66797f53.png",
      "page_url": "https://muapi.ai/predictions/26fa4a11-0354-4639-a049-23d908a4eeb8",
      "references": [
@@ -2036,7 +2036,7 @@
      "role": "edit",
      "request_id": "31a6d1c8-c041-4d90-9485-8e8999e06de2",
      "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-26T22:22:53+02:00",
+     "created_at": "2026-09-26T22:26:47+02:00",
      "result_url": "https://cdn.muapi.ai/outputs/generated/31a6d1c8-c041-4d90-9485-8e8999e06de2_4436baa3.png",
      "page_url": "https://muapi.ai/predictions/31a6d1c8-c041-4d90-9485-8e8999e06de2",
      "references": [
@@ -2140,7 +2140,7 @@
      "role": "edit",
      "request_id": "26fa4a11-0354-4639-a049-23d908a4eeb8",
      "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-26T22:22:53+02:00",
+     "created_at": "2026-09-26T22:26:47+02:00",
      "result_url": "https://cdn.muapi.ai/outputs/generated/26fa4a11-0354-4639-a049-23d908a4eeb8_66797f53.png",
      "page_url": "https://muapi.ai/predictions/26fa4a11-0354-4639-a049-23d908a4eeb8",
      "history_url": "https://muapi.ai/predictions",
@@ -2167,7 +2167,7 @@
      "role": "edit",
      "request_id": "31a6d1c8-c041-4d90-9485-8e8999e06de2",
      "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-26T22:22:53+02:00",
+     "created_at": "2026-09-26T22:26:47+02:00",
      "result_url": "https://cdn.muapi.ai/outputs/generated/31a6d1c8-c041-4d90-9485-8e8999e06de2_4436baa3.png",
      "page_url": "https://muapi.ai/predictions/31a6d1c8-c041-4d90-9485-8e8999e06de2",
      "history_url": "https://muapi.ai/predictions",
@@ -2194,7 +2194,7 @@
    "timeline": {
     "created_at": "2026-09-20T17:39:12.328609+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-09-26T22:22:53+02:00",
+    "updated_at": "2026-09-26T22:26:47+02:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -4187,9 +4187,9 @@
   },
   {
    "key": "studio-next-20260920-bugatti-eb110-ss",
-   "declared_sha256": "61df3254f6506a0bc2b60ef1bebc7c03293487366331addd377dfe38da760983",
+   "declared_sha256": "9b0b7f5d22a5bcd6594c7ff550556d8c3e12f3123417b8e0391fea56da296332",
    "applied": true,
-   "preview": "assets/studio-next-20260920-bugatti-eb110-ss-61df3254f650-current.jpg",
+   "preview": "assets/studio-next-20260920-bugatti-eb110-ss-9b0b7f5d22a5-current.jpg",
    "pixels": [
     3312,
     2480
