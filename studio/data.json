@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-09-27 03:24",
+ "built": "2026-09-27 03:30",
  "accessed_date": "2026-09-27",
  "collections": [
   "American Form",
@@ -6675,6 +6675,15 @@
    "delivery_status": "Build / delivery pending",
    "delivery_evidence": null,
    "delivery_verified_at": null,
+   "full_source_url": "../artwork/894a90570d86-studio-bold-20260927-ford-rs200.jpg",
+   "full_source_sha256": "894a90570d863e9a5b3ab6b9a26574f86f2ecf740e20208f1094a2d1920762a0",
+   "full_source_bytes": 15767665,
+   "full_source_pixels": [
+    9449,
+    7087
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
    "collection_choice": "Sport / Leicht",
    "edition": null,
    "collection_category": "Sport / Leicht",
@@ -6728,6 +6737,15 @@
    "delivery_status": "Build / delivery pending",
    "delivery_evidence": null,
    "delivery_verified_at": null,
+   "full_source_url": "../artwork/c468b9f46730-studio-bold-20260927-alfa-romeo-sz.jpg",
+   "full_source_sha256": "c468b9f4673073acaa74dca6b474063cd868cff71ee96691346587104e6b9158",
+   "full_source_bytes": 13285027,
+   "full_source_pixels": [
+    9449,
+    7087
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
    "collection_choice": "Gran Turismo",
    "edition": null,
    "collection_category": "Gran Turismo",
@@ -6781,6 +6799,15 @@
    "delivery_status": "Build / delivery pending",
    "delivery_evidence": null,
    "delivery_verified_at": null,
+   "full_source_url": "../artwork/84db1bcf9ff1-studio-bold-20260927-nissan-skyline-2000gtr-kpgc10.jpg",
+   "full_source_sha256": "84db1bcf9ff1ca2c4b280777ba22a6c1ff6e3cc9bc45d5a71a0770fa0cec617a",
+   "full_source_bytes": 18858284,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
    "collection_choice": "Forma / Motion",
    "edition": null,
    "collection_category": "Forma / Motion",
@@ -6834,6 +6861,15 @@
    "delivery_status": "Build / delivery pending",
    "delivery_evidence": null,
    "delivery_verified_at": null,
+   "full_source_url": "../artwork/a86a88727a22-studio-bold-20260927-subaru-impreza-22b-sti.jpg",
+   "full_source_sha256": "a86a88727a2223c28f561f778930d1d0b74cd984b6aea402c25e5b19b9d87e43",
+   "full_source_bytes": 18319889,
+   "full_source_pixels": [
+    9449,
+    7087
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
    "collection_choice": "Sport / Leicht",
    "edition": null,
    "collection_category": "Sport / Leicht",
@@ -6887,6 +6923,15 @@
    "delivery_status": "Build / delivery pending",
    "delivery_evidence": null,
    "delivery_verified_at": null,
+   "full_source_url": "../artwork/68f7d1860f0f-studio-bold-20260927-lamborghini-lm002.jpg",
+   "full_source_sha256": "68f7d1860f0f6b4c40734c5208f48293315348a80ead34769116190b86b5f7e6",
+   "full_source_bytes": 20720673,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
    "collection_choice": "Forma / Motion",
    "edition": null,
    "collection_category": "Forma / Motion",
@@ -6940,6 +6985,15 @@
    "delivery_status": "Build / delivery pending",
    "delivery_evidence": null,
    "delivery_verified_at": null,
+   "full_source_url": "../artwork/ecfcbf5a84f1-studio-bold-20260927-bmw-2002-turbo.jpg",
+   "full_source_sha256": "ecfcbf5a84f1bd6568b5b86b8c2c40779873637d13b845bfb1cf2a0838f1b73e",
+   "full_source_bytes": 15189101,
+   "full_source_pixels": [
+    9449,
+    7087
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
    "collection_choice": "Sport / Leicht",
    "edition": null,
    "collection_category": "Sport / Leicht",
