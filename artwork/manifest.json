@@ -1,5 +1,5 @@
 {
- "built": "2026-09-27 03:30",
+ "built": "2026-09-27 04:11",
  "items": [
   {
    "key": "911-carrera-rs27-1973-sport-white-45x60",
@@ -307,6 +307,174 @@
    "format": "JPEG",
    "source": "pipeline/lean-delivery/revival10-dodge-viper-rt10/9942b1a5f854/print.jpg",
    "evidence": "lean delivery print.jpg for selected native 9942b1a5f854; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-archive-20260927-batch12-ferrari-250-gt-swb",
+   "file": "artwork/d33ba83b47a5-studio-archive-20260927-batch12-ferrari-250-gt-swb.jpg",
+   "sha256": "d33ba83b47a58ff2181f086b2d046735e2738ef5cf9b5db1a3e9d50bdfc63048",
+   "bytes": 18232369,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/swb250/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-27T03:34:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-archive-20260927-batch12-ferrari-288-gto",
+   "file": "artwork/24c89fbf9739-studio-archive-20260927-batch12-ferrari-288-gto.jpg",
+   "sha256": "24c89fbf973960a75f0aee588da4431fc822f81cf0e1cd133ebb55697b0d69e9",
+   "bytes": 13435583,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/gto288/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-27T03:34:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-archive-20260927-batch12-lancia-delta-evo2",
+   "file": "artwork/0cca0821e4af-studio-archive-20260927-batch12-lancia-delta-evo2.jpg",
+   "sha256": "0cca0821e4afdf48da359b4198454dd4fe4bae428ab07a4fee8fa62f34e6004b",
+   "bytes": 16984374,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/deltaevo2/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-27T03:34:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-archive-20260927-batch12-lotus-esprit-s1",
+   "file": "artwork/16ebc99f5952-studio-archive-20260927-batch12-lotus-esprit-s1.jpg",
+   "sha256": "16ebc99f5952154071a05a261b0c109eb93b84aa8289e14ab99b9575bcbe33bf",
+   "bytes": 20382143,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/esprits1/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-27T03:34:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-archive-20260927-batch12-mclaren-f1",
+   "file": "artwork/3acb2d8959c6-studio-archive-20260927-batch12-mclaren-f1.jpg",
+   "sha256": "3acb2d8959c64d2bf850c0cdac5de72e7efe621ce7e73482a8d587d0d9b2169b",
+   "bytes": 16441280,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/mclf1/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-27T03:34:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-archive-20260927-miura-p400sv-1971-gran-turismo-white-80x60",
+   "file": "artwork/5d2dcb275879-studio-archive-20260927-miura-p400sv-1971-gran-turismo-white-80x60.jpg",
+   "sha256": "5d2dcb275879276b7bfb6d05b311ecea58d87d72fab8b0bb740f297a524cdbc1",
+   "bytes": 16105638,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/miurasv/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-27T03:34:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-archive-20260927-review-11-early-wedge",
+   "file": "artwork/a29c5229538b-studio-archive-20260927-review-11-early-wedge.jpg",
+   "sha256": "a29c5229538b8243c3719fb2c4edcef7e2d78a88aa926d06ba57a6f4129e48c5",
+   "bytes": 18195189,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/stratos/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-27T03:34:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-archive-20260927-review-15-fastback-dusk",
+   "file": "artwork/69ca23d1428b-studio-archive-20260927-review-15-fastback-dusk.jpg",
+   "sha256": "69ca23d1428bfefc8f1efc86298cd5e9905cae8de14540bdacbaa0b8d6b07d8f",
+   "bytes": 16080030,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/mustang65/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-27T03:34:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-archive-20260927-review-16-split-silver",
+   "file": "artwork/17b6de1996d6-studio-archive-20260927-review-16-split-silver.jpg",
+   "sha256": "17b6de1996d60a808e55fdae41959903bee6e803612277051098cc721f361b24",
+   "bytes": 19855190,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/vette63/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-27T03:34:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-archive-20260927-revival10-alfa-romeo-33-stradale",
+   "file": "artwork/ef00c686bdc0-studio-archive-20260927-revival10-alfa-romeo-33-stradale.jpg",
+   "sha256": "ef00c686bdc013ce0b1099036ac798df0f3da6c174214eb9b15202c9d060df3f",
+   "bytes": 14802966,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/alfa33/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-27T03:34:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-archive-20260927-wave01-ford-bronco-1966",
+   "file": "artwork/5f7e42796f8e-studio-archive-20260927-wave01-ford-bronco-1966.jpg",
+   "sha256": "5f7e42796f8eff7e76d001bf2e2b85c77cc185d7ac194e3a09c69e3a4a130af7",
+   "bytes": 17643427,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/bronco66/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-27T03:34:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-archive-20260927-wave01-toyota-supra-a80",
+   "file": "artwork/51d36c06c4dc-studio-archive-20260927-wave01-toyota-supra-a80.jpg",
+   "sha256": "51d36c06c4dc6e64dbd58dd633cb6e1e538b2927725c74d5e86db6cb2d5b94c9",
+   "bytes": 14915062,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/supraa80/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-09-27T03:34:00+02:00)",
    "basis": "approval"
   },
   {
