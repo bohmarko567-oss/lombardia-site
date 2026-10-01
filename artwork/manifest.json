@@ -1,5 +1,5 @@
 {
- "built": "2026-09-27 04:46",
+ "built": "2026-10-01 03:40",
  "items": [
   {
    "key": "911-carrera-rs27-1973-sport-white-45x60",
@@ -629,6 +629,160 @@
    "format": "JPEG",
    "source": "pipeline/lean-delivery/studio-next-20260920-lexus-lfa/d238f5b7fe8b/print.jpg",
    "evidence": "lean delivery print.jpg for selected native d238f5b7fe8b; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-twenty-20260930-batch12-porsche-928",
+   "file": "artwork/5a3ea2a5984c-studio-twenty-20260930-batch12-porsche-928.jpg",
+   "sha256": "5a3ea2a5984c9ae4b4f9505f0c930a671c001e3f1e4d9b9bf0c5e52a10c0b393",
+   "bytes": 19527984,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/p928/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-01T01:48:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-twenty-20260930-batch12-porsche-carrera-gt",
+   "file": "artwork/f388ed91b30d-studio-twenty-20260930-batch12-porsche-carrera-gt.jpg",
+   "sha256": "f388ed91b30d96ec4cc4a47bd352b2d512d798e12a45db067236b9600698b04e",
+   "bytes": 15579783,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/cgt/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-01T01:48:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-twenty-20260930-citroen-sm-1970-forme-white-80x60",
+   "file": "artwork/688547dc4c79-studio-twenty-20260930-citroen-sm-1970-forme-white-80x60.jpg",
+   "sha256": "688547dc4c79987c357d0bfd78c6c828e4661d6fe83bb4da7f53972f1a9f65be",
+   "bytes": 15215507,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/citsm/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-01T01:48:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-twenty-20260930-native13-maserati-bora-47",
+   "file": "artwork/e2380598450e-studio-twenty-20260930-native13-maserati-bora-47.jpg",
+   "sha256": "e2380598450e798c87b042c9f8be744006fba9d60a73005440c49e8317d594f9",
+   "bytes": 21325687,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/bora/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-01T01:48:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-twenty-20260930-new-audi-sport-quattro",
+   "file": "artwork/2d326d29f091-studio-twenty-20260930-new-audi-sport-quattro.jpg",
+   "sha256": "2d326d29f091bfa440dd9d281e7c027d415009fd32ee4c70c5bc1a605854481d",
+   "bytes": 17190155,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/sq84/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-01T01:48:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-twenty-20260930-new-ferrari-dino-246gt",
+   "file": "artwork/e439ad0822ce-studio-twenty-20260930-new-ferrari-dino-246gt.jpg",
+   "sha256": "e439ad0822ceadd19c6919ce6973544d1ef44cadc03b0d93ecacd64596bb6b81",
+   "bytes": 30424965,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/dino246/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-01T01:48:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-twenty-20260930-new-ford-gt40",
+   "file": "artwork/8b31ca5de5f5-studio-twenty-20260930-new-ford-gt40.jpg",
+   "sha256": "8b31ca5de5f5ced79318a513580de99a0bcfee36661c51c52b3434d05bc4a214",
+   "bytes": 20294016,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/gt40/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-01T01:48:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-twenty-20260930-new-mazda-mx5-na",
+   "file": "artwork/8fac8a6ef03c-studio-twenty-20260930-new-mazda-mx5-na.jpg",
+   "sha256": "8fac8a6ef03cf2525a06fdb31aa24d1b91facfea1b3767db1121de030a8cb741",
+   "bytes": 21118080,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/mx5na/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-01T01:48:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-twenty-20260930-new-mini-cooper-s",
+   "file": "artwork/ea01e59b2cd3-studio-twenty-20260930-new-mini-cooper-s.jpg",
+   "sha256": "ea01e59b2cd3892f70f17978808b6f5b37d4035d2670e4e2f927eb37ce9030d2",
+   "bytes": 11925877,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/mini66/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-01T01:48:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-twenty-20260930-new-vw-t1-samba",
+   "file": "artwork/5fd10ae3c03b-studio-twenty-20260930-new-vw-t1-samba.jpg",
+   "sha256": "5fd10ae3c03bf8ef56705aa2f4e82c868207dc357acbbddd769c710bb1fa771c",
+   "bytes": 23336555,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/samba67/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-01T01:48:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-twenty-20260930-review-06-ivory-orbit",
+   "file": "artwork/895ccba16801-studio-twenty-20260930-review-06-ivory-orbit.jpg",
+   "sha256": "895ccba168019e1096e0f68eece4937b8c07f5c9b013d611c74afb5d6a28ff86",
+   "bytes": 23960595,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/t2000gt/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-01T01:48:00+02:00)",
    "basis": "approval"
   },
   {
