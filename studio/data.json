@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-01 03:41",
+ "built": "2026-10-01 17:39",
  "accessed_date": "2026-10-01",
  "collections": [
   "American Form",
@@ -1231,1582 +1231,6 @@
    }
   },
   {
-   "key": "studio-front-20261001-native13-volvo-850-t5r",
-   "name": "Volvo 850 T-5R Estate",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-front-20261001-native13-volvo-850-t5r-3904d0e227c8-current.jpg",
-   "preview_pixels": [
-    1600,
-    2137
-   ],
-   "source_file": "pipeline/studio-front-20261001/b1/heroes/native13-volvo-850-t5r/final-native.png",
-   "source_sha256": "3904d0e227c8671c03e8e8c84eb6113c7f979dfe61cd29e8dd3f9c6c230fb159",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-10-01T00:23:51.933279+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "7fff2e83-a2c5-462e-a8f9-a6b5554abaf2",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-01T00:13:38.477967+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/7fff2e83-a2c5-462e-a8f9-a6b5554abaf2_24e00cea.png",
-     "page_url": "https://muapi.ai/predictions/7fff2e83-a2c5-462e-a8f9-a6b5554abaf2",
-     "references": [
-      {
-       "role": "Front three-quarter from the right, seen from above: whole car, bonnet with its raised centre section, grille, both headlamps, dark bumper strip, body-colour front spoiler, right flank with black mouldings, body-colour door mirror, black roof rails and the dark sunroof panel (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/0677c30a414043e1bc068b80495aa40f.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1995-volvo-850-t-5r-6"
-      },
-      {
-       "role": "Front three-quarter from the right: whole-car proportions, front spoiler with a round opening and a small vent near each end, five-spoke wheels, black side mouldings, black mud flap behind the front wheel, roof rails (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/ffe9479b74d940e682f8944e8d40c033.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1995-volvo-850-t-5r-6"
-      },
-      {
-       "role": "Front three-quarter from the left: left headlamp and clear corner lamp, amber side repeater on the wing, body-colour mirror on its black base, left front wheel with the mud flap behind it, black mouldings",
-       "url": "https://cdn.muapi.ai/outputs/generated/40217ad2b61946d885f7112a7d78da00.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1995-volvo-850-t-5r-6"
-      },
-      {
-       "role": "Front from above: bonnet with the raised centre section running back from the grille, grille, both clear headlamps with their clear corner lamps, dark bumper strip, body-colour spoiler (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/4bced760578a493fb3b5f54b6252c036.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1995-volvo-850-t-5r-6"
-      },
-      {
-       "role": "Right front corner from above: right headlamp with its finely ribbed clear lens and clear corner lamp, edge of the grille, dark bumper strip wrapping round the corner, spoiler, right front wheel",
-       "url": "https://cdn.muapi.ai/outputs/generated/82ed2db55d6b45e0a2834b3dd4f5f791.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1995-volvo-850-t-5r-6"
-      },
-      {
-       "role": "Roof from above: two black roof rails, dark tinted glass sunroof panel at the front of the roof, windscreen edge (ignore the small windscreen sticker)",
-       "url": "https://cdn.muapi.ai/outputs/generated/d30230807a954d3b845797932f303d5d.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1995-volvo-850-t-5r-6"
-      },
-      {
-       "role": "Grille detail: thin bright vertical slats in a bright rectangular frame, one diagonal bright bar from lower left to upper right, small black square badge at its centre with the chrome Volvo circle-and-arrow and VOLVO",
-       "url": "https://cdn.muapi.ai/outputs/generated/6ee75d41662d4591a9836a96f98fc6dc.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1995-volvo-850-t-5r-6"
-      },
-      {
-       "role": "Front spoiler detail, right half: dark bumper strip above, round dark opening near the end, rectangular black louvred vent, wide black centre slot (the plate is cropped away)",
-       "url": "https://cdn.muapi.ai/outputs/generated/b297ed6ea08e4a88afa3d9dd8f55e837.png",
-       "source_page": "https://collectingcars.com/for-sale/1995-volvo-850-t-5r-6"
-      },
-      {
-       "role": "Right front wheel detail: 17-inch five-spoke wheel in Titanium Grey, five wheel bolts, black centre cap with the Volvo circle-and-arrow and VOLVO, black mud flap behind the wheel, amber side repeater on the wing (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/801e2d96bb5b49608cd4fc6bcbd3c610.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1995-volvo-850-t-5r-6"
-      },
-      {
-       "role": "Side profile, right side: estate glasshouse with three side windows, black roof rails, black side mouldings, body-colour door mirror, wheelbase and true proportions",
-       "url": "https://cdn.muapi.ai/outputs/generated/acb8cf7e26b64aad95a0ecd19124bbee.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1995-volvo-850-t-5r-6"
-      }
-     ]
-    },
-    {
-     "role": "edit",
-     "request_id": "0ef446e4-3758-4e44-90a2-8f02e4078f42",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:48:56.484876+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/0ef446e4-3758-4e44-90a2-8f02e4078f42_d305a8c3.png",
-     "page_url": "https://muapi.ai/predictions/0ef446e4-3758-4e44-90a2-8f02e4078f42",
-     "target_id": "grille-badge",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "b026888a-1cd7-4e70-9a46-369713e99c5c",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:48:58.273269+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/b026888a-1cd7-4e70-9a46-369713e99c5c_e1821873.png",
-     "page_url": "https://muapi.ai/predictions/b026888a-1cd7-4e70-9a46-369713e99c5c",
-     "target_id": "wheel-front",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "a56764cf-d7d6-4e12-a8d2-1021cdd45d6e",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:49:00.008867+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/a56764cf-d7d6-4e12-a8d2-1021cdd45d6e_534892d9.png",
-     "page_url": "https://muapi.ai/predictions/a56764cf-d7d6-4e12-a8d2-1021cdd45d6e",
-     "target_id": "wheel-rear",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "65cf4b2e-ca8c-409e-88e0-9e2234bd9fd5",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:49:02.095585+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/65cf4b2e-ca8c-409e-88e0-9e2234bd9fd5_f03381b4.png",
-     "page_url": "https://muapi.ai/predictions/65cf4b2e-ca8c-409e-88e0-9e2234bd9fd5",
-     "target_id": "sticker",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "f595f558-a22a-49f7-82ce-a622cab46947",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:57:23.146374+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/f595f558-a22a-49f7-82ce-a622cab46947_ebe91018.png",
-     "page_url": "https://muapi.ai/predictions/f595f558-a22a-49f7-82ce-a622cab46947",
-     "target_id": "mirror-near",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "c67a6cbb-d3df-48e4-ab59-56db981a7bed",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:57:24.932783+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/c67a6cbb-d3df-48e4-ab59-56db981a7bed_0d9444f4.png",
-     "page_url": "https://muapi.ai/predictions/c67a6cbb-d3df-48e4-ab59-56db981a7bed",
-     "target_id": "mirror-far",
-     "references": []
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Forma / Motion",
-    "why": "Suggested from this concept: Aerial road-marking typography. Your collection choice is final."
-   },
-   "candidate_source": "pipeline/studio-front-20261001/studio-candidates.json",
-   "candidate_authority": "Owner 1 Oct 2026 01:48: 'direct it into less back and side shots and more front or front quarter shots ... just not of the ass'; T-5R, Fiat, DeLorean, Skyline and Fairlady redone from the front with the same scenes; the RX-7 scene with a Ferrari 512 BB (owner's pick 01:55).",
-   "full_source_url": "full/3904d0e227c8-studio-front-20261001-native13-volvo-850-t5r.png",
-   "full_source_sha256": "3904d0e227c8671c03e8e8c84eb6113c7f979dfe61cd29e8dd3f9c6c230fb159",
-   "full_source_bytes": 17205239,
-   "full_source_pixels": [
-    2480,
-    3312
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Forma / Motion",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Suggested from this concept: Aerial road-marking typography. Your collection choice is final.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 100
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "7fff2e83-a2c5-462e-a8f9-a6b5554abaf2",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:13:38.477967+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/7fff2e83-a2c5-462e-a8f9-a6b5554abaf2_24e00cea.png",
-     "page_url": "https://muapi.ai/predictions/7fff2e83-a2c5-462e-a8f9-a6b5554abaf2",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter from the right, seen from above: whole car, bonnet with its raised centre section, grille, both headlamps, dark bumper strip, body-colour front spoiler, right flank with black mouldings, body-colour door mirror, black roof rails and the dark sunroof panel (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/0677c30a414043e1bc068b80495aa40f.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1995-volvo-850-t-5r-6"
-      },
-      {
-       "role": "Front three-quarter from the right: whole-car proportions, front spoiler with a round opening and a small vent near each end, five-spoke wheels, black side mouldings, black mud flap behind the front wheel, roof rails (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/ffe9479b74d940e682f8944e8d40c033.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1995-volvo-850-t-5r-6"
-      },
-      {
-       "role": "Front three-quarter from the left: left headlamp and clear corner lamp, amber side repeater on the wing, body-colour mirror on its black base, left front wheel with the mud flap behind it, black mouldings",
-       "url": "https://cdn.muapi.ai/outputs/generated/40217ad2b61946d885f7112a7d78da00.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1995-volvo-850-t-5r-6"
-      },
-      {
-       "role": "Front from above: bonnet with the raised centre section running back from the grille, grille, both clear headlamps with their clear corner lamps, dark bumper strip, body-colour spoiler (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/4bced760578a493fb3b5f54b6252c036.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1995-volvo-850-t-5r-6"
-      },
-      {
-       "role": "Right front corner from above: right headlamp with its finely ribbed clear lens and clear corner lamp, edge of the grille, dark bumper strip wrapping round the corner, spoiler, right front wheel",
-       "url": "https://cdn.muapi.ai/outputs/generated/82ed2db55d6b45e0a2834b3dd4f5f791.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1995-volvo-850-t-5r-6"
-      },
-      {
-       "role": "Roof from above: two black roof rails, dark tinted glass sunroof panel at the front of the roof, windscreen edge (ignore the small windscreen sticker)",
-       "url": "https://cdn.muapi.ai/outputs/generated/d30230807a954d3b845797932f303d5d.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1995-volvo-850-t-5r-6"
-      },
-      {
-       "role": "Grille detail: thin bright vertical slats in a bright rectangular frame, one diagonal bright bar from lower left to upper right, small black square badge at its centre with the chrome Volvo circle-and-arrow and VOLVO",
-       "url": "https://cdn.muapi.ai/outputs/generated/6ee75d41662d4591a9836a96f98fc6dc.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1995-volvo-850-t-5r-6"
-      },
-      {
-       "role": "Front spoiler detail, right half: dark bumper strip above, round dark opening near the end, rectangular black louvred vent, wide black centre slot (the plate is cropped away)",
-       "url": "https://cdn.muapi.ai/outputs/generated/b297ed6ea08e4a88afa3d9dd8f55e837.png",
-       "source_page": "https://collectingcars.com/for-sale/1995-volvo-850-t-5r-6"
-      },
-      {
-       "role": "Right front wheel detail: 17-inch five-spoke wheel in Titanium Grey, five wheel bolts, black centre cap with the Volvo circle-and-arrow and VOLVO, black mud flap behind the wheel, amber side repeater on the wing (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/801e2d96bb5b49608cd4fc6bcbd3c610.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1995-volvo-850-t-5r-6"
-      },
-      {
-       "role": "Side profile, right side: estate glasshouse with three side windows, black roof rails, black side mouldings, body-colour door mirror, wheelbase and true proportions",
-       "url": "https://cdn.muapi.ai/outputs/generated/acb8cf7e26b64aad95a0ecd19124bbee.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1995-volvo-850-t-5r-6"
-      }
-     ],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "0ef446e4-3758-4e44-90a2-8f02e4078f42",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:48:56.484876+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/0ef446e4-3758-4e44-90a2-8f02e4078f42_d305a8c3.png",
-     "page_url": "https://muapi.ai/predictions/0ef446e4-3758-4e44-90a2-8f02e4078f42",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "b026888a-1cd7-4e70-9a46-369713e99c5c",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:48:58.273269+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/b026888a-1cd7-4e70-9a46-369713e99c5c_e1821873.png",
-     "page_url": "https://muapi.ai/predictions/b026888a-1cd7-4e70-9a46-369713e99c5c",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "a56764cf-d7d6-4e12-a8d2-1021cdd45d6e",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:49:00.008867+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/a56764cf-d7d6-4e12-a8d2-1021cdd45d6e_534892d9.png",
-     "page_url": "https://muapi.ai/predictions/a56764cf-d7d6-4e12-a8d2-1021cdd45d6e",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "65cf4b2e-ca8c-409e-88e0-9e2234bd9fd5",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:49:02.095585+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/65cf4b2e-ca8c-409e-88e0-9e2234bd9fd5_f03381b4.png",
-     "page_url": "https://muapi.ai/predictions/65cf4b2e-ca8c-409e-88e0-9e2234bd9fd5",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "f595f558-a22a-49f7-82ce-a622cab46947",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:57:23.146374+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/f595f558-a22a-49f7-82ce-a622cab46947_ebe91018.png",
-     "page_url": "https://muapi.ai/predictions/f595f558-a22a-49f7-82ce-a622cab46947",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "c67a6cbb-d3df-48e4-ab59-56db981a7bed",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:57:24.932783+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/c67a6cbb-d3df-48e4-ab59-56db981a7bed_0d9444f4.png",
-     "page_url": "https://muapi.ai/predictions/c67a6cbb-d3df-48e4-ab59-56db981a7bed",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-01T00:13:38.477967+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-01T00:57:24.932783+00:00",
-    "updated_source": "MuAPI edit"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-front-20261001-review-12-a-small-blue-day",
-   "name": "Fiat Nuova 500",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-front-20261001-review-12-a-small-blue-day-925062e67896-current.jpg",
-   "preview_pixels": [
-    1600,
-    1198
-   ],
-   "source_file": "pipeline/studio-front-20261001/b1/heroes/review-12-a-small-blue-day/final-native.png",
-   "source_sha256": "925062e67896454e19e517ce14b895a18a571bc3bc7a9ef75b9a9ea47cbfc4e7",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-10-01T00:23:55.234298+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "84fb16dc-e0cc-4c89-be50-936e32277caf",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-01T00:13:45.886077+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/84fb16dc-e0cc-4c89-be50-936e32277caf_eba47946.png",
-     "page_url": "https://muapi.ai/predictions/84fb16dc-e0cc-4c89-be50-936e32277caf",
-     "references": [
-      {
-       "role": "Whole car from above at the front left with the canvas roof rolled back: domed front lid with its chrome centre strip, headlamps, nose badge, left door mirror, red and ivory interior, rear-hinged left door, silver-grey wheels with chrome hubcaps and white-wall tyres (ignore the plate, the luggage rack and the basket)",
-       "url": "https://cdn.muapi.ai/outputs/a47dc6a5e3d94f028fdbd0e72c62322e_ref-1.webp",
-       "source_page": "https://rmsothebys.com/auctions/mc18/lots/r0040-1959-fiat-500/"
-      },
-      {
-       "role": "Whole car from above on its left side, roof open: the roof opening from the windscreen header back to the folded grey-beige canvas at the rear, red interior, chrome waist strip, rear-hinged door (ignore the luggage rack and the basket)",
-       "url": "https://cdn.muapi.ai/outputs/403bbe905af941ac86879407af551b45_ref-2.webp",
-       "source_page": "https://rmsothebys.com/auctions/mc18/lots/r0040-1959-fiat-500/"
-      },
-      {
-       "role": "Front: round headlamps with chrome rims, nose badge on the chrome whisker bar, three-slot grilles under the headlamps, slim chrome bumper, one round chrome mirror on each door, two parked wipers, chrome centre strip on the front lid (ignore the plate and the small windscreen sticker)",
-       "url": "https://cdn.muapi.ai/outputs/5d675c518d934ebf8431810c0f40e9e8_ref-3.webp",
-       "source_page": "https://rmsothebys.com/auctions/mc18/lots/r0040-1959-fiat-500/"
-      },
-      {
-       "role": "Left side: tiny wheelbase, rounded profile, rear-hinged door with its hinges at the rear edge and the handle at the front edge, chrome waist strip (ignore the luggage rack and the basket)",
-       "url": "https://cdn.muapi.ai/outputs/692e95235e2d4f20b74d5640dff31e01_ref-4.webp",
-       "source_page": "https://rmsothebys.com/auctions/mc18/lots/r0040-1959-fiat-500/"
-      },
-      {
-       "role": "Nose badge close-up: small chrome oval badge filled with a fine chrome grid around a narrow dark red vertical panel with the chrome FIAT lettering, on a chrome whisker bar of one spear each side",
-       "url": "https://cdn.muapi.ai/outputs/generated/0e7c58c5c561416ea585468ecc055fa1.png",
-       "source_page": "https://rmsothebys.com/auctions/mc18/lots/r0040-1959-fiat-500/"
-      },
-      {
-       "role": "Front detail: nose badge on its whisker bar, round headlamp with chrome rim, three-slot grille below it, small chrome-cased side lamp on the wing, round door mirror, wipers, slim chrome bumper (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/a62f7673ac6e4f94a3b41132a042b501_ref-6.webp",
-       "source_page": "https://rmsothebys.com/auctions/mc18/lots/r0040-1959-fiat-500/"
-      },
-      {
-       "role": "Wheel detail: small silver-grey painted steel wheel with a domed chrome hubcap and small centre boss, white-wall tyre, chrome bumper end, three-slot grille (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/d5d8ddd468e547fa8b9ca1a37ae07ec2_ref-7.webp",
-       "source_page": "https://rmsothebys.com/auctions/mc18/lots/r0040-1959-fiat-500/"
-      },
-      {
-       "role": "Door mirror detail: small round chrome mirror on a short chrome stalk at the front edge of the door, chrome door handle, chrome waist strip, door hinge at the rear edge",
-       "url": "https://cdn.muapi.ai/outputs/72bb577a4c00412b9a52ccd09fb5a20b_ref-8.webp",
-       "source_page": "https://rmsothebys.com/auctions/mc18/lots/r0040-1959-fiat-500/"
-      },
-      {
-       "role": "Interior detail: bright red door card, red seats with ivory tops and piping, ivory steering wheel on the left, body-colour dashboard, black rubber floor",
-       "url": "https://cdn.muapi.ai/outputs/c980ed1c8a2245288fa34cf3a6a992f1_ref-9.webp",
-       "source_page": "https://rmsothebys.com/auctions/mc18/lots/r0040-1959-fiat-500/"
-      }
-     ]
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Studio Di Forma",
-    "why": "Suggested from this concept: Metaphysical piazza (de Chirico). Your collection choice is final."
-   },
-   "candidate_source": "pipeline/studio-front-20261001/studio-candidates.json",
-   "candidate_authority": "Owner 1 Oct 2026 01:48: 'direct it into less back and side shots and more front or front quarter shots ... just not of the ass'; T-5R, Fiat, DeLorean, Skyline and Fairlady redone from the front with the same scenes; the RX-7 scene with a Ferrari 512 BB (owner's pick 01:55).",
-   "full_source_url": "full/925062e67896-studio-front-20261001-review-12-a-small-blue-day.png",
-   "full_source_sha256": "925062e67896454e19e517ce14b895a18a571bc3bc7a9ef75b9a9ea47cbfc4e7",
-   "full_source_bytes": 13973742,
-   "full_source_pixels": [
-    3312,
-    2480
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Studio Di Forma",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Suggested from this concept: Metaphysical piazza (de Chirico). Your collection choice is final.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 50
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "84fb16dc-e0cc-4c89-be50-936e32277caf",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:13:45.886077+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/84fb16dc-e0cc-4c89-be50-936e32277caf_eba47946.png",
-     "page_url": "https://muapi.ai/predictions/84fb16dc-e0cc-4c89-be50-936e32277caf",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Whole car from above at the front left with the canvas roof rolled back: domed front lid with its chrome centre strip, headlamps, nose badge, left door mirror, red and ivory interior, rear-hinged left door, silver-grey wheels with chrome hubcaps and white-wall tyres (ignore the plate, the luggage rack and the basket)",
-       "url": "https://cdn.muapi.ai/outputs/a47dc6a5e3d94f028fdbd0e72c62322e_ref-1.webp",
-       "source_page": "https://rmsothebys.com/auctions/mc18/lots/r0040-1959-fiat-500/"
-      },
-      {
-       "role": "Whole car from above on its left side, roof open: the roof opening from the windscreen header back to the folded grey-beige canvas at the rear, red interior, chrome waist strip, rear-hinged door (ignore the luggage rack and the basket)",
-       "url": "https://cdn.muapi.ai/outputs/403bbe905af941ac86879407af551b45_ref-2.webp",
-       "source_page": "https://rmsothebys.com/auctions/mc18/lots/r0040-1959-fiat-500/"
-      },
-      {
-       "role": "Front: round headlamps with chrome rims, nose badge on the chrome whisker bar, three-slot grilles under the headlamps, slim chrome bumper, one round chrome mirror on each door, two parked wipers, chrome centre strip on the front lid (ignore the plate and the small windscreen sticker)",
-       "url": "https://cdn.muapi.ai/outputs/5d675c518d934ebf8431810c0f40e9e8_ref-3.webp",
-       "source_page": "https://rmsothebys.com/auctions/mc18/lots/r0040-1959-fiat-500/"
-      },
-      {
-       "role": "Left side: tiny wheelbase, rounded profile, rear-hinged door with its hinges at the rear edge and the handle at the front edge, chrome waist strip (ignore the luggage rack and the basket)",
-       "url": "https://cdn.muapi.ai/outputs/692e95235e2d4f20b74d5640dff31e01_ref-4.webp",
-       "source_page": "https://rmsothebys.com/auctions/mc18/lots/r0040-1959-fiat-500/"
-      },
-      {
-       "role": "Nose badge close-up: small chrome oval badge filled with a fine chrome grid around a narrow dark red vertical panel with the chrome FIAT lettering, on a chrome whisker bar of one spear each side",
-       "url": "https://cdn.muapi.ai/outputs/generated/0e7c58c5c561416ea585468ecc055fa1.png",
-       "source_page": "https://rmsothebys.com/auctions/mc18/lots/r0040-1959-fiat-500/"
-      },
-      {
-       "role": "Front detail: nose badge on its whisker bar, round headlamp with chrome rim, three-slot grille below it, small chrome-cased side lamp on the wing, round door mirror, wipers, slim chrome bumper (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/a62f7673ac6e4f94a3b41132a042b501_ref-6.webp",
-       "source_page": "https://rmsothebys.com/auctions/mc18/lots/r0040-1959-fiat-500/"
-      },
-      {
-       "role": "Wheel detail: small silver-grey painted steel wheel with a domed chrome hubcap and small centre boss, white-wall tyre, chrome bumper end, three-slot grille (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/d5d8ddd468e547fa8b9ca1a37ae07ec2_ref-7.webp",
-       "source_page": "https://rmsothebys.com/auctions/mc18/lots/r0040-1959-fiat-500/"
-      },
-      {
-       "role": "Door mirror detail: small round chrome mirror on a short chrome stalk at the front edge of the door, chrome door handle, chrome waist strip, door hinge at the rear edge",
-       "url": "https://cdn.muapi.ai/outputs/72bb577a4c00412b9a52ccd09fb5a20b_ref-8.webp",
-       "source_page": "https://rmsothebys.com/auctions/mc18/lots/r0040-1959-fiat-500/"
-      },
-      {
-       "role": "Interior detail: bright red door card, red seats with ivory tops and piping, ivory steering wheel on the left, body-colour dashboard, black rubber floor",
-       "url": "https://cdn.muapi.ai/outputs/c980ed1c8a2245288fa34cf3a6a992f1_ref-9.webp",
-       "source_page": "https://rmsothebys.com/auctions/mc18/lots/r0040-1959-fiat-500/"
-      }
-     ],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-01T00:13:45.886077+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-01T00:23:55.234298+00:00",
-    "updated_source": "candidate generated"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-front-20261001-new-delorean-dmc12",
-   "name": "DeLorean DMC-12",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-front-20261001-new-delorean-dmc12-a6d3e28f3ea1-current.jpg",
-   "preview_pixels": [
-    1600,
-    2137
-   ],
-   "source_file": "pipeline/studio-front-20261001/b1/heroes/new-delorean-dmc12/final-native.png",
-   "source_sha256": "a6d3e28f3ea19e2be087459609066a706d2e24d31472f06a7f7e73df6d204049",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-10-01T00:23:58.822531+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "ed16291f-1678-4db1-be70-a13b2df1964a",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-01T00:13:52.719318+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/ed16291f-1678-4db1-be70-a13b2df1964a_bf72d233.png",
-     "page_url": "https://muapi.ai/predictions/ed16291f-1678-4db1-be70-a13b2df1964a",
-     "references": [
-      {
-       "role": "Front three-quarter from the right with both doors raised: brushed stainless panels, black grille with the DMC badge, two rectangular headlamps each side, black front bumper with recessed amber indicators, the raised doors with the black door mirrors on their front ends and small amber lamps in their edges, light grey inner door panels",
-       "url": "https://cdn.muapi.ai/outputs/23cf7800115249fbb593fd659e5b8577_ref-1.webp",
-       "source_page": "https://rmsothebys.com/auctions/hf23/lots/r0098-1981-delorean-dmc12/"
-      },
-      {
-       "role": "Front with both doors raised: symmetrical gull-wing opening hinged along the roof centre, grille with the DMC badge, four rectangular headlamps, black bumper with amber indicators, the door mirrors standing up on the raised doors",
-       "url": "https://cdn.muapi.ai/outputs/2c1632b2f06f41728793234bfd74f043_ref-2.webp",
-       "source_page": "https://rmsothebys.com/auctions/hf23/lots/r0098-1981-delorean-dmc12/"
-      },
-      {
-       "role": "Left front corner from above: bonnet with its two lengthwise creases and the small square fuel-filler flap on its left side just ahead of the windscreen, grille with the DMC badge, left headlamp pair, black bumper, left front wing, parked wipers",
-       "url": "https://cdn.muapi.ai/outputs/c369abc7dc9146e38d256ca64a30b01e_ref-3.webp",
-       "source_page": "https://rmsothebys.com/auctions/hf23/lots/r0098-1981-delorean-dmc12/"
-      },
-      {
-       "role": "Left front corner detail: black horizontal-bar grille with the brushed-silver DMC badge, left headlamp pair in the black surround, amber indicator recessed in the black bumper, black mesh intake below",
-       "url": "https://cdn.muapi.ai/outputs/e3e82099ab284a2a8a9a27c4149a4a96_ref-4.webp",
-       "source_page": "https://rmsothebys.com/auctions/hf23/lots/r0098-1981-delorean-dmc12/"
-      },
-      {
-       "role": "Grille badge close-up: three angular brushed-silver letters D M C on a black backing plate - the D drawn like a reversed C, a squared M, a squared C - on the black horizontal-bar grille",
-       "url": "https://cdn.muapi.ai/outputs/generated/93b433bf03bd4c5b91c23937fa60c063.png",
-       "source_page": "https://rmsothebys.com/auctions/hf23/lots/r0098-1981-delorean-dmc12/"
-      },
-      {
-       "role": "Left side with both doors raised: wheelbase, door shape and the hinge line along the roof centre, black interior seen through the openings, black lower sills, thin black rubbing strip, amber and red side marker lamps, factory wheels",
-       "url": "https://cdn.muapi.ai/outputs/e4685296dc09432cb398bcba69f004a8_ref-6.webp",
-       "source_page": "https://rmsothebys.com/auctions/hf23/lots/r0098-1981-delorean-dmc12/"
-      },
-      {
-       "role": "Front corner detail (the right corner; the left one is its mirror image): two rectangular headlamps in the black surround, amber indicator recessed in the black bumper, small amber side marker on the front wing, black bumper wrapping round the corner",
-       "url": "https://cdn.muapi.ai/outputs/b0008df75c054397ae200a192a07299c_ref-7.webp",
-       "source_page": "https://rmsothebys.com/auctions/hf23/lots/r0098-1981-delorean-dmc12/"
-      },
-      {
-       "role": "Wheel detail: factory grey alloy wheel with many narrow radial slots around a flat grey centre with four lug nuts and a small black DMC centre cap (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/37316c46f1b7437384a3395d71100000_ref-8.webp",
-       "source_page": "https://rmsothebys.com/auctions/hf23/lots/r0098-1981-delorean-dmc12/"
-      },
-      {
-       "role": "Raised door from below: brushed stainless outer skin, light grey moulded inner panel with a pocket, black trim round the door glass, small amber lamp in the door edge, black door mirror at its front end",
-       "url": "https://cdn.muapi.ai/outputs/60464e5833fc4c6b98c54507c8787aa9_ref-9.webp",
-       "source_page": "https://rmsothebys.com/auctions/hf23/lots/r0098-1981-delorean-dmc12/"
-      },
-      {
-       "role": "Interior through the open left door: black leather seats, black dashboard and centre console, steering wheel on the left",
-       "url": "https://cdn.muapi.ai/outputs/76e3163147f841d2849f953d413ffc76_ref-10.webp",
-       "source_page": "https://rmsothebys.com/auctions/hf23/lots/r0098-1981-delorean-dmc12/"
-      }
-     ]
-    },
-    {
-     "role": "edit",
-     "request_id": "a9809710-1e32-4c66-bd2b-c911427c690f",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:49:09.254197+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/a9809710-1e32-4c66-bd2b-c911427c690f_67b315a4.png",
-     "page_url": "https://muapi.ai/predictions/a9809710-1e32-4c66-bd2b-c911427c690f",
-     "target_id": "wheel-front",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "3cfd2880-cf04-4e17-9f37-6e92d3706ee7",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:49:11.055283+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/3cfd2880-cf04-4e17-9f37-6e92d3706ee7_143d5f93.png",
-     "page_url": "https://muapi.ai/predictions/3cfd2880-cf04-4e17-9f37-6e92d3706ee7",
-     "target_id": "wheel-rear",
-     "references": []
-    }
-   ],
-   "recommendation_override": {
-    "collection": "American Form",
-    "why": "Suggested from this concept: 1981 New York wildstyle graffiti. Your collection choice is final."
-   },
-   "candidate_source": "pipeline/studio-front-20261001/studio-candidates.json",
-   "candidate_authority": "Owner 1 Oct 2026 01:48: 'direct it into less back and side shots and more front or front quarter shots ... just not of the ass'; T-5R, Fiat, DeLorean, Skyline and Fairlady redone from the front with the same scenes; the RX-7 scene with a Ferrari 512 BB (owner's pick 01:55).",
-   "full_source_url": "full/a6d3e28f3ea1-studio-front-20261001-new-delorean-dmc12.png",
-   "full_source_sha256": "a6d3e28f3ea19e2be087459609066a706d2e24d31472f06a7f7e73df6d204049",
-   "full_source_bytes": 14861419,
-   "full_source_pixels": [
-    2480,
-    3312
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "American Form",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Suggested from this concept: 1981 New York wildstyle graffiti. Your collection choice is final.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 77
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "ed16291f-1678-4db1-be70-a13b2df1964a",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:13:52.719318+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/ed16291f-1678-4db1-be70-a13b2df1964a_bf72d233.png",
-     "page_url": "https://muapi.ai/predictions/ed16291f-1678-4db1-be70-a13b2df1964a",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter from the right with both doors raised: brushed stainless panels, black grille with the DMC badge, two rectangular headlamps each side, black front bumper with recessed amber indicators, the raised doors with the black door mirrors on their front ends and small amber lamps in their edges, light grey inner door panels",
-       "url": "https://cdn.muapi.ai/outputs/23cf7800115249fbb593fd659e5b8577_ref-1.webp",
-       "source_page": "https://rmsothebys.com/auctions/hf23/lots/r0098-1981-delorean-dmc12/"
-      },
-      {
-       "role": "Front with both doors raised: symmetrical gull-wing opening hinged along the roof centre, grille with the DMC badge, four rectangular headlamps, black bumper with amber indicators, the door mirrors standing up on the raised doors",
-       "url": "https://cdn.muapi.ai/outputs/2c1632b2f06f41728793234bfd74f043_ref-2.webp",
-       "source_page": "https://rmsothebys.com/auctions/hf23/lots/r0098-1981-delorean-dmc12/"
-      },
-      {
-       "role": "Left front corner from above: bonnet with its two lengthwise creases and the small square fuel-filler flap on its left side just ahead of the windscreen, grille with the DMC badge, left headlamp pair, black bumper, left front wing, parked wipers",
-       "url": "https://cdn.muapi.ai/outputs/c369abc7dc9146e38d256ca64a30b01e_ref-3.webp",
-       "source_page": "https://rmsothebys.com/auctions/hf23/lots/r0098-1981-delorean-dmc12/"
-      },
-      {
-       "role": "Left front corner detail: black horizontal-bar grille with the brushed-silver DMC badge, left headlamp pair in the black surround, amber indicator recessed in the black bumper, black mesh intake below",
-       "url": "https://cdn.muapi.ai/outputs/e3e82099ab284a2a8a9a27c4149a4a96_ref-4.webp",
-       "source_page": "https://rmsothebys.com/auctions/hf23/lots/r0098-1981-delorean-dmc12/"
-      },
-      {
-       "role": "Grille badge close-up: three angular brushed-silver letters D M C on a black backing plate - the D drawn like a reversed C, a squared M, a squared C - on the black horizontal-bar grille",
-       "url": "https://cdn.muapi.ai/outputs/generated/93b433bf03bd4c5b91c23937fa60c063.png",
-       "source_page": "https://rmsothebys.com/auctions/hf23/lots/r0098-1981-delorean-dmc12/"
-      },
-      {
-       "role": "Left side with both doors raised: wheelbase, door shape and the hinge line along the roof centre, black interior seen through the openings, black lower sills, thin black rubbing strip, amber and red side marker lamps, factory wheels",
-       "url": "https://cdn.muapi.ai/outputs/e4685296dc09432cb398bcba69f004a8_ref-6.webp",
-       "source_page": "https://rmsothebys.com/auctions/hf23/lots/r0098-1981-delorean-dmc12/"
-      },
-      {
-       "role": "Front corner detail (the right corner; the left one is its mirror image): two rectangular headlamps in the black surround, amber indicator recessed in the black bumper, small amber side marker on the front wing, black bumper wrapping round the corner",
-       "url": "https://cdn.muapi.ai/outputs/b0008df75c054397ae200a192a07299c_ref-7.webp",
-       "source_page": "https://rmsothebys.com/auctions/hf23/lots/r0098-1981-delorean-dmc12/"
-      },
-      {
-       "role": "Wheel detail: factory grey alloy wheel with many narrow radial slots around a flat grey centre with four lug nuts and a small black DMC centre cap (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/37316c46f1b7437384a3395d71100000_ref-8.webp",
-       "source_page": "https://rmsothebys.com/auctions/hf23/lots/r0098-1981-delorean-dmc12/"
-      },
-      {
-       "role": "Raised door from below: brushed stainless outer skin, light grey moulded inner panel with a pocket, black trim round the door glass, small amber lamp in the door edge, black door mirror at its front end",
-       "url": "https://cdn.muapi.ai/outputs/60464e5833fc4c6b98c54507c8787aa9_ref-9.webp",
-       "source_page": "https://rmsothebys.com/auctions/hf23/lots/r0098-1981-delorean-dmc12/"
-      },
-      {
-       "role": "Interior through the open left door: black leather seats, black dashboard and centre console, steering wheel on the left",
-       "url": "https://cdn.muapi.ai/outputs/76e3163147f841d2849f953d413ffc76_ref-10.webp",
-       "source_page": "https://rmsothebys.com/auctions/hf23/lots/r0098-1981-delorean-dmc12/"
-      }
-     ],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "a9809710-1e32-4c66-bd2b-c911427c690f",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:49:09.254197+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/a9809710-1e32-4c66-bd2b-c911427c690f_67b315a4.png",
-     "page_url": "https://muapi.ai/predictions/a9809710-1e32-4c66-bd2b-c911427c690f",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "3cfd2880-cf04-4e17-9f37-6e92d3706ee7",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:49:11.055283+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/3cfd2880-cf04-4e17-9f37-6e92d3706ee7_143d5f93.png",
-     "page_url": "https://muapi.ai/predictions/3cfd2880-cf04-4e17-9f37-6e92d3706ee7",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-01T00:13:52.719318+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-01T00:49:11.055283+00:00",
-    "updated_source": "MuAPI edit"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-front-20261001-new-nissan-skyline-r32-gtr",
-   "name": "Nissan Skyline GT-R (R32)",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-front-20261001-new-nissan-skyline-r32-gtr-e55401d40162-current.jpg",
-   "preview_pixels": [
-    1600,
-    1198
-   ],
-   "source_file": "pipeline/studio-front-20261001/b2/heroes/new-nissan-skyline-r32-gtr/final-native.png",
-   "source_sha256": "e55401d40162911d435bacac5f1fe788266e94e45b94b821b56bad32a978e270",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-10-01T00:23:30.884557+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "d4edd978-b756-44ac-96f2-95691098c787",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-01T00:19:13.834537+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/d4edd978-b756-44ac-96f2-95691098c787_d4fb5371.png",
-     "page_url": "https://muapi.ai/predictions/d4edd978-b756-44ac-96f2-95691098c787",
-     "references": [
-      {
-       "role": "Front three-quarter from the right: right headlamp with its wrap-around amber indicator, slim two-slat grille, small emblem on the bonnet, front bumper with the corner intakes and black lip, right flank with the GT shield behind the front wheel, body-colour door mirror, five-spoke wheels (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/52fa56677f3b4efab9a619ba4b453c59.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1991-nissan-skyline-r32-gt-r-5"
-      },
-      {
-       "role": "Front three-quarter from the left: whole-car proportions seen from the front, bonnet, both headlamps, grille, bumper, left door mirror, rear wing standing above the boot (ignore the plate and the windscreen stickers)",
-       "url": "https://cdn.muapi.ai/outputs/generated/7178b269e031447292cb9eaea244fe66.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1991-nissan-skyline-r32-gt-r-5"
-      },
-      {
-       "role": "Side profile (left side): proportions, flared arches, side skirts, rear wing on its uprights, wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/generated/928b3c53abbd43c3a807f62f56c3d6bf.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1991-nissan-skyline-r32-gt-r-5"
-      },
-      {
-       "role": "Front: slim grille of two body-colour slats over a dark opening with NO badge on it, small S emblem on the bonnet above it, headlamps with amber outer indicators, bumper with the central black mesh opening and the two slatted corner intakes, black lip spoiler (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/f0a3d616de184cfba1378ff801c83a12.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1991-nissan-skyline-r32-gt-r-5"
-      },
-      {
-       "role": "Bonnet emblem close-up: small chrome parallelogram with a red S stroke, centred on the front edge of the bonnet just above the grille slats",
-       "url": "https://cdn.muapi.ai/outputs/generated/ab98771a7613483d8af5c2fb04a45471.png",
-       "source_page": "https://collectingcars.com/for-sale/1991-nissan-skyline-r32-gt-r-5"
-      },
-      {
-       "role": "Right headlamp close-up: wide clear headlamp with fluted glass and an inner round lamp, amber indicator lens wrapping round the outer corner, grille slats beside it",
-       "url": "https://cdn.muapi.ai/outputs/generated/b0e7bed663b44f7382c90bc58c3dd289.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1991-nissan-skyline-r32-gt-r-5"
-      },
-      {
-       "role": "Right front bumper corner close-up: corner intake divided by two horizontal body-colour slats, black diamond mesh in the central opening, black lip spoiler along the bottom (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/60758b399b4246f6985be87bf165f377.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1991-nissan-skyline-r32-gt-r-5"
-      },
-      {
-       "role": "Right front wing: wrap-around amber indicator, right front wheel with the NISSAN caliper, the small GT shield on the wing behind the wheel arch, side skirt; no side repeater on the wing",
-       "url": "https://cdn.muapi.ai/outputs/generated/6e0bad67c7e64db38ae7046d98f3fd9f.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1991-nissan-skyline-r32-gt-r-5"
-      },
-      {
-       "role": "GT shield close-up: chrome edge, the left half white with a red G, the right half red with a white T",
-       "url": "https://cdn.muapi.ai/outputs/generated/6335490c9bcc45b68343d12d83f8e8d8.png",
-       "source_page": "https://collectingcars.com/for-sale/1991-nissan-skyline-r32-gt-r-5"
-      },
-      {
-       "role": "Wheel close-up: forged five-spoke wheel in silver-grey, five black lug nuts, black centre cap with a silver stylised S, silver-grey brake caliper lettered NISSAN (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/efe9424637f14abfa0dd35e155a09774.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1991-nissan-skyline-r32-gt-r-5"
-      }
-     ]
-    },
-    {
-     "role": "edit",
-     "request_id": "1b4d1a79-32cb-416f-858b-0307cf06c77f",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:33:26.028560+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/1b4d1a79-32cb-416f-858b-0307cf06c77f_9571db76.png",
-     "page_url": "https://muapi.ai/predictions/1b4d1a79-32cb-416f-858b-0307cf06c77f",
-     "target_id": "bonnet-emblem",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "449beef8-96a2-42a6-bafb-ecdd17c966ba",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:33:28.084710+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/449beef8-96a2-42a6-bafb-ecdd17c966ba_b31f1785.png",
-     "page_url": "https://muapi.ai/predictions/449beef8-96a2-42a6-bafb-ecdd17c966ba",
-     "target_id": "gt-shield",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "eba63dee-d2f0-4a70-8c09-333182956074",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:33:30.115409+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/eba63dee-d2f0-4a70-8c09-333182956074_c80e4c74.png",
-     "page_url": "https://muapi.ai/predictions/eba63dee-d2f0-4a70-8c09-333182956074",
-     "target_id": "windscreen-sticker",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "dee6dba9-8f7b-4301-bc98-fc4987a4f973",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:33:32.205110+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/dee6dba9-8f7b-4301-bc98-fc4987a4f973_680ed72d.png",
-     "page_url": "https://muapi.ai/predictions/dee6dba9-8f7b-4301-bc98-fc4987a4f973",
-     "target_id": "wheel-front",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "a092f117-66f6-4e89-8aee-11c73ef00664",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:33:34.316407+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/a092f117-66f6-4e89-8aee-11c73ef00664_84127f8f.png",
-     "page_url": "https://muapi.ai/predictions/a092f117-66f6-4e89-8aee-11c73ef00664",
-     "target_id": "wheel-rear",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "2f5d39be-3ca0-423c-b703-ff701875bfca",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:43:40.653179+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/2f5d39be-3ca0-423c-b703-ff701875bfca_2473d290.png",
-     "page_url": "https://muapi.ai/predictions/2f5d39be-3ca0-423c-b703-ff701875bfca",
-     "target_id": "caliper",
-     "references": []
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Forma / Motion",
-    "why": "Suggested from this concept: Rinpa gold-leaf folding screen. Your collection choice is final."
-   },
-   "candidate_source": "pipeline/studio-front-20261001/studio-candidates.json",
-   "candidate_authority": "Owner 1 Oct 2026 01:48: 'direct it into less back and side shots and more front or front quarter shots ... just not of the ass'; T-5R, Fiat, DeLorean, Skyline and Fairlady redone from the front with the same scenes; the RX-7 scene with a Ferrari 512 BB (owner's pick 01:55).",
-   "full_source_url": "full/e55401d40162-studio-front-20261001-new-nissan-skyline-r32-gtr.png",
-   "full_source_sha256": "e55401d40162911d435bacac5f1fe788266e94e45b94b821b56bad32a978e270",
-   "full_source_bytes": 16220417,
-   "full_source_pixels": [
-    3312,
-    2480
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Forma / Motion",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Suggested from this concept: Rinpa gold-leaf folding screen. Your collection choice is final.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 100
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "d4edd978-b756-44ac-96f2-95691098c787",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:19:13.834537+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/d4edd978-b756-44ac-96f2-95691098c787_d4fb5371.png",
-     "page_url": "https://muapi.ai/predictions/d4edd978-b756-44ac-96f2-95691098c787",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter from the right: right headlamp with its wrap-around amber indicator, slim two-slat grille, small emblem on the bonnet, front bumper with the corner intakes and black lip, right flank with the GT shield behind the front wheel, body-colour door mirror, five-spoke wheels (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/52fa56677f3b4efab9a619ba4b453c59.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1991-nissan-skyline-r32-gt-r-5"
-      },
-      {
-       "role": "Front three-quarter from the left: whole-car proportions seen from the front, bonnet, both headlamps, grille, bumper, left door mirror, rear wing standing above the boot (ignore the plate and the windscreen stickers)",
-       "url": "https://cdn.muapi.ai/outputs/generated/7178b269e031447292cb9eaea244fe66.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1991-nissan-skyline-r32-gt-r-5"
-      },
-      {
-       "role": "Side profile (left side): proportions, flared arches, side skirts, rear wing on its uprights, wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/generated/928b3c53abbd43c3a807f62f56c3d6bf.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1991-nissan-skyline-r32-gt-r-5"
-      },
-      {
-       "role": "Front: slim grille of two body-colour slats over a dark opening with NO badge on it, small S emblem on the bonnet above it, headlamps with amber outer indicators, bumper with the central black mesh opening and the two slatted corner intakes, black lip spoiler (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/f0a3d616de184cfba1378ff801c83a12.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1991-nissan-skyline-r32-gt-r-5"
-      },
-      {
-       "role": "Bonnet emblem close-up: small chrome parallelogram with a red S stroke, centred on the front edge of the bonnet just above the grille slats",
-       "url": "https://cdn.muapi.ai/outputs/generated/ab98771a7613483d8af5c2fb04a45471.png",
-       "source_page": "https://collectingcars.com/for-sale/1991-nissan-skyline-r32-gt-r-5"
-      },
-      {
-       "role": "Right headlamp close-up: wide clear headlamp with fluted glass and an inner round lamp, amber indicator lens wrapping round the outer corner, grille slats beside it",
-       "url": "https://cdn.muapi.ai/outputs/generated/b0e7bed663b44f7382c90bc58c3dd289.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1991-nissan-skyline-r32-gt-r-5"
-      },
-      {
-       "role": "Right front bumper corner close-up: corner intake divided by two horizontal body-colour slats, black diamond mesh in the central opening, black lip spoiler along the bottom (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/60758b399b4246f6985be87bf165f377.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1991-nissan-skyline-r32-gt-r-5"
-      },
-      {
-       "role": "Right front wing: wrap-around amber indicator, right front wheel with the NISSAN caliper, the small GT shield on the wing behind the wheel arch, side skirt; no side repeater on the wing",
-       "url": "https://cdn.muapi.ai/outputs/generated/6e0bad67c7e64db38ae7046d98f3fd9f.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1991-nissan-skyline-r32-gt-r-5"
-      },
-      {
-       "role": "GT shield close-up: chrome edge, the left half white with a red G, the right half red with a white T",
-       "url": "https://cdn.muapi.ai/outputs/generated/6335490c9bcc45b68343d12d83f8e8d8.png",
-       "source_page": "https://collectingcars.com/for-sale/1991-nissan-skyline-r32-gt-r-5"
-      },
-      {
-       "role": "Wheel close-up: forged five-spoke wheel in silver-grey, five black lug nuts, black centre cap with a silver stylised S, silver-grey brake caliper lettered NISSAN (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/efe9424637f14abfa0dd35e155a09774.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1991-nissan-skyline-r32-gt-r-5"
-      }
-     ],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "1b4d1a79-32cb-416f-858b-0307cf06c77f",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:33:26.028560+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/1b4d1a79-32cb-416f-858b-0307cf06c77f_9571db76.png",
-     "page_url": "https://muapi.ai/predictions/1b4d1a79-32cb-416f-858b-0307cf06c77f",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "449beef8-96a2-42a6-bafb-ecdd17c966ba",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:33:28.084710+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/449beef8-96a2-42a6-bafb-ecdd17c966ba_b31f1785.png",
-     "page_url": "https://muapi.ai/predictions/449beef8-96a2-42a6-bafb-ecdd17c966ba",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "eba63dee-d2f0-4a70-8c09-333182956074",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:33:30.115409+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/eba63dee-d2f0-4a70-8c09-333182956074_c80e4c74.png",
-     "page_url": "https://muapi.ai/predictions/eba63dee-d2f0-4a70-8c09-333182956074",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "dee6dba9-8f7b-4301-bc98-fc4987a4f973",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:33:32.205110+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/dee6dba9-8f7b-4301-bc98-fc4987a4f973_680ed72d.png",
-     "page_url": "https://muapi.ai/predictions/dee6dba9-8f7b-4301-bc98-fc4987a4f973",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "a092f117-66f6-4e89-8aee-11c73ef00664",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:33:34.316407+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/a092f117-66f6-4e89-8aee-11c73ef00664_84127f8f.png",
-     "page_url": "https://muapi.ai/predictions/a092f117-66f6-4e89-8aee-11c73ef00664",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "2f5d39be-3ca0-423c-b703-ff701875bfca",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:43:40.653179+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/2f5d39be-3ca0-423c-b703-ff701875bfca_2473d290.png",
-     "page_url": "https://muapi.ai/predictions/2f5d39be-3ca0-423c-b703-ff701875bfca",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-01T00:19:13.834537+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-01T00:43:40.653179+00:00",
-    "updated_source": "MuAPI edit"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-front-20261001-review-07-orange-margin",
-   "name": "Nissan Fairlady Z432",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-front-20261001-review-07-orange-margin-9896f1fab7ff-current.jpg",
-   "preview_pixels": [
-    1600,
-    2137
-   ],
-   "source_file": "pipeline/studio-front-20261001/b2/heroes/review-07-orange-margin/final-native.png",
-   "source_sha256": "9896f1fab7ff27d91d21a2fd490ae5fbbbfaa3d5ae48e63fa30e9637c2ba51be",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-10-01T00:23:34.649357+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "9d1b7126-618d-41e9-bdbc-ca1bc5961dcb",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-01T00:19:25.536194+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/9d1b7126-618d-41e9-bdbc-ca1bc5961dcb_f0134d63.png",
-     "page_url": "https://muapi.ai/predictions/9d1b7126-618d-41e9-bdbc-ca1bc5961dcb",
-     "references": [
-      {
-       "role": "Front three-quarter from the right: round headlamps in scooped buckets, small oval chrome emblem on the bonnet tip, grille opening with black mesh, slim chrome bumper with a black rubber strip, large amber indicators in the valance, amber side marker, black fender mirrors on stalks, magnesium wheels (ignore the plate and the windscreen sticker)",
-       "url": "https://cdn.muapi.ai/outputs/d62cca906a9e495c8052ee5d4f4c98c1_ref-1.webp",
-       "source_page": "https://rmsothebys.com/auctions/am15/lots/r194-1970-nissan-fairlady-z432/"
-      },
-      {
-       "role": "Nose close-up: headlamp bucket with chrome rim, oval chrome emblem on the bonnet tip, black mesh grille opening, chrome bumper blade with black rubber strip, rectangular amber indicator in the valance below it, amber side marker (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/0dc8f1c23a494ec98377960cbd45f4a0.png",
-       "source_page": "https://rmsothebys.com/auctions/am15/lots/r194-1970-nissan-fairlady-z432/"
-      },
-      {
-       "role": "Left front wing: black round fender mirror on its black stalk, scooped headlamp bucket, amber side marker with chrome bezel ahead of the wheel, chrome bumper corner over the amber valance indicator, magnesium wheel, start of the 432 badge behind the wheel",
-       "url": "https://cdn.muapi.ai/outputs/55f236d80d0242eea1411455d60ff091_ref-3.webp",
-       "source_page": "https://rmsothebys.com/auctions/am15/lots/r194-1970-nissan-fairlady-z432/"
-      },
-      {
-       "role": "Side profile (right side; the left side mirrors it except that the fuel lid is on this right side and the antenna on the left): long bonnet, glasshouse, C-pillar emblem, black spoiler lip, chrome door handle, wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/e0a741541fb54a1e8c8c7ff5176b3b3a_ref-4.webp",
-       "source_page": "https://rmsothebys.com/auctions/am15/lots/r194-1970-nissan-fairlady-z432/"
-      },
-      {
-       "role": "Left rear quarter: chrome door handle with keyhole, quarter window, round Z emblem on the C-pillar, the short chrome whip antenna with a black base on the LEFT rear wing, black rear spoiler edge, chrome rear bumper end with black rubber",
-       "url": "https://cdn.muapi.ai/outputs/b06bad3917884c439a85c5788bf5d598_ref-5.webp",
-       "source_page": "https://rmsothebys.com/auctions/am15/lots/r194-1970-nissan-fairlady-z432/"
-      },
-      {
-       "role": "Front wing badge close-up: red 432 numerals with thin chrome outline above the slim chrome Fairlady Z script",
-       "url": "https://cdn.muapi.ai/outputs/a351d5559e9748ff84d3dad5148c83c0_ref-6.webp",
-       "source_page": "https://rmsothebys.com/auctions/am15/lots/r194-1970-nissan-fairlady-z432/"
-      },
-      {
-       "role": "C-pillar emblem close-up: chrome rim, black centre with a chrome Z inside a ring of chrome ticks",
-       "url": "https://cdn.muapi.ai/outputs/d9a54297211c4bbaa0b2b97f5e73d390_ref-7.webp",
-       "source_page": "https://rmsothebys.com/auctions/am15/lots/r194-1970-nissan-fairlady-z432/"
-      },
-      {
-       "role": "Fender mirror close-up: black round mirror head on a black stalk standing on the front wing",
-       "url": "https://cdn.muapi.ai/outputs/a89573970a744fccae5cbccb9505ebad_ref-8.webp",
-       "source_page": "https://rmsothebys.com/auctions/am15/lots/r194-1970-nissan-fairlady-z432/"
-      },
-      {
-       "role": "Wheel close-up: factory magnesium wheel in dark grey - small black centre cap in a chrome ring, four chrome lug nuts, raised hub ring, eight spokes, the openings alternating deep windows and shallow pockets",
-       "url": "https://cdn.muapi.ai/outputs/generated/eb60d01d5fa649b5ba290fbcfb2ea46c.png",
-       "source_page": "https://rmsothebys.com/auctions/am15/lots/r194-1970-nissan-fairlady-z432/"
-      }
-     ]
-    },
-    {
-     "role": "edit",
-     "request_id": "d425d3fd-0dc3-4040-8b32-7b6bc93d2c45",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:34:45.396939+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/d425d3fd-0dc3-4040-8b32-7b6bc93d2c45_afc45647.png",
-     "page_url": "https://muapi.ai/predictions/d425d3fd-0dc3-4040-8b32-7b6bc93d2c45",
-     "target_id": "wheel-front",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "3ddc9673-8195-44d5-ad58-ca07eaa129a2",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:34:47.516361+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/3ddc9673-8195-44d5-ad58-ca07eaa129a2_f355a0eb.png",
-     "page_url": "https://muapi.ai/predictions/3ddc9673-8195-44d5-ad58-ca07eaa129a2",
-     "target_id": "wheel-rear",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "4f65e01e-4b2b-4233-b369-762d95ff38db",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:34:49.852654+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/4f65e01e-4b2b-4233-b369-762d95ff38db_fd0a8bae.png",
-     "page_url": "https://muapi.ai/predictions/4f65e01e-4b2b-4233-b369-762d95ff38db",
-     "target_id": "c-pillar",
-     "references": []
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Sport / Leicht",
-    "why": "Suggested from this concept: Sumi-e, one giant brush-written Z. Your collection choice is final."
-   },
-   "candidate_source": "pipeline/studio-front-20261001/studio-candidates.json",
-   "candidate_authority": "Owner 1 Oct 2026 01:48: 'direct it into less back and side shots and more front or front quarter shots ... just not of the ass'; T-5R, Fiat, DeLorean, Skyline and Fairlady redone from the front with the same scenes; the RX-7 scene with a Ferrari 512 BB (owner's pick 01:55).",
-   "full_source_url": "full/9896f1fab7ff-studio-front-20261001-review-07-orange-margin.png",
-   "full_source_sha256": "9896f1fab7ff27d91d21a2fd490ae5fbbbfaa3d5ae48e63fa30e9637c2ba51be",
-   "full_source_bytes": 13436586,
-   "full_source_pixels": [
-    2480,
-    3312
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Sport / Leicht",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Suggested from this concept: Sumi-e, one giant brush-written Z. Your collection choice is final.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 200
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "9d1b7126-618d-41e9-bdbc-ca1bc5961dcb",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:19:25.536194+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/9d1b7126-618d-41e9-bdbc-ca1bc5961dcb_f0134d63.png",
-     "page_url": "https://muapi.ai/predictions/9d1b7126-618d-41e9-bdbc-ca1bc5961dcb",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter from the right: round headlamps in scooped buckets, small oval chrome emblem on the bonnet tip, grille opening with black mesh, slim chrome bumper with a black rubber strip, large amber indicators in the valance, amber side marker, black fender mirrors on stalks, magnesium wheels (ignore the plate and the windscreen sticker)",
-       "url": "https://cdn.muapi.ai/outputs/d62cca906a9e495c8052ee5d4f4c98c1_ref-1.webp",
-       "source_page": "https://rmsothebys.com/auctions/am15/lots/r194-1970-nissan-fairlady-z432/"
-      },
-      {
-       "role": "Nose close-up: headlamp bucket with chrome rim, oval chrome emblem on the bonnet tip, black mesh grille opening, chrome bumper blade with black rubber strip, rectangular amber indicator in the valance below it, amber side marker (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/0dc8f1c23a494ec98377960cbd45f4a0.png",
-       "source_page": "https://rmsothebys.com/auctions/am15/lots/r194-1970-nissan-fairlady-z432/"
-      },
-      {
-       "role": "Left front wing: black round fender mirror on its black stalk, scooped headlamp bucket, amber side marker with chrome bezel ahead of the wheel, chrome bumper corner over the amber valance indicator, magnesium wheel, start of the 432 badge behind the wheel",
-       "url": "https://cdn.muapi.ai/outputs/55f236d80d0242eea1411455d60ff091_ref-3.webp",
-       "source_page": "https://rmsothebys.com/auctions/am15/lots/r194-1970-nissan-fairlady-z432/"
-      },
-      {
-       "role": "Side profile (right side; the left side mirrors it except that the fuel lid is on this right side and the antenna on the left): long bonnet, glasshouse, C-pillar emblem, black spoiler lip, chrome door handle, wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/e0a741541fb54a1e8c8c7ff5176b3b3a_ref-4.webp",
-       "source_page": "https://rmsothebys.com/auctions/am15/lots/r194-1970-nissan-fairlady-z432/"
-      },
-      {
-       "role": "Left rear quarter: chrome door handle with keyhole, quarter window, round Z emblem on the C-pillar, the short chrome whip antenna with a black base on the LEFT rear wing, black rear spoiler edge, chrome rear bumper end with black rubber",
-       "url": "https://cdn.muapi.ai/outputs/b06bad3917884c439a85c5788bf5d598_ref-5.webp",
-       "source_page": "https://rmsothebys.com/auctions/am15/lots/r194-1970-nissan-fairlady-z432/"
-      },
-      {
-       "role": "Front wing badge close-up: red 432 numerals with thin chrome outline above the slim chrome Fairlady Z script",
-       "url": "https://cdn.muapi.ai/outputs/a351d5559e9748ff84d3dad5148c83c0_ref-6.webp",
-       "source_page": "https://rmsothebys.com/auctions/am15/lots/r194-1970-nissan-fairlady-z432/"
-      },
-      {
-       "role": "C-pillar emblem close-up: chrome rim, black centre with a chrome Z inside a ring of chrome ticks",
-       "url": "https://cdn.muapi.ai/outputs/d9a54297211c4bbaa0b2b97f5e73d390_ref-7.webp",
-       "source_page": "https://rmsothebys.com/auctions/am15/lots/r194-1970-nissan-fairlady-z432/"
-      },
-      {
-       "role": "Fender mirror close-up: black round mirror head on a black stalk standing on the front wing",
-       "url": "https://cdn.muapi.ai/outputs/a89573970a744fccae5cbccb9505ebad_ref-8.webp",
-       "source_page": "https://rmsothebys.com/auctions/am15/lots/r194-1970-nissan-fairlady-z432/"
-      },
-      {
-       "role": "Wheel close-up: factory magnesium wheel in dark grey - small black centre cap in a chrome ring, four chrome lug nuts, raised hub ring, eight spokes, the openings alternating deep windows and shallow pockets",
-       "url": "https://cdn.muapi.ai/outputs/generated/eb60d01d5fa649b5ba290fbcfb2ea46c.png",
-       "source_page": "https://rmsothebys.com/auctions/am15/lots/r194-1970-nissan-fairlady-z432/"
-      }
-     ],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "d425d3fd-0dc3-4040-8b32-7b6bc93d2c45",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:34:45.396939+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/d425d3fd-0dc3-4040-8b32-7b6bc93d2c45_afc45647.png",
-     "page_url": "https://muapi.ai/predictions/d425d3fd-0dc3-4040-8b32-7b6bc93d2c45",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "3ddc9673-8195-44d5-ad58-ca07eaa129a2",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:34:47.516361+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/3ddc9673-8195-44d5-ad58-ca07eaa129a2_f355a0eb.png",
-     "page_url": "https://muapi.ai/predictions/3ddc9673-8195-44d5-ad58-ca07eaa129a2",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "4f65e01e-4b2b-4233-b369-762d95ff38db",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:34:49.852654+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/4f65e01e-4b2b-4233-b369-762d95ff38db_fd0a8bae.png",
-     "page_url": "https://muapi.ai/predictions/4f65e01e-4b2b-4233-b369-762d95ff38db",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-01T00:19:25.536194+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-01T00:34:49.852654+00:00",
-    "updated_source": "MuAPI edit"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-front-20261001-new-ferrari-512bb",
-   "name": "Ferrari 512 BB",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-front-20261001-new-ferrari-512bb-f99b4c8299cf-current.jpg",
-   "preview_pixels": [
-    1600,
-    1198
-   ],
-   "source_file": "pipeline/studio-front-20261001/b2/heroes/new-ferrari-512bb/final-native.png",
-   "source_sha256": "f99b4c8299cfd7050d753aa5e36ab46ec821df82e660b4c2bfe24c46c96386bd",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-10-01T00:23:38.288293+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "be7111e7-3f07-4cfd-96da-5c24d0c13a1b",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-01T00:19:34.945518+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/be7111e7-3f07-4cfd-96da-5c24d0c13a1b_78c82e4d.png",
-     "page_url": "https://muapi.ai/predictions/be7111e7-3f07-4cfd-96da-5c24d0c13a1b",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: wedge profile, glossy red upper body over the satin black lower body, closed headlamp covers and aluminium louvre panel, amber indicators, black grille and chin spoiler, left door mirror, round fuel filler flap on the left buttress, black side intake, five-spoke wheels with knock-off spinners (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/12021e6ee988487c96f1fb465e05de7d_ref-1.webp",
-       "source_page": "https://rmsothebys.com/auctions/ch24/lots/r0031-1977-ferrari-512-bb/"
-      },
-      {
-       "role": "Front: closed headlamp covers either side of the aluminium louvre panel, two wide amber indicators, small enamel Ferrari badge, black lower nose with the grille of thin bright bars, two rectangular driving lamps and the chrome prancing horse, black chin spoiler, both black door mirrors, wipers (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/4de77237b97740b7b291b3fdfa31abd0_ref-2.webp",
-       "source_page": "https://rmsothebys.com/auctions/ch24/lots/r0031-1977-ferrari-512-bb/"
-      },
-      {
-       "role": "Side profile (right side): proportions, the waist crease with the black lower body below it, glasshouse and rear buttress, wheelbase; the chrome pininfarina plate behind the door is on this right flank only",
-       "url": "https://cdn.muapi.ai/outputs/434fb04b07724f21a9e239b1fa6e6e23_ref-3.webp",
-       "source_page": "https://rmsothebys.com/auctions/ch24/lots/r0031-1977-ferrari-512-bb/"
-      },
-      {
-       "role": "Left front wing: small round amber side repeater ahead of the wheel arch, black lower nose and chin spoiler, five-spoke wheel with knock-off spinner, left door mirror",
-       "url": "https://cdn.muapi.ai/outputs/0e097a3e343d4e2ba0e1fdd3f674041d_ref-4.webp",
-       "source_page": "https://rmsothebys.com/auctions/ch24/lots/r0031-1977-ferrari-512-bb/"
-      },
-      {
-       "role": "Bonnet front close-up: brushed-aluminium panel of six horizontal louvres between the closed headlamp covers, small enamel Ferrari badge on the nose below it",
-       "url": "https://cdn.muapi.ai/outputs/generated/6122eee44879460d9e3db5098d79929d.png",
-       "source_page": "https://rmsothebys.com/auctions/ch24/lots/r0031-1977-ferrari-512-bb/"
-      },
-      {
-       "role": "Grille close-up: black lower nose with a grille of thin bright horizontal bars and thin vertical dividers, two rectangular driving lamps at its outer ends, chrome prancing horse emblem in its centre",
-       "url": "https://cdn.muapi.ai/outputs/generated/f3bf681321cc421aa3e9d3f7373b6d8c.png",
-       "source_page": "https://rmsothebys.com/auctions/ch24/lots/r0031-1977-ferrari-512-bb/"
-      },
-      {
-       "role": "Nose badge close-up: rectangular enamel Ferrari badge - yellow field, black prancing horse, thin green-white-red stripe at the top, Ferrari in black script at the bottom, chrome edge",
-       "url": "https://cdn.muapi.ai/outputs/generated/ad86751090214e35999bf845faf50bde.png",
-       "source_page": "https://rmsothebys.com/auctions/ch24/lots/r0031-1977-ferrari-512-bb/"
-      },
-      {
-       "role": "Wheel close-up: silver five-spoke star alloy, chrome two-eared knock-off spinner with a small prancing horse in its centre (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/7b7cbca60b394feca43d332823d53698_ref-8.webp",
-       "source_page": "https://rmsothebys.com/auctions/ch24/lots/r0031-1977-ferrari-512-bb/"
-      },
-      {
-       "role": "Door mirror close-up: black oval mirror on a short black stalk at the front top corner of the left door",
-       "url": "https://cdn.muapi.ai/outputs/2996a78d6fc0448d973b841610809830_ref-9.webp",
-       "source_page": "https://rmsothebys.com/auctions/ch24/lots/r0031-1977-ferrari-512-bb/"
-      },
-      {
-       "role": "Windscreen close-up: two black wipers parked at the base of the windscreen, beige interior behind the glass",
-       "url": "https://cdn.muapi.ai/outputs/c32a5248d39c4151b53848d6b5316381_ref-10.webp",
-       "source_page": "https://rmsothebys.com/auctions/ch24/lots/r0031-1977-ferrari-512-bb/"
-      }
-     ]
-    },
-    {
-     "role": "edit",
-     "request_id": "9cf1c095-31b3-499a-8547-79700bac2ca8",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:36:09.958656+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/9cf1c095-31b3-499a-8547-79700bac2ca8_c98cda3a.png",
-     "page_url": "https://muapi.ai/predictions/9cf1c095-31b3-499a-8547-79700bac2ca8",
-     "target_id": "nose-badge",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "541ae59e-6048-4da5-8d22-0fc92f62f06b",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:36:11.744019+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/541ae59e-6048-4da5-8d22-0fc92f62f06b_66d23fbc.png",
-     "page_url": "https://muapi.ai/predictions/541ae59e-6048-4da5-8d22-0fc92f62f06b",
-     "target_id": "wheel-front",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "3b9103e2-d7d9-4f99-9435-808c4a6b55f5",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:36:13.585988+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/3b9103e2-d7d9-4f99-9435-808c4a6b55f5_a7cfdfe2.png",
-     "page_url": "https://muapi.ai/predictions/3b9103e2-d7d9-4f99-9435-808c4a6b55f5",
-     "target_id": "wheel-rear",
-     "references": []
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Gran Turismo",
-    "why": "Suggested from this concept: Radical design infinite grid (Superstudio). Your collection choice is final."
-   },
-   "candidate_source": "pipeline/studio-front-20261001/studio-candidates.json",
-   "candidate_authority": "Owner 1 Oct 2026 01:48: 'direct it into less back and side shots and more front or front quarter shots ... just not of the ass'; T-5R, Fiat, DeLorean, Skyline and Fairlady redone from the front with the same scenes; the RX-7 scene with a Ferrari 512 BB (owner's pick 01:55).",
-   "full_source_url": "full/f99b4c8299cf-studio-front-20261001-new-ferrari-512bb.png",
-   "full_source_sha256": "f99b4c8299cfd7050d753aa5e36ab46ec821df82e660b4c2bfe24c46c96386bd",
-   "full_source_bytes": 9744292,
-   "full_source_pixels": [
-    3312,
-    2480
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Gran Turismo",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Suggested from this concept: Radical design infinite grid (Superstudio). Your collection choice is final.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 77
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "be7111e7-3f07-4cfd-96da-5c24d0c13a1b",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:19:34.945518+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/be7111e7-3f07-4cfd-96da-5c24d0c13a1b_78c82e4d.png",
-     "page_url": "https://muapi.ai/predictions/be7111e7-3f07-4cfd-96da-5c24d0c13a1b",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: wedge profile, glossy red upper body over the satin black lower body, closed headlamp covers and aluminium louvre panel, amber indicators, black grille and chin spoiler, left door mirror, round fuel filler flap on the left buttress, black side intake, five-spoke wheels with knock-off spinners (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/12021e6ee988487c96f1fb465e05de7d_ref-1.webp",
-       "source_page": "https://rmsothebys.com/auctions/ch24/lots/r0031-1977-ferrari-512-bb/"
-      },
-      {
-       "role": "Front: closed headlamp covers either side of the aluminium louvre panel, two wide amber indicators, small enamel Ferrari badge, black lower nose with the grille of thin bright bars, two rectangular driving lamps and the chrome prancing horse, black chin spoiler, both black door mirrors, wipers (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/4de77237b97740b7b291b3fdfa31abd0_ref-2.webp",
-       "source_page": "https://rmsothebys.com/auctions/ch24/lots/r0031-1977-ferrari-512-bb/"
-      },
-      {
-       "role": "Side profile (right side): proportions, the waist crease with the black lower body below it, glasshouse and rear buttress, wheelbase; the chrome pininfarina plate behind the door is on this right flank only",
-       "url": "https://cdn.muapi.ai/outputs/434fb04b07724f21a9e239b1fa6e6e23_ref-3.webp",
-       "source_page": "https://rmsothebys.com/auctions/ch24/lots/r0031-1977-ferrari-512-bb/"
-      },
-      {
-       "role": "Left front wing: small round amber side repeater ahead of the wheel arch, black lower nose and chin spoiler, five-spoke wheel with knock-off spinner, left door mirror",
-       "url": "https://cdn.muapi.ai/outputs/0e097a3e343d4e2ba0e1fdd3f674041d_ref-4.webp",
-       "source_page": "https://rmsothebys.com/auctions/ch24/lots/r0031-1977-ferrari-512-bb/"
-      },
-      {
-       "role": "Bonnet front close-up: brushed-aluminium panel of six horizontal louvres between the closed headlamp covers, small enamel Ferrari badge on the nose below it",
-       "url": "https://cdn.muapi.ai/outputs/generated/6122eee44879460d9e3db5098d79929d.png",
-       "source_page": "https://rmsothebys.com/auctions/ch24/lots/r0031-1977-ferrari-512-bb/"
-      },
-      {
-       "role": "Grille close-up: black lower nose with a grille of thin bright horizontal bars and thin vertical dividers, two rectangular driving lamps at its outer ends, chrome prancing horse emblem in its centre",
-       "url": "https://cdn.muapi.ai/outputs/generated/f3bf681321cc421aa3e9d3f7373b6d8c.png",
-       "source_page": "https://rmsothebys.com/auctions/ch24/lots/r0031-1977-ferrari-512-bb/"
-      },
-      {
-       "role": "Nose badge close-up: rectangular enamel Ferrari badge - yellow field, black prancing horse, thin green-white-red stripe at the top, Ferrari in black script at the bottom, chrome edge",
-       "url": "https://cdn.muapi.ai/outputs/generated/ad86751090214e35999bf845faf50bde.png",
-       "source_page": "https://rmsothebys.com/auctions/ch24/lots/r0031-1977-ferrari-512-bb/"
-      },
-      {
-       "role": "Wheel close-up: silver five-spoke star alloy, chrome two-eared knock-off spinner with a small prancing horse in its centre (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/7b7cbca60b394feca43d332823d53698_ref-8.webp",
-       "source_page": "https://rmsothebys.com/auctions/ch24/lots/r0031-1977-ferrari-512-bb/"
-      },
-      {
-       "role": "Door mirror close-up: black oval mirror on a short black stalk at the front top corner of the left door",
-       "url": "https://cdn.muapi.ai/outputs/2996a78d6fc0448d973b841610809830_ref-9.webp",
-       "source_page": "https://rmsothebys.com/auctions/ch24/lots/r0031-1977-ferrari-512-bb/"
-      },
-      {
-       "role": "Windscreen close-up: two black wipers parked at the base of the windscreen, beige interior behind the glass",
-       "url": "https://cdn.muapi.ai/outputs/c32a5248d39c4151b53848d6b5316381_ref-10.webp",
-       "source_page": "https://rmsothebys.com/auctions/ch24/lots/r0031-1977-ferrari-512-bb/"
-      }
-     ],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "9cf1c095-31b3-499a-8547-79700bac2ca8",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:36:09.958656+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/9cf1c095-31b3-499a-8547-79700bac2ca8_c98cda3a.png",
-     "page_url": "https://muapi.ai/predictions/9cf1c095-31b3-499a-8547-79700bac2ca8",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "541ae59e-6048-4da5-8d22-0fc92f62f06b",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:36:11.744019+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/541ae59e-6048-4da5-8d22-0fc92f62f06b_66d23fbc.png",
-     "page_url": "https://muapi.ai/predictions/541ae59e-6048-4da5-8d22-0fc92f62f06b",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "3b9103e2-d7d9-4f99-9435-808c4a6b55f5",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:36:13.585988+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/3b9103e2-d7d9-4f99-9435-808c4a6b55f5_a7cfdfe2.png",
-     "page_url": "https://muapi.ai/predictions/3b9103e2-d7d9-4f99-9435-808c4a6b55f5",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-front-20261001/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-01T00:19:34.945518+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-01T00:36:13.585988+00:00",
-    "updated_source": "MuAPI edit"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
    "key": "studio-twenty-20260930-new-mercedes-280sl-pagoda",
    "name": "Mercedes-Benz 280 SL",
    "notion_url": null,
@@ -3355,266 +1779,6 @@
     "created_at": "2026-09-30T05:36:54.397927+00:00",
     "created_source": "MuAPI original",
     "updated_at": "2026-09-30T14:30:45.697016+00:00",
-    "updated_source": "MuAPI edit"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-twenty-20260930-wave01-toyota-fj40",
-   "name": "Toyota Land Cruiser FJ40",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-twenty-20260930-wave01-toyota-fj40-3ea05c2c692b-current.jpg",
-   "preview_pixels": [
-    1600,
-    2137
-   ],
-   "source_file": "pipeline/studio-twenty-20260930/a4/heroes/wave01-toyota-fj40/final-native.png",
-   "source_sha256": "3ea05c2c692b793de64e92aa58766e7f77807da26720856f749cd151ec46c1e2",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-09-30T05:41:20.624753+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "d87abe84-3c3a-4858-b68f-80ca8a06b793",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-09-30T05:37:05.723116+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/d87abe84-3c3a-4858-b68f-80ca8a06b793_93331d15.png",
-     "page_url": "https://muapi.ai/predictions/d87abe84-3c3a-4858-b68f-80ca8a06b793",
-     "references": [
-      {
-       "role": "Left side: wheelbase, stock ride height and narrow tyres, white hardtop with a large side window behind the door and a small rear quarter window, flared wings, side step, cowl scripts, tall stalk mirror, steel wheels with domed hubcaps",
-       "url": "https://cdn.muapi.ai/outputs/e73e9e4284d5449282cbe8cac4b58502_ref-1.webp",
-       "source_page": "https://rmsothebys.com/auctions/fl18/lots/r0196-1968-toyota-fj40-land-cruiser-hardtop/"
-      },
-      {
-       "role": "Left front wing and cowl detail: cowl vent louvres, chrome TOYOTA script with an amber side marker lamp ahead of it on the cowl side, tall stalk mirror at the windscreen corner, exposed door hinges, small flap on the cowl side ahead of the door, front wheel with domed hubcap",
-       "url": "https://cdn.muapi.ai/outputs/generated/ad84f53839d94df8bd28e77014da8925.png",
-       "source_page": "https://rmsothebys.com/auctions/fl18/lots/r0196-1968-toyota-fj40-land-cruiser-hardtop/"
-      },
-      {
-       "role": "Front three-quarter from the left: white headlamp surround panel, TOYOTA grille, amber indicators on the wing tops, grey front bumper with black rubber bumperettes and two yellow fog lamps (ignore the small restorer plate on the bumper), white hardtop",
-       "url": "https://cdn.muapi.ai/outputs/022e485c95ab48d1a204f5f29ca0ef09_ref-3.webp",
-       "source_page": "https://rmsothebys.com/auctions/fl18/lots/r0196-1968-toyota-fj40-land-cruiser-hardtop/"
-      },
-      {
-       "role": "Front three-quarter from the left, whole vehicle: body proportions, wing flares, windscreen frame, door and hardtop windows, mirror, wheels (ignore the small plate on the bumper)",
-       "url": "https://cdn.muapi.ai/outputs/6e48ba054e64426eab876970ef82a7d3_ref-4.webp",
-       "source_page": "https://rmsothebys.com/auctions/fl18/lots/r0196-1968-toyota-fj40-land-cruiser-hardtop/"
-      },
-      {
-       "role": "Front detail: chrome TOYOTA letters on the black mesh grille between two round headlamps set in the white surround panel, round amber indicator lamps on stalks on top of each wing, bonnet catches, fog lamps",
-       "url": "https://cdn.muapi.ai/outputs/generated/eb8be04f82094551861e7669426aaab3.png",
-       "source_page": "https://rmsothebys.com/auctions/fl18/lots/r0196-1968-toyota-fj40-land-cruiser-hardtop/"
-      },
-      {
-       "role": "Rear three-quarter from the left: rear quarter and hardtop, round red reflector, tail lamp, on the rear panel a small round black-and-gold TOYOTA emblem, a clear reversing lamp, a cream TOYOTA badge with dark block letters in a chrome frame and a round cream 4 WHEEL DRIVE emblem with a red 4 (the plate is cropped away)",
-       "url": "https://cdn.muapi.ai/outputs/generated/673714b281b94a90a52adbf1dc838766.png",
-       "source_page": "https://rmsothebys.com/auctions/fl18/lots/r0196-1968-toyota-fj40-land-cruiser-hardtop/"
-      },
-      {
-       "role": "Cowl badge close-up: chrome TOYOTA script above a chrome Land Cruiser script on the cowl side, small amber side marker lamp ahead of them, chrome bonnet catch",
-       "url": "https://cdn.muapi.ai/outputs/399f8b161bcc4f42a1b4230de4de1230_ref-7.webp",
-       "source_page": "https://rmsothebys.com/auctions/fl18/lots/r0196-1968-toyota-fj40-land-cruiser-hardtop/"
-      },
-      {
-       "role": "Wheel detail: grey-painted steel wheel with a domed polished stainless hubcap, black tyre with a traction-lug tread",
-       "url": "https://cdn.muapi.ai/outputs/12a002d4bcfd42f49afd2b78ebc49330_ref-8.webp",
-       "source_page": "https://rmsothebys.com/auctions/fl18/lots/r0196-1968-toyota-fj40-land-cruiser-hardtop/"
-      }
-     ]
-    },
-    {
-     "role": "edit",
-     "request_id": "2292768e-b243-41f9-85bb-0c0cda3fe1f8",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-30T14:10:42.206235+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/2292768e-b243-41f9-85bb-0c0cda3fe1f8_d5ab2ff0.png",
-     "page_url": "https://muapi.ai/predictions/2292768e-b243-41f9-85bb-0c0cda3fe1f8",
-     "target_id": "cowl-scripts",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "c03f01f0-5363-437f-9766-9c805a13f9d8",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-30T14:10:44.075294+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/c03f01f0-5363-437f-9766-9c805a13f9d8_ad350ea2.png",
-     "page_url": "https://muapi.ai/predictions/c03f01f0-5363-437f-9766-9c805a13f9d8",
-     "target_id": "wheel-front",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "f85f5a15-7eda-42c1-9361-9930c486c9c2",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-30T14:10:45.827361+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/f85f5a15-7eda-42c1-9361-9930c486c9c2_917c1c1d.png",
-     "page_url": "https://muapi.ai/predictions/f85f5a15-7eda-42c1-9361-9930c486c9c2",
-     "target_id": "wheel-rear",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "a2a91b20-6870-4530-ad18-2fbdf1cc6d83",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:16:22.651973+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/a2a91b20-6870-4530-ad18-2fbdf1cc6d83_cdce2e46.png",
-     "page_url": "https://muapi.ai/predictions/a2a91b20-6870-4530-ad18-2fbdf1cc6d83",
-     "target_id": "headline",
-     "references": []
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Studio Di Forma",
-    "why": "Suggested from this concept: Naive jungle painting (Henri Rousseau). Your collection choice is final."
-   },
-   "candidate_source": "pipeline/studio-twenty-20260930/studio-candidates.json",
-   "candidate_authority": "Owner 30 Sep 2026 06:35: 'meanwhile create 20 more heros for lots. i noticed u gave an image model a blocker to use the exact second photo car position for example. lets try not to, the rest is the same, all proportions and details and references as u did. use muapi best'",
-   "full_source_url": "full/3ea05c2c692b-studio-twenty-20260930-wave01-toyota-fj40.png",
-   "full_source_sha256": "3ea05c2c692b793de64e92aa58766e7f77807da26720856f749cd151ec46c1e2",
-   "full_source_bytes": 14169533,
-   "full_source_pixels": [
-    2480,
-    3312
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Studio Di Forma",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Suggested from this concept: Naive jungle painting (Henri Rousseau). Your collection choice is final.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 50
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "d87abe84-3c3a-4858-b68f-80ca8a06b793",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-30T05:37:05.723116+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/d87abe84-3c3a-4858-b68f-80ca8a06b793_93331d15.png",
-     "page_url": "https://muapi.ai/predictions/d87abe84-3c3a-4858-b68f-80ca8a06b793",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Left side: wheelbase, stock ride height and narrow tyres, white hardtop with a large side window behind the door and a small rear quarter window, flared wings, side step, cowl scripts, tall stalk mirror, steel wheels with domed hubcaps",
-       "url": "https://cdn.muapi.ai/outputs/e73e9e4284d5449282cbe8cac4b58502_ref-1.webp",
-       "source_page": "https://rmsothebys.com/auctions/fl18/lots/r0196-1968-toyota-fj40-land-cruiser-hardtop/"
-      },
-      {
-       "role": "Left front wing and cowl detail: cowl vent louvres, chrome TOYOTA script with an amber side marker lamp ahead of it on the cowl side, tall stalk mirror at the windscreen corner, exposed door hinges, small flap on the cowl side ahead of the door, front wheel with domed hubcap",
-       "url": "https://cdn.muapi.ai/outputs/generated/ad84f53839d94df8bd28e77014da8925.png",
-       "source_page": "https://rmsothebys.com/auctions/fl18/lots/r0196-1968-toyota-fj40-land-cruiser-hardtop/"
-      },
-      {
-       "role": "Front three-quarter from the left: white headlamp surround panel, TOYOTA grille, amber indicators on the wing tops, grey front bumper with black rubber bumperettes and two yellow fog lamps (ignore the small restorer plate on the bumper), white hardtop",
-       "url": "https://cdn.muapi.ai/outputs/022e485c95ab48d1a204f5f29ca0ef09_ref-3.webp",
-       "source_page": "https://rmsothebys.com/auctions/fl18/lots/r0196-1968-toyota-fj40-land-cruiser-hardtop/"
-      },
-      {
-       "role": "Front three-quarter from the left, whole vehicle: body proportions, wing flares, windscreen frame, door and hardtop windows, mirror, wheels (ignore the small plate on the bumper)",
-       "url": "https://cdn.muapi.ai/outputs/6e48ba054e64426eab876970ef82a7d3_ref-4.webp",
-       "source_page": "https://rmsothebys.com/auctions/fl18/lots/r0196-1968-toyota-fj40-land-cruiser-hardtop/"
-      },
-      {
-       "role": "Front detail: chrome TOYOTA letters on the black mesh grille between two round headlamps set in the white surround panel, round amber indicator lamps on stalks on top of each wing, bonnet catches, fog lamps",
-       "url": "https://cdn.muapi.ai/outputs/generated/eb8be04f82094551861e7669426aaab3.png",
-       "source_page": "https://rmsothebys.com/auctions/fl18/lots/r0196-1968-toyota-fj40-land-cruiser-hardtop/"
-      },
-      {
-       "role": "Rear three-quarter from the left: rear quarter and hardtop, round red reflector, tail lamp, on the rear panel a small round black-and-gold TOYOTA emblem, a clear reversing lamp, a cream TOYOTA badge with dark block letters in a chrome frame and a round cream 4 WHEEL DRIVE emblem with a red 4 (the plate is cropped away)",
-       "url": "https://cdn.muapi.ai/outputs/generated/673714b281b94a90a52adbf1dc838766.png",
-       "source_page": "https://rmsothebys.com/auctions/fl18/lots/r0196-1968-toyota-fj40-land-cruiser-hardtop/"
-      },
-      {
-       "role": "Cowl badge close-up: chrome TOYOTA script above a chrome Land Cruiser script on the cowl side, small amber side marker lamp ahead of them, chrome bonnet catch",
-       "url": "https://cdn.muapi.ai/outputs/399f8b161bcc4f42a1b4230de4de1230_ref-7.webp",
-       "source_page": "https://rmsothebys.com/auctions/fl18/lots/r0196-1968-toyota-fj40-land-cruiser-hardtop/"
-      },
-      {
-       "role": "Wheel detail: grey-painted steel wheel with a domed polished stainless hubcap, black tyre with a traction-lug tread",
-       "url": "https://cdn.muapi.ai/outputs/12a002d4bcfd42f49afd2b78ebc49330_ref-8.webp",
-       "source_page": "https://rmsothebys.com/auctions/fl18/lots/r0196-1968-toyota-fj40-land-cruiser-hardtop/"
-      }
-     ],
-     "source": "pipeline/studio-twenty-20260930/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "2292768e-b243-41f9-85bb-0c0cda3fe1f8",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-30T14:10:42.206235+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/2292768e-b243-41f9-85bb-0c0cda3fe1f8_d5ab2ff0.png",
-     "page_url": "https://muapi.ai/predictions/2292768e-b243-41f9-85bb-0c0cda3fe1f8",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-twenty-20260930/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "c03f01f0-5363-437f-9766-9c805a13f9d8",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-30T14:10:44.075294+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/c03f01f0-5363-437f-9766-9c805a13f9d8_ad350ea2.png",
-     "page_url": "https://muapi.ai/predictions/c03f01f0-5363-437f-9766-9c805a13f9d8",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-twenty-20260930/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "f85f5a15-7eda-42c1-9361-9930c486c9c2",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-09-30T14:10:45.827361+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/f85f5a15-7eda-42c1-9361-9930c486c9c2_917c1c1d.png",
-     "page_url": "https://muapi.ai/predictions/f85f5a15-7eda-42c1-9361-9930c486c9c2",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-twenty-20260930/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "a2a91b20-6870-4530-ad18-2fbdf1cc6d83",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-01T00:16:22.651973+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/a2a91b20-6870-4530-ad18-2fbdf1cc6d83_cdce2e46.png",
-     "page_url": "https://muapi.ai/predictions/a2a91b20-6870-4530-ad18-2fbdf1cc6d83",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-twenty-20260930/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-09-30T05:37:05.723116+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-01T00:16:22.651973+00:00",
     "updated_source": "MuAPI edit"
    },
    "status": {
@@ -7810,6 +5974,316 @@
     "meaning": "approved; prints, photos, copy and Notion being built",
     "order": 4
    }
+  },
+  {
+   "key": "studio-front-20261001-native13-volvo-850-t5r",
+   "name": "Volvo 850 T-5R Estate",
+   "preview": "assets/studio-front-20261001-native13-volvo-850-t5r.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "eccaf241a70692ceb5780cfedde99db47c3351b946e071e2d01c465d46a50d64",
+   "source_file": "pipeline/one-cycle-20260926/lots/t5r/lot/print-60x80.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "FORMA / MOTION",
+   "ledger_selected_sha256": "3904d0e227c8671c03e8e8c84eb6113c7f979dfe61cd29e8dd3f9c6c230fb159",
+   "approved_source_sha256": "3904d0e227c8671c03e8e8c84eb6113c7f979dfe61cd29e8dd3f9c6c230fb159",
+   "photo_count": 8,
+   "notion_url": "https://app.notion.com/p/3d9219427f698198ac5ddacf21daeb39",
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-front-20261001-native13-volvo-850-t5r.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/eccaf241a706-studio-front-20261001-native13-volvo-850-t5r.jpg",
+   "full_source_sha256": "eccaf241a70692ceb5780cfedde99db47c3351b946e071e2d01c465d46a50d64",
+   "full_source_bytes": 25038517,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Forma / Motion",
+   "edition": null,
+   "collection_category": "Forma / Motion",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Forma / Motion",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 100
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-01T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-01T16:19:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-front-20261001-review-07-orange-margin",
+   "name": "Nissan Fairlady Z432",
+   "preview": "assets/studio-front-20261001-review-07-orange-margin.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "3fb424f39e3ffd13772fc6e1d2ce7332e46181c213818e94a661216949ef3a81",
+   "source_file": "pipeline/one-cycle-20260926/lots/z432/lot/print-60x80.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "SPORT / LEICHT",
+   "ledger_selected_sha256": "9896f1fab7ff27d91d21a2fd490ae5fbbbfaa3d5ae48e63fa30e9637c2ba51be",
+   "approved_source_sha256": "9896f1fab7ff27d91d21a2fd490ae5fbbbfaa3d5ae48e63fa30e9637c2ba51be",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-front-20261001-review-07-orange-margin.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/3fb424f39e3f-studio-front-20261001-review-07-orange-margin.jpg",
+   "full_source_sha256": "3fb424f39e3ffd13772fc6e1d2ce7332e46181c213818e94a661216949ef3a81",
+   "full_source_bytes": 17397163,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Sport / Leicht",
+   "edition": null,
+   "collection_category": "Sport / Leicht",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-01T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-01T16:19:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-front-20261001-new-ferrari-512bb",
+   "name": "Ferrari 512 BB",
+   "preview": "assets/studio-front-20261001-new-ferrari-512bb.jpg",
+   "preview_pixels": [
+    1600,
+    1200
+   ],
+   "source_sha256": "ebd9d953f3c4a9205e511549d79f07ce28b7b088a99ca809afd6681ff5995e97",
+   "source_file": "pipeline/one-cycle-20260926/lots/bb512/lot/print-80x60.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "GRAN TURISMO",
+   "ledger_selected_sha256": "f99b4c8299cfd7050d753aa5e36ab46ec821df82e660b4c2bfe24c46c96386bd",
+   "approved_source_sha256": "f99b4c8299cfd7050d753aa5e36ab46ec821df82e660b4c2bfe24c46c96386bd",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-front-20261001-new-ferrari-512bb.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/ebd9d953f3c4-studio-front-20261001-new-ferrari-512bb.jpg",
+   "full_source_sha256": "ebd9d953f3c4a9205e511549d79f07ce28b7b088a99ca809afd6681ff5995e97",
+   "full_source_bytes": 12942548,
+   "full_source_pixels": [
+    9449,
+    7087
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Gran Turismo",
+   "edition": null,
+   "collection_category": "Gran Turismo",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Gran Turismo",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-01T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-01T16:19:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-twenty-20260930-wave01-toyota-fj40",
+   "name": "Toyota Land Cruiser FJ40",
+   "preview": "assets/studio-twenty-20260930-wave01-toyota-fj40.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "c83b648091440aac2e98566e6de063ef740e251a5e63ac2520fc09e16a8bf81d",
+   "source_file": "pipeline/one-cycle-20260926/lots/fj40/lot/print-60x80.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "STUDIO DI FORMA",
+   "ledger_selected_sha256": "3ea05c2c692b793de64e92aa58766e7f77807da26720856f749cd151ec46c1e2",
+   "approved_source_sha256": "3ea05c2c692b793de64e92aa58766e7f77807da26720856f749cd151ec46c1e2",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-twenty-20260930-wave01-toyota-fj40.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/c83b64809144-studio-twenty-20260930-wave01-toyota-fj40.jpg",
+   "full_source_sha256": "c83b648091440aac2e98566e6de063ef740e251a5e63ac2520fc09e16a8bf81d",
+   "full_source_bytes": 20102015,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Studio Di Forma",
+   "edition": null,
+   "collection_category": "Studio Di Forma",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Studio Di Forma",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 50
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-01T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-01T16:19:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-twenty-20260930-new-delorean-dmc12",
+   "name": "DeLorean DMC-12",
+   "preview": "assets/studio-twenty-20260930-new-delorean-dmc12.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "3a15f1aade1d418cd682135acb7b285b5e2292d0cbfa360cb00c54974373bfcd",
+   "source_file": "pipeline/one-cycle-20260926/lots/dmc12/lot/print-60x80.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "AMERICAN FORM",
+   "ledger_selected_sha256": "46efe88fde1b66e0ae68b714fcfa5483c26e510008e28ecdad8208045ec29598",
+   "approved_source_sha256": "46efe88fde1b66e0ae68b714fcfa5483c26e510008e28ecdad8208045ec29598",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-twenty-20260930-new-delorean-dmc12.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/3a15f1aade1d-studio-twenty-20260930-new-delorean-dmc12.jpg",
+   "full_source_sha256": "3a15f1aade1d418cd682135acb7b285b5e2292d0cbfa360cb00c54974373bfcd",
+   "full_source_bytes": 22961899,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "American Form",
+   "edition": null,
+   "collection_category": "American Form",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "American Form",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-01T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-01T16:19:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
   }
  ],
  "excluded_keys": [
@@ -7983,7 +6457,7 @@
    "key": "studio-twenty-20260930-new-delorean-dmc12",
    "declared_sha256": "46efe88fde1b66e0ae68b714fcfa5483c26e510008e28ecdad8208045ec29598",
    "applied": false,
-   "reason": "dropped by the owner: 2026-10-01T01:48:00+02:00"
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-twenty-20260930-new-vw-t1-samba",
@@ -7994,12 +6468,8 @@
   {
    "key": "studio-twenty-20260930-wave01-toyota-fj40",
    "declared_sha256": "3ea05c2c692b793de64e92aa58766e7f77807da26720856f749cd151ec46c1e2",
-   "applied": true,
-   "preview": "assets/studio-twenty-20260930-wave01-toyota-fj40-3ea05c2c692b-current.jpg",
-   "pixels": [
-    2480,
-    3312
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-twenty-20260930-new-audi-sport-quattro",
@@ -8102,62 +6572,38 @@
   {
    "key": "studio-front-20261001-new-ferrari-512bb",
    "declared_sha256": "f99b4c8299cfd7050d753aa5e36ab46ec821df82e660b4c2bfe24c46c96386bd",
-   "applied": true,
-   "preview": "assets/studio-front-20261001-new-ferrari-512bb-f99b4c8299cf-current.jpg",
-   "pixels": [
-    3312,
-    2480
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-front-20261001-review-07-orange-margin",
    "declared_sha256": "9896f1fab7ff27d91d21a2fd490ae5fbbbfaa3d5ae48e63fa30e9637c2ba51be",
-   "applied": true,
-   "preview": "assets/studio-front-20261001-review-07-orange-margin-9896f1fab7ff-current.jpg",
-   "pixels": [
-    2480,
-    3312
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-front-20261001-new-nissan-skyline-r32-gtr",
    "declared_sha256": "e55401d40162911d435bacac5f1fe788266e94e45b94b821b56bad32a978e270",
-   "applied": true,
-   "preview": "assets/studio-front-20261001-new-nissan-skyline-r32-gtr-e55401d40162-current.jpg",
-   "pixels": [
-    3312,
-    2480
-   ]
+   "applied": false,
+   "reason": "dropped by the owner: 2026-10-01T16:19:00+02:00"
   },
   {
    "key": "studio-front-20261001-new-delorean-dmc12",
    "declared_sha256": "a6d3e28f3ea19e2be087459609066a706d2e24d31472f06a7f7e73df6d204049",
-   "applied": true,
-   "preview": "assets/studio-front-20261001-new-delorean-dmc12-a6d3e28f3ea1-current.jpg",
-   "pixels": [
-    2480,
-    3312
-   ]
+   "applied": false,
+   "reason": "dropped by the owner: 2026-10-01T16:19:00+02:00"
   },
   {
    "key": "studio-front-20261001-review-12-a-small-blue-day",
    "declared_sha256": "925062e67896454e19e517ce14b895a18a571bc3bc7a9ef75b9a9ea47cbfc4e7",
-   "applied": true,
-   "preview": "assets/studio-front-20261001-review-12-a-small-blue-day-925062e67896-current.jpg",
-   "pixels": [
-    3312,
-    2480
-   ]
+   "applied": false,
+   "reason": "dropped by the owner: 2026-10-01T16:19:00+02:00"
   },
   {
    "key": "studio-front-20261001-native13-volvo-850-t5r",
    "declared_sha256": "3904d0e227c8671c03e8e8c84eb6113c7f979dfe61cd29e8dd3f9c6c230fb159",
-   "applied": true,
-   "preview": "assets/studio-front-20261001-native13-volvo-850-t5r-3904d0e227c8-current.jpg",
-   "pixels": [
-    2480,
-    3312
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-next-20260920-bugatti-eb110-ss",

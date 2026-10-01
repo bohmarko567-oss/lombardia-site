@@ -1,5 +1,5 @@
 {
- "built": "2026-10-01 03:40",
+ "built": "2026-10-01 17:39",
  "items": [
   {
    "key": "911-carrera-rs27-1973-sport-white-45x60",
@@ -590,6 +590,48 @@
    "basis": "approval"
   },
   {
+   "key": "studio-front-20261001-native13-volvo-850-t5r",
+   "file": "artwork/eccaf241a706-studio-front-20261001-native13-volvo-850-t5r.jpg",
+   "sha256": "eccaf241a70692ceb5780cfedde99db47c3351b946e071e2d01c465d46a50d64",
+   "bytes": 25038517,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/t5r/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-01T16:19:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-front-20261001-new-ferrari-512bb",
+   "file": "artwork/ebd9d953f3c4-studio-front-20261001-new-ferrari-512bb.jpg",
+   "sha256": "ebd9d953f3c4a9205e511549d79f07ce28b7b088a99ca809afd6681ff5995e97",
+   "bytes": 12942548,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/bb512/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-01T16:19:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-front-20261001-review-07-orange-margin",
+   "file": "artwork/3fb424f39e3f-studio-front-20261001-review-07-orange-margin.jpg",
+   "sha256": "3fb424f39e3ffd13772fc6e1d2ce7332e46181c213818e94a661216949ef3a81",
+   "bytes": 17397163,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/z432/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-01T16:19:00+02:00)",
+   "basis": "approval"
+  },
+  {
    "key": "studio-next-20260920-aston-martin-db5",
    "file": "artwork/90354d001682-studio-next-20260920-aston-martin-db5.jpg",
    "sha256": "90354d001682913949deda3cf51c5a72a99ce6699e9216262283b4b02799abe5",
@@ -702,6 +744,20 @@
    "basis": "approval"
   },
   {
+   "key": "studio-twenty-20260930-new-delorean-dmc12",
+   "file": "artwork/3a15f1aade1d-studio-twenty-20260930-new-delorean-dmc12.jpg",
+   "sha256": "3a15f1aade1d418cd682135acb7b285b5e2292d0cbfa360cb00c54974373bfcd",
+   "bytes": 22961899,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/dmc12/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-01T16:19:00+02:00)",
+   "basis": "approval"
+  },
+  {
    "key": "studio-twenty-20260930-new-ferrari-dino-246gt",
    "file": "artwork/e439ad0822ce-studio-twenty-20260930-new-ferrari-dino-246gt.jpg",
    "sha256": "e439ad0822ceadd19c6919ce6973544d1ef44cadc03b0d93ecacd64596bb6b81",
@@ -783,6 +839,20 @@
    "format": "JPEG",
    "source": "pipeline/one-cycle-20260926/lots/t2000gt/lot/print-80x60.jpg",
    "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-01T01:48:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-twenty-20260930-wave01-toyota-fj40",
+   "file": "artwork/c83b64809144-studio-twenty-20260930-wave01-toyota-fj40.jpg",
+   "sha256": "c83b648091440aac2e98566e6de063ef740e251a5e63ac2520fc09e16a8bf81d",
+   "bytes": 20102015,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/fj40/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-01T16:19:00+02:00)",
    "basis": "approval"
   },
   {
