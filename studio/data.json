@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-03 02:38",
+ "built": "2026-10-03 03:09",
  "accessed_date": "2026-10-03",
  "collections": [
   "American Form",
@@ -1219,6 +1219,1846 @@
     "created_at": "2026-09-20T17:38:47.632726+00:00",
     "created_source": "MuAPI original",
     "updated_at": "2026-09-20T17:38:47.632726+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-free-20261003-ferrari-daytona",
+   "name": "Ferrari 365 GTB/4 Daytona - FREE",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-free-20261003-ferrari-daytona-2e7d390c3875-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-free-20261003/f1/heroes/ferrari-daytona/final-native.png",
+   "source_sha256": "2e7d390c38759084da9feb459f817a72b7dd9184686e0fd16d002766a141f14c",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-10-03T01:04:47.390716+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "e8236c9a-27d3-47d4-b71a-944dffeb8b25",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-03T01:00:42.526709+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e8236c9a-27d3-47d4-b71a-944dffeb8b25_2896aa15.png",
+     "page_url": "https://muapi.ai/predictions/e8236c9a-27d3-47d4-b71a-944dffeb8b25",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the long bonnet, the raised pop-up headlamp pods with two round lamps each, the chrome corner bumperettes, the amber indicators wrapping round the front corners, the five-spoke wheels (ignore the plate and the coloured light)",
+       "url": "https://cdn.muapi.ai/outputs/cb243eb0b7e248bd92fc03cfb3df6907_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
+      },
+      {
+       "role": "Front three-quarter from the left at eye level: the nose with its raised headlamp pods, the central black intake, the small Ferrari badge on the nose, the chrome bumperettes (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/e00f65d6bd6e4df19fd8f4468880999d_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
+      },
+      {
+       "role": "Front three-quarter from the right: the right flank, the raised headlamp pods, the five-spoke wheels (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/f14dd0c1038b446781d69f10957f8505_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
+      },
+      {
+       "role": "Side profile (left side): proportions - long bonnet, cabin set far back, short tail; the crease along the flank; wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/e6c94efe2c6b48898afda1f49c76e240_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
+      },
+      {
+       "role": "Nose badge close-up: small rectangular enamel Ferrari badge - yellow field, black prancing horse, green-white-red stripe on top, Ferrari script at the bottom",
+       "url": "https://cdn.muapi.ai/outputs/25273b0d0da8468aa61d2a52a3bb216c_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
+      },
+      {
+       "role": "Front wing close-up: small chrome Disegno di pininfarina plaque low on the front wing behind the wheel, a small round amber side repeater above it",
+       "url": "https://cdn.muapi.ai/outputs/58f2565fbf184f0a9bd27151ab8b3a65_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
+      },
+      {
+       "role": "Front corner close-up: amber indicator lens wrapping round the front corner, the end of the chrome bumperette",
+       "url": "https://cdn.muapi.ai/outputs/585256853e1644c1bb8faafb9c15c119_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
+      },
+      {
+       "role": "Wheel close-up: silver five-spoke star alloy with a chrome two-eared knock-off spinner (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/0cc9a5e239224d418bb8965fafe36d60_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Gran Turismo",
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
+   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'; 02:43 'i want a full freedom in creatives yet a few little tweaks to improve it'. Raw heroes for approval 1.",
+   "full_source_url": "full/2e7d390c3875-studio-free-20261003-ferrari-daytona.png",
+   "full_source_sha256": "2e7d390c38759084da9feb459f817a72b7dd9184686e0fd16d002766a141f14c",
+   "full_source_bytes": 11129877,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Gran Turismo",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "e8236c9a-27d3-47d4-b71a-944dffeb8b25",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:00:42.526709+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e8236c9a-27d3-47d4-b71a-944dffeb8b25_2896aa15.png",
+     "page_url": "https://muapi.ai/predictions/e8236c9a-27d3-47d4-b71a-944dffeb8b25",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the long bonnet, the raised pop-up headlamp pods with two round lamps each, the chrome corner bumperettes, the amber indicators wrapping round the front corners, the five-spoke wheels (ignore the plate and the coloured light)",
+       "url": "https://cdn.muapi.ai/outputs/cb243eb0b7e248bd92fc03cfb3df6907_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
+      },
+      {
+       "role": "Front three-quarter from the left at eye level: the nose with its raised headlamp pods, the central black intake, the small Ferrari badge on the nose, the chrome bumperettes (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/e00f65d6bd6e4df19fd8f4468880999d_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
+      },
+      {
+       "role": "Front three-quarter from the right: the right flank, the raised headlamp pods, the five-spoke wheels (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/f14dd0c1038b446781d69f10957f8505_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
+      },
+      {
+       "role": "Side profile (left side): proportions - long bonnet, cabin set far back, short tail; the crease along the flank; wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/e6c94efe2c6b48898afda1f49c76e240_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
+      },
+      {
+       "role": "Nose badge close-up: small rectangular enamel Ferrari badge - yellow field, black prancing horse, green-white-red stripe on top, Ferrari script at the bottom",
+       "url": "https://cdn.muapi.ai/outputs/25273b0d0da8468aa61d2a52a3bb216c_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
+      },
+      {
+       "role": "Front wing close-up: small chrome Disegno di pininfarina plaque low on the front wing behind the wheel, a small round amber side repeater above it",
+       "url": "https://cdn.muapi.ai/outputs/58f2565fbf184f0a9bd27151ab8b3a65_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
+      },
+      {
+       "role": "Front corner close-up: amber indicator lens wrapping round the front corner, the end of the chrome bumperette",
+       "url": "https://cdn.muapi.ai/outputs/585256853e1644c1bb8faafb9c15c119_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
+      },
+      {
+       "role": "Wheel close-up: silver five-spoke star alloy with a chrome two-eared knock-off spinner (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/0cc9a5e239224d418bb8965fafe36d60_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
+      }
+     ],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-03T01:00:42.526709+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-03T01:04:47.390716+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-free-20261003-plymouth-hemi-cuda",
+   "name": "Plymouth Hemi 'Cuda - FREE",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-free-20261003-plymouth-hemi-cuda-0b714d5c915b-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-free-20261003/f1/heroes/plymouth-hemi-cuda/final-native.png",
+   "source_sha256": "0b714d5c915bf350c09697b4cbb0dfa34b77063646a2a1b2057b2ca9dcf59562",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-10-03T01:04:51.774116+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "44c26a38-f577-4db4-97bb-a3ca52e3b0b3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-03T01:00:47.869728+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/44c26a38-f577-4db4-97bb-a3ca52e3b0b3_340322a5.png",
+     "page_url": "https://muapi.ai/predictions/44c26a38-f577-4db4-97bb-a3ca52e3b0b3",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the split grille with one round headlamp at each end, the chrome bumper, the shaker scoop rising through the bonnet, body-colour mirrors, Rallye wheels",
+       "url": "https://cdn.muapi.ai/outputs/554bff2eaec743e99afb72fb7841f2c9_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/az19/lots/r0114-1970-plymouth-cuda-426450-hardtop/"
+      },
+      {
+       "role": "Front: the two-part grille - each half a silver surround with dark horizontal bars and a thin red line - split by the body-colour centre peak, PLYMOUTH letters on the car's left grille half, one round headlamp at each end, the full-width chrome bumper, two round road lamps below it in the body-colour valance, the shaker scoop, both mirrors, the aerial on the car's left front wing",
+       "url": "https://cdn.muapi.ai/outputs/a50f43ca9a2343e7bbb55d199b69abeb_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/az19/lots/r0114-1970-plymouth-cuda-426450-hardtop/"
+      },
+      {
+       "role": "Side profile (left side): proportions, long bonnet and short deck, the black HEMI billboard stripe on the rear quarter, the black sill moulding, wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/6618c850ade1436fbbb63861d1fabcc2_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/az19/lots/r0114-1970-plymouth-cuda-426450-hardtop/"
+      },
+      {
+       "role": "Front three-quarter from the left, low: the nose, the shaker scoop, the wheels",
+       "url": "https://cdn.muapi.ai/outputs/368bf903bc3f426681a73256ff7ea555_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/az19/lots/r0114-1970-plymouth-cuda-426450-hardtop/"
+      },
+      {
+       "role": "Nose close-up: the grille half with the PLYMOUTH letters, the round headlamp, a chrome hood pin with its cable at the bonnet edge, a road lamp below the bumper",
+       "url": "https://cdn.muapi.ai/outputs/9cace43e2f584219b05c1a590642fa33_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/az19/lots/r0114-1970-plymouth-cuda-426450-hardtop/"
+      },
+      {
+       "role": "Shaker close-up: the silver shaker scoop with its small hemi cuda script",
+       "url": "https://cdn.muapi.ai/outputs/416debcf7e8249bf93a48bd2c2004b93_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/az19/lots/r0114-1970-plymouth-cuda-426450-hardtop/"
+      },
+      {
+       "role": "Wheel close-up: silver Rallye steel wheel with a chrome trim ring and a small centre cap, the black sill moulding (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/b1898b15b365478a9e6a676b03fecfb6_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/az19/lots/r0114-1970-plymouth-cuda-426450-hardtop/"
+      },
+      {
+       "role": "Mirror close-up: body-colour racing mirror on the door",
+       "url": "https://cdn.muapi.ai/outputs/4989fa30fc0340fc9acf2b84cac3c3ff_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/az19/lots/r0114-1970-plymouth-cuda-426450-hardtop/"
+      },
+      {
+       "role": "Flank close-up: the black HEMI billboard stripe on the rear quarter panel, its tall HEMI letters in body colour",
+       "url": "https://cdn.muapi.ai/outputs/35858b1e1d63496397e3c033800bce8d_ref-9.webp",
+       "source_page": "https://rmsothebys.com/auctions/az19/lots/r0114-1970-plymouth-cuda-426450-hardtop/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "American Form",
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
+   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'; 02:43 'i want a full freedom in creatives yet a few little tweaks to improve it'. Raw heroes for approval 1.",
+   "full_source_url": "full/0b714d5c915b-studio-free-20261003-plymouth-hemi-cuda.png",
+   "full_source_sha256": "0b714d5c915bf350c09697b4cbb0dfa34b77063646a2a1b2057b2ca9dcf59562",
+   "full_source_bytes": 11675848,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "American Form",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "44c26a38-f577-4db4-97bb-a3ca52e3b0b3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:00:47.869728+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/44c26a38-f577-4db4-97bb-a3ca52e3b0b3_340322a5.png",
+     "page_url": "https://muapi.ai/predictions/44c26a38-f577-4db4-97bb-a3ca52e3b0b3",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the split grille with one round headlamp at each end, the chrome bumper, the shaker scoop rising through the bonnet, body-colour mirrors, Rallye wheels",
+       "url": "https://cdn.muapi.ai/outputs/554bff2eaec743e99afb72fb7841f2c9_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/az19/lots/r0114-1970-plymouth-cuda-426450-hardtop/"
+      },
+      {
+       "role": "Front: the two-part grille - each half a silver surround with dark horizontal bars and a thin red line - split by the body-colour centre peak, PLYMOUTH letters on the car's left grille half, one round headlamp at each end, the full-width chrome bumper, two round road lamps below it in the body-colour valance, the shaker scoop, both mirrors, the aerial on the car's left front wing",
+       "url": "https://cdn.muapi.ai/outputs/a50f43ca9a2343e7bbb55d199b69abeb_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/az19/lots/r0114-1970-plymouth-cuda-426450-hardtop/"
+      },
+      {
+       "role": "Side profile (left side): proportions, long bonnet and short deck, the black HEMI billboard stripe on the rear quarter, the black sill moulding, wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/6618c850ade1436fbbb63861d1fabcc2_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/az19/lots/r0114-1970-plymouth-cuda-426450-hardtop/"
+      },
+      {
+       "role": "Front three-quarter from the left, low: the nose, the shaker scoop, the wheels",
+       "url": "https://cdn.muapi.ai/outputs/368bf903bc3f426681a73256ff7ea555_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/az19/lots/r0114-1970-plymouth-cuda-426450-hardtop/"
+      },
+      {
+       "role": "Nose close-up: the grille half with the PLYMOUTH letters, the round headlamp, a chrome hood pin with its cable at the bonnet edge, a road lamp below the bumper",
+       "url": "https://cdn.muapi.ai/outputs/9cace43e2f584219b05c1a590642fa33_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/az19/lots/r0114-1970-plymouth-cuda-426450-hardtop/"
+      },
+      {
+       "role": "Shaker close-up: the silver shaker scoop with its small hemi cuda script",
+       "url": "https://cdn.muapi.ai/outputs/416debcf7e8249bf93a48bd2c2004b93_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/az19/lots/r0114-1970-plymouth-cuda-426450-hardtop/"
+      },
+      {
+       "role": "Wheel close-up: silver Rallye steel wheel with a chrome trim ring and a small centre cap, the black sill moulding (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/b1898b15b365478a9e6a676b03fecfb6_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/az19/lots/r0114-1970-plymouth-cuda-426450-hardtop/"
+      },
+      {
+       "role": "Mirror close-up: body-colour racing mirror on the door",
+       "url": "https://cdn.muapi.ai/outputs/4989fa30fc0340fc9acf2b84cac3c3ff_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/az19/lots/r0114-1970-plymouth-cuda-426450-hardtop/"
+      },
+      {
+       "role": "Flank close-up: the black HEMI billboard stripe on the rear quarter panel, its tall HEMI letters in body colour",
+       "url": "https://cdn.muapi.ai/outputs/35858b1e1d63496397e3c033800bce8d_ref-9.webp",
+       "source_page": "https://rmsothebys.com/auctions/az19/lots/r0114-1970-plymouth-cuda-426450-hardtop/"
+      }
+     ],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-03T01:00:47.869728+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-03T01:04:51.774116+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-free-20261003-bmw-z8",
+   "name": "BMW Z8 - FREE",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-free-20261003-bmw-z8-19e0684e09b6-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-free-20261003/f1/heroes/bmw-z8/final-native.png",
+   "source_sha256": "19e0684e09b69024c53d257bfa108c599d98c4838f6956a592e30736ad1c4910",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-10-03T01:04:55.923205+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "2f71f078-56f0-4901-a8ed-e97d1b61796f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-03T01:00:53.612935+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2f71f078-56f0-4901-a8ed-e97d1b61796f_a8ddeb54.png",
+     "page_url": "https://muapi.ai/predictions/2f71f078-56f0-4901-a8ed-e97d1b61796f",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions with the top folded, the twin kidney grille, the headlamps, the chrome side gill, the red and black seats, the wheels (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/1896096313f3466191c3e2186ea39629_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu23/lots/r0069-2001-bmw-z8/"
+      },
+      {
+       "role": "Front: BMW roundel above the wide twin kidney grille, a round lamp in a chrome ring beside each kidney, large clear headlamps, amber indicators in the bumper corners, the lower intake, chrome mirrors (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/0d0823908e1341619d2c925cbabae677_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu23/lots/r0069-2001-bmw-z8/"
+      },
+      {
+       "role": "Side profile (left side): proportions - long bonnet, short tail, the chrome side gill behind the front wheel, top folded",
+       "url": "https://cdn.muapi.ai/outputs/e3cd1e4219344a90831f632c04d995f5_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu23/lots/r0069-2001-bmw-z8/"
+      },
+      {
+       "role": "Nose close-up: BMW roundel, the kidney grille with fine vertical bars in chrome surrounds, a round lamp in its chrome ring, a headlamp (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/44b57ac1b6064afa8d02699c625e0468_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu23/lots/r0069-2001-bmw-z8/"
+      },
+      {
+       "role": "Nose close-up from the other side: roundel, kidney, round lamp, headlamp, amber indicator (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/cefed2a25ff747fcbfc3351bffdf6f53_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu23/lots/r0069-2001-bmw-z8/"
+      },
+      {
+       "role": "Flank close-up: the chrome side gill with a small BMW roundel behind the front wheel, the double-spoke wheel with its BMW centre cap",
+       "url": "https://cdn.muapi.ai/outputs/f84db53c6b2345fdbae83973def3ae30_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu23/lots/r0069-2001-bmw-z8/"
+      },
+      {
+       "role": "Door mirror close-up: chrome mirror on a slim stalk",
+       "url": "https://cdn.muapi.ai/outputs/d5492e3d0f72490a92816d4653cd3df3_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu23/lots/r0069-2001-bmw-z8/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Forma / Motion",
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
+   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'; 02:43 'i want a full freedom in creatives yet a few little tweaks to improve it'. Raw heroes for approval 1.",
+   "full_source_url": "full/19e0684e09b6-studio-free-20261003-bmw-z8.png",
+   "full_source_sha256": "19e0684e09b69024c53d257bfa108c599d98c4838f6956a592e30736ad1c4910",
+   "full_source_bytes": 9250099,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Forma / Motion",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 100
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "2f71f078-56f0-4901-a8ed-e97d1b61796f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:00:53.612935+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2f71f078-56f0-4901-a8ed-e97d1b61796f_a8ddeb54.png",
+     "page_url": "https://muapi.ai/predictions/2f71f078-56f0-4901-a8ed-e97d1b61796f",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions with the top folded, the twin kidney grille, the headlamps, the chrome side gill, the red and black seats, the wheels (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/1896096313f3466191c3e2186ea39629_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu23/lots/r0069-2001-bmw-z8/"
+      },
+      {
+       "role": "Front: BMW roundel above the wide twin kidney grille, a round lamp in a chrome ring beside each kidney, large clear headlamps, amber indicators in the bumper corners, the lower intake, chrome mirrors (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/0d0823908e1341619d2c925cbabae677_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu23/lots/r0069-2001-bmw-z8/"
+      },
+      {
+       "role": "Side profile (left side): proportions - long bonnet, short tail, the chrome side gill behind the front wheel, top folded",
+       "url": "https://cdn.muapi.ai/outputs/e3cd1e4219344a90831f632c04d995f5_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu23/lots/r0069-2001-bmw-z8/"
+      },
+      {
+       "role": "Nose close-up: BMW roundel, the kidney grille with fine vertical bars in chrome surrounds, a round lamp in its chrome ring, a headlamp (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/44b57ac1b6064afa8d02699c625e0468_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu23/lots/r0069-2001-bmw-z8/"
+      },
+      {
+       "role": "Nose close-up from the other side: roundel, kidney, round lamp, headlamp, amber indicator (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/cefed2a25ff747fcbfc3351bffdf6f53_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu23/lots/r0069-2001-bmw-z8/"
+      },
+      {
+       "role": "Flank close-up: the chrome side gill with a small BMW roundel behind the front wheel, the double-spoke wheel with its BMW centre cap",
+       "url": "https://cdn.muapi.ai/outputs/f84db53c6b2345fdbae83973def3ae30_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu23/lots/r0069-2001-bmw-z8/"
+      },
+      {
+       "role": "Door mirror close-up: chrome mirror on a slim stalk",
+       "url": "https://cdn.muapi.ai/outputs/d5492e3d0f72490a92816d4653cd3df3_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/mu23/lots/r0069-2001-bmw-z8/"
+      }
+     ],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-03T01:00:53.612935+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-03T01:04:55.923205+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-free-20261003-vw-beetle-1967",
+   "name": "Volkswagen Beetle - FREE",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-free-20261003-vw-beetle-1967-780586aea2a3-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-free-20261003/f1/heroes/vw-beetle-1967/final-native.png",
+   "source_sha256": "780586aea2a33a1affbf6c9abd389eccd0182308d906a7572779854202fb0a37",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-10-03T01:06:32.287160+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "19c5fdd6-98ef-431b-8770-7ee270e45c58",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-03T01:01:27.901385+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/19c5fdd6-98ef-431b-8770-7ee270e45c58_40084aea.png",
+     "page_url": "https://muapi.ai/predictions/19c5fdd6-98ef-431b-8770-7ee270e45c58",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, round headlamps in the wings, the chrome bumper with its tall over-riders and tube bar, indicators on top of the wings, chrome trim, whitewall tyres (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/e6b48797cb774bcd83aa6bfe5a3a0707_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
+      },
+      {
+       "role": "Front three-quarter from the left, wider: the whole car (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/449f02c0d7b2423d8cf13b583c28789c_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
+      },
+      {
+       "role": "Front: the front bonnet with its chrome centre strip, both headlamps, the indicators on top of the wings, the bumper with over-riders and tube bar, the small oval horn grilles below the headlamps (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/8e85309df739432e81132b02ea239ba3_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
+      },
+      {
+       "role": "Left front wing: headlamp with its chrome ring, the indicator on top of the wing, the chrome bumper end, the wheel with whitewall tyre and chrome hubcap, the running board with its chrome trim",
+       "url": "https://cdn.muapi.ai/outputs/9ae0f70a37e04d53949a346ac00a9b3e_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
+      },
+      {
+       "role": "Bumper close-up: chrome blade bumper with two tall over-riders joined by a chrome tube bar, a small oval horn grille below the headlamp (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/038bf3d3dff24832954c9e02adf8ad46_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
+      },
+      {
+       "role": "Headlamp close-up: round headlamp with a chrome ring, the amber indicator on top of the wing, the horn grille",
+       "url": "https://cdn.muapi.ai/outputs/490e22f545d042b884ec4cfad5b6972e_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
+      },
+      {
+       "role": "Wheel close-up: Lotus White steel wheel with a domed chrome hubcap carrying the VW logo, whitewall tyre",
+       "url": "https://cdn.muapi.ai/outputs/632b7b2f3cf7495d8672cb45304ec75a_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
+      },
+      {
+       "role": "Front wing and door: the chrome trim along the running board, the door with its chrome handle",
+       "url": "https://cdn.muapi.ai/outputs/eca0a3ccae41401c817d34915188569d_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Studio Di Forma",
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
+   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'; 02:43 'i want a full freedom in creatives yet a few little tweaks to improve it'. Raw heroes for approval 1.",
+   "full_source_url": "full/780586aea2a3-studio-free-20261003-vw-beetle-1967.png",
+   "full_source_sha256": "780586aea2a33a1affbf6c9abd389eccd0182308d906a7572779854202fb0a37",
+   "full_source_bytes": 12010918,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Studio Di Forma",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 50
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "19c5fdd6-98ef-431b-8770-7ee270e45c58",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:01:27.901385+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/19c5fdd6-98ef-431b-8770-7ee270e45c58_40084aea.png",
+     "page_url": "https://muapi.ai/predictions/19c5fdd6-98ef-431b-8770-7ee270e45c58",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, round headlamps in the wings, the chrome bumper with its tall over-riders and tube bar, indicators on top of the wings, chrome trim, whitewall tyres (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/e6b48797cb774bcd83aa6bfe5a3a0707_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
+      },
+      {
+       "role": "Front three-quarter from the left, wider: the whole car (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/449f02c0d7b2423d8cf13b583c28789c_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
+      },
+      {
+       "role": "Front: the front bonnet with its chrome centre strip, both headlamps, the indicators on top of the wings, the bumper with over-riders and tube bar, the small oval horn grilles below the headlamps (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/8e85309df739432e81132b02ea239ba3_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
+      },
+      {
+       "role": "Left front wing: headlamp with its chrome ring, the indicator on top of the wing, the chrome bumper end, the wheel with whitewall tyre and chrome hubcap, the running board with its chrome trim",
+       "url": "https://cdn.muapi.ai/outputs/9ae0f70a37e04d53949a346ac00a9b3e_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
+      },
+      {
+       "role": "Bumper close-up: chrome blade bumper with two tall over-riders joined by a chrome tube bar, a small oval horn grille below the headlamp (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/038bf3d3dff24832954c9e02adf8ad46_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
+      },
+      {
+       "role": "Headlamp close-up: round headlamp with a chrome ring, the amber indicator on top of the wing, the horn grille",
+       "url": "https://cdn.muapi.ai/outputs/490e22f545d042b884ec4cfad5b6972e_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
+      },
+      {
+       "role": "Wheel close-up: Lotus White steel wheel with a domed chrome hubcap carrying the VW logo, whitewall tyre",
+       "url": "https://cdn.muapi.ai/outputs/632b7b2f3cf7495d8672cb45304ec75a_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
+      },
+      {
+       "role": "Front wing and door: the chrome trim along the running board, the door with its chrome handle",
+       "url": "https://cdn.muapi.ai/outputs/eca0a3ccae41401c817d34915188569d_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
+      }
+     ],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-03T01:01:27.901385+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-03T01:06:32.287160+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-free-20261003-alfa-montreal",
+   "name": "Alfa Romeo Montreal - FREE",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-free-20261003-alfa-montreal-eff7d1d216ee-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-free-20261003/f1/heroes/alfa-montreal/final-native.png",
+   "source_sha256": "eff7d1d216ee926146f2ee10cf50744b66b91d9589d944334d13302aba4cb011",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-10-03T01:06:36.581210+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "a5e3cc67-f1bf-47cc-a268-80e0dba3b962",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-03T01:01:33.401582+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a5e3cc67-f1bf-47cc-a268-80e0dba3b962_23f0b06c.png",
+     "page_url": "https://muapi.ai/predictions/a5e3cc67-f1bf-47cc-a268-80e0dba3b962",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the slatted headlamp eyelids, the Alfa shield, the bonnet duct, the six black slots on the rear pillar, the slotted alloy wheels",
+       "url": "https://cdn.muapi.ai/outputs/cebb81a188854343b9fe94285bac58e7_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/0520/lots/r0004-1972-alfa-romeo-montreal-by-bertone/"
+      },
+      {
+       "role": "Front: the chrome Alfa shield in the centre of the black grille band, twin round headlamps on each side half-covered by slatted eyelids, the chrome bumper blades, the clear lamps below them, the bonnet duct, door mirror",
+       "url": "https://cdn.muapi.ai/outputs/d80620733231489eaf981bae48eac940_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/0520/lots/r0004-1972-alfa-romeo-montreal-by-bertone/"
+      },
+      {
+       "role": "Side profile (left side): proportions, the six black slots on the rear pillar, the chrome waist line, wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/b95e1104c47a45c3a6604316e0728b61_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/0520/lots/r0004-1972-alfa-romeo-montreal-by-bertone/"
+      },
+      {
+       "role": "Front three-quarter from the right: the right flank and the nose",
+       "url": "https://cdn.muapi.ai/outputs/83dd9161830b439dae2fce767369536b_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/0520/lots/r0004-1972-alfa-romeo-montreal-by-bertone/"
+      },
+      {
+       "role": "Grille close-up: chrome Alfa Romeo shield with the round Alfa Romeo badge, the black grille band, the inner headlamps under the slats",
+       "url": "https://cdn.muapi.ai/outputs/ae846aefc87f42b992da9b4bbffa4e97_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/0520/lots/r0004-1972-alfa-romeo-montreal-by-bertone/"
+      },
+      {
+       "role": "Headlamp close-up: twin round headlamps under the slatted eyelid, the chrome bumper blade, the clear indicator below",
+       "url": "https://cdn.muapi.ai/outputs/cc4c6b7e38b646f0b02f7756fb7a13b6_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/0520/lots/r0004-1972-alfa-romeo-montreal-by-bertone/"
+      },
+      {
+       "role": "Bonnet duct close-up: the black duct on the bonnet in front of the windscreen",
+       "url": "https://cdn.muapi.ai/outputs/85e6483242ca46b0b7d84994dd1df309_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/0520/lots/r0004-1972-alfa-romeo-montreal-by-bertone/"
+      },
+      {
+       "role": "Pillar close-up: the six black horizontal slots on the rear pillar, the chrome door handle",
+       "url": "https://cdn.muapi.ai/outputs/a82b8561ae31419aa4b1d296cd5a86ce_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/0520/lots/r0004-1972-alfa-romeo-montreal-by-bertone/"
+      },
+      {
+       "role": "Wheel close-up: silver alloy with many narrow radial slots and a centre cap with the Alfa Romeo badge (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/d9f37fad18d94bceb98fc16006760be8_ref-9.webp",
+       "source_page": "https://rmsothebys.com/auctions/0520/lots/r0004-1972-alfa-romeo-montreal-by-bertone/"
+      },
+      {
+       "role": "Front wing close-up: the small Bertone emblem and the small striped plaque low on the front wing behind the wheel",
+       "url": "https://cdn.muapi.ai/outputs/14e97b8986f94663bbc0e2660593042f_ref-10.webp",
+       "source_page": "https://rmsothebys.com/auctions/0520/lots/r0004-1972-alfa-romeo-montreal-by-bertone/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Gran Turismo",
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
+   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'; 02:43 'i want a full freedom in creatives yet a few little tweaks to improve it'. Raw heroes for approval 1.",
+   "full_source_url": "full/eff7d1d216ee-studio-free-20261003-alfa-montreal.png",
+   "full_source_sha256": "eff7d1d216ee926146f2ee10cf50744b66b91d9589d944334d13302aba4cb011",
+   "full_source_bytes": 11879404,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Gran Turismo",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "a5e3cc67-f1bf-47cc-a268-80e0dba3b962",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:01:33.401582+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a5e3cc67-f1bf-47cc-a268-80e0dba3b962_23f0b06c.png",
+     "page_url": "https://muapi.ai/predictions/a5e3cc67-f1bf-47cc-a268-80e0dba3b962",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the slatted headlamp eyelids, the Alfa shield, the bonnet duct, the six black slots on the rear pillar, the slotted alloy wheels",
+       "url": "https://cdn.muapi.ai/outputs/cebb81a188854343b9fe94285bac58e7_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/0520/lots/r0004-1972-alfa-romeo-montreal-by-bertone/"
+      },
+      {
+       "role": "Front: the chrome Alfa shield in the centre of the black grille band, twin round headlamps on each side half-covered by slatted eyelids, the chrome bumper blades, the clear lamps below them, the bonnet duct, door mirror",
+       "url": "https://cdn.muapi.ai/outputs/d80620733231489eaf981bae48eac940_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/0520/lots/r0004-1972-alfa-romeo-montreal-by-bertone/"
+      },
+      {
+       "role": "Side profile (left side): proportions, the six black slots on the rear pillar, the chrome waist line, wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/b95e1104c47a45c3a6604316e0728b61_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/0520/lots/r0004-1972-alfa-romeo-montreal-by-bertone/"
+      },
+      {
+       "role": "Front three-quarter from the right: the right flank and the nose",
+       "url": "https://cdn.muapi.ai/outputs/83dd9161830b439dae2fce767369536b_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/0520/lots/r0004-1972-alfa-romeo-montreal-by-bertone/"
+      },
+      {
+       "role": "Grille close-up: chrome Alfa Romeo shield with the round Alfa Romeo badge, the black grille band, the inner headlamps under the slats",
+       "url": "https://cdn.muapi.ai/outputs/ae846aefc87f42b992da9b4bbffa4e97_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/0520/lots/r0004-1972-alfa-romeo-montreal-by-bertone/"
+      },
+      {
+       "role": "Headlamp close-up: twin round headlamps under the slatted eyelid, the chrome bumper blade, the clear indicator below",
+       "url": "https://cdn.muapi.ai/outputs/cc4c6b7e38b646f0b02f7756fb7a13b6_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/0520/lots/r0004-1972-alfa-romeo-montreal-by-bertone/"
+      },
+      {
+       "role": "Bonnet duct close-up: the black duct on the bonnet in front of the windscreen",
+       "url": "https://cdn.muapi.ai/outputs/85e6483242ca46b0b7d84994dd1df309_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/0520/lots/r0004-1972-alfa-romeo-montreal-by-bertone/"
+      },
+      {
+       "role": "Pillar close-up: the six black horizontal slots on the rear pillar, the chrome door handle",
+       "url": "https://cdn.muapi.ai/outputs/a82b8561ae31419aa4b1d296cd5a86ce_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/0520/lots/r0004-1972-alfa-romeo-montreal-by-bertone/"
+      },
+      {
+       "role": "Wheel close-up: silver alloy with many narrow radial slots and a centre cap with the Alfa Romeo badge (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/d9f37fad18d94bceb98fc16006760be8_ref-9.webp",
+       "source_page": "https://rmsothebys.com/auctions/0520/lots/r0004-1972-alfa-romeo-montreal-by-bertone/"
+      },
+      {
+       "role": "Front wing close-up: the small Bertone emblem and the small striped plaque low on the front wing behind the wheel",
+       "url": "https://cdn.muapi.ai/outputs/14e97b8986f94663bbc0e2660593042f_ref-10.webp",
+       "source_page": "https://rmsothebys.com/auctions/0520/lots/r0004-1972-alfa-romeo-montreal-by-bertone/"
+      }
+     ],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-03T01:01:33.401582+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-03T01:06:36.581210+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-free-20261003-jaguar-xj220",
+   "name": "Jaguar XJ220 - FREE",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-free-20261003-jaguar-xj220-0fe9350d4484-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-free-20261003/f1/heroes/jaguar-xj220/final-native.png",
+   "source_sha256": "0fe9350d4484cf90a9eaba6e6e2f65ceb68f81c12e9c52895ddc46784a55f186",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-10-03T01:06:40.919162+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "81226771-c001-463e-b38a-e208d7a116b7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-03T01:02:39.154240+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/81226771-c001-463e-b38a-e208d7a116b7_6f9864e9.png",
+     "page_url": "https://muapi.ai/predictions/81226771-c001-463e-b38a-e208d7a116b7",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the long low nose, the headlamp recesses, the long side intake ahead of the rear wheel, the silver wheels",
+       "url": "https://cdn.muapi.ai/outputs/93fde8607c9c4ca0b7a62cab3b347fe4_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
+      },
+      {
+       "role": "Front: the low nose, the two headlamp recesses, the wide oval grille opening with horizontal bars and the small Jaguar badge, amber indicators at the corners, black mirrors, wipers",
+       "url": "https://cdn.muapi.ai/outputs/ac290cca73b24b5ea51647dc5715f7e4_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
+      },
+      {
+       "role": "Side profile (left side): proportions, the long side intake, the cabin set forward of the long tail, wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/63e965cc279048a1b5ae0b0373546873_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
+      },
+      {
+       "role": "Grille close-up: small round Jaguar growler badge on the horizontal grille bars",
+       "url": "https://cdn.muapi.ai/outputs/6ab181e77e3b4deba3bafa95afefae1f_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
+      },
+      {
+       "role": "Flank close-up: the side intake with its mesh, the silver XJ220 lettering low on the door, the silver wheel",
+       "url": "https://cdn.muapi.ai/outputs/1d10ecbe25bf460fb888693fd967e5c1_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
+      },
+      {
+       "role": "Headlamp recess close-up: two round lamps side by side under a clear cover in the recess",
+       "url": "https://cdn.muapi.ai/outputs/3a57f9d7ae714d77bb975ea1a73e4cc3_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
+      },
+      {
+       "role": "Headlamp close-up: the two round lamps",
+       "url": "https://cdn.muapi.ai/outputs/19eb1853b3dc436ea02779b43a7ce7eb_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
+      },
+      {
+       "role": "Wheel close-up: silver dish wheel with ventilation slots round the edge and a centre cap with the Jaguar emblem (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/f4a8dd1f633d4825bf65ee8e0bb94516_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
+      },
+      {
+       "role": "Door mirror close-up: black mirror on its stalk",
+       "url": "https://cdn.muapi.ai/outputs/9c7c3b7d90b442c6b6572613194afb4f_ref-9.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Forma / Motion",
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
+   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'; 02:43 'i want a full freedom in creatives yet a few little tweaks to improve it'. Raw heroes for approval 1.",
+   "full_source_url": "full/0fe9350d4484-studio-free-20261003-jaguar-xj220.png",
+   "full_source_sha256": "0fe9350d4484cf90a9eaba6e6e2f65ceb68f81c12e9c52895ddc46784a55f186",
+   "full_source_bytes": 10844508,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Forma / Motion",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 100
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "81226771-c001-463e-b38a-e208d7a116b7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:02:39.154240+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/81226771-c001-463e-b38a-e208d7a116b7_6f9864e9.png",
+     "page_url": "https://muapi.ai/predictions/81226771-c001-463e-b38a-e208d7a116b7",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the long low nose, the headlamp recesses, the long side intake ahead of the rear wheel, the silver wheels",
+       "url": "https://cdn.muapi.ai/outputs/93fde8607c9c4ca0b7a62cab3b347fe4_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
+      },
+      {
+       "role": "Front: the low nose, the two headlamp recesses, the wide oval grille opening with horizontal bars and the small Jaguar badge, amber indicators at the corners, black mirrors, wipers",
+       "url": "https://cdn.muapi.ai/outputs/ac290cca73b24b5ea51647dc5715f7e4_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
+      },
+      {
+       "role": "Side profile (left side): proportions, the long side intake, the cabin set forward of the long tail, wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/63e965cc279048a1b5ae0b0373546873_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
+      },
+      {
+       "role": "Grille close-up: small round Jaguar growler badge on the horizontal grille bars",
+       "url": "https://cdn.muapi.ai/outputs/6ab181e77e3b4deba3bafa95afefae1f_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
+      },
+      {
+       "role": "Flank close-up: the side intake with its mesh, the silver XJ220 lettering low on the door, the silver wheel",
+       "url": "https://cdn.muapi.ai/outputs/1d10ecbe25bf460fb888693fd967e5c1_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
+      },
+      {
+       "role": "Headlamp recess close-up: two round lamps side by side under a clear cover in the recess",
+       "url": "https://cdn.muapi.ai/outputs/3a57f9d7ae714d77bb975ea1a73e4cc3_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
+      },
+      {
+       "role": "Headlamp close-up: the two round lamps",
+       "url": "https://cdn.muapi.ai/outputs/19eb1853b3dc436ea02779b43a7ce7eb_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
+      },
+      {
+       "role": "Wheel close-up: silver dish wheel with ventilation slots round the edge and a centre cap with the Jaguar emblem (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/f4a8dd1f633d4825bf65ee8e0bb94516_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
+      },
+      {
+       "role": "Door mirror close-up: black mirror on its stalk",
+       "url": "https://cdn.muapi.ai/outputs/9c7c3b7d90b442c6b6572613194afb4f_ref-9.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
+      }
+     ],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-03T01:02:39.154240+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-03T01:06:40.919162+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-free-20261003-porsche-993-turbo",
+   "name": "Porsche 911 Turbo (993) - FREE",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-free-20261003-porsche-993-turbo-638ef0965822-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-free-20261003/f1/heroes/porsche-993-turbo/final-native.png",
+   "source_sha256": "638ef096582297eb7e15472901967d8ffd8c8a1b2b08f27e2c79950121c175a8",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-10-03T01:06:45.221509+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "48c597a2-06f0-4ba3-8e0d-efb8f8c1520a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-03T01:02:44.627521+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/48c597a2-06f0-4ba3-8e0d-efb8f8c1520a_81d74874.png",
+     "page_url": "https://muapi.ai/predictions/48c597a2-06f0-4ba3-8e0d-efb8f8c1520a",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the wide rear arches, the round headlamps, the fixed rear wing, the hollow-spoke wheels (ignore the plate bracket)",
+       "url": "https://cdn.muapi.ai/outputs/9561031fbdfb41b093ff406aa8ec7d20_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
+      },
+      {
+       "role": "Front: round clear headlamps with projector lamps, the Porsche crest on the bonnet, the front bumper with the indicator units and the central intake, both mirrors (ignore the plate bracket)",
+       "url": "https://cdn.muapi.ai/outputs/08eac068fcc046d9b3a086d429314e85_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
+      },
+      {
+       "role": "Side profile (left side): proportions, the wide rear arch, the fixed rear wing, wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/0b1f42c3659446babbff42102b78c119_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
+      },
+      {
+       "role": "High front three-quarter from the right: bonnet, roof, wings",
+       "url": "https://cdn.muapi.ai/outputs/2c6c5754a4e94ea891b82f783d4ff4bd_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
+      },
+      {
+       "role": "From above: bonnet with the crest, the windscreen, the roof",
+       "url": "https://cdn.muapi.ai/outputs/b298c33ea7b94190b29c66f73ee75dcb_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
+      },
+      {
+       "role": "Bonnet close-up: the Porsche crest at the front edge of the bonnet, a headlamp",
+       "url": "https://cdn.muapi.ai/outputs/230b9289f92e4b528372837e439a139e_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
+      },
+      {
+       "role": "Front corner close-up: headlamp, the amber and clear indicator unit in the bumper with a small black guard beside it",
+       "url": "https://cdn.muapi.ai/outputs/7dc5306a59824bc2a5cfcc9e40778591_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
+      },
+      {
+       "role": "Headlamp close-up: clear headlamp with projector units",
+       "url": "https://cdn.muapi.ai/outputs/4720c5cfccff452ca1535419043d95f2_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
+      },
+      {
+       "role": "Wheel close-up: silver hollow-spoke five-spoke alloy with the Porsche crest centre cap, red brake caliper (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/4ee227148bff4514825776c99943cc4d_ref-9.webp",
+       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
+      },
+      {
+       "role": "Door mirror close-up: body-colour mirror",
+       "url": "https://cdn.muapi.ai/outputs/833afbfbdf8a43f99bbd3c479a9ee23b_ref-10.webp",
+       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Forma / Motion",
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
+   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'; 02:43 'i want a full freedom in creatives yet a few little tweaks to improve it'. Raw heroes for approval 1.",
+   "full_source_url": "full/638ef0965822-studio-free-20261003-porsche-993-turbo.png",
+   "full_source_sha256": "638ef096582297eb7e15472901967d8ffd8c8a1b2b08f27e2c79950121c175a8",
+   "full_source_bytes": 10826182,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Forma / Motion",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 100
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "48c597a2-06f0-4ba3-8e0d-efb8f8c1520a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:02:44.627521+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/48c597a2-06f0-4ba3-8e0d-efb8f8c1520a_81d74874.png",
+     "page_url": "https://muapi.ai/predictions/48c597a2-06f0-4ba3-8e0d-efb8f8c1520a",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the wide rear arches, the round headlamps, the fixed rear wing, the hollow-spoke wheels (ignore the plate bracket)",
+       "url": "https://cdn.muapi.ai/outputs/9561031fbdfb41b093ff406aa8ec7d20_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
+      },
+      {
+       "role": "Front: round clear headlamps with projector lamps, the Porsche crest on the bonnet, the front bumper with the indicator units and the central intake, both mirrors (ignore the plate bracket)",
+       "url": "https://cdn.muapi.ai/outputs/08eac068fcc046d9b3a086d429314e85_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
+      },
+      {
+       "role": "Side profile (left side): proportions, the wide rear arch, the fixed rear wing, wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/0b1f42c3659446babbff42102b78c119_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
+      },
+      {
+       "role": "High front three-quarter from the right: bonnet, roof, wings",
+       "url": "https://cdn.muapi.ai/outputs/2c6c5754a4e94ea891b82f783d4ff4bd_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
+      },
+      {
+       "role": "From above: bonnet with the crest, the windscreen, the roof",
+       "url": "https://cdn.muapi.ai/outputs/b298c33ea7b94190b29c66f73ee75dcb_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
+      },
+      {
+       "role": "Bonnet close-up: the Porsche crest at the front edge of the bonnet, a headlamp",
+       "url": "https://cdn.muapi.ai/outputs/230b9289f92e4b528372837e439a139e_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
+      },
+      {
+       "role": "Front corner close-up: headlamp, the amber and clear indicator unit in the bumper with a small black guard beside it",
+       "url": "https://cdn.muapi.ai/outputs/7dc5306a59824bc2a5cfcc9e40778591_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
+      },
+      {
+       "role": "Headlamp close-up: clear headlamp with projector units",
+       "url": "https://cdn.muapi.ai/outputs/4720c5cfccff452ca1535419043d95f2_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
+      },
+      {
+       "role": "Wheel close-up: silver hollow-spoke five-spoke alloy with the Porsche crest centre cap, red brake caliper (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/4ee227148bff4514825776c99943cc4d_ref-9.webp",
+       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
+      },
+      {
+       "role": "Door mirror close-up: body-colour mirror",
+       "url": "https://cdn.muapi.ai/outputs/833afbfbdf8a43f99bbd3c479a9ee23b_ref-10.webp",
+       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
+      }
+     ],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-03T01:02:44.627521+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-03T01:06:45.221509+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-free-20261003-ford-escort-cosworth",
+   "name": "Ford Escort RS Cosworth - FREE",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-free-20261003-ford-escort-cosworth-ec67c26139e3-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-free-20261003/f1/heroes/ford-escort-cosworth/final-native.png",
+   "source_sha256": "ec67c26139e36c90e2ebcbe85a90e149578855ee19a28980e02f56f94af832b6",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-10-03T01:06:49.495580+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "d54bf2d3-f343-4814-9121-8ad1e7e6ed2e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-03T01:02:55.721256+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d54bf2d3-f343-4814-9121-8ad1e7e6ed2e_11729ac1.png",
+     "page_url": "https://muapi.ai/predictions/d54bf2d3-f343-4814-9121-8ad1e7e6ed2e",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the headlamps, the Ford oval grille, the bonnet vents, the black front splitter, the whale-tail rear spoiler, the five-spoke wheels (ignore the plate and the windscreen sticker)",
+       "url": "https://cdn.muapi.ai/outputs/generated/5ef59dfa95c741b5964c78f12f58c2ff.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1996-ford-escort-rs-cosworth"
+      },
+      {
+       "role": "Front: slim black grille with the blue Ford oval between the headlamps, amber indicators and clear lamps in the bumper, the black splitter, the two bonnet vents (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/f58e6548129c45899c9c0ab36b25849a.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1996-ford-escort-rs-cosworth"
+      },
+      {
+       "role": "Side profile (left side): proportions, the double whale-tail spoiler on the tailgate, the side skirts, wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/generated/0630adcd725a4a559b720faf4905bd4b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1996-ford-escort-rs-cosworth"
+      },
+      {
+       "role": "Front three-quarter from the left, higher: the bonnet with its two vents (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/6a5772aab5f74c6cb8ab0661503f4453.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1996-ford-escort-rs-cosworth"
+      },
+      {
+       "role": "Front corner close-up: clear headlamp, the bonnet vent, the amber indicator and clear lamp in the bumper (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/0c5d458691c543d293ba087577e71e69.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1996-ford-escort-rs-cosworth"
+      },
+      {
+       "role": "Grille close-up: the blue Ford oval in the slim black grille",
+       "url": "https://cdn.muapi.ai/outputs/generated/46607fdbbbea41428af5a3dfe983b4e5.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1996-ford-escort-rs-cosworth"
+      },
+      {
+       "role": "Bonnet vent close-up: one of the two louvred vents on the bonnet",
+       "url": "https://cdn.muapi.ai/outputs/generated/107c0f1a096b4ba290d96f05dc125bd4.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1996-ford-escort-rs-cosworth"
+      },
+      {
+       "role": "Front corner close-up: bumper with the indicator, the black front splitter",
+       "url": "https://cdn.muapi.ai/outputs/generated/4fc2fecb0b7b4a16824349a483f41379.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1996-ford-escort-rs-cosworth"
+      },
+      {
+       "role": "Wheel close-up: silver five-spoke alloy with the Ford oval centre cap, small amber side repeater on the wing",
+       "url": "https://cdn.muapi.ai/outputs/generated/bd226f5478b141f28dcd53e39ce847a9.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1996-ford-escort-rs-cosworth"
+      },
+      {
+       "role": "Door mirror close-up: body-colour mirror (ignore the windscreen sticker)",
+       "url": "https://cdn.muapi.ai/outputs/generated/ac0abce0341a4bcda17f32044d8cff7c.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1996-ford-escort-rs-cosworth"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Sport / Leicht",
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
+   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'; 02:43 'i want a full freedom in creatives yet a few little tweaks to improve it'. Raw heroes for approval 1.",
+   "full_source_url": "full/ec67c26139e3-studio-free-20261003-ford-escort-cosworth.png",
+   "full_source_sha256": "ec67c26139e36c90e2ebcbe85a90e149578855ee19a28980e02f56f94af832b6",
+   "full_source_bytes": 13278076,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "d54bf2d3-f343-4814-9121-8ad1e7e6ed2e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:02:55.721256+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d54bf2d3-f343-4814-9121-8ad1e7e6ed2e_11729ac1.png",
+     "page_url": "https://muapi.ai/predictions/d54bf2d3-f343-4814-9121-8ad1e7e6ed2e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the headlamps, the Ford oval grille, the bonnet vents, the black front splitter, the whale-tail rear spoiler, the five-spoke wheels (ignore the plate and the windscreen sticker)",
+       "url": "https://cdn.muapi.ai/outputs/generated/5ef59dfa95c741b5964c78f12f58c2ff.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1996-ford-escort-rs-cosworth"
+      },
+      {
+       "role": "Front: slim black grille with the blue Ford oval between the headlamps, amber indicators and clear lamps in the bumper, the black splitter, the two bonnet vents (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/f58e6548129c45899c9c0ab36b25849a.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1996-ford-escort-rs-cosworth"
+      },
+      {
+       "role": "Side profile (left side): proportions, the double whale-tail spoiler on the tailgate, the side skirts, wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/generated/0630adcd725a4a559b720faf4905bd4b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1996-ford-escort-rs-cosworth"
+      },
+      {
+       "role": "Front three-quarter from the left, higher: the bonnet with its two vents (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/6a5772aab5f74c6cb8ab0661503f4453.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1996-ford-escort-rs-cosworth"
+      },
+      {
+       "role": "Front corner close-up: clear headlamp, the bonnet vent, the amber indicator and clear lamp in the bumper (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/0c5d458691c543d293ba087577e71e69.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1996-ford-escort-rs-cosworth"
+      },
+      {
+       "role": "Grille close-up: the blue Ford oval in the slim black grille",
+       "url": "https://cdn.muapi.ai/outputs/generated/46607fdbbbea41428af5a3dfe983b4e5.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1996-ford-escort-rs-cosworth"
+      },
+      {
+       "role": "Bonnet vent close-up: one of the two louvred vents on the bonnet",
+       "url": "https://cdn.muapi.ai/outputs/generated/107c0f1a096b4ba290d96f05dc125bd4.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1996-ford-escort-rs-cosworth"
+      },
+      {
+       "role": "Front corner close-up: bumper with the indicator, the black front splitter",
+       "url": "https://cdn.muapi.ai/outputs/generated/4fc2fecb0b7b4a16824349a483f41379.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1996-ford-escort-rs-cosworth"
+      },
+      {
+       "role": "Wheel close-up: silver five-spoke alloy with the Ford oval centre cap, small amber side repeater on the wing",
+       "url": "https://cdn.muapi.ai/outputs/generated/bd226f5478b141f28dcd53e39ce847a9.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1996-ford-escort-rs-cosworth"
+      },
+      {
+       "role": "Door mirror close-up: body-colour mirror (ignore the windscreen sticker)",
+       "url": "https://cdn.muapi.ai/outputs/generated/ac0abce0341a4bcda17f32044d8cff7c.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1996-ford-escort-rs-cosworth"
+      }
+     ],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-03T01:02:55.721256+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-03T01:06:49.495580+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-free-20261003-lancia-fulvia-hf",
+   "name": "Lancia Fulvia Coupe 1200 HF - FREE",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-free-20261003-lancia-fulvia-hf-9d16431ef966-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-free-20261003/f1/heroes/lancia-fulvia-hf/final-native.png",
+   "source_sha256": "9d16431ef96645af6db569ecf9a73b00863376d1ff84762ec14dc94286755f4e",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-10-03T01:07:39.721376+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "873f1c60-0a24-4473-9224-d7c19a43b751",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-03T01:03:52.944416+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/873f1c60-0a24-4473-9224-d7c19a43b751_d83369e4.png",
+     "page_url": "https://muapi.ai/predictions/873f1c60-0a24-4473-9224-d7c19a43b751",
+     "references": [
+      {
+       "role": "Front: four round headlamps, the wide chrome grille of thin horizontal bars with the HF badge left of centre and the Lancia shield right of centre, the red valance below with four chrome-edged slots and a small chrome bumperette at each end, the chrome bullet mirror",
+       "url": "https://cdn.muapi.ai/outputs/9f7623f9cf23489ca14c6562cddd3ec9_ref-1.webp",
+       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
+      },
+      {
+       "role": "Front, slightly from the left: the nose and both flanks in perspective (ignore the setting)",
+       "url": "https://cdn.muapi.ai/outputs/aa555466713748ec8e53a0d65d1ee1d9_ref-2.webp",
+       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
+      },
+      {
+       "role": "Front three-quarter from the left: the nose and the left flank",
+       "url": "https://cdn.muapi.ai/outputs/562d8c214de9474fb18f498afaccc6bd_ref-3.webp",
+       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
+      },
+      {
+       "role": "Front three-quarter from the right: the nose and the right flank",
+       "url": "https://cdn.muapi.ai/outputs/d7686e0c208146a9ab8530ba13636bf8_ref-4.webp",
+       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
+      },
+      {
+       "role": "Side profile (left side): proportions, the slim pillars and large glasshouse, wheelbase, light alloy wheels",
+       "url": "https://cdn.muapi.ai/outputs/5fb9866bd1c44e808165db82e7613ba2_ref-5.webp",
+       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
+      },
+      {
+       "role": "Grille close-up: HF badge - white H and F letters on black with a red line - and the chrome Lancia shield on the grille bars",
+       "url": "https://cdn.muapi.ai/outputs/53c55f0192784462a8696c8371db7a1d_ref-6.webp",
+       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
+      },
+      {
+       "role": "Front wing close-up: the light-coloured alloy wheel with slots, the black arch lip",
+       "url": "https://cdn.muapi.ai/outputs/ba341fc938aa420282085360ca7a8db1_ref-7.webp",
+       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
+      },
+      {
+       "role": "Wing mirror close-up: chrome bullet mirror on the front wing",
+       "url": "https://cdn.muapi.ai/outputs/d749a798372243338cf9f400cb14a7ab_ref-8.webp",
+       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Sport / Leicht",
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
+   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'; 02:43 'i want a full freedom in creatives yet a few little tweaks to improve it'. Raw heroes for approval 1.",
+   "full_source_url": "full/9d16431ef966-studio-free-20261003-lancia-fulvia-hf.png",
+   "full_source_sha256": "9d16431ef96645af6db569ecf9a73b00863376d1ff84762ec14dc94286755f4e",
+   "full_source_bytes": 9268621,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "873f1c60-0a24-4473-9224-d7c19a43b751",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:03:52.944416+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/873f1c60-0a24-4473-9224-d7c19a43b751_d83369e4.png",
+     "page_url": "https://muapi.ai/predictions/873f1c60-0a24-4473-9224-d7c19a43b751",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front: four round headlamps, the wide chrome grille of thin horizontal bars with the HF badge left of centre and the Lancia shield right of centre, the red valance below with four chrome-edged slots and a small chrome bumperette at each end, the chrome bullet mirror",
+       "url": "https://cdn.muapi.ai/outputs/9f7623f9cf23489ca14c6562cddd3ec9_ref-1.webp",
+       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
+      },
+      {
+       "role": "Front, slightly from the left: the nose and both flanks in perspective (ignore the setting)",
+       "url": "https://cdn.muapi.ai/outputs/aa555466713748ec8e53a0d65d1ee1d9_ref-2.webp",
+       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
+      },
+      {
+       "role": "Front three-quarter from the left: the nose and the left flank",
+       "url": "https://cdn.muapi.ai/outputs/562d8c214de9474fb18f498afaccc6bd_ref-3.webp",
+       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
+      },
+      {
+       "role": "Front three-quarter from the right: the nose and the right flank",
+       "url": "https://cdn.muapi.ai/outputs/d7686e0c208146a9ab8530ba13636bf8_ref-4.webp",
+       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
+      },
+      {
+       "role": "Side profile (left side): proportions, the slim pillars and large glasshouse, wheelbase, light alloy wheels",
+       "url": "https://cdn.muapi.ai/outputs/5fb9866bd1c44e808165db82e7613ba2_ref-5.webp",
+       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
+      },
+      {
+       "role": "Grille close-up: HF badge - white H and F letters on black with a red line - and the chrome Lancia shield on the grille bars",
+       "url": "https://cdn.muapi.ai/outputs/53c55f0192784462a8696c8371db7a1d_ref-6.webp",
+       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
+      },
+      {
+       "role": "Front wing close-up: the light-coloured alloy wheel with slots, the black arch lip",
+       "url": "https://cdn.muapi.ai/outputs/ba341fc938aa420282085360ca7a8db1_ref-7.webp",
+       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
+      },
+      {
+       "role": "Wing mirror close-up: chrome bullet mirror on the front wing",
+       "url": "https://cdn.muapi.ai/outputs/d749a798372243338cf9f400cb14a7ab_ref-8.webp",
+       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
+      }
+     ],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-03T01:03:52.944416+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-03T01:07:39.721376+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-free-20261003-honda-integra-type-r",
+   "name": "Honda Integra Type R (DC2) - FREE",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-free-20261003-honda-integra-type-r-09281f1eb3f8-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-free-20261003/f1/heroes/honda-integra-type-r/final-native.png",
+   "source_sha256": "09281f1eb3f8c8b24a619f492a1d44feb1dfd4e93e569ec147482b1a54ec034f",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-10-03T01:08:32.175103+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "142e7ddf-b691-4899-bdeb-87344247463f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-03T01:03:58.395384+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/142e7ddf-b691-4899-bdeb-87344247463f_80aead7a.png",
+     "page_url": "https://muapi.ai/predictions/142e7ddf-b691-4899-bdeb-87344247463f",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the four round headlamps, the H badge, the front bumper with its lip, the white ten-spoke wheels, the rear wing (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/235ea6306e354d5589181fe7b4f3ae1c.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-integra-type-r-dc2-8"
+      },
+      {
+       "role": "Front: four round headlamps, the red H badge on the nose, the bumper with the INTEGRA lettering moulded in, the lower intakes and lip, both mirrors (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/1da13c95c7f946e09027c799bf41ed20.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-integra-type-r-dc2-8"
+      },
+      {
+       "role": "Side profile: proportions, the INTEGRA TYPE R decal low on the rear quarter, the rear wing, wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/generated/d2f2b43b0a1e482ab757257b1831458a.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-integra-type-r-dc2-8"
+      },
+      {
+       "role": "Front three-quarter from the right (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/3c10c7e7938e4d51b4e9cd39d14350c8.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-integra-type-r-dc2-8"
+      },
+      {
+       "role": "Front corner close-up: two round headlamps, the red H badge (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/6e92fa341e954c6d8b7f54e90a6046c2.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-integra-type-r-dc2-8"
+      },
+      {
+       "role": "H badge close-up: red Honda H badge on the nose",
+       "url": "https://cdn.muapi.ai/outputs/generated/e621146006104a46b002abdd026f72a6.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-integra-type-r-dc2-8"
+      },
+      {
+       "role": "Bumper close-up: INTEGRA lettering moulded into the bumper below the headlamps, the clear lamp in the bumper",
+       "url": "https://cdn.muapi.ai/outputs/generated/40d6e34fee3f42a39ec4757316bb5997.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-integra-type-r-dc2-8"
+      },
+      {
+       "role": "Wheel close-up: white ten-spoke alloy with the red H centre cap (ignore the mud flap)",
+       "url": "https://cdn.muapi.ai/outputs/generated/af2ef98b9a604bbca38f5727a912ff3f.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-integra-type-r-dc2-8"
+      },
+      {
+       "role": "Decal close-up: the INTEGRA TYPE R decal - small black INTEGRA and TYPE, a large red R",
+       "url": "https://cdn.muapi.ai/outputs/generated/a8ba2b2a639c415cb7627b677fc3b7d8.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-integra-type-r-dc2-8"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Sport / Leicht",
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
+   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'; 02:43 'i want a full freedom in creatives yet a few little tweaks to improve it'. Raw heroes for approval 1.",
+   "full_source_url": "full/09281f1eb3f8-studio-free-20261003-honda-integra-type-r.png",
+   "full_source_sha256": "09281f1eb3f8c8b24a619f492a1d44feb1dfd4e93e569ec147482b1a54ec034f",
+   "full_source_bytes": 12458150,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "142e7ddf-b691-4899-bdeb-87344247463f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:03:58.395384+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/142e7ddf-b691-4899-bdeb-87344247463f_80aead7a.png",
+     "page_url": "https://muapi.ai/predictions/142e7ddf-b691-4899-bdeb-87344247463f",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the four round headlamps, the H badge, the front bumper with its lip, the white ten-spoke wheels, the rear wing (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/235ea6306e354d5589181fe7b4f3ae1c.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-integra-type-r-dc2-8"
+      },
+      {
+       "role": "Front: four round headlamps, the red H badge on the nose, the bumper with the INTEGRA lettering moulded in, the lower intakes and lip, both mirrors (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/1da13c95c7f946e09027c799bf41ed20.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-integra-type-r-dc2-8"
+      },
+      {
+       "role": "Side profile: proportions, the INTEGRA TYPE R decal low on the rear quarter, the rear wing, wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/generated/d2f2b43b0a1e482ab757257b1831458a.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-integra-type-r-dc2-8"
+      },
+      {
+       "role": "Front three-quarter from the right (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/3c10c7e7938e4d51b4e9cd39d14350c8.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-integra-type-r-dc2-8"
+      },
+      {
+       "role": "Front corner close-up: two round headlamps, the red H badge (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/6e92fa341e954c6d8b7f54e90a6046c2.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-integra-type-r-dc2-8"
+      },
+      {
+       "role": "H badge close-up: red Honda H badge on the nose",
+       "url": "https://cdn.muapi.ai/outputs/generated/e621146006104a46b002abdd026f72a6.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-integra-type-r-dc2-8"
+      },
+      {
+       "role": "Bumper close-up: INTEGRA lettering moulded into the bumper below the headlamps, the clear lamp in the bumper",
+       "url": "https://cdn.muapi.ai/outputs/generated/40d6e34fee3f42a39ec4757316bb5997.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-integra-type-r-dc2-8"
+      },
+      {
+       "role": "Wheel close-up: white ten-spoke alloy with the red H centre cap (ignore the mud flap)",
+       "url": "https://cdn.muapi.ai/outputs/generated/af2ef98b9a604bbca38f5727a912ff3f.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-integra-type-r-dc2-8"
+      },
+      {
+       "role": "Decal close-up: the INTEGRA TYPE R decal - small black INTEGRA and TYPE, a large red R",
+       "url": "https://cdn.muapi.ai/outputs/generated/a8ba2b2a639c415cb7627b677fc3b7d8.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-integra-type-r-dc2-8"
+      }
+     ],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-03T01:03:58.395384+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-03T01:08:32.175103+00:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -8563,6 +10403,106 @@
    "pixels": [
     2480,
     3312
+   ]
+  },
+  {
+   "key": "studio-free-20261003-honda-integra-type-r",
+   "declared_sha256": "09281f1eb3f8c8b24a619f492a1d44feb1dfd4e93e569ec147482b1a54ec034f",
+   "applied": true,
+   "preview": "assets/studio-free-20261003-honda-integra-type-r-09281f1eb3f8-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-free-20261003-lancia-fulvia-hf",
+   "declared_sha256": "9d16431ef96645af6db569ecf9a73b00863376d1ff84762ec14dc94286755f4e",
+   "applied": true,
+   "preview": "assets/studio-free-20261003-lancia-fulvia-hf-9d16431ef966-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-free-20261003-ford-escort-cosworth",
+   "declared_sha256": "ec67c26139e36c90e2ebcbe85a90e149578855ee19a28980e02f56f94af832b6",
+   "applied": true,
+   "preview": "assets/studio-free-20261003-ford-escort-cosworth-ec67c26139e3-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-free-20261003-porsche-993-turbo",
+   "declared_sha256": "638ef096582297eb7e15472901967d8ffd8c8a1b2b08f27e2c79950121c175a8",
+   "applied": true,
+   "preview": "assets/studio-free-20261003-porsche-993-turbo-638ef0965822-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-free-20261003-jaguar-xj220",
+   "declared_sha256": "0fe9350d4484cf90a9eaba6e6e2f65ceb68f81c12e9c52895ddc46784a55f186",
+   "applied": true,
+   "preview": "assets/studio-free-20261003-jaguar-xj220-0fe9350d4484-current.jpg",
+   "pixels": [
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-free-20261003-alfa-montreal",
+   "declared_sha256": "eff7d1d216ee926146f2ee10cf50744b66b91d9589d944334d13302aba4cb011",
+   "applied": true,
+   "preview": "assets/studio-free-20261003-alfa-montreal-eff7d1d216ee-current.jpg",
+   "pixels": [
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-free-20261003-vw-beetle-1967",
+   "declared_sha256": "780586aea2a33a1affbf6c9abd389eccd0182308d906a7572779854202fb0a37",
+   "applied": true,
+   "preview": "assets/studio-free-20261003-vw-beetle-1967-780586aea2a3-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-free-20261003-bmw-z8",
+   "declared_sha256": "19e0684e09b69024c53d257bfa108c599d98c4838f6956a592e30736ad1c4910",
+   "applied": true,
+   "preview": "assets/studio-free-20261003-bmw-z8-19e0684e09b6-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-free-20261003-plymouth-hemi-cuda",
+   "declared_sha256": "0b714d5c915bf350c09697b4cbb0dfa34b77063646a2a1b2057b2ca9dcf59562",
+   "applied": true,
+   "preview": "assets/studio-free-20261003-plymouth-hemi-cuda-0b714d5c915b-current.jpg",
+   "pixels": [
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-free-20261003-ferrari-daytona",
+   "declared_sha256": "2e7d390c38759084da9feb459f817a72b7dd9184686e0fd16d002766a141f14c",
+   "applied": true,
+   "preview": "assets/studio-free-20261003-ferrari-daytona-2e7d390c3875-current.jpg",
+   "pixels": [
+    3312,
+    2480
    ]
   },
   {
