@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-03 03:09",
+ "built": "2026-10-03 05:51",
  "accessed_date": "2026-10-03",
  "collections": [
   "American Form",
@@ -1238,13 +1238,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-free-20261003-ferrari-daytona-2e7d390c3875-current.jpg",
+   "preview": "assets/studio-free-20261003-ferrari-daytona-5067e436010f-current.jpg",
    "preview_pixels": [
     1600,
     1198
    ],
    "source_file": "pipeline/studio-free-20261003/f1/heroes/ferrari-daytona/final-native.png",
-   "source_sha256": "2e7d390c38759084da9feb459f817a72b7dd9184686e0fd16d002766a141f14c",
+   "source_sha256": "5067e436010f800b2d78ade9a9df99181cd744cf9efd61768fac24cd220cd9f7",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -1305,6 +1305,56 @@
        "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "b08cc651-8171-4d6a-a2b9-da31e270b18d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:38:49.492043+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b08cc651-8171-4d6a-a2b9-da31e270b18d_6dec9316.png",
+     "page_url": "https://muapi.ai/predictions/b08cc651-8171-4d6a-a2b9-da31e270b18d",
+     "target_id": "nose-badge",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "3ea162b3-1c20-4ea6-89cb-5ebb3e3d0c41",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:38:52.183010+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/3ea162b3-1c20-4ea6-89cb-5ebb3e3d0c41_361c8e78.png",
+     "page_url": "https://muapi.ai/predictions/3ea162b3-1c20-4ea6-89cb-5ebb3e3d0c41",
+     "target_id": "plaque",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "9e8a23e9-c741-4b67-91bd-282dd895ad4f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:38:54.840846+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9e8a23e9-c741-4b67-91bd-282dd895ad4f_8ae9b89a.png",
+     "page_url": "https://muapi.ai/predictions/9e8a23e9-c741-4b67-91bd-282dd895ad4f",
+     "target_id": "wheel-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "814b30c8-f3ab-4c40-a93e-3f81508cf5bf",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:38:57.529172+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/814b30c8-f3ab-4c40-a93e-3f81508cf5bf_3ac4aa06.png",
+     "page_url": "https://muapi.ai/predictions/814b30c8-f3ab-4c40-a93e-3f81508cf5bf",
+     "target_id": "wheel-rear",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "e368b6c6-2640-4521-a645-2055e7f58231",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:52:46.238250+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e368b6c6-2640-4521-a645-2055e7f58231_ee4244c9.png",
+     "page_url": "https://muapi.ai/predictions/e368b6c6-2640-4521-a645-2055e7f58231",
+     "target_id": "wheel-far",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -1312,10 +1362,10 @@
     "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
    },
    "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'; 02:43 'i want a full freedom in creatives yet a few little tweaks to improve it'. Raw heroes for approval 1.",
-   "full_source_url": "full/2e7d390c3875-studio-free-20261003-ferrari-daytona.png",
-   "full_source_sha256": "2e7d390c38759084da9feb459f817a72b7dd9184686e0fd16d002766a141f14c",
-   "full_source_bytes": 11129877,
+   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'. Approval 1 at 03:27: 'ae86 goes out, rest is great work. continue the workflow' (all ten of this batch approved). Detail fixes done; approval 2 is the last approval.",
+   "full_source_url": "full/5067e436010f-studio-free-20261003-ferrari-daytona.png",
+   "full_source_sha256": "5067e436010f800b2d78ade9a9df99181cd744cf9efd61768fac24cd220cd9f7",
+   "full_source_bytes": 10286659,
    "full_source_pixels": [
     3312,
     2480
@@ -1389,13 +1439,68 @@
       }
      ],
      "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "b08cc651-8171-4d6a-a2b9-da31e270b18d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:38:49.492043+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b08cc651-8171-4d6a-a2b9-da31e270b18d_6dec9316.png",
+     "page_url": "https://muapi.ai/predictions/b08cc651-8171-4d6a-a2b9-da31e270b18d",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "3ea162b3-1c20-4ea6-89cb-5ebb3e3d0c41",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:38:52.183010+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/3ea162b3-1c20-4ea6-89cb-5ebb3e3d0c41_361c8e78.png",
+     "page_url": "https://muapi.ai/predictions/3ea162b3-1c20-4ea6-89cb-5ebb3e3d0c41",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "9e8a23e9-c741-4b67-91bd-282dd895ad4f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:38:54.840846+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9e8a23e9-c741-4b67-91bd-282dd895ad4f_8ae9b89a.png",
+     "page_url": "https://muapi.ai/predictions/9e8a23e9-c741-4b67-91bd-282dd895ad4f",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "814b30c8-f3ab-4c40-a93e-3f81508cf5bf",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:38:57.529172+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/814b30c8-f3ab-4c40-a93e-3f81508cf5bf_3ac4aa06.png",
+     "page_url": "https://muapi.ai/predictions/814b30c8-f3ab-4c40-a93e-3f81508cf5bf",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "e368b6c6-2640-4521-a645-2055e7f58231",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:52:46.238250+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e368b6c6-2640-4521-a645-2055e7f58231_ee4244c9.png",
+     "page_url": "https://muapi.ai/predictions/e368b6c6-2640-4521-a645-2055e7f58231",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-03T01:00:42.526709+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-03T01:04:47.390716+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-03T01:52:46.238250+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -1414,13 +1519,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-free-20261003-plymouth-hemi-cuda-0b714d5c915b-current.jpg",
+   "preview": "assets/studio-free-20261003-plymouth-hemi-cuda-c57384da8aaf-current.jpg",
    "preview_pixels": [
     1600,
     1198
    ],
    "source_file": "pipeline/studio-free-20261003/f1/heroes/plymouth-hemi-cuda/final-native.png",
-   "source_sha256": "0b714d5c915bf350c09697b4cbb0dfa34b77063646a2a1b2057b2ca9dcf59562",
+   "source_sha256": "c57384da8aaf21f7ff2c6140dd3c33733daeb94719082ccf610140c0cc9533af",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -1486,6 +1591,36 @@
        "source_page": "https://rmsothebys.com/auctions/az19/lots/r0114-1970-plymouth-cuda-426450-hardtop/"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "5eb813c7-3d46-4494-8372-4c5ec56d36c5",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:03:46.140877+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5eb813c7-3d46-4494-8372-4c5ec56d36c5_7dce7d00.png",
+     "page_url": "https://muapi.ai/predictions/5eb813c7-3d46-4494-8372-4c5ec56d36c5",
+     "target_id": "bg-hemi",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "c7024a98-d005-404a-b375-c274f3b190b1",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:03:49.021699+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c7024a98-d005-404a-b375-c274f3b190b1_9054ed8c.png",
+     "page_url": "https://muapi.ai/predictions/c7024a98-d005-404a-b375-c274f3b190b1",
+     "target_id": "tyre-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "ee9ca630-dbf1-492c-bbed-b05587db65bb",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:03:51.958859+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ee9ca630-dbf1-492c-bbed-b05587db65bb_02d1fa85.png",
+     "page_url": "https://muapi.ai/predictions/ee9ca630-dbf1-492c-bbed-b05587db65bb",
+     "target_id": "tyre-rear",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -1493,10 +1628,10 @@
     "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
    },
    "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'; 02:43 'i want a full freedom in creatives yet a few little tweaks to improve it'. Raw heroes for approval 1.",
-   "full_source_url": "full/0b714d5c915b-studio-free-20261003-plymouth-hemi-cuda.png",
-   "full_source_sha256": "0b714d5c915bf350c09697b4cbb0dfa34b77063646a2a1b2057b2ca9dcf59562",
-   "full_source_bytes": 11675848,
+   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'. Approval 1 at 03:27: 'ae86 goes out, rest is great work. continue the workflow' (all ten of this batch approved). Detail fixes done; approval 2 is the last approval.",
+   "full_source_url": "full/c57384da8aaf-studio-free-20261003-plymouth-hemi-cuda.png",
+   "full_source_sha256": "c57384da8aaf21f7ff2c6140dd3c33733daeb94719082ccf610140c0cc9533af",
+   "full_source_bytes": 11245809,
    "full_source_pixels": [
     3312,
     2480
@@ -1575,13 +1710,46 @@
       }
      ],
      "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "5eb813c7-3d46-4494-8372-4c5ec56d36c5",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:03:46.140877+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5eb813c7-3d46-4494-8372-4c5ec56d36c5_7dce7d00.png",
+     "page_url": "https://muapi.ai/predictions/5eb813c7-3d46-4494-8372-4c5ec56d36c5",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "c7024a98-d005-404a-b375-c274f3b190b1",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:03:49.021699+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c7024a98-d005-404a-b375-c274f3b190b1_9054ed8c.png",
+     "page_url": "https://muapi.ai/predictions/c7024a98-d005-404a-b375-c274f3b190b1",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "ee9ca630-dbf1-492c-bbed-b05587db65bb",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:03:51.958859+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ee9ca630-dbf1-492c-bbed-b05587db65bb_02d1fa85.png",
+     "page_url": "https://muapi.ai/predictions/ee9ca630-dbf1-492c-bbed-b05587db65bb",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-03T01:00:47.869728+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-03T01:04:51.774116+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-03T02:03:51.958859+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -1600,13 +1768,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-free-20261003-bmw-z8-19e0684e09b6-current.jpg",
+   "preview": "assets/studio-free-20261003-bmw-z8-05d15fb28baf-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-free-20261003/f1/heroes/bmw-z8/final-native.png",
-   "source_sha256": "19e0684e09b69024c53d257bfa108c599d98c4838f6956a592e30736ad1c4910",
+   "source_sha256": "05d15fb28baf95ccfaa06318f239b15f599a13060d2b00c4e870dbf6aac8839e",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -1662,6 +1830,76 @@
        "source_page": "https://rmsothebys.com/auctions/mu23/lots/r0069-2001-bmw-z8/"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "62db79d4-5ba6-4498-b177-8df85fb8a797",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:15:13.845727+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/62db79d4-5ba6-4498-b177-8df85fb8a797_51068c17.png",
+     "page_url": "https://muapi.ai/predictions/62db79d4-5ba6-4498-b177-8df85fb8a797",
+     "target_id": "roundel-nose",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "4c47344e-2376-48b4-a317-973d32d6c1a5",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:15:16.753238+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4c47344e-2376-48b4-a317-973d32d6c1a5_19d7b6e4.png",
+     "page_url": "https://muapi.ai/predictions/4c47344e-2376-48b4-a317-973d32d6c1a5",
+     "target_id": "roundel-gill",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "5022c9be-7c1b-410c-9079-596553134a78",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:15:19.507040+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5022c9be-7c1b-410c-9079-596553134a78_f5f1a3d2.png",
+     "page_url": "https://muapi.ai/predictions/5022c9be-7c1b-410c-9079-596553134a78",
+     "target_id": "cap-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "e6e2afb4-82a1-48d5-b797-59144b234880",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:15:22.479979+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e6e2afb4-82a1-48d5-b797-59144b234880_da1b1ec6.png",
+     "page_url": "https://muapi.ai/predictions/e6e2afb4-82a1-48d5-b797-59144b234880",
+     "target_id": "cap-rear",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "d4d34657-cfad-46ca-a82e-376d69c77453",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:15:25.339078+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d4d34657-cfad-46ca-a82e-376d69c77453_5976edb7.png",
+     "page_url": "https://muapi.ai/predictions/d4d34657-cfad-46ca-a82e-376d69c77453",
+     "target_id": "tyre-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "545b90db-acd9-415b-b5a1-433cb87c3086",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:15:27.996409+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/545b90db-acd9-415b-b5a1-433cb87c3086_c9e7be60.png",
+     "page_url": "https://muapi.ai/predictions/545b90db-acd9-415b-b5a1-433cb87c3086",
+     "target_id": "tyre-rear",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "f73b83eb-7c92-4de7-b949-cd4ff90ab02c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:25:20.789769+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f73b83eb-7c92-4de7-b949-cd4ff90ab02c_bca324fe.png",
+     "page_url": "https://muapi.ai/predictions/f73b83eb-7c92-4de7-b949-cd4ff90ab02c",
+     "target_id": "tyre-front2",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -1669,10 +1907,10 @@
     "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
    },
    "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'; 02:43 'i want a full freedom in creatives yet a few little tweaks to improve it'. Raw heroes for approval 1.",
-   "full_source_url": "full/19e0684e09b6-studio-free-20261003-bmw-z8.png",
-   "full_source_sha256": "19e0684e09b69024c53d257bfa108c599d98c4838f6956a592e30736ad1c4910",
-   "full_source_bytes": 9250099,
+   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'. Approval 1 at 03:27: 'ae86 goes out, rest is great work. continue the workflow' (all ten of this batch approved). Detail fixes done; approval 2 is the last approval.",
+   "full_source_url": "full/05d15fb28baf-studio-free-20261003-bmw-z8.png",
+   "full_source_sha256": "05d15fb28baf95ccfaa06318f239b15f599a13060d2b00c4e870dbf6aac8839e",
+   "full_source_bytes": 8189829,
    "full_source_pixels": [
     2480,
     3312
@@ -1741,13 +1979,90 @@
       }
      ],
      "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "62db79d4-5ba6-4498-b177-8df85fb8a797",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:15:13.845727+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/62db79d4-5ba6-4498-b177-8df85fb8a797_51068c17.png",
+     "page_url": "https://muapi.ai/predictions/62db79d4-5ba6-4498-b177-8df85fb8a797",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "4c47344e-2376-48b4-a317-973d32d6c1a5",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:15:16.753238+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4c47344e-2376-48b4-a317-973d32d6c1a5_19d7b6e4.png",
+     "page_url": "https://muapi.ai/predictions/4c47344e-2376-48b4-a317-973d32d6c1a5",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "5022c9be-7c1b-410c-9079-596553134a78",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:15:19.507040+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5022c9be-7c1b-410c-9079-596553134a78_f5f1a3d2.png",
+     "page_url": "https://muapi.ai/predictions/5022c9be-7c1b-410c-9079-596553134a78",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "e6e2afb4-82a1-48d5-b797-59144b234880",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:15:22.479979+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e6e2afb4-82a1-48d5-b797-59144b234880_da1b1ec6.png",
+     "page_url": "https://muapi.ai/predictions/e6e2afb4-82a1-48d5-b797-59144b234880",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "d4d34657-cfad-46ca-a82e-376d69c77453",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:15:25.339078+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d4d34657-cfad-46ca-a82e-376d69c77453_5976edb7.png",
+     "page_url": "https://muapi.ai/predictions/d4d34657-cfad-46ca-a82e-376d69c77453",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "545b90db-acd9-415b-b5a1-433cb87c3086",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:15:27.996409+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/545b90db-acd9-415b-b5a1-433cb87c3086_c9e7be60.png",
+     "page_url": "https://muapi.ai/predictions/545b90db-acd9-415b-b5a1-433cb87c3086",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "f73b83eb-7c92-4de7-b949-cd4ff90ab02c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:25:20.789769+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f73b83eb-7c92-4de7-b949-cd4ff90ab02c_bca324fe.png",
+     "page_url": "https://muapi.ai/predictions/f73b83eb-7c92-4de7-b949-cd4ff90ab02c",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-03T01:00:53.612935+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-03T01:04:55.923205+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-03T02:25:20.789769+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -1766,13 +2081,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-free-20261003-vw-beetle-1967-780586aea2a3-current.jpg",
+   "preview": "assets/studio-free-20261003-vw-beetle-1967-6fed788815d7-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-free-20261003/f1/heroes/vw-beetle-1967/final-native.png",
-   "source_sha256": "780586aea2a33a1affbf6c9abd389eccd0182308d906a7572779854202fb0a37",
+   "source_sha256": "6fed788815d7057d03bc7cf2fd0469f826fb86cb5c1177a15f344fe8f30c6fff",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -1833,6 +2148,36 @@
        "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "dfc833e2-235f-4ca1-8498-c17fffdb029f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:31:12.291082+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/dfc833e2-235f-4ca1-8498-c17fffdb029f_f017a802.png",
+     "page_url": "https://muapi.ai/predictions/dfc833e2-235f-4ca1-8498-c17fffdb029f",
+     "target_id": "tyre-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "aa34e8c9-ffa7-4581-bb0b-4f7c528af00a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:31:15.033104+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/aa34e8c9-ffa7-4581-bb0b-4f7c528af00a_8892c649.png",
+     "page_url": "https://muapi.ai/predictions/aa34e8c9-ffa7-4581-bb0b-4f7c528af00a",
+     "target_id": "tyre-rear",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "aeeccf2f-ad76-4c73-b322-21a2738d21c3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:31:17.643221+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/aeeccf2f-ad76-4c73-b322-21a2738d21c3_296bc025.png",
+     "page_url": "https://muapi.ai/predictions/aeeccf2f-ad76-4c73-b322-21a2738d21c3",
+     "target_id": "horn-left",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -1840,10 +2185,10 @@
     "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
    },
    "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'; 02:43 'i want a full freedom in creatives yet a few little tweaks to improve it'. Raw heroes for approval 1.",
-   "full_source_url": "full/780586aea2a3-studio-free-20261003-vw-beetle-1967.png",
-   "full_source_sha256": "780586aea2a33a1affbf6c9abd389eccd0182308d906a7572779854202fb0a37",
-   "full_source_bytes": 12010918,
+   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'. Approval 1 at 03:27: 'ae86 goes out, rest is great work. continue the workflow' (all ten of this batch approved). Detail fixes done; approval 2 is the last approval.",
+   "full_source_url": "full/6fed788815d7-studio-free-20261003-vw-beetle-1967.png",
+   "full_source_sha256": "6fed788815d7057d03bc7cf2fd0469f826fb86cb5c1177a15f344fe8f30c6fff",
+   "full_source_bytes": 11085064,
    "full_source_pixels": [
     2480,
     3312
@@ -1917,13 +2262,46 @@
       }
      ],
      "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "dfc833e2-235f-4ca1-8498-c17fffdb029f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:31:12.291082+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/dfc833e2-235f-4ca1-8498-c17fffdb029f_f017a802.png",
+     "page_url": "https://muapi.ai/predictions/dfc833e2-235f-4ca1-8498-c17fffdb029f",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "aa34e8c9-ffa7-4581-bb0b-4f7c528af00a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:31:15.033104+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/aa34e8c9-ffa7-4581-bb0b-4f7c528af00a_8892c649.png",
+     "page_url": "https://muapi.ai/predictions/aa34e8c9-ffa7-4581-bb0b-4f7c528af00a",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "aeeccf2f-ad76-4c73-b322-21a2738d21c3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:31:17.643221+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/aeeccf2f-ad76-4c73-b322-21a2738d21c3_296bc025.png",
+     "page_url": "https://muapi.ai/predictions/aeeccf2f-ad76-4c73-b322-21a2738d21c3",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-03T01:01:27.901385+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-03T01:06:32.287160+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-03T02:31:17.643221+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -1942,13 +2320,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-free-20261003-alfa-montreal-eff7d1d216ee-current.jpg",
+   "preview": "assets/studio-free-20261003-alfa-montreal-c6a829138000-current.jpg",
    "preview_pixels": [
     1600,
     1198
    ],
    "source_file": "pipeline/studio-free-20261003/f1/heroes/alfa-montreal/final-native.png",
-   "source_sha256": "eff7d1d216ee926146f2ee10cf50744b66b91d9589d944334d13302aba4cb011",
+   "source_sha256": "c6a829138000f9e84feb211ae4f110d97f5461a2d2a5cb14c090e6d5c4b32c22",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -2019,6 +2397,106 @@
        "source_page": "https://rmsothebys.com/auctions/0520/lots/r0004-1972-alfa-romeo-montreal-by-bertone/"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "79944507-2883-40c7-9920-1c3f1b17883a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:44:35.226531+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/79944507-2883-40c7-9920-1c3f1b17883a_d7308d1a.png",
+     "page_url": "https://muapi.ai/predictions/79944507-2883-40c7-9920-1c3f1b17883a",
+     "target_id": "nose-badge",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "ab974f9d-48c6-44b9-b4d6-17ceb55afeee",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:44:37.911610+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ab974f9d-48c6-44b9-b4d6-17ceb55afeee_e7862c73.png",
+     "page_url": "https://muapi.ai/predictions/ab974f9d-48c6-44b9-b4d6-17ceb55afeee",
+     "target_id": "cap-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "6c0d17e9-7bc5-4917-8da6-8d255575a9e3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:44:42.910851+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6c0d17e9-7bc5-4917-8da6-8d255575a9e3_717d7131.png",
+     "page_url": "https://muapi.ai/predictions/6c0d17e9-7bc5-4917-8da6-8d255575a9e3",
+     "target_id": "cap-rear",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "f2f1d330-4155-48b8-a7b5-11fd3b44711a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:44:45.530536+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f2f1d330-4155-48b8-a7b5-11fd3b44711a_03e3244f.png",
+     "page_url": "https://muapi.ai/predictions/f2f1d330-4155-48b8-a7b5-11fd3b44711a",
+     "target_id": "slot-top",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "3ff39630-6df6-4e5d-a99c-87fb00fe94ce",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:56:16.495901+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/3ff39630-6df6-4e5d-a99c-87fb00fe94ce_2d648c15.png",
+     "page_url": "https://muapi.ai/predictions/3ff39630-6df6-4e5d-a99c-87fb00fe94ce",
+     "target_id": "plaque",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "c0241e8f-b8c8-4e50-950c-ff6d52d8db5f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:44:50.954557+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c0241e8f-b8c8-4e50-950c-ff6d52d8db5f_65cf5d42.png",
+     "page_url": "https://muapi.ai/predictions/c0241e8f-b8c8-4e50-950c-ff6d52d8db5f",
+     "target_id": "tyre-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "491b97a1-885c-4369-b880-5968a65984ee",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:44:53.755155+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/491b97a1-885c-4369-b880-5968a65984ee_7ddc8f19.png",
+     "page_url": "https://muapi.ai/predictions/491b97a1-885c-4369-b880-5968a65984ee",
+     "target_id": "tyre-rear",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "064343ad-d70f-411c-b08e-5fd3f2b67aac",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:56:21.871413+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/064343ad-d70f-411c-b08e-5fd3f2b67aac_0b071cf1.png",
+     "page_url": "https://muapi.ai/predictions/064343ad-d70f-411c-b08e-5fd3f2b67aac",
+     "target_id": "nut-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "63be96f5-097a-43af-9bec-0e797f43ec77",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:03:51.567941+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/63be96f5-097a-43af-9bec-0e797f43ec77_0334aa6e.png",
+     "page_url": "https://muapi.ai/predictions/63be96f5-097a-43af-9bec-0e797f43ec77",
+     "target_id": "bertone-b",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "0c6ca14b-553c-4c63-9fb5-12b317e52e7c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:12:33.610461+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0c6ca14b-553c-4c63-9fb5-12b317e52e7c_9903e9d0.png",
+     "page_url": "https://muapi.ai/predictions/0c6ca14b-553c-4c63-9fb5-12b317e52e7c",
+     "target_id": "tyre-all",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -2026,10 +2504,10 @@
     "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
    },
    "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'; 02:43 'i want a full freedom in creatives yet a few little tweaks to improve it'. Raw heroes for approval 1.",
-   "full_source_url": "full/eff7d1d216ee-studio-free-20261003-alfa-montreal.png",
-   "full_source_sha256": "eff7d1d216ee926146f2ee10cf50744b66b91d9589d944334d13302aba4cb011",
-   "full_source_bytes": 11879404,
+   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'. Approval 1 at 03:27: 'ae86 goes out, rest is great work. continue the workflow' (all ten of this batch approved). Detail fixes done; approval 2 is the last approval.",
+   "full_source_url": "full/c6a829138000-studio-free-20261003-alfa-montreal.png",
+   "full_source_sha256": "c6a829138000f9e84feb211ae4f110d97f5461a2d2a5cb14c090e6d5c4b32c22",
+   "full_source_bytes": 10771330,
    "full_source_pixels": [
     3312,
     2480
@@ -2113,13 +2591,123 @@
       }
      ],
      "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "79944507-2883-40c7-9920-1c3f1b17883a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:44:35.226531+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/79944507-2883-40c7-9920-1c3f1b17883a_d7308d1a.png",
+     "page_url": "https://muapi.ai/predictions/79944507-2883-40c7-9920-1c3f1b17883a",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "ab974f9d-48c6-44b9-b4d6-17ceb55afeee",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:44:37.911610+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ab974f9d-48c6-44b9-b4d6-17ceb55afeee_e7862c73.png",
+     "page_url": "https://muapi.ai/predictions/ab974f9d-48c6-44b9-b4d6-17ceb55afeee",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "6c0d17e9-7bc5-4917-8da6-8d255575a9e3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:44:42.910851+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6c0d17e9-7bc5-4917-8da6-8d255575a9e3_717d7131.png",
+     "page_url": "https://muapi.ai/predictions/6c0d17e9-7bc5-4917-8da6-8d255575a9e3",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "f2f1d330-4155-48b8-a7b5-11fd3b44711a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:44:45.530536+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f2f1d330-4155-48b8-a7b5-11fd3b44711a_03e3244f.png",
+     "page_url": "https://muapi.ai/predictions/f2f1d330-4155-48b8-a7b5-11fd3b44711a",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "c0241e8f-b8c8-4e50-950c-ff6d52d8db5f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:44:50.954557+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c0241e8f-b8c8-4e50-950c-ff6d52d8db5f_65cf5d42.png",
+     "page_url": "https://muapi.ai/predictions/c0241e8f-b8c8-4e50-950c-ff6d52d8db5f",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "491b97a1-885c-4369-b880-5968a65984ee",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:44:53.755155+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/491b97a1-885c-4369-b880-5968a65984ee_7ddc8f19.png",
+     "page_url": "https://muapi.ai/predictions/491b97a1-885c-4369-b880-5968a65984ee",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "3ff39630-6df6-4e5d-a99c-87fb00fe94ce",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:56:16.495901+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/3ff39630-6df6-4e5d-a99c-87fb00fe94ce_2d648c15.png",
+     "page_url": "https://muapi.ai/predictions/3ff39630-6df6-4e5d-a99c-87fb00fe94ce",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "064343ad-d70f-411c-b08e-5fd3f2b67aac",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:56:21.871413+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/064343ad-d70f-411c-b08e-5fd3f2b67aac_0b071cf1.png",
+     "page_url": "https://muapi.ai/predictions/064343ad-d70f-411c-b08e-5fd3f2b67aac",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "63be96f5-097a-43af-9bec-0e797f43ec77",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:03:51.567941+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/63be96f5-097a-43af-9bec-0e797f43ec77_0334aa6e.png",
+     "page_url": "https://muapi.ai/predictions/63be96f5-097a-43af-9bec-0e797f43ec77",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "0c6ca14b-553c-4c63-9fb5-12b317e52e7c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:12:33.610461+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0c6ca14b-553c-4c63-9fb5-12b317e52e7c_9903e9d0.png",
+     "page_url": "https://muapi.ai/predictions/0c6ca14b-553c-4c63-9fb5-12b317e52e7c",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-03T01:01:33.401582+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-03T01:06:36.581210+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-03T03:12:33.610461+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -2138,13 +2726,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-free-20261003-jaguar-xj220-0fe9350d4484-current.jpg",
+   "preview": "assets/studio-free-20261003-jaguar-xj220-050d68f45a8e-current.jpg",
    "preview_pixels": [
     1600,
     1198
    ],
-   "source_file": "pipeline/studio-free-20261003/f1/heroes/jaguar-xj220/final-native.png",
-   "source_sha256": "0fe9350d4484cf90a9eaba6e6e2f65ceb68f81c12e9c52895ddc46784a55f186",
+   "source_file": "pipeline/studio-free-20261003/f2/heroes/jaguar-xj220/final-native.png",
+   "source_sha256": "050d68f45a8e336ee7b359a4dcb8a78277340d09dc88ab1f326207364c5d8455",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -2210,6 +2798,36 @@
        "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "ea7fc3c6-3ab1-4cc9-8956-6e8b667f9e0e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:36:22.786893+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ea7fc3c6-3ab1-4cc9-8956-6e8b667f9e0e_fb5292ed.png",
+     "page_url": "https://muapi.ai/predictions/ea7fc3c6-3ab1-4cc9-8956-6e8b667f9e0e",
+     "target_id": "grille-badge",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "d563c658-cd77-4d85-a1b6-6d9fcef5beb8",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:36:25.479909+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d563c658-cd77-4d85-a1b6-6d9fcef5beb8_181d7124.png",
+     "page_url": "https://muapi.ai/predictions/d563c658-cd77-4d85-a1b6-6d9fcef5beb8",
+     "target_id": "wheel-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "c6964693-2952-4a7c-b913-6fc3d0f2d874",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:36:28.079692+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c6964693-2952-4a7c-b913-6fc3d0f2d874_eb8ff289.png",
+     "page_url": "https://muapi.ai/predictions/c6964693-2952-4a7c-b913-6fc3d0f2d874",
+     "target_id": "wheel-rear",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -2217,10 +2835,10 @@
     "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
    },
    "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'; 02:43 'i want a full freedom in creatives yet a few little tweaks to improve it'. Raw heroes for approval 1.",
-   "full_source_url": "full/0fe9350d4484-studio-free-20261003-jaguar-xj220.png",
-   "full_source_sha256": "0fe9350d4484cf90a9eaba6e6e2f65ceb68f81c12e9c52895ddc46784a55f186",
-   "full_source_bytes": 10844508,
+   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'. Approval 1 at 03:27: 'ae86 goes out, rest is great work. continue the workflow' (all ten of this batch approved). Detail fixes done; approval 2 is the last approval.",
+   "full_source_url": "full/050d68f45a8e-studio-free-20261003-jaguar-xj220.png",
+   "full_source_sha256": "050d68f45a8e336ee7b359a4dcb8a78277340d09dc88ab1f326207364c5d8455",
+   "full_source_bytes": 9761208,
    "full_source_pixels": [
     3312,
     2480
@@ -2299,13 +2917,46 @@
       }
      ],
      "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "ea7fc3c6-3ab1-4cc9-8956-6e8b667f9e0e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:36:22.786893+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ea7fc3c6-3ab1-4cc9-8956-6e8b667f9e0e_fb5292ed.png",
+     "page_url": "https://muapi.ai/predictions/ea7fc3c6-3ab1-4cc9-8956-6e8b667f9e0e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "d563c658-cd77-4d85-a1b6-6d9fcef5beb8",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:36:25.479909+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d563c658-cd77-4d85-a1b6-6d9fcef5beb8_181d7124.png",
+     "page_url": "https://muapi.ai/predictions/d563c658-cd77-4d85-a1b6-6d9fcef5beb8",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "c6964693-2952-4a7c-b913-6fc3d0f2d874",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:36:28.079692+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c6964693-2952-4a7c-b913-6fc3d0f2d874_eb8ff289.png",
+     "page_url": "https://muapi.ai/predictions/c6964693-2952-4a7c-b913-6fc3d0f2d874",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-03T01:02:39.154240+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-03T01:06:40.919162+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-03T01:36:28.079692+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -2324,13 +2975,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-free-20261003-porsche-993-turbo-638ef0965822-current.jpg",
+   "preview": "assets/studio-free-20261003-porsche-993-turbo-2a5857327203-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
-   "source_file": "pipeline/studio-free-20261003/f1/heroes/porsche-993-turbo/final-native.png",
-   "source_sha256": "638ef096582297eb7e15472901967d8ffd8c8a1b2b08f27e2c79950121c175a8",
+   "source_file": "pipeline/studio-free-20261003/f2/heroes/porsche-993-turbo/final-native.png",
+   "source_sha256": "2a58573272036852e5cdee8ee9e049129a29123cd0bbe2d89cadefa9511b1473",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -2401,6 +3052,66 @@
        "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "2bba084a-b5a1-4ffd-85c4-ecaffb1bc604",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:46:16.306187+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2bba084a-b5a1-4ffd-85c4-ecaffb1bc604_6dd7b00a.png",
+     "page_url": "https://muapi.ai/predictions/2bba084a-b5a1-4ffd-85c4-ecaffb1bc604",
+     "target_id": "crest-bonnet",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "dd7a7d49-ada7-4ef2-9be3-6960a604a85b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:46:18.975040+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/dd7a7d49-ada7-4ef2-9be3-6960a604a85b_3145299c.png",
+     "page_url": "https://muapi.ai/predictions/dd7a7d49-ada7-4ef2-9be3-6960a604a85b",
+     "target_id": "wing-marks",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "6439a6f6-1bc6-4e8b-aaba-0947c205435b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:46:21.617976+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6439a6f6-1bc6-4e8b-aaba-0947c205435b_5275c005.png",
+     "page_url": "https://muapi.ai/predictions/6439a6f6-1bc6-4e8b-aaba-0947c205435b",
+     "target_id": "wheel-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "ec27bf3a-3fce-4bc7-85b8-0a5bcae5dc32",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:46:24.222357+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ec27bf3a-3fce-4bc7-85b8-0a5bcae5dc32_1a52dbbf.png",
+     "page_url": "https://muapi.ai/predictions/ec27bf3a-3fce-4bc7-85b8-0a5bcae5dc32",
+     "target_id": "wheel-rear",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "9d628f20-b382-4442-9c90-1d1c5942e28d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:55:26.335660+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9d628f20-b382-4442-9c90-1d1c5942e28d_0ec07beb.png",
+     "page_url": "https://muapi.ai/predictions/9d628f20-b382-4442-9c90-1d1c5942e28d",
+     "target_id": "cap-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "6f8f5be7-b7be-4dbb-8a7c-00d803e5b015",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:55:28.995847+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6f8f5be7-b7be-4dbb-8a7c-00d803e5b015_696738d8.png",
+     "page_url": "https://muapi.ai/predictions/6f8f5be7-b7be-4dbb-8a7c-00d803e5b015",
+     "target_id": "cap-rear",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -2408,10 +3119,10 @@
     "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
    },
    "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'; 02:43 'i want a full freedom in creatives yet a few little tweaks to improve it'. Raw heroes for approval 1.",
-   "full_source_url": "full/638ef0965822-studio-free-20261003-porsche-993-turbo.png",
-   "full_source_sha256": "638ef096582297eb7e15472901967d8ffd8c8a1b2b08f27e2c79950121c175a8",
-   "full_source_bytes": 10826182,
+   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'. Approval 1 at 03:27: 'ae86 goes out, rest is great work. continue the workflow' (all ten of this batch approved). Detail fixes done; approval 2 is the last approval.",
+   "full_source_url": "full/2a5857327203-studio-free-20261003-porsche-993-turbo.png",
+   "full_source_sha256": "2a58573272036852e5cdee8ee9e049129a29123cd0bbe2d89cadefa9511b1473",
+   "full_source_bytes": 10134436,
    "full_source_pixels": [
     2480,
     3312
@@ -2495,13 +3206,79 @@
       }
      ],
      "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "2bba084a-b5a1-4ffd-85c4-ecaffb1bc604",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:46:16.306187+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2bba084a-b5a1-4ffd-85c4-ecaffb1bc604_6dd7b00a.png",
+     "page_url": "https://muapi.ai/predictions/2bba084a-b5a1-4ffd-85c4-ecaffb1bc604",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "dd7a7d49-ada7-4ef2-9be3-6960a604a85b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:46:18.975040+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/dd7a7d49-ada7-4ef2-9be3-6960a604a85b_3145299c.png",
+     "page_url": "https://muapi.ai/predictions/dd7a7d49-ada7-4ef2-9be3-6960a604a85b",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "6439a6f6-1bc6-4e8b-aaba-0947c205435b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:46:21.617976+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6439a6f6-1bc6-4e8b-aaba-0947c205435b_5275c005.png",
+     "page_url": "https://muapi.ai/predictions/6439a6f6-1bc6-4e8b-aaba-0947c205435b",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "ec27bf3a-3fce-4bc7-85b8-0a5bcae5dc32",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:46:24.222357+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ec27bf3a-3fce-4bc7-85b8-0a5bcae5dc32_1a52dbbf.png",
+     "page_url": "https://muapi.ai/predictions/ec27bf3a-3fce-4bc7-85b8-0a5bcae5dc32",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "9d628f20-b382-4442-9c90-1d1c5942e28d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:55:26.335660+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9d628f20-b382-4442-9c90-1d1c5942e28d_0ec07beb.png",
+     "page_url": "https://muapi.ai/predictions/9d628f20-b382-4442-9c90-1d1c5942e28d",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "6f8f5be7-b7be-4dbb-8a7c-00d803e5b015",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:55:28.995847+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6f8f5be7-b7be-4dbb-8a7c-00d803e5b015_696738d8.png",
+     "page_url": "https://muapi.ai/predictions/6f8f5be7-b7be-4dbb-8a7c-00d803e5b015",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-03T01:02:44.627521+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-03T01:06:45.221509+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-03T01:55:28.995847+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -2520,13 +3297,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-free-20261003-ford-escort-cosworth-ec67c26139e3-current.jpg",
+   "preview": "assets/studio-free-20261003-ford-escort-cosworth-0ff9e71bdcdf-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
-   "source_file": "pipeline/studio-free-20261003/f1/heroes/ford-escort-cosworth/final-native.png",
-   "source_sha256": "ec67c26139e36c90e2ebcbe85a90e149578855ee19a28980e02f56f94af832b6",
+   "source_file": "pipeline/studio-free-20261003/f2/heroes/ford-escort-cosworth/final-native.png",
+   "source_sha256": "0ff9e71bdcdf42600b71f9961f55bc5841584255836fe6f9658f7a1877d2b4ad",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -2597,6 +3374,116 @@
        "source_page": "https://collectingcars.com/for-sale/1996-ford-escort-rs-cosworth"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "dde30e78-8b38-4c86-ae61-eded64f375b4",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:06:33.132049+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/dde30e78-8b38-4c86-ae61-eded64f375b4_88f09aca.png",
+     "page_url": "https://muapi.ai/predictions/dde30e78-8b38-4c86-ae61-eded64f375b4",
+     "target_id": "wheel-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "0c898ac9-65fd-4828-8244-7dee3e14bf47",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:06:35.922571+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0c898ac9-65fd-4828-8244-7dee3e14bf47_fee6f5f6.png",
+     "page_url": "https://muapi.ai/predictions/0c898ac9-65fd-4828-8244-7dee3e14bf47",
+     "target_id": "wheel-rear",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "58b77ec1-9e11-47de-ba4f-4b36f8799801",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:06:38.737606+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/58b77ec1-9e11-47de-ba4f-4b36f8799801_eec4d80c.png",
+     "page_url": "https://muapi.ai/predictions/58b77ec1-9e11-47de-ba4f-4b36f8799801",
+     "target_id": "grille-ghost",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "184afa7a-6767-4284-ae3b-09794f9df1e1",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:06:41.460739+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/184afa7a-6767-4284-ae3b-09794f9df1e1_2daf42bf.png",
+     "page_url": "https://muapi.ai/predictions/184afa7a-6767-4284-ae3b-09794f9df1e1",
+     "target_id": "ghost-corner",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "5e922203-01ed-43bf-ba1c-a17d0f8be89c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:06:44.238256+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5e922203-01ed-43bf-ba1c-a17d0f8be89c_1b0940f7.png",
+     "page_url": "https://muapi.ai/predictions/5e922203-01ed-43bf-ba1c-a17d0f8be89c",
+     "target_id": "window-stickers",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "aa64d613-dbdc-4427-b75d-74a48e376d9b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:06:47.159633+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/aa64d613-dbdc-4427-b75d-74a48e376d9b_ad1c1a96.png",
+     "page_url": "https://muapi.ai/predictions/aa64d613-dbdc-4427-b75d-74a48e376d9b",
+     "target_id": "faded-bonnet-text",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "d8e5d334-92e2-4d1d-86f1-3d086ef38315",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:31:44.629540+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d8e5d334-92e2-4d1d-86f1-3d086ef38315_3ad4e261.png",
+     "page_url": "https://muapi.ai/predictions/d8e5d334-92e2-4d1d-86f1-3d086ef38315",
+     "target_id": "inset-wheel",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "b1af2404-4308-4f77-ac66-55c45c944007",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:31:47.325670+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b1af2404-4308-4f77-ac66-55c45c944007_9dee3270.png",
+     "page_url": "https://muapi.ai/predictions/b1af2404-4308-4f77-ac66-55c45c944007",
+     "target_id": "cap-rear",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "612eeb26-55bd-4819-947c-ae6c2469eccf",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:31:49.983207+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/612eeb26-55bd-4819-947c-ae6c2469eccf_9eb6dbf2.png",
+     "page_url": "https://muapi.ai/predictions/612eeb26-55bd-4819-947c-ae6c2469eccf",
+     "target_id": "side-marker-inset",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "7746fd64-34c2-4745-a0a1-8c3a5cac99d7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:03:31.929319+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/7746fd64-34c2-4745-a0a1-8c3a5cac99d7_47732970.png",
+     "page_url": "https://muapi.ai/predictions/7746fd64-34c2-4745-a0a1-8c3a5cac99d7",
+     "target_id": "side-marker-main",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "2ae5320a-6dec-451f-86e7-36bdd57c1791",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:46:15.134316+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2ae5320a-6dec-451f-86e7-36bdd57c1791_857df1ba.png",
+     "page_url": "https://muapi.ai/predictions/2ae5320a-6dec-451f-86e7-36bdd57c1791",
+     "target_id": "splitter",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -2604,10 +3491,10 @@
     "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
    },
    "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'; 02:43 'i want a full freedom in creatives yet a few little tweaks to improve it'. Raw heroes for approval 1.",
-   "full_source_url": "full/ec67c26139e3-studio-free-20261003-ford-escort-cosworth.png",
-   "full_source_sha256": "ec67c26139e36c90e2ebcbe85a90e149578855ee19a28980e02f56f94af832b6",
-   "full_source_bytes": 13278076,
+   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'. Approval 1 at 03:27: 'ae86 goes out, rest is great work. continue the workflow' (all ten of this batch approved). Detail fixes done; approval 2 is the last approval.",
+   "full_source_url": "full/0ff9e71bdcdf-studio-free-20261003-ford-escort-cosworth.png",
+   "full_source_sha256": "0ff9e71bdcdf42600b71f9961f55bc5841584255836fe6f9658f7a1877d2b4ad",
+   "full_source_bytes": 12684345,
    "full_source_pixels": [
     2480,
     3312
@@ -2691,13 +3578,134 @@
       }
      ],
      "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "dde30e78-8b38-4c86-ae61-eded64f375b4",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:06:33.132049+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/dde30e78-8b38-4c86-ae61-eded64f375b4_88f09aca.png",
+     "page_url": "https://muapi.ai/predictions/dde30e78-8b38-4c86-ae61-eded64f375b4",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "0c898ac9-65fd-4828-8244-7dee3e14bf47",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:06:35.922571+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0c898ac9-65fd-4828-8244-7dee3e14bf47_fee6f5f6.png",
+     "page_url": "https://muapi.ai/predictions/0c898ac9-65fd-4828-8244-7dee3e14bf47",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "58b77ec1-9e11-47de-ba4f-4b36f8799801",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:06:38.737606+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/58b77ec1-9e11-47de-ba4f-4b36f8799801_eec4d80c.png",
+     "page_url": "https://muapi.ai/predictions/58b77ec1-9e11-47de-ba4f-4b36f8799801",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "184afa7a-6767-4284-ae3b-09794f9df1e1",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:06:41.460739+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/184afa7a-6767-4284-ae3b-09794f9df1e1_2daf42bf.png",
+     "page_url": "https://muapi.ai/predictions/184afa7a-6767-4284-ae3b-09794f9df1e1",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "5e922203-01ed-43bf-ba1c-a17d0f8be89c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:06:44.238256+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5e922203-01ed-43bf-ba1c-a17d0f8be89c_1b0940f7.png",
+     "page_url": "https://muapi.ai/predictions/5e922203-01ed-43bf-ba1c-a17d0f8be89c",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "aa64d613-dbdc-4427-b75d-74a48e376d9b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:06:47.159633+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/aa64d613-dbdc-4427-b75d-74a48e376d9b_ad1c1a96.png",
+     "page_url": "https://muapi.ai/predictions/aa64d613-dbdc-4427-b75d-74a48e376d9b",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "d8e5d334-92e2-4d1d-86f1-3d086ef38315",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:31:44.629540+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d8e5d334-92e2-4d1d-86f1-3d086ef38315_3ad4e261.png",
+     "page_url": "https://muapi.ai/predictions/d8e5d334-92e2-4d1d-86f1-3d086ef38315",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "b1af2404-4308-4f77-ac66-55c45c944007",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:31:47.325670+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b1af2404-4308-4f77-ac66-55c45c944007_9dee3270.png",
+     "page_url": "https://muapi.ai/predictions/b1af2404-4308-4f77-ac66-55c45c944007",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "612eeb26-55bd-4819-947c-ae6c2469eccf",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:31:49.983207+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/612eeb26-55bd-4819-947c-ae6c2469eccf_9eb6dbf2.png",
+     "page_url": "https://muapi.ai/predictions/612eeb26-55bd-4819-947c-ae6c2469eccf",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "7746fd64-34c2-4745-a0a1-8c3a5cac99d7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:03:31.929319+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/7746fd64-34c2-4745-a0a1-8c3a5cac99d7_47732970.png",
+     "page_url": "https://muapi.ai/predictions/7746fd64-34c2-4745-a0a1-8c3a5cac99d7",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "2ae5320a-6dec-451f-86e7-36bdd57c1791",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:46:15.134316+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2ae5320a-6dec-451f-86e7-36bdd57c1791_857df1ba.png",
+     "page_url": "https://muapi.ai/predictions/2ae5320a-6dec-451f-86e7-36bdd57c1791",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-03T01:02:55.721256+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-03T01:06:49.495580+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-03T03:46:15.134316+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -2716,13 +3724,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-free-20261003-lancia-fulvia-hf-9d16431ef966-current.jpg",
+   "preview": "assets/studio-free-20261003-lancia-fulvia-hf-12a4df1675c1-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
-   "source_file": "pipeline/studio-free-20261003/f1/heroes/lancia-fulvia-hf/final-native.png",
-   "source_sha256": "9d16431ef96645af6db569ecf9a73b00863376d1ff84762ec14dc94286755f4e",
+   "source_file": "pipeline/studio-free-20261003/f2/heroes/lancia-fulvia-hf/final-native.png",
+   "source_sha256": "12a4df1675c18fd9373191f9d2eaff8627f5b72aa608de81736025b8b4278b09",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -2783,6 +3791,46 @@
        "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "dcbf3c34-b4da-41ca-a98c-adf3ad226229",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:18:05.629088+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/dcbf3c34-b4da-41ca-a98c-adf3ad226229_04323bc5.png",
+     "page_url": "https://muapi.ai/predictions/dcbf3c34-b4da-41ca-a98c-adf3ad226229",
+     "target_id": "hf-badge",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "2149f666-fe2f-4679-9f2f-fdf9336b24ce",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:18:08.889066+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2149f666-fe2f-4679-9f2f-fdf9336b24ce_117d7805.png",
+     "page_url": "https://muapi.ai/predictions/2149f666-fe2f-4679-9f2f-fdf9336b24ce",
+     "target_id": "shield-grille",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "3de5dcad-cf42-494d-84c8-3a930d657827",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:18:12.479501+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/3de5dcad-cf42-494d-84c8-3a930d657827_6e0af0f9.png",
+     "page_url": "https://muapi.ai/predictions/3de5dcad-cf42-494d-84c8-3a930d657827",
+     "target_id": "wheel-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "9de93604-10ab-4201-818b-35c9aa8fe725",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:18:15.951278+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9de93604-10ab-4201-818b-35c9aa8fe725_b06eca0f.png",
+     "page_url": "https://muapi.ai/predictions/9de93604-10ab-4201-818b-35c9aa8fe725",
+     "target_id": "cap-front",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -2790,10 +3838,10 @@
     "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
    },
    "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'; 02:43 'i want a full freedom in creatives yet a few little tweaks to improve it'. Raw heroes for approval 1.",
-   "full_source_url": "full/9d16431ef966-studio-free-20261003-lancia-fulvia-hf.png",
-   "full_source_sha256": "9d16431ef96645af6db569ecf9a73b00863376d1ff84762ec14dc94286755f4e",
-   "full_source_bytes": 9268621,
+   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'. Approval 1 at 03:27: 'ae86 goes out, rest is great work. continue the workflow' (all ten of this batch approved). Detail fixes done; approval 2 is the last approval.",
+   "full_source_url": "full/12a4df1675c1-studio-free-20261003-lancia-fulvia-hf.png",
+   "full_source_sha256": "12a4df1675c18fd9373191f9d2eaff8627f5b72aa608de81736025b8b4278b09",
+   "full_source_bytes": 8554690,
    "full_source_pixels": [
     2480,
     3312
@@ -2867,13 +3915,57 @@
       }
      ],
      "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "dcbf3c34-b4da-41ca-a98c-adf3ad226229",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:18:05.629088+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/dcbf3c34-b4da-41ca-a98c-adf3ad226229_04323bc5.png",
+     "page_url": "https://muapi.ai/predictions/dcbf3c34-b4da-41ca-a98c-adf3ad226229",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "2149f666-fe2f-4679-9f2f-fdf9336b24ce",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:18:08.889066+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2149f666-fe2f-4679-9f2f-fdf9336b24ce_117d7805.png",
+     "page_url": "https://muapi.ai/predictions/2149f666-fe2f-4679-9f2f-fdf9336b24ce",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "3de5dcad-cf42-494d-84c8-3a930d657827",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:18:12.479501+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/3de5dcad-cf42-494d-84c8-3a930d657827_6e0af0f9.png",
+     "page_url": "https://muapi.ai/predictions/3de5dcad-cf42-494d-84c8-3a930d657827",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "9de93604-10ab-4201-818b-35c9aa8fe725",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:18:15.951278+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9de93604-10ab-4201-818b-35c9aa8fe725_b06eca0f.png",
+     "page_url": "https://muapi.ai/predictions/9de93604-10ab-4201-818b-35c9aa8fe725",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-03T01:03:52.944416+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-03T01:07:39.721376+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-03T02:18:15.951278+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -2892,13 +3984,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-free-20261003-honda-integra-type-r-09281f1eb3f8-current.jpg",
+   "preview": "assets/studio-free-20261003-honda-integra-type-r-42e31d8554e8-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
-   "source_file": "pipeline/studio-free-20261003/f1/heroes/honda-integra-type-r/final-native.png",
-   "source_sha256": "09281f1eb3f8c8b24a619f492a1d44feb1dfd4e93e569ec147482b1a54ec034f",
+   "source_file": "pipeline/studio-free-20261003/f2/heroes/honda-integra-type-r/final-native.png",
+   "source_sha256": "42e31d8554e8d9620f5e1723f180fa4aab9cc530de37f1ca5be25bd6bdcd5709",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -2964,6 +4056,76 @@
        "source_page": "https://collectingcars.com/for-sale/2000-honda-integra-type-r-dc2-8"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "ae34e223-ca25-4571-b690-bab5a9525a0a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:02:49.054623+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ae34e223-ca25-4571-b690-bab5a9525a0a_cf4e66d4.png",
+     "page_url": "https://muapi.ai/predictions/ae34e223-ca25-4571-b690-bab5a9525a0a",
+     "target_id": "front-tyre",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "99862075-c615-445d-8564-d08311f36895",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:02:51.776101+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/99862075-c615-445d-8564-d08311f36895_afb11be4.png",
+     "page_url": "https://muapi.ai/predictions/99862075-c615-445d-8564-d08311f36895",
+     "target_id": "rear-tyre",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "4a33fef6-12cd-4724-a576-c6c5cdff5900",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:02:54.490487+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4a33fef6-12cd-4724-a576-c6c5cdff5900_199905d1.png",
+     "page_url": "https://muapi.ai/predictions/4a33fef6-12cd-4724-a576-c6c5cdff5900",
+     "target_id": "inset-text",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "df0f87e1-0b76-4223-a2fb-a82511a2e8a5",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:02:57.069265+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/df0f87e1-0b76-4223-a2fb-a82511a2e8a5_13b4dcca.png",
+     "page_url": "https://muapi.ai/predictions/df0f87e1-0b76-4223-a2fb-a82511a2e8a5",
+     "target_id": "window-sticker",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "9c8cb039-1883-4a87-8d63-ed521f5ed10a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:02:59.834337+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9c8cb039-1883-4a87-8d63-ed521f5ed10a_e548245b.png",
+     "page_url": "https://muapi.ai/predictions/9c8cb039-1883-4a87-8d63-ed521f5ed10a",
+     "target_id": "side-decal",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "f80e8f29-c27f-4397-b4dd-96f5f2751f99",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:12:41.247519+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f80e8f29-c27f-4397-b4dd-96f5f2751f99_2d6481b1.png",
+     "page_url": "https://muapi.ai/predictions/f80e8f29-c27f-4397-b4dd-96f5f2751f99",
+     "target_id": "tyre-tr",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "a78c2199-6c4b-4ffa-8ed5-ad248243fe9c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:12:43.851794+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a78c2199-6c4b-4ffa-8ed5-ad248243fe9c_a472596e.png",
+     "page_url": "https://muapi.ai/predictions/a78c2199-6c4b-4ffa-8ed5-ad248243fe9c",
+     "target_id": "tyre-l",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -2971,10 +4133,10 @@
     "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
    },
    "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'; 02:43 'i want a full freedom in creatives yet a few little tweaks to improve it'. Raw heroes for approval 1.",
-   "full_source_url": "full/09281f1eb3f8-studio-free-20261003-honda-integra-type-r.png",
-   "full_source_sha256": "09281f1eb3f8c8b24a619f492a1d44feb1dfd4e93e569ec147482b1a54ec034f",
-   "full_source_bytes": 12458150,
+   "candidate_authority": "Owner 3 Oct 2026 02:45: 'they are fine, keep them, put them in studio, just lets do 10 more independent new heros, now better ok?'. Approval 1 at 03:27: 'ae86 goes out, rest is great work. continue the workflow' (all ten of this batch approved). Detail fixes done; approval 2 is the last approval.",
+   "full_source_url": "full/42e31d8554e8-studio-free-20261003-honda-integra-type-r.png",
+   "full_source_sha256": "42e31d8554e8d9620f5e1723f180fa4aab9cc530de37f1ca5be25bd6bdcd5709",
+   "full_source_bytes": 11536863,
    "full_source_pixels": [
     2480,
     3312
@@ -3053,13 +4215,90 @@
       }
      ],
      "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "ae34e223-ca25-4571-b690-bab5a9525a0a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:02:49.054623+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ae34e223-ca25-4571-b690-bab5a9525a0a_cf4e66d4.png",
+     "page_url": "https://muapi.ai/predictions/ae34e223-ca25-4571-b690-bab5a9525a0a",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "99862075-c615-445d-8564-d08311f36895",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:02:51.776101+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/99862075-c615-445d-8564-d08311f36895_afb11be4.png",
+     "page_url": "https://muapi.ai/predictions/99862075-c615-445d-8564-d08311f36895",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "4a33fef6-12cd-4724-a576-c6c5cdff5900",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:02:54.490487+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4a33fef6-12cd-4724-a576-c6c5cdff5900_199905d1.png",
+     "page_url": "https://muapi.ai/predictions/4a33fef6-12cd-4724-a576-c6c5cdff5900",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "df0f87e1-0b76-4223-a2fb-a82511a2e8a5",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:02:57.069265+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/df0f87e1-0b76-4223-a2fb-a82511a2e8a5_13b4dcca.png",
+     "page_url": "https://muapi.ai/predictions/df0f87e1-0b76-4223-a2fb-a82511a2e8a5",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "9c8cb039-1883-4a87-8d63-ed521f5ed10a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:02:59.834337+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9c8cb039-1883-4a87-8d63-ed521f5ed10a_e548245b.png",
+     "page_url": "https://muapi.ai/predictions/9c8cb039-1883-4a87-8d63-ed521f5ed10a",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "f80e8f29-c27f-4397-b4dd-96f5f2751f99",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:12:41.247519+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f80e8f29-c27f-4397-b4dd-96f5f2751f99_2d6481b1.png",
+     "page_url": "https://muapi.ai/predictions/f80e8f29-c27f-4397-b4dd-96f5f2751f99",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "a78c2199-6c4b-4ffa-8ed5-ad248243fe9c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:12:43.851794+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a78c2199-6c4b-4ffa-8ed5-ad248243fe9c_a472596e.png",
+     "page_url": "https://muapi.ai/predictions/a78c2199-6c4b-4ffa-8ed5-ad248243fe9c",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-free-20261003/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-03T01:03:58.395384+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-03T01:08:32.175103+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-03T03:12:43.851794+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -3078,13 +4317,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-pairs-20261003-porsche-356-speedster-8fa3f69c0f9c-current.jpg",
+   "preview": "assets/studio-pairs-20261003-porsche-356-speedster-5ff6da9321d3-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-pairs-20261003/c1/heroes/porsche-356-speedster/final-native.png",
-   "source_sha256": "8fa3f69c0f9c46bf237af952e141b065187e3f5379af651ecff59aab370d1ebe",
+   "source_sha256": "5ff6da9321d3757eb5b36b8d9dc1e03c8edc4425e5481996a6fb6832a8633e12",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -3145,6 +4384,36 @@
        "source_page": "https://rmsothebys.com/auctions/mo20/lots/r0077-1956-porsche-356-a-1600-speedster-by-reutter/"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "5a8c800a-7e26-4943-8e7f-e5d134a0e38b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:37:44.900611+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5a8c800a-7e26-4943-8e7f-e5d134a0e38b_c93dd74a.png",
+     "page_url": "https://muapi.ai/predictions/5a8c800a-7e26-4943-8e7f-e5d134a0e38b",
+     "target_id": "badge-left",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "48edc270-a32b-4dc2-85a8-21d568e83cda",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:37:47.650322+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/48edc270-a32b-4dc2-85a8-21d568e83cda_7506ce87.png",
+     "page_url": "https://muapi.ai/predictions/48edc270-a32b-4dc2-85a8-21d568e83cda",
+     "target_id": "tyre-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "3fb30496-c338-44cf-9b1a-311ab42587b3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:37:50.410666+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/3fb30496-c338-44cf-9b1a-311ab42587b3_18ce2244.png",
+     "page_url": "https://muapi.ai/predictions/3fb30496-c338-44cf-9b1a-311ab42587b3",
+     "target_id": "crest",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -3152,10 +4421,10 @@
     "why": "Brief: DIRECTED - 1950s club-race roundel with 356 as the race number, Speedster script. Your collection choice is final."
    },
    "candidate_source": "pipeline/studio-pairs-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes; 'i wanna now which creative directions u give to the model'; '5 free + 5 directed'; 'just dont start checking and fixing them immediately, i have to approve first'. Raw heroes for approval 1.",
-   "full_source_url": "full/8fa3f69c0f9c-studio-pairs-20261003-porsche-356-speedster.png",
-   "full_source_sha256": "8fa3f69c0f9c46bf237af952e141b065187e3f5379af651ecff59aab370d1ebe",
-   "full_source_bytes": 14273815,
+   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes, '5 free + 5 directed', raw heroes first. Approval 1 at 03:27: 'ae86 goes out, rest is great work. continue the workflow'. Detail fixes done on the nine picks; approval 2 is the last approval.",
+   "full_source_url": "full/5ff6da9321d3-studio-pairs-20261003-porsche-356-speedster.png",
+   "full_source_sha256": "5ff6da9321d3757eb5b36b8d9dc1e03c8edc4425e5481996a6fb6832a8633e12",
+   "full_source_bytes": 12957867,
    "full_source_pixels": [
     2480,
     3312
@@ -3229,13 +4498,46 @@
       }
      ],
      "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "5a8c800a-7e26-4943-8e7f-e5d134a0e38b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:37:44.900611+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5a8c800a-7e26-4943-8e7f-e5d134a0e38b_c93dd74a.png",
+     "page_url": "https://muapi.ai/predictions/5a8c800a-7e26-4943-8e7f-e5d134a0e38b",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "48edc270-a32b-4dc2-85a8-21d568e83cda",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:37:47.650322+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/48edc270-a32b-4dc2-85a8-21d568e83cda_7506ce87.png",
+     "page_url": "https://muapi.ai/predictions/48edc270-a32b-4dc2-85a8-21d568e83cda",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "3fb30496-c338-44cf-9b1a-311ab42587b3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:37:50.410666+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/3fb30496-c338-44cf-9b1a-311ab42587b3_18ce2244.png",
+     "page_url": "https://muapi.ai/predictions/3fb30496-c338-44cf-9b1a-311ab42587b3",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-03T00:24:04.312387+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-03T00:34:26.256852+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-03T01:37:50.410666+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -3254,13 +4556,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-pairs-20261003-porsche-964-carrera-rs-1d3b1b0a0e2f-current.jpg",
+   "preview": "assets/studio-pairs-20261003-porsche-964-carrera-rs-7dc272686678-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-pairs-20261003/c1/heroes/porsche-964-carrera-rs/final-native.png",
-   "source_sha256": "1d3b1b0a0e2fe13a1bc4e5bbaba8bd7ab09aa657fc99ef03457af5cb11080e41",
+   "source_sha256": "7dc272686678a136d1deb90db523ebd38d05c3bde6bb2eeedf15c7976e996286",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -3331,6 +4633,56 @@
        "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0020-1992-porsche-911-carrera-rs/"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "1aaa9577-3b2d-434b-a15b-4df4be76f29d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:46:59.901603+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/1aaa9577-3b2d-434b-a15b-4df4be76f29d_2823dd64.png",
+     "page_url": "https://muapi.ai/predictions/1aaa9577-3b2d-434b-a15b-4df4be76f29d",
+     "target_id": "tyre-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "3873b984-0793-4e08-997d-97365d82f8a6",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:47:02.615509+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/3873b984-0793-4e08-997d-97365d82f8a6_42188849.png",
+     "page_url": "https://muapi.ai/predictions/3873b984-0793-4e08-997d-97365d82f8a6",
+     "target_id": "tyre-rear",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "dd55de93-6d3b-45c2-b419-23cc3fbd05a4",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:47:05.280729+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/dd55de93-6d3b-45c2-b419-23cc3fbd05a4_4aff6c02.png",
+     "page_url": "https://muapi.ai/predictions/dd55de93-6d3b-45c2-b419-23cc3fbd05a4",
+     "target_id": "crest",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "bf0e97f5-a155-4a1c-bf0c-279d66290aad",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:01:18.760097+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/bf0e97f5-a155-4a1c-bf0c-279d66290aad_4f7362e4.png",
+     "page_url": "https://muapi.ai/predictions/bf0e97f5-a155-4a1c-bf0c-279d66290aad",
+     "target_id": "cap-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "e5647da3-10bd-48f5-81a4-0d881f3fa111",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:01:21.454459+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e5647da3-10bd-48f5-81a4-0d881f3fa111_4aefd00a.png",
+     "page_url": "https://muapi.ai/predictions/e5647da3-10bd-48f5-81a4-0d881f3fa111",
+     "target_id": "cap-rear",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -3338,10 +4690,10 @@
     "why": "Brief: FREE - no idea given; the model designed it. Your collection choice is final."
    },
    "candidate_source": "pipeline/studio-pairs-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes; 'i wanna now which creative directions u give to the model'; '5 free + 5 directed'; 'just dont start checking and fixing them immediately, i have to approve first'. Raw heroes for approval 1.",
-   "full_source_url": "full/1d3b1b0a0e2f-studio-pairs-20261003-porsche-964-carrera-rs.png",
-   "full_source_sha256": "1d3b1b0a0e2fe13a1bc4e5bbaba8bd7ab09aa657fc99ef03457af5cb11080e41",
-   "full_source_bytes": 10781476,
+   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes, '5 free + 5 directed', raw heroes first. Approval 1 at 03:27: 'ae86 goes out, rest is great work. continue the workflow'. Detail fixes done on the nine picks; approval 2 is the last approval.",
+   "full_source_url": "full/7dc272686678-studio-pairs-20261003-porsche-964-carrera-rs.png",
+   "full_source_sha256": "7dc272686678a136d1deb90db523ebd38d05c3bde6bb2eeedf15c7976e996286",
+   "full_source_bytes": 9943089,
    "full_source_pixels": [
     2480,
     3312
@@ -3425,13 +4777,68 @@
       }
      ],
      "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "1aaa9577-3b2d-434b-a15b-4df4be76f29d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:46:59.901603+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/1aaa9577-3b2d-434b-a15b-4df4be76f29d_2823dd64.png",
+     "page_url": "https://muapi.ai/predictions/1aaa9577-3b2d-434b-a15b-4df4be76f29d",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "3873b984-0793-4e08-997d-97365d82f8a6",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:47:02.615509+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/3873b984-0793-4e08-997d-97365d82f8a6_42188849.png",
+     "page_url": "https://muapi.ai/predictions/3873b984-0793-4e08-997d-97365d82f8a6",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "dd55de93-6d3b-45c2-b419-23cc3fbd05a4",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:47:05.280729+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/dd55de93-6d3b-45c2-b419-23cc3fbd05a4_4aff6c02.png",
+     "page_url": "https://muapi.ai/predictions/dd55de93-6d3b-45c2-b419-23cc3fbd05a4",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "bf0e97f5-a155-4a1c-bf0c-279d66290aad",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:01:18.760097+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/bf0e97f5-a155-4a1c-bf0c-279d66290aad_4f7362e4.png",
+     "page_url": "https://muapi.ai/predictions/bf0e97f5-a155-4a1c-bf0c-279d66290aad",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "e5647da3-10bd-48f5-81a4-0d881f3fa111",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:01:21.454459+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e5647da3-10bd-48f5-81a4-0d881f3fa111_4aefd00a.png",
+     "page_url": "https://muapi.ai/predictions/e5647da3-10bd-48f5-81a4-0d881f3fa111",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-03T00:19:44.276685+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-03T00:34:21.978413+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-03T02:01:21.454459+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -3450,13 +4857,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-pairs-20261003-ferrari-308-gts-6a3205ae43e3-current.jpg",
+   "preview": "assets/studio-pairs-20261003-ferrari-308-gts-b184149467dc-current.jpg",
    "preview_pixels": [
     1600,
     1198
    ],
    "source_file": "pipeline/studio-pairs-20261003/c1/heroes/ferrari-308-gts/final-native.png",
-   "source_sha256": "6a3205ae43e34c6d4fb530ac541eff35a839451bb397360d54092e1f4a122ec1",
+   "source_sha256": "b184149467dc00622a5895c12f26a0c163ff932b68cb71af263173fa77cad0be",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -3517,6 +4924,76 @@
        "source_page": "https://rmsothebys.com/auctions/0225/lots/r0037-1978-ferrari-308-gts/"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "81ccc5b9-f96e-4ae7-bea6-47c12208019d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:14:18.851326+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/81ccc5b9-f96e-4ae7-bea6-47c12208019d_945f34d6.png",
+     "page_url": "https://muapi.ai/predictions/81ccc5b9-f96e-4ae7-bea6-47c12208019d",
+     "target_id": "tyre-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "910a6e16-90e2-4826-ad19-2c82bcc39e74",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:14:21.549534+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/910a6e16-90e2-4826-ad19-2c82bcc39e74_8cdcbd11.png",
+     "page_url": "https://muapi.ai/predictions/910a6e16-90e2-4826-ad19-2c82bcc39e74",
+     "target_id": "tyre-rear",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "d3de7a43-5b20-40c7-988c-e9ac5146ec9f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:14:24.275113+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d3de7a43-5b20-40c7-988c-e9ac5146ec9f_531bcd44.png",
+     "page_url": "https://muapi.ai/predictions/d3de7a43-5b20-40c7-988c-e9ac5146ec9f",
+     "target_id": "badge-nose",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "3a3171ea-a5aa-4b31-877b-b43c3f3f2fb9",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:14:26.950898+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/3a3171ea-a5aa-4b31-877b-b43c3f3f2fb9_5bf32a29.png",
+     "page_url": "https://muapi.ai/predictions/3a3171ea-a5aa-4b31-877b-b43c3f3f2fb9",
+     "target_id": "plaque",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "de171179-750e-4378-abdd-880892980b6f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:14:29.616550+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/de171179-750e-4378-abdd-880892980b6f_3f1ae002.png",
+     "page_url": "https://muapi.ai/predictions/de171179-750e-4378-abdd-880892980b6f",
+     "target_id": "cap-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "a88ce2ac-9b58-4f93-8621-373336ee4e85",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:14:32.364057+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a88ce2ac-9b58-4f93-8621-373336ee4e85_6556cd50.png",
+     "page_url": "https://muapi.ai/predictions/a88ce2ac-9b58-4f93-8621-373336ee4e85",
+     "target_id": "cap-rear",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "e40858db-b9f2-4dc6-9dc3-0e49c76d2f5c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:37:55.829057+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e40858db-b9f2-4dc6-9dc3-0e49c76d2f5c_2001509b.png",
+     "page_url": "https://muapi.ai/predictions/e40858db-b9f2-4dc6-9dc3-0e49c76d2f5c",
+     "target_id": "louvre-left",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -3524,10 +5001,10 @@
     "why": "Brief: DIRECTED - designer's tape drawing of the 308 profile behind the real car. Your collection choice is final."
    },
    "candidate_source": "pipeline/studio-pairs-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes; 'i wanna now which creative directions u give to the model'; '5 free + 5 directed'; 'just dont start checking and fixing them immediately, i have to approve first'. Raw heroes for approval 1.",
-   "full_source_url": "full/6a3205ae43e3-studio-pairs-20261003-ferrari-308-gts.png",
-   "full_source_sha256": "6a3205ae43e34c6d4fb530ac541eff35a839451bb397360d54092e1f4a122ec1",
-   "full_source_bytes": 9898575,
+   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes, '5 free + 5 directed', raw heroes first. Approval 1 at 03:27: 'ae86 goes out, rest is great work. continue the workflow'. Detail fixes done on the nine picks; approval 2 is the last approval.",
+   "full_source_url": "full/b184149467dc-studio-pairs-20261003-ferrari-308-gts.png",
+   "full_source_sha256": "b184149467dc00622a5895c12f26a0c163ff932b68cb71af263173fa77cad0be",
+   "full_source_bytes": 8734432,
    "full_source_pixels": [
     3312,
     2480
@@ -3601,13 +5078,90 @@
       }
      ],
      "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "81ccc5b9-f96e-4ae7-bea6-47c12208019d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:14:18.851326+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/81ccc5b9-f96e-4ae7-bea6-47c12208019d_945f34d6.png",
+     "page_url": "https://muapi.ai/predictions/81ccc5b9-f96e-4ae7-bea6-47c12208019d",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "910a6e16-90e2-4826-ad19-2c82bcc39e74",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:14:21.549534+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/910a6e16-90e2-4826-ad19-2c82bcc39e74_8cdcbd11.png",
+     "page_url": "https://muapi.ai/predictions/910a6e16-90e2-4826-ad19-2c82bcc39e74",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "d3de7a43-5b20-40c7-988c-e9ac5146ec9f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:14:24.275113+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d3de7a43-5b20-40c7-988c-e9ac5146ec9f_531bcd44.png",
+     "page_url": "https://muapi.ai/predictions/d3de7a43-5b20-40c7-988c-e9ac5146ec9f",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "3a3171ea-a5aa-4b31-877b-b43c3f3f2fb9",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:14:26.950898+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/3a3171ea-a5aa-4b31-877b-b43c3f3f2fb9_5bf32a29.png",
+     "page_url": "https://muapi.ai/predictions/3a3171ea-a5aa-4b31-877b-b43c3f3f2fb9",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "de171179-750e-4378-abdd-880892980b6f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:14:29.616550+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/de171179-750e-4378-abdd-880892980b6f_3f1ae002.png",
+     "page_url": "https://muapi.ai/predictions/de171179-750e-4378-abdd-880892980b6f",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "a88ce2ac-9b58-4f93-8621-373336ee4e85",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:14:32.364057+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a88ce2ac-9b58-4f93-8621-373336ee4e85_6556cd50.png",
+     "page_url": "https://muapi.ai/predictions/a88ce2ac-9b58-4f93-8621-373336ee4e85",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "e40858db-b9f2-4dc6-9dc3-0e49c76d2f5c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:37:55.829057+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e40858db-b9f2-4dc6-9dc3-0e49c76d2f5c_2001509b.png",
+     "page_url": "https://muapi.ai/predictions/e40858db-b9f2-4dc6-9dc3-0e49c76d2f5c",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-03T00:32:20.542688+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-03T00:37:39.548653+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-03T02:37:55.829057+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -3626,13 +5180,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-pairs-20261003-ferrari-f50-964f54a9b2b7-current.jpg",
+   "preview": "assets/studio-pairs-20261003-ferrari-f50-75aac883f454-current.jpg",
    "preview_pixels": [
     1600,
     1198
    ],
    "source_file": "pipeline/studio-pairs-20261003/c1/heroes/ferrari-f50/final-native.png",
-   "source_sha256": "964f54a9b2b781cb992b75649e65e5f08811b5241263eee895154994cff6a6d4",
+   "source_sha256": "75aac883f454aba564bda6ec6399effc3692137dd5cc562fb0d73486cde1aa7a",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -3703,6 +5257,76 @@
        "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "6a649756-ba84-45c1-9410-f18e2de6eac3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:56:29.628393+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6a649756-ba84-45c1-9410-f18e2de6eac3_b0fb3173.png",
+     "page_url": "https://muapi.ai/predictions/6a649756-ba84-45c1-9410-f18e2de6eac3",
+     "target_id": "tyre-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "cd6fceb7-4c5b-45a3-add9-b6eece8d64c6",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:56:32.378175+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/cd6fceb7-4c5b-45a3-add9-b6eece8d64c6_e440e157.png",
+     "page_url": "https://muapi.ai/predictions/cd6fceb7-4c5b-45a3-add9-b6eece8d64c6",
+     "target_id": "tyre-rear",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "036daaed-3ee9-42d1-b7f4-1da575e06746",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:56:35.119532+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/036daaed-3ee9-42d1-b7f4-1da575e06746_26a5fd25.png",
+     "page_url": "https://muapi.ai/predictions/036daaed-3ee9-42d1-b7f4-1da575e06746",
+     "target_id": "badge-nose",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "8f1aa197-9817-4bfa-a60b-23fae2848253",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:56:37.849339+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/8f1aa197-9817-4bfa-a60b-23fae2848253_bfe505ec.png",
+     "page_url": "https://muapi.ai/predictions/8f1aa197-9817-4bfa-a60b-23fae2848253",
+     "target_id": "shield-wing",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "8ca285c0-2112-4688-ae7f-bd340d8a0315",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:56:40.415979+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/8ca285c0-2112-4688-ae7f-bd340d8a0315_40d45754.png",
+     "page_url": "https://muapi.ai/predictions/8ca285c0-2112-4688-ae7f-bd340d8a0315",
+     "target_id": "script-pinin",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "7fb3f876-017b-4d8e-89ca-bce9fe4775dc",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:57:38.193437+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/7fb3f876-017b-4d8e-89ca-bce9fe4775dc_4c146cd6.png",
+     "page_url": "https://muapi.ai/predictions/7fb3f876-017b-4d8e-89ca-bce9fe4775dc",
+     "target_id": "script-bg",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "dfb37c81-d413-4eac-8cd9-f4bd59846d63",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:10:36.770062+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/dfb37c81-d413-4eac-8cd9-f4bd59846d63_35cb89ae.png",
+     "page_url": "https://muapi.ai/predictions/dfb37c81-d413-4eac-8cd9-f4bd59846d63",
+     "target_id": "shield-bg",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -3710,10 +5334,10 @@
     "why": "Brief: FREE - no idea given; the model designed it. Your collection choice is final."
    },
    "candidate_source": "pipeline/studio-pairs-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes; 'i wanna now which creative directions u give to the model'; '5 free + 5 directed'; 'just dont start checking and fixing them immediately, i have to approve first'. Raw heroes for approval 1.",
-   "full_source_url": "full/964f54a9b2b7-studio-pairs-20261003-ferrari-f50.png",
-   "full_source_sha256": "964f54a9b2b781cb992b75649e65e5f08811b5241263eee895154994cff6a6d4",
-   "full_source_bytes": 11579676,
+   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes, '5 free + 5 directed', raw heroes first. Approval 1 at 03:27: 'ae86 goes out, rest is great work. continue the workflow'. Detail fixes done on the nine picks; approval 2 is the last approval.",
+   "full_source_url": "full/75aac883f454-studio-pairs-20261003-ferrari-f50.png",
+   "full_source_sha256": "75aac883f454aba564bda6ec6399effc3692137dd5cc562fb0d73486cde1aa7a",
+   "full_source_bytes": 11206421,
    "full_source_pixels": [
     3312,
     2480
@@ -3797,13 +5421,90 @@
       }
      ],
      "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "6a649756-ba84-45c1-9410-f18e2de6eac3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:56:29.628393+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6a649756-ba84-45c1-9410-f18e2de6eac3_b0fb3173.png",
+     "page_url": "https://muapi.ai/predictions/6a649756-ba84-45c1-9410-f18e2de6eac3",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "cd6fceb7-4c5b-45a3-add9-b6eece8d64c6",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:56:32.378175+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/cd6fceb7-4c5b-45a3-add9-b6eece8d64c6_e440e157.png",
+     "page_url": "https://muapi.ai/predictions/cd6fceb7-4c5b-45a3-add9-b6eece8d64c6",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "036daaed-3ee9-42d1-b7f4-1da575e06746",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:56:35.119532+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/036daaed-3ee9-42d1-b7f4-1da575e06746_26a5fd25.png",
+     "page_url": "https://muapi.ai/predictions/036daaed-3ee9-42d1-b7f4-1da575e06746",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "8f1aa197-9817-4bfa-a60b-23fae2848253",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:56:37.849339+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/8f1aa197-9817-4bfa-a60b-23fae2848253_bfe505ec.png",
+     "page_url": "https://muapi.ai/predictions/8f1aa197-9817-4bfa-a60b-23fae2848253",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "8ca285c0-2112-4688-ae7f-bd340d8a0315",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:56:40.415979+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/8ca285c0-2112-4688-ae7f-bd340d8a0315_40d45754.png",
+     "page_url": "https://muapi.ai/predictions/8ca285c0-2112-4688-ae7f-bd340d8a0315",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "7fb3f876-017b-4d8e-89ca-bce9fe4775dc",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:57:38.193437+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/7fb3f876-017b-4d8e-89ca-bce9fe4775dc_4c146cd6.png",
+     "page_url": "https://muapi.ai/predictions/7fb3f876-017b-4d8e-89ca-bce9fe4775dc",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "dfb37c81-d413-4eac-8cd9-f4bd59846d63",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:10:36.770062+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/dfb37c81-d413-4eac-8cd9-f4bd59846d63_35cb89ae.png",
+     "page_url": "https://muapi.ai/predictions/dfb37c81-d413-4eac-8cd9-f4bd59846d63",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-03T00:19:38.711489+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-03T00:34:17.572491+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-03T03:10:36.770062+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -3822,13 +5523,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-pairs-20261003-pontiac-trans-am-1977-494b51485b12-current.jpg",
+   "preview": "assets/studio-pairs-20261003-pontiac-trans-am-1977-6032b15e3318-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-pairs-20261003/c2/heroes/pontiac-trans-am-1977/final-native.png",
-   "source_sha256": "494b51485b12cd1e887cba628de4bc7a2e54a9875acf08eeb57af7bad91ea0bf",
+   "source_sha256": "6032b15e331808fd55efbb8b563b64a6dfbb4c67466e577f7dea3105ecdf41a6",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -3894,6 +5595,86 @@
        "source_page": "https://www.rkmotors.com/vehicles/1916/1977-pontiac-firebird-trans-am-se"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "9cbe5294-5ffe-425e-a271-58d9f3fbc734",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:50:08.036950+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9cbe5294-5ffe-425e-a271-58d9f3fbc734_79eb958d.png",
+     "page_url": "https://muapi.ai/predictions/9cbe5294-5ffe-425e-a271-58d9f3fbc734",
+     "target_id": "wheel-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "bc97c452-ba09-488d-bced-848bc9aaf85b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:50:10.792694+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/bc97c452-ba09-488d-bced-848bc9aaf85b_05d121bb.png",
+     "page_url": "https://muapi.ai/predictions/bc97c452-ba09-488d-bced-848bc9aaf85b",
+     "target_id": "wheel-rear",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "64344076-269a-482b-8ece-4e234d38749a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:59:57.223739+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/64344076-269a-482b-8ece-4e234d38749a_3a41cf60.png",
+     "page_url": "https://muapi.ai/predictions/64344076-269a-482b-8ece-4e234d38749a",
+     "target_id": "sail-bird",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "0c0bd7b3-e701-49ae-9b1f-b5392c5a1d6a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:59:59.883924+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0c0bd7b3-e701-49ae-9b1f-b5392c5a1d6a_f24f87e0.png",
+     "page_url": "https://muapi.ai/predictions/0c0bd7b3-e701-49ae-9b1f-b5392c5a1d6a",
+     "target_id": "hub-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "d785c89e-9419-44e4-a089-06fd21bcd25c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:00:03.066233+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d785c89e-9419-44e4-a089-06fd21bcd25c_7be768cb.png",
+     "page_url": "https://muapi.ai/predictions/d785c89e-9419-44e4-a089-06fd21bcd25c",
+     "target_id": "hub-rear",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "cd549772-a4dc-4aa7-b5a4-e817d5dc1403",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:09:57.552852+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/cd549772-a4dc-4aa7-b5a4-e817d5dc1403_463b1056.png",
+     "page_url": "https://muapi.ai/predictions/cd549772-a4dc-4aa7-b5a4-e817d5dc1403",
+     "target_id": "decal-nose",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "a67a0b6d-57f8-4c7e-81d8-b06689469db8",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:10:00.303520+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a67a0b6d-57f8-4c7e-81d8-b06689469db8_408ef8d3.png",
+     "page_url": "https://muapi.ai/predictions/a67a0b6d-57f8-4c7e-81d8-b06689469db8",
+     "target_id": "decal-wing",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "440354e4-1317-41c3-8370-fde794103764",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:45:59.463772+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/440354e4-1317-41c3-8370-fde794103764_f7621b62.png",
+     "page_url": "https://muapi.ai/predictions/440354e4-1317-41c3-8370-fde794103764",
+     "target_id": "title-r",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -3901,10 +5682,10 @@
     "why": "Brief: DIRECTED - the car's own bonnet firebird blown up in two golds on black. Your collection choice is final."
    },
    "candidate_source": "pipeline/studio-pairs-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes; 'i wanna now which creative directions u give to the model'; '5 free + 5 directed'; 'just dont start checking and fixing them immediately, i have to approve first'. Raw heroes for approval 1.",
-   "full_source_url": "full/494b51485b12-studio-pairs-20261003-pontiac-trans-am-1977.png",
-   "full_source_sha256": "494b51485b12cd1e887cba628de4bc7a2e54a9875acf08eeb57af7bad91ea0bf",
-   "full_source_bytes": 11671771,
+   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes, '5 free + 5 directed', raw heroes first. Approval 1 at 03:27: 'ae86 goes out, rest is great work. continue the workflow'. Detail fixes done on the nine picks; approval 2 is the last approval.",
+   "full_source_url": "full/6032b15e3318-studio-pairs-20261003-pontiac-trans-am-1977.png",
+   "full_source_sha256": "6032b15e331808fd55efbb8b563b64a6dfbb4c67466e577f7dea3105ecdf41a6",
+   "full_source_bytes": 10616527,
    "full_source_pixels": [
     2480,
     3312
@@ -3983,13 +5764,101 @@
       }
      ],
      "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "9cbe5294-5ffe-425e-a271-58d9f3fbc734",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:50:08.036950+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9cbe5294-5ffe-425e-a271-58d9f3fbc734_79eb958d.png",
+     "page_url": "https://muapi.ai/predictions/9cbe5294-5ffe-425e-a271-58d9f3fbc734",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "bc97c452-ba09-488d-bced-848bc9aaf85b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:50:10.792694+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/bc97c452-ba09-488d-bced-848bc9aaf85b_05d121bb.png",
+     "page_url": "https://muapi.ai/predictions/bc97c452-ba09-488d-bced-848bc9aaf85b",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "64344076-269a-482b-8ece-4e234d38749a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:59:57.223739+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/64344076-269a-482b-8ece-4e234d38749a_3a41cf60.png",
+     "page_url": "https://muapi.ai/predictions/64344076-269a-482b-8ece-4e234d38749a",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "0c0bd7b3-e701-49ae-9b1f-b5392c5a1d6a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:59:59.883924+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0c0bd7b3-e701-49ae-9b1f-b5392c5a1d6a_f24f87e0.png",
+     "page_url": "https://muapi.ai/predictions/0c0bd7b3-e701-49ae-9b1f-b5392c5a1d6a",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "d785c89e-9419-44e4-a089-06fd21bcd25c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:00:03.066233+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d785c89e-9419-44e4-a089-06fd21bcd25c_7be768cb.png",
+     "page_url": "https://muapi.ai/predictions/d785c89e-9419-44e4-a089-06fd21bcd25c",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "cd549772-a4dc-4aa7-b5a4-e817d5dc1403",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:09:57.552852+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/cd549772-a4dc-4aa7-b5a4-e817d5dc1403_463b1056.png",
+     "page_url": "https://muapi.ai/predictions/cd549772-a4dc-4aa7-b5a4-e817d5dc1403",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "a67a0b6d-57f8-4c7e-81d8-b06689469db8",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:10:00.303520+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a67a0b6d-57f8-4c7e-81d8-b06689469db8_408ef8d3.png",
+     "page_url": "https://muapi.ai/predictions/a67a0b6d-57f8-4c7e-81d8-b06689469db8",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "440354e4-1317-41c3-8370-fde794103764",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T03:45:59.463772+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/440354e4-1317-41c3-8370-fde794103764_f7621b62.png",
+     "page_url": "https://muapi.ai/predictions/440354e4-1317-41c3-8370-fde794103764",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-03T00:24:55.059589+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-03T00:34:46.326191+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-03T03:45:59.463772+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -4008,13 +5877,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-pairs-20261003-dodge-charger-rt-1969-27f13938d433-current.jpg",
+   "preview": "assets/studio-pairs-20261003-dodge-charger-rt-1969-61e4912c238c-current.jpg",
    "preview_pixels": [
     1600,
     1198
    ],
    "source_file": "pipeline/studio-pairs-20261003/c2/heroes/dodge-charger-rt-1969/final-native.png",
-   "source_sha256": "27f13938d433b1fd4b933c5da89d431a6ab6e71b6d47b71f4d3749318cb8e0a0",
+   "source_sha256": "61e4912c238c41b7f6dfb363f20f225bb78e2b7fe791070513d85a08cdf63884",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -4085,6 +5954,46 @@
        "source_page": "https://rmsothebys.com/auctions/0225/lots/r0004-1969-dodge-charger-rt-hemi/"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "9eec0d55-9dbe-4729-ab65-ef7f23e5a7b9",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:50:36.361048+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9eec0d55-9dbe-4729-ab65-ef7f23e5a7b9_cae7352c.png",
+     "page_url": "https://muapi.ai/predictions/9eec0d55-9dbe-4729-ab65-ef7f23e5a7b9",
+     "target_id": "wheel-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "095dc0b2-033c-4cf1-a136-bb97a210bdd8",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:50:39.064586+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/095dc0b2-033c-4cf1-a136-bb97a210bdd8_cd48b633.png",
+     "page_url": "https://muapi.ai/predictions/095dc0b2-033c-4cf1-a136-bb97a210bdd8",
+     "target_id": "wheel-rear",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "d883d92c-4953-46fa-9e6c-e18c1f42911d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:50:41.791625+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d883d92c-4953-46fa-9e6c-e18c1f42911d_d9c1f01f.png",
+     "page_url": "https://muapi.ai/predictions/d883d92c-4953-46fa-9e6c-e18c1f42911d",
+     "target_id": "hub-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "515e53c2-05a5-438f-8585-7c49d4be6f3c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:50:44.440484+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/515e53c2-05a5-438f-8585-7c49d4be6f3c_289577c3.png",
+     "page_url": "https://muapi.ai/predictions/515e53c2-05a5-438f-8585-7c49d4be6f3c",
+     "target_id": "hub-rear",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -4092,10 +6001,10 @@
     "why": "Brief: FREE - no idea given; the model designed it. Your collection choice is final."
    },
    "candidate_source": "pipeline/studio-pairs-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes; 'i wanna now which creative directions u give to the model'; '5 free + 5 directed'; 'just dont start checking and fixing them immediately, i have to approve first'. Raw heroes for approval 1.",
-   "full_source_url": "full/27f13938d433-studio-pairs-20261003-dodge-charger-rt-1969.png",
-   "full_source_sha256": "27f13938d433b1fd4b933c5da89d431a6ab6e71b6d47b71f4d3749318cb8e0a0",
-   "full_source_bytes": 11998585,
+   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes, '5 free + 5 directed', raw heroes first. Approval 1 at 03:27: 'ae86 goes out, rest is great work. continue the workflow'. Detail fixes done on the nine picks; approval 2 is the last approval.",
+   "full_source_url": "full/61e4912c238c-studio-pairs-20261003-dodge-charger-rt-1969.png",
+   "full_source_sha256": "61e4912c238c41b7f6dfb363f20f225bb78e2b7fe791070513d85a08cdf63884",
+   "full_source_bytes": 11183506,
    "full_source_pixels": [
     3312,
     2480
@@ -4179,13 +6088,57 @@
       }
      ],
      "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "9eec0d55-9dbe-4729-ab65-ef7f23e5a7b9",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:50:36.361048+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9eec0d55-9dbe-4729-ab65-ef7f23e5a7b9_cae7352c.png",
+     "page_url": "https://muapi.ai/predictions/9eec0d55-9dbe-4729-ab65-ef7f23e5a7b9",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "095dc0b2-033c-4cf1-a136-bb97a210bdd8",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:50:39.064586+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/095dc0b2-033c-4cf1-a136-bb97a210bdd8_cd48b633.png",
+     "page_url": "https://muapi.ai/predictions/095dc0b2-033c-4cf1-a136-bb97a210bdd8",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "d883d92c-4953-46fa-9e6c-e18c1f42911d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:50:41.791625+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d883d92c-4953-46fa-9e6c-e18c1f42911d_d9c1f01f.png",
+     "page_url": "https://muapi.ai/predictions/d883d92c-4953-46fa-9e6c-e18c1f42911d",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "515e53c2-05a5-438f-8585-7c49d4be6f3c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:50:44.440484+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/515e53c2-05a5-438f-8585-7c49d4be6f3c_289577c3.png",
+     "page_url": "https://muapi.ai/predictions/515e53c2-05a5-438f-8585-7c49d4be6f3c",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-03T00:20:05.110010+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-03T00:34:33.234024+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-03T01:50:44.440484+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -4204,13 +6157,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-pairs-20261003-mitsubishi-evo6-tme-ee71aae4f9fd-current.jpg",
+   "preview": "assets/studio-pairs-20261003-mitsubishi-evo6-tme-0aee9ecddbeb-current.jpg",
    "preview_pixels": [
     1600,
     1198
    ],
    "source_file": "pipeline/studio-pairs-20261003/c3/heroes/mitsubishi-evo6-tme/final-native.png",
-   "source_sha256": "ee71aae4f9fd60d8a2c754e86ad9698a0ad9f3ce013cc87614196c64c9bfbe59",
+   "source_sha256": "0aee9ecddbeb30ffc804853ad5bea258bb4b6bf6192f4a7953fd29af1959ab06",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -4276,6 +6229,36 @@
        "source_page": "https://collectingcars.com/for-sale/2001-mitsubishi-evo-vi-tommi-makinen-1"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "a1690af4-bae6-41b3-9856-508e1b307bad",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:42:23.640572+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a1690af4-bae6-41b3-9856-508e1b307bad_9f025a66.png",
+     "page_url": "https://muapi.ai/predictions/a1690af4-bae6-41b3-9856-508e1b307bad",
+     "target_id": "bumper-pocket",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "f7e7194c-14df-463d-bf16-48038df46dfc",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:42:26.294482+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f7e7194c-14df-463d-bf16-48038df46dfc_10ec4eb6.png",
+     "page_url": "https://muapi.ai/predictions/f7e7194c-14df-463d-bf16-48038df46dfc",
+     "target_id": "wheel-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "08ca5734-7bc2-464a-9812-7593b98b0a5e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:42:28.957337+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/08ca5734-7bc2-464a-9812-7593b98b0a5e_b07b0010.png",
+     "page_url": "https://muapi.ai/predictions/08ca5734-7bc2-464a-9812-7593b98b0a5e",
+     "target_id": "wheel-rear",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -4283,10 +6266,10 @@
     "why": "Brief: DIRECTED - dusk on a Finnish gravel stage, the car cresting a jump. Your collection choice is final."
    },
    "candidate_source": "pipeline/studio-pairs-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes; 'i wanna now which creative directions u give to the model'; '5 free + 5 directed'; 'just dont start checking and fixing them immediately, i have to approve first'. Raw heroes for approval 1.",
-   "full_source_url": "full/ee71aae4f9fd-studio-pairs-20261003-mitsubishi-evo6-tme.png",
-   "full_source_sha256": "ee71aae4f9fd60d8a2c754e86ad9698a0ad9f3ce013cc87614196c64c9bfbe59",
-   "full_source_bytes": 10266886,
+   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes, '5 free + 5 directed', raw heroes first. Approval 1 at 03:27: 'ae86 goes out, rest is great work. continue the workflow'. Detail fixes done on the nine picks; approval 2 is the last approval.",
+   "full_source_url": "full/0aee9ecddbeb-studio-pairs-20261003-mitsubishi-evo6-tme.png",
+   "full_source_sha256": "0aee9ecddbeb30ffc804853ad5bea258bb4b6bf6192f4a7953fd29af1959ab06",
+   "full_source_bytes": 9814109,
    "full_source_pixels": [
     3312,
     2480
@@ -4365,209 +6348,46 @@
       }
      ],
      "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "a1690af4-bae6-41b3-9856-508e1b307bad",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:42:23.640572+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a1690af4-bae6-41b3-9856-508e1b307bad_9f025a66.png",
+     "page_url": "https://muapi.ai/predictions/a1690af4-bae6-41b3-9856-508e1b307bad",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "f7e7194c-14df-463d-bf16-48038df46dfc",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:42:26.294482+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f7e7194c-14df-463d-bf16-48038df46dfc_10ec4eb6.png",
+     "page_url": "https://muapi.ai/predictions/f7e7194c-14df-463d-bf16-48038df46dfc",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "08ca5734-7bc2-464a-9812-7593b98b0a5e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:42:28.957337+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/08ca5734-7bc2-464a-9812-7593b98b0a5e_b07b0010.png",
+     "page_url": "https://muapi.ai/predictions/08ca5734-7bc2-464a-9812-7593b98b0a5e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-03T00:32:29.246793+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-03T00:36:22.642927+00:00",
-    "updated_source": "candidate generated"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-pairs-20261003-toyota-ae86-trueno",
-   "name": "Toyota Sprinter Trueno AE86 - FREE",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-pairs-20261003-toyota-ae86-trueno-2630be0ef019-current.jpg",
-   "preview_pixels": [
-    1600,
-    2137
-   ],
-   "source_file": "pipeline/studio-pairs-20261003/c3/heroes/toyota-ae86-trueno/final-native.png",
-   "source_sha256": "2630be0ef01928d59290d5d6fcfa10d276f85d2cfe73dd19d9f22be18acba8a7",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-10-03T00:36:26.926107+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "1dacb3e4-734c-4ec9-96b0-b142e8b7cb79",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-03T00:32:34.627509+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/1dacb3e4-734c-4ec9-96b0-b142e8b7cb79_1f9cf360.png",
-     "page_url": "https://muapi.ai/predictions/1dacb3e4-734c-4ec9-96b0-b142e8b7cb79",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, pop-up headlamps raised, the black front bumper with the TRUENO badge and corner lamps, red over black two-tone, black wheel-arch flares, silver wheels (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/54bc06423aea49fa833e80c7d4f97458.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
-      },
-      {
-       "role": "Front three-quarter from the right: bonnet, raised pop-up headlamps, black bumper, right flank (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/b0263736f57d48d69fc78998285bded1.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
-      },
-      {
-       "role": "Front: both raised pop-up headlamps, the TRUENO badge in the centre of the black grille strip, clear and amber lamps at the bumper ends, both black door mirrors, two wipers (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/0d927a5feac84f94bc1940a57c9d5a06.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
-      },
-      {
-       "role": "Side profile (left side): liftback proportions, red upper body over the black lower body with the thin red stripe along it, black wheel-arch flares, silver wheels",
-       "url": "https://cdn.muapi.ai/outputs/generated/d95822e3e9794f2a835751493c918da2.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
-      },
-      {
-       "role": "Front corner close-up: rectangular headlamp raised in its black pop-up pod, the TRUENO badge on the black grille strip, a clear lamp and an amber lamp at the end of the black bumper (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/aa80091e302f4365a85aa61c6fbf7a9e.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
-      },
-      {
-       "role": "TRUENO badge close-up: white TRUENO letters on a black panel in the grille strip (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/421a9501705a4df2ba1dd2b00c8670b9.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
-      },
-      {
-       "role": "Front wing close-up: black lower body with the thin red stripe, the TRUENO decal in red outlined letters at its front end behind the front wheel, black wheel-arch flare, silver wheel (ignore the mud flap)",
-       "url": "https://cdn.muapi.ai/outputs/generated/9f5a67df487545818071258994b49233.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
-      },
-      {
-       "role": "Wheel close-up: silver alloy with tapered spokes and triangular openings, four wheel nuts, flat centre cap lettered TOYOTA",
-       "url": "https://cdn.muapi.ai/outputs/generated/981bff8b58524dd7ad7625de91e902d6.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
-      },
-      {
-       "role": "Door mirror close-up: black door mirror on the left door",
-       "url": "https://cdn.muapi.ai/outputs/generated/f26c041bfd354cae86ebe6d474ef4a24.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
-      },
-      {
-       "role": "Rear three-quarter, for any second view: liftback tail with the full-width black rear panel and the tail lamps, red over black two-tone, one exhaust (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/4aba6787f6214b9d864d5192e14739e3.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
-      }
-     ]
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Sport / Leicht",
-    "why": "Brief: FREE - no idea given; the model designed it. Your collection choice is final."
-   },
-   "candidate_source": "pipeline/studio-pairs-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes; 'i wanna now which creative directions u give to the model'; '5 free + 5 directed'; 'just dont start checking and fixing them immediately, i have to approve first'. Raw heroes for approval 1.",
-   "full_source_url": "full/2630be0ef019-studio-pairs-20261003-toyota-ae86-trueno.png",
-   "full_source_sha256": "2630be0ef01928d59290d5d6fcfa10d276f85d2cfe73dd19d9f22be18acba8a7",
-   "full_source_bytes": 13386221,
-   "full_source_pixels": [
-    2480,
-    3312
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Sport / Leicht",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Brief: FREE - no idea given; the model designed it. Your collection choice is final.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 200
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "1dacb3e4-734c-4ec9-96b0-b142e8b7cb79",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T00:32:34.627509+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/1dacb3e4-734c-4ec9-96b0-b142e8b7cb79_1f9cf360.png",
-     "page_url": "https://muapi.ai/predictions/1dacb3e4-734c-4ec9-96b0-b142e8b7cb79",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, pop-up headlamps raised, the black front bumper with the TRUENO badge and corner lamps, red over black two-tone, black wheel-arch flares, silver wheels (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/54bc06423aea49fa833e80c7d4f97458.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
-      },
-      {
-       "role": "Front three-quarter from the right: bonnet, raised pop-up headlamps, black bumper, right flank (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/b0263736f57d48d69fc78998285bded1.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
-      },
-      {
-       "role": "Front: both raised pop-up headlamps, the TRUENO badge in the centre of the black grille strip, clear and amber lamps at the bumper ends, both black door mirrors, two wipers (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/0d927a5feac84f94bc1940a57c9d5a06.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
-      },
-      {
-       "role": "Side profile (left side): liftback proportions, red upper body over the black lower body with the thin red stripe along it, black wheel-arch flares, silver wheels",
-       "url": "https://cdn.muapi.ai/outputs/generated/d95822e3e9794f2a835751493c918da2.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
-      },
-      {
-       "role": "Front corner close-up: rectangular headlamp raised in its black pop-up pod, the TRUENO badge on the black grille strip, a clear lamp and an amber lamp at the end of the black bumper (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/aa80091e302f4365a85aa61c6fbf7a9e.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
-      },
-      {
-       "role": "TRUENO badge close-up: white TRUENO letters on a black panel in the grille strip (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/421a9501705a4df2ba1dd2b00c8670b9.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
-      },
-      {
-       "role": "Front wing close-up: black lower body with the thin red stripe, the TRUENO decal in red outlined letters at its front end behind the front wheel, black wheel-arch flare, silver wheel (ignore the mud flap)",
-       "url": "https://cdn.muapi.ai/outputs/generated/9f5a67df487545818071258994b49233.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
-      },
-      {
-       "role": "Wheel close-up: silver alloy with tapered spokes and triangular openings, four wheel nuts, flat centre cap lettered TOYOTA",
-       "url": "https://cdn.muapi.ai/outputs/generated/981bff8b58524dd7ad7625de91e902d6.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
-      },
-      {
-       "role": "Door mirror close-up: black door mirror on the left door",
-       "url": "https://cdn.muapi.ai/outputs/generated/f26c041bfd354cae86ebe6d474ef4a24.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
-      },
-      {
-       "role": "Rear three-quarter, for any second view: liftback tail with the full-width black rear panel and the tail lamps, red over black two-tone, one exhaust (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/4aba6787f6214b9d864d5192e14739e3.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
-      }
-     ],
-     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-03T00:32:34.627509+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-03T00:36:26.926107+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-03T01:42:28.957337+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -4586,13 +6406,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-pairs-20261003-citroen-2cv-ad853c19866d-current.jpg",
+   "preview": "assets/studio-pairs-20261003-citroen-2cv-0116d31e72e9-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-pairs-20261003/c3/heroes/citroen-2cv/final-native.png",
-   "source_sha256": "ad853c19866d73d807bee4036e8014608acd316f2354bcc4eaecc7d4c69b05fe",
+   "source_sha256": "0116d31e72e93215455968dce6002accaae9d20b4e8c1c7e5b2835e3a67e121a",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -4648,6 +6468,26 @@
        "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "7d171c5c-fae7-4b69-a3bc-8671999a4e88",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:42:32.485618+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/7d171c5c-fae7-4b69-a3bc-8671999a4e88_2933a6de.png",
+     "page_url": "https://muapi.ai/predictions/7d171c5c-fae7-4b69-a3bc-8671999a4e88",
+     "target_id": "lamp-left",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "95c49aff-3866-452f-b0cc-a534fc60ae33",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:42:35.182361+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/95c49aff-3866-452f-b0cc-a534fc60ae33_1159111c.png",
+     "page_url": "https://muapi.ai/predictions/95c49aff-3866-452f-b0cc-a534fc60ae33",
+     "target_id": "lamp-right",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -4655,10 +6495,10 @@
     "why": "Brief: DIRECTED - the egg brief: ploughed-field stripes, one unbroken egg on the bonnet. Your collection choice is final."
    },
    "candidate_source": "pipeline/studio-pairs-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes; 'i wanna now which creative directions u give to the model'; '5 free + 5 directed'; 'just dont start checking and fixing them immediately, i have to approve first'. Raw heroes for approval 1.",
-   "full_source_url": "full/ad853c19866d-studio-pairs-20261003-citroen-2cv.png",
-   "full_source_sha256": "ad853c19866d73d807bee4036e8014608acd316f2354bcc4eaecc7d4c69b05fe",
-   "full_source_bytes": 14188011,
+   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes, '5 free + 5 directed', raw heroes first. Approval 1 at 03:27: 'ae86 goes out, rest is great work. continue the workflow'. Detail fixes done on the nine picks; approval 2 is the last approval.",
+   "full_source_url": "full/0116d31e72e9-studio-pairs-20261003-citroen-2cv.png",
+   "full_source_sha256": "0116d31e72e93215455968dce6002accaae9d20b4e8c1c7e5b2835e3a67e121a",
+   "full_source_bytes": 13414716,
    "full_source_pixels": [
     2480,
     3312
@@ -4727,13 +6567,35 @@
       }
      ],
      "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "7d171c5c-fae7-4b69-a3bc-8671999a4e88",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:42:32.485618+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/7d171c5c-fae7-4b69-a3bc-8671999a4e88_2933a6de.png",
+     "page_url": "https://muapi.ai/predictions/7d171c5c-fae7-4b69-a3bc-8671999a4e88",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "95c49aff-3866-452f-b0cc-a534fc60ae33",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:42:35.182361+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/95c49aff-3866-452f-b0cc-a534fc60ae33_1159111c.png",
+     "page_url": "https://muapi.ai/predictions/95c49aff-3866-452f-b0cc-a534fc60ae33",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-03T00:32:39.928110+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-03T00:36:31.135475+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-03T01:42:35.182361+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -4752,13 +6614,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-pairs-20261003-land-rover-defender-90-78149ebedf41-current.jpg",
+   "preview": "assets/studio-pairs-20261003-land-rover-defender-90-4d24c8510542-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-pairs-20261003/c2/heroes/land-rover-defender-90/final-native.png",
-   "source_sha256": "78149ebedf4119d43bb20e7b559c9c4d2b735d23b03db9abeb13799b847cf131",
+   "source_sha256": "4d24c8510542d1b8449a1ec6cab7be0b232f3de6fa4c7eeb948b002110fb0532",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -4824,6 +6686,56 @@
        "source_page": "https://rmsothebys.com/auctions/va25/lots/r0002-1997-land-rover-nas-defender-90/"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "38141ec9-7d87-4c51-8c8f-ef32a2291da6",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:51:01.265706+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/38141ec9-7d87-4c51-8c8f-ef32a2291da6_32d06486.png",
+     "page_url": "https://muapi.ai/predictions/38141ec9-7d87-4c51-8c8f-ef32a2291da6",
+     "target_id": "wheel-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "311689e1-3f07-4c3a-886a-ce4d48c46c31",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:51:03.964527+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/311689e1-3f07-4c3a-886a-ce4d48c46c31_b441ac76.png",
+     "page_url": "https://muapi.ai/predictions/311689e1-3f07-4c3a-886a-ce4d48c46c31",
+     "target_id": "wheel-rear",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "21fd1518-7baf-458a-abc9-cb08cfb791b9",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:12:11.867289+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/21fd1518-7baf-458a-abc9-cb08cfb791b9_5191ab48.png",
+     "page_url": "https://muapi.ai/predictions/21fd1518-7baf-458a-abc9-cb08cfb791b9",
+     "target_id": "bg-spare",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "245042f7-ffc0-408b-a322-9ee3209cf12d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:27:57.138094+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/245042f7-ffc0-408b-a322-9ee3209cf12d_52add570.png",
+     "page_url": "https://muapi.ai/predictions/245042f7-ffc0-408b-a322-9ee3209cf12d",
+     "target_id": "bg-wheel-rear",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "f7b5ee70-0bf6-4ed2-b2f8-26b3f03cda3f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:27:59.871271+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f7b5ee70-0bf6-4ed2-b2f8-26b3f03cda3f_391af808.png",
+     "page_url": "https://muapi.ai/predictions/f7b5ee70-0bf6-4ed2-b2f8-26b3f03cda3f",
+     "target_id": "bg-wheel-front",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -4831,10 +6743,10 @@
     "why": "Brief: FREE - no idea given; the model designed it. Your collection choice is final."
    },
    "candidate_source": "pipeline/studio-pairs-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes; 'i wanna now which creative directions u give to the model'; '5 free + 5 directed'; 'just dont start checking and fixing them immediately, i have to approve first'. Raw heroes for approval 1.",
-   "full_source_url": "full/78149ebedf41-studio-pairs-20261003-land-rover-defender-90.png",
-   "full_source_sha256": "78149ebedf4119d43bb20e7b559c9c4d2b735d23b03db9abeb13799b847cf131",
-   "full_source_bytes": 11642132,
+   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes, '5 free + 5 directed', raw heroes first. Approval 1 at 03:27: 'ae86 goes out, rest is great work. continue the workflow'. Detail fixes done on the nine picks; approval 2 is the last approval.",
+   "full_source_url": "full/4d24c8510542-studio-pairs-20261003-land-rover-defender-90.png",
+   "full_source_sha256": "4d24c8510542d1b8449a1ec6cab7be0b232f3de6fa4c7eeb948b002110fb0532",
+   "full_source_bytes": 10699848,
    "full_source_pixels": [
     2480,
     3312
@@ -4913,13 +6825,68 @@
       }
      ],
      "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "38141ec9-7d87-4c51-8c8f-ef32a2291da6",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:51:01.265706+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/38141ec9-7d87-4c51-8c8f-ef32a2291da6_32d06486.png",
+     "page_url": "https://muapi.ai/predictions/38141ec9-7d87-4c51-8c8f-ef32a2291da6",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "311689e1-3f07-4c3a-886a-ce4d48c46c31",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T01:51:03.964527+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/311689e1-3f07-4c3a-886a-ce4d48c46c31_b441ac76.png",
+     "page_url": "https://muapi.ai/predictions/311689e1-3f07-4c3a-886a-ce4d48c46c31",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "21fd1518-7baf-458a-abc9-cb08cfb791b9",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:12:11.867289+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/21fd1518-7baf-458a-abc9-cb08cfb791b9_5191ab48.png",
+     "page_url": "https://muapi.ai/predictions/21fd1518-7baf-458a-abc9-cb08cfb791b9",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "245042f7-ffc0-408b-a322-9ee3209cf12d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:27:57.138094+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/245042f7-ffc0-408b-a322-9ee3209cf12d_52add570.png",
+     "page_url": "https://muapi.ai/predictions/245042f7-ffc0-408b-a322-9ee3209cf12d",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "f7b5ee70-0bf6-4ed2-b2f8-26b3f03cda3f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T02:27:59.871271+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f7b5ee70-0bf6-4ed2-b2f8-26b3f03cda3f_391af808.png",
+     "page_url": "https://muapi.ai/predictions/f7b5ee70-0bf6-4ed2-b2f8-26b3f03cda3f",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-03T00:32:52.645123+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-03T00:37:43.775742+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-03T02:27:59.871271+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -10307,9 +12274,9 @@
   },
   {
    "key": "studio-pairs-20261003-land-rover-defender-90",
-   "declared_sha256": "78149ebedf4119d43bb20e7b559c9c4d2b735d23b03db9abeb13799b847cf131",
+   "declared_sha256": "4d24c8510542d1b8449a1ec6cab7be0b232f3de6fa4c7eeb948b002110fb0532",
    "applied": true,
-   "preview": "assets/studio-pairs-20261003-land-rover-defender-90-78149ebedf41-current.jpg",
+   "preview": "assets/studio-pairs-20261003-land-rover-defender-90-4d24c8510542-current.jpg",
    "pixels": [
     2480,
     3312
@@ -10317,19 +12284,9 @@
   },
   {
    "key": "studio-pairs-20261003-citroen-2cv",
-   "declared_sha256": "ad853c19866d73d807bee4036e8014608acd316f2354bcc4eaecc7d4c69b05fe",
+   "declared_sha256": "0116d31e72e93215455968dce6002accaae9d20b4e8c1c7e5b2835e3a67e121a",
    "applied": true,
-   "preview": "assets/studio-pairs-20261003-citroen-2cv-ad853c19866d-current.jpg",
-   "pixels": [
-    2480,
-    3312
-   ]
-  },
-  {
-   "key": "studio-pairs-20261003-toyota-ae86-trueno",
-   "declared_sha256": "2630be0ef01928d59290d5d6fcfa10d276f85d2cfe73dd19d9f22be18acba8a7",
-   "applied": true,
-   "preview": "assets/studio-pairs-20261003-toyota-ae86-trueno-2630be0ef019-current.jpg",
+   "preview": "assets/studio-pairs-20261003-citroen-2cv-0116d31e72e9-current.jpg",
    "pixels": [
     2480,
     3312
@@ -10337,9 +12294,9 @@
   },
   {
    "key": "studio-pairs-20261003-mitsubishi-evo6-tme",
-   "declared_sha256": "ee71aae4f9fd60d8a2c754e86ad9698a0ad9f3ce013cc87614196c64c9bfbe59",
+   "declared_sha256": "0aee9ecddbeb30ffc804853ad5bea258bb4b6bf6192f4a7953fd29af1959ab06",
    "applied": true,
-   "preview": "assets/studio-pairs-20261003-mitsubishi-evo6-tme-ee71aae4f9fd-current.jpg",
+   "preview": "assets/studio-pairs-20261003-mitsubishi-evo6-tme-0aee9ecddbeb-current.jpg",
    "pixels": [
     3312,
     2480
@@ -10347,9 +12304,9 @@
   },
   {
    "key": "studio-pairs-20261003-dodge-charger-rt-1969",
-   "declared_sha256": "27f13938d433b1fd4b933c5da89d431a6ab6e71b6d47b71f4d3749318cb8e0a0",
+   "declared_sha256": "61e4912c238c41b7f6dfb363f20f225bb78e2b7fe791070513d85a08cdf63884",
    "applied": true,
-   "preview": "assets/studio-pairs-20261003-dodge-charger-rt-1969-27f13938d433-current.jpg",
+   "preview": "assets/studio-pairs-20261003-dodge-charger-rt-1969-61e4912c238c-current.jpg",
    "pixels": [
     3312,
     2480
@@ -10357,9 +12314,9 @@
   },
   {
    "key": "studio-pairs-20261003-pontiac-trans-am-1977",
-   "declared_sha256": "494b51485b12cd1e887cba628de4bc7a2e54a9875acf08eeb57af7bad91ea0bf",
+   "declared_sha256": "6032b15e331808fd55efbb8b563b64a6dfbb4c67466e577f7dea3105ecdf41a6",
    "applied": true,
-   "preview": "assets/studio-pairs-20261003-pontiac-trans-am-1977-494b51485b12-current.jpg",
+   "preview": "assets/studio-pairs-20261003-pontiac-trans-am-1977-6032b15e3318-current.jpg",
    "pixels": [
     2480,
     3312
@@ -10367,9 +12324,9 @@
   },
   {
    "key": "studio-pairs-20261003-ferrari-f50",
-   "declared_sha256": "964f54a9b2b781cb992b75649e65e5f08811b5241263eee895154994cff6a6d4",
+   "declared_sha256": "75aac883f454aba564bda6ec6399effc3692137dd5cc562fb0d73486cde1aa7a",
    "applied": true,
-   "preview": "assets/studio-pairs-20261003-ferrari-f50-964f54a9b2b7-current.jpg",
+   "preview": "assets/studio-pairs-20261003-ferrari-f50-75aac883f454-current.jpg",
    "pixels": [
     3312,
     2480
@@ -10377,9 +12334,9 @@
   },
   {
    "key": "studio-pairs-20261003-ferrari-308-gts",
-   "declared_sha256": "6a3205ae43e34c6d4fb530ac541eff35a839451bb397360d54092e1f4a122ec1",
+   "declared_sha256": "b184149467dc00622a5895c12f26a0c163ff932b68cb71af263173fa77cad0be",
    "applied": true,
-   "preview": "assets/studio-pairs-20261003-ferrari-308-gts-6a3205ae43e3-current.jpg",
+   "preview": "assets/studio-pairs-20261003-ferrari-308-gts-b184149467dc-current.jpg",
    "pixels": [
     3312,
     2480
@@ -10387,9 +12344,9 @@
   },
   {
    "key": "studio-pairs-20261003-porsche-964-carrera-rs",
-   "declared_sha256": "1d3b1b0a0e2fe13a1bc4e5bbaba8bd7ab09aa657fc99ef03457af5cb11080e41",
+   "declared_sha256": "7dc272686678a136d1deb90db523ebd38d05c3bde6bb2eeedf15c7976e996286",
    "applied": true,
-   "preview": "assets/studio-pairs-20261003-porsche-964-carrera-rs-1d3b1b0a0e2f-current.jpg",
+   "preview": "assets/studio-pairs-20261003-porsche-964-carrera-rs-7dc272686678-current.jpg",
    "pixels": [
     2480,
     3312
@@ -10397,9 +12354,9 @@
   },
   {
    "key": "studio-pairs-20261003-porsche-356-speedster",
-   "declared_sha256": "8fa3f69c0f9c46bf237af952e141b065187e3f5379af651ecff59aab370d1ebe",
+   "declared_sha256": "5ff6da9321d3757eb5b36b8d9dc1e03c8edc4425e5481996a6fb6832a8633e12",
    "applied": true,
-   "preview": "assets/studio-pairs-20261003-porsche-356-speedster-8fa3f69c0f9c-current.jpg",
+   "preview": "assets/studio-pairs-20261003-porsche-356-speedster-5ff6da9321d3-current.jpg",
    "pixels": [
     2480,
     3312
@@ -10407,9 +12364,9 @@
   },
   {
    "key": "studio-free-20261003-honda-integra-type-r",
-   "declared_sha256": "09281f1eb3f8c8b24a619f492a1d44feb1dfd4e93e569ec147482b1a54ec034f",
+   "declared_sha256": "42e31d8554e8d9620f5e1723f180fa4aab9cc530de37f1ca5be25bd6bdcd5709",
    "applied": true,
-   "preview": "assets/studio-free-20261003-honda-integra-type-r-09281f1eb3f8-current.jpg",
+   "preview": "assets/studio-free-20261003-honda-integra-type-r-42e31d8554e8-current.jpg",
    "pixels": [
     2480,
     3312
@@ -10417,9 +12374,9 @@
   },
   {
    "key": "studio-free-20261003-lancia-fulvia-hf",
-   "declared_sha256": "9d16431ef96645af6db569ecf9a73b00863376d1ff84762ec14dc94286755f4e",
+   "declared_sha256": "12a4df1675c18fd9373191f9d2eaff8627f5b72aa608de81736025b8b4278b09",
    "applied": true,
-   "preview": "assets/studio-free-20261003-lancia-fulvia-hf-9d16431ef966-current.jpg",
+   "preview": "assets/studio-free-20261003-lancia-fulvia-hf-12a4df1675c1-current.jpg",
    "pixels": [
     2480,
     3312
@@ -10427,9 +12384,9 @@
   },
   {
    "key": "studio-free-20261003-ford-escort-cosworth",
-   "declared_sha256": "ec67c26139e36c90e2ebcbe85a90e149578855ee19a28980e02f56f94af832b6",
+   "declared_sha256": "0ff9e71bdcdf42600b71f9961f55bc5841584255836fe6f9658f7a1877d2b4ad",
    "applied": true,
-   "preview": "assets/studio-free-20261003-ford-escort-cosworth-ec67c26139e3-current.jpg",
+   "preview": "assets/studio-free-20261003-ford-escort-cosworth-0ff9e71bdcdf-current.jpg",
    "pixels": [
     2480,
     3312
@@ -10437,9 +12394,9 @@
   },
   {
    "key": "studio-free-20261003-porsche-993-turbo",
-   "declared_sha256": "638ef096582297eb7e15472901967d8ffd8c8a1b2b08f27e2c79950121c175a8",
+   "declared_sha256": "2a58573272036852e5cdee8ee9e049129a29123cd0bbe2d89cadefa9511b1473",
    "applied": true,
-   "preview": "assets/studio-free-20261003-porsche-993-turbo-638ef0965822-current.jpg",
+   "preview": "assets/studio-free-20261003-porsche-993-turbo-2a5857327203-current.jpg",
    "pixels": [
     2480,
     3312
@@ -10447,9 +12404,9 @@
   },
   {
    "key": "studio-free-20261003-jaguar-xj220",
-   "declared_sha256": "0fe9350d4484cf90a9eaba6e6e2f65ceb68f81c12e9c52895ddc46784a55f186",
+   "declared_sha256": "050d68f45a8e336ee7b359a4dcb8a78277340d09dc88ab1f326207364c5d8455",
    "applied": true,
-   "preview": "assets/studio-free-20261003-jaguar-xj220-0fe9350d4484-current.jpg",
+   "preview": "assets/studio-free-20261003-jaguar-xj220-050d68f45a8e-current.jpg",
    "pixels": [
     3312,
     2480
@@ -10457,9 +12414,9 @@
   },
   {
    "key": "studio-free-20261003-alfa-montreal",
-   "declared_sha256": "eff7d1d216ee926146f2ee10cf50744b66b91d9589d944334d13302aba4cb011",
+   "declared_sha256": "c6a829138000f9e84feb211ae4f110d97f5461a2d2a5cb14c090e6d5c4b32c22",
    "applied": true,
-   "preview": "assets/studio-free-20261003-alfa-montreal-eff7d1d216ee-current.jpg",
+   "preview": "assets/studio-free-20261003-alfa-montreal-c6a829138000-current.jpg",
    "pixels": [
     3312,
     2480
@@ -10467,9 +12424,9 @@
   },
   {
    "key": "studio-free-20261003-vw-beetle-1967",
-   "declared_sha256": "780586aea2a33a1affbf6c9abd389eccd0182308d906a7572779854202fb0a37",
+   "declared_sha256": "6fed788815d7057d03bc7cf2fd0469f826fb86cb5c1177a15f344fe8f30c6fff",
    "applied": true,
-   "preview": "assets/studio-free-20261003-vw-beetle-1967-780586aea2a3-current.jpg",
+   "preview": "assets/studio-free-20261003-vw-beetle-1967-6fed788815d7-current.jpg",
    "pixels": [
     2480,
     3312
@@ -10477,9 +12434,9 @@
   },
   {
    "key": "studio-free-20261003-bmw-z8",
-   "declared_sha256": "19e0684e09b69024c53d257bfa108c599d98c4838f6956a592e30736ad1c4910",
+   "declared_sha256": "05d15fb28baf95ccfaa06318f239b15f599a13060d2b00c4e870dbf6aac8839e",
    "applied": true,
-   "preview": "assets/studio-free-20261003-bmw-z8-19e0684e09b6-current.jpg",
+   "preview": "assets/studio-free-20261003-bmw-z8-05d15fb28baf-current.jpg",
    "pixels": [
     2480,
     3312
@@ -10487,9 +12444,9 @@
   },
   {
    "key": "studio-free-20261003-plymouth-hemi-cuda",
-   "declared_sha256": "0b714d5c915bf350c09697b4cbb0dfa34b77063646a2a1b2057b2ca9dcf59562",
+   "declared_sha256": "c57384da8aaf21f7ff2c6140dd3c33733daeb94719082ccf610140c0cc9533af",
    "applied": true,
-   "preview": "assets/studio-free-20261003-plymouth-hemi-cuda-0b714d5c915b-current.jpg",
+   "preview": "assets/studio-free-20261003-plymouth-hemi-cuda-c57384da8aaf-current.jpg",
    "pixels": [
     3312,
     2480
@@ -10497,9 +12454,9 @@
   },
   {
    "key": "studio-free-20261003-ferrari-daytona",
-   "declared_sha256": "2e7d390c38759084da9feb459f817a72b7dd9184686e0fd16d002766a141f14c",
+   "declared_sha256": "5067e436010f800b2d78ade9a9df99181cd744cf9efd61768fac24cd220cd9f7",
    "applied": true,
-   "preview": "assets/studio-free-20261003-ferrari-daytona-2e7d390c3875-current.jpg",
+   "preview": "assets/studio-free-20261003-ferrari-daytona-5067e436010f-current.jpg",
    "pixels": [
     3312,
     2480
