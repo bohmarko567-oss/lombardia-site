@@ -1,7 +1,7 @@
 {
  "schema_version": 3,
- "built": "2026-10-01 18:24",
- "accessed_date": "2026-10-01",
+ "built": "2026-10-03 02:38",
+ "accessed_date": "2026-10-03",
  "collections": [
   "American Form",
   "Forma / Motion",
@@ -1219,6 +1219,1866 @@
     "created_at": "2026-09-20T17:38:47.632726+00:00",
     "created_source": "MuAPI original",
     "updated_at": "2026-09-20T17:38:47.632726+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-pairs-20261003-porsche-356-speedster",
+   "name": "Porsche 356 A Speedster - DIRECTED",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-pairs-20261003-porsche-356-speedster-8fa3f69c0f9c-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-pairs-20261003/c1/heroes/porsche-356-speedster/final-native.png",
+   "source_sha256": "8fa3f69c0f9c46bf237af952e141b065187e3f5379af651ecff59aab370d1ebe",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-10-03T00:34:26.256852+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "cc21f84a-2c25-4de1-a17e-d0d8cfec24e2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-03T00:24:04.312387+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/cc21f84a-2c25-4de1-a17e-d0d8cfec24e2_f740de6e.png",
+     "page_url": "https://muapi.ai/predictions/cc21f84a-2c25-4de1-a17e-d0d8cfec24e2",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions with the hood folded down behind the seats under its black cover, the low chrome-framed windscreen, round headlamps, chrome bumper with its two over-riders, chrome wheels with domed hubcaps, chrome waist trim and sill trim (ignore the setting)",
+       "url": "https://cdn.muapi.ai/outputs/02129a99816a4e939b6ff601c705dc30_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo20/lots/r0077-1956-porsche-356-a-1600-speedster-by-reutter/"
+      },
+      {
+       "role": "Front: two round headlamps in chrome rings, the chrome bonnet handle with the crest, gold PORSCHE letters on the nose, a chrome horn grille and round indicator lamp under each headlamp, the chrome blade bumper with two tall over-riders, the low windscreen",
+       "url": "https://cdn.muapi.ai/outputs/8037314cc36d49b4b55226e1c7659209_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo20/lots/r0077-1956-porsche-356-a-1600-speedster-by-reutter/"
+      },
+      {
+       "role": "Side profile (right side): proportions, the low windscreen, the folded hood under its black cover, wheelbase, chrome waist trim and sill trim, the gold Speedster script on the front wing, the small Reutter badge behind the front wheel",
+       "url": "https://cdn.muapi.ai/outputs/e6511ddbb6e14e2783ea06b6af4e3695_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo20/lots/r0077-1956-porsche-356-a-1600-speedster-by-reutter/"
+      },
+      {
+       "role": "Bonnet close-up: the long chrome bonnet handle with the enamel Porsche crest at its front end, gold PORSCHE block letters spaced across the nose below the bonnet, the edge of a chrome horn grille",
+       "url": "https://cdn.muapi.ai/outputs/6386a1af3e5e466b9d5bd069b1173180_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo20/lots/r0077-1956-porsche-356-a-1600-speedster-by-reutter/"
+      },
+      {
+       "role": "Front wing close-up: the gold Speedster script on the front wing ahead of the door, just above the thin chrome waist trim (ignore the windscreen sticker)",
+       "url": "https://cdn.muapi.ai/outputs/cb2f7e9ed8af4f51af7447828a1a7c88_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo20/lots/r0077-1956-porsche-356-a-1600-speedster-by-reutter/"
+      },
+      {
+       "role": "Headlamp close-up: round headlamp with clear glass in a chrome ring, below it a chrome horn grille of horizontal bars with a round clear indicator lamp at its inner end",
+       "url": "https://cdn.muapi.ai/outputs/a4147f84fe0c44e3bc1e3f6b96a603ec_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo20/lots/r0077-1956-porsche-356-a-1600-speedster-by-reutter/"
+      },
+      {
+       "role": "Wheel close-up: chrome steel wheel with a ring of round-ended slots and a domed chrome hubcap (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/dc2123598f4043118020b0cd13610897_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo20/lots/r0077-1956-porsche-356-a-1600-speedster-by-reutter/"
+      },
+      {
+       "role": "Reutter badge close-up: small round gold and enamel Reutter coachbuilder badge on the right front wing behind the wheel arch",
+       "url": "https://cdn.muapi.ai/outputs/7fa7bcdd21e446b1ba250536b3a029d4_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo20/lots/r0077-1956-porsche-356-a-1600-speedster-by-reutter/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Sport / Leicht",
+    "why": "Brief: DIRECTED - 1950s club-race roundel with 356 as the race number, Speedster script. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-pairs-20261003/studio-candidates.json",
+   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes; 'i wanna now which creative directions u give to the model'; '5 free + 5 directed'; 'just dont start checking and fixing them immediately, i have to approve first'. Raw heroes for approval 1.",
+   "full_source_url": "full/8fa3f69c0f9c-studio-pairs-20261003-porsche-356-speedster.png",
+   "full_source_sha256": "8fa3f69c0f9c46bf237af952e141b065187e3f5379af651ecff59aab370d1ebe",
+   "full_source_bytes": 14273815,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: DIRECTED - 1950s club-race roundel with 356 as the race number, Speedster script. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "cc21f84a-2c25-4de1-a17e-d0d8cfec24e2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T00:24:04.312387+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/cc21f84a-2c25-4de1-a17e-d0d8cfec24e2_f740de6e.png",
+     "page_url": "https://muapi.ai/predictions/cc21f84a-2c25-4de1-a17e-d0d8cfec24e2",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions with the hood folded down behind the seats under its black cover, the low chrome-framed windscreen, round headlamps, chrome bumper with its two over-riders, chrome wheels with domed hubcaps, chrome waist trim and sill trim (ignore the setting)",
+       "url": "https://cdn.muapi.ai/outputs/02129a99816a4e939b6ff601c705dc30_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo20/lots/r0077-1956-porsche-356-a-1600-speedster-by-reutter/"
+      },
+      {
+       "role": "Front: two round headlamps in chrome rings, the chrome bonnet handle with the crest, gold PORSCHE letters on the nose, a chrome horn grille and round indicator lamp under each headlamp, the chrome blade bumper with two tall over-riders, the low windscreen",
+       "url": "https://cdn.muapi.ai/outputs/8037314cc36d49b4b55226e1c7659209_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo20/lots/r0077-1956-porsche-356-a-1600-speedster-by-reutter/"
+      },
+      {
+       "role": "Side profile (right side): proportions, the low windscreen, the folded hood under its black cover, wheelbase, chrome waist trim and sill trim, the gold Speedster script on the front wing, the small Reutter badge behind the front wheel",
+       "url": "https://cdn.muapi.ai/outputs/e6511ddbb6e14e2783ea06b6af4e3695_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo20/lots/r0077-1956-porsche-356-a-1600-speedster-by-reutter/"
+      },
+      {
+       "role": "Bonnet close-up: the long chrome bonnet handle with the enamel Porsche crest at its front end, gold PORSCHE block letters spaced across the nose below the bonnet, the edge of a chrome horn grille",
+       "url": "https://cdn.muapi.ai/outputs/6386a1af3e5e466b9d5bd069b1173180_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo20/lots/r0077-1956-porsche-356-a-1600-speedster-by-reutter/"
+      },
+      {
+       "role": "Front wing close-up: the gold Speedster script on the front wing ahead of the door, just above the thin chrome waist trim (ignore the windscreen sticker)",
+       "url": "https://cdn.muapi.ai/outputs/cb2f7e9ed8af4f51af7447828a1a7c88_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo20/lots/r0077-1956-porsche-356-a-1600-speedster-by-reutter/"
+      },
+      {
+       "role": "Headlamp close-up: round headlamp with clear glass in a chrome ring, below it a chrome horn grille of horizontal bars with a round clear indicator lamp at its inner end",
+       "url": "https://cdn.muapi.ai/outputs/a4147f84fe0c44e3bc1e3f6b96a603ec_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo20/lots/r0077-1956-porsche-356-a-1600-speedster-by-reutter/"
+      },
+      {
+       "role": "Wheel close-up: chrome steel wheel with a ring of round-ended slots and a domed chrome hubcap (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/dc2123598f4043118020b0cd13610897_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo20/lots/r0077-1956-porsche-356-a-1600-speedster-by-reutter/"
+      },
+      {
+       "role": "Reutter badge close-up: small round gold and enamel Reutter coachbuilder badge on the right front wing behind the wheel arch",
+       "url": "https://cdn.muapi.ai/outputs/7fa7bcdd21e446b1ba250536b3a029d4_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo20/lots/r0077-1956-porsche-356-a-1600-speedster-by-reutter/"
+      }
+     ],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-03T00:24:04.312387+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-03T00:34:26.256852+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-pairs-20261003-porsche-964-carrera-rs",
+   "name": "Porsche 911 Carrera RS (964) - FREE",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-pairs-20261003-porsche-964-carrera-rs-1d3b1b0a0e2f-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-pairs-20261003/c1/heroes/porsche-964-carrera-rs/final-native.png",
+   "source_sha256": "1d3b1b0a0e2fe13a1bc4e5bbaba8bd7ab09aa657fc99ef03457af5cb11080e41",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-10-03T00:34:21.978413+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "cfa9f4a4-d346-4e9c-8d00-6f1ac6526c1f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-03T00:19:44.276685+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/cfa9f4a4-d346-4e9c-8d00-6f1ac6526c1f_688b8e70.png",
+     "page_url": "https://muapi.ai/predictions/cfa9f4a4-d346-4e9c-8d00-6f1ac6526c1f",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, round headlamps, bonnet with the small crest, front bumper with the clear and amber lamps and the black lower slots, body-colour aero door mirrors, silver Cup wheels",
+       "url": "https://cdn.muapi.ai/outputs/46c1b307fcfb42d088108169ea0534b2_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0020-1992-porsche-911-carrera-rs/"
+      },
+      {
+       "role": "Front: round headlamps with fluted glass, the small Porsche crest on the front edge of the bonnet, plain recessed plate area, clear lamps with amber outer ends in the bumper corners, two black horizontal slots along the bottom, both body-colour aero mirrors, wipers parked (ignore the background)",
+       "url": "https://cdn.muapi.ai/outputs/8d16d7d2da6644d1b93580f4d465012a_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0020-1992-porsche-911-carrera-rs/"
+      },
+      {
+       "role": "Side profile (left side): proportions, roofline, wheelbase, silver Cup wheels, small amber side repeater on the front wing",
+       "url": "https://cdn.muapi.ai/outputs/e87e302723ad425f963279da4a7cc984_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0020-1992-porsche-911-carrera-rs/"
+      },
+      {
+       "role": "Front three-quarter from the right: the right flank, mirror, wheels",
+       "url": "https://cdn.muapi.ai/outputs/2e93017ee6b541dc9237ca9260bff675_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0020-1992-porsche-911-carrera-rs/"
+      },
+      {
+       "role": "Bonnet crest close-up: the gold, red and black Porsche crest on the front edge of the bonnet",
+       "url": "https://cdn.muapi.ai/outputs/5de813210c7e4d0fbb6a154ab2051035_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0020-1992-porsche-911-carrera-rs/"
+      },
+      {
+       "role": "Front bumper corner close-up: clear lamp with its amber outer end, the two black horizontal slots below, the thin black rubbing strip along the top of the bumper",
+       "url": "https://cdn.muapi.ai/outputs/000a305433f543b3a757f086760fabeb_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0020-1992-porsche-911-carrera-rs/"
+      },
+      {
+       "role": "Door mirror close-up: body-colour aero mirror on its one-piece arm, black door handle",
+       "url": "https://cdn.muapi.ai/outputs/5277f1f2b3f34e0bade002668881fed6_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0020-1992-porsche-911-carrera-rs/"
+      },
+      {
+       "role": "Left front wheel and wing: silver Cup alloy with the crest centre cap, small amber side repeater on the wing",
+       "url": "https://cdn.muapi.ai/outputs/9d4af8a09d8b4c3e86db06b613ff10df_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0020-1992-porsche-911-carrera-rs/"
+      },
+      {
+       "role": "Wheel close-up: the Cup design - broad curved spokes, a ring of round holes around the hub, the Porsche crest centre cap",
+       "url": "https://cdn.muapi.ai/outputs/c1dd7fc3505c435281c619e98b0a0920_ref-9.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0020-1992-porsche-911-carrera-rs/"
+      },
+      {
+       "role": "Rear, for any second view: full-width red light bar between the tail lamps, black Carrera RS script on the engine lid below the black louvred grille, plain plate area, one round exhaust tip (ignore the setting)",
+       "url": "https://cdn.muapi.ai/outputs/de3446298f534a92abdd81181a295035_ref-10.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0020-1992-porsche-911-carrera-rs/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Sport / Leicht",
+    "why": "Brief: FREE - no idea given; the model designed it. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-pairs-20261003/studio-candidates.json",
+   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes; 'i wanna now which creative directions u give to the model'; '5 free + 5 directed'; 'just dont start checking and fixing them immediately, i have to approve first'. Raw heroes for approval 1.",
+   "full_source_url": "full/1d3b1b0a0e2f-studio-pairs-20261003-porsche-964-carrera-rs.png",
+   "full_source_sha256": "1d3b1b0a0e2fe13a1bc4e5bbaba8bd7ab09aa657fc99ef03457af5cb11080e41",
+   "full_source_bytes": 10781476,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: FREE - no idea given; the model designed it. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "cfa9f4a4-d346-4e9c-8d00-6f1ac6526c1f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T00:19:44.276685+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/cfa9f4a4-d346-4e9c-8d00-6f1ac6526c1f_688b8e70.png",
+     "page_url": "https://muapi.ai/predictions/cfa9f4a4-d346-4e9c-8d00-6f1ac6526c1f",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, round headlamps, bonnet with the small crest, front bumper with the clear and amber lamps and the black lower slots, body-colour aero door mirrors, silver Cup wheels",
+       "url": "https://cdn.muapi.ai/outputs/46c1b307fcfb42d088108169ea0534b2_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0020-1992-porsche-911-carrera-rs/"
+      },
+      {
+       "role": "Front: round headlamps with fluted glass, the small Porsche crest on the front edge of the bonnet, plain recessed plate area, clear lamps with amber outer ends in the bumper corners, two black horizontal slots along the bottom, both body-colour aero mirrors, wipers parked (ignore the background)",
+       "url": "https://cdn.muapi.ai/outputs/8d16d7d2da6644d1b93580f4d465012a_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0020-1992-porsche-911-carrera-rs/"
+      },
+      {
+       "role": "Side profile (left side): proportions, roofline, wheelbase, silver Cup wheels, small amber side repeater on the front wing",
+       "url": "https://cdn.muapi.ai/outputs/e87e302723ad425f963279da4a7cc984_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0020-1992-porsche-911-carrera-rs/"
+      },
+      {
+       "role": "Front three-quarter from the right: the right flank, mirror, wheels",
+       "url": "https://cdn.muapi.ai/outputs/2e93017ee6b541dc9237ca9260bff675_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0020-1992-porsche-911-carrera-rs/"
+      },
+      {
+       "role": "Bonnet crest close-up: the gold, red and black Porsche crest on the front edge of the bonnet",
+       "url": "https://cdn.muapi.ai/outputs/5de813210c7e4d0fbb6a154ab2051035_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0020-1992-porsche-911-carrera-rs/"
+      },
+      {
+       "role": "Front bumper corner close-up: clear lamp with its amber outer end, the two black horizontal slots below, the thin black rubbing strip along the top of the bumper",
+       "url": "https://cdn.muapi.ai/outputs/000a305433f543b3a757f086760fabeb_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0020-1992-porsche-911-carrera-rs/"
+      },
+      {
+       "role": "Door mirror close-up: body-colour aero mirror on its one-piece arm, black door handle",
+       "url": "https://cdn.muapi.ai/outputs/5277f1f2b3f34e0bade002668881fed6_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0020-1992-porsche-911-carrera-rs/"
+      },
+      {
+       "role": "Left front wheel and wing: silver Cup alloy with the crest centre cap, small amber side repeater on the wing",
+       "url": "https://cdn.muapi.ai/outputs/9d4af8a09d8b4c3e86db06b613ff10df_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0020-1992-porsche-911-carrera-rs/"
+      },
+      {
+       "role": "Wheel close-up: the Cup design - broad curved spokes, a ring of round holes around the hub, the Porsche crest centre cap",
+       "url": "https://cdn.muapi.ai/outputs/c1dd7fc3505c435281c619e98b0a0920_ref-9.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0020-1992-porsche-911-carrera-rs/"
+      },
+      {
+       "role": "Rear, for any second view: full-width red light bar between the tail lamps, black Carrera RS script on the engine lid below the black louvred grille, plain plate area, one round exhaust tip (ignore the setting)",
+       "url": "https://cdn.muapi.ai/outputs/de3446298f534a92abdd81181a295035_ref-10.webp",
+       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0020-1992-porsche-911-carrera-rs/"
+      }
+     ],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-03T00:19:44.276685+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-03T00:34:21.978413+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-pairs-20261003-ferrari-308-gts",
+   "name": "Ferrari 308 GTS - DIRECTED",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-pairs-20261003-ferrari-308-gts-6a3205ae43e3-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-pairs-20261003/c1/heroes/ferrari-308-gts/final-native.png",
+   "source_sha256": "6a3205ae43e34c6d4fb530ac541eff35a839451bb397360d54092e1f4a122ec1",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-10-03T00:37:39.548653+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "61ecb8cd-2034-4096-93b9-282ffbdca89e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-03T00:32:20.542688+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/61ecb8cd-2034-4096-93b9-282ffbdca89e_1643895e.png",
+     "page_url": "https://muapi.ai/predictions/61ecb8cd-2034-4096-93b9-282ffbdca89e",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the low wedge nose, black bumper with amber indicators, closed headlamp pods, the black targa roof panel, the scalloped side intake, five-spoke wheels",
+       "url": "https://cdn.muapi.ai/outputs/e706218d5de344b6ad41e634df5c4868_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0037-1978-ferrari-308-gts/"
+      },
+      {
+       "role": "Front: the two closed pop-up headlamp pods at the front corners of the bonnet, the small Ferrari badge on the nose, the black bumper with an amber indicator at each end and the grille of thin bright bars below, the targa roof edge",
+       "url": "https://cdn.muapi.ai/outputs/21c9aa12c4f24521b9518c65e3351f63_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0037-1978-ferrari-308-gts/"
+      },
+      {
+       "role": "Side profile (left side): the exact elevation for the tape drawing - wedge nose, windscreen, targa roof, rear buttress with black louvres, the scalloped side cove with its round intake, the black side strip, wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/0826c6cab16d42278c59d5c043d2c4ae_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0037-1978-ferrari-308-gts/"
+      },
+      {
+       "role": "Nose close-up: closed headlamp pod with black louvres at its front edge, the small Ferrari badge, the black bumper with the amber indicator, the grille of thin bright horizontal bars",
+       "url": "https://cdn.muapi.ai/outputs/658ac7feb50941d497e4a85d8edcda2e_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0037-1978-ferrari-308-gts/"
+      },
+      {
+       "role": "Nose badge close-up: small rectangular enamel Ferrari badge - yellow field, black prancing horse, green-white-red stripe on top, Ferrari script at the bottom",
+       "url": "https://cdn.muapi.ai/outputs/1d9ba69ff21b4d609f3bba1f2e529eef_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0037-1978-ferrari-308-gts/"
+      },
+      {
+       "role": "Wheel close-up: silver five-spoke star alloy with five nuts and a yellow prancing-horse centre cap, amber side marker on the front wing (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/1c647e8fed5143479b66c1667fd309b4_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0037-1978-ferrari-308-gts/"
+      },
+      {
+       "role": "Door close-up: black door mirror on a stalk, the scalloped cove with the round air intake behind the door, black louvres in the rear buttress",
+       "url": "https://cdn.muapi.ai/outputs/3a691e61ee1b48e5b104568ee568942e_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0037-1978-ferrari-308-gts/"
+      },
+      {
+       "role": "Flank close-up: small chrome Disegno di pininfarina plaque low on the rear flank, the black side strip",
+       "url": "https://cdn.muapi.ai/outputs/7ce9ffd549a94f66897d296880c5a140_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0037-1978-ferrari-308-gts/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Gran Turismo",
+    "why": "Brief: DIRECTED - designer's tape drawing of the 308 profile behind the real car. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-pairs-20261003/studio-candidates.json",
+   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes; 'i wanna now which creative directions u give to the model'; '5 free + 5 directed'; 'just dont start checking and fixing them immediately, i have to approve first'. Raw heroes for approval 1.",
+   "full_source_url": "full/6a3205ae43e3-studio-pairs-20261003-ferrari-308-gts.png",
+   "full_source_sha256": "6a3205ae43e34c6d4fb530ac541eff35a839451bb397360d54092e1f4a122ec1",
+   "full_source_bytes": 9898575,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Gran Turismo",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: DIRECTED - designer's tape drawing of the 308 profile behind the real car. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "61ecb8cd-2034-4096-93b9-282ffbdca89e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T00:32:20.542688+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/61ecb8cd-2034-4096-93b9-282ffbdca89e_1643895e.png",
+     "page_url": "https://muapi.ai/predictions/61ecb8cd-2034-4096-93b9-282ffbdca89e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the low wedge nose, black bumper with amber indicators, closed headlamp pods, the black targa roof panel, the scalloped side intake, five-spoke wheels",
+       "url": "https://cdn.muapi.ai/outputs/e706218d5de344b6ad41e634df5c4868_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0037-1978-ferrari-308-gts/"
+      },
+      {
+       "role": "Front: the two closed pop-up headlamp pods at the front corners of the bonnet, the small Ferrari badge on the nose, the black bumper with an amber indicator at each end and the grille of thin bright bars below, the targa roof edge",
+       "url": "https://cdn.muapi.ai/outputs/21c9aa12c4f24521b9518c65e3351f63_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0037-1978-ferrari-308-gts/"
+      },
+      {
+       "role": "Side profile (left side): the exact elevation for the tape drawing - wedge nose, windscreen, targa roof, rear buttress with black louvres, the scalloped side cove with its round intake, the black side strip, wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/0826c6cab16d42278c59d5c043d2c4ae_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0037-1978-ferrari-308-gts/"
+      },
+      {
+       "role": "Nose close-up: closed headlamp pod with black louvres at its front edge, the small Ferrari badge, the black bumper with the amber indicator, the grille of thin bright horizontal bars",
+       "url": "https://cdn.muapi.ai/outputs/658ac7feb50941d497e4a85d8edcda2e_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0037-1978-ferrari-308-gts/"
+      },
+      {
+       "role": "Nose badge close-up: small rectangular enamel Ferrari badge - yellow field, black prancing horse, green-white-red stripe on top, Ferrari script at the bottom",
+       "url": "https://cdn.muapi.ai/outputs/1d9ba69ff21b4d609f3bba1f2e529eef_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0037-1978-ferrari-308-gts/"
+      },
+      {
+       "role": "Wheel close-up: silver five-spoke star alloy with five nuts and a yellow prancing-horse centre cap, amber side marker on the front wing (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/1c647e8fed5143479b66c1667fd309b4_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0037-1978-ferrari-308-gts/"
+      },
+      {
+       "role": "Door close-up: black door mirror on a stalk, the scalloped cove with the round air intake behind the door, black louvres in the rear buttress",
+       "url": "https://cdn.muapi.ai/outputs/3a691e61ee1b48e5b104568ee568942e_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0037-1978-ferrari-308-gts/"
+      },
+      {
+       "role": "Flank close-up: small chrome Disegno di pininfarina plaque low on the rear flank, the black side strip",
+       "url": "https://cdn.muapi.ai/outputs/7ce9ffd549a94f66897d296880c5a140_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0037-1978-ferrari-308-gts/"
+      }
+     ],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-03T00:32:20.542688+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-03T00:37:39.548653+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-pairs-20261003-ferrari-f50",
+   "name": "Ferrari F50 - FREE",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-pairs-20261003-ferrari-f50-964f54a9b2b7-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-pairs-20261003/c1/heroes/ferrari-f50/final-native.png",
+   "source_sha256": "964f54a9b2b781cb992b75649e65e5f08811b5241263eee895154994cff6a6d4",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-10-03T00:34:17.572491+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "218f00e2-58f0-48c5-95ea-c6342ffd4fcf",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-03T00:19:38.711489+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/218f00e2-58f0-48c5-95ea-c6342ffd4fcf_e63e626b.png",
+     "page_url": "https://muapi.ai/predictions/218f00e2-58f0-48c5-95ea-c6342ffd4fcf",
+     "references": [
+      {
+       "role": "Front three-quarter from the left, from above: whole-car proportions with the roof panels off, the two oval headlamp covers, the two black ducts on the bonnet, the oval mesh grille, the left flank with the shield and the black side line, five-spoke wheels",
+       "url": "https://cdn.muapi.ai/outputs/c6a73c1bed544ec781d2572876dbe726_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
+      },
+      {
+       "role": "Front: two oval headlamps under clear covers, two black ducts on the bonnet between them, the small yellow Ferrari badge on the bonnet, the wide oval black mesh grille with the chrome prancing horse, the slim lamps under the headlamps, two small oval mesh intakes at the lower corners, both mirrors (ignore the coloured lighting)",
+       "url": "https://cdn.muapi.ai/outputs/d8602c15f8be4ee0b2c2772cc578605c_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
+      },
+      {
+       "role": "Side profile: proportions, open cockpit with the two roll hoops, the high rear wing, wheelbase, black side intake ahead of the rear wheel",
+       "url": "https://cdn.muapi.ai/outputs/583b36e46ed04258b83036ba0d94df5f_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
+      },
+      {
+       "role": "High front three-quarter: the open roadster body seen from above, roll hoops behind the seats, rear wing",
+       "url": "https://cdn.muapi.ai/outputs/5a2a83ed413448218ae4c1d7696868e5_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
+      },
+      {
+       "role": "Nose close-up: the small yellow Ferrari badge on the bonnet, the oval grille with the chrome horse, a slim front lamp, a lower corner intake, the black line along the bumper",
+       "url": "https://cdn.muapi.ai/outputs/00c39afbc5004a61b43213bbdf054c05_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
+      },
+      {
+       "role": "Grille and badge close-up: chrome prancing horse in the black mesh grille, the small rectangular yellow Ferrari badge on the bonnet above it",
+       "url": "https://cdn.muapi.ai/outputs/218cc6dc6dad4a27af1e7042e353a071_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
+      },
+      {
+       "role": "Left front wing: yellow Ferrari shield with SF letters and the green-white-red top band behind the wheel arch, the black side line, the body-colour door mirror",
+       "url": "https://cdn.muapi.ai/outputs/64d72505166d4401ae07bb4acdfd6ac4_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
+      },
+      {
+       "role": "Flank close-up: small chrome pininfarina script low on the flank",
+       "url": "https://cdn.muapi.ai/outputs/bd963538be4b4942b278648869075b02_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
+      },
+      {
+       "role": "Rear, for any second view: two round tail lamps on each side of a black rear panel with a small chrome prancing horse in its centre, the full-width rear wing, the engine under its slatted cover, round exhaust tips low at the rear (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/3a08921ee5194763b42dce91f6fe4332_ref-9.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
+      },
+      {
+       "role": "Wheel close-up: silver five-spoke star alloy with a centre-lock nut carrying a small Ferrari emblem (ignore the luggage)",
+       "url": "https://cdn.muapi.ai/outputs/37d5fb32d623423ba393b235f5b0cf18_ref-10.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Forma / Motion",
+    "why": "Brief: FREE - no idea given; the model designed it. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-pairs-20261003/studio-candidates.json",
+   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes; 'i wanna now which creative directions u give to the model'; '5 free + 5 directed'; 'just dont start checking and fixing them immediately, i have to approve first'. Raw heroes for approval 1.",
+   "full_source_url": "full/964f54a9b2b7-studio-pairs-20261003-ferrari-f50.png",
+   "full_source_sha256": "964f54a9b2b781cb992b75649e65e5f08811b5241263eee895154994cff6a6d4",
+   "full_source_bytes": 11579676,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Forma / Motion",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: FREE - no idea given; the model designed it. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 100
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "218f00e2-58f0-48c5-95ea-c6342ffd4fcf",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T00:19:38.711489+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/218f00e2-58f0-48c5-95ea-c6342ffd4fcf_e63e626b.png",
+     "page_url": "https://muapi.ai/predictions/218f00e2-58f0-48c5-95ea-c6342ffd4fcf",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left, from above: whole-car proportions with the roof panels off, the two oval headlamp covers, the two black ducts on the bonnet, the oval mesh grille, the left flank with the shield and the black side line, five-spoke wheels",
+       "url": "https://cdn.muapi.ai/outputs/c6a73c1bed544ec781d2572876dbe726_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
+      },
+      {
+       "role": "Front: two oval headlamps under clear covers, two black ducts on the bonnet between them, the small yellow Ferrari badge on the bonnet, the wide oval black mesh grille with the chrome prancing horse, the slim lamps under the headlamps, two small oval mesh intakes at the lower corners, both mirrors (ignore the coloured lighting)",
+       "url": "https://cdn.muapi.ai/outputs/d8602c15f8be4ee0b2c2772cc578605c_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
+      },
+      {
+       "role": "Side profile: proportions, open cockpit with the two roll hoops, the high rear wing, wheelbase, black side intake ahead of the rear wheel",
+       "url": "https://cdn.muapi.ai/outputs/583b36e46ed04258b83036ba0d94df5f_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
+      },
+      {
+       "role": "High front three-quarter: the open roadster body seen from above, roll hoops behind the seats, rear wing",
+       "url": "https://cdn.muapi.ai/outputs/5a2a83ed413448218ae4c1d7696868e5_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
+      },
+      {
+       "role": "Nose close-up: the small yellow Ferrari badge on the bonnet, the oval grille with the chrome horse, a slim front lamp, a lower corner intake, the black line along the bumper",
+       "url": "https://cdn.muapi.ai/outputs/00c39afbc5004a61b43213bbdf054c05_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
+      },
+      {
+       "role": "Grille and badge close-up: chrome prancing horse in the black mesh grille, the small rectangular yellow Ferrari badge on the bonnet above it",
+       "url": "https://cdn.muapi.ai/outputs/218cc6dc6dad4a27af1e7042e353a071_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
+      },
+      {
+       "role": "Left front wing: yellow Ferrari shield with SF letters and the green-white-red top band behind the wheel arch, the black side line, the body-colour door mirror",
+       "url": "https://cdn.muapi.ai/outputs/64d72505166d4401ae07bb4acdfd6ac4_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
+      },
+      {
+       "role": "Flank close-up: small chrome pininfarina script low on the flank",
+       "url": "https://cdn.muapi.ai/outputs/bd963538be4b4942b278648869075b02_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
+      },
+      {
+       "role": "Rear, for any second view: two round tail lamps on each side of a black rear panel with a small chrome prancing horse in its centre, the full-width rear wing, the engine under its slatted cover, round exhaust tips low at the rear (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/3a08921ee5194763b42dce91f6fe4332_ref-9.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
+      },
+      {
+       "role": "Wheel close-up: silver five-spoke star alloy with a centre-lock nut carrying a small Ferrari emblem (ignore the luggage)",
+       "url": "https://cdn.muapi.ai/outputs/37d5fb32d623423ba393b235f5b0cf18_ref-10.webp",
+       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
+      }
+     ],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-03T00:19:38.711489+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-03T00:34:17.572491+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-pairs-20261003-pontiac-trans-am-1977",
+   "name": "Pontiac Firebird Trans Am - DIRECTED",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-pairs-20261003-pontiac-trans-am-1977-494b51485b12-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-pairs-20261003/c2/heroes/pontiac-trans-am-1977/final-native.png",
+   "source_sha256": "494b51485b12cd1e887cba628de4bc7a2e54a9875acf08eeb57af7bad91ea0bf",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-10-03T00:34:46.326191+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "172fd6b7-775f-4f3c-a9cb-7b48a2d70785",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-03T00:24:55.059589+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/172fd6b7-775f-4f3c-a9cb-7b48a2d70785_81ecf6a9.png",
+     "page_url": "https://muapi.ai/predictions/172fd6b7-775f-4f3c-a9cb-7b48a2d70785",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: the gold firebird on the bonnet around the black shaker scoop, the pointed nose with the gold-trimmed headlamp bezels, the TRANS AM decal on the nose and on the front wing, gold pinstripes, gold snowflake wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/fc219fbb4bac4c779188157b5166e93f.jpg",
+       "source_page": "https://www.rkmotors.com/vehicles/1916/1977-pontiac-firebird-trans-am-se"
+      },
+      {
+       "role": "Front: the pointed nose with the red Pontiac arrowhead in the centre, on each side two rectangular headlamps in a gold bezel beside a black honeycomb grille, the TRANS AM decal above the car's left headlamps, black door mirrors, the shaker scoop",
+       "url": "https://cdn.muapi.ai/outputs/generated/26e952c802d049508a697f93f993d9d8.jpg",
+       "source_page": "https://www.rkmotors.com/vehicles/1916/1977-pontiac-firebird-trans-am-se"
+      },
+      {
+       "role": "Side profile: proportions, long bonnet with the shaker scoop, glass T-tops in place, TRANS AM decal on the front wing, small gold firebird on the sail panel, gold pinstripes, snowflake wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/f78b96e6e43d43878777e863b723949f.jpg",
+       "source_page": "https://www.rkmotors.com/vehicles/1916/1977-pontiac-firebird-trans-am-se"
+      },
+      {
+       "role": "High front: the whole gold firebird decal on the bonnet seen from above, wings spread around the shaker scoop, tail feathers fanning towards the nose",
+       "url": "https://cdn.muapi.ai/outputs/generated/e296b0b89c114698b7a7c8c9fa731b86.jpg",
+       "source_page": "https://www.rkmotors.com/vehicles/1916/1977-pontiac-firebird-trans-am-se"
+      },
+      {
+       "role": "Bonnet firebird close-up: the exact shape of the gold bird - head turned, wings raised with long separated feathers, tail fanning down - in light and darker gold",
+       "url": "https://cdn.muapi.ai/outputs/generated/45b1463862e24a52ba3662060123b7fb.jpg",
+       "source_page": "https://www.rkmotors.com/vehicles/1916/1977-pontiac-firebird-trans-am-se"
+      },
+      {
+       "role": "Nose close-up: the gold TRANS AM decal above the headlamps, the two rectangular headlamps in the gold-painted bezel, the black honeycomb grille with the small PONTIAC letters, the gold pinstripe outline",
+       "url": "https://cdn.muapi.ai/outputs/generated/dd391bba1cdc42e0bc860e0897bf5ac7.jpg",
+       "source_page": "https://www.rkmotors.com/vehicles/1916/1977-pontiac-firebird-trans-am-se"
+      },
+      {
+       "role": "Front wing close-up: the black flared air extractor on the front wing outlined in gold pinstripe, the gold TRANS AM decal below it",
+       "url": "https://cdn.muapi.ai/outputs/generated/d11c3d5b0d704fcd876fc76a23e53f9b.jpg",
+       "source_page": "https://www.rkmotors.com/vehicles/1916/1977-pontiac-firebird-trans-am-se"
+      },
+      {
+       "role": "Sail panel close-up: small gold firebird decal on the roof sail panel behind the side window, gold pinstripe",
+       "url": "https://cdn.muapi.ai/outputs/generated/5f7283e541ea4cb39b40e61d63d61302.jpg",
+       "source_page": "https://www.rkmotors.com/vehicles/1916/1977-pontiac-firebird-trans-am-se"
+      },
+      {
+       "role": "Wheel close-up: gold-painted snowflake cast wheel with a machined silver rim edge and a black centre cap with a small red firebird (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/generated/2e13e5d3fe374e9690fe2955c0b1f9ff.jpg",
+       "source_page": "https://www.rkmotors.com/vehicles/1916/1977-pontiac-firebird-trans-am-se"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "American Form",
+    "why": "Brief: DIRECTED - the car's own bonnet firebird blown up in two golds on black. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-pairs-20261003/studio-candidates.json",
+   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes; 'i wanna now which creative directions u give to the model'; '5 free + 5 directed'; 'just dont start checking and fixing them immediately, i have to approve first'. Raw heroes for approval 1.",
+   "full_source_url": "full/494b51485b12-studio-pairs-20261003-pontiac-trans-am-1977.png",
+   "full_source_sha256": "494b51485b12cd1e887cba628de4bc7a2e54a9875acf08eeb57af7bad91ea0bf",
+   "full_source_bytes": 11671771,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "American Form",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: DIRECTED - the car's own bonnet firebird blown up in two golds on black. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "172fd6b7-775f-4f3c-a9cb-7b48a2d70785",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T00:24:55.059589+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/172fd6b7-775f-4f3c-a9cb-7b48a2d70785_81ecf6a9.png",
+     "page_url": "https://muapi.ai/predictions/172fd6b7-775f-4f3c-a9cb-7b48a2d70785",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: the gold firebird on the bonnet around the black shaker scoop, the pointed nose with the gold-trimmed headlamp bezels, the TRANS AM decal on the nose and on the front wing, gold pinstripes, gold snowflake wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/fc219fbb4bac4c779188157b5166e93f.jpg",
+       "source_page": "https://www.rkmotors.com/vehicles/1916/1977-pontiac-firebird-trans-am-se"
+      },
+      {
+       "role": "Front: the pointed nose with the red Pontiac arrowhead in the centre, on each side two rectangular headlamps in a gold bezel beside a black honeycomb grille, the TRANS AM decal above the car's left headlamps, black door mirrors, the shaker scoop",
+       "url": "https://cdn.muapi.ai/outputs/generated/26e952c802d049508a697f93f993d9d8.jpg",
+       "source_page": "https://www.rkmotors.com/vehicles/1916/1977-pontiac-firebird-trans-am-se"
+      },
+      {
+       "role": "Side profile: proportions, long bonnet with the shaker scoop, glass T-tops in place, TRANS AM decal on the front wing, small gold firebird on the sail panel, gold pinstripes, snowflake wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/f78b96e6e43d43878777e863b723949f.jpg",
+       "source_page": "https://www.rkmotors.com/vehicles/1916/1977-pontiac-firebird-trans-am-se"
+      },
+      {
+       "role": "High front: the whole gold firebird decal on the bonnet seen from above, wings spread around the shaker scoop, tail feathers fanning towards the nose",
+       "url": "https://cdn.muapi.ai/outputs/generated/e296b0b89c114698b7a7c8c9fa731b86.jpg",
+       "source_page": "https://www.rkmotors.com/vehicles/1916/1977-pontiac-firebird-trans-am-se"
+      },
+      {
+       "role": "Bonnet firebird close-up: the exact shape of the gold bird - head turned, wings raised with long separated feathers, tail fanning down - in light and darker gold",
+       "url": "https://cdn.muapi.ai/outputs/generated/45b1463862e24a52ba3662060123b7fb.jpg",
+       "source_page": "https://www.rkmotors.com/vehicles/1916/1977-pontiac-firebird-trans-am-se"
+      },
+      {
+       "role": "Nose close-up: the gold TRANS AM decal above the headlamps, the two rectangular headlamps in the gold-painted bezel, the black honeycomb grille with the small PONTIAC letters, the gold pinstripe outline",
+       "url": "https://cdn.muapi.ai/outputs/generated/dd391bba1cdc42e0bc860e0897bf5ac7.jpg",
+       "source_page": "https://www.rkmotors.com/vehicles/1916/1977-pontiac-firebird-trans-am-se"
+      },
+      {
+       "role": "Front wing close-up: the black flared air extractor on the front wing outlined in gold pinstripe, the gold TRANS AM decal below it",
+       "url": "https://cdn.muapi.ai/outputs/generated/d11c3d5b0d704fcd876fc76a23e53f9b.jpg",
+       "source_page": "https://www.rkmotors.com/vehicles/1916/1977-pontiac-firebird-trans-am-se"
+      },
+      {
+       "role": "Sail panel close-up: small gold firebird decal on the roof sail panel behind the side window, gold pinstripe",
+       "url": "https://cdn.muapi.ai/outputs/generated/5f7283e541ea4cb39b40e61d63d61302.jpg",
+       "source_page": "https://www.rkmotors.com/vehicles/1916/1977-pontiac-firebird-trans-am-se"
+      },
+      {
+       "role": "Wheel close-up: gold-painted snowflake cast wheel with a machined silver rim edge and a black centre cap with a small red firebird (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/generated/2e13e5d3fe374e9690fe2955c0b1f9ff.jpg",
+       "source_page": "https://www.rkmotors.com/vehicles/1916/1977-pontiac-firebird-trans-am-se"
+      }
+     ],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-03T00:24:55.059589+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-03T00:34:46.326191+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-pairs-20261003-dodge-charger-rt-1969",
+   "name": "Dodge Charger R/T - FREE",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-pairs-20261003-dodge-charger-rt-1969-27f13938d433-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-pairs-20261003/c2/heroes/dodge-charger-rt-1969/final-native.png",
+   "source_sha256": "27f13938d433b1fd4b933c5da89d431a6ab6e71b6d47b71f4d3749318cb8e0a0",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-10-03T00:34:33.234024+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "d608f6f0-cbb7-4254-ae65-e871a9b9f785",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-03T00:20:05.110010+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d608f6f0-cbb7-4254-ae65-e871a9b9f785_2acaf351.png",
+     "page_url": "https://muapi.ai/predictions/d608f6f0-cbb7-4254-ae65-e871a9b9f785",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the full-width split grille with the hidden headlamps closed, chrome front bumper with two vertical guards, black vinyl roof, body-colour steel wheels with small chrome hubcaps (ignore the setting)",
+       "url": "https://cdn.muapi.ai/outputs/0c56188163314c25b520ef3ce25ac46f_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0004-1969-dodge-charger-rt-hemi/"
+      },
+      {
+       "role": "Front: the full-width grille in two halves of black mesh inside a chrome surround with a vertical centre divider, headlamps hidden, the Charger R/T badge on the right half, chrome bumper with two vertical guards, a round parking lamp in a chrome housing at each side of the valance, the bonnet with its two recessed vents (ignore the setting)",
+       "url": "https://cdn.muapi.ai/outputs/c730ab0c8cfe4886bb8e6b565e5b4574_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0004-1969-dodge-charger-rt-hemi/"
+      },
+      {
+       "role": "Side profile (right side): proportions, long bonnet and deck, flying-buttress roof covered in black vinyl, wheelbase, small HEMI badge on the front wing, black band round the tail",
+       "url": "https://cdn.muapi.ai/outputs/6ba386e63cba457e8e6432fc130dca35_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0004-1969-dodge-charger-rt-hemi/"
+      },
+      {
+       "role": "Front three-quarter from the right: the long right flank, the roof, steel wheels with small chrome hubcaps",
+       "url": "https://cdn.muapi.ai/outputs/9e55e60d30da46c3b5d9b149bf0ad832_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0004-1969-dodge-charger-rt-hemi/"
+      },
+      {
+       "role": "Grille close-up: chrome Charger script and red R/T letters with chrome edges on the right half of the black mesh grille, the chrome bumper with its vertical guard, a parking lamp housing below",
+       "url": "https://cdn.muapi.ai/outputs/26949271ef74443080f7bae70c93bb19_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0004-1969-dodge-charger-rt-hemi/"
+      },
+      {
+       "role": "Rear three-quarter, for any second view: two long tail lamps in a recessed chrome-framed panel with a small R/T emblem between them, the black band round the tail, chrome rear bumper, chrome FUEL cap, black vinyl roof",
+       "url": "https://cdn.muapi.ai/outputs/3a5f029e1bba43faa1b24ea01858226b_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0004-1969-dodge-charger-rt-hemi/"
+      },
+      {
+       "role": "Left front wing: amber side-marker lamp at the front, chrome HEMI badge behind the wheel arch, body-colour steel wheel with a small chrome hubcap, radio aerial at the base of the windscreen",
+       "url": "https://cdn.muapi.ai/outputs/1a5b0c0cdc354b9aa0b2db4630802064_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0004-1969-dodge-charger-rt-hemi/"
+      },
+      {
+       "role": "Bonnet close-up: one of the two recessed bonnet vents with a small amber turn-signal indicator at its front end",
+       "url": "https://cdn.muapi.ai/outputs/fe53d6b90d3246eca9825a0b2314f8e7_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0004-1969-dodge-charger-rt-hemi/"
+      },
+      {
+       "role": "C-pillar close-up: chrome Charger script on the black vinyl roof",
+       "url": "https://cdn.muapi.ai/outputs/d52ef78b81db48d1a76904309728435f_ref-9.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0004-1969-dodge-charger-rt-hemi/"
+      },
+      {
+       "role": "Left door close-up: round chrome door mirror on a short stalk, chrome HEMI badge on the front wing",
+       "url": "https://cdn.muapi.ai/outputs/e00a86954ac14f8593980f67317a11e5_ref-10.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0004-1969-dodge-charger-rt-hemi/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "American Form",
+    "why": "Brief: FREE - no idea given; the model designed it. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-pairs-20261003/studio-candidates.json",
+   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes; 'i wanna now which creative directions u give to the model'; '5 free + 5 directed'; 'just dont start checking and fixing them immediately, i have to approve first'. Raw heroes for approval 1.",
+   "full_source_url": "full/27f13938d433-studio-pairs-20261003-dodge-charger-rt-1969.png",
+   "full_source_sha256": "27f13938d433b1fd4b933c5da89d431a6ab6e71b6d47b71f4d3749318cb8e0a0",
+   "full_source_bytes": 11998585,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "American Form",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: FREE - no idea given; the model designed it. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "d608f6f0-cbb7-4254-ae65-e871a9b9f785",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T00:20:05.110010+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d608f6f0-cbb7-4254-ae65-e871a9b9f785_2acaf351.png",
+     "page_url": "https://muapi.ai/predictions/d608f6f0-cbb7-4254-ae65-e871a9b9f785",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the full-width split grille with the hidden headlamps closed, chrome front bumper with two vertical guards, black vinyl roof, body-colour steel wheels with small chrome hubcaps (ignore the setting)",
+       "url": "https://cdn.muapi.ai/outputs/0c56188163314c25b520ef3ce25ac46f_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0004-1969-dodge-charger-rt-hemi/"
+      },
+      {
+       "role": "Front: the full-width grille in two halves of black mesh inside a chrome surround with a vertical centre divider, headlamps hidden, the Charger R/T badge on the right half, chrome bumper with two vertical guards, a round parking lamp in a chrome housing at each side of the valance, the bonnet with its two recessed vents (ignore the setting)",
+       "url": "https://cdn.muapi.ai/outputs/c730ab0c8cfe4886bb8e6b565e5b4574_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0004-1969-dodge-charger-rt-hemi/"
+      },
+      {
+       "role": "Side profile (right side): proportions, long bonnet and deck, flying-buttress roof covered in black vinyl, wheelbase, small HEMI badge on the front wing, black band round the tail",
+       "url": "https://cdn.muapi.ai/outputs/6ba386e63cba457e8e6432fc130dca35_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0004-1969-dodge-charger-rt-hemi/"
+      },
+      {
+       "role": "Front three-quarter from the right: the long right flank, the roof, steel wheels with small chrome hubcaps",
+       "url": "https://cdn.muapi.ai/outputs/9e55e60d30da46c3b5d9b149bf0ad832_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0004-1969-dodge-charger-rt-hemi/"
+      },
+      {
+       "role": "Grille close-up: chrome Charger script and red R/T letters with chrome edges on the right half of the black mesh grille, the chrome bumper with its vertical guard, a parking lamp housing below",
+       "url": "https://cdn.muapi.ai/outputs/26949271ef74443080f7bae70c93bb19_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0004-1969-dodge-charger-rt-hemi/"
+      },
+      {
+       "role": "Rear three-quarter, for any second view: two long tail lamps in a recessed chrome-framed panel with a small R/T emblem between them, the black band round the tail, chrome rear bumper, chrome FUEL cap, black vinyl roof",
+       "url": "https://cdn.muapi.ai/outputs/3a5f029e1bba43faa1b24ea01858226b_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0004-1969-dodge-charger-rt-hemi/"
+      },
+      {
+       "role": "Left front wing: amber side-marker lamp at the front, chrome HEMI badge behind the wheel arch, body-colour steel wheel with a small chrome hubcap, radio aerial at the base of the windscreen",
+       "url": "https://cdn.muapi.ai/outputs/1a5b0c0cdc354b9aa0b2db4630802064_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0004-1969-dodge-charger-rt-hemi/"
+      },
+      {
+       "role": "Bonnet close-up: one of the two recessed bonnet vents with a small amber turn-signal indicator at its front end",
+       "url": "https://cdn.muapi.ai/outputs/fe53d6b90d3246eca9825a0b2314f8e7_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0004-1969-dodge-charger-rt-hemi/"
+      },
+      {
+       "role": "C-pillar close-up: chrome Charger script on the black vinyl roof",
+       "url": "https://cdn.muapi.ai/outputs/d52ef78b81db48d1a76904309728435f_ref-9.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0004-1969-dodge-charger-rt-hemi/"
+      },
+      {
+       "role": "Left door close-up: round chrome door mirror on a short stalk, chrome HEMI badge on the front wing",
+       "url": "https://cdn.muapi.ai/outputs/e00a86954ac14f8593980f67317a11e5_ref-10.webp",
+       "source_page": "https://rmsothebys.com/auctions/0225/lots/r0004-1969-dodge-charger-rt-hemi/"
+      }
+     ],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-03T00:20:05.110010+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-03T00:34:33.234024+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-pairs-20261003-mitsubishi-evo6-tme",
+   "name": "Mitsubishi Lancer Evolution VI Tommi Makinen Edition - DIRECTED",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-pairs-20261003-mitsubishi-evo6-tme-ee71aae4f9fd-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-pairs-20261003/c3/heroes/mitsubishi-evo6-tme/final-native.png",
+   "source_sha256": "ee71aae4f9fd60d8a2c754e86ad9698a0ad9f3ce013cc87614196c64c9bfbe59",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-10-03T00:36:22.642927+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "047c9f1a-2a82-4416-af2f-4c9e45c2b7e1",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-03T00:32:29.246793+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/047c9f1a-2a82-4416-af2f-4c9e45c2b7e1_840ecc24.png",
+     "page_url": "https://muapi.ai/predictions/047c9f1a-2a82-4416-af2f-4c9e45c2b7e1",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the Tommi Makinen Edition front bumper, headlamps, bonnet vents, the black and white graphics on the wing and doors, white wheels, the rear wing (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/9a37a83a03444797afd4652ef75aace1.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-mitsubishi-evo-vi-tommi-makinen-1"
+      },
+      {
+       "role": "Front: the front bumper with its large central mesh opening and two lower corner openings, the slim upper grille with the red three-diamond badge, both headlamps, bonnet vents, both mirrors (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/9953c1a4219948219c2d4a438559f11d.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-mitsubishi-evo-vi-tommi-makinen-1"
+      },
+      {
+       "role": "Side profile (left side): proportions, the black flash on the front wing and the thin white and black stripe along the doors, the tall body-colour rear wing, white wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/e6d5e118574b469b9d86989a1ee0ee7e.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-mitsubishi-evo-vi-tommi-makinen-1"
+      },
+      {
+       "role": "Left front corner: the small round black opening in the bumper beside the plate area, the corner mesh opening, the headlamp, the black flash with its white stripe on the wing, white wheel with red caliper (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/3fe488eb9a0641ca81e0cf17204e5223.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-mitsubishi-evo-vi-tommi-makinen-1"
+      },
+      {
+       "role": "Bonnet close-up: two black vents on the bonnet, the slim mesh grille with the red three-diamond badge, a headlamp",
+       "url": "https://cdn.muapi.ai/outputs/generated/f7c0fc948cfc48afb5664af12e8f4b3e.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-mitsubishi-evo-vi-tommi-makinen-1"
+      },
+      {
+       "role": "Grille close-up: red three-diamond Mitsubishi badge in the centre of the black mesh upper grille",
+       "url": "https://cdn.muapi.ai/outputs/generated/82d440268ac9498cbbc545954f7dbece.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-mitsubishi-evo-vi-tommi-makinen-1"
+      },
+      {
+       "role": "Wheel close-up: white Enkei 17-inch wheel with ten thin spokes, five nuts, black centre cap with the three-diamond badge, small ENKEI and RALLIART decals on the spokes, red Brembo caliper (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/generated/8305d78635d44cc6a094988ce0e091d4.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-mitsubishi-evo-vi-tommi-makinen-1"
+      },
+      {
+       "role": "High front three-quarter from the right: bonnet vents, the black flash with the white stripe on the right front wing running into the door stripe",
+       "url": "https://cdn.muapi.ai/outputs/generated/c0b1d7a877ed4bbabd5043b896f6bcbb.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-mitsubishi-evo-vi-tommi-makinen-1"
+      },
+      {
+       "role": "Door mirror close-up: body-colour door mirror, the white and black door stripe below it",
+       "url": "https://cdn.muapi.ai/outputs/generated/88fe1067331f43dba4786346f62bdc4e.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-mitsubishi-evo-vi-tommi-makinen-1"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Sport / Leicht",
+    "why": "Brief: DIRECTED - dusk on a Finnish gravel stage, the car cresting a jump. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-pairs-20261003/studio-candidates.json",
+   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes; 'i wanna now which creative directions u give to the model'; '5 free + 5 directed'; 'just dont start checking and fixing them immediately, i have to approve first'. Raw heroes for approval 1.",
+   "full_source_url": "full/ee71aae4f9fd-studio-pairs-20261003-mitsubishi-evo6-tme.png",
+   "full_source_sha256": "ee71aae4f9fd60d8a2c754e86ad9698a0ad9f3ce013cc87614196c64c9bfbe59",
+   "full_source_bytes": 10266886,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: DIRECTED - dusk on a Finnish gravel stage, the car cresting a jump. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "047c9f1a-2a82-4416-af2f-4c9e45c2b7e1",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T00:32:29.246793+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/047c9f1a-2a82-4416-af2f-4c9e45c2b7e1_840ecc24.png",
+     "page_url": "https://muapi.ai/predictions/047c9f1a-2a82-4416-af2f-4c9e45c2b7e1",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the Tommi Makinen Edition front bumper, headlamps, bonnet vents, the black and white graphics on the wing and doors, white wheels, the rear wing (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/9a37a83a03444797afd4652ef75aace1.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-mitsubishi-evo-vi-tommi-makinen-1"
+      },
+      {
+       "role": "Front: the front bumper with its large central mesh opening and two lower corner openings, the slim upper grille with the red three-diamond badge, both headlamps, bonnet vents, both mirrors (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/9953c1a4219948219c2d4a438559f11d.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-mitsubishi-evo-vi-tommi-makinen-1"
+      },
+      {
+       "role": "Side profile (left side): proportions, the black flash on the front wing and the thin white and black stripe along the doors, the tall body-colour rear wing, white wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/e6d5e118574b469b9d86989a1ee0ee7e.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-mitsubishi-evo-vi-tommi-makinen-1"
+      },
+      {
+       "role": "Left front corner: the small round black opening in the bumper beside the plate area, the corner mesh opening, the headlamp, the black flash with its white stripe on the wing, white wheel with red caliper (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/3fe488eb9a0641ca81e0cf17204e5223.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-mitsubishi-evo-vi-tommi-makinen-1"
+      },
+      {
+       "role": "Bonnet close-up: two black vents on the bonnet, the slim mesh grille with the red three-diamond badge, a headlamp",
+       "url": "https://cdn.muapi.ai/outputs/generated/f7c0fc948cfc48afb5664af12e8f4b3e.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-mitsubishi-evo-vi-tommi-makinen-1"
+      },
+      {
+       "role": "Grille close-up: red three-diamond Mitsubishi badge in the centre of the black mesh upper grille",
+       "url": "https://cdn.muapi.ai/outputs/generated/82d440268ac9498cbbc545954f7dbece.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-mitsubishi-evo-vi-tommi-makinen-1"
+      },
+      {
+       "role": "Wheel close-up: white Enkei 17-inch wheel with ten thin spokes, five nuts, black centre cap with the three-diamond badge, small ENKEI and RALLIART decals on the spokes, red Brembo caliper (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/generated/8305d78635d44cc6a094988ce0e091d4.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-mitsubishi-evo-vi-tommi-makinen-1"
+      },
+      {
+       "role": "High front three-quarter from the right: bonnet vents, the black flash with the white stripe on the right front wing running into the door stripe",
+       "url": "https://cdn.muapi.ai/outputs/generated/c0b1d7a877ed4bbabd5043b896f6bcbb.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-mitsubishi-evo-vi-tommi-makinen-1"
+      },
+      {
+       "role": "Door mirror close-up: body-colour door mirror, the white and black door stripe below it",
+       "url": "https://cdn.muapi.ai/outputs/generated/88fe1067331f43dba4786346f62bdc4e.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-mitsubishi-evo-vi-tommi-makinen-1"
+      }
+     ],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-03T00:32:29.246793+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-03T00:36:22.642927+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-pairs-20261003-toyota-ae86-trueno",
+   "name": "Toyota Sprinter Trueno AE86 - FREE",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-pairs-20261003-toyota-ae86-trueno-2630be0ef019-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-pairs-20261003/c3/heroes/toyota-ae86-trueno/final-native.png",
+   "source_sha256": "2630be0ef01928d59290d5d6fcfa10d276f85d2cfe73dd19d9f22be18acba8a7",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-10-03T00:36:26.926107+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "1dacb3e4-734c-4ec9-96b0-b142e8b7cb79",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-03T00:32:34.627509+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/1dacb3e4-734c-4ec9-96b0-b142e8b7cb79_1f9cf360.png",
+     "page_url": "https://muapi.ai/predictions/1dacb3e4-734c-4ec9-96b0-b142e8b7cb79",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, pop-up headlamps raised, the black front bumper with the TRUENO badge and corner lamps, red over black two-tone, black wheel-arch flares, silver wheels (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/54bc06423aea49fa833e80c7d4f97458.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
+      },
+      {
+       "role": "Front three-quarter from the right: bonnet, raised pop-up headlamps, black bumper, right flank (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/b0263736f57d48d69fc78998285bded1.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
+      },
+      {
+       "role": "Front: both raised pop-up headlamps, the TRUENO badge in the centre of the black grille strip, clear and amber lamps at the bumper ends, both black door mirrors, two wipers (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/0d927a5feac84f94bc1940a57c9d5a06.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
+      },
+      {
+       "role": "Side profile (left side): liftback proportions, red upper body over the black lower body with the thin red stripe along it, black wheel-arch flares, silver wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/d95822e3e9794f2a835751493c918da2.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
+      },
+      {
+       "role": "Front corner close-up: rectangular headlamp raised in its black pop-up pod, the TRUENO badge on the black grille strip, a clear lamp and an amber lamp at the end of the black bumper (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/aa80091e302f4365a85aa61c6fbf7a9e.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
+      },
+      {
+       "role": "TRUENO badge close-up: white TRUENO letters on a black panel in the grille strip (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/421a9501705a4df2ba1dd2b00c8670b9.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
+      },
+      {
+       "role": "Front wing close-up: black lower body with the thin red stripe, the TRUENO decal in red outlined letters at its front end behind the front wheel, black wheel-arch flare, silver wheel (ignore the mud flap)",
+       "url": "https://cdn.muapi.ai/outputs/generated/9f5a67df487545818071258994b49233.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
+      },
+      {
+       "role": "Wheel close-up: silver alloy with tapered spokes and triangular openings, four wheel nuts, flat centre cap lettered TOYOTA",
+       "url": "https://cdn.muapi.ai/outputs/generated/981bff8b58524dd7ad7625de91e902d6.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
+      },
+      {
+       "role": "Door mirror close-up: black door mirror on the left door",
+       "url": "https://cdn.muapi.ai/outputs/generated/f26c041bfd354cae86ebe6d474ef4a24.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
+      },
+      {
+       "role": "Rear three-quarter, for any second view: liftback tail with the full-width black rear panel and the tail lamps, red over black two-tone, one exhaust (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/4aba6787f6214b9d864d5192e14739e3.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Sport / Leicht",
+    "why": "Brief: FREE - no idea given; the model designed it. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-pairs-20261003/studio-candidates.json",
+   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes; 'i wanna now which creative directions u give to the model'; '5 free + 5 directed'; 'just dont start checking and fixing them immediately, i have to approve first'. Raw heroes for approval 1.",
+   "full_source_url": "full/2630be0ef019-studio-pairs-20261003-toyota-ae86-trueno.png",
+   "full_source_sha256": "2630be0ef01928d59290d5d6fcfa10d276f85d2cfe73dd19d9f22be18acba8a7",
+   "full_source_bytes": 13386221,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: FREE - no idea given; the model designed it. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "1dacb3e4-734c-4ec9-96b0-b142e8b7cb79",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T00:32:34.627509+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/1dacb3e4-734c-4ec9-96b0-b142e8b7cb79_1f9cf360.png",
+     "page_url": "https://muapi.ai/predictions/1dacb3e4-734c-4ec9-96b0-b142e8b7cb79",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, pop-up headlamps raised, the black front bumper with the TRUENO badge and corner lamps, red over black two-tone, black wheel-arch flares, silver wheels (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/54bc06423aea49fa833e80c7d4f97458.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
+      },
+      {
+       "role": "Front three-quarter from the right: bonnet, raised pop-up headlamps, black bumper, right flank (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/b0263736f57d48d69fc78998285bded1.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
+      },
+      {
+       "role": "Front: both raised pop-up headlamps, the TRUENO badge in the centre of the black grille strip, clear and amber lamps at the bumper ends, both black door mirrors, two wipers (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/0d927a5feac84f94bc1940a57c9d5a06.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
+      },
+      {
+       "role": "Side profile (left side): liftback proportions, red upper body over the black lower body with the thin red stripe along it, black wheel-arch flares, silver wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/d95822e3e9794f2a835751493c918da2.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
+      },
+      {
+       "role": "Front corner close-up: rectangular headlamp raised in its black pop-up pod, the TRUENO badge on the black grille strip, a clear lamp and an amber lamp at the end of the black bumper (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/aa80091e302f4365a85aa61c6fbf7a9e.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
+      },
+      {
+       "role": "TRUENO badge close-up: white TRUENO letters on a black panel in the grille strip (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/421a9501705a4df2ba1dd2b00c8670b9.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
+      },
+      {
+       "role": "Front wing close-up: black lower body with the thin red stripe, the TRUENO decal in red outlined letters at its front end behind the front wheel, black wheel-arch flare, silver wheel (ignore the mud flap)",
+       "url": "https://cdn.muapi.ai/outputs/generated/9f5a67df487545818071258994b49233.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
+      },
+      {
+       "role": "Wheel close-up: silver alloy with tapered spokes and triangular openings, four wheel nuts, flat centre cap lettered TOYOTA",
+       "url": "https://cdn.muapi.ai/outputs/generated/981bff8b58524dd7ad7625de91e902d6.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
+      },
+      {
+       "role": "Door mirror close-up: black door mirror on the left door",
+       "url": "https://cdn.muapi.ai/outputs/generated/f26c041bfd354cae86ebe6d474ef4a24.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
+      },
+      {
+       "role": "Rear three-quarter, for any second view: liftback tail with the full-width black rear panel and the tail lamps, red over black two-tone, one exhaust (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/4aba6787f6214b9d864d5192e14739e3.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1985-toyota-ae86-trueno"
+      }
+     ],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-03T00:32:34.627509+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-03T00:36:26.926107+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-pairs-20261003-citroen-2cv",
+   "name": "Citroen 2CV - DIRECTED",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-pairs-20261003-citroen-2cv-ad853c19866d-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-pairs-20261003/c3/heroes/citroen-2cv/final-native.png",
+   "source_sha256": "ad853c19866d73d807bee4036e8014608acd316f2354bcc4eaecc7d4c69b05fe",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-10-03T00:36:31.135475+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "017938eb-beb2-41d3-8afc-1baa6995da10",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-03T00:32:39.928110+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/017938eb-beb2-41d3-8afc-1baa6995da10_8f40e966.png",
+     "page_url": "https://muapi.ai/predictions/017938eb-beb2-41d3-8afc-1baa6995da10",
+     "references": [
+      {
+       "role": "Front: the rectangular chrome grille with the large chrome double-chevron emblem, the two round chrome headlamps on stalks beside the bonnet, light grey bonnet between dark wings, the chrome tube bumper with two over-riders, black canvas roof (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/57f52af0933c4e8885058a73cd09b1a1.jpg",
+       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
+      },
+      {
+       "role": "Front three-quarter from the right: whole-car proportions, the Charleston two-tone sweep - dark wings and a dark curve along the light grey doors - steel wheels with chrome hubcaps (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/434a866854114997a520d6557b1d0204.jpg",
+       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
+      },
+      {
+       "role": "Side profile: proportions, the dark curve sweeping along the light grey body sides, the canvas roof, wheelbase, long-travel stance",
+       "url": "https://cdn.muapi.ai/outputs/generated/47da4d82898b4beba3c9505606badef9.jpg",
+       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
+      },
+      {
+       "role": "Grille close-up: rectangular chrome grille of horizontal bars with the large chrome double-chevron emblem in its centre, the ribbed light grey bonnet, the windscreen with two wipers",
+       "url": "https://cdn.muapi.ai/outputs/generated/9345f0fac6ad4291b8aa46f0af1de181.jpg",
+       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
+      },
+      {
+       "role": "Headlamp close-up: round chrome headlamp on its stalk on the dark front wing, the chrome door mirror",
+       "url": "https://cdn.muapi.ai/outputs/generated/6d32cc56859a4f13992b2ce399d03b65.jpg",
+       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
+      },
+      {
+       "role": "Front wing close-up: round amber indicator lamp on the rear top corner of the dark front wing, the wheel arch",
+       "url": "https://cdn.muapi.ai/outputs/generated/f4759f55cebb460b8075329258eba500.jpg",
+       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
+      },
+      {
+       "role": "Bonnet from above: the long light grey ribbed bonnet, the windscreen, the rolled black canvas roof edge, both mirrors",
+       "url": "https://cdn.muapi.ai/outputs/generated/5b4b403d78314f638aade046bf51bf9e.jpg",
+       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Studio Di Forma",
+    "why": "Brief: DIRECTED - the egg brief: ploughed-field stripes, one unbroken egg on the bonnet. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-pairs-20261003/studio-candidates.json",
+   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes; 'i wanna now which creative directions u give to the model'; '5 free + 5 directed'; 'just dont start checking and fixing them immediately, i have to approve first'. Raw heroes for approval 1.",
+   "full_source_url": "full/ad853c19866d-studio-pairs-20261003-citroen-2cv.png",
+   "full_source_sha256": "ad853c19866d73d807bee4036e8014608acd316f2354bcc4eaecc7d4c69b05fe",
+   "full_source_bytes": 14188011,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Studio Di Forma",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: DIRECTED - the egg brief: ploughed-field stripes, one unbroken egg on the bonnet. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 50
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "017938eb-beb2-41d3-8afc-1baa6995da10",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T00:32:39.928110+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/017938eb-beb2-41d3-8afc-1baa6995da10_8f40e966.png",
+     "page_url": "https://muapi.ai/predictions/017938eb-beb2-41d3-8afc-1baa6995da10",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front: the rectangular chrome grille with the large chrome double-chevron emblem, the two round chrome headlamps on stalks beside the bonnet, light grey bonnet between dark wings, the chrome tube bumper with two over-riders, black canvas roof (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/57f52af0933c4e8885058a73cd09b1a1.jpg",
+       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
+      },
+      {
+       "role": "Front three-quarter from the right: whole-car proportions, the Charleston two-tone sweep - dark wings and a dark curve along the light grey doors - steel wheels with chrome hubcaps (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/generated/434a866854114997a520d6557b1d0204.jpg",
+       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
+      },
+      {
+       "role": "Side profile: proportions, the dark curve sweeping along the light grey body sides, the canvas roof, wheelbase, long-travel stance",
+       "url": "https://cdn.muapi.ai/outputs/generated/47da4d82898b4beba3c9505606badef9.jpg",
+       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
+      },
+      {
+       "role": "Grille close-up: rectangular chrome grille of horizontal bars with the large chrome double-chevron emblem in its centre, the ribbed light grey bonnet, the windscreen with two wipers",
+       "url": "https://cdn.muapi.ai/outputs/generated/9345f0fac6ad4291b8aa46f0af1de181.jpg",
+       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
+      },
+      {
+       "role": "Headlamp close-up: round chrome headlamp on its stalk on the dark front wing, the chrome door mirror",
+       "url": "https://cdn.muapi.ai/outputs/generated/6d32cc56859a4f13992b2ce399d03b65.jpg",
+       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
+      },
+      {
+       "role": "Front wing close-up: round amber indicator lamp on the rear top corner of the dark front wing, the wheel arch",
+       "url": "https://cdn.muapi.ai/outputs/generated/f4759f55cebb460b8075329258eba500.jpg",
+       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
+      },
+      {
+       "role": "Bonnet from above: the long light grey ribbed bonnet, the windscreen, the rolled black canvas roof edge, both mirrors",
+       "url": "https://cdn.muapi.ai/outputs/generated/5b4b403d78314f638aade046bf51bf9e.jpg",
+       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
+      }
+     ],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-03T00:32:39.928110+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-03T00:36:31.135475+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-pairs-20261003-land-rover-defender-90",
+   "name": "Land Rover Defender 90 - FREE",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-pairs-20261003-land-rover-defender-90-78149ebedf41-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-pairs-20261003/c2/heroes/land-rover-defender-90/final-native.png",
+   "source_sha256": "78149ebedf4119d43bb20e7b559c9c4d2b735d23b03db9abeb13799b847cf131",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Lot follows your approval",
+   "candidate_created_at": "2026-10-03T00:37:43.775742+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "095b21bf-0a54-4269-9c51-51c2927c4824",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-03T00:32:52.645123+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/095b21bf-0a54-4269-9c51-51c2927c4824_e08e9ab0.png",
+     "page_url": "https://muapi.ai/predictions/095b21bf-0a54-4269-9c51-51c2927c4824",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-vehicle proportions, the black soft top over the black tubular roll cage, the black grille, round headlamps, black bumper and wheel-arch flares, silver five-spoke wheels",
+       "url": "https://cdn.muapi.ai/outputs/88171fba24fa434a9c9723d2ce0e1f2a_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/va25/lots/r0002-1997-land-rover-nas-defender-90/"
+      },
+      {
+       "role": "Front: the black slatted grille with the green oval badge, LAND ROVER letters on the bonnet front, round headlamps in black surrounds with amber lamps above and below, the silver perforated panel under the grille, the black steel bumper, both mirrors",
+       "url": "https://cdn.muapi.ai/outputs/6cbf019c5dc74ad49f9029456baedfbd_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/va25/lots/r0002-1997-land-rover-nas-defender-90/"
+      },
+      {
+       "role": "Side profile (left side): short wheelbase proportions, soft top with its windows, door, V8 badge behind the front wheel, spare wheel on the rear door",
+       "url": "https://cdn.muapi.ai/outputs/b4404c29b2ab437c983082b239d44869_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/va25/lots/r0002-1997-land-rover-nas-defender-90/"
+      },
+      {
+       "role": "Front corner close-up: LAND ROVER letters on the bonnet front edge, the black grille, the headlamp surround, the black bumper, the silver perforated panel",
+       "url": "https://cdn.muapi.ai/outputs/ea70c6a300254387a38587aa547788ad_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/va25/lots/r0002-1997-land-rover-nas-defender-90/"
+      },
+      {
+       "role": "Headlamp close-up: round headlamp in a square black surround with a round amber lamp above it and a round amber lamp below it",
+       "url": "https://cdn.muapi.ai/outputs/247a5c51855a44fbae2d175eba38bfb6_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/va25/lots/r0002-1997-land-rover-nas-defender-90/"
+      },
+      {
+       "role": "Grille close-up: green oval LAND ROVER badge with silver letters in the black slatted grille",
+       "url": "https://cdn.muapi.ai/outputs/28fdbfe1d9ee4d179d5c9c8ab8f40f3d_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/va25/lots/r0002-1997-land-rover-nas-defender-90/"
+      },
+      {
+       "role": "Wheel close-up: silver five-spoke alloy with five nuts and a centre cap, V8 badge on the body (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/9ee47ea2275747328493debde4a3c645_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/va25/lots/r0002-1997-land-rover-nas-defender-90/"
+      },
+      {
+       "role": "Door mirror close-up: black rectangular mirror on a black arm",
+       "url": "https://cdn.muapi.ai/outputs/9d02df3d1d864307a745e710a87673b4_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/va25/lots/r0002-1997-land-rover-nas-defender-90/"
+      },
+      {
+       "role": "Rear, for any second view: spare wheel on the side-hinged rear door, round red, amber and clear lamps stacked in black surrounds, black step bumper (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/7a8438e9660c480984df599befa0becc_ref-9.webp",
+       "source_page": "https://rmsothebys.com/auctions/va25/lots/r0002-1997-land-rover-nas-defender-90/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Forma / Motion",
+    "why": "Brief: FREE - no idea given; the model designed it. Your collection choice is final."
+   },
+   "candidate_source": "pipeline/studio-pairs-20261003/studio-candidates.json",
+   "candidate_authority": "Owner 3 Oct 2026 00:50-02:35: ten new heroes; 'i wanna now which creative directions u give to the model'; '5 free + 5 directed'; 'just dont start checking and fixing them immediately, i have to approve first'. Raw heroes for approval 1.",
+   "full_source_url": "full/78149ebedf41-studio-pairs-20261003-land-rover-defender-90.png",
+   "full_source_sha256": "78149ebedf4119d43bb20e7b559c9c4d2b735d23b03db9abeb13799b847cf131",
+   "full_source_bytes": 11642132,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Forma / Motion",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: FREE - no idea given; the model designed it. Your collection choice is final.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 100
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "095b21bf-0a54-4269-9c51-51c2927c4824",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-03T00:32:52.645123+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/095b21bf-0a54-4269-9c51-51c2927c4824_e08e9ab0.png",
+     "page_url": "https://muapi.ai/predictions/095b21bf-0a54-4269-9c51-51c2927c4824",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-vehicle proportions, the black soft top over the black tubular roll cage, the black grille, round headlamps, black bumper and wheel-arch flares, silver five-spoke wheels",
+       "url": "https://cdn.muapi.ai/outputs/88171fba24fa434a9c9723d2ce0e1f2a_ref-1.webp",
+       "source_page": "https://rmsothebys.com/auctions/va25/lots/r0002-1997-land-rover-nas-defender-90/"
+      },
+      {
+       "role": "Front: the black slatted grille with the green oval badge, LAND ROVER letters on the bonnet front, round headlamps in black surrounds with amber lamps above and below, the silver perforated panel under the grille, the black steel bumper, both mirrors",
+       "url": "https://cdn.muapi.ai/outputs/6cbf019c5dc74ad49f9029456baedfbd_ref-2.webp",
+       "source_page": "https://rmsothebys.com/auctions/va25/lots/r0002-1997-land-rover-nas-defender-90/"
+      },
+      {
+       "role": "Side profile (left side): short wheelbase proportions, soft top with its windows, door, V8 badge behind the front wheel, spare wheel on the rear door",
+       "url": "https://cdn.muapi.ai/outputs/b4404c29b2ab437c983082b239d44869_ref-3.webp",
+       "source_page": "https://rmsothebys.com/auctions/va25/lots/r0002-1997-land-rover-nas-defender-90/"
+      },
+      {
+       "role": "Front corner close-up: LAND ROVER letters on the bonnet front edge, the black grille, the headlamp surround, the black bumper, the silver perforated panel",
+       "url": "https://cdn.muapi.ai/outputs/ea70c6a300254387a38587aa547788ad_ref-4.webp",
+       "source_page": "https://rmsothebys.com/auctions/va25/lots/r0002-1997-land-rover-nas-defender-90/"
+      },
+      {
+       "role": "Headlamp close-up: round headlamp in a square black surround with a round amber lamp above it and a round amber lamp below it",
+       "url": "https://cdn.muapi.ai/outputs/247a5c51855a44fbae2d175eba38bfb6_ref-5.webp",
+       "source_page": "https://rmsothebys.com/auctions/va25/lots/r0002-1997-land-rover-nas-defender-90/"
+      },
+      {
+       "role": "Grille close-up: green oval LAND ROVER badge with silver letters in the black slatted grille",
+       "url": "https://cdn.muapi.ai/outputs/28fdbfe1d9ee4d179d5c9c8ab8f40f3d_ref-6.webp",
+       "source_page": "https://rmsothebys.com/auctions/va25/lots/r0002-1997-land-rover-nas-defender-90/"
+      },
+      {
+       "role": "Wheel close-up: silver five-spoke alloy with five nuts and a centre cap, V8 badge on the body (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/9ee47ea2275747328493debde4a3c645_ref-7.webp",
+       "source_page": "https://rmsothebys.com/auctions/va25/lots/r0002-1997-land-rover-nas-defender-90/"
+      },
+      {
+       "role": "Door mirror close-up: black rectangular mirror on a black arm",
+       "url": "https://cdn.muapi.ai/outputs/9d02df3d1d864307a745e710a87673b4_ref-8.webp",
+       "source_page": "https://rmsothebys.com/auctions/va25/lots/r0002-1997-land-rover-nas-defender-90/"
+      },
+      {
+       "role": "Rear, for any second view: spare wheel on the side-hinged rear door, round red, amber and clear lamps stacked in black surrounds, black step bumper (ignore the plate)",
+       "url": "https://cdn.muapi.ai/outputs/7a8438e9660c480984df599befa0becc_ref-9.webp",
+       "source_page": "https://rmsothebys.com/auctions/va25/lots/r0002-1997-land-rover-nas-defender-90/"
+      }
+     ],
+     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-03T00:32:52.645123+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-03T00:37:43.775742+00:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -6604,6 +8464,106 @@
    "declared_sha256": "3904d0e227c8671c03e8e8c84eb6113c7f979dfe61cd29e8dd3f9c6c230fb159",
    "applied": false,
    "reason": "ledger already carries this key with a selected source; the lot record stands"
+  },
+  {
+   "key": "studio-pairs-20261003-land-rover-defender-90",
+   "declared_sha256": "78149ebedf4119d43bb20e7b559c9c4d2b735d23b03db9abeb13799b847cf131",
+   "applied": true,
+   "preview": "assets/studio-pairs-20261003-land-rover-defender-90-78149ebedf41-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-pairs-20261003-citroen-2cv",
+   "declared_sha256": "ad853c19866d73d807bee4036e8014608acd316f2354bcc4eaecc7d4c69b05fe",
+   "applied": true,
+   "preview": "assets/studio-pairs-20261003-citroen-2cv-ad853c19866d-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-pairs-20261003-toyota-ae86-trueno",
+   "declared_sha256": "2630be0ef01928d59290d5d6fcfa10d276f85d2cfe73dd19d9f22be18acba8a7",
+   "applied": true,
+   "preview": "assets/studio-pairs-20261003-toyota-ae86-trueno-2630be0ef019-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-pairs-20261003-mitsubishi-evo6-tme",
+   "declared_sha256": "ee71aae4f9fd60d8a2c754e86ad9698a0ad9f3ce013cc87614196c64c9bfbe59",
+   "applied": true,
+   "preview": "assets/studio-pairs-20261003-mitsubishi-evo6-tme-ee71aae4f9fd-current.jpg",
+   "pixels": [
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-pairs-20261003-dodge-charger-rt-1969",
+   "declared_sha256": "27f13938d433b1fd4b933c5da89d431a6ab6e71b6d47b71f4d3749318cb8e0a0",
+   "applied": true,
+   "preview": "assets/studio-pairs-20261003-dodge-charger-rt-1969-27f13938d433-current.jpg",
+   "pixels": [
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-pairs-20261003-pontiac-trans-am-1977",
+   "declared_sha256": "494b51485b12cd1e887cba628de4bc7a2e54a9875acf08eeb57af7bad91ea0bf",
+   "applied": true,
+   "preview": "assets/studio-pairs-20261003-pontiac-trans-am-1977-494b51485b12-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-pairs-20261003-ferrari-f50",
+   "declared_sha256": "964f54a9b2b781cb992b75649e65e5f08811b5241263eee895154994cff6a6d4",
+   "applied": true,
+   "preview": "assets/studio-pairs-20261003-ferrari-f50-964f54a9b2b7-current.jpg",
+   "pixels": [
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-pairs-20261003-ferrari-308-gts",
+   "declared_sha256": "6a3205ae43e34c6d4fb530ac541eff35a839451bb397360d54092e1f4a122ec1",
+   "applied": true,
+   "preview": "assets/studio-pairs-20261003-ferrari-308-gts-6a3205ae43e3-current.jpg",
+   "pixels": [
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-pairs-20261003-porsche-964-carrera-rs",
+   "declared_sha256": "1d3b1b0a0e2fe13a1bc4e5bbaba8bd7ab09aa657fc99ef03457af5cb11080e41",
+   "applied": true,
+   "preview": "assets/studio-pairs-20261003-porsche-964-carrera-rs-1d3b1b0a0e2f-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-pairs-20261003-porsche-356-speedster",
+   "declared_sha256": "8fa3f69c0f9c46bf237af952e141b065187e3f5379af651ecff59aab370d1ebe",
+   "applied": true,
+   "preview": "assets/studio-pairs-20261003-porsche-356-speedster-8fa3f69c0f9c-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
   },
   {
    "key": "studio-next-20260920-bugatti-eb110-ss",
