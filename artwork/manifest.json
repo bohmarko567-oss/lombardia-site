@@ -1,5 +1,5 @@
 {
- "built": "2026-10-04 06:45",
+ "built": "2026-10-04 12:27",
  "items": [
   {
    "key": "911-carrera-rs27-1973-sport-white-45x60",
@@ -618,6 +618,20 @@
    "basis": "approval"
   },
   {
+   "key": "studio-free-20261003-ferrari-daytona",
+   "file": "artwork/02482a7f4416-studio-free-20261003-ferrari-daytona.jpg",
+   "sha256": "02482a7f44166f377e4ae06e0419a67ee85bdeb393d6760246be321b554b5c42",
+   "bytes": 13975289,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/d365/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-04T10:46:00+02:00)",
+   "basis": "approval"
+  },
+  {
    "key": "studio-free-20261003-honda-integra-type-r",
    "file": "artwork/03213352e056-studio-free-20261003-honda-integra-type-r.jpg",
    "sha256": "03213352e05648ceb20246bc63d74181fa57a1bde5ddf60e5e86a83b5579a4ba",
@@ -632,6 +646,34 @@
    "basis": "approval"
   },
   {
+   "key": "studio-free-20261003-jaguar-xj220",
+   "file": "artwork/5292b313d5b7-studio-free-20261003-jaguar-xj220.jpg",
+   "sha256": "5292b313d5b7f1c5c170b6e05fafd5169721b77e8f63c581a545adab8b202859",
+   "bytes": 13293306,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/xj220/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-04T10:46:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-free-20261003-lancia-fulvia-hf",
+   "file": "artwork/18167c8ba616-studio-free-20261003-lancia-fulvia-hf.jpg",
+   "sha256": "18167c8ba616088b96a0363a5a8dcf92132824a806aa320bf5399c2894c2571b",
+   "bytes": 11182305,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/fulv/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-04T10:46:00+02:00)",
+   "basis": "approval"
+  },
+  {
    "key": "studio-free-20261003-plymouth-hemi-cuda",
    "file": "artwork/031f031d485c-studio-free-20261003-plymouth-hemi-cuda.jpg",
    "sha256": "031f031d485c8047fef0cba601c2d36defb39b1d0f3a6ce684da7b111ffd5541",
@@ -643,6 +685,34 @@
    "format": "JPEG",
    "source": "pipeline/one-cycle-20260926/lots/cuda70/lot/print-80x60.jpg",
    "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-04T01:52:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-free-20261003-porsche-993-turbo",
+   "file": "artwork/7ec4cdcd3f52-studio-free-20261003-porsche-993-turbo.jpg",
+   "sha256": "7ec4cdcd3f52abd90111baf088c7fa2dc36894fcc9799d1d1acc72898f5cd8dc",
+   "bytes": 13269074,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/t993/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-04T10:46:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-free-20261003-vw-beetle-1967",
+   "file": "artwork/135343f4c082-studio-free-20261003-vw-beetle-1967.jpg",
+   "sha256": "135343f4c0822ae2bc70b991a626186cab08be5c88e907d7f7fb0f15c7f005db",
+   "bytes": 14735144,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/bug67/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-04T10:46:00+02:00)",
    "basis": "approval"
   },
   {
@@ -730,6 +800,20 @@
    "basis": "approval"
   },
   {
+   "key": "studio-pairs-20261003-citroen-2cv",
+   "file": "artwork/7384f5fc2773-studio-pairs-20261003-citroen-2cv.jpg",
+   "sha256": "7384f5fc2773342fc7417bf817a43e074c1f5f1c9c4b24fbeeaeb267f044715f",
+   "bytes": 18329200,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/cv2/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-04T10:46:00+02:00)",
+   "basis": "approval"
+  },
+  {
    "key": "studio-pairs-20261003-dodge-charger-rt-1969",
    "file": "artwork/eb1dcbcc08c5-studio-pairs-20261003-dodge-charger-rt-1969.jpg",
    "sha256": "eb1dcbcc08c54c867a03c32103605cd07ef947646f157e27146b9fd2c6bc0da5",
@@ -755,6 +839,20 @@
    "format": "JPEG",
    "source": "pipeline/one-cycle-20260926/lots/f308/lot/print-80x60.jpg",
    "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-04T01:52:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-pairs-20261003-ferrari-f50",
+   "file": "artwork/a33d303dbc6b-studio-pairs-20261003-ferrari-f50.jpg",
+   "sha256": "a33d303dbc6b4f55a8f6d710a2d8b15ccb6173fffd2a38319349c37f5c6eae57",
+   "bytes": 15080510,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/f50/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-04T10:46:00+02:00)",
    "basis": "approval"
   },
   {

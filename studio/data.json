@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-04 06:45",
+ "built": "2026-10-04 12:27",
  "accessed_date": "2026-10-04",
  "collections": [
   "American Form",
@@ -1226,2034 +1226,6 @@
     "label": "Your review",
     "tone": "wait",
     "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-free-20261003-ferrari-daytona",
-   "name": "Ferrari 365 GTB/4 Daytona - FREE",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-free-20261003-ferrari-daytona-480300d91c5f-current.jpg",
-   "preview_pixels": [
-    1600,
-    1198
-   ],
-   "source_file": "pipeline/studio-free-20261003/f1/heroes/ferrari-daytona/final-native.png",
-   "source_sha256": "480300d91c5f39255808f4366e1ddde3eb6e20876cec50fc76794cb9711a9227",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": true,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-10-03T01:04:47.390716+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "e8236c9a-27d3-47d4-b71a-944dffeb8b25",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-03T01:00:42.526709+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/e8236c9a-27d3-47d4-b71a-944dffeb8b25_2896aa15.png",
-     "page_url": "https://muapi.ai/predictions/e8236c9a-27d3-47d4-b71a-944dffeb8b25",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, the long bonnet, the raised pop-up headlamp pods with two round lamps each, the chrome corner bumperettes, the amber indicators wrapping round the front corners, the five-spoke wheels (ignore the plate and the coloured light)",
-       "url": "https://cdn.muapi.ai/outputs/cb243eb0b7e248bd92fc03cfb3df6907_ref-1.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
-      },
-      {
-       "role": "Front three-quarter from the left at eye level: the nose with its raised headlamp pods, the central black intake, the small Ferrari badge on the nose, the chrome bumperettes (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/e00f65d6bd6e4df19fd8f4468880999d_ref-2.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
-      },
-      {
-       "role": "Front three-quarter from the right: the right flank, the raised headlamp pods, the five-spoke wheels (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/f14dd0c1038b446781d69f10957f8505_ref-3.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
-      },
-      {
-       "role": "Side profile (left side): proportions - long bonnet, cabin set far back, short tail; the crease along the flank; wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/e6c94efe2c6b48898afda1f49c76e240_ref-4.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
-      },
-      {
-       "role": "Nose badge close-up: small rectangular enamel Ferrari badge - yellow field, black prancing horse, green-white-red stripe on top, Ferrari script at the bottom",
-       "url": "https://cdn.muapi.ai/outputs/25273b0d0da8468aa61d2a52a3bb216c_ref-5.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
-      },
-      {
-       "role": "Front wing close-up: small chrome Disegno di pininfarina plaque low on the front wing behind the wheel, a small round amber side repeater above it",
-       "url": "https://cdn.muapi.ai/outputs/58f2565fbf184f0a9bd27151ab8b3a65_ref-6.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
-      },
-      {
-       "role": "Front corner close-up: amber indicator lens wrapping round the front corner, the end of the chrome bumperette",
-       "url": "https://cdn.muapi.ai/outputs/585256853e1644c1bb8faafb9c15c119_ref-7.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
-      },
-      {
-       "role": "Wheel close-up: silver five-spoke star alloy with a chrome two-eared knock-off spinner (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/0cc9a5e239224d418bb8965fafe36d60_ref-8.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
-      }
-     ]
-    },
-    {
-     "role": "edit",
-     "request_id": "b08cc651-8171-4d6a-a2b9-da31e270b18d",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:38:49.492043+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/b08cc651-8171-4d6a-a2b9-da31e270b18d_6dec9316.png",
-     "page_url": "https://muapi.ai/predictions/b08cc651-8171-4d6a-a2b9-da31e270b18d",
-     "target_id": "nose-badge",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "3ea162b3-1c20-4ea6-89cb-5ebb3e3d0c41",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:38:52.183010+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/3ea162b3-1c20-4ea6-89cb-5ebb3e3d0c41_361c8e78.png",
-     "page_url": "https://muapi.ai/predictions/3ea162b3-1c20-4ea6-89cb-5ebb3e3d0c41",
-     "target_id": "plaque",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "9e8a23e9-c741-4b67-91bd-282dd895ad4f",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:38:54.840846+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/9e8a23e9-c741-4b67-91bd-282dd895ad4f_8ae9b89a.png",
-     "page_url": "https://muapi.ai/predictions/9e8a23e9-c741-4b67-91bd-282dd895ad4f",
-     "target_id": "wheel-front",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "814b30c8-f3ab-4c40-a93e-3f81508cf5bf",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:38:57.529172+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/814b30c8-f3ab-4c40-a93e-3f81508cf5bf_3ac4aa06.png",
-     "page_url": "https://muapi.ai/predictions/814b30c8-f3ab-4c40-a93e-3f81508cf5bf",
-     "target_id": "wheel-rear",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "e368b6c6-2640-4521-a645-2055e7f58231",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:52:46.238250+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/e368b6c6-2640-4521-a645-2055e7f58231_ee4244c9.png",
-     "page_url": "https://muapi.ai/predictions/e368b6c6-2640-4521-a645-2055e7f58231",
-     "target_id": "wheel-far",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "89cafb60-950b-41e2-97f6-4f17bd0650ce",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-04T01:24:40.713881+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/89cafb60-950b-41e2-97f6-4f17bd0650ce_2b93abbf.png",
-     "page_url": "https://muapi.ai/predictions/89cafb60-950b-41e2-97f6-4f17bd0650ce",
-     "target_id": "nose-badge",
-     "references": []
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Gran Turismo",
-    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
-   },
-   "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 4 Oct 2026 01:49-02:05, approval 2: approved the Hemi 'Cuda, Z8, Montreal and Integra Type R (their lots are being built and listed). Sent back and reworked on 4 Oct, now here for your approval: Daytona and 993 Turbo (badge perspective), Beetle (rear wheel cap), XJ220 (grille badge upright), Lancia Fulvia HF (central logo back to the raw version). Escort RS Cosworth dumped ('fors logos differ'). 3 Oct 03:27: 'ae86 goes out, rest is great work'.",
-   "full_source_url": "full/480300d91c5f-studio-free-20261003-ferrari-daytona.png",
-   "full_source_sha256": "480300d91c5f39255808f4366e1ddde3eb6e20876cec50fc76794cb9711a9227",
-   "full_source_bytes": 10286696,
-   "full_source_pixels": [
-    3312,
-    2480
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Gran Turismo",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 77
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "e8236c9a-27d3-47d4-b71a-944dffeb8b25",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:00:42.526709+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/e8236c9a-27d3-47d4-b71a-944dffeb8b25_2896aa15.png",
-     "page_url": "https://muapi.ai/predictions/e8236c9a-27d3-47d4-b71a-944dffeb8b25",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, the long bonnet, the raised pop-up headlamp pods with two round lamps each, the chrome corner bumperettes, the amber indicators wrapping round the front corners, the five-spoke wheels (ignore the plate and the coloured light)",
-       "url": "https://cdn.muapi.ai/outputs/cb243eb0b7e248bd92fc03cfb3df6907_ref-1.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
-      },
-      {
-       "role": "Front three-quarter from the left at eye level: the nose with its raised headlamp pods, the central black intake, the small Ferrari badge on the nose, the chrome bumperettes (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/e00f65d6bd6e4df19fd8f4468880999d_ref-2.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
-      },
-      {
-       "role": "Front three-quarter from the right: the right flank, the raised headlamp pods, the five-spoke wheels (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/f14dd0c1038b446781d69f10957f8505_ref-3.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
-      },
-      {
-       "role": "Side profile (left side): proportions - long bonnet, cabin set far back, short tail; the crease along the flank; wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/e6c94efe2c6b48898afda1f49c76e240_ref-4.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
-      },
-      {
-       "role": "Nose badge close-up: small rectangular enamel Ferrari badge - yellow field, black prancing horse, green-white-red stripe on top, Ferrari script at the bottom",
-       "url": "https://cdn.muapi.ai/outputs/25273b0d0da8468aa61d2a52a3bb216c_ref-5.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
-      },
-      {
-       "role": "Front wing close-up: small chrome Disegno di pininfarina plaque low on the front wing behind the wheel, a small round amber side repeater above it",
-       "url": "https://cdn.muapi.ai/outputs/58f2565fbf184f0a9bd27151ab8b3a65_ref-6.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
-      },
-      {
-       "role": "Front corner close-up: amber indicator lens wrapping round the front corner, the end of the chrome bumperette",
-       "url": "https://cdn.muapi.ai/outputs/585256853e1644c1bb8faafb9c15c119_ref-7.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
-      },
-      {
-       "role": "Wheel close-up: silver five-spoke star alloy with a chrome two-eared knock-off spinner (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/0cc9a5e239224d418bb8965fafe36d60_ref-8.webp",
-       "source_page": "https://rmsothebys.com/auctions/lf25/lots/r0005-1972-ferrari-365-gtb4-daytona-berlinetta-by-scaglietti/"
-      }
-     ],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "b08cc651-8171-4d6a-a2b9-da31e270b18d",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:38:49.492043+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/b08cc651-8171-4d6a-a2b9-da31e270b18d_6dec9316.png",
-     "page_url": "https://muapi.ai/predictions/b08cc651-8171-4d6a-a2b9-da31e270b18d",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "3ea162b3-1c20-4ea6-89cb-5ebb3e3d0c41",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:38:52.183010+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/3ea162b3-1c20-4ea6-89cb-5ebb3e3d0c41_361c8e78.png",
-     "page_url": "https://muapi.ai/predictions/3ea162b3-1c20-4ea6-89cb-5ebb3e3d0c41",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "9e8a23e9-c741-4b67-91bd-282dd895ad4f",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:38:54.840846+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/9e8a23e9-c741-4b67-91bd-282dd895ad4f_8ae9b89a.png",
-     "page_url": "https://muapi.ai/predictions/9e8a23e9-c741-4b67-91bd-282dd895ad4f",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "814b30c8-f3ab-4c40-a93e-3f81508cf5bf",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:38:57.529172+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/814b30c8-f3ab-4c40-a93e-3f81508cf5bf_3ac4aa06.png",
-     "page_url": "https://muapi.ai/predictions/814b30c8-f3ab-4c40-a93e-3f81508cf5bf",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "e368b6c6-2640-4521-a645-2055e7f58231",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:52:46.238250+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/e368b6c6-2640-4521-a645-2055e7f58231_ee4244c9.png",
-     "page_url": "https://muapi.ai/predictions/e368b6c6-2640-4521-a645-2055e7f58231",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "89cafb60-950b-41e2-97f6-4f17bd0650ce",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-04T01:24:40.713881+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/89cafb60-950b-41e2-97f6-4f17bd0650ce_2b93abbf.png",
-     "page_url": "https://muapi.ai/predictions/89cafb60-950b-41e2-97f6-4f17bd0650ce",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-03T01:00:42.526709+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-04T01:24:40.713881+00:00",
-    "updated_source": "MuAPI edit"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "edit done",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-free-20261003-vw-beetle-1967",
-   "name": "Volkswagen Beetle - FREE",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-free-20261003-vw-beetle-1967-6049db3bb711-current.jpg",
-   "preview_pixels": [
-    1600,
-    2137
-   ],
-   "source_file": "pipeline/studio-free-20261003/f1/heroes/vw-beetle-1967/final-native.png",
-   "source_sha256": "6049db3bb711dd9006af001185d0d0f61348c0274c05ede84afb3712c794708f",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": true,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-10-03T01:06:32.287160+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "19c5fdd6-98ef-431b-8770-7ee270e45c58",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-03T01:01:27.901385+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/19c5fdd6-98ef-431b-8770-7ee270e45c58_40084aea.png",
-     "page_url": "https://muapi.ai/predictions/19c5fdd6-98ef-431b-8770-7ee270e45c58",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, round headlamps in the wings, the chrome bumper with its tall over-riders and tube bar, indicators on top of the wings, chrome trim, whitewall tyres (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/e6b48797cb774bcd83aa6bfe5a3a0707_ref-1.webp",
-       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
-      },
-      {
-       "role": "Front three-quarter from the left, wider: the whole car (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/449f02c0d7b2423d8cf13b583c28789c_ref-2.webp",
-       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
-      },
-      {
-       "role": "Front: the front bonnet with its chrome centre strip, both headlamps, the indicators on top of the wings, the bumper with over-riders and tube bar, the small oval horn grilles below the headlamps (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/8e85309df739432e81132b02ea239ba3_ref-3.webp",
-       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
-      },
-      {
-       "role": "Left front wing: headlamp with its chrome ring, the indicator on top of the wing, the chrome bumper end, the wheel with whitewall tyre and chrome hubcap, the running board with its chrome trim",
-       "url": "https://cdn.muapi.ai/outputs/9ae0f70a37e04d53949a346ac00a9b3e_ref-4.webp",
-       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
-      },
-      {
-       "role": "Bumper close-up: chrome blade bumper with two tall over-riders joined by a chrome tube bar, a small oval horn grille below the headlamp (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/038bf3d3dff24832954c9e02adf8ad46_ref-5.webp",
-       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
-      },
-      {
-       "role": "Headlamp close-up: round headlamp with a chrome ring, the amber indicator on top of the wing, the horn grille",
-       "url": "https://cdn.muapi.ai/outputs/490e22f545d042b884ec4cfad5b6972e_ref-6.webp",
-       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
-      },
-      {
-       "role": "Wheel close-up: Lotus White steel wheel with a domed chrome hubcap carrying the VW logo, whitewall tyre",
-       "url": "https://cdn.muapi.ai/outputs/632b7b2f3cf7495d8672cb45304ec75a_ref-7.webp",
-       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
-      },
-      {
-       "role": "Front wing and door: the chrome trim along the running board, the door with its chrome handle",
-       "url": "https://cdn.muapi.ai/outputs/eca0a3ccae41401c817d34915188569d_ref-8.webp",
-       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
-      }
-     ]
-    },
-    {
-     "role": "edit",
-     "request_id": "dfc833e2-235f-4ca1-8498-c17fffdb029f",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:31:12.291082+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/dfc833e2-235f-4ca1-8498-c17fffdb029f_f017a802.png",
-     "page_url": "https://muapi.ai/predictions/dfc833e2-235f-4ca1-8498-c17fffdb029f",
-     "target_id": "tyre-front",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "aa34e8c9-ffa7-4581-bb0b-4f7c528af00a",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:31:15.033104+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/aa34e8c9-ffa7-4581-bb0b-4f7c528af00a_8892c649.png",
-     "page_url": "https://muapi.ai/predictions/aa34e8c9-ffa7-4581-bb0b-4f7c528af00a",
-     "target_id": "tyre-rear",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "aeeccf2f-ad76-4c73-b322-21a2738d21c3",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:31:17.643221+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/aeeccf2f-ad76-4c73-b322-21a2738d21c3_296bc025.png",
-     "page_url": "https://muapi.ai/predictions/aeeccf2f-ad76-4c73-b322-21a2738d21c3",
-     "target_id": "horn-left",
-     "references": []
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Studio Di Forma",
-    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
-   },
-   "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 4 Oct 2026 01:49-02:05, approval 2: approved the Hemi 'Cuda, Z8, Montreal and Integra Type R (their lots are being built and listed). Sent back and reworked on 4 Oct, now here for your approval: Daytona and 993 Turbo (badge perspective), Beetle (rear wheel cap), XJ220 (grille badge upright), Lancia Fulvia HF (central logo back to the raw version). Escort RS Cosworth dumped ('fors logos differ'). 3 Oct 03:27: 'ae86 goes out, rest is great work'.",
-   "full_source_url": "full/6049db3bb711-studio-free-20261003-vw-beetle-1967.png",
-   "full_source_sha256": "6049db3bb711dd9006af001185d0d0f61348c0274c05ede84afb3712c794708f",
-   "full_source_bytes": 11085519,
-   "full_source_pixels": [
-    2480,
-    3312
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Studio Di Forma",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 50
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "19c5fdd6-98ef-431b-8770-7ee270e45c58",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:01:27.901385+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/19c5fdd6-98ef-431b-8770-7ee270e45c58_40084aea.png",
-     "page_url": "https://muapi.ai/predictions/19c5fdd6-98ef-431b-8770-7ee270e45c58",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, round headlamps in the wings, the chrome bumper with its tall over-riders and tube bar, indicators on top of the wings, chrome trim, whitewall tyres (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/e6b48797cb774bcd83aa6bfe5a3a0707_ref-1.webp",
-       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
-      },
-      {
-       "role": "Front three-quarter from the left, wider: the whole car (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/449f02c0d7b2423d8cf13b583c28789c_ref-2.webp",
-       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
-      },
-      {
-       "role": "Front: the front bonnet with its chrome centre strip, both headlamps, the indicators on top of the wings, the bumper with over-riders and tube bar, the small oval horn grilles below the headlamps (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/8e85309df739432e81132b02ea239ba3_ref-3.webp",
-       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
-      },
-      {
-       "role": "Left front wing: headlamp with its chrome ring, the indicator on top of the wing, the chrome bumper end, the wheel with whitewall tyre and chrome hubcap, the running board with its chrome trim",
-       "url": "https://cdn.muapi.ai/outputs/9ae0f70a37e04d53949a346ac00a9b3e_ref-4.webp",
-       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
-      },
-      {
-       "role": "Bumper close-up: chrome blade bumper with two tall over-riders joined by a chrome tube bar, a small oval horn grille below the headlamp (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/038bf3d3dff24832954c9e02adf8ad46_ref-5.webp",
-       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
-      },
-      {
-       "role": "Headlamp close-up: round headlamp with a chrome ring, the amber indicator on top of the wing, the horn grille",
-       "url": "https://cdn.muapi.ai/outputs/490e22f545d042b884ec4cfad5b6972e_ref-6.webp",
-       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
-      },
-      {
-       "role": "Wheel close-up: Lotus White steel wheel with a domed chrome hubcap carrying the VW logo, whitewall tyre",
-       "url": "https://cdn.muapi.ai/outputs/632b7b2f3cf7495d8672cb45304ec75a_ref-7.webp",
-       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
-      },
-      {
-       "role": "Front wing and door: the chrome trim along the running board, the door with its chrome handle",
-       "url": "https://cdn.muapi.ai/outputs/eca0a3ccae41401c817d34915188569d_ref-8.webp",
-       "source_page": "https://rmsothebys.com/auctions/tg19/lots/r0025-1967-volkswagen-beetle-deluxe-sedan/"
-      }
-     ],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "dfc833e2-235f-4ca1-8498-c17fffdb029f",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:31:12.291082+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/dfc833e2-235f-4ca1-8498-c17fffdb029f_f017a802.png",
-     "page_url": "https://muapi.ai/predictions/dfc833e2-235f-4ca1-8498-c17fffdb029f",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "aa34e8c9-ffa7-4581-bb0b-4f7c528af00a",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:31:15.033104+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/aa34e8c9-ffa7-4581-bb0b-4f7c528af00a_8892c649.png",
-     "page_url": "https://muapi.ai/predictions/aa34e8c9-ffa7-4581-bb0b-4f7c528af00a",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "aeeccf2f-ad76-4c73-b322-21a2738d21c3",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:31:17.643221+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/aeeccf2f-ad76-4c73-b322-21a2738d21c3_296bc025.png",
-     "page_url": "https://muapi.ai/predictions/aeeccf2f-ad76-4c73-b322-21a2738d21c3",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-03T01:01:27.901385+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-03T02:31:17.643221+00:00",
-    "updated_source": "MuAPI edit"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "edit done",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-free-20261003-jaguar-xj220",
-   "name": "Jaguar XJ220 - FREE",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-free-20261003-jaguar-xj220-f267232ac4ae-current.jpg",
-   "preview_pixels": [
-    1600,
-    1198
-   ],
-   "source_file": "pipeline/studio-free-20261003/f2/heroes/jaguar-xj220/final-native.png",
-   "source_sha256": "f267232ac4ae4dc744ae416a079c8e7c8bb0180051ab40a6fda5358d85707bce",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": true,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-10-03T01:06:40.919162+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "81226771-c001-463e-b38a-e208d7a116b7",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-03T01:02:39.154240+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/81226771-c001-463e-b38a-e208d7a116b7_6f9864e9.png",
-     "page_url": "https://muapi.ai/predictions/81226771-c001-463e-b38a-e208d7a116b7",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, the long low nose, the headlamp recesses, the long side intake ahead of the rear wheel, the silver wheels",
-       "url": "https://cdn.muapi.ai/outputs/93fde8607c9c4ca0b7a62cab3b347fe4_ref-1.webp",
-       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
-      },
-      {
-       "role": "Front: the low nose, the two headlamp recesses, the wide oval grille opening with horizontal bars and the small Jaguar badge, amber indicators at the corners, black mirrors, wipers",
-       "url": "https://cdn.muapi.ai/outputs/ac290cca73b24b5ea51647dc5715f7e4_ref-2.webp",
-       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
-      },
-      {
-       "role": "Side profile (left side): proportions, the long side intake, the cabin set forward of the long tail, wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/63e965cc279048a1b5ae0b0373546873_ref-3.webp",
-       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
-      },
-      {
-       "role": "Grille close-up: small round Jaguar growler badge on the horizontal grille bars",
-       "url": "https://cdn.muapi.ai/outputs/6ab181e77e3b4deba3bafa95afefae1f_ref-4.webp",
-       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
-      },
-      {
-       "role": "Flank close-up: the side intake with its mesh, the silver XJ220 lettering low on the door, the silver wheel",
-       "url": "https://cdn.muapi.ai/outputs/1d10ecbe25bf460fb888693fd967e5c1_ref-5.webp",
-       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
-      },
-      {
-       "role": "Headlamp recess close-up: two round lamps side by side under a clear cover in the recess",
-       "url": "https://cdn.muapi.ai/outputs/3a57f9d7ae714d77bb975ea1a73e4cc3_ref-6.webp",
-       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
-      },
-      {
-       "role": "Headlamp close-up: the two round lamps",
-       "url": "https://cdn.muapi.ai/outputs/19eb1853b3dc436ea02779b43a7ce7eb_ref-7.webp",
-       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
-      },
-      {
-       "role": "Wheel close-up: silver dish wheel with ventilation slots round the edge and a centre cap with the Jaguar emblem (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/f4a8dd1f633d4825bf65ee8e0bb94516_ref-8.webp",
-       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
-      },
-      {
-       "role": "Door mirror close-up: black mirror on its stalk",
-       "url": "https://cdn.muapi.ai/outputs/9c7c3b7d90b442c6b6572613194afb4f_ref-9.webp",
-       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
-      }
-     ]
-    },
-    {
-     "role": "edit",
-     "request_id": "ea7fc3c6-3ab1-4cc9-8956-6e8b667f9e0e",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:36:22.786893+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/ea7fc3c6-3ab1-4cc9-8956-6e8b667f9e0e_fb5292ed.png",
-     "page_url": "https://muapi.ai/predictions/ea7fc3c6-3ab1-4cc9-8956-6e8b667f9e0e",
-     "target_id": "grille-badge",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "d563c658-cd77-4d85-a1b6-6d9fcef5beb8",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:36:25.479909+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/d563c658-cd77-4d85-a1b6-6d9fcef5beb8_181d7124.png",
-     "page_url": "https://muapi.ai/predictions/d563c658-cd77-4d85-a1b6-6d9fcef5beb8",
-     "target_id": "wheel-front",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "c6964693-2952-4a7c-b913-6fc3d0f2d874",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:36:28.079692+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/c6964693-2952-4a7c-b913-6fc3d0f2d874_eb8ff289.png",
-     "page_url": "https://muapi.ai/predictions/c6964693-2952-4a7c-b913-6fc3d0f2d874",
-     "target_id": "wheel-rear",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "02e1fd20-c0c5-454c-8a76-84c1a28c94d7",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-04T01:44:22.040483+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/02e1fd20-c0c5-454c-8a76-84c1a28c94d7_a0783985.png",
-     "page_url": "https://muapi.ai/predictions/02e1fd20-c0c5-454c-8a76-84c1a28c94d7",
-     "target_id": "grille-badge",
-     "references": []
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Forma / Motion",
-    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
-   },
-   "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 4 Oct 2026 01:49-02:05, approval 2: approved the Hemi 'Cuda, Z8, Montreal and Integra Type R (their lots are being built and listed). Sent back and reworked on 4 Oct, now here for your approval: Daytona and 993 Turbo (badge perspective), Beetle (rear wheel cap), XJ220 (grille badge upright), Lancia Fulvia HF (central logo back to the raw version). Escort RS Cosworth dumped ('fors logos differ'). 3 Oct 03:27: 'ae86 goes out, rest is great work'.",
-   "full_source_url": "full/f267232ac4ae-studio-free-20261003-jaguar-xj220.png",
-   "full_source_sha256": "f267232ac4ae4dc744ae416a079c8e7c8bb0180051ab40a6fda5358d85707bce",
-   "full_source_bytes": 9761471,
-   "full_source_pixels": [
-    3312,
-    2480
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Forma / Motion",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 100
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "81226771-c001-463e-b38a-e208d7a116b7",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:02:39.154240+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/81226771-c001-463e-b38a-e208d7a116b7_6f9864e9.png",
-     "page_url": "https://muapi.ai/predictions/81226771-c001-463e-b38a-e208d7a116b7",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, the long low nose, the headlamp recesses, the long side intake ahead of the rear wheel, the silver wheels",
-       "url": "https://cdn.muapi.ai/outputs/93fde8607c9c4ca0b7a62cab3b347fe4_ref-1.webp",
-       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
-      },
-      {
-       "role": "Front: the low nose, the two headlamp recesses, the wide oval grille opening with horizontal bars and the small Jaguar badge, amber indicators at the corners, black mirrors, wipers",
-       "url": "https://cdn.muapi.ai/outputs/ac290cca73b24b5ea51647dc5715f7e4_ref-2.webp",
-       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
-      },
-      {
-       "role": "Side profile (left side): proportions, the long side intake, the cabin set forward of the long tail, wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/63e965cc279048a1b5ae0b0373546873_ref-3.webp",
-       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
-      },
-      {
-       "role": "Grille close-up: small round Jaguar growler badge on the horizontal grille bars",
-       "url": "https://cdn.muapi.ai/outputs/6ab181e77e3b4deba3bafa95afefae1f_ref-4.webp",
-       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
-      },
-      {
-       "role": "Flank close-up: the side intake with its mesh, the silver XJ220 lettering low on the door, the silver wheel",
-       "url": "https://cdn.muapi.ai/outputs/1d10ecbe25bf460fb888693fd967e5c1_ref-5.webp",
-       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
-      },
-      {
-       "role": "Headlamp recess close-up: two round lamps side by side under a clear cover in the recess",
-       "url": "https://cdn.muapi.ai/outputs/3a57f9d7ae714d77bb975ea1a73e4cc3_ref-6.webp",
-       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
-      },
-      {
-       "role": "Headlamp close-up: the two round lamps",
-       "url": "https://cdn.muapi.ai/outputs/19eb1853b3dc436ea02779b43a7ce7eb_ref-7.webp",
-       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
-      },
-      {
-       "role": "Wheel close-up: silver dish wheel with ventilation slots round the edge and a centre cap with the Jaguar emblem (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/f4a8dd1f633d4825bf65ee8e0bb94516_ref-8.webp",
-       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
-      },
-      {
-       "role": "Door mirror close-up: black mirror on its stalk",
-       "url": "https://cdn.muapi.ai/outputs/9c7c3b7d90b442c6b6572613194afb4f_ref-9.webp",
-       "source_page": "https://rmsothebys.com/auctions/mo23/lots/r0155-1994-jaguar-xj220/"
-      }
-     ],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "ea7fc3c6-3ab1-4cc9-8956-6e8b667f9e0e",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:36:22.786893+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/ea7fc3c6-3ab1-4cc9-8956-6e8b667f9e0e_fb5292ed.png",
-     "page_url": "https://muapi.ai/predictions/ea7fc3c6-3ab1-4cc9-8956-6e8b667f9e0e",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "d563c658-cd77-4d85-a1b6-6d9fcef5beb8",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:36:25.479909+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/d563c658-cd77-4d85-a1b6-6d9fcef5beb8_181d7124.png",
-     "page_url": "https://muapi.ai/predictions/d563c658-cd77-4d85-a1b6-6d9fcef5beb8",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "c6964693-2952-4a7c-b913-6fc3d0f2d874",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:36:28.079692+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/c6964693-2952-4a7c-b913-6fc3d0f2d874_eb8ff289.png",
-     "page_url": "https://muapi.ai/predictions/c6964693-2952-4a7c-b913-6fc3d0f2d874",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "02e1fd20-c0c5-454c-8a76-84c1a28c94d7",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-04T01:44:22.040483+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/02e1fd20-c0c5-454c-8a76-84c1a28c94d7_a0783985.png",
-     "page_url": "https://muapi.ai/predictions/02e1fd20-c0c5-454c-8a76-84c1a28c94d7",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-03T01:02:39.154240+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-04T01:44:22.040483+00:00",
-    "updated_source": "MuAPI edit"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "edit done",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-free-20261003-porsche-993-turbo",
-   "name": "Porsche 911 Turbo (993) - FREE",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-free-20261003-porsche-993-turbo-57a8bbcf9e7c-current.jpg",
-   "preview_pixels": [
-    1600,
-    2137
-   ],
-   "source_file": "pipeline/studio-free-20261003/f2/heroes/porsche-993-turbo/final-native.png",
-   "source_sha256": "57a8bbcf9e7cf29ba53d91263556367e706a9f01f208e3c2d75e807ac48a776e",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": true,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-10-03T01:06:45.221509+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "48c597a2-06f0-4ba3-8e0d-efb8f8c1520a",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-03T01:02:44.627521+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/48c597a2-06f0-4ba3-8e0d-efb8f8c1520a_81d74874.png",
-     "page_url": "https://muapi.ai/predictions/48c597a2-06f0-4ba3-8e0d-efb8f8c1520a",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, the wide rear arches, the round headlamps, the fixed rear wing, the hollow-spoke wheels (ignore the plate bracket)",
-       "url": "https://cdn.muapi.ai/outputs/9561031fbdfb41b093ff406aa8ec7d20_ref-1.webp",
-       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
-      },
-      {
-       "role": "Front: round clear headlamps with projector lamps, the Porsche crest on the bonnet, the front bumper with the indicator units and the central intake, both mirrors (ignore the plate bracket)",
-       "url": "https://cdn.muapi.ai/outputs/08eac068fcc046d9b3a086d429314e85_ref-2.webp",
-       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
-      },
-      {
-       "role": "Side profile (left side): proportions, the wide rear arch, the fixed rear wing, wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/0b1f42c3659446babbff42102b78c119_ref-3.webp",
-       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
-      },
-      {
-       "role": "High front three-quarter from the right: bonnet, roof, wings",
-       "url": "https://cdn.muapi.ai/outputs/2c6c5754a4e94ea891b82f783d4ff4bd_ref-4.webp",
-       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
-      },
-      {
-       "role": "From above: bonnet with the crest, the windscreen, the roof",
-       "url": "https://cdn.muapi.ai/outputs/b298c33ea7b94190b29c66f73ee75dcb_ref-5.webp",
-       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
-      },
-      {
-       "role": "Bonnet close-up: the Porsche crest at the front edge of the bonnet, a headlamp",
-       "url": "https://cdn.muapi.ai/outputs/230b9289f92e4b528372837e439a139e_ref-6.webp",
-       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
-      },
-      {
-       "role": "Front corner close-up: headlamp, the amber and clear indicator unit in the bumper with a small black guard beside it",
-       "url": "https://cdn.muapi.ai/outputs/7dc5306a59824bc2a5cfcc9e40778591_ref-7.webp",
-       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
-      },
-      {
-       "role": "Headlamp close-up: clear headlamp with projector units",
-       "url": "https://cdn.muapi.ai/outputs/4720c5cfccff452ca1535419043d95f2_ref-8.webp",
-       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
-      },
-      {
-       "role": "Wheel close-up: silver hollow-spoke five-spoke alloy with the Porsche crest centre cap, red brake caliper (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/4ee227148bff4514825776c99943cc4d_ref-9.webp",
-       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
-      },
-      {
-       "role": "Door mirror close-up: body-colour mirror",
-       "url": "https://cdn.muapi.ai/outputs/833afbfbdf8a43f99bbd3c479a9ee23b_ref-10.webp",
-       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
-      }
-     ]
-    },
-    {
-     "role": "edit",
-     "request_id": "2bba084a-b5a1-4ffd-85c4-ecaffb1bc604",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:46:16.306187+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/2bba084a-b5a1-4ffd-85c4-ecaffb1bc604_6dd7b00a.png",
-     "page_url": "https://muapi.ai/predictions/2bba084a-b5a1-4ffd-85c4-ecaffb1bc604",
-     "target_id": "crest-bonnet",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "dd7a7d49-ada7-4ef2-9be3-6960a604a85b",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:46:18.975040+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/dd7a7d49-ada7-4ef2-9be3-6960a604a85b_3145299c.png",
-     "page_url": "https://muapi.ai/predictions/dd7a7d49-ada7-4ef2-9be3-6960a604a85b",
-     "target_id": "wing-marks",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "6439a6f6-1bc6-4e8b-aaba-0947c205435b",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:46:21.617976+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/6439a6f6-1bc6-4e8b-aaba-0947c205435b_5275c005.png",
-     "page_url": "https://muapi.ai/predictions/6439a6f6-1bc6-4e8b-aaba-0947c205435b",
-     "target_id": "wheel-front",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "ec27bf3a-3fce-4bc7-85b8-0a5bcae5dc32",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:46:24.222357+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/ec27bf3a-3fce-4bc7-85b8-0a5bcae5dc32_1a52dbbf.png",
-     "page_url": "https://muapi.ai/predictions/ec27bf3a-3fce-4bc7-85b8-0a5bcae5dc32",
-     "target_id": "wheel-rear",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "9d628f20-b382-4442-9c90-1d1c5942e28d",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:55:26.335660+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/9d628f20-b382-4442-9c90-1d1c5942e28d_0ec07beb.png",
-     "page_url": "https://muapi.ai/predictions/9d628f20-b382-4442-9c90-1d1c5942e28d",
-     "target_id": "cap-front",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "6f8f5be7-b7be-4dbb-8a7c-00d803e5b015",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:55:28.995847+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/6f8f5be7-b7be-4dbb-8a7c-00d803e5b015_696738d8.png",
-     "page_url": "https://muapi.ai/predictions/6f8f5be7-b7be-4dbb-8a7c-00d803e5b015",
-     "target_id": "cap-rear",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "c748114f-0500-476a-a045-37352ee52161",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-04T01:27:39.723391+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/c748114f-0500-476a-a045-37352ee52161_a668dd63.png",
-     "page_url": "https://muapi.ai/predictions/c748114f-0500-476a-a045-37352ee52161",
-     "target_id": "crest-bonnet",
-     "references": []
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Forma / Motion",
-    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
-   },
-   "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 4 Oct 2026 01:49-02:05, approval 2: approved the Hemi 'Cuda, Z8, Montreal and Integra Type R (their lots are being built and listed). Sent back and reworked on 4 Oct, now here for your approval: Daytona and 993 Turbo (badge perspective), Beetle (rear wheel cap), XJ220 (grille badge upright), Lancia Fulvia HF (central logo back to the raw version). Escort RS Cosworth dumped ('fors logos differ'). 3 Oct 03:27: 'ae86 goes out, rest is great work'.",
-   "full_source_url": "full/57a8bbcf9e7c-studio-free-20261003-porsche-993-turbo.png",
-   "full_source_sha256": "57a8bbcf9e7cf29ba53d91263556367e706a9f01f208e3c2d75e807ac48a776e",
-   "full_source_bytes": 10133786,
-   "full_source_pixels": [
-    2480,
-    3312
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Forma / Motion",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 100
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "48c597a2-06f0-4ba3-8e0d-efb8f8c1520a",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:02:44.627521+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/48c597a2-06f0-4ba3-8e0d-efb8f8c1520a_81d74874.png",
-     "page_url": "https://muapi.ai/predictions/48c597a2-06f0-4ba3-8e0d-efb8f8c1520a",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, the wide rear arches, the round headlamps, the fixed rear wing, the hollow-spoke wheels (ignore the plate bracket)",
-       "url": "https://cdn.muapi.ai/outputs/9561031fbdfb41b093ff406aa8ec7d20_ref-1.webp",
-       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
-      },
-      {
-       "role": "Front: round clear headlamps with projector lamps, the Porsche crest on the bonnet, the front bumper with the indicator units and the central intake, both mirrors (ignore the plate bracket)",
-       "url": "https://cdn.muapi.ai/outputs/08eac068fcc046d9b3a086d429314e85_ref-2.webp",
-       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
-      },
-      {
-       "role": "Side profile (left side): proportions, the wide rear arch, the fixed rear wing, wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/0b1f42c3659446babbff42102b78c119_ref-3.webp",
-       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
-      },
-      {
-       "role": "High front three-quarter from the right: bonnet, roof, wings",
-       "url": "https://cdn.muapi.ai/outputs/2c6c5754a4e94ea891b82f783d4ff4bd_ref-4.webp",
-       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
-      },
-      {
-       "role": "From above: bonnet with the crest, the windscreen, the roof",
-       "url": "https://cdn.muapi.ai/outputs/b298c33ea7b94190b29c66f73ee75dcb_ref-5.webp",
-       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
-      },
-      {
-       "role": "Bonnet close-up: the Porsche crest at the front edge of the bonnet, a headlamp",
-       "url": "https://cdn.muapi.ai/outputs/230b9289f92e4b528372837e439a139e_ref-6.webp",
-       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
-      },
-      {
-       "role": "Front corner close-up: headlamp, the amber and clear indicator unit in the bumper with a small black guard beside it",
-       "url": "https://cdn.muapi.ai/outputs/7dc5306a59824bc2a5cfcc9e40778591_ref-7.webp",
-       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
-      },
-      {
-       "role": "Headlamp close-up: clear headlamp with projector units",
-       "url": "https://cdn.muapi.ai/outputs/4720c5cfccff452ca1535419043d95f2_ref-8.webp",
-       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
-      },
-      {
-       "role": "Wheel close-up: silver hollow-spoke five-spoke alloy with the Porsche crest centre cap, red brake caliper (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/4ee227148bff4514825776c99943cc4d_ref-9.webp",
-       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
-      },
-      {
-       "role": "Door mirror close-up: body-colour mirror",
-       "url": "https://cdn.muapi.ai/outputs/833afbfbdf8a43f99bbd3c479a9ee23b_ref-10.webp",
-       "source_page": "https://rmsothebys.com/auctions/am22/lots/r0013-1996-porsche-911-turbo/"
-      }
-     ],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "2bba084a-b5a1-4ffd-85c4-ecaffb1bc604",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:46:16.306187+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/2bba084a-b5a1-4ffd-85c4-ecaffb1bc604_6dd7b00a.png",
-     "page_url": "https://muapi.ai/predictions/2bba084a-b5a1-4ffd-85c4-ecaffb1bc604",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "dd7a7d49-ada7-4ef2-9be3-6960a604a85b",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:46:18.975040+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/dd7a7d49-ada7-4ef2-9be3-6960a604a85b_3145299c.png",
-     "page_url": "https://muapi.ai/predictions/dd7a7d49-ada7-4ef2-9be3-6960a604a85b",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "6439a6f6-1bc6-4e8b-aaba-0947c205435b",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:46:21.617976+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/6439a6f6-1bc6-4e8b-aaba-0947c205435b_5275c005.png",
-     "page_url": "https://muapi.ai/predictions/6439a6f6-1bc6-4e8b-aaba-0947c205435b",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "ec27bf3a-3fce-4bc7-85b8-0a5bcae5dc32",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:46:24.222357+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/ec27bf3a-3fce-4bc7-85b8-0a5bcae5dc32_1a52dbbf.png",
-     "page_url": "https://muapi.ai/predictions/ec27bf3a-3fce-4bc7-85b8-0a5bcae5dc32",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "9d628f20-b382-4442-9c90-1d1c5942e28d",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:55:26.335660+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/9d628f20-b382-4442-9c90-1d1c5942e28d_0ec07beb.png",
-     "page_url": "https://muapi.ai/predictions/9d628f20-b382-4442-9c90-1d1c5942e28d",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "6f8f5be7-b7be-4dbb-8a7c-00d803e5b015",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:55:28.995847+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/6f8f5be7-b7be-4dbb-8a7c-00d803e5b015_696738d8.png",
-     "page_url": "https://muapi.ai/predictions/6f8f5be7-b7be-4dbb-8a7c-00d803e5b015",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "c748114f-0500-476a-a045-37352ee52161",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-04T01:27:39.723391+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/c748114f-0500-476a-a045-37352ee52161_a668dd63.png",
-     "page_url": "https://muapi.ai/predictions/c748114f-0500-476a-a045-37352ee52161",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-03T01:02:44.627521+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-04T01:27:39.723391+00:00",
-    "updated_source": "MuAPI edit"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "edit done",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-free-20261003-lancia-fulvia-hf",
-   "name": "Lancia Fulvia Coupe 1200 HF - FREE",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-free-20261003-lancia-fulvia-hf-d7f36d11e7cd-current.jpg",
-   "preview_pixels": [
-    1600,
-    2137
-   ],
-   "source_file": "pipeline/studio-free-20261003/f2/heroes/lancia-fulvia-hf/final-native.png",
-   "source_sha256": "d7f36d11e7cdf36feb8907a63d524c3420e2a655d3aab0d37b7125b45997f06e",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": true,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-10-03T01:07:39.721376+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "873f1c60-0a24-4473-9224-d7c19a43b751",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-03T01:03:52.944416+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/873f1c60-0a24-4473-9224-d7c19a43b751_d83369e4.png",
-     "page_url": "https://muapi.ai/predictions/873f1c60-0a24-4473-9224-d7c19a43b751",
-     "references": [
-      {
-       "role": "Front: four round headlamps, the wide chrome grille of thin horizontal bars with the HF badge left of centre and the Lancia shield right of centre, the red valance below with four chrome-edged slots and a small chrome bumperette at each end, the chrome bullet mirror",
-       "url": "https://cdn.muapi.ai/outputs/9f7623f9cf23489ca14c6562cddd3ec9_ref-1.webp",
-       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
-      },
-      {
-       "role": "Front, slightly from the left: the nose and both flanks in perspective (ignore the setting)",
-       "url": "https://cdn.muapi.ai/outputs/aa555466713748ec8e53a0d65d1ee1d9_ref-2.webp",
-       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
-      },
-      {
-       "role": "Front three-quarter from the left: the nose and the left flank",
-       "url": "https://cdn.muapi.ai/outputs/562d8c214de9474fb18f498afaccc6bd_ref-3.webp",
-       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
-      },
-      {
-       "role": "Front three-quarter from the right: the nose and the right flank",
-       "url": "https://cdn.muapi.ai/outputs/d7686e0c208146a9ab8530ba13636bf8_ref-4.webp",
-       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
-      },
-      {
-       "role": "Side profile (left side): proportions, the slim pillars and large glasshouse, wheelbase, light alloy wheels",
-       "url": "https://cdn.muapi.ai/outputs/5fb9866bd1c44e808165db82e7613ba2_ref-5.webp",
-       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
-      },
-      {
-       "role": "Grille close-up: HF badge - white H and F letters on black with a red line - and the chrome Lancia shield on the grille bars",
-       "url": "https://cdn.muapi.ai/outputs/53c55f0192784462a8696c8371db7a1d_ref-6.webp",
-       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
-      },
-      {
-       "role": "Front wing close-up: the light-coloured alloy wheel with slots, the black arch lip",
-       "url": "https://cdn.muapi.ai/outputs/ba341fc938aa420282085360ca7a8db1_ref-7.webp",
-       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
-      },
-      {
-       "role": "Wing mirror close-up: chrome bullet mirror on the front wing",
-       "url": "https://cdn.muapi.ai/outputs/d749a798372243338cf9f400cb14a7ab_ref-8.webp",
-       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
-      }
-     ]
-    },
-    {
-     "role": "edit",
-     "request_id": "dcbf3c34-b4da-41ca-a98c-adf3ad226229",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:18:05.629088+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/dcbf3c34-b4da-41ca-a98c-adf3ad226229_04323bc5.png",
-     "page_url": "https://muapi.ai/predictions/dcbf3c34-b4da-41ca-a98c-adf3ad226229",
-     "target_id": "hf-badge",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "2149f666-fe2f-4679-9f2f-fdf9336b24ce",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:18:08.889066+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/2149f666-fe2f-4679-9f2f-fdf9336b24ce_117d7805.png",
-     "page_url": "https://muapi.ai/predictions/2149f666-fe2f-4679-9f2f-fdf9336b24ce",
-     "target_id": "shield-grille",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "3de5dcad-cf42-494d-84c8-3a930d657827",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:18:12.479501+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/3de5dcad-cf42-494d-84c8-3a930d657827_6e0af0f9.png",
-     "page_url": "https://muapi.ai/predictions/3de5dcad-cf42-494d-84c8-3a930d657827",
-     "target_id": "wheel-front",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "9de93604-10ab-4201-818b-35c9aa8fe725",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:18:15.951278+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/9de93604-10ab-4201-818b-35c9aa8fe725_b06eca0f.png",
-     "page_url": "https://muapi.ai/predictions/9de93604-10ab-4201-818b-35c9aa8fe725",
-     "target_id": "cap-front",
-     "references": []
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Sport / Leicht",
-    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final."
-   },
-   "candidate_source": "pipeline/studio-free-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 4 Oct 2026 01:49-02:05, approval 2: approved the Hemi 'Cuda, Z8, Montreal and Integra Type R (their lots are being built and listed). Sent back and reworked on 4 Oct, now here for your approval: Daytona and 993 Turbo (badge perspective), Beetle (rear wheel cap), XJ220 (grille badge upright), Lancia Fulvia HF (central logo back to the raw version). Escort RS Cosworth dumped ('fors logos differ'). 3 Oct 03:27: 'ae86 goes out, rest is great work'.",
-   "full_source_url": "full/d7f36d11e7cd-studio-free-20261003-lancia-fulvia-hf.png",
-   "full_source_sha256": "d7f36d11e7cdf36feb8907a63d524c3420e2a655d3aab0d37b7125b45997f06e",
-   "full_source_bytes": 8555116,
-   "full_source_pixels": [
-    2480,
-    3312
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Sport / Leicht",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Your collection choice is final.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 200
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "873f1c60-0a24-4473-9224-d7c19a43b751",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:03:52.944416+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/873f1c60-0a24-4473-9224-d7c19a43b751_d83369e4.png",
-     "page_url": "https://muapi.ai/predictions/873f1c60-0a24-4473-9224-d7c19a43b751",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front: four round headlamps, the wide chrome grille of thin horizontal bars with the HF badge left of centre and the Lancia shield right of centre, the red valance below with four chrome-edged slots and a small chrome bumperette at each end, the chrome bullet mirror",
-       "url": "https://cdn.muapi.ai/outputs/9f7623f9cf23489ca14c6562cddd3ec9_ref-1.webp",
-       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
-      },
-      {
-       "role": "Front, slightly from the left: the nose and both flanks in perspective (ignore the setting)",
-       "url": "https://cdn.muapi.ai/outputs/aa555466713748ec8e53a0d65d1ee1d9_ref-2.webp",
-       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
-      },
-      {
-       "role": "Front three-quarter from the left: the nose and the left flank",
-       "url": "https://cdn.muapi.ai/outputs/562d8c214de9474fb18f498afaccc6bd_ref-3.webp",
-       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
-      },
-      {
-       "role": "Front three-quarter from the right: the nose and the right flank",
-       "url": "https://cdn.muapi.ai/outputs/d7686e0c208146a9ab8530ba13636bf8_ref-4.webp",
-       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
-      },
-      {
-       "role": "Side profile (left side): proportions, the slim pillars and large glasshouse, wheelbase, light alloy wheels",
-       "url": "https://cdn.muapi.ai/outputs/5fb9866bd1c44e808165db82e7613ba2_ref-5.webp",
-       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
-      },
-      {
-       "role": "Grille close-up: HF badge - white H and F letters on black with a red line - and the chrome Lancia shield on the grille bars",
-       "url": "https://cdn.muapi.ai/outputs/53c55f0192784462a8696c8371db7a1d_ref-6.webp",
-       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
-      },
-      {
-       "role": "Front wing close-up: the light-coloured alloy wheel with slots, the black arch lip",
-       "url": "https://cdn.muapi.ai/outputs/ba341fc938aa420282085360ca7a8db1_ref-7.webp",
-       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
-      },
-      {
-       "role": "Wing mirror close-up: chrome bullet mirror on the front wing",
-       "url": "https://cdn.muapi.ai/outputs/d749a798372243338cf9f400cb14a7ab_ref-8.webp",
-       "source_page": "http://rmsothebys.com/auctions/am21/lots/r0005-1966-lancia-fulvia-coupe-1200-hf/"
-      }
-     ],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "dcbf3c34-b4da-41ca-a98c-adf3ad226229",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:18:05.629088+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/dcbf3c34-b4da-41ca-a98c-adf3ad226229_04323bc5.png",
-     "page_url": "https://muapi.ai/predictions/dcbf3c34-b4da-41ca-a98c-adf3ad226229",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "2149f666-fe2f-4679-9f2f-fdf9336b24ce",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:18:08.889066+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/2149f666-fe2f-4679-9f2f-fdf9336b24ce_117d7805.png",
-     "page_url": "https://muapi.ai/predictions/2149f666-fe2f-4679-9f2f-fdf9336b24ce",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "3de5dcad-cf42-494d-84c8-3a930d657827",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:18:12.479501+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/3de5dcad-cf42-494d-84c8-3a930d657827_6e0af0f9.png",
-     "page_url": "https://muapi.ai/predictions/3de5dcad-cf42-494d-84c8-3a930d657827",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "9de93604-10ab-4201-818b-35c9aa8fe725",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:18:15.951278+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/9de93604-10ab-4201-818b-35c9aa8fe725_b06eca0f.png",
-     "page_url": "https://muapi.ai/predictions/9de93604-10ab-4201-818b-35c9aa8fe725",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-free-20261003/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-03T01:03:52.944416+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-03T02:18:15.951278+00:00",
-    "updated_source": "MuAPI edit"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "edit done",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-pairs-20261003-ferrari-f50",
-   "name": "Ferrari F50 - FREE",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-pairs-20261003-ferrari-f50-ffb2c576b9e1-current.jpg",
-   "preview_pixels": [
-    1600,
-    1198
-   ],
-   "source_file": "pipeline/studio-pairs-20261003/c1/heroes/ferrari-f50/final-native.png",
-   "source_sha256": "ffb2c576b9e164e4318f0e0338f0df71ad00b9e1ff259e74223880b0b1696fe5",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": true,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-10-03T00:34:17.572491+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "218f00e2-58f0-48c5-95ea-c6342ffd4fcf",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-03T00:19:38.711489+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/218f00e2-58f0-48c5-95ea-c6342ffd4fcf_e63e626b.png",
-     "page_url": "https://muapi.ai/predictions/218f00e2-58f0-48c5-95ea-c6342ffd4fcf",
-     "references": [
-      {
-       "role": "Front three-quarter from the left, from above: whole-car proportions with the roof panels off, the two oval headlamp covers, the two black ducts on the bonnet, the oval mesh grille, the left flank with the shield and the black side line, five-spoke wheels",
-       "url": "https://cdn.muapi.ai/outputs/c6a73c1bed544ec781d2572876dbe726_ref-1.webp",
-       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
-      },
-      {
-       "role": "Front: two oval headlamps under clear covers, two black ducts on the bonnet between them, the small yellow Ferrari badge on the bonnet, the wide oval black mesh grille with the chrome prancing horse, the slim lamps under the headlamps, two small oval mesh intakes at the lower corners, both mirrors (ignore the coloured lighting)",
-       "url": "https://cdn.muapi.ai/outputs/d8602c15f8be4ee0b2c2772cc578605c_ref-2.webp",
-       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
-      },
-      {
-       "role": "Side profile: proportions, open cockpit with the two roll hoops, the high rear wing, wheelbase, black side intake ahead of the rear wheel",
-       "url": "https://cdn.muapi.ai/outputs/583b36e46ed04258b83036ba0d94df5f_ref-3.webp",
-       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
-      },
-      {
-       "role": "High front three-quarter: the open roadster body seen from above, roll hoops behind the seats, rear wing",
-       "url": "https://cdn.muapi.ai/outputs/5a2a83ed413448218ae4c1d7696868e5_ref-4.webp",
-       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
-      },
-      {
-       "role": "Nose close-up: the small yellow Ferrari badge on the bonnet, the oval grille with the chrome horse, a slim front lamp, a lower corner intake, the black line along the bumper",
-       "url": "https://cdn.muapi.ai/outputs/00c39afbc5004a61b43213bbdf054c05_ref-5.webp",
-       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
-      },
-      {
-       "role": "Grille and badge close-up: chrome prancing horse in the black mesh grille, the small rectangular yellow Ferrari badge on the bonnet above it",
-       "url": "https://cdn.muapi.ai/outputs/218cc6dc6dad4a27af1e7042e353a071_ref-6.webp",
-       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
-      },
-      {
-       "role": "Left front wing: yellow Ferrari shield with SF letters and the green-white-red top band behind the wheel arch, the black side line, the body-colour door mirror",
-       "url": "https://cdn.muapi.ai/outputs/64d72505166d4401ae07bb4acdfd6ac4_ref-7.webp",
-       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
-      },
-      {
-       "role": "Flank close-up: small chrome pininfarina script low on the flank",
-       "url": "https://cdn.muapi.ai/outputs/bd963538be4b4942b278648869075b02_ref-8.webp",
-       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
-      },
-      {
-       "role": "Rear, for any second view: two round tail lamps on each side of a black rear panel with a small chrome prancing horse in its centre, the full-width rear wing, the engine under its slatted cover, round exhaust tips low at the rear (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/3a08921ee5194763b42dce91f6fe4332_ref-9.webp",
-       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
-      },
-      {
-       "role": "Wheel close-up: silver five-spoke star alloy with a centre-lock nut carrying a small Ferrari emblem (ignore the luggage)",
-       "url": "https://cdn.muapi.ai/outputs/37d5fb32d623423ba393b235f5b0cf18_ref-10.webp",
-       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
-      }
-     ]
-    },
-    {
-     "role": "edit",
-     "request_id": "6a649756-ba84-45c1-9410-f18e2de6eac3",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:56:29.628393+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/6a649756-ba84-45c1-9410-f18e2de6eac3_b0fb3173.png",
-     "page_url": "https://muapi.ai/predictions/6a649756-ba84-45c1-9410-f18e2de6eac3",
-     "target_id": "tyre-front",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "cd6fceb7-4c5b-45a3-add9-b6eece8d64c6",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:56:32.378175+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/cd6fceb7-4c5b-45a3-add9-b6eece8d64c6_e440e157.png",
-     "page_url": "https://muapi.ai/predictions/cd6fceb7-4c5b-45a3-add9-b6eece8d64c6",
-     "target_id": "tyre-rear",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "036daaed-3ee9-42d1-b7f4-1da575e06746",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:56:35.119532+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/036daaed-3ee9-42d1-b7f4-1da575e06746_26a5fd25.png",
-     "page_url": "https://muapi.ai/predictions/036daaed-3ee9-42d1-b7f4-1da575e06746",
-     "target_id": "badge-nose",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "8f1aa197-9817-4bfa-a60b-23fae2848253",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:56:37.849339+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/8f1aa197-9817-4bfa-a60b-23fae2848253_bfe505ec.png",
-     "page_url": "https://muapi.ai/predictions/8f1aa197-9817-4bfa-a60b-23fae2848253",
-     "target_id": "shield-wing",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "8ca285c0-2112-4688-ae7f-bd340d8a0315",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:56:40.415979+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/8ca285c0-2112-4688-ae7f-bd340d8a0315_40d45754.png",
-     "page_url": "https://muapi.ai/predictions/8ca285c0-2112-4688-ae7f-bd340d8a0315",
-     "target_id": "script-pinin",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "7fb3f876-017b-4d8e-89ca-bce9fe4775dc",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:57:38.193437+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/7fb3f876-017b-4d8e-89ca-bce9fe4775dc_4c146cd6.png",
-     "page_url": "https://muapi.ai/predictions/7fb3f876-017b-4d8e-89ca-bce9fe4775dc",
-     "target_id": "script-bg",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "dfb37c81-d413-4eac-8cd9-f4bd59846d63",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T03:10:36.770062+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/dfb37c81-d413-4eac-8cd9-f4bd59846d63_35cb89ae.png",
-     "page_url": "https://muapi.ai/predictions/dfb37c81-d413-4eac-8cd9-f4bd59846d63",
-     "target_id": "shield-bg",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "bc31f0d3-1955-4d8b-9d6e-d23ae0b7069e",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-04T01:22:31.370973+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/bc31f0d3-1955-4d8b-9d6e-d23ae0b7069e_8281fddf.png",
-     "page_url": "https://muapi.ai/predictions/bc31f0d3-1955-4d8b-9d6e-d23ae0b7069e",
-     "target_id": "cap-front",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "6de53660-f800-49ba-8ba1-478ce909cc78",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-04T01:32:14.815052+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/6de53660-f800-49ba-8ba1-478ce909cc78_12801015.png",
-     "page_url": "https://muapi.ai/predictions/6de53660-f800-49ba-8ba1-478ce909cc78",
-     "target_id": "cap-rear",
-     "references": []
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Forma / Motion",
-    "why": "Brief: FREE - no idea given; the model designed it. Your collection choice is final."
-   },
-   "candidate_source": "pipeline/studio-pairs-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 4 Oct 2026 01:49-02:05, approval 2: approved the 356 Speedster, 911 Carrera RS (964), 308 GTS, Trans Am, Charger, Evo VI and Defender 90 (their lots are being built and listed). Sent back: F50 (wheel caps) and 2CV (egg on the bonnet) - reworked on 4 Oct and back here for your approval. 3 Oct 03:27: 'ae86 goes out' (dropped).",
-   "full_source_url": "full/ffb2c576b9e1-studio-pairs-20261003-ferrari-f50.png",
-   "full_source_sha256": "ffb2c576b9e164e4318f0e0338f0df71ad00b9e1ff259e74223880b0b1696fe5",
-   "full_source_bytes": 11207437,
-   "full_source_pixels": [
-    3312,
-    2480
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Forma / Motion",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Brief: FREE - no idea given; the model designed it. Your collection choice is final.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 100
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "218f00e2-58f0-48c5-95ea-c6342ffd4fcf",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T00:19:38.711489+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/218f00e2-58f0-48c5-95ea-c6342ffd4fcf_e63e626b.png",
-     "page_url": "https://muapi.ai/predictions/218f00e2-58f0-48c5-95ea-c6342ffd4fcf",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter from the left, from above: whole-car proportions with the roof panels off, the two oval headlamp covers, the two black ducts on the bonnet, the oval mesh grille, the left flank with the shield and the black side line, five-spoke wheels",
-       "url": "https://cdn.muapi.ai/outputs/c6a73c1bed544ec781d2572876dbe726_ref-1.webp",
-       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
-      },
-      {
-       "role": "Front: two oval headlamps under clear covers, two black ducts on the bonnet between them, the small yellow Ferrari badge on the bonnet, the wide oval black mesh grille with the chrome prancing horse, the slim lamps under the headlamps, two small oval mesh intakes at the lower corners, both mirrors (ignore the coloured lighting)",
-       "url": "https://cdn.muapi.ai/outputs/d8602c15f8be4ee0b2c2772cc578605c_ref-2.webp",
-       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
-      },
-      {
-       "role": "Side profile: proportions, open cockpit with the two roll hoops, the high rear wing, wheelbase, black side intake ahead of the rear wheel",
-       "url": "https://cdn.muapi.ai/outputs/583b36e46ed04258b83036ba0d94df5f_ref-3.webp",
-       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
-      },
-      {
-       "role": "High front three-quarter: the open roadster body seen from above, roll hoops behind the seats, rear wing",
-       "url": "https://cdn.muapi.ai/outputs/5a2a83ed413448218ae4c1d7696868e5_ref-4.webp",
-       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
-      },
-      {
-       "role": "Nose close-up: the small yellow Ferrari badge on the bonnet, the oval grille with the chrome horse, a slim front lamp, a lower corner intake, the black line along the bumper",
-       "url": "https://cdn.muapi.ai/outputs/00c39afbc5004a61b43213bbdf054c05_ref-5.webp",
-       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
-      },
-      {
-       "role": "Grille and badge close-up: chrome prancing horse in the black mesh grille, the small rectangular yellow Ferrari badge on the bonnet above it",
-       "url": "https://cdn.muapi.ai/outputs/218cc6dc6dad4a27af1e7042e353a071_ref-6.webp",
-       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
-      },
-      {
-       "role": "Left front wing: yellow Ferrari shield with SF letters and the green-white-red top band behind the wheel arch, the black side line, the body-colour door mirror",
-       "url": "https://cdn.muapi.ai/outputs/64d72505166d4401ae07bb4acdfd6ac4_ref-7.webp",
-       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
-      },
-      {
-       "role": "Flank close-up: small chrome pininfarina script low on the flank",
-       "url": "https://cdn.muapi.ai/outputs/bd963538be4b4942b278648869075b02_ref-8.webp",
-       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
-      },
-      {
-       "role": "Rear, for any second view: two round tail lamps on each side of a black rear panel with a small chrome prancing horse in its centre, the full-width rear wing, the engine under its slatted cover, round exhaust tips low at the rear (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/3a08921ee5194763b42dce91f6fe4332_ref-9.webp",
-       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
-      },
-      {
-       "role": "Wheel close-up: silver five-spoke star alloy with a centre-lock nut carrying a small Ferrari emblem (ignore the luggage)",
-       "url": "https://cdn.muapi.ai/outputs/37d5fb32d623423ba393b235f5b0cf18_ref-10.webp",
-       "source_page": "https://rmsothebys.com/auctions/mi25/lots/r0051-1996-ferrari-f50/"
-      }
-     ],
-     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "6a649756-ba84-45c1-9410-f18e2de6eac3",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:56:29.628393+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/6a649756-ba84-45c1-9410-f18e2de6eac3_b0fb3173.png",
-     "page_url": "https://muapi.ai/predictions/6a649756-ba84-45c1-9410-f18e2de6eac3",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "cd6fceb7-4c5b-45a3-add9-b6eece8d64c6",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:56:32.378175+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/cd6fceb7-4c5b-45a3-add9-b6eece8d64c6_e440e157.png",
-     "page_url": "https://muapi.ai/predictions/cd6fceb7-4c5b-45a3-add9-b6eece8d64c6",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "036daaed-3ee9-42d1-b7f4-1da575e06746",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:56:35.119532+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/036daaed-3ee9-42d1-b7f4-1da575e06746_26a5fd25.png",
-     "page_url": "https://muapi.ai/predictions/036daaed-3ee9-42d1-b7f4-1da575e06746",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "8f1aa197-9817-4bfa-a60b-23fae2848253",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:56:37.849339+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/8f1aa197-9817-4bfa-a60b-23fae2848253_bfe505ec.png",
-     "page_url": "https://muapi.ai/predictions/8f1aa197-9817-4bfa-a60b-23fae2848253",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "8ca285c0-2112-4688-ae7f-bd340d8a0315",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:56:40.415979+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/8ca285c0-2112-4688-ae7f-bd340d8a0315_40d45754.png",
-     "page_url": "https://muapi.ai/predictions/8ca285c0-2112-4688-ae7f-bd340d8a0315",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "7fb3f876-017b-4d8e-89ca-bce9fe4775dc",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T02:57:38.193437+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/7fb3f876-017b-4d8e-89ca-bce9fe4775dc_4c146cd6.png",
-     "page_url": "https://muapi.ai/predictions/7fb3f876-017b-4d8e-89ca-bce9fe4775dc",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "dfb37c81-d413-4eac-8cd9-f4bd59846d63",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T03:10:36.770062+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/dfb37c81-d413-4eac-8cd9-f4bd59846d63_35cb89ae.png",
-     "page_url": "https://muapi.ai/predictions/dfb37c81-d413-4eac-8cd9-f4bd59846d63",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "bc31f0d3-1955-4d8b-9d6e-d23ae0b7069e",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-04T01:22:31.370973+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/bc31f0d3-1955-4d8b-9d6e-d23ae0b7069e_8281fddf.png",
-     "page_url": "https://muapi.ai/predictions/bc31f0d3-1955-4d8b-9d6e-d23ae0b7069e",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "6de53660-f800-49ba-8ba1-478ce909cc78",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-04T01:32:14.815052+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/6de53660-f800-49ba-8ba1-478ce909cc78_12801015.png",
-     "page_url": "https://muapi.ai/predictions/6de53660-f800-49ba-8ba1-478ce909cc78",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-03T00:19:38.711489+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-04T01:32:14.815052+00:00",
-    "updated_source": "MuAPI edit"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "edit done",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-pairs-20261003-citroen-2cv",
-   "name": "Citroen 2CV - DIRECTED",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-pairs-20261003-citroen-2cv-0211b509aff4-current.jpg",
-   "preview_pixels": [
-    1600,
-    2137
-   ],
-   "source_file": "pipeline/studio-pairs-20261003/c3/heroes/citroen-2cv/final-native.png",
-   "source_sha256": "0211b509aff42975d0f0f85c819e29cf1a5375e5f9961ac213b76c15d31bc493",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": true,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-10-03T00:36:31.135475+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "017938eb-beb2-41d3-8afc-1baa6995da10",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-03T00:32:39.928110+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/017938eb-beb2-41d3-8afc-1baa6995da10_8f40e966.png",
-     "page_url": "https://muapi.ai/predictions/017938eb-beb2-41d3-8afc-1baa6995da10",
-     "references": [
-      {
-       "role": "Front: the rectangular chrome grille with the large chrome double-chevron emblem, the two round chrome headlamps on stalks beside the bonnet, light grey bonnet between dark wings, the chrome tube bumper with two over-riders, black canvas roof (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/57f52af0933c4e8885058a73cd09b1a1.jpg",
-       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
-      },
-      {
-       "role": "Front three-quarter from the right: whole-car proportions, the Charleston two-tone sweep - dark wings and a dark curve along the light grey doors - steel wheels with chrome hubcaps (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/434a866854114997a520d6557b1d0204.jpg",
-       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
-      },
-      {
-       "role": "Side profile: proportions, the dark curve sweeping along the light grey body sides, the canvas roof, wheelbase, long-travel stance",
-       "url": "https://cdn.muapi.ai/outputs/generated/47da4d82898b4beba3c9505606badef9.jpg",
-       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
-      },
-      {
-       "role": "Grille close-up: rectangular chrome grille of horizontal bars with the large chrome double-chevron emblem in its centre, the ribbed light grey bonnet, the windscreen with two wipers",
-       "url": "https://cdn.muapi.ai/outputs/generated/9345f0fac6ad4291b8aa46f0af1de181.jpg",
-       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
-      },
-      {
-       "role": "Headlamp close-up: round chrome headlamp on its stalk on the dark front wing, the chrome door mirror",
-       "url": "https://cdn.muapi.ai/outputs/generated/6d32cc56859a4f13992b2ce399d03b65.jpg",
-       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
-      },
-      {
-       "role": "Front wing close-up: round amber indicator lamp on the rear top corner of the dark front wing, the wheel arch",
-       "url": "https://cdn.muapi.ai/outputs/generated/f4759f55cebb460b8075329258eba500.jpg",
-       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
-      },
-      {
-       "role": "Bonnet from above: the long light grey ribbed bonnet, the windscreen, the rolled black canvas roof edge, both mirrors",
-       "url": "https://cdn.muapi.ai/outputs/generated/5b4b403d78314f638aade046bf51bf9e.jpg",
-       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
-      }
-     ]
-    },
-    {
-     "role": "edit",
-     "request_id": "7d171c5c-fae7-4b69-a3bc-8671999a4e88",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:42:32.485618+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/7d171c5c-fae7-4b69-a3bc-8671999a4e88_2933a6de.png",
-     "page_url": "https://muapi.ai/predictions/7d171c5c-fae7-4b69-a3bc-8671999a4e88",
-     "target_id": "lamp-left",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "95c49aff-3866-452f-b0cc-a534fc60ae33",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:42:35.182361+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/95c49aff-3866-452f-b0cc-a534fc60ae33_1159111c.png",
-     "page_url": "https://muapi.ai/predictions/95c49aff-3866-452f-b0cc-a534fc60ae33",
-     "target_id": "lamp-right",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "97afc54e-0188-4caf-bc72-ee77e518cc97",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-04T01:49:08.742339+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/97afc54e-0188-4caf-bc72-ee77e518cc97_04e9f6f7.png",
-     "page_url": "https://muapi.ai/predictions/97afc54e-0188-4caf-bc72-ee77e518cc97",
-     "target_id": "egg",
-     "references": []
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Studio Di Forma",
-    "why": "Brief: DIRECTED - the egg brief: ploughed-field stripes, one unbroken egg on the bonnet. Your collection choice is final."
-   },
-   "candidate_source": "pipeline/studio-pairs-20261003/studio-candidates.json",
-   "candidate_authority": "Owner 4 Oct 2026 01:49-02:05, approval 2: approved the 356 Speedster, 911 Carrera RS (964), 308 GTS, Trans Am, Charger, Evo VI and Defender 90 (their lots are being built and listed). Sent back: F50 (wheel caps) and 2CV (egg on the bonnet) - reworked on 4 Oct and back here for your approval. 3 Oct 03:27: 'ae86 goes out' (dropped).",
-   "full_source_url": "full/0211b509aff4-studio-pairs-20261003-citroen-2cv.png",
-   "full_source_sha256": "0211b509aff42975d0f0f85c819e29cf1a5375e5f9961ac213b76c15d31bc493",
-   "full_source_bytes": 13410358,
-   "full_source_pixels": [
-    2480,
-    3312
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Studio Di Forma",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Brief: DIRECTED - the egg brief: ploughed-field stripes, one unbroken egg on the bonnet. Your collection choice is final.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 50
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "017938eb-beb2-41d3-8afc-1baa6995da10",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T00:32:39.928110+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/017938eb-beb2-41d3-8afc-1baa6995da10_8f40e966.png",
-     "page_url": "https://muapi.ai/predictions/017938eb-beb2-41d3-8afc-1baa6995da10",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front: the rectangular chrome grille with the large chrome double-chevron emblem, the two round chrome headlamps on stalks beside the bonnet, light grey bonnet between dark wings, the chrome tube bumper with two over-riders, black canvas roof (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/57f52af0933c4e8885058a73cd09b1a1.jpg",
-       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
-      },
-      {
-       "role": "Front three-quarter from the right: whole-car proportions, the Charleston two-tone sweep - dark wings and a dark curve along the light grey doors - steel wheels with chrome hubcaps (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/434a866854114997a520d6557b1d0204.jpg",
-       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
-      },
-      {
-       "role": "Side profile: proportions, the dark curve sweeping along the light grey body sides, the canvas roof, wheelbase, long-travel stance",
-       "url": "https://cdn.muapi.ai/outputs/generated/47da4d82898b4beba3c9505606badef9.jpg",
-       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
-      },
-      {
-       "role": "Grille close-up: rectangular chrome grille of horizontal bars with the large chrome double-chevron emblem in its centre, the ribbed light grey bonnet, the windscreen with two wipers",
-       "url": "https://cdn.muapi.ai/outputs/generated/9345f0fac6ad4291b8aa46f0af1de181.jpg",
-       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
-      },
-      {
-       "role": "Headlamp close-up: round chrome headlamp on its stalk on the dark front wing, the chrome door mirror",
-       "url": "https://cdn.muapi.ai/outputs/generated/6d32cc56859a4f13992b2ce399d03b65.jpg",
-       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
-      },
-      {
-       "role": "Front wing close-up: round amber indicator lamp on the rear top corner of the dark front wing, the wheel arch",
-       "url": "https://cdn.muapi.ai/outputs/generated/f4759f55cebb460b8075329258eba500.jpg",
-       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
-      },
-      {
-       "role": "Bonnet from above: the long light grey ribbed bonnet, the windscreen, the rolled black canvas roof edge, both mirrors",
-       "url": "https://cdn.muapi.ai/outputs/generated/5b4b403d78314f638aade046bf51bf9e.jpg",
-       "source_page": "https://cars.bonhams.com/auction/26926/lot/161/1985-citroen-2cv-charleston-saloon-chassis-no-vf7azka00ka097548/"
-      }
-     ],
-     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "7d171c5c-fae7-4b69-a3bc-8671999a4e88",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:42:32.485618+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/7d171c5c-fae7-4b69-a3bc-8671999a4e88_2933a6de.png",
-     "page_url": "https://muapi.ai/predictions/7d171c5c-fae7-4b69-a3bc-8671999a4e88",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "95c49aff-3866-452f-b0cc-a534fc60ae33",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-03T01:42:35.182361+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/95c49aff-3866-452f-b0cc-a534fc60ae33_1159111c.png",
-     "page_url": "https://muapi.ai/predictions/95c49aff-3866-452f-b0cc-a534fc60ae33",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "97afc54e-0188-4caf-bc72-ee77e518cc97",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-04T01:49:08.742339+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/97afc54e-0188-4caf-bc72-ee77e518cc97_04e9f6f7.png",
-     "page_url": "https://muapi.ai/predictions/97afc54e-0188-4caf-bc72-ee77e518cc97",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-pairs-20261003/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-03T00:32:39.928110+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-04T01:49:08.742339+00:00",
-    "updated_source": "MuAPI edit"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "edit done",
     "meaning": "a new hero or a finished edit waits for your word",
     "order": 0
    }
@@ -8994,6 +6966,377 @@
     "meaning": "approved; prints, photos, copy and Notion being built",
     "order": 4
    }
+  },
+  {
+   "key": "studio-pairs-20261003-ferrari-f50",
+   "name": "Ferrari F50",
+   "preview": "assets/studio-pairs-20261003-ferrari-f50.jpg",
+   "preview_pixels": [
+    1600,
+    1200
+   ],
+   "source_sha256": "a33d303dbc6b4f55a8f6d710a2d8b15ccb6173fffd2a38319349c37f5c6eae57",
+   "source_file": "pipeline/one-cycle-20260926/lots/f50/lot/print-80x60.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "FORMA / MOTION",
+   "ledger_selected_sha256": "ffb2c576b9e164e4318f0e0338f0df71ad00b9e1ff259e74223880b0b1696fe5",
+   "approved_source_sha256": "ffb2c576b9e164e4318f0e0338f0df71ad00b9e1ff259e74223880b0b1696fe5",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-pairs-20261003-ferrari-f50.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "collection_choice": "Forma / Motion",
+   "edition": null,
+   "collection_category": "Forma / Motion",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Forma / Motion",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 100
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-04T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-04T10:46:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-pairs-20261003-citroen-2cv",
+   "name": "Citroen 2CV6 Charleston",
+   "preview": "assets/studio-pairs-20261003-citroen-2cv.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "7384f5fc2773342fc7417bf817a43e074c1f5f1c9c4b24fbeeaeb267f044715f",
+   "source_file": "pipeline/one-cycle-20260926/lots/cv2/lot/print-60x80.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "STUDIO DI FORMA",
+   "ledger_selected_sha256": "0211b509aff42975d0f0f85c819e29cf1a5375e5f9961ac213b76c15d31bc493",
+   "approved_source_sha256": "0211b509aff42975d0f0f85c819e29cf1a5375e5f9961ac213b76c15d31bc493",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-pairs-20261003-citroen-2cv.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "collection_choice": "Studio Di Forma",
+   "edition": null,
+   "collection_category": "Studio Di Forma",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Studio Di Forma",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 50
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-04T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-04T10:46:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-free-20261003-ferrari-daytona",
+   "name": "Ferrari 365 GTB/4 Daytona",
+   "preview": "assets/studio-free-20261003-ferrari-daytona.jpg",
+   "preview_pixels": [
+    1600,
+    1200
+   ],
+   "source_sha256": "02482a7f44166f377e4ae06e0419a67ee85bdeb393d6760246be321b554b5c42",
+   "source_file": "pipeline/one-cycle-20260926/lots/d365/lot/print-80x60.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "GRAN TURISMO",
+   "ledger_selected_sha256": "480300d91c5f39255808f4366e1ddde3eb6e20876cec50fc76794cb9711a9227",
+   "approved_source_sha256": "480300d91c5f39255808f4366e1ddde3eb6e20876cec50fc76794cb9711a9227",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-free-20261003-ferrari-daytona.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "collection_choice": "Gran Turismo",
+   "edition": null,
+   "collection_category": "Gran Turismo",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Gran Turismo",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-04T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-04T10:46:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-free-20261003-vw-beetle-1967",
+   "name": "Volkswagen Beetle Deluxe Sedan",
+   "preview": "assets/studio-free-20261003-vw-beetle-1967.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "135343f4c0822ae2bc70b991a626186cab08be5c88e907d7f7fb0f15c7f005db",
+   "source_file": "pipeline/one-cycle-20260926/lots/bug67/lot/print-60x80.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "STUDIO DI FORMA",
+   "ledger_selected_sha256": "6049db3bb711dd9006af001185d0d0f61348c0274c05ede84afb3712c794708f",
+   "approved_source_sha256": "6049db3bb711dd9006af001185d0d0f61348c0274c05ede84afb3712c794708f",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-free-20261003-vw-beetle-1967.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "collection_choice": "Studio Di Forma",
+   "edition": null,
+   "collection_category": "Studio Di Forma",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Studio Di Forma",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 50
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-04T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-04T10:46:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-free-20261003-jaguar-xj220",
+   "name": "Jaguar XJ220",
+   "preview": "assets/studio-free-20261003-jaguar-xj220.jpg",
+   "preview_pixels": [
+    1600,
+    1200
+   ],
+   "source_sha256": "5292b313d5b7f1c5c170b6e05fafd5169721b77e8f63c581a545adab8b202859",
+   "source_file": "pipeline/one-cycle-20260926/lots/xj220/lot/print-80x60.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "FORMA / MOTION",
+   "ledger_selected_sha256": "f267232ac4ae4dc744ae416a079c8e7c8bb0180051ab40a6fda5358d85707bce",
+   "approved_source_sha256": "f267232ac4ae4dc744ae416a079c8e7c8bb0180051ab40a6fda5358d85707bce",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-free-20261003-jaguar-xj220.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "collection_choice": "Forma / Motion",
+   "edition": null,
+   "collection_category": "Forma / Motion",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Forma / Motion",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 100
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-04T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-04T10:46:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-free-20261003-porsche-993-turbo",
+   "name": "Porsche 911 Turbo (993)",
+   "preview": "assets/studio-free-20261003-porsche-993-turbo.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "7ec4cdcd3f52abd90111baf088c7fa2dc36894fcc9799d1d1acc72898f5cd8dc",
+   "source_file": "pipeline/one-cycle-20260926/lots/t993/lot/print-60x80.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "FORMA / MOTION",
+   "ledger_selected_sha256": "57a8bbcf9e7cf29ba53d91263556367e706a9f01f208e3c2d75e807ac48a776e",
+   "approved_source_sha256": "57a8bbcf9e7cf29ba53d91263556367e706a9f01f208e3c2d75e807ac48a776e",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-free-20261003-porsche-993-turbo.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "collection_choice": "Forma / Motion",
+   "edition": null,
+   "collection_category": "Forma / Motion",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Forma / Motion",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 100
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-04T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-04T10:46:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-free-20261003-lancia-fulvia-hf",
+   "name": "Lancia Fulvia Coupe 1200 HF",
+   "preview": "assets/studio-free-20261003-lancia-fulvia-hf.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "18167c8ba616088b96a0363a5a8dcf92132824a806aa320bf5399c2894c2571b",
+   "source_file": "pipeline/one-cycle-20260926/lots/fulv/lot/print-60x80.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "SPORT / LEICHT",
+   "ledger_selected_sha256": "d7f36d11e7cdf36feb8907a63d524c3420e2a655d3aab0d37b7125b45997f06e",
+   "approved_source_sha256": "d7f36d11e7cdf36feb8907a63d524c3420e2a655d3aab0d37b7125b45997f06e",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-free-20261003-lancia-fulvia-hf.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "collection_choice": "Sport / Leicht",
+   "edition": null,
+   "collection_category": "Sport / Leicht",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-04T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-04T10:46:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
   }
  ],
  "excluded_keys": [
@@ -9318,72 +7661,44 @@
   {
    "key": "studio-pairs-20261003-citroen-2cv",
    "declared_sha256": "0211b509aff42975d0f0f85c819e29cf1a5375e5f9961ac213b76c15d31bc493",
-   "applied": true,
-   "preview": "assets/studio-pairs-20261003-citroen-2cv-0211b509aff4-current.jpg",
-   "pixels": [
-    2480,
-    3312
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-pairs-20261003-ferrari-f50",
    "declared_sha256": "ffb2c576b9e164e4318f0e0338f0df71ad00b9e1ff259e74223880b0b1696fe5",
-   "applied": true,
-   "preview": "assets/studio-pairs-20261003-ferrari-f50-ffb2c576b9e1-current.jpg",
-   "pixels": [
-    3312,
-    2480
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-free-20261003-lancia-fulvia-hf",
    "declared_sha256": "d7f36d11e7cdf36feb8907a63d524c3420e2a655d3aab0d37b7125b45997f06e",
-   "applied": true,
-   "preview": "assets/studio-free-20261003-lancia-fulvia-hf-d7f36d11e7cd-current.jpg",
-   "pixels": [
-    2480,
-    3312
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-free-20261003-porsche-993-turbo",
    "declared_sha256": "57a8bbcf9e7cf29ba53d91263556367e706a9f01f208e3c2d75e807ac48a776e",
-   "applied": true,
-   "preview": "assets/studio-free-20261003-porsche-993-turbo-57a8bbcf9e7c-current.jpg",
-   "pixels": [
-    2480,
-    3312
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-free-20261003-jaguar-xj220",
    "declared_sha256": "f267232ac4ae4dc744ae416a079c8e7c8bb0180051ab40a6fda5358d85707bce",
-   "applied": true,
-   "preview": "assets/studio-free-20261003-jaguar-xj220-f267232ac4ae-current.jpg",
-   "pixels": [
-    3312,
-    2480
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-free-20261003-vw-beetle-1967",
    "declared_sha256": "6049db3bb711dd9006af001185d0d0f61348c0274c05ede84afb3712c794708f",
-   "applied": true,
-   "preview": "assets/studio-free-20261003-vw-beetle-1967-6049db3bb711-current.jpg",
-   "pixels": [
-    2480,
-    3312
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-free-20261003-ferrari-daytona",
    "declared_sha256": "480300d91c5f39255808f4366e1ddde3eb6e20876cec50fc76794cb9711a9227",
-   "applied": true,
-   "preview": "assets/studio-free-20261003-ferrari-daytona-480300d91c5f-current.jpg",
-   "pixels": [
-    3312,
-    2480
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-next-20260920-bugatti-eb110-ss",
