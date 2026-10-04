@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-04 12:27",
+ "built": "2026-10-04 12:38",
  "accessed_date": "2026-10-04",
  "collections": [
   "American Form",
@@ -6989,6 +6989,15 @@
    "delivery_status": "Build / delivery pending",
    "delivery_evidence": null,
    "delivery_verified_at": null,
+   "full_source_url": "../artwork/a33d303dbc6b-studio-pairs-20261003-ferrari-f50.jpg",
+   "full_source_sha256": "a33d303dbc6b4f55a8f6d710a2d8b15ccb6173fffd2a38319349c37f5c6eae57",
+   "full_source_bytes": 15080510,
+   "full_source_pixels": [
+    9449,
+    7087
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
    "collection_choice": "Forma / Motion",
    "edition": null,
    "collection_category": "Forma / Motion",
@@ -7042,6 +7051,15 @@
    "delivery_status": "Build / delivery pending",
    "delivery_evidence": null,
    "delivery_verified_at": null,
+   "full_source_url": "../artwork/7384f5fc2773-studio-pairs-20261003-citroen-2cv.jpg",
+   "full_source_sha256": "7384f5fc2773342fc7417bf817a43e074c1f5f1c9c4b24fbeeaeb267f044715f",
+   "full_source_bytes": 18329200,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
    "collection_choice": "Studio Di Forma",
    "edition": null,
    "collection_category": "Studio Di Forma",
@@ -7095,6 +7113,15 @@
    "delivery_status": "Build / delivery pending",
    "delivery_evidence": null,
    "delivery_verified_at": null,
+   "full_source_url": "../artwork/02482a7f4416-studio-free-20261003-ferrari-daytona.jpg",
+   "full_source_sha256": "02482a7f44166f377e4ae06e0419a67ee85bdeb393d6760246be321b554b5c42",
+   "full_source_bytes": 13975289,
+   "full_source_pixels": [
+    9449,
+    7087
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
    "collection_choice": "Gran Turismo",
    "edition": null,
    "collection_category": "Gran Turismo",
@@ -7148,6 +7175,15 @@
    "delivery_status": "Build / delivery pending",
    "delivery_evidence": null,
    "delivery_verified_at": null,
+   "full_source_url": "../artwork/135343f4c082-studio-free-20261003-vw-beetle-1967.jpg",
+   "full_source_sha256": "135343f4c0822ae2bc70b991a626186cab08be5c88e907d7f7fb0f15c7f005db",
+   "full_source_bytes": 14735144,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
    "collection_choice": "Studio Di Forma",
    "edition": null,
    "collection_category": "Studio Di Forma",
@@ -7201,6 +7237,15 @@
    "delivery_status": "Build / delivery pending",
    "delivery_evidence": null,
    "delivery_verified_at": null,
+   "full_source_url": "../artwork/5292b313d5b7-studio-free-20261003-jaguar-xj220.jpg",
+   "full_source_sha256": "5292b313d5b7f1c5c170b6e05fafd5169721b77e8f63c581a545adab8b202859",
+   "full_source_bytes": 13293306,
+   "full_source_pixels": [
+    9449,
+    7087
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
    "collection_choice": "Forma / Motion",
    "edition": null,
    "collection_category": "Forma / Motion",
@@ -7254,6 +7299,15 @@
    "delivery_status": "Build / delivery pending",
    "delivery_evidence": null,
    "delivery_verified_at": null,
+   "full_source_url": "../artwork/7ec4cdcd3f52-studio-free-20261003-porsche-993-turbo.jpg",
+   "full_source_sha256": "7ec4cdcd3f52abd90111baf088c7fa2dc36894fcc9799d1d1acc72898f5cd8dc",
+   "full_source_bytes": 13269074,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
    "collection_choice": "Forma / Motion",
    "edition": null,
    "collection_category": "Forma / Motion",
@@ -7307,6 +7361,15 @@
    "delivery_status": "Build / delivery pending",
    "delivery_evidence": null,
    "delivery_verified_at": null,
+   "full_source_url": "../artwork/18167c8ba616-studio-free-20261003-lancia-fulvia-hf.jpg",
+   "full_source_sha256": "18167c8ba616088b96a0363a5a8dcf92132824a806aa320bf5399c2894c2571b",
+   "full_source_bytes": 11182305,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
    "collection_choice": "Sport / Leicht",
    "edition": null,
    "collection_category": "Sport / Leicht",
