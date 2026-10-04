@@ -1,5 +1,5 @@
 {
- "built": "2026-10-01 18:24",
+ "built": "2026-10-04 06:32",
  "items": [
   {
    "key": "911-carrera-rs27-1973-sport-white-45x60",
@@ -590,6 +590,62 @@
    "basis": "approval"
   },
   {
+   "key": "studio-free-20261003-alfa-montreal",
+   "file": "artwork/8f72f442fcd3-studio-free-20261003-alfa-montreal.jpg",
+   "sha256": "8f72f442fcd3ae1bbc866e0c2e1efd7889b899320ea698540ec96f4ad7477ba2",
+   "bytes": 14267065,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/mont72/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-04T01:52:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-free-20261003-bmw-z8",
+   "file": "artwork/249fac4b8f85-studio-free-20261003-bmw-z8.jpg",
+   "sha256": "249fac4b8f856dd3ce7aa0197240b9dc8bc168ee70ab5641a9714c3eeae5d491",
+   "bytes": 10286606,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/z8/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-04T01:52:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-free-20261003-honda-integra-type-r",
+   "file": "artwork/03213352e056-studio-free-20261003-honda-integra-type-r.jpg",
+   "sha256": "03213352e05648ceb20246bc63d74181fa57a1bde5ddf60e5e86a83b5579a4ba",
+   "bytes": 14817844,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/itr/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-04T01:52:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-free-20261003-plymouth-hemi-cuda",
+   "file": "artwork/031f031d485c-studio-free-20261003-plymouth-hemi-cuda.jpg",
+   "sha256": "031f031d485c8047fef0cba601c2d36defb39b1d0f3a6ce684da7b111ffd5541",
+   "bytes": 15526351,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/cuda70/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-04T01:52:00+02:00)",
+   "basis": "approval"
+  },
+  {
    "key": "studio-front-20261001-native13-volvo-850-t5r",
    "file": "artwork/eccaf241a706-studio-front-20261001-native13-volvo-850-t5r.jpg",
    "sha256": "eccaf241a70692ceb5780cfedde99db47c3351b946e071e2d01c465d46a50d64",
@@ -671,6 +727,104 @@
    "format": "JPEG",
    "source": "pipeline/lean-delivery/studio-next-20260920-lexus-lfa/d238f5b7fe8b/print.jpg",
    "evidence": "lean delivery print.jpg for selected native d238f5b7fe8b; pipeline/lean-delivery/copy-backfill-20260920.json print_matches_assembly",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-pairs-20261003-dodge-charger-rt-1969",
+   "file": "artwork/eb1dcbcc08c5-studio-pairs-20261003-dodge-charger-rt-1969.jpg",
+   "sha256": "eb1dcbcc08c54c867a03c32103605cd07ef947646f157e27146b9fd2c6bc0da5",
+   "bytes": 15458968,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/ch69/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-04T01:52:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-pairs-20261003-ferrari-308-gts",
+   "file": "artwork/4767638947c0-studio-pairs-20261003-ferrari-308-gts.jpg",
+   "sha256": "4767638947c0f03def3e87904793c372dca465118715ab33c6f3f0430028e5f0",
+   "bytes": 11831164,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/f308/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-04T01:52:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-pairs-20261003-land-rover-defender-90",
+   "file": "artwork/b24e29430f00-studio-pairs-20261003-land-rover-defender-90.jpg",
+   "sha256": "b24e29430f00f5e2a4187ae596c90463438a9b3681878cb85bea1eb9e6439721",
+   "bytes": 14078244,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/d90/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-04T01:52:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-pairs-20261003-mitsubishi-evo6-tme",
+   "file": "artwork/0a38f708decd-studio-pairs-20261003-mitsubishi-evo6-tme.jpg",
+   "sha256": "0a38f708decd1fcebfbf54f6da889f94f81d738c2d3f2db69a9748269e924be9",
+   "bytes": 13112563,
+   "px": [
+    9449,
+    7087
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/evo6/lot/print-80x60.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-04T01:52:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-pairs-20261003-pontiac-trans-am-1977",
+   "file": "artwork/f04148837fdd-studio-pairs-20261003-pontiac-trans-am-1977.jpg",
+   "sha256": "f04148837fddfa662317a1ea35d90d70acb7c3de05cef21bfdb800e2110533fe",
+   "bytes": 14630175,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/ta77/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-04T01:52:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-pairs-20261003-porsche-356-speedster",
+   "file": "artwork/33a989fe9ca3-studio-pairs-20261003-porsche-356-speedster.jpg",
+   "sha256": "33a989fe9ca37361b2f36465a8aa3fbf3885f73bcc42d37460f7b5f8bfc75c5f",
+   "bytes": 17564638,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/s356/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-04T01:52:00+02:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-pairs-20261003-porsche-964-carrera-rs",
+   "file": "artwork/40981cec736b-studio-pairs-20261003-porsche-964-carrera-rs.jpg",
+   "sha256": "40981cec736ba1ebb0d6894295a94589e30a6fe24967cd738fb1ef6a1671ac34",
+   "bytes": 13581275,
+   "px": [
+    7087,
+    9449
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/r964/lot/print-60x80.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-04T01:52:00+02:00)",
    "basis": "approval"
   },
   {

@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-04 04:47",
+ "built": "2026-10-04 06:32",
  "accessed_date": "2026-10-04",
  "collections": [
   "American Form",
@@ -8302,6 +8302,688 @@
     "created_at": "2026-10-01T00:00:00+00:00",
     "created_source": "ledger history",
     "updated_at": "2026-10-01T16:19:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-pairs-20261003-porsche-356-speedster",
+   "name": "Porsche 356 A Speedster",
+   "preview": "assets/studio-pairs-20261003-porsche-356-speedster.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "33a989fe9ca37361b2f36465a8aa3fbf3885f73bcc42d37460f7b5f8bfc75c5f",
+   "source_file": "pipeline/one-cycle-20260926/lots/s356/lot/print-60x80.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "SPORT / LEICHT",
+   "ledger_selected_sha256": "5ff6da9321d3757eb5b36b8d9dc1e03c8edc4425e5481996a6fb6832a8633e12",
+   "approved_source_sha256": "5ff6da9321d3757eb5b36b8d9dc1e03c8edc4425e5481996a6fb6832a8633e12",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-pairs-20261003-porsche-356-speedster.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/33a989fe9ca3-studio-pairs-20261003-porsche-356-speedster.jpg",
+   "full_source_sha256": "33a989fe9ca37361b2f36465a8aa3fbf3885f73bcc42d37460f7b5f8bfc75c5f",
+   "full_source_bytes": 17564638,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Sport / Leicht",
+   "edition": null,
+   "collection_category": "Sport / Leicht",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-04T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-04T01:52:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-pairs-20261003-porsche-964-carrera-rs",
+   "name": "Porsche 911 Carrera RS (964)",
+   "preview": "assets/studio-pairs-20261003-porsche-964-carrera-rs.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "40981cec736ba1ebb0d6894295a94589e30a6fe24967cd738fb1ef6a1671ac34",
+   "source_file": "pipeline/one-cycle-20260926/lots/r964/lot/print-60x80.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "SPORT / LEICHT",
+   "ledger_selected_sha256": "7dc272686678a136d1deb90db523ebd38d05c3bde6bb2eeedf15c7976e996286",
+   "approved_source_sha256": "7dc272686678a136d1deb90db523ebd38d05c3bde6bb2eeedf15c7976e996286",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-pairs-20261003-porsche-964-carrera-rs.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/40981cec736b-studio-pairs-20261003-porsche-964-carrera-rs.jpg",
+   "full_source_sha256": "40981cec736ba1ebb0d6894295a94589e30a6fe24967cd738fb1ef6a1671ac34",
+   "full_source_bytes": 13581275,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Sport / Leicht",
+   "edition": null,
+   "collection_category": "Sport / Leicht",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-04T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-04T01:52:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-pairs-20261003-ferrari-308-gts",
+   "name": "Ferrari 308 GTS",
+   "preview": "assets/studio-pairs-20261003-ferrari-308-gts.jpg",
+   "preview_pixels": [
+    1600,
+    1200
+   ],
+   "source_sha256": "4767638947c0f03def3e87904793c372dca465118715ab33c6f3f0430028e5f0",
+   "source_file": "pipeline/one-cycle-20260926/lots/f308/lot/print-80x60.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "GRAN TURISMO",
+   "ledger_selected_sha256": "b184149467dc00622a5895c12f26a0c163ff932b68cb71af263173fa77cad0be",
+   "approved_source_sha256": "b184149467dc00622a5895c12f26a0c163ff932b68cb71af263173fa77cad0be",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-pairs-20261003-ferrari-308-gts.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/4767638947c0-studio-pairs-20261003-ferrari-308-gts.jpg",
+   "full_source_sha256": "4767638947c0f03def3e87904793c372dca465118715ab33c6f3f0430028e5f0",
+   "full_source_bytes": 11831164,
+   "full_source_pixels": [
+    9449,
+    7087
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Gran Turismo",
+   "edition": null,
+   "collection_category": "Gran Turismo",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Gran Turismo",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-04T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-04T01:52:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-pairs-20261003-pontiac-trans-am-1977",
+   "name": "Pontiac Firebird Trans Am",
+   "preview": "assets/studio-pairs-20261003-pontiac-trans-am-1977.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "f04148837fddfa662317a1ea35d90d70acb7c3de05cef21bfdb800e2110533fe",
+   "source_file": "pipeline/one-cycle-20260926/lots/ta77/lot/print-60x80.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "AMERICAN FORM",
+   "ledger_selected_sha256": "6032b15e331808fd55efbb8b563b64a6dfbb4c67466e577f7dea3105ecdf41a6",
+   "approved_source_sha256": "6032b15e331808fd55efbb8b563b64a6dfbb4c67466e577f7dea3105ecdf41a6",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-pairs-20261003-pontiac-trans-am-1977.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/f04148837fdd-studio-pairs-20261003-pontiac-trans-am-1977.jpg",
+   "full_source_sha256": "f04148837fddfa662317a1ea35d90d70acb7c3de05cef21bfdb800e2110533fe",
+   "full_source_bytes": 14630175,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "American Form",
+   "edition": null,
+   "collection_category": "American Form",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "American Form",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-04T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-04T01:52:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-pairs-20261003-dodge-charger-rt-1969",
+   "name": "Dodge Charger R/T",
+   "preview": "assets/studio-pairs-20261003-dodge-charger-rt-1969.jpg",
+   "preview_pixels": [
+    1600,
+    1200
+   ],
+   "source_sha256": "eb1dcbcc08c54c867a03c32103605cd07ef947646f157e27146b9fd2c6bc0da5",
+   "source_file": "pipeline/one-cycle-20260926/lots/ch69/lot/print-80x60.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "AMERICAN FORM",
+   "ledger_selected_sha256": "61e4912c238c41b7f6dfb363f20f225bb78e2b7fe791070513d85a08cdf63884",
+   "approved_source_sha256": "61e4912c238c41b7f6dfb363f20f225bb78e2b7fe791070513d85a08cdf63884",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-pairs-20261003-dodge-charger-rt-1969.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/eb1dcbcc08c5-studio-pairs-20261003-dodge-charger-rt-1969.jpg",
+   "full_source_sha256": "eb1dcbcc08c54c867a03c32103605cd07ef947646f157e27146b9fd2c6bc0da5",
+   "full_source_bytes": 15458968,
+   "full_source_pixels": [
+    9449,
+    7087
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "American Form",
+   "edition": null,
+   "collection_category": "American Form",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "American Form",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-04T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-04T01:52:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-pairs-20261003-mitsubishi-evo6-tme",
+   "name": "Mitsubishi Lancer Evolution VI Tommi Makinen Edition",
+   "preview": "assets/studio-pairs-20261003-mitsubishi-evo6-tme.jpg",
+   "preview_pixels": [
+    1600,
+    1200
+   ],
+   "source_sha256": "0a38f708decd1fcebfbf54f6da889f94f81d738c2d3f2db69a9748269e924be9",
+   "source_file": "pipeline/one-cycle-20260926/lots/evo6/lot/print-80x60.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "SPORT / LEICHT",
+   "ledger_selected_sha256": "0aee9ecddbeb30ffc804853ad5bea258bb4b6bf6192f4a7953fd29af1959ab06",
+   "approved_source_sha256": "0aee9ecddbeb30ffc804853ad5bea258bb4b6bf6192f4a7953fd29af1959ab06",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-pairs-20261003-mitsubishi-evo6-tme.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/0a38f708decd-studio-pairs-20261003-mitsubishi-evo6-tme.jpg",
+   "full_source_sha256": "0a38f708decd1fcebfbf54f6da889f94f81d738c2d3f2db69a9748269e924be9",
+   "full_source_bytes": 13112563,
+   "full_source_pixels": [
+    9449,
+    7087
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Sport / Leicht",
+   "edition": null,
+   "collection_category": "Sport / Leicht",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-04T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-04T01:52:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-pairs-20261003-land-rover-defender-90",
+   "name": "Land Rover Defender 90",
+   "preview": "assets/studio-pairs-20261003-land-rover-defender-90.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "b24e29430f00f5e2a4187ae596c90463438a9b3681878cb85bea1eb9e6439721",
+   "source_file": "pipeline/one-cycle-20260926/lots/d90/lot/print-60x80.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "FORMA / MOTION",
+   "ledger_selected_sha256": "4d24c8510542d1b8449a1ec6cab7be0b232f3de6fa4c7eeb948b002110fb0532",
+   "approved_source_sha256": "4d24c8510542d1b8449a1ec6cab7be0b232f3de6fa4c7eeb948b002110fb0532",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-pairs-20261003-land-rover-defender-90.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/b24e29430f00-studio-pairs-20261003-land-rover-defender-90.jpg",
+   "full_source_sha256": "b24e29430f00f5e2a4187ae596c90463438a9b3681878cb85bea1eb9e6439721",
+   "full_source_bytes": 14078244,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Forma / Motion",
+   "edition": null,
+   "collection_category": "Forma / Motion",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Forma / Motion",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 100
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-04T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-04T01:52:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-free-20261003-plymouth-hemi-cuda",
+   "name": "Plymouth Hemi 'Cuda",
+   "preview": "assets/studio-free-20261003-plymouth-hemi-cuda.jpg",
+   "preview_pixels": [
+    1600,
+    1200
+   ],
+   "source_sha256": "031f031d485c8047fef0cba601c2d36defb39b1d0f3a6ce684da7b111ffd5541",
+   "source_file": "pipeline/one-cycle-20260926/lots/cuda70/lot/print-80x60.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "AMERICAN FORM",
+   "ledger_selected_sha256": "c57384da8aaf21f7ff2c6140dd3c33733daeb94719082ccf610140c0cc9533af",
+   "approved_source_sha256": "c57384da8aaf21f7ff2c6140dd3c33733daeb94719082ccf610140c0cc9533af",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-free-20261003-plymouth-hemi-cuda.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/031f031d485c-studio-free-20261003-plymouth-hemi-cuda.jpg",
+   "full_source_sha256": "031f031d485c8047fef0cba601c2d36defb39b1d0f3a6ce684da7b111ffd5541",
+   "full_source_bytes": 15526351,
+   "full_source_pixels": [
+    9449,
+    7087
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "American Form",
+   "edition": null,
+   "collection_category": "American Form",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "American Form",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-04T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-04T01:52:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-free-20261003-bmw-z8",
+   "name": "BMW Z8",
+   "preview": "assets/studio-free-20261003-bmw-z8.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "249fac4b8f856dd3ce7aa0197240b9dc8bc168ee70ab5641a9714c3eeae5d491",
+   "source_file": "pipeline/one-cycle-20260926/lots/z8/lot/print-60x80.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "FORMA / MOTION",
+   "ledger_selected_sha256": "05d15fb28baf95ccfaa06318f239b15f599a13060d2b00c4e870dbf6aac8839e",
+   "approved_source_sha256": "05d15fb28baf95ccfaa06318f239b15f599a13060d2b00c4e870dbf6aac8839e",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-free-20261003-bmw-z8.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/249fac4b8f85-studio-free-20261003-bmw-z8.jpg",
+   "full_source_sha256": "249fac4b8f856dd3ce7aa0197240b9dc8bc168ee70ab5641a9714c3eeae5d491",
+   "full_source_bytes": 10286606,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Forma / Motion",
+   "edition": null,
+   "collection_category": "Forma / Motion",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Forma / Motion",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 100
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-04T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-04T01:52:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-free-20261003-alfa-montreal",
+   "name": "Alfa Romeo Montreal",
+   "preview": "assets/studio-free-20261003-alfa-montreal.jpg",
+   "preview_pixels": [
+    1600,
+    1200
+   ],
+   "source_sha256": "8f72f442fcd3ae1bbc866e0c2e1efd7889b899320ea698540ec96f4ad7477ba2",
+   "source_file": "pipeline/one-cycle-20260926/lots/mont72/lot/print-80x60.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "GRAN TURISMO",
+   "ledger_selected_sha256": "c6a829138000f9e84feb211ae4f110d97f5461a2d2a5cb14c090e6d5c4b32c22",
+   "approved_source_sha256": "c6a829138000f9e84feb211ae4f110d97f5461a2d2a5cb14c090e6d5c4b32c22",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-free-20261003-alfa-montreal.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/8f72f442fcd3-studio-free-20261003-alfa-montreal.jpg",
+   "full_source_sha256": "8f72f442fcd3ae1bbc866e0c2e1efd7889b899320ea698540ec96f4ad7477ba2",
+   "full_source_bytes": 14267065,
+   "full_source_pixels": [
+    9449,
+    7087
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Gran Turismo",
+   "edition": null,
+   "collection_category": "Gran Turismo",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Gran Turismo",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-04T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-04T01:52:00+02:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-free-20261003-honda-integra-type-r",
+   "name": "Honda Integra Type R (DC2)",
+   "preview": "assets/studio-free-20261003-honda-integra-type-r.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "03213352e05648ceb20246bc63d74181fa57a1bde5ddf60e5e86a83b5579a4ba",
+   "source_file": "pipeline/one-cycle-20260926/lots/itr/lot/print-60x80.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "SPORT / LEICHT",
+   "ledger_selected_sha256": "42e31d8554e8d9620f5e1723f180fa4aab9cc530de37f1ca5be25bd6bdcd5709",
+   "approved_source_sha256": "42e31d8554e8d9620f5e1723f180fa4aab9cc530de37f1ca5be25bd6bdcd5709",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-free-20261003-honda-integra-type-r.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/03213352e056-studio-free-20261003-honda-integra-type-r.jpg",
+   "full_source_sha256": "03213352e05648ceb20246bc63d74181fa57a1bde5ddf60e5e86a83b5579a4ba",
+   "full_source_bytes": 14817844,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Sport / Leicht",
+   "edition": null,
+   "collection_category": "Sport / Leicht",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-04T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-04T01:52:00+02:00",
     "updated_source": "owner selection"
    },
    "status": {
