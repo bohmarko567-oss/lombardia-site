@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-13 22:34",
+ "built": "2026-10-13 23:11",
  "accessed_date": "2026-10-13",
  "collections": [
   "American Form",
@@ -1231,212 +1231,6 @@
    }
   },
   {
-   "key": "studio-ten-20261013-porsche-911-1965",
-   "name": "Porsche 911 2.0 - DIRECTED",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-ten-20261013-porsche-911-1965-df8b4446a6f8-current.jpg",
-   "preview_pixels": [
-    1600,
-    2137
-   ],
-   "source_file": "pipeline/studio-ten-20261013/t1/heroes/porsche-911-1965/final-native.png",
-   "source_sha256": "df8b4446a6f8ecc4ead8c7c1cc07910d235ace09d0ad55f61baaa74fd1b57516",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-10-13T20:32:09.667762+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "16a760b9-370d-486d-ada8-6fe6ef59da94",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-13T20:27:31.045286+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/16a760b9-370d-486d-ada8-6fe6ef59da94_11ae8e89.png",
-     "page_url": "https://muapi.ai/predictions/16a760b9-370d-486d-ada8-6fe6ef59da94",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, the round headlamps, the bumper with its two over-riders, the yellow fog lamps under it, the chrome sill strip, the chrome hub caps",
-       "url": "https://cdn.muapi.ai/outputs/generated/9e46f5fa4b07470cbe4f5e51f131131d.jpg",
-       "source_page": "https://rmsothebys.com/auctions/am21/lots/r0088-1965-porsche-911/"
-      },
-      {
-       "role": "Front three-quarter from the right, low: the nose, the right headlamp, the horn grille and indicator lens in the top of the bumper, the over-riders, both fog lamps, the crest on the bonnet",
-       "url": "https://cdn.muapi.ai/outputs/generated/eb341a78123a467a8125828aa21ba5b5.jpg",
-       "source_page": "https://rmsothebys.com/auctions/am21/lots/r0088-1965-porsche-911/"
-      },
-      {
-       "role": "Front: both round headlamps, the crest at the front edge of the bonnet, the two horn grilles with the indicator lenses beside them, the bumper blade with two over-riders, two oval yellow fog lamps below it, the round door mirror",
-       "url": "https://cdn.muapi.ai/outputs/generated/422bb41e1a784c18a4aa0f2905ae511d.jpg",
-       "source_page": "https://rmsothebys.com/auctions/am21/lots/r0088-1965-porsche-911/"
-      },
-      {
-       "role": "Side profile (left side): proportions - the short wheelbase, the sloping roof and tail, the chrome sill strip, the upright windscreen",
-       "url": "https://cdn.muapi.ai/outputs/generated/f0ae0bae9a384ca0adcfec0da661f334.jpg",
-       "source_page": "https://rmsothebys.com/auctions/am21/lots/r0088-1965-porsche-911/"
-      },
-      {
-       "role": "Front three-quarter from the right, wider: the whole car",
-       "url": "https://cdn.muapi.ai/outputs/generated/caeba02a2777439098f8e343933730bc.jpg",
-       "source_page": "https://rmsothebys.com/auctions/am21/lots/r0088-1965-porsche-911/"
-      },
-      {
-       "role": "Front corner close-up (left): the headlamp in its chrome ring, the horn grille of horizontal chrome slats, the amber and clear indicator lens beside it, the over-rider, the oval yellow fog lamp, the crest",
-       "url": "https://cdn.muapi.ai/outputs/generated/a12f1d033286458a85086692b43a46f3.jpg",
-       "source_page": "https://rmsothebys.com/auctions/am21/lots/r0088-1965-porsche-911/"
-      },
-      {
-       "role": "Front corner close-up (right): the headlamp, the horn grille, the indicator lens, the over-rider, the fog lamp",
-       "url": "https://cdn.muapi.ai/outputs/generated/00fc85c6fcb949198321b55d98d07ea8.jpg",
-       "source_page": "https://rmsothebys.com/auctions/am21/lots/r0088-1965-porsche-911/"
-      },
-      {
-       "role": "Crest close-up: the enamel Porsche crest on the bonnet - gold, black and red shield with the black horse",
-       "url": "https://cdn.muapi.ai/outputs/generated/3de8f1a43e524bbeac2903a06f1f8a1d.jpg",
-       "source_page": "https://rmsothebys.com/auctions/am21/lots/r0088-1965-porsche-911/"
-      },
-      {
-       "role": "Front wheel close-up: silver steel wheel with a domed chrome hub cap and a chrome trim ring (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/936b7a46725b4006ab22ea71f4ae14cf.jpg",
-       "source_page": "https://rmsothebys.com/auctions/am21/lots/r0088-1965-porsche-911/"
-      },
-      {
-       "role": "Door mirror close-up: round chrome mirror on the door, chrome window frames",
-       "url": "https://cdn.muapi.ai/outputs/generated/db6ac40802d64caf812ba378c1248301.jpg",
-       "source_page": "https://rmsothebys.com/auctions/am21/lots/r0088-1965-porsche-911/"
-      },
-      {
-       "role": "Lettering close-up: the 911 script from the engine lid - slanted, rounded, joined gold letters; the model for the 901 numerals only",
-       "url": "https://cdn.muapi.ai/outputs/generated/350d0f2f94064a5cb4d08d72a653c155.jpg",
-       "source_page": "https://rmsothebys.com/auctions/am21/lots/r0088-1965-porsche-911/"
-      }
-     ]
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Sport / Leicht",
-    "why": "Brief: DIRECTED - the 901 corrected to 911 in red pencil. Suggestion only."
-   },
-   "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
-   "candidate_authority": "Owner 13 Oct 2026 21:18: 'Let's create 10 more heroes with our most recent evolutionized workflow'; 21:56: 'just go and generate', 'I approve 80 to 20 ratio is directed to free'. Raw heroes for approval 1; fixes only on the picks, then approval 2 (the last).",
-   "full_source_url": "full/df8b4446a6f8-studio-ten-20261013-porsche-911-1965.png",
-   "full_source_sha256": "df8b4446a6f8ecc4ead8c7c1cc07910d235ace09d0ad55f61baaa74fd1b57516",
-   "full_source_bytes": 12995768,
-   "full_source_pixels": [
-    2480,
-    3312
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Sport / Leicht",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Brief: DIRECTED - the 901 corrected to 911 in red pencil. Suggestion only.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 200
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "16a760b9-370d-486d-ada8-6fe6ef59da94",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T20:27:31.045286+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/16a760b9-370d-486d-ada8-6fe6ef59da94_11ae8e89.png",
-     "page_url": "https://muapi.ai/predictions/16a760b9-370d-486d-ada8-6fe6ef59da94",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, the round headlamps, the bumper with its two over-riders, the yellow fog lamps under it, the chrome sill strip, the chrome hub caps",
-       "url": "https://cdn.muapi.ai/outputs/generated/9e46f5fa4b07470cbe4f5e51f131131d.jpg",
-       "source_page": "https://rmsothebys.com/auctions/am21/lots/r0088-1965-porsche-911/"
-      },
-      {
-       "role": "Front three-quarter from the right, low: the nose, the right headlamp, the horn grille and indicator lens in the top of the bumper, the over-riders, both fog lamps, the crest on the bonnet",
-       "url": "https://cdn.muapi.ai/outputs/generated/eb341a78123a467a8125828aa21ba5b5.jpg",
-       "source_page": "https://rmsothebys.com/auctions/am21/lots/r0088-1965-porsche-911/"
-      },
-      {
-       "role": "Front: both round headlamps, the crest at the front edge of the bonnet, the two horn grilles with the indicator lenses beside them, the bumper blade with two over-riders, two oval yellow fog lamps below it, the round door mirror",
-       "url": "https://cdn.muapi.ai/outputs/generated/422bb41e1a784c18a4aa0f2905ae511d.jpg",
-       "source_page": "https://rmsothebys.com/auctions/am21/lots/r0088-1965-porsche-911/"
-      },
-      {
-       "role": "Side profile (left side): proportions - the short wheelbase, the sloping roof and tail, the chrome sill strip, the upright windscreen",
-       "url": "https://cdn.muapi.ai/outputs/generated/f0ae0bae9a384ca0adcfec0da661f334.jpg",
-       "source_page": "https://rmsothebys.com/auctions/am21/lots/r0088-1965-porsche-911/"
-      },
-      {
-       "role": "Front three-quarter from the right, wider: the whole car",
-       "url": "https://cdn.muapi.ai/outputs/generated/caeba02a2777439098f8e343933730bc.jpg",
-       "source_page": "https://rmsothebys.com/auctions/am21/lots/r0088-1965-porsche-911/"
-      },
-      {
-       "role": "Front corner close-up (left): the headlamp in its chrome ring, the horn grille of horizontal chrome slats, the amber and clear indicator lens beside it, the over-rider, the oval yellow fog lamp, the crest",
-       "url": "https://cdn.muapi.ai/outputs/generated/a12f1d033286458a85086692b43a46f3.jpg",
-       "source_page": "https://rmsothebys.com/auctions/am21/lots/r0088-1965-porsche-911/"
-      },
-      {
-       "role": "Front corner close-up (right): the headlamp, the horn grille, the indicator lens, the over-rider, the fog lamp",
-       "url": "https://cdn.muapi.ai/outputs/generated/00fc85c6fcb949198321b55d98d07ea8.jpg",
-       "source_page": "https://rmsothebys.com/auctions/am21/lots/r0088-1965-porsche-911/"
-      },
-      {
-       "role": "Crest close-up: the enamel Porsche crest on the bonnet - gold, black and red shield with the black horse",
-       "url": "https://cdn.muapi.ai/outputs/generated/3de8f1a43e524bbeac2903a06f1f8a1d.jpg",
-       "source_page": "https://rmsothebys.com/auctions/am21/lots/r0088-1965-porsche-911/"
-      },
-      {
-       "role": "Front wheel close-up: silver steel wheel with a domed chrome hub cap and a chrome trim ring (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/936b7a46725b4006ab22ea71f4ae14cf.jpg",
-       "source_page": "https://rmsothebys.com/auctions/am21/lots/r0088-1965-porsche-911/"
-      },
-      {
-       "role": "Door mirror close-up: round chrome mirror on the door, chrome window frames",
-       "url": "https://cdn.muapi.ai/outputs/generated/db6ac40802d64caf812ba378c1248301.jpg",
-       "source_page": "https://rmsothebys.com/auctions/am21/lots/r0088-1965-porsche-911/"
-      },
-      {
-       "role": "Lettering close-up: the 911 script from the engine lid - slanted, rounded, joined gold letters; the model for the 901 numerals only",
-       "url": "https://cdn.muapi.ai/outputs/generated/350d0f2f94064a5cb4d08d72a653c155.jpg",
-       "source_page": "https://rmsothebys.com/auctions/am21/lots/r0088-1965-porsche-911/"
-      }
-     ],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-13T20:27:31.045286+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-13T20:32:09.667762+00:00",
-    "updated_source": "candidate generated"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
    "key": "studio-ten-20261013-porsche-911-gt3-rs-992",
    "name": "Porsche 911 GT3 RS (992) - DIRECTED",
    "notion_url": null,
@@ -1533,7 +1327,7 @@
     "why": "Brief: DIRECTED - wind tunnel at night, smoke lines over the swan-neck wing. Suggestion only."
    },
    "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
-   "candidate_authority": "Owner 13 Oct 2026 21:18: 'Let's create 10 more heroes with our most recent evolutionized workflow'; 21:56: 'just go and generate', 'I approve 80 to 20 ratio is directed to free'. Raw heroes for approval 1; fixes only on the picks, then approval 2 (the last).",
+   "candidate_authority": "Owner 13 Oct 2026 21:18-21:56: ten new heroes, no lines first, 80/20 DIRECTED/FREE. Approval 1 at 23:07: I love Honda. I love G500. I love both Camaro and GTR. Nine eleven GT three RS is good ... let's keep this one ... fix it. Enzo, I love Enzo. GTI is sort of fine ... Just approve it. What I don't love is DS ... Same for Porsche 911 2.0 and GTO. The seven kept get their localized detail fixes; approval 2 is the last approval.",
    "full_source_url": "full/89d2f14d4c01-studio-ten-20261013-porsche-911-gt3-rs-992.png",
    "full_source_sha256": "89d2f14d4c014a882792e3def3b9cb295aef289391a8245426493ec1656f1d2f",
    "full_source_bytes": 9648320,
@@ -1631,192 +1425,6 @@
     "created_at": "2026-10-13T20:27:34.545542+00:00",
     "created_source": "MuAPI original",
     "updated_at": "2026-10-13T20:32:12.594338+00:00",
-    "updated_source": "candidate generated"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-ten-20261013-ferrari-250-gto",
-   "name": "Ferrari 250 GTO - DIRECTED",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-ten-20261013-ferrari-250-gto-1f68a96c0b2e-current.jpg",
-   "preview_pixels": [
-    1600,
-    2137
-   ],
-   "source_file": "pipeline/studio-ten-20261013/t1/heroes/ferrari-250-gto/final-native.png",
-   "source_sha256": "1f68a96c0b2e1e994becaf241d04f7e4de07fc7c4f759beacdae350fd8c916a9",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-10-13T20:31:54.815403+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "2fa713c5-3ce8-4505-83e4-1b28ef26ca7e",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-13T20:27:13.313526+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/2fa713c5-3ce8-4505-83e4-1b28ef26ca7e_f5808b70.png",
-     "page_url": "https://muapi.ai/predictions/2fa713c5-3ce8-4505-83e4-1b28ef26ca7e",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, the long low nose, the oval grille, the covered headlamps, the three slots behind the front wheel, the wire wheels (ignore the race-number roundels, the white anniversary decals, the arrow sticker and the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/480d41b0f54844c08a1e6a7cf05baad7.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0117-1962-ferrari-250-gto-by-scaglietti/"
-      },
-      {
-       "role": "Front three-quarter from the left, closer: the nose and the left flank (ignore the roundels, decals, sticker and plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/999cbfe521df4fe38bdf45b7ff0e0592.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0117-1962-ferrari-250-gto-by-scaglietti/"
-      },
-      {
-       "role": "Front: the oval mesh grille with the small chrome prancing horse, both headlamps under clear covers, the small lamps either side of the grille, the bullet mirrors (ignore the roundel, decals, sticker and plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/e0a84e3a3f27436586fa7bdc6fa401fa.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0117-1962-ferrari-250-gto-by-scaglietti/"
-      },
-      {
-       "role": "Side profile (right side): proportions - the long bonnet, the cabin set back, the fastback tail, the three slots behind the front wheel, wheelbase (ignore the roundel)",
-       "url": "https://cdn.muapi.ai/outputs/generated/a3ba713138c14223877d23d7d51899b9.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0117-1962-ferrari-250-gto-by-scaglietti/"
-      },
-      {
-       "role": "Side three-quarter from the left: the flank, the slots, the wire wheels (ignore the roundel and decals)",
-       "url": "https://cdn.muapi.ai/outputs/generated/142bed6d3dc249489115e48a58829c80.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0117-1962-ferrari-250-gto-by-scaglietti/"
-      },
-      {
-       "role": "Nose close-up: the headlamp under its clear teardrop cover with a thin chrome edge, the small amber indicator on the wing, the round lamp below it, the oval grille (ignore the roundel, decals, sticker and plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/3c1aed6c1dbd4913957282acd5119074.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0117-1962-ferrari-250-gto-by-scaglietti/"
-      },
-      {
-       "role": "Grille close-up: the oval grille of fine mesh with a thin chrome surround and the small chrome prancing horse in its centre (ignore the decal, sticker and plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/480f273fe6b74adeb5f2703cccb234d7.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0117-1962-ferrari-250-gto-by-scaglietti/"
-      },
-      {
-       "role": "Wheel close-up: chrome Borrani wire wheel with a three-eared chrome knock-off spinner (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/ba4ce177ab0647cda43635eb4013b98c.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0117-1962-ferrari-250-gto-by-scaglietti/"
-      },
-      {
-       "role": "Mirror close-up: small chrome bullet mirror on the door (ignore the roundel)",
-       "url": "https://cdn.muapi.ai/outputs/generated/d338b2a8fc344cbeb935dc2c3d8ad7ca.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0117-1962-ferrari-250-gto-by-scaglietti/"
-      }
-     ]
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Gran Turismo",
-    "why": "Brief: DIRECTED - hand-beaten aluminium, GTO punched into the metal. Suggestion only."
-   },
-   "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
-   "candidate_authority": "Owner 13 Oct 2026 21:18: 'Let's create 10 more heroes with our most recent evolutionized workflow'; 21:56: 'just go and generate', 'I approve 80 to 20 ratio is directed to free'. Raw heroes for approval 1; fixes only on the picks, then approval 2 (the last).",
-   "full_source_url": "full/1f68a96c0b2e-studio-ten-20261013-ferrari-250-gto.png",
-   "full_source_sha256": "1f68a96c0b2e1e994becaf241d04f7e4de07fc7c4f759beacdae350fd8c916a9",
-   "full_source_bytes": 16747888,
-   "full_source_pixels": [
-    2480,
-    3312
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Gran Turismo",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Brief: DIRECTED - hand-beaten aluminium, GTO punched into the metal. Suggestion only.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 77
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "2fa713c5-3ce8-4505-83e4-1b28ef26ca7e",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T20:27:13.313526+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/2fa713c5-3ce8-4505-83e4-1b28ef26ca7e_f5808b70.png",
-     "page_url": "https://muapi.ai/predictions/2fa713c5-3ce8-4505-83e4-1b28ef26ca7e",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, the long low nose, the oval grille, the covered headlamps, the three slots behind the front wheel, the wire wheels (ignore the race-number roundels, the white anniversary decals, the arrow sticker and the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/480d41b0f54844c08a1e6a7cf05baad7.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0117-1962-ferrari-250-gto-by-scaglietti/"
-      },
-      {
-       "role": "Front three-quarter from the left, closer: the nose and the left flank (ignore the roundels, decals, sticker and plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/999cbfe521df4fe38bdf45b7ff0e0592.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0117-1962-ferrari-250-gto-by-scaglietti/"
-      },
-      {
-       "role": "Front: the oval mesh grille with the small chrome prancing horse, both headlamps under clear covers, the small lamps either side of the grille, the bullet mirrors (ignore the roundel, decals, sticker and plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/e0a84e3a3f27436586fa7bdc6fa401fa.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0117-1962-ferrari-250-gto-by-scaglietti/"
-      },
-      {
-       "role": "Side profile (right side): proportions - the long bonnet, the cabin set back, the fastback tail, the three slots behind the front wheel, wheelbase (ignore the roundel)",
-       "url": "https://cdn.muapi.ai/outputs/generated/a3ba713138c14223877d23d7d51899b9.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0117-1962-ferrari-250-gto-by-scaglietti/"
-      },
-      {
-       "role": "Side three-quarter from the left: the flank, the slots, the wire wheels (ignore the roundel and decals)",
-       "url": "https://cdn.muapi.ai/outputs/generated/142bed6d3dc249489115e48a58829c80.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0117-1962-ferrari-250-gto-by-scaglietti/"
-      },
-      {
-       "role": "Nose close-up: the headlamp under its clear teardrop cover with a thin chrome edge, the small amber indicator on the wing, the round lamp below it, the oval grille (ignore the roundel, decals, sticker and plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/3c1aed6c1dbd4913957282acd5119074.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0117-1962-ferrari-250-gto-by-scaglietti/"
-      },
-      {
-       "role": "Grille close-up: the oval grille of fine mesh with a thin chrome surround and the small chrome prancing horse in its centre (ignore the decal, sticker and plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/480f273fe6b74adeb5f2703cccb234d7.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0117-1962-ferrari-250-gto-by-scaglietti/"
-      },
-      {
-       "role": "Wheel close-up: chrome Borrani wire wheel with a three-eared chrome knock-off spinner (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/ba4ce177ab0647cda43635eb4013b98c.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0117-1962-ferrari-250-gto-by-scaglietti/"
-      },
-      {
-       "role": "Mirror close-up: small chrome bullet mirror on the door (ignore the roundel)",
-       "url": "https://cdn.muapi.ai/outputs/generated/d338b2a8fc344cbeb935dc2c3d8ad7ca.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0117-1962-ferrari-250-gto-by-scaglietti/"
-      }
-     ],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-13T20:27:13.313526+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-13T20:31:54.815403+00:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -1930,7 +1538,7 @@
     "why": "Brief: DIRECTED - doors up, dead-on front, symmetric like an emblem. Suggestion only."
    },
    "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
-   "candidate_authority": "Owner 13 Oct 2026 21:18: 'Let's create 10 more heroes with our most recent evolutionized workflow'; 21:56: 'just go and generate', 'I approve 80 to 20 ratio is directed to free'. Raw heroes for approval 1; fixes only on the picks, then approval 2 (the last).",
+   "candidate_authority": "Owner 13 Oct 2026 21:18-21:56: ten new heroes, no lines first, 80/20 DIRECTED/FREE. Approval 1 at 23:07: I love Honda. I love G500. I love both Camaro and GTR. Nine eleven GT three RS is good ... let's keep this one ... fix it. Enzo, I love Enzo. GTI is sort of fine ... Just approve it. What I don't love is DS ... Same for Porsche 911 2.0 and GTO. The seven kept get their localized detail fixes; approval 2 is the last approval.",
    "full_source_url": "full/8bd0775c5ab3-studio-ten-20261013-ferrari-enzo.png",
    "full_source_sha256": "8bd0775c5ab320473969577595da3fcf7f471bb274e7cd7ef18900067dc71ce6",
    "full_source_bytes": 5606948,
@@ -2141,7 +1749,7 @@
     "why": "Brief: DIRECTED - the red grille line runs out to the edges of the sheet. Suggestion only."
    },
    "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
-   "candidate_authority": "Owner 13 Oct 2026 21:18: 'Let's create 10 more heroes with our most recent evolutionized workflow'; 21:56: 'just go and generate', 'I approve 80 to 20 ratio is directed to free'. Raw heroes for approval 1; fixes only on the picks, then approval 2 (the last).",
+   "candidate_authority": "Owner 13 Oct 2026 21:18-21:56: ten new heroes, no lines first, 80/20 DIRECTED/FREE. Approval 1 at 23:07: I love Honda. I love G500. I love both Camaro and GTR. Nine eleven GT three RS is good ... let's keep this one ... fix it. Enzo, I love Enzo. GTI is sort of fine ... Just approve it. What I don't love is DS ... Same for Porsche 911 2.0 and GTO. The seven kept get their localized detail fixes; approval 2 is the last approval.",
    "full_source_url": "full/877e5e98411f-studio-ten-20261013-vw-golf-gti-mk1.png",
    "full_source_sha256": "877e5e98411ffe2bdce5912cf9afa0ac663094ef192563ca4d45c441c6533848",
    "full_source_bytes": 14823718,
@@ -2347,7 +1955,7 @@
     "why": "Brief: DIRECTED - Schockl test slab, the world tilts 30 degrees, G 500 stays level. Suggestion only."
    },
    "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
-   "candidate_authority": "Owner 13 Oct 2026 21:18: 'Let's create 10 more heroes with our most recent evolutionized workflow'; 21:56: 'just go and generate', 'I approve 80 to 20 ratio is directed to free'. Raw heroes for approval 1; fixes only on the picks, then approval 2 (the last).",
+   "candidate_authority": "Owner 13 Oct 2026 21:18-21:56: ten new heroes, no lines first, 80/20 DIRECTED/FREE. Approval 1 at 23:07: I love Honda. I love G500. I love both Camaro and GTR. Nine eleven GT three RS is good ... let's keep this one ... fix it. Enzo, I love Enzo. GTI is sort of fine ... Just approve it. What I don't love is DS ... Same for Porsche 911 2.0 and GTO. The seven kept get their localized detail fixes; approval 2 is the last approval.",
    "full_source_url": "full/7dea98e250d5-studio-ten-20261013-mercedes-g500-w463.png",
    "full_source_sha256": "7dea98e250d590bb941eb653a394ca64f349d1fd248c8871e675c083afadd3e2",
    "full_source_bytes": 11332785,
@@ -2456,201 +2064,6 @@
    }
   },
   {
-   "key": "studio-ten-20261013-citroen-ds21-pallas",
-   "name": "Citroen DS 21 Pallas - DIRECTED",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-ten-20261013-citroen-ds21-pallas-16810ed16c05-current.jpg",
-   "preview_pixels": [
-    1600,
-    1198
-   ],
-   "source_file": "pipeline/studio-ten-20261013/t1/heroes/citroen-ds21-pallas/final-native.png",
-   "source_sha256": "16810ed16c05eac8d667f54b42cc38b69123c310c59d7891d0b4d5d91751b310",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
-   "candidate_created_at": "2026-10-13T20:31:51.620630+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "9290d4c5-b729-41e3-9adb-a8903f52238a",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-13T20:27:09.794965+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/9290d4c5-b729-41e3-9adb-a8903f52238a_4d622a5d.png",
-     "page_url": "https://muapi.ai/predictions/9290d4c5-b729-41e3-9adb-a8903f52238a",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, the low nose, the covered twin headlamps, the pale roof, the stainless rear roof pillars, the chrome hub caps (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/59ddde1f258b4982a2d4c930c797521a.jpg",
-       "source_page": "https://rmsothebys.com/auctions/wm26/lots/r0078-1972-citroen-ds-21-pallas/"
-      },
-      {
-       "role": "Front: both twin-headlamp units behind their glass covers, the thin chrome bumper and centre bar, the amber indicators at the bumper ends, the mirrors on the wings (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/1b2fa60db1fc4591ac09dd1eea938e51.jpg",
-       "source_page": "https://rmsothebys.com/auctions/wm26/lots/r0078-1972-citroen-ds-21-pallas/"
-      },
-      {
-       "role": "Front, wider: the whole nose and the roof (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/611ff493d5304211a08594cdb1588dfc.jpg",
-       "source_page": "https://rmsothebys.com/auctions/wm26/lots/r0078-1972-citroen-ds-21-pallas/"
-      },
-      {
-       "role": "Side profile (right side): proportions - the long body, the half-covered rear wheel, the roof and the stainless rear pillar, wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/generated/1664d9210aac4e868466b19bd3d75d4c.jpg",
-       "source_page": "https://rmsothebys.com/auctions/wm26/lots/r0078-1972-citroen-ds-21-pallas/"
-      },
-      {
-       "role": "Headlamp close-up (left): the two round lamps behind one smooth glass cover in a chrome-edged teardrop housing, the amber indicator below it, the bumper",
-       "url": "https://cdn.muapi.ai/outputs/generated/c5f0d520e0b34d80b9f61ad7e4453013.jpg",
-       "source_page": "https://rmsothebys.com/auctions/wm26/lots/r0078-1972-citroen-ds-21-pallas/"
-      },
-      {
-       "role": "Headlamp close-up (right): the two lamps with yellow bulbs behind the glass cover, the amber indicator, the bumper blade",
-       "url": "https://cdn.muapi.ai/outputs/generated/0022bc72c48e440f92ece1625a76a22a.jpg",
-       "source_page": "https://rmsothebys.com/auctions/wm26/lots/r0078-1972-citroen-ds-21-pallas/"
-      },
-      {
-       "role": "Front corner close-up: the wing, the headlamp, the indicator, the chrome bumper with its black rubber over-rider, the front wheel with its chrome hub cap",
-       "url": "https://cdn.muapi.ai/outputs/generated/34dfa5e66fac47c784a9f9c42b99fca7.jpg",
-       "source_page": "https://rmsothebys.com/auctions/wm26/lots/r0078-1972-citroen-ds-21-pallas/"
-      },
-      {
-       "role": "Roof pillar close-up: the trumpet-shaped amber indicator at the top of the stainless rear roof pillar",
-       "url": "https://cdn.muapi.ai/outputs/generated/4f152d2359b04c2f9ca9019f323b813b.jpg",
-       "source_page": "https://rmsothebys.com/auctions/wm26/lots/r0078-1972-citroen-ds-21-pallas/"
-      },
-      {
-       "role": "Badge close-up: the small Pallas badge on the stainless rear roof pillar",
-       "url": "https://cdn.muapi.ai/outputs/generated/046a3ae7a9994a0a99d07a4fc676be92.jpg",
-       "source_page": "https://rmsothebys.com/auctions/wm26/lots/r0078-1972-citroen-ds-21-pallas/"
-      },
-      {
-       "role": "Lettering close-up: the DS 21 boot badge - bold gold DS 21 letters above a small INJECTION ELECTRONIQUE line; the model for the DS 21 title only",
-       "url": "https://cdn.muapi.ai/outputs/generated/128fa1bbb8c846eca5eabaee457ebe7a.jpg",
-       "source_page": "https://rmsothebys.com/auctions/wm26/lots/r0078-1972-citroen-ds-21-pallas/"
-      }
-     ]
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Studio di Forma",
-    "why": "Brief: DIRECTED - night curve, the inner headlamps turn with the steering. Suggestion only."
-   },
-   "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
-   "candidate_authority": "Owner 13 Oct 2026 21:18: 'Let's create 10 more heroes with our most recent evolutionized workflow'; 21:56: 'just go and generate', 'I approve 80 to 20 ratio is directed to free'. Raw heroes for approval 1; fixes only on the picks, then approval 2 (the last).",
-   "full_source_url": "full/16810ed16c05-studio-ten-20261013-citroen-ds21-pallas.png",
-   "full_source_sha256": "16810ed16c05eac8d667f54b42cc38b69123c310c59d7891d0b4d5d91751b310",
-   "full_source_bytes": 9700793,
-   "full_source_pixels": [
-    3312,
-    2480
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": null,
-    "collection": null,
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "no suggestion yet",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "9290d4c5-b729-41e3-9adb-a8903f52238a",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T20:27:09.794965+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/9290d4c5-b729-41e3-9adb-a8903f52238a_4d622a5d.png",
-     "page_url": "https://muapi.ai/predictions/9290d4c5-b729-41e3-9adb-a8903f52238a",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, the low nose, the covered twin headlamps, the pale roof, the stainless rear roof pillars, the chrome hub caps (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/59ddde1f258b4982a2d4c930c797521a.jpg",
-       "source_page": "https://rmsothebys.com/auctions/wm26/lots/r0078-1972-citroen-ds-21-pallas/"
-      },
-      {
-       "role": "Front: both twin-headlamp units behind their glass covers, the thin chrome bumper and centre bar, the amber indicators at the bumper ends, the mirrors on the wings (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/1b2fa60db1fc4591ac09dd1eea938e51.jpg",
-       "source_page": "https://rmsothebys.com/auctions/wm26/lots/r0078-1972-citroen-ds-21-pallas/"
-      },
-      {
-       "role": "Front, wider: the whole nose and the roof (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/611ff493d5304211a08594cdb1588dfc.jpg",
-       "source_page": "https://rmsothebys.com/auctions/wm26/lots/r0078-1972-citroen-ds-21-pallas/"
-      },
-      {
-       "role": "Side profile (right side): proportions - the long body, the half-covered rear wheel, the roof and the stainless rear pillar, wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/generated/1664d9210aac4e868466b19bd3d75d4c.jpg",
-       "source_page": "https://rmsothebys.com/auctions/wm26/lots/r0078-1972-citroen-ds-21-pallas/"
-      },
-      {
-       "role": "Headlamp close-up (left): the two round lamps behind one smooth glass cover in a chrome-edged teardrop housing, the amber indicator below it, the bumper",
-       "url": "https://cdn.muapi.ai/outputs/generated/c5f0d520e0b34d80b9f61ad7e4453013.jpg",
-       "source_page": "https://rmsothebys.com/auctions/wm26/lots/r0078-1972-citroen-ds-21-pallas/"
-      },
-      {
-       "role": "Headlamp close-up (right): the two lamps with yellow bulbs behind the glass cover, the amber indicator, the bumper blade",
-       "url": "https://cdn.muapi.ai/outputs/generated/0022bc72c48e440f92ece1625a76a22a.jpg",
-       "source_page": "https://rmsothebys.com/auctions/wm26/lots/r0078-1972-citroen-ds-21-pallas/"
-      },
-      {
-       "role": "Front corner close-up: the wing, the headlamp, the indicator, the chrome bumper with its black rubber over-rider, the front wheel with its chrome hub cap",
-       "url": "https://cdn.muapi.ai/outputs/generated/34dfa5e66fac47c784a9f9c42b99fca7.jpg",
-       "source_page": "https://rmsothebys.com/auctions/wm26/lots/r0078-1972-citroen-ds-21-pallas/"
-      },
-      {
-       "role": "Roof pillar close-up: the trumpet-shaped amber indicator at the top of the stainless rear roof pillar",
-       "url": "https://cdn.muapi.ai/outputs/generated/4f152d2359b04c2f9ca9019f323b813b.jpg",
-       "source_page": "https://rmsothebys.com/auctions/wm26/lots/r0078-1972-citroen-ds-21-pallas/"
-      },
-      {
-       "role": "Badge close-up: the small Pallas badge on the stainless rear roof pillar",
-       "url": "https://cdn.muapi.ai/outputs/generated/046a3ae7a9994a0a99d07a4fc676be92.jpg",
-       "source_page": "https://rmsothebys.com/auctions/wm26/lots/r0078-1972-citroen-ds-21-pallas/"
-      },
-      {
-       "role": "Lettering close-up: the DS 21 boot badge - bold gold DS 21 letters above a small INJECTION ELECTRONIQUE line; the model for the DS 21 title only",
-       "url": "https://cdn.muapi.ai/outputs/generated/128fa1bbb8c846eca5eabaee457ebe7a.jpg",
-       "source_page": "https://rmsothebys.com/auctions/wm26/lots/r0078-1972-citroen-ds-21-pallas/"
-      }
-     ],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-13T20:27:09.794965+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-13T20:31:51.620630+00:00",
-    "updated_source": "candidate generated"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
    "key": "studio-ten-20261013-honda-s2000-ap1",
    "name": "Honda S2000 (AP1) - DIRECTED",
    "notion_url": null,
@@ -2747,7 +2160,7 @@
     "why": "Brief: DIRECTED - 9,000 rpm, the digital tachometer blown up and lit to the 9. Suggestion only."
    },
    "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
-   "candidate_authority": "Owner 13 Oct 2026 21:18: 'Let's create 10 more heroes with our most recent evolutionized workflow'; 21:56: 'just go and generate', 'I approve 80 to 20 ratio is directed to free'. Raw heroes for approval 1; fixes only on the picks, then approval 2 (the last).",
+   "candidate_authority": "Owner 13 Oct 2026 21:18-21:56: ten new heroes, no lines first, 80/20 DIRECTED/FREE. Approval 1 at 23:07: I love Honda. I love G500. I love both Camaro and GTR. Nine eleven GT three RS is good ... let's keep this one ... fix it. Enzo, I love Enzo. GTI is sort of fine ... Just approve it. What I don't love is DS ... Same for Porsche 911 2.0 and GTO. The seven kept get their localized detail fixes; approval 2 is the last approval.",
    "full_source_url": "full/299fd168ff31-studio-ten-20261013-honda-s2000-ap1.png",
    "full_source_sha256": "299fd168ff31917eff3f24f2c86ae8732ff2804879bc736ddf60f082cc1152c6",
    "full_source_bytes": 5984351,
@@ -2948,7 +2361,7 @@
     "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Suggestion only."
    },
    "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
-   "candidate_authority": "Owner 13 Oct 2026 21:18: 'Let's create 10 more heroes with our most recent evolutionized workflow'; 21:56: 'just go and generate', 'I approve 80 to 20 ratio is directed to free'. Raw heroes for approval 1; fixes only on the picks, then approval 2 (the last).",
+   "candidate_authority": "Owner 13 Oct 2026 21:18-21:56: ten new heroes, no lines first, 80/20 DIRECTED/FREE. Approval 1 at 23:07: I love Honda. I love G500. I love both Camaro and GTR. Nine eleven GT three RS is good ... let's keep this one ... fix it. Enzo, I love Enzo. GTI is sort of fine ... Just approve it. What I don't love is DS ... Same for Porsche 911 2.0 and GTO. The seven kept get their localized detail fixes; approval 2 is the last approval.",
    "full_source_url": "full/c2af7d5053fd-studio-ten-20261013-chevrolet-camaro-z28.png",
    "full_source_sha256": "c2af7d5053fdd1cad542f9716d270ce58a574a1694966ab8add7d0b220232ec2",
    "full_source_bytes": 12258058,
@@ -3154,7 +2567,7 @@
     "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Suggestion only."
    },
    "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
-   "candidate_authority": "Owner 13 Oct 2026 21:18: 'Let's create 10 more heroes with our most recent evolutionized workflow'; 21:56: 'just go and generate', 'I approve 80 to 20 ratio is directed to free'. Raw heroes for approval 1; fixes only on the picks, then approval 2 (the last).",
+   "candidate_authority": "Owner 13 Oct 2026 21:18-21:56: ten new heroes, no lines first, 80/20 DIRECTED/FREE. Approval 1 at 23:07: I love Honda. I love G500. I love both Camaro and GTR. Nine eleven GT three RS is good ... let's keep this one ... fix it. Enzo, I love Enzo. GTI is sort of fine ... Just approve it. What I don't love is DS ... Same for Porsche 911 2.0 and GTO. The seven kept get their localized detail fixes; approval 2 is the last approval.",
    "full_source_url": "full/8b0d882c94d9-studio-ten-20261013-nissan-gt-r-r35.png",
    "full_source_sha256": "8b0d882c94d99ac46207ad54f923690c8de6448462f053060173904e94f122f9",
    "full_source_bytes": 12585355,
@@ -9832,16 +9245,6 @@
    ]
   },
   {
-   "key": "studio-ten-20261013-citroen-ds21-pallas",
-   "declared_sha256": "16810ed16c05eac8d667f54b42cc38b69123c310c59d7891d0b4d5d91751b310",
-   "applied": true,
-   "preview": "assets/studio-ten-20261013-citroen-ds21-pallas-16810ed16c05-current.jpg",
-   "pixels": [
-    3312,
-    2480
-   ]
-  },
-  {
    "key": "studio-ten-20261013-mercedes-g500-w463",
    "declared_sha256": "7dea98e250d590bb941eb653a394ca64f349d1fd248c8871e675c083afadd3e2",
    "applied": true,
@@ -9872,16 +9275,6 @@
    ]
   },
   {
-   "key": "studio-ten-20261013-ferrari-250-gto",
-   "declared_sha256": "1f68a96c0b2e1e994becaf241d04f7e4de07fc7c4f759beacdae350fd8c916a9",
-   "applied": true,
-   "preview": "assets/studio-ten-20261013-ferrari-250-gto-1f68a96c0b2e-current.jpg",
-   "pixels": [
-    2480,
-    3312
-   ]
-  },
-  {
    "key": "studio-ten-20261013-porsche-911-gt3-rs-992",
    "declared_sha256": "89d2f14d4c014a882792e3def3b9cb295aef289391a8245426493ec1656f1d2f",
    "applied": true,
@@ -9889,16 +9282,6 @@
    "pixels": [
     3312,
     2480
-   ]
-  },
-  {
-   "key": "studio-ten-20261013-porsche-911-1965",
-   "declared_sha256": "df8b4446a6f8ecc4ead8c7c1cc07910d235ace09d0ad55f61baaa74fd1b57516",
-   "applied": true,
-   "preview": "assets/studio-ten-20261013-porsche-911-1965-df8b4446a6f8-current.jpg",
-   "pixels": [
-    2480,
-    3312
    ]
   },
   {
