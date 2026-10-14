@@ -1,7 +1,7 @@
 {
  "schema_version": 3,
- "built": "2026-10-13 23:11",
- "accessed_date": "2026-10-13",
+ "built": "2026-10-14 03:28",
+ "accessed_date": "2026-10-14",
  "collections": [
   "American Form",
   "Forma / Motion",
@@ -1238,20 +1238,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-ten-20261013-porsche-911-gt3-rs-992-89d2f14d4c01-current.jpg",
+   "preview": "assets/studio-ten-20261013-porsche-911-gt3-rs-992-837e3ec82122-current.jpg",
    "preview_pixels": [
     1600,
     1198
    ],
    "source_file": "pipeline/studio-ten-20261013/t1/heroes/porsche-911-gt3-rs-992/final-native.png",
-   "source_sha256": "89d2f14d4c014a882792e3def3b9cb295aef289391a8245426493ec1656f1d2f",
+   "source_sha256": "837e3ec821227d690e821f5cd2d277829004c80e0e3dcf77a07747235e5ca050",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
+   "delivery_status": "Fixed version - approval 2, the last. 16 local fixes. The lot waits for the new listing structure.",
    "candidate_created_at": "2026-10-13T20:32:12.594338+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -1328,9 +1328,9 @@
    },
    "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
    "candidate_authority": "Owner 13 Oct 2026 21:18-21:56: ten new heroes, no lines first, 80/20 DIRECTED/FREE. Approval 1 at 23:07: I love Honda. I love G500. I love both Camaro and GTR. Nine eleven GT three RS is good ... let's keep this one ... fix it. Enzo, I love Enzo. GTI is sort of fine ... Just approve it. What I don't love is DS ... Same for Porsche 911 2.0 and GTO. The seven kept get their localized detail fixes; approval 2 is the last approval.",
-   "full_source_url": "full/89d2f14d4c01-studio-ten-20261013-porsche-911-gt3-rs-992.png",
-   "full_source_sha256": "89d2f14d4c014a882792e3def3b9cb295aef289391a8245426493ec1656f1d2f",
-   "full_source_bytes": 9648320,
+   "full_source_url": "full/837e3ec82122-studio-ten-20261013-porsche-911-gt3-rs-992.png",
+   "full_source_sha256": "837e3ec821227d690e821f5cd2d277829004c80e0e3dcf77a07747235e5ca050",
+   "full_source_bytes": 8617731,
    "full_source_pixels": [
     3312,
     2480
@@ -1444,20 +1444,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-ten-20261013-ferrari-enzo-8bd0775c5ab3-current.jpg",
+   "preview": "assets/studio-ten-20261013-ferrari-enzo-e7d7336b60ea-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-ten-20261013/t1/heroes/ferrari-enzo/final-native.png",
-   "source_sha256": "8bd0775c5ab320473969577595da3fcf7f471bb274e7cd7ef18900067dc71ce6",
+   "source_sha256": "e7d7336b60ea89737b34ddb5338dafed2222ba13a09a3b280e99af530d7335d5",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
+   "delivery_status": "Fixed version - approval 2, the last. 4 local fixes. The lot waits for the new listing structure.",
    "candidate_created_at": "2026-10-13T20:31:57.672418+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -1539,9 +1539,9 @@
    },
    "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
    "candidate_authority": "Owner 13 Oct 2026 21:18-21:56: ten new heroes, no lines first, 80/20 DIRECTED/FREE. Approval 1 at 23:07: I love Honda. I love G500. I love both Camaro and GTR. Nine eleven GT three RS is good ... let's keep this one ... fix it. Enzo, I love Enzo. GTI is sort of fine ... Just approve it. What I don't love is DS ... Same for Porsche 911 2.0 and GTO. The seven kept get their localized detail fixes; approval 2 is the last approval.",
-   "full_source_url": "full/8bd0775c5ab3-studio-ten-20261013-ferrari-enzo.png",
-   "full_source_sha256": "8bd0775c5ab320473969577595da3fcf7f471bb274e7cd7ef18900067dc71ce6",
-   "full_source_bytes": 5606948,
+   "full_source_url": "full/e7d7336b60ea-studio-ten-20261013-ferrari-enzo.png",
+   "full_source_sha256": "e7d7336b60ea89737b34ddb5338dafed2222ba13a09a3b280e99af530d7335d5",
+   "full_source_bytes": 4870692,
    "full_source_pixels": [
     2480,
     3312
@@ -1673,7 +1673,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
+   "delivery_status": "Checked version - approval 2, the last. Nothing needed fixing. The lot waits for the new listing structure.",
    "candidate_created_at": "2026-10-13T20:32:15.727341+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -1866,20 +1866,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-ten-20261013-mercedes-g500-w463-7dea98e250d5-current.jpg",
+   "preview": "assets/studio-ten-20261013-mercedes-g500-w463-1848cc121e3d-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-ten-20261013/t1/heroes/mercedes-g500-w463/final-native.png",
-   "source_sha256": "7dea98e250d590bb941eb653a394ca64f349d1fd248c8871e675c083afadd3e2",
+   "source_sha256": "1848cc121e3d855e5c955c3c2015ae9010eb8bea1e3a4196f0506edf069f29d3",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
+   "delivery_status": "Fixed version - approval 2, the last. 1 local fix. The lot waits for the new listing structure.",
    "candidate_created_at": "2026-10-13T20:32:03.529109+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -1956,9 +1956,9 @@
    },
    "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
    "candidate_authority": "Owner 13 Oct 2026 21:18-21:56: ten new heroes, no lines first, 80/20 DIRECTED/FREE. Approval 1 at 23:07: I love Honda. I love G500. I love both Camaro and GTR. Nine eleven GT three RS is good ... let's keep this one ... fix it. Enzo, I love Enzo. GTI is sort of fine ... Just approve it. What I don't love is DS ... Same for Porsche 911 2.0 and GTO. The seven kept get their localized detail fixes; approval 2 is the last approval.",
-   "full_source_url": "full/7dea98e250d5-studio-ten-20261013-mercedes-g500-w463.png",
-   "full_source_sha256": "7dea98e250d590bb941eb653a394ca64f349d1fd248c8871e675c083afadd3e2",
-   "full_source_bytes": 11332785,
+   "full_source_url": "full/1848cc121e3d-studio-ten-20261013-mercedes-g500-w463.png",
+   "full_source_sha256": "1848cc121e3d855e5c955c3c2015ae9010eb8bea1e3a4196f0506edf069f29d3",
+   "full_source_bytes": 10370711,
    "full_source_pixels": [
     2480,
     3312
@@ -2071,20 +2071,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-ten-20261013-honda-s2000-ap1-299fd168ff31-current.jpg",
+   "preview": "assets/studio-ten-20261013-honda-s2000-ap1-0f0d526f4b7f-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-ten-20261013/t1/heroes/honda-s2000-ap1/final-native.png",
-   "source_sha256": "299fd168ff31917eff3f24f2c86ae8732ff2804879bc736ddf60f082cc1152c6",
+   "source_sha256": "0f0d526f4b7f8faa7594bd83a67e320e6b09e15b2a3fcbae28f50937b21c7a92",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
+   "delivery_status": "Fixed version - approval 2, the last. 4 local fixes. The lot waits for the new listing structure.",
    "candidate_created_at": "2026-10-13T20:32:00.564562+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -2153,6 +2153,16 @@
        "source_page": "https://collectingcars.com/for-sale/2000-honda-s2000-1"
       }
      ]
+    },
+    {
+     "role": "edit, not in the final chain",
+     "request_id": "7724aff0-8710-4180-a532-8357f71d9477",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:27:25.807270+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/7724aff0-8710-4180-a532-8357f71d9477_4de8e3ab.png",
+     "page_url": "https://muapi.ai/predictions/7724aff0-8710-4180-a532-8357f71d9477",
+     "target_id": "fix-g1-tach-3-1",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -2161,9 +2171,9 @@
    },
    "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
    "candidate_authority": "Owner 13 Oct 2026 21:18-21:56: ten new heroes, no lines first, 80/20 DIRECTED/FREE. Approval 1 at 23:07: I love Honda. I love G500. I love both Camaro and GTR. Nine eleven GT three RS is good ... let's keep this one ... fix it. Enzo, I love Enzo. GTI is sort of fine ... Just approve it. What I don't love is DS ... Same for Porsche 911 2.0 and GTO. The seven kept get their localized detail fixes; approval 2 is the last approval.",
-   "full_source_url": "full/299fd168ff31-studio-ten-20261013-honda-s2000-ap1.png",
-   "full_source_sha256": "299fd168ff31917eff3f24f2c86ae8732ff2804879bc736ddf60f082cc1152c6",
-   "full_source_bytes": 5984351,
+   "full_source_url": "full/0f0d526f4b7f-studio-ten-20261013-honda-s2000-ap1.png",
+   "full_source_sha256": "0f0d526f4b7f8faa7594bd83a67e320e6b09e15b2a3fcbae28f50937b21c7a92",
+   "full_source_bytes": 5110312,
    "full_source_pixels": [
     2480,
     3312
@@ -2252,13 +2262,24 @@
       }
      ],
      "source": "pipeline/studio-ten-20261013/studio-candidates.json"
+    },
+    {
+     "role": "edit, not in the final chain",
+     "request_id": "7724aff0-8710-4180-a532-8357f71d9477",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:27:25.807270+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/7724aff0-8710-4180-a532-8357f71d9477_4de8e3ab.png",
+     "page_url": "https://muapi.ai/predictions/7724aff0-8710-4180-a532-8357f71d9477",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-13T20:27:20.464549+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-13T20:32:00.564562+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-13T21:27:25.807270+00:00",
+    "updated_source": "MuAPI edit, not in the final chain"
    },
    "status": {
     "code": "review",
@@ -2277,20 +2298,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-ten-20261013-chevrolet-camaro-z28-c2af7d5053fd-current.jpg",
+   "preview": "assets/studio-ten-20261013-chevrolet-camaro-z28-a7cc59ed293e-current.jpg",
    "preview_pixels": [
     1600,
     1198
    ],
    "source_file": "pipeline/studio-ten-20261013/t1/heroes/chevrolet-camaro-z28/final-native.png",
-   "source_sha256": "c2af7d5053fdd1cad542f9716d270ce58a574a1694966ab8add7d0b220232ec2",
+   "source_sha256": "a7cc59ed293e35d691d3eb196539d80948455fbefe83a69452e3c77db1b258f6",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
+   "delivery_status": "Fixed version - approval 2, the last. 4 local fixes. The lot waits for the new listing structure.",
    "candidate_created_at": "2026-10-13T20:31:48.719192+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -2354,6 +2375,36 @@
        "source_page": "https://rmsothebys.com/auctions/rj24/lots/r0026-1969-chevrolet-camaro-z28-sport-coupe/"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "2f230078-6cea-42a1-bfb9-7e6d995b4ec6",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:57:52.357443+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2f230078-6cea-42a1-bfb9-7e6d995b4ec6_2534abd2.png",
+     "page_url": "https://muapi.ai/predictions/2f230078-6cea-42a1-bfb9-7e6d995b4ec6",
+     "target_id": "ft-tyre",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "7bb02753-c754-473f-a57b-00d0601c719e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:57:54.177178+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/7bb02753-c754-473f-a57b-00d0601c719e_df683aff.png",
+     "page_url": "https://muapi.ai/predictions/7bb02753-c754-473f-a57b-00d0601c719e",
+     "target_id": "rt-tyre",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "c598dbbb-2b32-4852-aaf4-731de41a9c1f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:57:56.001232+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c598dbbb-2b32-4852-aaf4-731de41a9c1f_46091b86.png",
+     "page_url": "https://muapi.ai/predictions/c598dbbb-2b32-4852-aaf4-731de41a9c1f",
+     "target_id": "wing-script",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -2362,9 +2413,9 @@
    },
    "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
    "candidate_authority": "Owner 13 Oct 2026 21:18-21:56: ten new heroes, no lines first, 80/20 DIRECTED/FREE. Approval 1 at 23:07: I love Honda. I love G500. I love both Camaro and GTR. Nine eleven GT three RS is good ... let's keep this one ... fix it. Enzo, I love Enzo. GTI is sort of fine ... Just approve it. What I don't love is DS ... Same for Porsche 911 2.0 and GTO. The seven kept get their localized detail fixes; approval 2 is the last approval.",
-   "full_source_url": "full/c2af7d5053fd-studio-ten-20261013-chevrolet-camaro-z28.png",
-   "full_source_sha256": "c2af7d5053fdd1cad542f9716d270ce58a574a1694966ab8add7d0b220232ec2",
-   "full_source_bytes": 12258058,
+   "full_source_url": "full/a7cc59ed293e-studio-ten-20261013-chevrolet-camaro-z28.png",
+   "full_source_sha256": "a7cc59ed293e35d691d3eb196539d80948455fbefe83a69452e3c77db1b258f6",
+   "full_source_bytes": 11730508,
    "full_source_pixels": [
     3312,
     2480
@@ -2448,13 +2499,46 @@
       }
      ],
      "source": "pipeline/studio-ten-20261013/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "2f230078-6cea-42a1-bfb9-7e6d995b4ec6",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:57:52.357443+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2f230078-6cea-42a1-bfb9-7e6d995b4ec6_2534abd2.png",
+     "page_url": "https://muapi.ai/predictions/2f230078-6cea-42a1-bfb9-7e6d995b4ec6",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "7bb02753-c754-473f-a57b-00d0601c719e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:57:54.177178+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/7bb02753-c754-473f-a57b-00d0601c719e_df683aff.png",
+     "page_url": "https://muapi.ai/predictions/7bb02753-c754-473f-a57b-00d0601c719e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "c598dbbb-2b32-4852-aaf4-731de41a9c1f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:57:56.001232+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c598dbbb-2b32-4852-aaf4-731de41a9c1f_46091b86.png",
+     "page_url": "https://muapi.ai/predictions/c598dbbb-2b32-4852-aaf4-731de41a9c1f",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-13T20:27:06.288031+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-13T20:31:48.719192+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-13T21:57:56.001232+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -2473,20 +2557,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-ten-20261013-nissan-gt-r-r35-8b0d882c94d9-current.jpg",
+   "preview": "assets/studio-ten-20261013-nissan-gt-r-r35-d2e098695375-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-ten-20261013/t1/heroes/nissan-gt-r-r35/final-native.png",
-   "source_sha256": "8b0d882c94d99ac46207ad54f923690c8de6448462f053060173904e94f122f9",
+   "source_sha256": "d2e0986953752a633ea81035f719d5131f3b6c3a8891d50d1609a61eadb83df2",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Lot follows your approval",
+   "delivery_status": "Fixed version - approval 2, the last. 21 local fixes. The lot waits for the new listing structure.",
    "candidate_created_at": "2026-10-13T20:32:06.596344+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -2560,6 +2644,106 @@
        "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "b49cacab-8b09-4f71-970a-1928dbed10c0",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:35:11.759859+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b49cacab-8b09-4f71-970a-1928dbed10c0_007af872.png",
+     "page_url": "https://muapi.ai/predictions/b49cacab-8b09-4f71-970a-1928dbed10c0",
+     "target_id": "wf-tyre",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "76a2f0bf-157f-483b-97b5-fd1280c0ebcf",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:35:13.591090+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/76a2f0bf-157f-483b-97b5-fd1280c0ebcf_18a4e384.png",
+     "page_url": "https://muapi.ai/predictions/76a2f0bf-157f-483b-97b5-fd1280c0ebcf",
+     "target_id": "i4-tyre",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "9c9b7324-b755-4e57-934c-c18b6c07708e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:35:15.398656+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9c9b7324-b755-4e57-934c-c18b6c07708e_3f7fb8c0.png",
+     "page_url": "https://muapi.ai/predictions/9c9b7324-b755-4e57-934c-c18b6c07708e",
+     "target_id": "i4-hub",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "b373ce53-90d4-4747-bce1-7306eab233db",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:35:17.285004+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b373ce53-90d4-4747-bce1-7306eab233db_9d1d8658.png",
+     "page_url": "https://muapi.ai/predictions/b373ce53-90d4-4747-bce1-7306eab233db",
+     "target_id": "wf-hub",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "b4349e2a-3710-40b4-bea3-cb603c4af99c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:52:59.060428+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b4349e2a-3710-40b4-bea3-cb603c4af99c_dacc02f3.png",
+     "page_url": "https://muapi.ai/predictions/b4349e2a-3710-40b4-bea3-cb603c4af99c",
+     "target_id": "s3L-tyre",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "c659f7ba-f3b0-48d2-a5fe-e75e400962ff",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:53:00.880626+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c659f7ba-f3b0-48d2-a5fe-e75e400962ff_cb8f97e1.png",
+     "page_url": "https://muapi.ai/predictions/c659f7ba-f3b0-48d2-a5fe-e75e400962ff",
+     "target_id": "s3R-tyre",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "4975003f-9628-431e-90d3-ded16a275415",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:53:02.701232+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4975003f-9628-431e-90d3-ded16a275415_f5c1d1d2.png",
+     "page_url": "https://muapi.ai/predictions/4975003f-9628-431e-90d3-ded16a275415",
+     "target_id": "wf-hub",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "53b2d587-c215-49dc-8136-a929f8dbcfdf",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:53:04.493179+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/53b2d587-c215-49dc-8136-a929f8dbcfdf_370b590f.png",
+     "page_url": "https://muapi.ai/predictions/53b2d587-c215-49dc-8136-a929f8dbcfdf",
+     "target_id": "s3L-hub",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "46005d6a-10d8-428f-b5c5-ed193e1ee3b7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T22:14:51.090962+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/46005d6a-10d8-428f-b5c5-ed193e1ee3b7_e57b3a74.png",
+     "page_url": "https://muapi.ai/predictions/46005d6a-10d8-428f-b5c5-ed193e1ee3b7",
+     "target_id": "s3R-hub",
+     "references": []
+    },
+    {
+     "role": "edit, not in the final chain",
+     "request_id": "0f210e1f-18f3-43dc-ad9e-35b707650860",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:53:06.333658+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0f210e1f-18f3-43dc-ad9e-35b707650860_859e1481.png",
+     "page_url": "https://muapi.ai/predictions/0f210e1f-18f3-43dc-ad9e-35b707650860",
+     "target_id": "fix-f3-s3R-hub-1",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -2568,9 +2752,9 @@
    },
    "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
    "candidate_authority": "Owner 13 Oct 2026 21:18-21:56: ten new heroes, no lines first, 80/20 DIRECTED/FREE. Approval 1 at 23:07: I love Honda. I love G500. I love both Camaro and GTR. Nine eleven GT three RS is good ... let's keep this one ... fix it. Enzo, I love Enzo. GTI is sort of fine ... Just approve it. What I don't love is DS ... Same for Porsche 911 2.0 and GTO. The seven kept get their localized detail fixes; approval 2 is the last approval.",
-   "full_source_url": "full/8b0d882c94d9-studio-ten-20261013-nissan-gt-r-r35.png",
-   "full_source_sha256": "8b0d882c94d99ac46207ad54f923690c8de6448462f053060173904e94f122f9",
-   "full_source_bytes": 12585355,
+   "full_source_url": "full/d2e098695375-studio-ten-20261013-nissan-gt-r-r35.png",
+   "full_source_sha256": "d2e0986953752a633ea81035f719d5131f3b6c3a8891d50d1609a61eadb83df2",
+   "full_source_bytes": 11678265,
    "full_source_pixels": [
     2480,
     3312
@@ -2664,13 +2848,123 @@
       }
      ],
      "source": "pipeline/studio-ten-20261013/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "b49cacab-8b09-4f71-970a-1928dbed10c0",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:35:11.759859+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b49cacab-8b09-4f71-970a-1928dbed10c0_007af872.png",
+     "page_url": "https://muapi.ai/predictions/b49cacab-8b09-4f71-970a-1928dbed10c0",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "76a2f0bf-157f-483b-97b5-fd1280c0ebcf",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:35:13.591090+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/76a2f0bf-157f-483b-97b5-fd1280c0ebcf_18a4e384.png",
+     "page_url": "https://muapi.ai/predictions/76a2f0bf-157f-483b-97b5-fd1280c0ebcf",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "9c9b7324-b755-4e57-934c-c18b6c07708e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:35:15.398656+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9c9b7324-b755-4e57-934c-c18b6c07708e_3f7fb8c0.png",
+     "page_url": "https://muapi.ai/predictions/9c9b7324-b755-4e57-934c-c18b6c07708e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "b373ce53-90d4-4747-bce1-7306eab233db",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:35:17.285004+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b373ce53-90d4-4747-bce1-7306eab233db_9d1d8658.png",
+     "page_url": "https://muapi.ai/predictions/b373ce53-90d4-4747-bce1-7306eab233db",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "b4349e2a-3710-40b4-bea3-cb603c4af99c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:52:59.060428+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b4349e2a-3710-40b4-bea3-cb603c4af99c_dacc02f3.png",
+     "page_url": "https://muapi.ai/predictions/b4349e2a-3710-40b4-bea3-cb603c4af99c",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "c659f7ba-f3b0-48d2-a5fe-e75e400962ff",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:53:00.880626+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c659f7ba-f3b0-48d2-a5fe-e75e400962ff_cb8f97e1.png",
+     "page_url": "https://muapi.ai/predictions/c659f7ba-f3b0-48d2-a5fe-e75e400962ff",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "4975003f-9628-431e-90d3-ded16a275415",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:53:02.701232+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4975003f-9628-431e-90d3-ded16a275415_f5c1d1d2.png",
+     "page_url": "https://muapi.ai/predictions/4975003f-9628-431e-90d3-ded16a275415",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "53b2d587-c215-49dc-8136-a929f8dbcfdf",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:53:04.493179+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/53b2d587-c215-49dc-8136-a929f8dbcfdf_370b590f.png",
+     "page_url": "https://muapi.ai/predictions/53b2d587-c215-49dc-8136-a929f8dbcfdf",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
+    },
+    {
+     "role": "edit, not in the final chain",
+     "request_id": "0f210e1f-18f3-43dc-ad9e-35b707650860",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T21:53:06.333658+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0f210e1f-18f3-43dc-ad9e-35b707650860_859e1481.png",
+     "page_url": "https://muapi.ai/predictions/0f210e1f-18f3-43dc-ad9e-35b707650860",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "46005d6a-10d8-428f-b5c5-ed193e1ee3b7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-13T22:14:51.090962+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/46005d6a-10d8-428f-b5c5-ed193e1ee3b7_e57b3a74.png",
+     "page_url": "https://muapi.ai/predictions/46005d6a-10d8-428f-b5c5-ed193e1ee3b7",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-13T20:27:27.485582+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-13T20:32:06.596344+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-13T22:14:51.090962+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -9216,9 +9510,9 @@
   },
   {
    "key": "studio-ten-20261013-nissan-gt-r-r35",
-   "declared_sha256": "8b0d882c94d99ac46207ad54f923690c8de6448462f053060173904e94f122f9",
+   "declared_sha256": "d2e0986953752a633ea81035f719d5131f3b6c3a8891d50d1609a61eadb83df2",
    "applied": true,
-   "preview": "assets/studio-ten-20261013-nissan-gt-r-r35-8b0d882c94d9-current.jpg",
+   "preview": "assets/studio-ten-20261013-nissan-gt-r-r35-d2e098695375-current.jpg",
    "pixels": [
     2480,
     3312
@@ -9226,9 +9520,9 @@
   },
   {
    "key": "studio-ten-20261013-chevrolet-camaro-z28",
-   "declared_sha256": "c2af7d5053fdd1cad542f9716d270ce58a574a1694966ab8add7d0b220232ec2",
+   "declared_sha256": "a7cc59ed293e35d691d3eb196539d80948455fbefe83a69452e3c77db1b258f6",
    "applied": true,
-   "preview": "assets/studio-ten-20261013-chevrolet-camaro-z28-c2af7d5053fd-current.jpg",
+   "preview": "assets/studio-ten-20261013-chevrolet-camaro-z28-a7cc59ed293e-current.jpg",
    "pixels": [
     3312,
     2480
@@ -9236,9 +9530,9 @@
   },
   {
    "key": "studio-ten-20261013-honda-s2000-ap1",
-   "declared_sha256": "299fd168ff31917eff3f24f2c86ae8732ff2804879bc736ddf60f082cc1152c6",
+   "declared_sha256": "0f0d526f4b7f8faa7594bd83a67e320e6b09e15b2a3fcbae28f50937b21c7a92",
    "applied": true,
-   "preview": "assets/studio-ten-20261013-honda-s2000-ap1-299fd168ff31-current.jpg",
+   "preview": "assets/studio-ten-20261013-honda-s2000-ap1-0f0d526f4b7f-current.jpg",
    "pixels": [
     2480,
     3312
@@ -9246,9 +9540,9 @@
   },
   {
    "key": "studio-ten-20261013-mercedes-g500-w463",
-   "declared_sha256": "7dea98e250d590bb941eb653a394ca64f349d1fd248c8871e675c083afadd3e2",
+   "declared_sha256": "1848cc121e3d855e5c955c3c2015ae9010eb8bea1e3a4196f0506edf069f29d3",
    "applied": true,
-   "preview": "assets/studio-ten-20261013-mercedes-g500-w463-7dea98e250d5-current.jpg",
+   "preview": "assets/studio-ten-20261013-mercedes-g500-w463-1848cc121e3d-current.jpg",
    "pixels": [
     2480,
     3312
@@ -9266,9 +9560,9 @@
   },
   {
    "key": "studio-ten-20261013-ferrari-enzo",
-   "declared_sha256": "8bd0775c5ab320473969577595da3fcf7f471bb274e7cd7ef18900067dc71ce6",
+   "declared_sha256": "e7d7336b60ea89737b34ddb5338dafed2222ba13a09a3b280e99af530d7335d5",
    "applied": true,
-   "preview": "assets/studio-ten-20261013-ferrari-enzo-8bd0775c5ab3-current.jpg",
+   "preview": "assets/studio-ten-20261013-ferrari-enzo-e7d7336b60ea-current.jpg",
    "pixels": [
     2480,
     3312
@@ -9276,9 +9570,9 @@
   },
   {
    "key": "studio-ten-20261013-porsche-911-gt3-rs-992",
-   "declared_sha256": "89d2f14d4c014a882792e3def3b9cb295aef289391a8245426493ec1656f1d2f",
+   "declared_sha256": "837e3ec821227d690e821f5cd2d277829004c80e0e3dcf77a07747235e5ca050",
    "applied": true,
-   "preview": "assets/studio-ten-20261013-porsche-911-gt3-rs-992-89d2f14d4c01-current.jpg",
+   "preview": "assets/studio-ten-20261013-porsche-911-gt3-rs-992-837e3ec82122-current.jpg",
    "pixels": [
     3312,
     2480
