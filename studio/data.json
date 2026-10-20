@@ -1,7 +1,7 @@
 {
  "schema_version": 3,
- "built": "2026-10-14 03:28",
- "accessed_date": "2026-10-14",
+ "built": "2026-10-20 20:40",
+ "accessed_date": "2026-10-20",
  "collections": [
   "American Form",
   "Forma / Motion",
@@ -1220,1751 +1220,6 @@
     "created_source": "MuAPI original",
     "updated_at": "2026-09-20T17:38:47.632726+00:00",
     "updated_source": "candidate generated"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-ten-20261013-porsche-911-gt3-rs-992",
-   "name": "Porsche 911 GT3 RS (992) - DIRECTED",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-ten-20261013-porsche-911-gt3-rs-992-837e3ec82122-current.jpg",
-   "preview_pixels": [
-    1600,
-    1198
-   ],
-   "source_file": "pipeline/studio-ten-20261013/t1/heroes/porsche-911-gt3-rs-992/final-native.png",
-   "source_sha256": "837e3ec821227d690e821f5cd2d277829004c80e0e3dcf77a07747235e5ca050",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Fixed version - approval 2, the last. 16 local fixes. The lot waits for the new listing structure.",
-   "candidate_created_at": "2026-10-13T20:32:12.594338+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "ed52a156-3e45-44d0-b7ff-54a8fd9b024b",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-13T20:27:34.545542+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/ed52a156-3e45-44d0-b7ff-54a8fd9b024b_2bf61e75.png",
-     "page_url": "https://muapi.ai/predictions/ed52a156-3e45-44d0-b7ff-54a8fd9b024b",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, the bonnet vents, the headlamps, the black front bumper and splitter, the red GT3 RS side decal, the tall swan-neck rear wing",
-       "url": "https://cdn.muapi.ai/outputs/generated/ac483dd150b04a608c90f79f262a46ac.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2023-porsche-911-992-gt3-rs-2"
-      },
-      {
-       "role": "Front three-quarter from the right: the right flank with its red GT3 RS decal, the front wing vents and fins, the swan-neck wing, the satin black wheels",
-       "url": "https://cdn.muapi.ai/outputs/generated/8d5f548b8f2b4951ac3a0b7c2e0a4833.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2023-porsche-911-992-gt3-rs-2"
-      },
-      {
-       "role": "Front: both round LED headlamps, the two bonnet vents, the small crest, the black bumper intakes and splitter, the mirrors",
-       "url": "https://cdn.muapi.ai/outputs/generated/0aa2c1c1c1cb4772a5b5f0e5fa813b86.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2023-porsche-911-992-gt3-rs-2"
-      },
-      {
-       "role": "Front three-quarter from the left, wider: the whole car, the swan-neck wing standing high above the tail",
-       "url": "https://cdn.muapi.ai/outputs/generated/095023c069bd49588999c8c0fc961f0c.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2023-porsche-911-992-gt3-rs-2"
-      },
-      {
-       "role": "Side close-up: the front wheel and arch, the black fins behind it, the red GT3 RS decal low on the door, the door mirror",
-       "url": "https://cdn.muapi.ai/outputs/generated/72d824bfe8ce45909f266126e39a0a12.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2023-porsche-911-992-gt3-rs-2"
-      },
-      {
-       "role": "Front corner close-up: the headlamp, the bonnet vents, the black bumper intake and splitter, the slim light strip in the bumper corner, the front wing vent",
-       "url": "https://cdn.muapi.ai/outputs/generated/44fcbcb3cbf044f1b8315cf640da752a.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2023-porsche-911-992-gt3-rs-2"
-      },
-      {
-       "role": "Bonnet close-up: the two large black louvred vents side by side, the small crest",
-       "url": "https://cdn.muapi.ai/outputs/generated/9774e4c9aaba4620afd4d9c26cacd025.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2023-porsche-911-992-gt3-rs-2"
-      },
-      {
-       "role": "Crest close-up: the Porsche crest on the bonnet",
-       "url": "https://cdn.muapi.ai/outputs/generated/5ef16ae0f70e42258c78bc4c403ee495.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2023-porsche-911-992-gt3-rs-2"
-      },
-      {
-       "role": "Wheel close-up: satin black ten-spoke forged wheel with a centre lock, red brake caliper, the fins behind the arch (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/1757d383edd6418ea2fc89b4d62ed90c.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2023-porsche-911-992-gt3-rs-2"
-      },
-      {
-       "role": "Headlamp close-up: round LED headlamp with the four-point daytime light",
-       "url": "https://cdn.muapi.ai/outputs/generated/20582c59098b4799baf5fc30c120b1cf.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2023-porsche-911-992-gt3-rs-2"
-      },
-      {
-       "role": "Lettering close-up: the GT3 RS badge - slanted italic capitals, GT3 solid and RS outlined; the model for the poster title only",
-       "url": "https://cdn.muapi.ai/outputs/generated/91a5e306b0174254848142084c4438e1.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2023-porsche-911-992-gt3-rs-2"
-      }
-     ]
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Forma / Motion",
-    "why": "Brief: DIRECTED - wind tunnel at night, smoke lines over the swan-neck wing. Suggestion only."
-   },
-   "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
-   "candidate_authority": "Owner 13 Oct 2026 21:18-21:56: ten new heroes, no lines first, 80/20 DIRECTED/FREE. Approval 1 at 23:07: I love Honda. I love G500. I love both Camaro and GTR. Nine eleven GT three RS is good ... let's keep this one ... fix it. Enzo, I love Enzo. GTI is sort of fine ... Just approve it. What I don't love is DS ... Same for Porsche 911 2.0 and GTO. The seven kept get their localized detail fixes; approval 2 is the last approval.",
-   "full_source_url": "full/837e3ec82122-studio-ten-20261013-porsche-911-gt3-rs-992.png",
-   "full_source_sha256": "837e3ec821227d690e821f5cd2d277829004c80e0e3dcf77a07747235e5ca050",
-   "full_source_bytes": 8617731,
-   "full_source_pixels": [
-    3312,
-    2480
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Forma / Motion",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Brief: DIRECTED - wind tunnel at night, smoke lines over the swan-neck wing. Suggestion only.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 100
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "ed52a156-3e45-44d0-b7ff-54a8fd9b024b",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T20:27:34.545542+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/ed52a156-3e45-44d0-b7ff-54a8fd9b024b_2bf61e75.png",
-     "page_url": "https://muapi.ai/predictions/ed52a156-3e45-44d0-b7ff-54a8fd9b024b",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, the bonnet vents, the headlamps, the black front bumper and splitter, the red GT3 RS side decal, the tall swan-neck rear wing",
-       "url": "https://cdn.muapi.ai/outputs/generated/ac483dd150b04a608c90f79f262a46ac.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2023-porsche-911-992-gt3-rs-2"
-      },
-      {
-       "role": "Front three-quarter from the right: the right flank with its red GT3 RS decal, the front wing vents and fins, the swan-neck wing, the satin black wheels",
-       "url": "https://cdn.muapi.ai/outputs/generated/8d5f548b8f2b4951ac3a0b7c2e0a4833.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2023-porsche-911-992-gt3-rs-2"
-      },
-      {
-       "role": "Front: both round LED headlamps, the two bonnet vents, the small crest, the black bumper intakes and splitter, the mirrors",
-       "url": "https://cdn.muapi.ai/outputs/generated/0aa2c1c1c1cb4772a5b5f0e5fa813b86.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2023-porsche-911-992-gt3-rs-2"
-      },
-      {
-       "role": "Front three-quarter from the left, wider: the whole car, the swan-neck wing standing high above the tail",
-       "url": "https://cdn.muapi.ai/outputs/generated/095023c069bd49588999c8c0fc961f0c.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2023-porsche-911-992-gt3-rs-2"
-      },
-      {
-       "role": "Side close-up: the front wheel and arch, the black fins behind it, the red GT3 RS decal low on the door, the door mirror",
-       "url": "https://cdn.muapi.ai/outputs/generated/72d824bfe8ce45909f266126e39a0a12.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2023-porsche-911-992-gt3-rs-2"
-      },
-      {
-       "role": "Front corner close-up: the headlamp, the bonnet vents, the black bumper intake and splitter, the slim light strip in the bumper corner, the front wing vent",
-       "url": "https://cdn.muapi.ai/outputs/generated/44fcbcb3cbf044f1b8315cf640da752a.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2023-porsche-911-992-gt3-rs-2"
-      },
-      {
-       "role": "Bonnet close-up: the two large black louvred vents side by side, the small crest",
-       "url": "https://cdn.muapi.ai/outputs/generated/9774e4c9aaba4620afd4d9c26cacd025.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2023-porsche-911-992-gt3-rs-2"
-      },
-      {
-       "role": "Crest close-up: the Porsche crest on the bonnet",
-       "url": "https://cdn.muapi.ai/outputs/generated/5ef16ae0f70e42258c78bc4c403ee495.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2023-porsche-911-992-gt3-rs-2"
-      },
-      {
-       "role": "Wheel close-up: satin black ten-spoke forged wheel with a centre lock, red brake caliper, the fins behind the arch (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/1757d383edd6418ea2fc89b4d62ed90c.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2023-porsche-911-992-gt3-rs-2"
-      },
-      {
-       "role": "Headlamp close-up: round LED headlamp with the four-point daytime light",
-       "url": "https://cdn.muapi.ai/outputs/generated/20582c59098b4799baf5fc30c120b1cf.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2023-porsche-911-992-gt3-rs-2"
-      },
-      {
-       "role": "Lettering close-up: the GT3 RS badge - slanted italic capitals, GT3 solid and RS outlined; the model for the poster title only",
-       "url": "https://cdn.muapi.ai/outputs/generated/91a5e306b0174254848142084c4438e1.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2023-porsche-911-992-gt3-rs-2"
-      }
-     ],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-13T20:27:34.545542+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-13T20:32:12.594338+00:00",
-    "updated_source": "candidate generated"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-ten-20261013-ferrari-enzo",
-   "name": "Ferrari Enzo - DIRECTED",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-ten-20261013-ferrari-enzo-e7d7336b60ea-current.jpg",
-   "preview_pixels": [
-    1600,
-    2137
-   ],
-   "source_file": "pipeline/studio-ten-20261013/t1/heroes/ferrari-enzo/final-native.png",
-   "source_sha256": "e7d7336b60ea89737b34ddb5338dafed2222ba13a09a3b280e99af530d7335d5",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Fixed version - approval 2, the last. 4 local fixes. The lot waits for the new listing structure.",
-   "candidate_created_at": "2026-10-13T20:31:57.672418+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "a7556902-cc11-4350-be3e-e124fb3b39bf",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-13T20:27:16.835674+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/a7556902-cc11-4350-be3e-e124fb3b39bf_e7fb87a8.png",
-     "page_url": "https://muapi.ai/predictions/a7556902-cc11-4350-be3e-e124fb3b39bf",
-     "references": [
-      {
-       "role": "Front: the pointed central nose with the small yellow Ferrari badge at its tip, the two angled headlamps, the wide black intakes either side, the mirrors on their tall stalks",
-       "url": "https://cdn.muapi.ai/outputs/generated/78b1086f2cf349a19a8094deae18afa5.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      },
-      {
-       "role": "Front three-quarter from the left with both doors raised: how the doors swing up and forward from the front pillar, their black inner panels",
-       "url": "https://cdn.muapi.ai/outputs/generated/774ae8d6cae447e0b7ef888010a1facd.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      },
-      {
-       "role": "Door close-up: one door raised, its shape and its black carbon inner panel",
-       "url": "https://cdn.muapi.ai/outputs/generated/21a1222eaf9e4c06bc90aabea2d49040.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      },
-      {
-       "role": "Front three-quarter from the right: the nose, the right headlamp, the side intake",
-       "url": "https://cdn.muapi.ai/outputs/generated/7a5d76e7721240eb913e6609e9e3daab.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      },
-      {
-       "role": "Front three-quarter from the left, wide: whole-car proportions, the side intakes, the wheels",
-       "url": "https://cdn.muapi.ai/outputs/generated/3e72a285d1104b2ebb46e5628f8a0f7c.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      },
-      {
-       "role": "Front three-quarter from the right, close: the nose, both headlamps, the intakes, the mirrors",
-       "url": "https://cdn.muapi.ai/outputs/generated/cebd6147986a4664b486ee84197de2b8.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      },
-      {
-       "role": "Nose close-up: the headlamp set high in the wing, the intake below it, the small amber marker",
-       "url": "https://cdn.muapi.ai/outputs/generated/617eae11b9bc4b31b99e98208853d73c.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      },
-      {
-       "role": "Nose badge close-up: the small yellow rectangular Ferrari badge with the black prancing horse at the nose tip",
-       "url": "https://cdn.muapi.ai/outputs/generated/e4edb74b2f934fb4a8348b73529cfb48.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      },
-      {
-       "role": "Headlamp close-up: the long angled headlamp with its projector lamps",
-       "url": "https://cdn.muapi.ai/outputs/generated/bdd6628017f54ee0a6437567853265e6.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      },
-      {
-       "role": "Front wing close-up: the yellow Ferrari shield behind the front wheel, the black vent, the mirror on its stalk, the wheel",
-       "url": "https://cdn.muapi.ai/outputs/generated/65affb84ab2a435392b67159101a3992.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      },
-      {
-       "role": "Wheel close-up: silver five-twin-spoke star alloy with the yellow prancing-horse centre cap, black brake caliper (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/ef08c2175f654ef88104b329c8f4f171.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      },
-      {
-       "role": "Lettering close-up: the Enzo Ferrari signature on the centre-tunnel plaque - flowing hand-written script; the model for the word Enzo only",
-       "url": "https://cdn.muapi.ai/outputs/generated/978dcc14cffe4eac98f61f9ffae65a69.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      }
-     ]
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Forma / Motion",
-    "why": "Brief: DIRECTED - doors up, dead-on front, symmetric like an emblem. Suggestion only."
-   },
-   "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
-   "candidate_authority": "Owner 13 Oct 2026 21:18-21:56: ten new heroes, no lines first, 80/20 DIRECTED/FREE. Approval 1 at 23:07: I love Honda. I love G500. I love both Camaro and GTR. Nine eleven GT three RS is good ... let's keep this one ... fix it. Enzo, I love Enzo. GTI is sort of fine ... Just approve it. What I don't love is DS ... Same for Porsche 911 2.0 and GTO. The seven kept get their localized detail fixes; approval 2 is the last approval.",
-   "full_source_url": "full/e7d7336b60ea-studio-ten-20261013-ferrari-enzo.png",
-   "full_source_sha256": "e7d7336b60ea89737b34ddb5338dafed2222ba13a09a3b280e99af530d7335d5",
-   "full_source_bytes": 4870692,
-   "full_source_pixels": [
-    2480,
-    3312
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Forma / Motion",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Brief: DIRECTED - doors up, dead-on front, symmetric like an emblem. Suggestion only.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 100
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "a7556902-cc11-4350-be3e-e124fb3b39bf",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T20:27:16.835674+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/a7556902-cc11-4350-be3e-e124fb3b39bf_e7fb87a8.png",
-     "page_url": "https://muapi.ai/predictions/a7556902-cc11-4350-be3e-e124fb3b39bf",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front: the pointed central nose with the small yellow Ferrari badge at its tip, the two angled headlamps, the wide black intakes either side, the mirrors on their tall stalks",
-       "url": "https://cdn.muapi.ai/outputs/generated/78b1086f2cf349a19a8094deae18afa5.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      },
-      {
-       "role": "Front three-quarter from the left with both doors raised: how the doors swing up and forward from the front pillar, their black inner panels",
-       "url": "https://cdn.muapi.ai/outputs/generated/774ae8d6cae447e0b7ef888010a1facd.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      },
-      {
-       "role": "Door close-up: one door raised, its shape and its black carbon inner panel",
-       "url": "https://cdn.muapi.ai/outputs/generated/21a1222eaf9e4c06bc90aabea2d49040.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      },
-      {
-       "role": "Front three-quarter from the right: the nose, the right headlamp, the side intake",
-       "url": "https://cdn.muapi.ai/outputs/generated/7a5d76e7721240eb913e6609e9e3daab.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      },
-      {
-       "role": "Front three-quarter from the left, wide: whole-car proportions, the side intakes, the wheels",
-       "url": "https://cdn.muapi.ai/outputs/generated/3e72a285d1104b2ebb46e5628f8a0f7c.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      },
-      {
-       "role": "Front three-quarter from the right, close: the nose, both headlamps, the intakes, the mirrors",
-       "url": "https://cdn.muapi.ai/outputs/generated/cebd6147986a4664b486ee84197de2b8.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      },
-      {
-       "role": "Nose close-up: the headlamp set high in the wing, the intake below it, the small amber marker",
-       "url": "https://cdn.muapi.ai/outputs/generated/617eae11b9bc4b31b99e98208853d73c.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      },
-      {
-       "role": "Nose badge close-up: the small yellow rectangular Ferrari badge with the black prancing horse at the nose tip",
-       "url": "https://cdn.muapi.ai/outputs/generated/e4edb74b2f934fb4a8348b73529cfb48.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      },
-      {
-       "role": "Headlamp close-up: the long angled headlamp with its projector lamps",
-       "url": "https://cdn.muapi.ai/outputs/generated/bdd6628017f54ee0a6437567853265e6.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      },
-      {
-       "role": "Front wing close-up: the yellow Ferrari shield behind the front wheel, the black vent, the mirror on its stalk, the wheel",
-       "url": "https://cdn.muapi.ai/outputs/generated/65affb84ab2a435392b67159101a3992.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      },
-      {
-       "role": "Wheel close-up: silver five-twin-spoke star alloy with the yellow prancing-horse centre cap, black brake caliper (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/ef08c2175f654ef88104b329c8f4f171.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      },
-      {
-       "role": "Lettering close-up: the Enzo Ferrari signature on the centre-tunnel plaque - flowing hand-written script; the model for the word Enzo only",
-       "url": "https://cdn.muapi.ai/outputs/generated/978dcc14cffe4eac98f61f9ffae65a69.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0051-2003-ferrari-enzo/"
-      }
-     ],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-13T20:27:16.835674+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-13T20:31:57.672418+00:00",
-    "updated_source": "candidate generated"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-ten-20261013-vw-golf-gti-mk1",
-   "name": "Volkswagen Golf GTI (Mk1) - DIRECTED",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-ten-20261013-vw-golf-gti-mk1-877e5e98411f-current.jpg",
-   "preview_pixels": [
-    1600,
-    1198
-   ],
-   "source_file": "pipeline/studio-ten-20261013/t1/heroes/vw-golf-gti-mk1/final-native.png",
-   "source_sha256": "877e5e98411ffe2bdce5912cf9afa0ac663094ef192563ca4d45c441c6533848",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Checked version - approval 2, the last. Nothing needed fixing. The lot waits for the new listing structure.",
-   "candidate_created_at": "2026-10-13T20:32:15.727341+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "0dfc4cba-4209-4c0b-bd3c-f117c1bde205",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-13T20:27:38.079366+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/0dfc4cba-4209-4c0b-bd3c-f117c1bde205_47feba30.png",
-     "page_url": "https://muapi.ai/predictions/0dfc4cba-4209-4c0b-bd3c-f117c1bde205",
-     "references": [
-      {
-       "role": "Front: the black grille edged top and bottom by a thin red line, the round VW badge in its middle, the GTI badge on its right half, both round headlamps, the black bumper with amber indicators, the black front spoiler (ignore the plate brackets under the bumper)",
-       "url": "https://cdn.muapi.ai/outputs/generated/4ca31ec9ede64b16b877e4be0f4dbcd9.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1977-volkswagen-golf-mk1-gti"
-      },
-      {
-       "role": "Front close-up (left half): headlamp, grille, red line, bumper, indicator, spoiler (ignore the plate brackets)",
-       "url": "https://cdn.muapi.ai/outputs/generated/8eedd94e82084a8b9849bd6435b20550.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1977-volkswagen-golf-mk1-gti"
-      },
-      {
-       "role": "Grille close-up: the GTI badge - chrome serif GTI letters on a black plate - on the black horizontal-bar grille, the red line along the grille edge",
-       "url": "https://cdn.muapi.ai/outputs/generated/36b20c91dfe5461aa3450f0f939a9390.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1977-volkswagen-golf-mk1-gti"
-      },
-      {
-       "role": "Front three-quarter from the right: whole-car proportions, the black arch extensions, the black side stripes (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/3c609bc6ef7e4c018befa1119dbfb7a3.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1977-volkswagen-golf-mk1-gti"
-      },
-      {
-       "role": "Front three-quarter from the left: the left flank, the stripes, the wheels (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/f2c11f6327e6431b892c96647e5f4cca.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1977-volkswagen-golf-mk1-gti"
-      },
-      {
-       "role": "Front three-quarter from the left, close: the nose and the front wing (ignore the plate brackets)",
-       "url": "https://cdn.muapi.ai/outputs/generated/32a7d616896248cc82c6a2b1f7619e80.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1977-volkswagen-golf-mk1-gti"
-      },
-      {
-       "role": "Side profile (left side): proportions - the upright tailgate, the short bonnet, the twin black stripes along the lower doors, wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/generated/1befab051fb84e90866afb4ab5b3a198.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1977-volkswagen-golf-mk1-gti"
-      },
-      {
-       "role": "Wheel close-up: silver alloy wheel with a ring of dark rounded pockets and a black centre, the black wheel-arch extension (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/53db7bfff6c04efda98bdfffbfb90740.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1977-volkswagen-golf-mk1-gti"
-      },
-      {
-       "role": "Bumper corner close-up: the amber indicator in the black steel bumper",
-       "url": "https://cdn.muapi.ai/outputs/generated/1ae90ff140264d80af142ab0d5dfda91.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1977-volkswagen-golf-mk1-gti"
-      },
-      {
-       "role": "Front corner close-up: the headlamp, the grille with its red line, the bumper and indicator",
-       "url": "https://cdn.muapi.ai/outputs/generated/166e6125fbe048e4bd8d16668d1df49a.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1977-volkswagen-golf-mk1-gti"
-      },
-      {
-       "role": "Door mirror close-up: black door mirror, black window frame",
-       "url": "https://cdn.muapi.ai/outputs/generated/eb4e143f8f0443a29598ec953f5afcf3.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1977-volkswagen-golf-mk1-gti"
-      }
-     ]
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Sport / Leicht",
-    "why": "Brief: DIRECTED - the red grille line runs out to the edges of the sheet. Suggestion only."
-   },
-   "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
-   "candidate_authority": "Owner 13 Oct 2026 21:18-21:56: ten new heroes, no lines first, 80/20 DIRECTED/FREE. Approval 1 at 23:07: I love Honda. I love G500. I love both Camaro and GTR. Nine eleven GT three RS is good ... let's keep this one ... fix it. Enzo, I love Enzo. GTI is sort of fine ... Just approve it. What I don't love is DS ... Same for Porsche 911 2.0 and GTO. The seven kept get their localized detail fixes; approval 2 is the last approval.",
-   "full_source_url": "full/877e5e98411f-studio-ten-20261013-vw-golf-gti-mk1.png",
-   "full_source_sha256": "877e5e98411ffe2bdce5912cf9afa0ac663094ef192563ca4d45c441c6533848",
-   "full_source_bytes": 14823718,
-   "full_source_pixels": [
-    3312,
-    2480
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Sport / Leicht",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Brief: DIRECTED - the red grille line runs out to the edges of the sheet. Suggestion only.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 200
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "0dfc4cba-4209-4c0b-bd3c-f117c1bde205",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T20:27:38.079366+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/0dfc4cba-4209-4c0b-bd3c-f117c1bde205_47feba30.png",
-     "page_url": "https://muapi.ai/predictions/0dfc4cba-4209-4c0b-bd3c-f117c1bde205",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front: the black grille edged top and bottom by a thin red line, the round VW badge in its middle, the GTI badge on its right half, both round headlamps, the black bumper with amber indicators, the black front spoiler (ignore the plate brackets under the bumper)",
-       "url": "https://cdn.muapi.ai/outputs/generated/4ca31ec9ede64b16b877e4be0f4dbcd9.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1977-volkswagen-golf-mk1-gti"
-      },
-      {
-       "role": "Front close-up (left half): headlamp, grille, red line, bumper, indicator, spoiler (ignore the plate brackets)",
-       "url": "https://cdn.muapi.ai/outputs/generated/8eedd94e82084a8b9849bd6435b20550.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1977-volkswagen-golf-mk1-gti"
-      },
-      {
-       "role": "Grille close-up: the GTI badge - chrome serif GTI letters on a black plate - on the black horizontal-bar grille, the red line along the grille edge",
-       "url": "https://cdn.muapi.ai/outputs/generated/36b20c91dfe5461aa3450f0f939a9390.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1977-volkswagen-golf-mk1-gti"
-      },
-      {
-       "role": "Front three-quarter from the right: whole-car proportions, the black arch extensions, the black side stripes (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/3c609bc6ef7e4c018befa1119dbfb7a3.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1977-volkswagen-golf-mk1-gti"
-      },
-      {
-       "role": "Front three-quarter from the left: the left flank, the stripes, the wheels (ignore the plate)",
-       "url": "https://cdn.muapi.ai/outputs/generated/f2c11f6327e6431b892c96647e5f4cca.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1977-volkswagen-golf-mk1-gti"
-      },
-      {
-       "role": "Front three-quarter from the left, close: the nose and the front wing (ignore the plate brackets)",
-       "url": "https://cdn.muapi.ai/outputs/generated/32a7d616896248cc82c6a2b1f7619e80.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1977-volkswagen-golf-mk1-gti"
-      },
-      {
-       "role": "Side profile (left side): proportions - the upright tailgate, the short bonnet, the twin black stripes along the lower doors, wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/generated/1befab051fb84e90866afb4ab5b3a198.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1977-volkswagen-golf-mk1-gti"
-      },
-      {
-       "role": "Wheel close-up: silver alloy wheel with a ring of dark rounded pockets and a black centre, the black wheel-arch extension (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/53db7bfff6c04efda98bdfffbfb90740.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1977-volkswagen-golf-mk1-gti"
-      },
-      {
-       "role": "Bumper corner close-up: the amber indicator in the black steel bumper",
-       "url": "https://cdn.muapi.ai/outputs/generated/1ae90ff140264d80af142ab0d5dfda91.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1977-volkswagen-golf-mk1-gti"
-      },
-      {
-       "role": "Front corner close-up: the headlamp, the grille with its red line, the bumper and indicator",
-       "url": "https://cdn.muapi.ai/outputs/generated/166e6125fbe048e4bd8d16668d1df49a.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1977-volkswagen-golf-mk1-gti"
-      },
-      {
-       "role": "Door mirror close-up: black door mirror, black window frame",
-       "url": "https://cdn.muapi.ai/outputs/generated/eb4e143f8f0443a29598ec953f5afcf3.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1977-volkswagen-golf-mk1-gti"
-      }
-     ],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-13T20:27:38.079366+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-13T20:32:15.727341+00:00",
-    "updated_source": "candidate generated"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-ten-20261013-mercedes-g500-w463",
-   "name": "Mercedes-Benz G 500 (W463) - DIRECTED",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-ten-20261013-mercedes-g500-w463-1848cc121e3d-current.jpg",
-   "preview_pixels": [
-    1600,
-    2137
-   ],
-   "source_file": "pipeline/studio-ten-20261013/t1/heroes/mercedes-g500-w463/final-native.png",
-   "source_sha256": "1848cc121e3d855e5c955c3c2015ae9010eb8bea1e3a4196f0506edf069f29d3",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Fixed version - approval 2, the last. 1 local fix. The lot waits for the new listing structure.",
-   "candidate_created_at": "2026-10-13T20:32:03.529109+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "2d2c2b48-e5e7-4bc5-9ec9-e27a44383914",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-13T20:27:23.961147+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/2d2c2b48-e5e7-4bc5-9ec9-e27a44383914_eaed8912.png",
-     "page_url": "https://muapi.ai/predictions/2d2c2b48-e5e7-4bc5-9ec9-e27a44383914",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, the upright grille, the round headlamps, the wing-top indicators, the running board, the wheels (ignore the metal bracket below the bumper)",
-       "url": "https://cdn.muapi.ai/outputs/generated/9784ab80ba77416f8c191c75c3c7017f.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az23/lots/r0041-2002-mercedesbenz-g-500/"
-      },
-      {
-       "role": "Front three-quarter from the right: the right flank, the exposed door hinges, the spare wheel on the rear door (ignore the bracket below the bumper)",
-       "url": "https://cdn.muapi.ai/outputs/generated/0ed1c0fc163745268ef67994c1819224.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az23/lots/r0041-2002-mercedesbenz-g-500/"
-      },
-      {
-       "role": "Front: the grille of horizontal chrome slats with the large star in a chrome ring, both round headlamps (here switched on), the wing-top indicators, the black bumper with two square fog lamps and the slatted lower intake, the mirrors (ignore the bracket below the bumper)",
-       "url": "https://cdn.muapi.ai/outputs/generated/6bcf76ebfb6a477a9d2403a2dfba5b14.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az23/lots/r0041-2002-mercedesbenz-g-500/"
-      },
-      {
-       "role": "Side profile (right side): proportions - the upright boxy body, the flat glass, the running board, the spare wheel on the rear door, wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/generated/60067f20a4a546cf83e266f418fa62c6.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az23/lots/r0041-2002-mercedesbenz-g-500/"
-      },
-      {
-       "role": "Front corner close-up: the headlamp in its housing, the wing-top indicator, the amber side marker, the grille, the bumper with the fog lamp (ignore the bracket)",
-       "url": "https://cdn.muapi.ai/outputs/generated/1582819ab79e4be0be07d8e5efc751c7.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az23/lots/r0041-2002-mercedesbenz-g-500/"
-      },
-      {
-       "role": "Grille close-up: the large three-pointed star in a chrome ring on the chrome-slatted grille",
-       "url": "https://cdn.muapi.ai/outputs/generated/dea93e95f1944263b9287c2230ab73b0.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az23/lots/r0041-2002-mercedesbenz-g-500/"
-      },
-      {
-       "role": "Wing-top indicator close-up: the clear and amber lamp sitting on top of the front wing",
-       "url": "https://cdn.muapi.ai/outputs/generated/880f0fd6de52482bb27596170001ebbc.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az23/lots/r0041-2002-mercedesbenz-g-500/"
-      },
-      {
-       "role": "Front wheel close-up: the wheel, the black arch flare, the amber side marker, the running board (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/ff09d1d8766d4e17884b14bbcdd3689c.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az23/lots/r0041-2002-mercedesbenz-g-500/"
-      },
-      {
-       "role": "Wheel close-up: silver five-twin-spoke alloy with the Mercedes star centre cap (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/aa514fae809a4036843a3e4e4ea9efe0.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az23/lots/r0041-2002-mercedesbenz-g-500/"
-      },
-      {
-       "role": "Door mirror close-up: black mirror (ignore the sticker on the glass)",
-       "url": "https://cdn.muapi.ai/outputs/generated/7d0e5f399d1d4deb96972659497bad0a.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az23/lots/r0041-2002-mercedesbenz-g-500/"
-      },
-      {
-       "role": "Running board close-up: black step with a chrome strip under the doors",
-       "url": "https://cdn.muapi.ai/outputs/generated/4fc968d060904fddaaaa2d75bbc0fb30.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az23/lots/r0041-2002-mercedesbenz-g-500/"
-      }
-     ]
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Studio di Forma",
-    "why": "Brief: DIRECTED - Schockl test slab, the world tilts 30 degrees, G 500 stays level. Suggestion only."
-   },
-   "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
-   "candidate_authority": "Owner 13 Oct 2026 21:18-21:56: ten new heroes, no lines first, 80/20 DIRECTED/FREE. Approval 1 at 23:07: I love Honda. I love G500. I love both Camaro and GTR. Nine eleven GT three RS is good ... let's keep this one ... fix it. Enzo, I love Enzo. GTI is sort of fine ... Just approve it. What I don't love is DS ... Same for Porsche 911 2.0 and GTO. The seven kept get their localized detail fixes; approval 2 is the last approval.",
-   "full_source_url": "full/1848cc121e3d-studio-ten-20261013-mercedes-g500-w463.png",
-   "full_source_sha256": "1848cc121e3d855e5c955c3c2015ae9010eb8bea1e3a4196f0506edf069f29d3",
-   "full_source_bytes": 10370711,
-   "full_source_pixels": [
-    2480,
-    3312
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": null,
-    "collection": null,
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "no suggestion yet",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "2d2c2b48-e5e7-4bc5-9ec9-e27a44383914",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T20:27:23.961147+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/2d2c2b48-e5e7-4bc5-9ec9-e27a44383914_eaed8912.png",
-     "page_url": "https://muapi.ai/predictions/2d2c2b48-e5e7-4bc5-9ec9-e27a44383914",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, the upright grille, the round headlamps, the wing-top indicators, the running board, the wheels (ignore the metal bracket below the bumper)",
-       "url": "https://cdn.muapi.ai/outputs/generated/9784ab80ba77416f8c191c75c3c7017f.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az23/lots/r0041-2002-mercedesbenz-g-500/"
-      },
-      {
-       "role": "Front three-quarter from the right: the right flank, the exposed door hinges, the spare wheel on the rear door (ignore the bracket below the bumper)",
-       "url": "https://cdn.muapi.ai/outputs/generated/0ed1c0fc163745268ef67994c1819224.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az23/lots/r0041-2002-mercedesbenz-g-500/"
-      },
-      {
-       "role": "Front: the grille of horizontal chrome slats with the large star in a chrome ring, both round headlamps (here switched on), the wing-top indicators, the black bumper with two square fog lamps and the slatted lower intake, the mirrors (ignore the bracket below the bumper)",
-       "url": "https://cdn.muapi.ai/outputs/generated/6bcf76ebfb6a477a9d2403a2dfba5b14.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az23/lots/r0041-2002-mercedesbenz-g-500/"
-      },
-      {
-       "role": "Side profile (right side): proportions - the upright boxy body, the flat glass, the running board, the spare wheel on the rear door, wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/generated/60067f20a4a546cf83e266f418fa62c6.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az23/lots/r0041-2002-mercedesbenz-g-500/"
-      },
-      {
-       "role": "Front corner close-up: the headlamp in its housing, the wing-top indicator, the amber side marker, the grille, the bumper with the fog lamp (ignore the bracket)",
-       "url": "https://cdn.muapi.ai/outputs/generated/1582819ab79e4be0be07d8e5efc751c7.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az23/lots/r0041-2002-mercedesbenz-g-500/"
-      },
-      {
-       "role": "Grille close-up: the large three-pointed star in a chrome ring on the chrome-slatted grille",
-       "url": "https://cdn.muapi.ai/outputs/generated/dea93e95f1944263b9287c2230ab73b0.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az23/lots/r0041-2002-mercedesbenz-g-500/"
-      },
-      {
-       "role": "Wing-top indicator close-up: the clear and amber lamp sitting on top of the front wing",
-       "url": "https://cdn.muapi.ai/outputs/generated/880f0fd6de52482bb27596170001ebbc.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az23/lots/r0041-2002-mercedesbenz-g-500/"
-      },
-      {
-       "role": "Front wheel close-up: the wheel, the black arch flare, the amber side marker, the running board (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/ff09d1d8766d4e17884b14bbcdd3689c.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az23/lots/r0041-2002-mercedesbenz-g-500/"
-      },
-      {
-       "role": "Wheel close-up: silver five-twin-spoke alloy with the Mercedes star centre cap (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/aa514fae809a4036843a3e4e4ea9efe0.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az23/lots/r0041-2002-mercedesbenz-g-500/"
-      },
-      {
-       "role": "Door mirror close-up: black mirror (ignore the sticker on the glass)",
-       "url": "https://cdn.muapi.ai/outputs/generated/7d0e5f399d1d4deb96972659497bad0a.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az23/lots/r0041-2002-mercedesbenz-g-500/"
-      },
-      {
-       "role": "Running board close-up: black step with a chrome strip under the doors",
-       "url": "https://cdn.muapi.ai/outputs/generated/4fc968d060904fddaaaa2d75bbc0fb30.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az23/lots/r0041-2002-mercedesbenz-g-500/"
-      }
-     ],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-13T20:27:23.961147+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-13T20:32:03.529109+00:00",
-    "updated_source": "candidate generated"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-ten-20261013-honda-s2000-ap1",
-   "name": "Honda S2000 (AP1) - DIRECTED",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-ten-20261013-honda-s2000-ap1-0f0d526f4b7f-current.jpg",
-   "preview_pixels": [
-    1600,
-    2137
-   ],
-   "source_file": "pipeline/studio-ten-20261013/t1/heroes/honda-s2000-ap1/final-native.png",
-   "source_sha256": "0f0d526f4b7f8faa7594bd83a67e320e6b09e15b2a3fcbae28f50937b21c7a92",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Fixed version - approval 2, the last. 4 local fixes. The lot waits for the new listing structure.",
-   "candidate_created_at": "2026-10-13T20:32:00.564562+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "2b85bbb5-508b-49c3-bead-8164a9e9481f",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-13T20:27:20.464549+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/2b85bbb5-508b-49c3-bead-8164a9e9481f_952896f1.png",
-     "page_url": "https://muapi.ai/predictions/2b85bbb5-508b-49c3-bead-8164a9e9481f",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions with the top down, the headlamps, the H badge, the wide intake, the S2000 badge on the front wing, the five-spoke wheels",
-       "url": "https://cdn.muapi.ai/outputs/generated/623060f93030425f8ea59343d641403c.jpg",
-       "source_page": "https://rmsothebys.com/auctions/0621/lots/r0051-2002-honda-s2000/"
-      },
-      {
-       "role": "Front three-quarter from the left, wider: the whole car, the roll hoops behind the seats",
-       "url": "https://cdn.muapi.ai/outputs/generated/1a10bf51d08b4ae0bbda68e2936e9c59.jpg",
-       "source_page": "https://rmsothebys.com/auctions/0621/lots/r0051-2002-honda-s2000/"
-      },
-      {
-       "role": "Front: both headlamps with their amber indicator sections, the small H badge on the nose, the wide black intake with its bar, the mirrors (ignore the two small holes for a plate bracket)",
-       "url": "https://cdn.muapi.ai/outputs/generated/8308873e3f1741e2849cd62785a1a9e3.jpg",
-       "source_page": "https://rmsothebys.com/auctions/0621/lots/r0051-2002-honda-s2000/"
-      },
-      {
-       "role": "Side profile: proportions - long bonnet, cabin set back, short tail, the top folded away, wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/generated/15c4fe98d45547a4ab14798c9ea94c82.jpg",
-       "source_page": "https://rmsothebys.com/auctions/0621/lots/r0051-2002-honda-s2000/"
-      },
-      {
-       "role": "Nose close-up: the chrome Honda H badge, the wide black intake, the headlamp (ignore the small holes)",
-       "url": "https://cdn.muapi.ai/outputs/generated/cdfccda35ed248109a8947084f931ad8.jpg",
-       "source_page": "https://rmsothebys.com/auctions/0621/lots/r0051-2002-honda-s2000/"
-      },
-      {
-       "role": "Headlamp close-up: the long swept headlamp with its projector lamp and amber indicator section",
-       "url": "https://cdn.muapi.ai/outputs/generated/09bb4d661dfa4cbea60005c877e15070.jpg",
-       "source_page": "https://rmsothebys.com/auctions/0621/lots/r0051-2002-honda-s2000/"
-      },
-      {
-       "role": "Badge close-up: the S2000 badge - slanted chrome letters - and the amber side marker on the front wing",
-       "url": "https://cdn.muapi.ai/outputs/generated/822694d3c25540fa855693066413b183.jpg",
-       "source_page": "https://rmsothebys.com/auctions/0621/lots/r0051-2002-honda-s2000/"
-      },
-      {
-       "role": "Front wheel close-up: silver five-spoke alloy with the H centre cap, the S2000 badge on the wing (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/54ce9a786d7348bf98f524380dc321c0.jpg",
-       "source_page": "https://rmsothebys.com/auctions/0621/lots/r0051-2002-honda-s2000/"
-      },
-      {
-       "role": "Wheel close-up: silver five-spoke alloy with the H centre cap",
-       "url": "https://cdn.muapi.ai/outputs/generated/f2bbfb233f294755b66659bd011c1c93.jpg",
-       "source_page": "https://rmsothebys.com/auctions/0621/lots/r0051-2002-honda-s2000/"
-      },
-      {
-       "role": "Door mirror close-up: body-colour mirror",
-       "url": "https://cdn.muapi.ai/outputs/generated/c7793cbfb55b40b28b0738486a7f4489.jpg",
-       "source_page": "https://rmsothebys.com/auctions/0621/lots/r0051-2002-honda-s2000/"
-      },
-      {
-       "role": "Instrument cluster of the same model: the digital tachometer - a curved amber bar arc lit from 0 to 9 with white numerals and ticks under it and the red-orange hatched redline block at the 9; the model for the poster tachometer only",
-       "url": "https://cdn.muapi.ai/outputs/generated/acb1af5fe89a49809511fd5d1c01f3be.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-s2000-1"
-      }
-     ]
-    },
-    {
-     "role": "edit, not in the final chain",
-     "request_id": "7724aff0-8710-4180-a532-8357f71d9477",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:27:25.807270+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/7724aff0-8710-4180-a532-8357f71d9477_4de8e3ab.png",
-     "page_url": "https://muapi.ai/predictions/7724aff0-8710-4180-a532-8357f71d9477",
-     "target_id": "fix-g1-tach-3-1",
-     "references": []
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Sport / Leicht",
-    "why": "Brief: DIRECTED - 9,000 rpm, the digital tachometer blown up and lit to the 9. Suggestion only."
-   },
-   "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
-   "candidate_authority": "Owner 13 Oct 2026 21:18-21:56: ten new heroes, no lines first, 80/20 DIRECTED/FREE. Approval 1 at 23:07: I love Honda. I love G500. I love both Camaro and GTR. Nine eleven GT three RS is good ... let's keep this one ... fix it. Enzo, I love Enzo. GTI is sort of fine ... Just approve it. What I don't love is DS ... Same for Porsche 911 2.0 and GTO. The seven kept get their localized detail fixes; approval 2 is the last approval.",
-   "full_source_url": "full/0f0d526f4b7f-studio-ten-20261013-honda-s2000-ap1.png",
-   "full_source_sha256": "0f0d526f4b7f8faa7594bd83a67e320e6b09e15b2a3fcbae28f50937b21c7a92",
-   "full_source_bytes": 5110312,
-   "full_source_pixels": [
-    2480,
-    3312
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Sport / Leicht",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Brief: DIRECTED - 9,000 rpm, the digital tachometer blown up and lit to the 9. Suggestion only.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 200
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "2b85bbb5-508b-49c3-bead-8164a9e9481f",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T20:27:20.464549+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/2b85bbb5-508b-49c3-bead-8164a9e9481f_952896f1.png",
-     "page_url": "https://muapi.ai/predictions/2b85bbb5-508b-49c3-bead-8164a9e9481f",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions with the top down, the headlamps, the H badge, the wide intake, the S2000 badge on the front wing, the five-spoke wheels",
-       "url": "https://cdn.muapi.ai/outputs/generated/623060f93030425f8ea59343d641403c.jpg",
-       "source_page": "https://rmsothebys.com/auctions/0621/lots/r0051-2002-honda-s2000/"
-      },
-      {
-       "role": "Front three-quarter from the left, wider: the whole car, the roll hoops behind the seats",
-       "url": "https://cdn.muapi.ai/outputs/generated/1a10bf51d08b4ae0bbda68e2936e9c59.jpg",
-       "source_page": "https://rmsothebys.com/auctions/0621/lots/r0051-2002-honda-s2000/"
-      },
-      {
-       "role": "Front: both headlamps with their amber indicator sections, the small H badge on the nose, the wide black intake with its bar, the mirrors (ignore the two small holes for a plate bracket)",
-       "url": "https://cdn.muapi.ai/outputs/generated/8308873e3f1741e2849cd62785a1a9e3.jpg",
-       "source_page": "https://rmsothebys.com/auctions/0621/lots/r0051-2002-honda-s2000/"
-      },
-      {
-       "role": "Side profile: proportions - long bonnet, cabin set back, short tail, the top folded away, wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/generated/15c4fe98d45547a4ab14798c9ea94c82.jpg",
-       "source_page": "https://rmsothebys.com/auctions/0621/lots/r0051-2002-honda-s2000/"
-      },
-      {
-       "role": "Nose close-up: the chrome Honda H badge, the wide black intake, the headlamp (ignore the small holes)",
-       "url": "https://cdn.muapi.ai/outputs/generated/cdfccda35ed248109a8947084f931ad8.jpg",
-       "source_page": "https://rmsothebys.com/auctions/0621/lots/r0051-2002-honda-s2000/"
-      },
-      {
-       "role": "Headlamp close-up: the long swept headlamp with its projector lamp and amber indicator section",
-       "url": "https://cdn.muapi.ai/outputs/generated/09bb4d661dfa4cbea60005c877e15070.jpg",
-       "source_page": "https://rmsothebys.com/auctions/0621/lots/r0051-2002-honda-s2000/"
-      },
-      {
-       "role": "Badge close-up: the S2000 badge - slanted chrome letters - and the amber side marker on the front wing",
-       "url": "https://cdn.muapi.ai/outputs/generated/822694d3c25540fa855693066413b183.jpg",
-       "source_page": "https://rmsothebys.com/auctions/0621/lots/r0051-2002-honda-s2000/"
-      },
-      {
-       "role": "Front wheel close-up: silver five-spoke alloy with the H centre cap, the S2000 badge on the wing (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/54ce9a786d7348bf98f524380dc321c0.jpg",
-       "source_page": "https://rmsothebys.com/auctions/0621/lots/r0051-2002-honda-s2000/"
-      },
-      {
-       "role": "Wheel close-up: silver five-spoke alloy with the H centre cap",
-       "url": "https://cdn.muapi.ai/outputs/generated/f2bbfb233f294755b66659bd011c1c93.jpg",
-       "source_page": "https://rmsothebys.com/auctions/0621/lots/r0051-2002-honda-s2000/"
-      },
-      {
-       "role": "Door mirror close-up: body-colour mirror",
-       "url": "https://cdn.muapi.ai/outputs/generated/c7793cbfb55b40b28b0738486a7f4489.jpg",
-       "source_page": "https://rmsothebys.com/auctions/0621/lots/r0051-2002-honda-s2000/"
-      },
-      {
-       "role": "Instrument cluster of the same model: the digital tachometer - a curved amber bar arc lit from 0 to 9 with white numerals and ticks under it and the red-orange hatched redline block at the 9; the model for the poster tachometer only",
-       "url": "https://cdn.muapi.ai/outputs/generated/acb1af5fe89a49809511fd5d1c01f3be.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-s2000-1"
-      }
-     ],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    },
-    {
-     "role": "edit, not in the final chain",
-     "request_id": "7724aff0-8710-4180-a532-8357f71d9477",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:27:25.807270+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/7724aff0-8710-4180-a532-8357f71d9477_4de8e3ab.png",
-     "page_url": "https://muapi.ai/predictions/7724aff0-8710-4180-a532-8357f71d9477",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-13T20:27:20.464549+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-13T21:27:25.807270+00:00",
-    "updated_source": "MuAPI edit, not in the final chain"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-ten-20261013-chevrolet-camaro-z28",
-   "name": "Chevrolet Camaro Z/28 - FREE",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-ten-20261013-chevrolet-camaro-z28-a7cc59ed293e-current.jpg",
-   "preview_pixels": [
-    1600,
-    1198
-   ],
-   "source_file": "pipeline/studio-ten-20261013/t1/heroes/chevrolet-camaro-z28/final-native.png",
-   "source_sha256": "a7cc59ed293e35d691d3eb196539d80948455fbefe83a69452e3c77db1b258f6",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Fixed version - approval 2, the last. 4 local fixes. The lot waits for the new listing structure.",
-   "candidate_created_at": "2026-10-13T20:31:48.719192+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "515f2d16-669c-423d-9ef2-b695d76e1867",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-13T20:27:06.288031+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/515f2d16-669c-423d-9ef2-b695d76e1867_ef099f33.png",
-     "page_url": "https://muapi.ai/predictions/515f2d16-669c-423d-9ef2-b695d76e1867",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, the black bonnet stripes, the grille with its closed headlamp doors, the chrome bumper, the Rally wheels (ignore the plate bracket)",
-       "url": "https://cdn.muapi.ai/outputs/generated/d9a851768a154a4296315200b1eaaf99.jpg",
-       "source_page": "https://rmsothebys.com/auctions/rj24/lots/r0026-1969-chevrolet-camaro-z28-sport-coupe/"
-      },
-      {
-       "role": "Front three-quarter from the right: the nose, the stripes over the bonnet, the grille doors, the two round lamps below the bumper, the black front spoiler (ignore the plate bracket)",
-       "url": "https://cdn.muapi.ai/outputs/generated/9821c3d6d8e54a08af48ad8973544170.jpg",
-       "source_page": "https://rmsothebys.com/auctions/rj24/lots/r0026-1969-chevrolet-camaro-z28-sport-coupe/"
-      },
-      {
-       "role": "Front three-quarter from the right, wider: the whole car (ignore the plate bracket)",
-       "url": "https://cdn.muapi.ai/outputs/generated/e64f032bf75f4842bf8c58b898c7fe3c.jpg",
-       "source_page": "https://rmsothebys.com/auctions/rj24/lots/r0026-1969-chevrolet-camaro-z28-sport-coupe/"
-      },
-      {
-       "role": "Side profile (left side): proportions - long bonnet, short deck, the rally-sport and Camaro scripts on the front wing, the vents ahead of the rear wheel, wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/generated/c145532b4b614506b1d05b23e2824ebe.jpg",
-       "source_page": "https://rmsothebys.com/auctions/rj24/lots/r0026-1969-chevrolet-camaro-z28-sport-coupe/"
-      },
-      {
-       "role": "Nose close-up: the grille of fine grid bars in its pointed body-colour surround, the slotted headlamp doors at its ends, the Z/28 badges on the grille and the wing, the black stripes edged by thin red pinstripes (ignore the two round award badges on the grille)",
-       "url": "https://cdn.muapi.ai/outputs/generated/e9756c91dea94fd6970e5345c5c4ad06.jpg",
-       "source_page": "https://rmsothebys.com/auctions/rj24/lots/r0026-1969-chevrolet-camaro-z28-sport-coupe/"
-      },
-      {
-       "role": "Grille close-up: the Z/28 badge, the slotted headlamp door, the Camaro by Chevrolet script on the wing, the chrome bumper (ignore the two round award badges)",
-       "url": "https://cdn.muapi.ai/outputs/generated/f189e44f2b6c46fa83023df45f6b8be5.jpg",
-       "source_page": "https://rmsothebys.com/auctions/rj24/lots/r0026-1969-chevrolet-camaro-z28-sport-coupe/"
-      },
-      {
-       "role": "Script close-up: the chrome Camaro by Chevrolet script on the front wing next to the black stripe",
-       "url": "https://cdn.muapi.ai/outputs/generated/dd116936a2a541c2a3f01bf497c83fc3.jpg",
-       "source_page": "https://rmsothebys.com/auctions/rj24/lots/r0026-1969-chevrolet-camaro-z28-sport-coupe/"
-      },
-      {
-       "role": "Front corner close-up: the slotted headlamp door, the grille surround, the chrome bumper end",
-       "url": "https://cdn.muapi.ai/outputs/generated/f5aa214be24c461497a780bf9466e1fa.jpg",
-       "source_page": "https://rmsothebys.com/auctions/rj24/lots/r0026-1969-chevrolet-camaro-z28-sport-coupe/"
-      },
-      {
-       "role": "Wheel close-up: silver Rally wheel with a chrome trim ring and centre cap, the slatted vent ahead of it (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/f445062ae50b4457bc459da17f03d6c8.jpg",
-       "source_page": "https://rmsothebys.com/auctions/rj24/lots/r0026-1969-chevrolet-camaro-z28-sport-coupe/"
-      },
-      {
-       "role": "Script close-up: the chrome rally-sport script on the front wing behind the wheel",
-       "url": "https://cdn.muapi.ai/outputs/generated/1505826f461343118c50fe5baa9c4f7c.jpg",
-       "source_page": "https://rmsothebys.com/auctions/rj24/lots/r0026-1969-chevrolet-camaro-z28-sport-coupe/"
-      }
-     ]
-    },
-    {
-     "role": "edit",
-     "request_id": "2f230078-6cea-42a1-bfb9-7e6d995b4ec6",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:57:52.357443+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/2f230078-6cea-42a1-bfb9-7e6d995b4ec6_2534abd2.png",
-     "page_url": "https://muapi.ai/predictions/2f230078-6cea-42a1-bfb9-7e6d995b4ec6",
-     "target_id": "ft-tyre",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "7bb02753-c754-473f-a57b-00d0601c719e",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:57:54.177178+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/7bb02753-c754-473f-a57b-00d0601c719e_df683aff.png",
-     "page_url": "https://muapi.ai/predictions/7bb02753-c754-473f-a57b-00d0601c719e",
-     "target_id": "rt-tyre",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "c598dbbb-2b32-4852-aaf4-731de41a9c1f",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:57:56.001232+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/c598dbbb-2b32-4852-aaf4-731de41a9c1f_46091b86.png",
-     "page_url": "https://muapi.ai/predictions/c598dbbb-2b32-4852-aaf4-731de41a9c1f",
-     "target_id": "wing-script",
-     "references": []
-    }
-   ],
-   "recommendation_override": {
-    "collection": "American Form",
-    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Suggestion only."
-   },
-   "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
-   "candidate_authority": "Owner 13 Oct 2026 21:18-21:56: ten new heroes, no lines first, 80/20 DIRECTED/FREE. Approval 1 at 23:07: I love Honda. I love G500. I love both Camaro and GTR. Nine eleven GT three RS is good ... let's keep this one ... fix it. Enzo, I love Enzo. GTI is sort of fine ... Just approve it. What I don't love is DS ... Same for Porsche 911 2.0 and GTO. The seven kept get their localized detail fixes; approval 2 is the last approval.",
-   "full_source_url": "full/a7cc59ed293e-studio-ten-20261013-chevrolet-camaro-z28.png",
-   "full_source_sha256": "a7cc59ed293e35d691d3eb196539d80948455fbefe83a69452e3c77db1b258f6",
-   "full_source_bytes": 11730508,
-   "full_source_pixels": [
-    3312,
-    2480
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "American Form",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Suggestion only.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 77
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "515f2d16-669c-423d-9ef2-b695d76e1867",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T20:27:06.288031+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/515f2d16-669c-423d-9ef2-b695d76e1867_ef099f33.png",
-     "page_url": "https://muapi.ai/predictions/515f2d16-669c-423d-9ef2-b695d76e1867",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, the black bonnet stripes, the grille with its closed headlamp doors, the chrome bumper, the Rally wheels (ignore the plate bracket)",
-       "url": "https://cdn.muapi.ai/outputs/generated/d9a851768a154a4296315200b1eaaf99.jpg",
-       "source_page": "https://rmsothebys.com/auctions/rj24/lots/r0026-1969-chevrolet-camaro-z28-sport-coupe/"
-      },
-      {
-       "role": "Front three-quarter from the right: the nose, the stripes over the bonnet, the grille doors, the two round lamps below the bumper, the black front spoiler (ignore the plate bracket)",
-       "url": "https://cdn.muapi.ai/outputs/generated/9821c3d6d8e54a08af48ad8973544170.jpg",
-       "source_page": "https://rmsothebys.com/auctions/rj24/lots/r0026-1969-chevrolet-camaro-z28-sport-coupe/"
-      },
-      {
-       "role": "Front three-quarter from the right, wider: the whole car (ignore the plate bracket)",
-       "url": "https://cdn.muapi.ai/outputs/generated/e64f032bf75f4842bf8c58b898c7fe3c.jpg",
-       "source_page": "https://rmsothebys.com/auctions/rj24/lots/r0026-1969-chevrolet-camaro-z28-sport-coupe/"
-      },
-      {
-       "role": "Side profile (left side): proportions - long bonnet, short deck, the rally-sport and Camaro scripts on the front wing, the vents ahead of the rear wheel, wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/generated/c145532b4b614506b1d05b23e2824ebe.jpg",
-       "source_page": "https://rmsothebys.com/auctions/rj24/lots/r0026-1969-chevrolet-camaro-z28-sport-coupe/"
-      },
-      {
-       "role": "Nose close-up: the grille of fine grid bars in its pointed body-colour surround, the slotted headlamp doors at its ends, the Z/28 badges on the grille and the wing, the black stripes edged by thin red pinstripes (ignore the two round award badges on the grille)",
-       "url": "https://cdn.muapi.ai/outputs/generated/e9756c91dea94fd6970e5345c5c4ad06.jpg",
-       "source_page": "https://rmsothebys.com/auctions/rj24/lots/r0026-1969-chevrolet-camaro-z28-sport-coupe/"
-      },
-      {
-       "role": "Grille close-up: the Z/28 badge, the slotted headlamp door, the Camaro by Chevrolet script on the wing, the chrome bumper (ignore the two round award badges)",
-       "url": "https://cdn.muapi.ai/outputs/generated/f189e44f2b6c46fa83023df45f6b8be5.jpg",
-       "source_page": "https://rmsothebys.com/auctions/rj24/lots/r0026-1969-chevrolet-camaro-z28-sport-coupe/"
-      },
-      {
-       "role": "Script close-up: the chrome Camaro by Chevrolet script on the front wing next to the black stripe",
-       "url": "https://cdn.muapi.ai/outputs/generated/dd116936a2a541c2a3f01bf497c83fc3.jpg",
-       "source_page": "https://rmsothebys.com/auctions/rj24/lots/r0026-1969-chevrolet-camaro-z28-sport-coupe/"
-      },
-      {
-       "role": "Front corner close-up: the slotted headlamp door, the grille surround, the chrome bumper end",
-       "url": "https://cdn.muapi.ai/outputs/generated/f5aa214be24c461497a780bf9466e1fa.jpg",
-       "source_page": "https://rmsothebys.com/auctions/rj24/lots/r0026-1969-chevrolet-camaro-z28-sport-coupe/"
-      },
-      {
-       "role": "Wheel close-up: silver Rally wheel with a chrome trim ring and centre cap, the slatted vent ahead of it (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/f445062ae50b4457bc459da17f03d6c8.jpg",
-       "source_page": "https://rmsothebys.com/auctions/rj24/lots/r0026-1969-chevrolet-camaro-z28-sport-coupe/"
-      },
-      {
-       "role": "Script close-up: the chrome rally-sport script on the front wing behind the wheel",
-       "url": "https://cdn.muapi.ai/outputs/generated/1505826f461343118c50fe5baa9c4f7c.jpg",
-       "source_page": "https://rmsothebys.com/auctions/rj24/lots/r0026-1969-chevrolet-camaro-z28-sport-coupe/"
-      }
-     ],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "2f230078-6cea-42a1-bfb9-7e6d995b4ec6",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:57:52.357443+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/2f230078-6cea-42a1-bfb9-7e6d995b4ec6_2534abd2.png",
-     "page_url": "https://muapi.ai/predictions/2f230078-6cea-42a1-bfb9-7e6d995b4ec6",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "7bb02753-c754-473f-a57b-00d0601c719e",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:57:54.177178+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/7bb02753-c754-473f-a57b-00d0601c719e_df683aff.png",
-     "page_url": "https://muapi.ai/predictions/7bb02753-c754-473f-a57b-00d0601c719e",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "c598dbbb-2b32-4852-aaf4-731de41a9c1f",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:57:56.001232+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/c598dbbb-2b32-4852-aaf4-731de41a9c1f_46091b86.png",
-     "page_url": "https://muapi.ai/predictions/c598dbbb-2b32-4852-aaf4-731de41a9c1f",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-13T20:27:06.288031+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-13T21:57:56.001232+00:00",
-    "updated_source": "MuAPI edit"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-ten-20261013-nissan-gt-r-r35",
-   "name": "Nissan GT-R (R35) - FREE",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-ten-20261013-nissan-gt-r-r35-d2e098695375-current.jpg",
-   "preview_pixels": [
-    1600,
-    2137
-   ],
-   "source_file": "pipeline/studio-ten-20261013/t1/heroes/nissan-gt-r-r35/final-native.png",
-   "source_sha256": "d2e0986953752a633ea81035f719d5131f3b6c3a8891d50d1609a61eadb83df2",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Fixed version - approval 2, the last. 21 local fixes. The lot waits for the new listing structure.",
-   "candidate_created_at": "2026-10-13T20:32:06.596344+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "2a7a4137-916f-42bb-adfb-59e9060d0418",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-13T20:27:27.485582+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/2a7a4137-916f-42bb-adfb-59e9060d0418_c99544bd.png",
-     "page_url": "https://muapi.ai/predictions/2a7a4137-916f-42bb-adfb-59e9060d0418",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, the grille, the headlamps, the fender vents, the dark six-spoke wheels",
-       "url": "https://cdn.muapi.ai/outputs/generated/8890085290e742b6a4ffb5f66493b691.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      },
-      {
-       "role": "Front three-quarter from the right: the right flank and the nose",
-       "url": "https://cdn.muapi.ai/outputs/generated/baf67429445a40bcada68397591fb8b9.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      },
-      {
-       "role": "Front: the wide dark grille with fine diamond mesh and the GT-R badge at its top, the lower intake, both headlamps, the Nissan badge on the bonnet edge, the mirrors",
-       "url": "https://cdn.muapi.ai/outputs/generated/23dce416347c4bd8b1e3cf046ed94b91.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      },
-      {
-       "role": "Side profile (right side): proportions, the fender vent, the rising crease along the flank, the small boot spoiler, wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/generated/a7d311c57fb84ab1a6c63ec38129eadb.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      },
-      {
-       "role": "High front three-quarter from the left: the bonnet with its two small vents, the roof",
-       "url": "https://cdn.muapi.ai/outputs/generated/a636619fcb3b40849442ad194d829381.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      },
-      {
-       "role": "Grille close-up: the GT-R badge on the fine diamond mesh, the grille surround",
-       "url": "https://cdn.muapi.ai/outputs/generated/58fd2d172f7a4cd1a2d9f13ba4bf2bcb.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      },
-      {
-       "role": "Badge close-up: the GT-R grille badge - chrome G and T above a large red R",
-       "url": "https://cdn.muapi.ai/outputs/generated/f303611c54354fbabafb9035b0bd0fe0.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      },
-      {
-       "role": "Headlamp close-up: the swept headlamp with its projector lamps",
-       "url": "https://cdn.muapi.ai/outputs/generated/c13755f619524b50882f76a4c483586d.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      },
-      {
-       "role": "Fender vent close-up: the dark vent behind the front wheel with the small GT-R badge on top",
-       "url": "https://cdn.muapi.ai/outputs/generated/c3c7cb2dcd684ca18eb733f237925f9f.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      },
-      {
-       "role": "Bonnet badge close-up: the Nissan badge - a chrome ring with NISSAN across it",
-       "url": "https://cdn.muapi.ai/outputs/generated/7292b18e96c84bbc945859c199d631bb.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      },
-      {
-       "role": "Front wheel close-up: dark gunmetal six-spoke wheel, gold-orange brake caliper, the fender vent (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/3ceba084bc12481b9ee7ee9d174b3772.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      },
-      {
-       "role": "Wheel close-up: the six-spoke wheel with the Nissan centre cap and the brake caliper",
-       "url": "https://cdn.muapi.ai/outputs/generated/7e242e44d1c0483781e90080dffb73bd.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      }
-     ]
-    },
-    {
-     "role": "edit",
-     "request_id": "b49cacab-8b09-4f71-970a-1928dbed10c0",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:35:11.759859+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/b49cacab-8b09-4f71-970a-1928dbed10c0_007af872.png",
-     "page_url": "https://muapi.ai/predictions/b49cacab-8b09-4f71-970a-1928dbed10c0",
-     "target_id": "wf-tyre",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "76a2f0bf-157f-483b-97b5-fd1280c0ebcf",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:35:13.591090+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/76a2f0bf-157f-483b-97b5-fd1280c0ebcf_18a4e384.png",
-     "page_url": "https://muapi.ai/predictions/76a2f0bf-157f-483b-97b5-fd1280c0ebcf",
-     "target_id": "i4-tyre",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "9c9b7324-b755-4e57-934c-c18b6c07708e",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:35:15.398656+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/9c9b7324-b755-4e57-934c-c18b6c07708e_3f7fb8c0.png",
-     "page_url": "https://muapi.ai/predictions/9c9b7324-b755-4e57-934c-c18b6c07708e",
-     "target_id": "i4-hub",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "b373ce53-90d4-4747-bce1-7306eab233db",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:35:17.285004+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/b373ce53-90d4-4747-bce1-7306eab233db_9d1d8658.png",
-     "page_url": "https://muapi.ai/predictions/b373ce53-90d4-4747-bce1-7306eab233db",
-     "target_id": "wf-hub",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "b4349e2a-3710-40b4-bea3-cb603c4af99c",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:52:59.060428+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/b4349e2a-3710-40b4-bea3-cb603c4af99c_dacc02f3.png",
-     "page_url": "https://muapi.ai/predictions/b4349e2a-3710-40b4-bea3-cb603c4af99c",
-     "target_id": "s3L-tyre",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "c659f7ba-f3b0-48d2-a5fe-e75e400962ff",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:53:00.880626+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/c659f7ba-f3b0-48d2-a5fe-e75e400962ff_cb8f97e1.png",
-     "page_url": "https://muapi.ai/predictions/c659f7ba-f3b0-48d2-a5fe-e75e400962ff",
-     "target_id": "s3R-tyre",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "4975003f-9628-431e-90d3-ded16a275415",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:53:02.701232+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/4975003f-9628-431e-90d3-ded16a275415_f5c1d1d2.png",
-     "page_url": "https://muapi.ai/predictions/4975003f-9628-431e-90d3-ded16a275415",
-     "target_id": "wf-hub",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "53b2d587-c215-49dc-8136-a929f8dbcfdf",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:53:04.493179+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/53b2d587-c215-49dc-8136-a929f8dbcfdf_370b590f.png",
-     "page_url": "https://muapi.ai/predictions/53b2d587-c215-49dc-8136-a929f8dbcfdf",
-     "target_id": "s3L-hub",
-     "references": []
-    },
-    {
-     "role": "edit",
-     "request_id": "46005d6a-10d8-428f-b5c5-ed193e1ee3b7",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T22:14:51.090962+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/46005d6a-10d8-428f-b5c5-ed193e1ee3b7_e57b3a74.png",
-     "page_url": "https://muapi.ai/predictions/46005d6a-10d8-428f-b5c5-ed193e1ee3b7",
-     "target_id": "s3R-hub",
-     "references": []
-    },
-    {
-     "role": "edit, not in the final chain",
-     "request_id": "0f210e1f-18f3-43dc-ad9e-35b707650860",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:53:06.333658+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/0f210e1f-18f3-43dc-ad9e-35b707650860_859e1481.png",
-     "page_url": "https://muapi.ai/predictions/0f210e1f-18f3-43dc-ad9e-35b707650860",
-     "target_id": "fix-f3-s3R-hub-1",
-     "references": []
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Forma / Motion",
-    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Suggestion only."
-   },
-   "candidate_source": "pipeline/studio-ten-20261013/studio-candidates.json",
-   "candidate_authority": "Owner 13 Oct 2026 21:18-21:56: ten new heroes, no lines first, 80/20 DIRECTED/FREE. Approval 1 at 23:07: I love Honda. I love G500. I love both Camaro and GTR. Nine eleven GT three RS is good ... let's keep this one ... fix it. Enzo, I love Enzo. GTI is sort of fine ... Just approve it. What I don't love is DS ... Same for Porsche 911 2.0 and GTO. The seven kept get their localized detail fixes; approval 2 is the last approval.",
-   "full_source_url": "full/d2e098695375-studio-ten-20261013-nissan-gt-r-r35.png",
-   "full_source_sha256": "d2e0986953752a633ea81035f719d5131f3b6c3a8891d50d1609a61eadb83df2",
-   "full_source_bytes": 11678265,
-   "full_source_pixels": [
-    2480,
-    3312
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Forma / Motion",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Suggestion only.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 100
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "2a7a4137-916f-42bb-adfb-59e9060d0418",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T20:27:27.485582+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/2a7a4137-916f-42bb-adfb-59e9060d0418_c99544bd.png",
-     "page_url": "https://muapi.ai/predictions/2a7a4137-916f-42bb-adfb-59e9060d0418",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter from the left: whole-car proportions, the grille, the headlamps, the fender vents, the dark six-spoke wheels",
-       "url": "https://cdn.muapi.ai/outputs/generated/8890085290e742b6a4ffb5f66493b691.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      },
-      {
-       "role": "Front three-quarter from the right: the right flank and the nose",
-       "url": "https://cdn.muapi.ai/outputs/generated/baf67429445a40bcada68397591fb8b9.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      },
-      {
-       "role": "Front: the wide dark grille with fine diamond mesh and the GT-R badge at its top, the lower intake, both headlamps, the Nissan badge on the bonnet edge, the mirrors",
-       "url": "https://cdn.muapi.ai/outputs/generated/23dce416347c4bd8b1e3cf046ed94b91.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      },
-      {
-       "role": "Side profile (right side): proportions, the fender vent, the rising crease along the flank, the small boot spoiler, wheelbase",
-       "url": "https://cdn.muapi.ai/outputs/generated/a7d311c57fb84ab1a6c63ec38129eadb.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      },
-      {
-       "role": "High front three-quarter from the left: the bonnet with its two small vents, the roof",
-       "url": "https://cdn.muapi.ai/outputs/generated/a636619fcb3b40849442ad194d829381.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      },
-      {
-       "role": "Grille close-up: the GT-R badge on the fine diamond mesh, the grille surround",
-       "url": "https://cdn.muapi.ai/outputs/generated/58fd2d172f7a4cd1a2d9f13ba4bf2bcb.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      },
-      {
-       "role": "Badge close-up: the GT-R grille badge - chrome G and T above a large red R",
-       "url": "https://cdn.muapi.ai/outputs/generated/f303611c54354fbabafb9035b0bd0fe0.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      },
-      {
-       "role": "Headlamp close-up: the swept headlamp with its projector lamps",
-       "url": "https://cdn.muapi.ai/outputs/generated/c13755f619524b50882f76a4c483586d.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      },
-      {
-       "role": "Fender vent close-up: the dark vent behind the front wheel with the small GT-R badge on top",
-       "url": "https://cdn.muapi.ai/outputs/generated/c3c7cb2dcd684ca18eb733f237925f9f.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      },
-      {
-       "role": "Bonnet badge close-up: the Nissan badge - a chrome ring with NISSAN across it",
-       "url": "https://cdn.muapi.ai/outputs/generated/7292b18e96c84bbc945859c199d631bb.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      },
-      {
-       "role": "Front wheel close-up: dark gunmetal six-spoke wheel, gold-orange brake caliper, the fender vent (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/3ceba084bc12481b9ee7ee9d174b3772.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      },
-      {
-       "role": "Wheel close-up: the six-spoke wheel with the Nissan centre cap and the brake caliper",
-       "url": "https://cdn.muapi.ai/outputs/generated/7e242e44d1c0483781e90080dffb73bd.jpg",
-       "source_page": "https://rmsothebys.com/auctions/az26/lots/r0049-2009-nissan-gtr/"
-      }
-     ],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "b49cacab-8b09-4f71-970a-1928dbed10c0",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:35:11.759859+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/b49cacab-8b09-4f71-970a-1928dbed10c0_007af872.png",
-     "page_url": "https://muapi.ai/predictions/b49cacab-8b09-4f71-970a-1928dbed10c0",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "76a2f0bf-157f-483b-97b5-fd1280c0ebcf",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:35:13.591090+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/76a2f0bf-157f-483b-97b5-fd1280c0ebcf_18a4e384.png",
-     "page_url": "https://muapi.ai/predictions/76a2f0bf-157f-483b-97b5-fd1280c0ebcf",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "9c9b7324-b755-4e57-934c-c18b6c07708e",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:35:15.398656+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/9c9b7324-b755-4e57-934c-c18b6c07708e_3f7fb8c0.png",
-     "page_url": "https://muapi.ai/predictions/9c9b7324-b755-4e57-934c-c18b6c07708e",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "b373ce53-90d4-4747-bce1-7306eab233db",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:35:17.285004+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/b373ce53-90d4-4747-bce1-7306eab233db_9d1d8658.png",
-     "page_url": "https://muapi.ai/predictions/b373ce53-90d4-4747-bce1-7306eab233db",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "b4349e2a-3710-40b4-bea3-cb603c4af99c",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:52:59.060428+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/b4349e2a-3710-40b4-bea3-cb603c4af99c_dacc02f3.png",
-     "page_url": "https://muapi.ai/predictions/b4349e2a-3710-40b4-bea3-cb603c4af99c",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "c659f7ba-f3b0-48d2-a5fe-e75e400962ff",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:53:00.880626+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/c659f7ba-f3b0-48d2-a5fe-e75e400962ff_cb8f97e1.png",
-     "page_url": "https://muapi.ai/predictions/c659f7ba-f3b0-48d2-a5fe-e75e400962ff",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "4975003f-9628-431e-90d3-ded16a275415",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:53:02.701232+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/4975003f-9628-431e-90d3-ded16a275415_f5c1d1d2.png",
-     "page_url": "https://muapi.ai/predictions/4975003f-9628-431e-90d3-ded16a275415",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "53b2d587-c215-49dc-8136-a929f8dbcfdf",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:53:04.493179+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/53b2d587-c215-49dc-8136-a929f8dbcfdf_370b590f.png",
-     "page_url": "https://muapi.ai/predictions/53b2d587-c215-49dc-8136-a929f8dbcfdf",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    },
-    {
-     "role": "edit, not in the final chain",
-     "request_id": "0f210e1f-18f3-43dc-ad9e-35b707650860",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T21:53:06.333658+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/0f210e1f-18f3-43dc-ad9e-35b707650860_859e1481.png",
-     "page_url": "https://muapi.ai/predictions/0f210e1f-18f3-43dc-ad9e-35b707650860",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "46005d6a-10d8-428f-b5c5-ed193e1ee3b7",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-13T22:14:51.090962+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/46005d6a-10d8-428f-b5c5-ed193e1ee3b7_e57b3a74.png",
-     "page_url": "https://muapi.ai/predictions/46005d6a-10d8-428f-b5c5-ed193e1ee3b7",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-ten-20261013/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-13T20:27:27.485582+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-13T22:14:51.090962+00:00",
-    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -9145,6 +7400,440 @@
     "meaning": "approved; prints, photos, copy and Notion being built",
     "order": 4
    }
+  },
+  {
+   "key": "studio-ten-20261013-porsche-911-gt3-rs-992",
+   "name": "Porsche 911 GT3 RS (992)",
+   "preview": "assets/studio-ten-20261013-porsche-911-gt3-rs-992.jpg",
+   "preview_pixels": [
+    1600,
+    1200
+   ],
+   "source_sha256": "c7e32a9fdaa452978b3553e67b362036b0230e16d964d56060d0f9971cec77b6",
+   "source_file": "pipeline/one-cycle-20260926/lots/gt3rs/lot/print-80x60.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "FORMA / MOTION",
+   "ledger_selected_sha256": "837e3ec821227d690e821f5cd2d277829004c80e0e3dcf77a07747235e5ca050",
+   "approved_source_sha256": "837e3ec821227d690e821f5cd2d277829004c80e0e3dcf77a07747235e5ca050",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-ten-20261013-porsche-911-gt3-rs-992.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/c7e32a9fdaa4-studio-ten-20261013-porsche-911-gt3-rs-992.jpg",
+   "full_source_sha256": "c7e32a9fdaa452978b3553e67b362036b0230e16d964d56060d0f9971cec77b6",
+   "full_source_bytes": 11126396,
+   "full_source_pixels": [
+    9449,
+    7087
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Forma / Motion",
+   "edition": null,
+   "collection_category": "Forma / Motion",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Forma / Motion",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 100
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-19T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-20T00:00:00+00:00",
+    "updated_source": "ledger history"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-ten-20261013-ferrari-enzo",
+   "name": "Ferrari Enzo",
+   "preview": "assets/studio-ten-20261013-ferrari-enzo.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "d60bc370bff69ba0ddf79f409c77a554c481d7b01a75733c781b879d6cdb17a7",
+   "source_file": "pipeline/one-cycle-20260926/lots/enzo/lot/print-60x80.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "FORMA / MOTION",
+   "ledger_selected_sha256": "e7d7336b60ea89737b34ddb5338dafed2222ba13a09a3b280e99af530d7335d5",
+   "approved_source_sha256": "e7d7336b60ea89737b34ddb5338dafed2222ba13a09a3b280e99af530d7335d5",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-ten-20261013-ferrari-enzo.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/d60bc370bff6-studio-ten-20261013-ferrari-enzo.jpg",
+   "full_source_sha256": "d60bc370bff69ba0ddf79f409c77a554c481d7b01a75733c781b879d6cdb17a7",
+   "full_source_bytes": 7819950,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Forma / Motion",
+   "edition": null,
+   "collection_category": "Forma / Motion",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Forma / Motion",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 100
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-19T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-20T00:00:00+00:00",
+    "updated_source": "ledger history"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-ten-20261013-vw-golf-gti-mk1",
+   "name": "Volkswagen Golf GTI (Mk1)",
+   "preview": "assets/studio-ten-20261013-vw-golf-gti-mk1.jpg",
+   "preview_pixels": [
+    1600,
+    1200
+   ],
+   "source_sha256": "7082a9e3827cd41b8fa726c3a412bd0a4005a5181914dfcd5a2d41d649237db2",
+   "source_file": "pipeline/one-cycle-20260926/lots/gti77/lot/print-80x60.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "SPORT / LEICHT",
+   "ledger_selected_sha256": "877e5e98411ffe2bdce5912cf9afa0ac663094ef192563ca4d45c441c6533848",
+   "approved_source_sha256": "877e5e98411ffe2bdce5912cf9afa0ac663094ef192563ca4d45c441c6533848",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-ten-20261013-vw-golf-gti-mk1.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/7082a9e3827c-studio-ten-20261013-vw-golf-gti-mk1.jpg",
+   "full_source_sha256": "7082a9e3827cd41b8fa726c3a412bd0a4005a5181914dfcd5a2d41d649237db2",
+   "full_source_bytes": 16492134,
+   "full_source_pixels": [
+    9449,
+    7087
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Sport / Leicht",
+   "edition": null,
+   "collection_category": "Sport / Leicht",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-19T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-20T00:00:00+00:00",
+    "updated_source": "ledger history"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-ten-20261013-mercedes-g500-w463",
+   "name": "Mercedes-Benz G 500 (W463)",
+   "preview": "assets/studio-ten-20261013-mercedes-g500-w463.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "31a4536be01e50d12d40231cae312df227a22b541e9a7e4d4014543f27e39f21",
+   "source_file": "pipeline/one-cycle-20260926/lots/g500/lot/print-60x80.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "STUDIO DI FORMA",
+   "ledger_selected_sha256": "1848cc121e3d855e5c955c3c2015ae9010eb8bea1e3a4196f0506edf069f29d3",
+   "approved_source_sha256": "1848cc121e3d855e5c955c3c2015ae9010eb8bea1e3a4196f0506edf069f29d3",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-ten-20261013-mercedes-g500-w463.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/31a4536be01e-studio-ten-20261013-mercedes-g500-w463.jpg",
+   "full_source_sha256": "31a4536be01e50d12d40231cae312df227a22b541e9a7e4d4014543f27e39f21",
+   "full_source_bytes": 13270338,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Studio Di Forma",
+   "edition": null,
+   "collection_category": "Studio Di Forma",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Studio Di Forma",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 50
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-19T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-20T00:00:00+00:00",
+    "updated_source": "ledger history"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-ten-20261013-honda-s2000-ap1",
+   "name": "Honda S2000 (AP1)",
+   "preview": "assets/studio-ten-20261013-honda-s2000-ap1.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "ff05195721f6b2e476a2ed7987cebf19d298081c4fa39fc53176e71827a08586",
+   "source_file": "pipeline/one-cycle-20260926/lots/s2000/lot/print-60x80.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "SPORT / LEICHT",
+   "ledger_selected_sha256": "0f0d526f4b7f8faa7594bd83a67e320e6b09e15b2a3fcbae28f50937b21c7a92",
+   "approved_source_sha256": "0f0d526f4b7f8faa7594bd83a67e320e6b09e15b2a3fcbae28f50937b21c7a92",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-ten-20261013-honda-s2000-ap1.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/ff05195721f6-studio-ten-20261013-honda-s2000-ap1.jpg",
+   "full_source_sha256": "ff05195721f6b2e476a2ed7987cebf19d298081c4fa39fc53176e71827a08586",
+   "full_source_bytes": 7934115,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Sport / Leicht",
+   "edition": null,
+   "collection_category": "Sport / Leicht",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-19T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-20T00:00:00+00:00",
+    "updated_source": "ledger history"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-ten-20261013-chevrolet-camaro-z28",
+   "name": "Chevrolet Camaro Z/28",
+   "preview": "assets/studio-ten-20261013-chevrolet-camaro-z28.jpg",
+   "preview_pixels": [
+    1600,
+    1200
+   ],
+   "source_sha256": "f3cebd5e135f1c1b35d3589f4bfa182c6b8dc94d531a50a2b4b829cdae55c8a7",
+   "source_file": "pipeline/one-cycle-20260926/lots/z28/lot/print-80x60.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "AMERICAN FORM",
+   "ledger_selected_sha256": "a7cc59ed293e35d691d3eb196539d80948455fbefe83a69452e3c77db1b258f6",
+   "approved_source_sha256": "a7cc59ed293e35d691d3eb196539d80948455fbefe83a69452e3c77db1b258f6",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-ten-20261013-chevrolet-camaro-z28.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/f3cebd5e135f-studio-ten-20261013-chevrolet-camaro-z28.jpg",
+   "full_source_sha256": "f3cebd5e135f1c1b35d3589f4bfa182c6b8dc94d531a50a2b4b829cdae55c8a7",
+   "full_source_bytes": 15747095,
+   "full_source_pixels": [
+    9449,
+    7087
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "American Form",
+   "edition": null,
+   "collection_category": "American Form",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "American Form",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-19T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-20T00:00:00+00:00",
+    "updated_source": "ledger history"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
+  },
+  {
+   "key": "studio-ten-20261013-nissan-gt-r-r35",
+   "name": "Nissan GT-R (R35)",
+   "preview": "assets/studio-ten-20261013-nissan-gt-r-r35.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "bed418cf561852a30fc21f1d63aeae1a7157b878f073699ac9caa621861f5ddb",
+   "source_file": "pipeline/one-cycle-20260926/lots/r35/lot/print-60x80.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "FORMA / MOTION",
+   "ledger_selected_sha256": "d2e0986953752a633ea81035f719d5131f3b6c3a8891d50d1609a61eadb83df2",
+   "approved_source_sha256": "d2e0986953752a633ea81035f719d5131f3b6c3a8891d50d1609a61eadb83df2",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-ten-20261013-nissan-gt-r-r35.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/bed418cf5618-studio-ten-20261013-nissan-gt-r-r35.jpg",
+   "full_source_sha256": "bed418cf561852a30fc21f1d63aeae1a7157b878f073699ac9caa621861f5ddb",
+   "full_source_bytes": 14846158,
+   "full_source_pixels": [
+    7087,
+    9449
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Forma / Motion",
+   "edition": null,
+   "collection_category": "Forma / Motion",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Forma / Motion",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 100
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-19T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-20T00:00:00+00:00",
+    "updated_source": "ledger history"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
   }
  ],
  "excluded_keys": [
@@ -9511,72 +8200,44 @@
   {
    "key": "studio-ten-20261013-nissan-gt-r-r35",
    "declared_sha256": "d2e0986953752a633ea81035f719d5131f3b6c3a8891d50d1609a61eadb83df2",
-   "applied": true,
-   "preview": "assets/studio-ten-20261013-nissan-gt-r-r35-d2e098695375-current.jpg",
-   "pixels": [
-    2480,
-    3312
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-ten-20261013-chevrolet-camaro-z28",
    "declared_sha256": "a7cc59ed293e35d691d3eb196539d80948455fbefe83a69452e3c77db1b258f6",
-   "applied": true,
-   "preview": "assets/studio-ten-20261013-chevrolet-camaro-z28-a7cc59ed293e-current.jpg",
-   "pixels": [
-    3312,
-    2480
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-ten-20261013-honda-s2000-ap1",
    "declared_sha256": "0f0d526f4b7f8faa7594bd83a67e320e6b09e15b2a3fcbae28f50937b21c7a92",
-   "applied": true,
-   "preview": "assets/studio-ten-20261013-honda-s2000-ap1-0f0d526f4b7f-current.jpg",
-   "pixels": [
-    2480,
-    3312
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-ten-20261013-mercedes-g500-w463",
    "declared_sha256": "1848cc121e3d855e5c955c3c2015ae9010eb8bea1e3a4196f0506edf069f29d3",
-   "applied": true,
-   "preview": "assets/studio-ten-20261013-mercedes-g500-w463-1848cc121e3d-current.jpg",
-   "pixels": [
-    2480,
-    3312
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-ten-20261013-vw-golf-gti-mk1",
    "declared_sha256": "877e5e98411ffe2bdce5912cf9afa0ac663094ef192563ca4d45c441c6533848",
-   "applied": true,
-   "preview": "assets/studio-ten-20261013-vw-golf-gti-mk1-877e5e98411f-current.jpg",
-   "pixels": [
-    3312,
-    2480
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-ten-20261013-ferrari-enzo",
    "declared_sha256": "e7d7336b60ea89737b34ddb5338dafed2222ba13a09a3b280e99af530d7335d5",
-   "applied": true,
-   "preview": "assets/studio-ten-20261013-ferrari-enzo-e7d7336b60ea-current.jpg",
-   "pixels": [
-    2480,
-    3312
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-ten-20261013-porsche-911-gt3-rs-992",
    "declared_sha256": "837e3ec821227d690e821f5cd2d277829004c80e0e3dcf77a07747235e5ca050",
-   "applied": true,
-   "preview": "assets/studio-ten-20261013-porsche-911-gt3-rs-992-837e3ec82122-current.jpg",
-   "pixels": [
-    3312,
-    2480
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-next-20260920-bugatti-eb110-ss",
