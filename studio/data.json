@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-23 22:23",
+ "built": "2026-10-23 22:44",
  "accessed_date": "2026-10-23",
  "collections": [
   "American Form",
@@ -1219,6 +1219,202 @@
     "created_at": "2026-09-20T17:38:47.632726+00:00",
     "created_source": "MuAPI original",
     "updated_at": "2026-09-20T17:38:47.632726+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "db5-master-v3",
+   "name": "Aston Martin DB5 - print file v3: wheels, bonnet badge and grille badge redrawn",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/db5-master-v3-aff0f2cf2fe6-current.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_file": "pipeline/studio-qb-20261023/db5/masters/DB5-topaz-cgi-lock-v3-9000x12000.jpg",
+   "source_sha256": "aff0f2cf2fe6e8998398dc943465868f77744869867314723f9fd3e14a6837ea",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "DB5 print file v3, 9000 x 12000: v2 with both wire wheels redrawn on the master at 1:1 (straight laced spokes, nipples, chrome hub and knock-off) and both badges rendered at 2x and reduced so ASTON MARTIN reads clearly (bonnet badge: 2 tries, the first had garbled marks). Nothing else changed. v2 | v3: studio/assets/qb-db5-v3-1.jpg (wheels, 100%) and -2 (badges, 200%). NOT sent anywhere - your call whether it replaces v2 in Prodigi ticket #374839.",
+   "candidate_created_at": "2026-10-23T20:44:00.362993+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "upscale",
+     "request_id": "55d4efaa-358f-487f-9b76-a7a484400e28",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-23T19:46:04.107230+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/55d4efaa-358f-487f-9b76-a7a484400e28_c9ee6892.png",
+     "page_url": "https://muapi.ai/predictions/55d4efaa-358f-487f-9b76-a7a484400e28",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "4de2b688-cc3f-47bc-a296-bf7423207371",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:30:11.582923+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4de2b688-cc3f-47bc-a296-bf7423207371_c715a991.png",
+     "page_url": "https://muapi.ai/predictions/4de2b688-cc3f-47bc-a296-bf7423207371",
+     "target_id": "fw",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "d6ef1c14-db5d-41bc-848a-424a2ea260dd",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:30:14.218370+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d6ef1c14-db5d-41bc-848a-424a2ea260dd_d9dfb332.png",
+     "page_url": "https://muapi.ai/predictions/d6ef1c14-db5d-41bc-848a-424a2ea260dd",
+     "target_id": "rw",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "a2b5c273-edcf-4266-91ec-178e77480a49",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:30:17.061790+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a2b5c273-edcf-4266-91ec-178e77480a49_c8ec1c9c.png",
+     "page_url": "https://muapi.ai/predictions/a2b5c273-edcf-4266-91ec-178e77480a49",
+     "target_id": "badge",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "8e8bf3c1-3b25-42ed-a6b8-18d824857528",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:30:19.710889+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/8e8bf3c1-3b25-42ed-a6b8-18d824857528_20f25b5c.png",
+     "page_url": "https://muapi.ai/predictions/8e8bf3c1-3b25-42ed-a6b8-18d824857528",
+     "target_id": "logo",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "61f9c4fa-46b7-47c9-9ca9-6de005460647",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:32:55.278434+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/61f9c4fa-46b7-47c9-9ca9-6de005460647_4f75ec15.png",
+     "page_url": "https://muapi.ai/predictions/61f9c4fa-46b7-47c9-9ca9-6de005460647",
+     "target_id": "badge",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "why": "Print file for the existing DB5 lot, not a new artwork."
+   },
+   "candidate_source": "pipeline/studio-qb-20261023/studio-candidates.json",
+   "candidate_authority": "Owner 23 Oct 2026 18:43: workflow B test, one hero 'like normal workflow'. Owner 20:07: 'i need those files to be finished, meaning u take each version u seem worthy continuing and finish it with logos etc, then ill check' - taken as approval 1 for this hero.",
+   "full_source_url": "full/aff0f2cf2fe6-db5-master-v3.jpg",
+   "full_source_sha256": "aff0f2cf2fe6e8998398dc943465868f77744869867314723f9fd3e14a6837ea",
+   "full_source_bytes": 26270010,
+   "full_source_pixels": [
+    9000,
+    12000
+   ],
+   "full_source_kind": "exact_current_jpg",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": null,
+    "collection": null,
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [
+    {
+     "role": "upscale",
+     "request_id": "55d4efaa-358f-487f-9b76-a7a484400e28",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-23T19:46:04.107230+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/55d4efaa-358f-487f-9b76-a7a484400e28_c9ee6892.png",
+     "page_url": "https://muapi.ai/predictions/55d4efaa-358f-487f-9b76-a7a484400e28",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "4de2b688-cc3f-47bc-a296-bf7423207371",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:30:11.582923+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4de2b688-cc3f-47bc-a296-bf7423207371_c715a991.png",
+     "page_url": "https://muapi.ai/predictions/4de2b688-cc3f-47bc-a296-bf7423207371",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "d6ef1c14-db5d-41bc-848a-424a2ea260dd",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:30:14.218370+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d6ef1c14-db5d-41bc-848a-424a2ea260dd_d9dfb332.png",
+     "page_url": "https://muapi.ai/predictions/d6ef1c14-db5d-41bc-848a-424a2ea260dd",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "a2b5c273-edcf-4266-91ec-178e77480a49",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:30:17.061790+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a2b5c273-edcf-4266-91ec-178e77480a49_c8ec1c9c.png",
+     "page_url": "https://muapi.ai/predictions/a2b5c273-edcf-4266-91ec-178e77480a49",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "8e8bf3c1-3b25-42ed-a6b8-18d824857528",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:30:19.710889+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/8e8bf3c1-3b25-42ed-a6b8-18d824857528_20f25b5c.png",
+     "page_url": "https://muapi.ai/predictions/8e8bf3c1-3b25-42ed-a6b8-18d824857528",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "61f9c4fa-46b7-47c9-9ca9-6de005460647",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:32:55.278434+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/61f9c4fa-46b7-47c9-9ca9-6de005460647_4f75ec15.png",
+     "page_url": "https://muapi.ai/predictions/61f9c4fa-46b7-47c9-9ca9-6de005460647",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-23T19:46:04.107230+00:00",
+    "created_source": "MuAPI upscale",
+    "updated_at": "2026-10-23T20:44:00.362993+00:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -9827,6 +10023,16 @@
    "declared_sha256": "a7bd5c4494791be3c13461f5f537a029e0114229055817971d01c53d0aa2983d",
    "applied": true,
    "preview": "assets/db5-master-v2-a7bd5c449479-current.jpg",
+   "pixels": [
+    9000,
+    12000
+   ]
+  },
+  {
+   "key": "db5-master-v3",
+   "declared_sha256": "aff0f2cf2fe6e8998398dc943465868f77744869867314723f9fd3e14a6837ea",
+   "applied": true,
+   "preview": "assets/db5-master-v3-aff0f2cf2fe6-current.jpg",
    "pixels": [
     9000,
     12000
