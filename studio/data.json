@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-24 00:33",
+ "built": "2026-10-24 00:39",
  "accessed_date": "2026-10-24",
  "collections": [
   "American Form",
@@ -1525,13 +1525,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-qb-20261023-ford-gt-2005-a5b64fbac7b4-current.jpg",
+   "preview": "assets/studio-qb-20261023-ford-gt-2005-de2281ae5d87-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-qb-20261023/t1/heroes/ford-gt-2005/final-native.png",
-   "source_sha256": "a5b64fbac7b43365298931b9a89953bd87b1837eaa99045e36d12e261c2bf2e7",
+   "source_sha256": "de2281ae5d87efd5449d54451a79581f8971794bdef9248d4a7967c4520ed70f",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -1775,9 +1775,9 @@
    },
    "candidate_source": "pipeline/studio-qb-20261023/studio-candidates.json",
    "candidate_authority": "Owner 23 Oct 2026 18:43: workflow B test, one hero 'like normal workflow'. Owner 20:07: 'i need those files to be finished, meaning u take each version u seem worthy continuing and finish it with logos etc, then ill check' - taken as approval 1 for this hero.",
-   "full_source_url": "full/a5b64fbac7b4-studio-qb-20261023-ford-gt-2005.png",
-   "full_source_sha256": "a5b64fbac7b43365298931b9a89953bd87b1837eaa99045e36d12e261c2bf2e7",
-   "full_source_bytes": 8531230,
+   "full_source_url": "full/de2281ae5d87-studio-qb-20261023-ford-gt-2005.png",
+   "full_source_sha256": "de2281ae5d87efd5449d54451a79581f8971794bdef9248d4a7967c4520ed70f",
+   "full_source_bytes": 8527343,
    "full_source_pixels": [
     2480,
     3312
@@ -2066,13 +2066,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-qb-20261023-ford-gt-2005-master-b6-820e93c569a0-current.jpg",
+   "preview": "assets/studio-qb-20261023-ford-gt-2005-master-b6-116381cfdca5-current.jpg",
    "preview_pixels": [
     1600,
     2133
    ],
    "source_file": "pipeline/studio-qb-20261023/q2/masters/B6-topaz-cgi-lock-m6-9000x12000.jpg",
-   "source_sha256": "820e93c569a0912672042df114355a66a694b2f531f976417fcebdb7d3381489",
+   "source_sha256": "116381cfdca50c4a727e39e37216f483a17fcd17cd71b7cecc50ed4e2c1d6b71",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -2080,7 +2080,7 @@
    "hero_edit_pending": false,
    "owner_collection_pending": false,
    "delivery_status": "Print master B6 = the current one, 9000 x 12000 (305 dpi at 75 x 100). B5 + the front wheel redrawn from scratch: its face was blurred out in the input, because the model copies the input's structure and the hero had the five lug nuts unevenly spread (a big gap at 3 o'clock) around a round cap; the model drew the wheel from ONE reference, ref-2 - the auction photo of this very car's left front wheel from almost the same angle - named as the perspective reference (a second try that also had the side-on photo wrote FOROJT on the cap and was dropped). Now: hub offset by the dish like the real car, cap a narrow tilted ellipse, five nuts evenly around it. Harsh: the cap letters are filled, not the real thin outline (1.7 mm tall on the 75 x 100 print); the finish is a little shinier than the rest of the car. B5 | B6 | ref-2: studio/assets/qb-fordgt-m6-wheel.jpg (50 %), -m6-hub.jpg (100 %).",
-   "candidate_created_at": "2026-10-23T22:31:45.012957+00:00",
+   "candidate_created_at": "2026-10-23T22:38:56.014568+00:00",
    "review_url": null,
    "stage1_generations": [
     {
@@ -2305,9 +2305,9 @@
    },
    "candidate_source": "pipeline/studio-qb-20261023/studio-candidates.json",
    "candidate_authority": "Owner 23 Oct 2026 18:43: workflow B test, one hero 'like normal workflow'. Owner 20:07: 'i need those files to be finished, meaning u take each version u seem worthy continuing and finish it with logos etc, then ill check' - taken as approval 1 for this hero.",
-   "full_source_url": "full/820e93c569a0-studio-qb-20261023-ford-gt-2005-master-b6.jpg",
-   "full_source_sha256": "820e93c569a0912672042df114355a66a694b2f531f976417fcebdb7d3381489",
-   "full_source_bytes": 19541638,
+   "full_source_url": "full/116381cfdca5-studio-qb-20261023-ford-gt-2005-master-b6.jpg",
+   "full_source_sha256": "116381cfdca50c4a727e39e37216f483a17fcd17cd71b7cecc50ed4e2c1d6b71",
+   "full_source_bytes": 19521096,
    "full_source_pixels": [
     9000,
     12000
@@ -2565,7 +2565,7 @@
    "timeline": {
     "created_at": "2026-10-23T17:02:59.388059+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-23T22:31:45.012957+00:00",
+    "updated_at": "2026-10-23T22:38:56.014568+00:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -11923,9 +11923,9 @@
   },
   {
    "key": "studio-qb-20261023-ford-gt-2005-master-b6",
-   "declared_sha256": "820e93c569a0912672042df114355a66a694b2f531f976417fcebdb7d3381489",
+   "declared_sha256": "116381cfdca50c4a727e39e37216f483a17fcd17cd71b7cecc50ed4e2c1d6b71",
    "applied": true,
-   "preview": "assets/studio-qb-20261023-ford-gt-2005-master-b6-820e93c569a0-current.jpg",
+   "preview": "assets/studio-qb-20261023-ford-gt-2005-master-b6-116381cfdca5-current.jpg",
    "pixels": [
     9000,
     12000
@@ -11933,9 +11933,9 @@
   },
   {
    "key": "studio-qb-20261023-ford-gt-2005",
-   "declared_sha256": "a5b64fbac7b43365298931b9a89953bd87b1837eaa99045e36d12e261c2bf2e7",
+   "declared_sha256": "de2281ae5d87efd5449d54451a79581f8971794bdef9248d4a7967c4520ed70f",
    "applied": true,
-   "preview": "assets/studio-qb-20261023-ford-gt-2005-a5b64fbac7b4-current.jpg",
+   "preview": "assets/studio-qb-20261023-ford-gt-2005-de2281ae5d87-current.jpg",
    "pixels": [
     2480,
     3312
