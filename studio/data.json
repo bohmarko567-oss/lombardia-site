@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-23 19:26",
+ "built": "2026-10-23 20:52",
  "accessed_date": "2026-10-23",
  "collections": [
   "American Form",
@@ -1238,20 +1238,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-qb-20261023-ford-gt-2005-86bebb0562dc-current.jpg",
+   "preview": "assets/studio-qb-20261023-ford-gt-2005-5007bd4e55c0-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-qb-20261023/t1/heroes/ford-gt-2005/final-native.png",
-   "source_sha256": "86bebb0562dc78bd5da22e66fac5f673d406ba56de2e806016d5080114111693",
+   "source_sha256": "5007bd4e55c0fe9882c0ff9c0b30ba09c8a10c7ee989f27d60068b7a1c02994f",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Raw hero - approval 1. Workflow B (print resolution) test: see studio/assets/qb-fordgt-*.jpg",
+   "delivery_status": "Fixed version - approval 2. 6 local fixes. Workflow B finished print masters, 9000 x 12000 with the house mark: A Lanczos (today) | B Topaz CGI + lock | W Topaz Wonder 3.5 + lock, at 100% of 75 x 100 cm: studio/assets/qb-fordgt-fin-1.jpg and -2",
    "candidate_created_at": "2026-10-23T17:06:23.537388+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -1330,6 +1330,26 @@
        "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "ad837de9-4dd4-47ac-ab14-2d7a778d71f1",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T18:35:31.870985+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ad837de9-4dd4-47ac-ab14-2d7a778d71f1_9d76e09c.png",
+     "page_url": "https://muapi.ai/predictions/ad837de9-4dd4-47ac-ab14-2d7a778d71f1",
+     "target_id": "right",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "0a6ea03c-6028-4b6d-b73f-24e5690ecab8",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T18:35:34.479838+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0a6ea03c-6028-4b6d-b73f-24e5690ecab8_88146083.png",
+     "page_url": "https://muapi.ai/predictions/0a6ea03c-6028-4b6d-b73f-24e5690ecab8",
+     "target_id": "left",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -1337,10 +1357,10 @@
     "why": "Brief: DIRECTED - the car's own side stripe blown up into a giant FORD GT stripe across the sheet. Suggestion only."
    },
    "candidate_source": "pipeline/studio-qb-20261023/studio-candidates.json",
-   "candidate_authority": "Owner 23 Oct 2026 18:43: 'lets engineer or plan a workwlow B ... actual max resolution ... try 1 new hero, like normal workflow, good creative, everything but now we try this quality fix workflow'. One RAW hero for approval 1 (A-Z B); the workflow B test runs on a copy.",
-   "full_source_url": "full/86bebb0562dc-studio-qb-20261023-ford-gt-2005.png",
-   "full_source_sha256": "86bebb0562dc78bd5da22e66fac5f673d406ba56de2e806016d5080114111693",
-   "full_source_bytes": 9963573,
+   "candidate_authority": "Owner 23 Oct 2026 18:43: workflow B test, one hero 'like normal workflow'. Owner 20:07: 'i need those files to be finished, meaning u take each version u seem worthy continuing and finish it with logos etc, then ill check' - taken as approval 1 for this hero.",
+   "full_source_url": "full/5007bd4e55c0-studio-qb-20261023-ford-gt-2005.png",
+   "full_source_sha256": "5007bd4e55c0fe9882c0ff9c0b30ba09c8a10c7ee989f27d60068b7a1c02994f",
+   "full_source_bytes": 8916586,
    "full_source_pixels": [
     2480,
     3312
@@ -1439,13 +1459,35 @@
       }
      ],
      "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "ad837de9-4dd4-47ac-ab14-2d7a778d71f1",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T18:35:31.870985+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ad837de9-4dd4-47ac-ab14-2d7a778d71f1_9d76e09c.png",
+     "page_url": "https://muapi.ai/predictions/ad837de9-4dd4-47ac-ab14-2d7a778d71f1",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "0a6ea03c-6028-4b6d-b73f-24e5690ecab8",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T18:35:34.479838+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0a6ea03c-6028-4b6d-b73f-24e5690ecab8_88146083.png",
+     "page_url": "https://muapi.ai/predictions/0a6ea03c-6028-4b6d-b73f-24e5690ecab8",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-23T17:02:59.388059+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-23T17:06:23.537388+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-23T18:35:34.479838+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -8467,9 +8509,9 @@
   },
   {
    "key": "studio-qb-20261023-ford-gt-2005",
-   "declared_sha256": "86bebb0562dc78bd5da22e66fac5f673d406ba56de2e806016d5080114111693",
+   "declared_sha256": "5007bd4e55c0fe9882c0ff9c0b30ba09c8a10c7ee989f27d60068b7a1c02994f",
    "applied": true,
-   "preview": "assets/studio-qb-20261023-ford-gt-2005-86bebb0562dc-current.jpg",
+   "preview": "assets/studio-qb-20261023-ford-gt-2005-5007bd4e55c0-current.jpg",
    "pixels": [
     2480,
     3312
