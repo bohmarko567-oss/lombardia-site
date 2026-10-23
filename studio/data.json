@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-23 20:52",
+ "built": "2026-10-23 21:11",
  "accessed_date": "2026-10-23",
  "collections": [
   "American Form",
@@ -1488,6 +1488,724 @@
     "created_source": "MuAPI original",
     "updated_at": "2026-10-23T18:35:34.479838+00:00",
     "updated_source": "MuAPI edit"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-qb-20261023-ford-gt-2005-master-a",
+   "name": "Ford GT - master A Lanczos (today)",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-qb-20261023-ford-gt-2005-master-a-4869d1ef9982-current.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_file": "pipeline/studio-qb-20261023/q2/masters/A-lanczos-9000x12000.jpg",
+   "source_sha256": "4869d1ef99827a85374ce6ccc902445e8ec51412a5b101b7c8b17caf7d7e283e",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Workflow B print master A, 9000 x 12000 (305 dpi at 75 x 100). Open the full poster and zoom; compare A, B and W.",
+   "candidate_created_at": "2026-10-23T18:50:51.642443+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "9fb0b73a-fcbc-432d-aeec-26b1ec7d987e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-23T17:02:59.388059+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9fb0b73a-fcbc-432d-aeec-26b1ec7d987e_83babbf1.png",
+     "page_url": "https://muapi.ai/predictions/9fb0b73a-fcbc-432d-aeec-26b1ec7d987e",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the two white racing stripes over the bonnet and down the lower nose, the small Ford oval between them, the headlamps, the side stripe with FORD GT behind the front wheel, the silver wheels (ignore the stickers inside the windscreen)",
+       "url": "https://cdn.muapi.ai/outputs/generated/e6900a16071643da81f39f7e1afe4fb5.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front three-quarter from the right: the right flank with its side stripe and the FORD GT lettering behind the front wheel, the mirror, the wheels and the red calipers",
+       "url": "https://cdn.muapi.ai/outputs/generated/4e0a392f946d4f8ca28420adbaf6adb3.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front: both headlamp units, the two stripes and the narrow blue gap with the Ford oval at the front edge of the bonnet, the wide black mesh intake, the stripes continuing on the lower nose below it, the round fog lamps, the splitter, the mirrors",
+       "url": "https://cdn.muapi.ai/outputs/generated/90c68f0f43064b918a188dcb517b6448.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Side profile (left side): proportions - the long low body, the doors cut into the roof, the side stripe with FORD GT, the air scoop behind the door, the wheels, the red calipers",
+       "url": "https://cdn.muapi.ai/outputs/generated/8303ebfac70b4f4a98bf94c9074fd67e.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Bonnet close-up from high in front: the stripes over the bonnet, the small black mesh vent near the windscreen, the wipers (ignore the stickers inside the windscreen)",
+       "url": "https://cdn.muapi.ai/outputs/generated/e288bee6c18640d4981d8ff4fc3de073.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Headlamp close-up: two round projector lamps side by side under one clear cover, the amber lens at its lower outer corner",
+       "url": "https://cdn.muapi.ai/outputs/generated/654d60d6d38841e88e0ecd2295dc12fb.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Badge close-up: the Ford blue oval with its chrome rim and white Ford script, sitting in the narrow blue gap between the two white stripes at the front of the bonnet",
+       "url": "https://cdn.muapi.ai/outputs/generated/dfcb9a28c4a448aea5cfdaa18e8c7b67.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front corner close-up: the round fog lamp in its black housing, the black mesh intake, the splitter",
+       "url": "https://cdn.muapi.ai/outputs/generated/45a8c765036644508157667237b5492b.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front wheel close-up: silver forged BBS wheel, ten spokes in five pairs joined at the hub, five lug nuts, the flat silver centre cap, red brake caliper, drilled disc (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/generated/f6ae9c5ae1624f6486ca0c0d3ece6b60.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Wheel centre close-up: the flat silver centre cap with FORD GT on it, the five lug nuts, the spoke roots, the red caliper",
+       "url": "https://cdn.muapi.ai/outputs/generated/ba7101c6583b4318a01e6b17bb9c5e86.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Fuel filler close-up: the round brushed aluminium filler cap on top of the right front wing",
+       "url": "https://cdn.muapi.ai/outputs/generated/bf65f21c097e499ebeab486ae864b806.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Door mirror close-up: the body-colour mirror head on its black stalk",
+       "url": "https://cdn.muapi.ai/outputs/generated/2c5eedc968bd47118f5b42f9a6de8257.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Lettering close-up: FORD GT in the side stripe - outlined block capitals where the white stripe opens around them; the model for the poster title only",
+       "url": "https://cdn.muapi.ai/outputs/generated/f366c96aaa394a94bf612166850b5a17.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "American Form",
+    "why": "Workflow B test master. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-qb-20261023/studio-candidates.json",
+   "candidate_authority": "Owner 23 Oct 2026 18:43: workflow B test, one hero 'like normal workflow'. Owner 20:07: 'i need those files to be finished, meaning u take each version u seem worthy continuing and finish it with logos etc, then ill check' - taken as approval 1 for this hero.",
+   "full_source_url": "full/4869d1ef9982-studio-qb-20261023-ford-gt-2005-master-a.jpg",
+   "full_source_sha256": "4869d1ef99827a85374ce6ccc902445e8ec51412a5b101b7c8b17caf7d7e283e",
+   "full_source_bytes": 16848923,
+   "full_source_pixels": [
+    9000,
+    12000
+   ],
+   "full_source_kind": "exact_current_jpg",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "American Form",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Workflow B test master. Suggestion only.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "9fb0b73a-fcbc-432d-aeec-26b1ec7d987e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T17:02:59.388059+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9fb0b73a-fcbc-432d-aeec-26b1ec7d987e_83babbf1.png",
+     "page_url": "https://muapi.ai/predictions/9fb0b73a-fcbc-432d-aeec-26b1ec7d987e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the two white racing stripes over the bonnet and down the lower nose, the small Ford oval between them, the headlamps, the side stripe with FORD GT behind the front wheel, the silver wheels (ignore the stickers inside the windscreen)",
+       "url": "https://cdn.muapi.ai/outputs/generated/e6900a16071643da81f39f7e1afe4fb5.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front three-quarter from the right: the right flank with its side stripe and the FORD GT lettering behind the front wheel, the mirror, the wheels and the red calipers",
+       "url": "https://cdn.muapi.ai/outputs/generated/4e0a392f946d4f8ca28420adbaf6adb3.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front: both headlamp units, the two stripes and the narrow blue gap with the Ford oval at the front edge of the bonnet, the wide black mesh intake, the stripes continuing on the lower nose below it, the round fog lamps, the splitter, the mirrors",
+       "url": "https://cdn.muapi.ai/outputs/generated/90c68f0f43064b918a188dcb517b6448.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Side profile (left side): proportions - the long low body, the doors cut into the roof, the side stripe with FORD GT, the air scoop behind the door, the wheels, the red calipers",
+       "url": "https://cdn.muapi.ai/outputs/generated/8303ebfac70b4f4a98bf94c9074fd67e.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Bonnet close-up from high in front: the stripes over the bonnet, the small black mesh vent near the windscreen, the wipers (ignore the stickers inside the windscreen)",
+       "url": "https://cdn.muapi.ai/outputs/generated/e288bee6c18640d4981d8ff4fc3de073.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Headlamp close-up: two round projector lamps side by side under one clear cover, the amber lens at its lower outer corner",
+       "url": "https://cdn.muapi.ai/outputs/generated/654d60d6d38841e88e0ecd2295dc12fb.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Badge close-up: the Ford blue oval with its chrome rim and white Ford script, sitting in the narrow blue gap between the two white stripes at the front of the bonnet",
+       "url": "https://cdn.muapi.ai/outputs/generated/dfcb9a28c4a448aea5cfdaa18e8c7b67.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front corner close-up: the round fog lamp in its black housing, the black mesh intake, the splitter",
+       "url": "https://cdn.muapi.ai/outputs/generated/45a8c765036644508157667237b5492b.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front wheel close-up: silver forged BBS wheel, ten spokes in five pairs joined at the hub, five lug nuts, the flat silver centre cap, red brake caliper, drilled disc (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/generated/f6ae9c5ae1624f6486ca0c0d3ece6b60.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Wheel centre close-up: the flat silver centre cap with FORD GT on it, the five lug nuts, the spoke roots, the red caliper",
+       "url": "https://cdn.muapi.ai/outputs/generated/ba7101c6583b4318a01e6b17bb9c5e86.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Fuel filler close-up: the round brushed aluminium filler cap on top of the right front wing",
+       "url": "https://cdn.muapi.ai/outputs/generated/bf65f21c097e499ebeab486ae864b806.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Door mirror close-up: the body-colour mirror head on its black stalk",
+       "url": "https://cdn.muapi.ai/outputs/generated/2c5eedc968bd47118f5b42f9a6de8257.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Lettering close-up: FORD GT in the side stripe - outlined block capitals where the white stripe opens around them; the model for the poster title only",
+       "url": "https://cdn.muapi.ai/outputs/generated/f366c96aaa394a94bf612166850b5a17.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      }
+     ],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-23T17:02:59.388059+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-23T18:50:51.642443+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-qb-20261023-ford-gt-2005-master-b",
+   "name": "Ford GT - master B Topaz CGI + lock",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-qb-20261023-ford-gt-2005-master-b-b259fd175517-current.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_file": "pipeline/studio-qb-20261023/q2/masters/B-topaz-cgi-lock-9000x12000.jpg",
+   "source_sha256": "b259fd1755171d1e1820a7a6e9ba65147ad5d93655070a39a65d1a6f5c2e761a",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Workflow B print master B, 9000 x 12000 (305 dpi at 75 x 100). Open the full poster and zoom; compare A, B and W.",
+   "candidate_created_at": "2026-10-23T18:50:55.137479+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "9fb0b73a-fcbc-432d-aeec-26b1ec7d987e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-23T17:02:59.388059+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9fb0b73a-fcbc-432d-aeec-26b1ec7d987e_83babbf1.png",
+     "page_url": "https://muapi.ai/predictions/9fb0b73a-fcbc-432d-aeec-26b1ec7d987e",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the two white racing stripes over the bonnet and down the lower nose, the small Ford oval between them, the headlamps, the side stripe with FORD GT behind the front wheel, the silver wheels (ignore the stickers inside the windscreen)",
+       "url": "https://cdn.muapi.ai/outputs/generated/e6900a16071643da81f39f7e1afe4fb5.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front three-quarter from the right: the right flank with its side stripe and the FORD GT lettering behind the front wheel, the mirror, the wheels and the red calipers",
+       "url": "https://cdn.muapi.ai/outputs/generated/4e0a392f946d4f8ca28420adbaf6adb3.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front: both headlamp units, the two stripes and the narrow blue gap with the Ford oval at the front edge of the bonnet, the wide black mesh intake, the stripes continuing on the lower nose below it, the round fog lamps, the splitter, the mirrors",
+       "url": "https://cdn.muapi.ai/outputs/generated/90c68f0f43064b918a188dcb517b6448.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Side profile (left side): proportions - the long low body, the doors cut into the roof, the side stripe with FORD GT, the air scoop behind the door, the wheels, the red calipers",
+       "url": "https://cdn.muapi.ai/outputs/generated/8303ebfac70b4f4a98bf94c9074fd67e.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Bonnet close-up from high in front: the stripes over the bonnet, the small black mesh vent near the windscreen, the wipers (ignore the stickers inside the windscreen)",
+       "url": "https://cdn.muapi.ai/outputs/generated/e288bee6c18640d4981d8ff4fc3de073.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Headlamp close-up: two round projector lamps side by side under one clear cover, the amber lens at its lower outer corner",
+       "url": "https://cdn.muapi.ai/outputs/generated/654d60d6d38841e88e0ecd2295dc12fb.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Badge close-up: the Ford blue oval with its chrome rim and white Ford script, sitting in the narrow blue gap between the two white stripes at the front of the bonnet",
+       "url": "https://cdn.muapi.ai/outputs/generated/dfcb9a28c4a448aea5cfdaa18e8c7b67.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front corner close-up: the round fog lamp in its black housing, the black mesh intake, the splitter",
+       "url": "https://cdn.muapi.ai/outputs/generated/45a8c765036644508157667237b5492b.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front wheel close-up: silver forged BBS wheel, ten spokes in five pairs joined at the hub, five lug nuts, the flat silver centre cap, red brake caliper, drilled disc (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/generated/f6ae9c5ae1624f6486ca0c0d3ece6b60.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Wheel centre close-up: the flat silver centre cap with FORD GT on it, the five lug nuts, the spoke roots, the red caliper",
+       "url": "https://cdn.muapi.ai/outputs/generated/ba7101c6583b4318a01e6b17bb9c5e86.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Fuel filler close-up: the round brushed aluminium filler cap on top of the right front wing",
+       "url": "https://cdn.muapi.ai/outputs/generated/bf65f21c097e499ebeab486ae864b806.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Door mirror close-up: the body-colour mirror head on its black stalk",
+       "url": "https://cdn.muapi.ai/outputs/generated/2c5eedc968bd47118f5b42f9a6de8257.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Lettering close-up: FORD GT in the side stripe - outlined block capitals where the white stripe opens around them; the model for the poster title only",
+       "url": "https://cdn.muapi.ai/outputs/generated/f366c96aaa394a94bf612166850b5a17.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      }
+     ]
+    },
+    {
+     "role": "upscale",
+     "request_id": "e44361e8-9c67-4e85-b2a3-bf9702bf2a6d",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-23T18:47:14.961758+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e44361e8-9c67-4e85-b2a3-bf9702bf2a6d_2f8eb2c1.png",
+     "page_url": "https://muapi.ai/predictions/e44361e8-9c67-4e85-b2a3-bf9702bf2a6d",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "collection": "American Form",
+    "why": "Workflow B test master. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-qb-20261023/studio-candidates.json",
+   "candidate_authority": "Owner 23 Oct 2026 18:43: workflow B test, one hero 'like normal workflow'. Owner 20:07: 'i need those files to be finished, meaning u take each version u seem worthy continuing and finish it with logos etc, then ill check' - taken as approval 1 for this hero.",
+   "full_source_url": "full/b259fd175517-studio-qb-20261023-ford-gt-2005-master-b.jpg",
+   "full_source_sha256": "b259fd1755171d1e1820a7a6e9ba65147ad5d93655070a39a65d1a6f5c2e761a",
+   "full_source_bytes": 19478446,
+   "full_source_pixels": [
+    9000,
+    12000
+   ],
+   "full_source_kind": "exact_current_jpg",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "American Form",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Workflow B test master. Suggestion only.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "9fb0b73a-fcbc-432d-aeec-26b1ec7d987e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T17:02:59.388059+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9fb0b73a-fcbc-432d-aeec-26b1ec7d987e_83babbf1.png",
+     "page_url": "https://muapi.ai/predictions/9fb0b73a-fcbc-432d-aeec-26b1ec7d987e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the two white racing stripes over the bonnet and down the lower nose, the small Ford oval between them, the headlamps, the side stripe with FORD GT behind the front wheel, the silver wheels (ignore the stickers inside the windscreen)",
+       "url": "https://cdn.muapi.ai/outputs/generated/e6900a16071643da81f39f7e1afe4fb5.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front three-quarter from the right: the right flank with its side stripe and the FORD GT lettering behind the front wheel, the mirror, the wheels and the red calipers",
+       "url": "https://cdn.muapi.ai/outputs/generated/4e0a392f946d4f8ca28420adbaf6adb3.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front: both headlamp units, the two stripes and the narrow blue gap with the Ford oval at the front edge of the bonnet, the wide black mesh intake, the stripes continuing on the lower nose below it, the round fog lamps, the splitter, the mirrors",
+       "url": "https://cdn.muapi.ai/outputs/generated/90c68f0f43064b918a188dcb517b6448.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Side profile (left side): proportions - the long low body, the doors cut into the roof, the side stripe with FORD GT, the air scoop behind the door, the wheels, the red calipers",
+       "url": "https://cdn.muapi.ai/outputs/generated/8303ebfac70b4f4a98bf94c9074fd67e.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Bonnet close-up from high in front: the stripes over the bonnet, the small black mesh vent near the windscreen, the wipers (ignore the stickers inside the windscreen)",
+       "url": "https://cdn.muapi.ai/outputs/generated/e288bee6c18640d4981d8ff4fc3de073.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Headlamp close-up: two round projector lamps side by side under one clear cover, the amber lens at its lower outer corner",
+       "url": "https://cdn.muapi.ai/outputs/generated/654d60d6d38841e88e0ecd2295dc12fb.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Badge close-up: the Ford blue oval with its chrome rim and white Ford script, sitting in the narrow blue gap between the two white stripes at the front of the bonnet",
+       "url": "https://cdn.muapi.ai/outputs/generated/dfcb9a28c4a448aea5cfdaa18e8c7b67.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front corner close-up: the round fog lamp in its black housing, the black mesh intake, the splitter",
+       "url": "https://cdn.muapi.ai/outputs/generated/45a8c765036644508157667237b5492b.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front wheel close-up: silver forged BBS wheel, ten spokes in five pairs joined at the hub, five lug nuts, the flat silver centre cap, red brake caliper, drilled disc (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/generated/f6ae9c5ae1624f6486ca0c0d3ece6b60.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Wheel centre close-up: the flat silver centre cap with FORD GT on it, the five lug nuts, the spoke roots, the red caliper",
+       "url": "https://cdn.muapi.ai/outputs/generated/ba7101c6583b4318a01e6b17bb9c5e86.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Fuel filler close-up: the round brushed aluminium filler cap on top of the right front wing",
+       "url": "https://cdn.muapi.ai/outputs/generated/bf65f21c097e499ebeab486ae864b806.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Door mirror close-up: the body-colour mirror head on its black stalk",
+       "url": "https://cdn.muapi.ai/outputs/generated/2c5eedc968bd47118f5b42f9a6de8257.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Lettering close-up: FORD GT in the side stripe - outlined block capitals where the white stripe opens around them; the model for the poster title only",
+       "url": "https://cdn.muapi.ai/outputs/generated/f366c96aaa394a94bf612166850b5a17.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      }
+     ],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "upscale",
+     "request_id": "e44361e8-9c67-4e85-b2a3-bf9702bf2a6d",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-23T18:47:14.961758+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e44361e8-9c67-4e85-b2a3-bf9702bf2a6d_2f8eb2c1.png",
+     "page_url": "https://muapi.ai/predictions/e44361e8-9c67-4e85-b2a3-bf9702bf2a6d",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-23T17:02:59.388059+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-23T18:50:55.137479+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-qb-20261023-ford-gt-2005-master-w",
+   "name": "Ford GT - master W Topaz Wonder 3.5 + lock",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-qb-20261023-ford-gt-2005-master-w-2e70b35130e1-current.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_file": "pipeline/studio-qb-20261023/q2/masters/W-topaz-wonder35-lock-9000x12000.jpg",
+   "source_sha256": "2e70b35130e17fb3c9d50d06ad61a8d4ca7d10ba8ff66f36a2c1706eaef1e6d8",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Workflow B print master W, 9000 x 12000 (305 dpi at 75 x 100). Open the full poster and zoom; compare A, B and W.",
+   "candidate_created_at": "2026-10-23T18:53:08.445657+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "9fb0b73a-fcbc-432d-aeec-26b1ec7d987e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-23T17:02:59.388059+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9fb0b73a-fcbc-432d-aeec-26b1ec7d987e_83babbf1.png",
+     "page_url": "https://muapi.ai/predictions/9fb0b73a-fcbc-432d-aeec-26b1ec7d987e",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the two white racing stripes over the bonnet and down the lower nose, the small Ford oval between them, the headlamps, the side stripe with FORD GT behind the front wheel, the silver wheels (ignore the stickers inside the windscreen)",
+       "url": "https://cdn.muapi.ai/outputs/generated/e6900a16071643da81f39f7e1afe4fb5.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front three-quarter from the right: the right flank with its side stripe and the FORD GT lettering behind the front wheel, the mirror, the wheels and the red calipers",
+       "url": "https://cdn.muapi.ai/outputs/generated/4e0a392f946d4f8ca28420adbaf6adb3.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front: both headlamp units, the two stripes and the narrow blue gap with the Ford oval at the front edge of the bonnet, the wide black mesh intake, the stripes continuing on the lower nose below it, the round fog lamps, the splitter, the mirrors",
+       "url": "https://cdn.muapi.ai/outputs/generated/90c68f0f43064b918a188dcb517b6448.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Side profile (left side): proportions - the long low body, the doors cut into the roof, the side stripe with FORD GT, the air scoop behind the door, the wheels, the red calipers",
+       "url": "https://cdn.muapi.ai/outputs/generated/8303ebfac70b4f4a98bf94c9074fd67e.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Bonnet close-up from high in front: the stripes over the bonnet, the small black mesh vent near the windscreen, the wipers (ignore the stickers inside the windscreen)",
+       "url": "https://cdn.muapi.ai/outputs/generated/e288bee6c18640d4981d8ff4fc3de073.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Headlamp close-up: two round projector lamps side by side under one clear cover, the amber lens at its lower outer corner",
+       "url": "https://cdn.muapi.ai/outputs/generated/654d60d6d38841e88e0ecd2295dc12fb.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Badge close-up: the Ford blue oval with its chrome rim and white Ford script, sitting in the narrow blue gap between the two white stripes at the front of the bonnet",
+       "url": "https://cdn.muapi.ai/outputs/generated/dfcb9a28c4a448aea5cfdaa18e8c7b67.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front corner close-up: the round fog lamp in its black housing, the black mesh intake, the splitter",
+       "url": "https://cdn.muapi.ai/outputs/generated/45a8c765036644508157667237b5492b.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front wheel close-up: silver forged BBS wheel, ten spokes in five pairs joined at the hub, five lug nuts, the flat silver centre cap, red brake caliper, drilled disc (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/generated/f6ae9c5ae1624f6486ca0c0d3ece6b60.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Wheel centre close-up: the flat silver centre cap with FORD GT on it, the five lug nuts, the spoke roots, the red caliper",
+       "url": "https://cdn.muapi.ai/outputs/generated/ba7101c6583b4318a01e6b17bb9c5e86.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Fuel filler close-up: the round brushed aluminium filler cap on top of the right front wing",
+       "url": "https://cdn.muapi.ai/outputs/generated/bf65f21c097e499ebeab486ae864b806.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Door mirror close-up: the body-colour mirror head on its black stalk",
+       "url": "https://cdn.muapi.ai/outputs/generated/2c5eedc968bd47118f5b42f9a6de8257.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Lettering close-up: FORD GT in the side stripe - outlined block capitals where the white stripe opens around them; the model for the poster title only",
+       "url": "https://cdn.muapi.ai/outputs/generated/f366c96aaa394a94bf612166850b5a17.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      }
+     ]
+    },
+    {
+     "role": "upscale",
+     "request_id": "b11e171f-a2d4-4ee0-b33b-4e332541c091",
+     "model": "topaz-upscale-image-generative",
+     "created_at": "2026-10-23T18:47:17.183239+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b11e171f-a2d4-4ee0-b33b-4e332541c091_76f21ff6.png",
+     "page_url": "https://muapi.ai/predictions/b11e171f-a2d4-4ee0-b33b-4e332541c091",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "collection": "American Form",
+    "why": "Workflow B test master. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-qb-20261023/studio-candidates.json",
+   "candidate_authority": "Owner 23 Oct 2026 18:43: workflow B test, one hero 'like normal workflow'. Owner 20:07: 'i need those files to be finished, meaning u take each version u seem worthy continuing and finish it with logos etc, then ill check' - taken as approval 1 for this hero.",
+   "full_source_url": "full/2e70b35130e1-studio-qb-20261023-ford-gt-2005-master-w.jpg",
+   "full_source_sha256": "2e70b35130e17fb3c9d50d06ad61a8d4ca7d10ba8ff66f36a2c1706eaef1e6d8",
+   "full_source_bytes": 25125016,
+   "full_source_pixels": [
+    9000,
+    12000
+   ],
+   "full_source_kind": "exact_current_jpg",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "American Form",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Workflow B test master. Suggestion only.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "9fb0b73a-fcbc-432d-aeec-26b1ec7d987e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T17:02:59.388059+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9fb0b73a-fcbc-432d-aeec-26b1ec7d987e_83babbf1.png",
+     "page_url": "https://muapi.ai/predictions/9fb0b73a-fcbc-432d-aeec-26b1ec7d987e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the two white racing stripes over the bonnet and down the lower nose, the small Ford oval between them, the headlamps, the side stripe with FORD GT behind the front wheel, the silver wheels (ignore the stickers inside the windscreen)",
+       "url": "https://cdn.muapi.ai/outputs/generated/e6900a16071643da81f39f7e1afe4fb5.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front three-quarter from the right: the right flank with its side stripe and the FORD GT lettering behind the front wheel, the mirror, the wheels and the red calipers",
+       "url": "https://cdn.muapi.ai/outputs/generated/4e0a392f946d4f8ca28420adbaf6adb3.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front: both headlamp units, the two stripes and the narrow blue gap with the Ford oval at the front edge of the bonnet, the wide black mesh intake, the stripes continuing on the lower nose below it, the round fog lamps, the splitter, the mirrors",
+       "url": "https://cdn.muapi.ai/outputs/generated/90c68f0f43064b918a188dcb517b6448.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Side profile (left side): proportions - the long low body, the doors cut into the roof, the side stripe with FORD GT, the air scoop behind the door, the wheels, the red calipers",
+       "url": "https://cdn.muapi.ai/outputs/generated/8303ebfac70b4f4a98bf94c9074fd67e.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Bonnet close-up from high in front: the stripes over the bonnet, the small black mesh vent near the windscreen, the wipers (ignore the stickers inside the windscreen)",
+       "url": "https://cdn.muapi.ai/outputs/generated/e288bee6c18640d4981d8ff4fc3de073.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Headlamp close-up: two round projector lamps side by side under one clear cover, the amber lens at its lower outer corner",
+       "url": "https://cdn.muapi.ai/outputs/generated/654d60d6d38841e88e0ecd2295dc12fb.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Badge close-up: the Ford blue oval with its chrome rim and white Ford script, sitting in the narrow blue gap between the two white stripes at the front of the bonnet",
+       "url": "https://cdn.muapi.ai/outputs/generated/dfcb9a28c4a448aea5cfdaa18e8c7b67.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front corner close-up: the round fog lamp in its black housing, the black mesh intake, the splitter",
+       "url": "https://cdn.muapi.ai/outputs/generated/45a8c765036644508157667237b5492b.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front wheel close-up: silver forged BBS wheel, ten spokes in five pairs joined at the hub, five lug nuts, the flat silver centre cap, red brake caliper, drilled disc (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/generated/f6ae9c5ae1624f6486ca0c0d3ece6b60.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Wheel centre close-up: the flat silver centre cap with FORD GT on it, the five lug nuts, the spoke roots, the red caliper",
+       "url": "https://cdn.muapi.ai/outputs/generated/ba7101c6583b4318a01e6b17bb9c5e86.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Fuel filler close-up: the round brushed aluminium filler cap on top of the right front wing",
+       "url": "https://cdn.muapi.ai/outputs/generated/bf65f21c097e499ebeab486ae864b806.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Door mirror close-up: the body-colour mirror head on its black stalk",
+       "url": "https://cdn.muapi.ai/outputs/generated/2c5eedc968bd47118f5b42f9a6de8257.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Lettering close-up: FORD GT in the side stripe - outlined block capitals where the white stripe opens around them; the model for the poster title only",
+       "url": "https://cdn.muapi.ai/outputs/generated/f366c96aaa394a94bf612166850b5a17.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      }
+     ],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "upscale",
+     "request_id": "b11e171f-a2d4-4ee0-b33b-4e332541c091",
+     "model": "topaz-upscale-image-generative",
+     "created_at": "2026-10-23T18:47:17.183239+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b11e171f-a2d4-4ee0-b33b-4e332541c091_76f21ff6.png",
+     "page_url": "https://muapi.ai/predictions/b11e171f-a2d4-4ee0-b33b-4e332541c091",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-23T17:02:59.388059+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-23T18:53:08.445657+00:00",
+    "updated_source": "candidate generated"
    },
    "status": {
     "code": "review",
@@ -8506,6 +9224,36 @@
    "declared_sha256": "837e3ec821227d690e821f5cd2d277829004c80e0e3dcf77a07747235e5ca050",
    "applied": false,
    "reason": "ledger already carries this key with a selected source; the lot record stands"
+  },
+  {
+   "key": "studio-qb-20261023-ford-gt-2005-master-w",
+   "declared_sha256": "2e70b35130e17fb3c9d50d06ad61a8d4ca7d10ba8ff66f36a2c1706eaef1e6d8",
+   "applied": true,
+   "preview": "assets/studio-qb-20261023-ford-gt-2005-master-w-2e70b35130e1-current.jpg",
+   "pixels": [
+    9000,
+    12000
+   ]
+  },
+  {
+   "key": "studio-qb-20261023-ford-gt-2005-master-b",
+   "declared_sha256": "b259fd1755171d1e1820a7a6e9ba65147ad5d93655070a39a65d1a6f5c2e761a",
+   "applied": true,
+   "preview": "assets/studio-qb-20261023-ford-gt-2005-master-b-b259fd175517-current.jpg",
+   "pixels": [
+    9000,
+    12000
+   ]
+  },
+  {
+   "key": "studio-qb-20261023-ford-gt-2005-master-a",
+   "declared_sha256": "4869d1ef99827a85374ce6ccc902445e8ec51412a5b101b7c8b17caf7d7e283e",
+   "applied": true,
+   "preview": "assets/studio-qb-20261023-ford-gt-2005-master-a-4869d1ef9982-current.jpg",
+   "pixels": [
+    9000,
+    12000
+   ]
   },
   {
    "key": "studio-qb-20261023-ford-gt-2005",
