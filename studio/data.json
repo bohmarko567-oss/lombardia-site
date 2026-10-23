@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-23 21:11",
+ "built": "2026-10-23 22:23",
  "accessed_date": "2026-10-23",
  "collections": [
   "American Form",
@@ -1231,6 +1231,97 @@
    }
   },
   {
+   "key": "db5-master-v2",
+   "name": "Aston Martin DB5 - print file v2 (Topaz CGI + lock) - the one sent to Prodigi",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/db5-master-v2-a7bd5c449479-current.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_file": "pipeline/studio-qb-20261023/db5/masters/DB5-topaz-cgi-lock-9000x12000.jpg",
+   "source_sha256": "a7bd5c4494791be3c13461f5f537a029e0114229055817971d01c53d0aa2983d",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "DB5 print file v2, 9000 x 12000 (300 dpi at 30 x 40 in): the approved DB5 art through workflow B, its own vector branding re-rendered. Sent to Prodigi 23 Oct 22:12 BEFORE you checked it: ticket #374839 asks to swap it on order 73910078014003712 if not printed yet - say no and I tell them to drop the swap. OLD | NEW at 100%: studio/assets/qb-db5-v2-1.jpg and -2. Better: title, wings, plate, badges (no stair-steps). Weak: the wire wheels - the approved art drew the spokes as forked twigs, the sharper file shows it more.",
+   "candidate_created_at": "2026-10-23T20:02:31.618647+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "upscale",
+     "request_id": "55d4efaa-358f-487f-9b76-a7a484400e28",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-23T19:46:04.107230+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/55d4efaa-358f-487f-9b76-a7a484400e28_c9ee6892.png",
+     "page_url": "https://muapi.ai/predictions/55d4efaa-358f-487f-9b76-a7a484400e28",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "why": "Print file for the existing DB5 lot, not a new artwork."
+   },
+   "candidate_source": "pipeline/studio-qb-20261023/studio-candidates.json",
+   "candidate_authority": "Owner 23 Oct 2026 18:43: workflow B test, one hero 'like normal workflow'. Owner 20:07: 'i need those files to be finished, meaning u take each version u seem worthy continuing and finish it with logos etc, then ill check' - taken as approval 1 for this hero.",
+   "full_source_url": "full/a7bd5c449479-db5-master-v2.jpg",
+   "full_source_sha256": "a7bd5c4494791be3c13461f5f537a029e0114229055817971d01c53d0aa2983d",
+   "full_source_bytes": 26256939,
+   "full_source_pixels": [
+    9000,
+    12000
+   ],
+   "full_source_kind": "exact_current_jpg",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": null,
+    "collection": null,
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [
+    {
+     "role": "upscale",
+     "request_id": "55d4efaa-358f-487f-9b76-a7a484400e28",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-23T19:46:04.107230+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/55d4efaa-358f-487f-9b76-a7a484400e28_c9ee6892.png",
+     "page_url": "https://muapi.ai/predictions/55d4efaa-358f-487f-9b76-a7a484400e28",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-23T19:46:04.107230+00:00",
+    "created_source": "MuAPI upscale",
+    "updated_at": "2026-10-23T20:02:31.618647+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
    "key": "studio-qb-20261023-ford-gt-2005",
    "name": "Ford GT - DIRECTED",
    "notion_url": null,
@@ -1238,20 +1329,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-qb-20261023-ford-gt-2005-5007bd4e55c0-current.jpg",
+   "preview": "assets/studio-qb-20261023-ford-gt-2005-95a39dd1249e-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-qb-20261023/t1/heroes/ford-gt-2005/final-native.png",
-   "source_sha256": "5007bd4e55c0fe9882c0ff9c0b30ba09c8a10c7ee989f27d60068b7a1c02994f",
+   "source_sha256": "95a39dd1249e47e38426b2c63ee16b68595e4f13b74469672732d0adf5fe5466",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Fixed version - approval 2. 6 local fixes. Workflow B finished print masters, 9000 x 12000 with the house mark: A Lanczos (today) | B Topaz CGI + lock | W Topaz Wonder 3.5 + lock, at 100% of 75 x 100 cm: studio/assets/qb-fordgt-fin-1.jpg and -2",
+   "delivery_status": "Fixed version - approval 2. 8 local fixes. Print master = B final (Topaz CGI + lock, cap and oval redrawn at master scale), 9000 x 12000 with the house mark. Earlier masters A | B | W at 100% of 75 x 100 cm: studio/assets/qb-fordgt-fin-1.jpg and -2",
    "candidate_created_at": "2026-10-23T17:06:23.537388+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -1350,6 +1441,56 @@
      "page_url": "https://muapi.ai/predictions/0a6ea03c-6028-4b6d-b73f-24e5690ecab8",
      "target_id": "left",
      "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "e1531c56-a13a-4caf-a6cd-a0b0eaf4e3c3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T19:37:53.337607+00:00",
+     "result_url": null,
+     "page_url": "https://muapi.ai/predictions/e1531c56-a13a-4caf-a6cd-a0b0eaf4e3c3",
+     "target_id": "cap",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "95d0acac-bc7a-4959-8af9-9f356c797791",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T19:37:56.034374+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/95d0acac-bc7a-4959-8af9-9f356c797791_efbaa0ac.png",
+     "page_url": "https://muapi.ai/predictions/95d0acac-bc7a-4959-8af9-9f356c797791",
+     "target_id": "oval",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "2952f85e-74ae-41f1-af35-f38d39ae38cb",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T19:52:13.258727+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2952f85e-74ae-41f1-af35-f38d39ae38cb_dc20445d.png",
+     "page_url": "https://muapi.ai/predictions/2952f85e-74ae-41f1-af35-f38d39ae38cb",
+     "target_id": "cap",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "173945e1-ee0a-4897-99f1-34c0e22505be",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:07:41.954119+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/173945e1-ee0a-4897-99f1-34c0e22505be_f7ff0c87.png",
+     "page_url": "https://muapi.ai/predictions/173945e1-ee0a-4897-99f1-34c0e22505be",
+     "target_id": "cap",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "945d24ec-f27a-4d7b-8aeb-21e40e02b31d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:10:52.468739+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/945d24ec-f27a-4d7b-8aeb-21e40e02b31d_91da8310.png",
+     "page_url": "https://muapi.ai/predictions/945d24ec-f27a-4d7b-8aeb-21e40e02b31d",
+     "target_id": "cap",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -1358,9 +1499,9 @@
    },
    "candidate_source": "pipeline/studio-qb-20261023/studio-candidates.json",
    "candidate_authority": "Owner 23 Oct 2026 18:43: workflow B test, one hero 'like normal workflow'. Owner 20:07: 'i need those files to be finished, meaning u take each version u seem worthy continuing and finish it with logos etc, then ill check' - taken as approval 1 for this hero.",
-   "full_source_url": "full/5007bd4e55c0-studio-qb-20261023-ford-gt-2005.png",
-   "full_source_sha256": "5007bd4e55c0fe9882c0ff9c0b30ba09c8a10c7ee989f27d60068b7a1c02994f",
-   "full_source_bytes": 8916586,
+   "full_source_url": "full/95a39dd1249e-studio-qb-20261023-ford-gt-2005.png",
+   "full_source_sha256": "95a39dd1249e47e38426b2c63ee16b68595e4f13b74469672732d0adf5fe5466",
+   "full_source_bytes": 8518695,
    "full_source_pixels": [
     2480,
     3312
@@ -1481,13 +1622,419 @@
      "history_url": "https://muapi.ai/predictions",
      "references": [],
      "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "e1531c56-a13a-4caf-a6cd-a0b0eaf4e3c3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T19:37:53.337607+00:00",
+     "result_url": null,
+     "page_url": "https://muapi.ai/predictions/e1531c56-a13a-4caf-a6cd-a0b0eaf4e3c3",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "95d0acac-bc7a-4959-8af9-9f356c797791",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T19:37:56.034374+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/95d0acac-bc7a-4959-8af9-9f356c797791_efbaa0ac.png",
+     "page_url": "https://muapi.ai/predictions/95d0acac-bc7a-4959-8af9-9f356c797791",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "2952f85e-74ae-41f1-af35-f38d39ae38cb",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T19:52:13.258727+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2952f85e-74ae-41f1-af35-f38d39ae38cb_dc20445d.png",
+     "page_url": "https://muapi.ai/predictions/2952f85e-74ae-41f1-af35-f38d39ae38cb",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "173945e1-ee0a-4897-99f1-34c0e22505be",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:07:41.954119+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/173945e1-ee0a-4897-99f1-34c0e22505be_f7ff0c87.png",
+     "page_url": "https://muapi.ai/predictions/173945e1-ee0a-4897-99f1-34c0e22505be",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "945d24ec-f27a-4d7b-8aeb-21e40e02b31d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:10:52.468739+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/945d24ec-f27a-4d7b-8aeb-21e40e02b31d_91da8310.png",
+     "page_url": "https://muapi.ai/predictions/945d24ec-f27a-4d7b-8aeb-21e40e02b31d",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-23T17:02:59.388059+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-23T18:35:34.479838+00:00",
+    "updated_at": "2026-10-23T20:10:52.468739+00:00",
     "updated_source": "MuAPI edit"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-qb-20261023-ford-gt-2005-master-b2",
+   "name": "Ford GT - master B FINAL (your pick) - cap and Ford oval redrawn",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-qb-20261023-ford-gt-2005-master-b2-4d6640b1c999-current.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_file": "pipeline/studio-qb-20261023/q2/masters/B2-topaz-cgi-lock-m1-9000x12000.jpg",
+   "source_sha256": "4d6640b1c999b25983e1a21a9063ae20330e546d99f2c46798e9473d0cdd8db7",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Print master B FINAL (owner 21:32 \"B wins\"), 9000 x 12000 (305 dpi at 75 x 100). Topaz Precision CGI x3.63 + lock + the wheel centre cap and the bonnet Ford oval redrawn by the model ON the 9000 x 12000 master: crop = the exact 2K return size (cap 1536 x 2736, oval 2736 x 1536), so the edit lands 1:1 with no resampling; aligned, colour-matched, soft-mask pasted, everything else byte-identical to B; house mark. Cap: FORD GT in thin outlined letters on brushed aluminium (4 tries: 1 never returned, 2 dark-filled letters with a D that reads O, 3 spelled FORRD, 4 right). Oval: chrome rim, silver inner ring, the real Ford script. B v1 | B final | the real car: studio/assets/qb-fordgt-m1.jpg. USD 0.56 upscale + 0.50 fix generations.",
+   "candidate_created_at": "2026-10-23T20:18:08.096015+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "9fb0b73a-fcbc-432d-aeec-26b1ec7d987e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-23T17:02:59.388059+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9fb0b73a-fcbc-432d-aeec-26b1ec7d987e_83babbf1.png",
+     "page_url": "https://muapi.ai/predictions/9fb0b73a-fcbc-432d-aeec-26b1ec7d987e",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the two white racing stripes over the bonnet and down the lower nose, the small Ford oval between them, the headlamps, the side stripe with FORD GT behind the front wheel, the silver wheels (ignore the stickers inside the windscreen)",
+       "url": "https://cdn.muapi.ai/outputs/generated/e6900a16071643da81f39f7e1afe4fb5.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front three-quarter from the right: the right flank with its side stripe and the FORD GT lettering behind the front wheel, the mirror, the wheels and the red calipers",
+       "url": "https://cdn.muapi.ai/outputs/generated/4e0a392f946d4f8ca28420adbaf6adb3.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front: both headlamp units, the two stripes and the narrow blue gap with the Ford oval at the front edge of the bonnet, the wide black mesh intake, the stripes continuing on the lower nose below it, the round fog lamps, the splitter, the mirrors",
+       "url": "https://cdn.muapi.ai/outputs/generated/90c68f0f43064b918a188dcb517b6448.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Side profile (left side): proportions - the long low body, the doors cut into the roof, the side stripe with FORD GT, the air scoop behind the door, the wheels, the red calipers",
+       "url": "https://cdn.muapi.ai/outputs/generated/8303ebfac70b4f4a98bf94c9074fd67e.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Bonnet close-up from high in front: the stripes over the bonnet, the small black mesh vent near the windscreen, the wipers (ignore the stickers inside the windscreen)",
+       "url": "https://cdn.muapi.ai/outputs/generated/e288bee6c18640d4981d8ff4fc3de073.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Headlamp close-up: two round projector lamps side by side under one clear cover, the amber lens at its lower outer corner",
+       "url": "https://cdn.muapi.ai/outputs/generated/654d60d6d38841e88e0ecd2295dc12fb.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Badge close-up: the Ford blue oval with its chrome rim and white Ford script, sitting in the narrow blue gap between the two white stripes at the front of the bonnet",
+       "url": "https://cdn.muapi.ai/outputs/generated/dfcb9a28c4a448aea5cfdaa18e8c7b67.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front corner close-up: the round fog lamp in its black housing, the black mesh intake, the splitter",
+       "url": "https://cdn.muapi.ai/outputs/generated/45a8c765036644508157667237b5492b.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front wheel close-up: silver forged BBS wheel, ten spokes in five pairs joined at the hub, five lug nuts, the flat silver centre cap, red brake caliper, drilled disc (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/generated/f6ae9c5ae1624f6486ca0c0d3ece6b60.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Wheel centre close-up: the flat silver centre cap with FORD GT on it, the five lug nuts, the spoke roots, the red caliper",
+       "url": "https://cdn.muapi.ai/outputs/generated/ba7101c6583b4318a01e6b17bb9c5e86.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Fuel filler close-up: the round brushed aluminium filler cap on top of the right front wing",
+       "url": "https://cdn.muapi.ai/outputs/generated/bf65f21c097e499ebeab486ae864b806.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Door mirror close-up: the body-colour mirror head on its black stalk",
+       "url": "https://cdn.muapi.ai/outputs/generated/2c5eedc968bd47118f5b42f9a6de8257.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Lettering close-up: FORD GT in the side stripe - outlined block capitals where the white stripe opens around them; the model for the poster title only",
+       "url": "https://cdn.muapi.ai/outputs/generated/f366c96aaa394a94bf612166850b5a17.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      }
+     ]
+    },
+    {
+     "role": "upscale",
+     "request_id": "e44361e8-9c67-4e85-b2a3-bf9702bf2a6d",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-23T18:47:14.961758+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e44361e8-9c67-4e85-b2a3-bf9702bf2a6d_2f8eb2c1.png",
+     "page_url": "https://muapi.ai/predictions/e44361e8-9c67-4e85-b2a3-bf9702bf2a6d",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "e1531c56-a13a-4caf-a6cd-a0b0eaf4e3c3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T19:37:53.337607+00:00",
+     "result_url": null,
+     "page_url": "https://muapi.ai/predictions/e1531c56-a13a-4caf-a6cd-a0b0eaf4e3c3",
+     "target_id": "cap",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "95d0acac-bc7a-4959-8af9-9f356c797791",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T19:37:56.034374+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/95d0acac-bc7a-4959-8af9-9f356c797791_efbaa0ac.png",
+     "page_url": "https://muapi.ai/predictions/95d0acac-bc7a-4959-8af9-9f356c797791",
+     "target_id": "oval",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "2952f85e-74ae-41f1-af35-f38d39ae38cb",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T19:52:13.258727+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2952f85e-74ae-41f1-af35-f38d39ae38cb_dc20445d.png",
+     "page_url": "https://muapi.ai/predictions/2952f85e-74ae-41f1-af35-f38d39ae38cb",
+     "target_id": "cap",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "173945e1-ee0a-4897-99f1-34c0e22505be",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:07:41.954119+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/173945e1-ee0a-4897-99f1-34c0e22505be_f7ff0c87.png",
+     "page_url": "https://muapi.ai/predictions/173945e1-ee0a-4897-99f1-34c0e22505be",
+     "target_id": "cap",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "945d24ec-f27a-4d7b-8aeb-21e40e02b31d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:10:52.468739+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/945d24ec-f27a-4d7b-8aeb-21e40e02b31d_91da8310.png",
+     "page_url": "https://muapi.ai/predictions/945d24ec-f27a-4d7b-8aeb-21e40e02b31d",
+     "target_id": "cap",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "collection": "American Form",
+    "why": "Workflow B test master. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-qb-20261023/studio-candidates.json",
+   "candidate_authority": "Owner 23 Oct 2026 18:43: workflow B test, one hero 'like normal workflow'. Owner 20:07: 'i need those files to be finished, meaning u take each version u seem worthy continuing and finish it with logos etc, then ill check' - taken as approval 1 for this hero.",
+   "full_source_url": "full/4d6640b1c999-studio-qb-20261023-ford-gt-2005-master-b2.jpg",
+   "full_source_sha256": "4d6640b1c999b25983e1a21a9063ae20330e546d99f2c46798e9473d0cdd8db7",
+   "full_source_bytes": 19479926,
+   "full_source_pixels": [
+    9000,
+    12000
+   ],
+   "full_source_kind": "exact_current_jpg",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "American Form",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Workflow B test master. Suggestion only.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "9fb0b73a-fcbc-432d-aeec-26b1ec7d987e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T17:02:59.388059+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9fb0b73a-fcbc-432d-aeec-26b1ec7d987e_83babbf1.png",
+     "page_url": "https://muapi.ai/predictions/9fb0b73a-fcbc-432d-aeec-26b1ec7d987e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left: whole-car proportions, the two white racing stripes over the bonnet and down the lower nose, the small Ford oval between them, the headlamps, the side stripe with FORD GT behind the front wheel, the silver wheels (ignore the stickers inside the windscreen)",
+       "url": "https://cdn.muapi.ai/outputs/generated/e6900a16071643da81f39f7e1afe4fb5.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front three-quarter from the right: the right flank with its side stripe and the FORD GT lettering behind the front wheel, the mirror, the wheels and the red calipers",
+       "url": "https://cdn.muapi.ai/outputs/generated/4e0a392f946d4f8ca28420adbaf6adb3.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front: both headlamp units, the two stripes and the narrow blue gap with the Ford oval at the front edge of the bonnet, the wide black mesh intake, the stripes continuing on the lower nose below it, the round fog lamps, the splitter, the mirrors",
+       "url": "https://cdn.muapi.ai/outputs/generated/90c68f0f43064b918a188dcb517b6448.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Side profile (left side): proportions - the long low body, the doors cut into the roof, the side stripe with FORD GT, the air scoop behind the door, the wheels, the red calipers",
+       "url": "https://cdn.muapi.ai/outputs/generated/8303ebfac70b4f4a98bf94c9074fd67e.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Bonnet close-up from high in front: the stripes over the bonnet, the small black mesh vent near the windscreen, the wipers (ignore the stickers inside the windscreen)",
+       "url": "https://cdn.muapi.ai/outputs/generated/e288bee6c18640d4981d8ff4fc3de073.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Headlamp close-up: two round projector lamps side by side under one clear cover, the amber lens at its lower outer corner",
+       "url": "https://cdn.muapi.ai/outputs/generated/654d60d6d38841e88e0ecd2295dc12fb.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Badge close-up: the Ford blue oval with its chrome rim and white Ford script, sitting in the narrow blue gap between the two white stripes at the front of the bonnet",
+       "url": "https://cdn.muapi.ai/outputs/generated/dfcb9a28c4a448aea5cfdaa18e8c7b67.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front corner close-up: the round fog lamp in its black housing, the black mesh intake, the splitter",
+       "url": "https://cdn.muapi.ai/outputs/generated/45a8c765036644508157667237b5492b.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Front wheel close-up: silver forged BBS wheel, ten spokes in five pairs joined at the hub, five lug nuts, the flat silver centre cap, red brake caliper, drilled disc (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/generated/f6ae9c5ae1624f6486ca0c0d3ece6b60.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Wheel centre close-up: the flat silver centre cap with FORD GT on it, the five lug nuts, the spoke roots, the red caliper",
+       "url": "https://cdn.muapi.ai/outputs/generated/ba7101c6583b4318a01e6b17bb9c5e86.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Fuel filler close-up: the round brushed aluminium filler cap on top of the right front wing",
+       "url": "https://cdn.muapi.ai/outputs/generated/bf65f21c097e499ebeab486ae864b806.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Door mirror close-up: the body-colour mirror head on its black stalk",
+       "url": "https://cdn.muapi.ai/outputs/generated/2c5eedc968bd47118f5b42f9a6de8257.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      },
+      {
+       "role": "Lettering close-up: FORD GT in the side stripe - outlined block capitals where the white stripe opens around them; the model for the poster title only",
+       "url": "https://cdn.muapi.ai/outputs/generated/f366c96aaa394a94bf612166850b5a17.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo19/lots/r0029-2005-ford-gt/"
+      }
+     ],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "upscale",
+     "request_id": "e44361e8-9c67-4e85-b2a3-bf9702bf2a6d",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-23T18:47:14.961758+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e44361e8-9c67-4e85-b2a3-bf9702bf2a6d_2f8eb2c1.png",
+     "page_url": "https://muapi.ai/predictions/e44361e8-9c67-4e85-b2a3-bf9702bf2a6d",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "e1531c56-a13a-4caf-a6cd-a0b0eaf4e3c3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T19:37:53.337607+00:00",
+     "result_url": null,
+     "page_url": "https://muapi.ai/predictions/e1531c56-a13a-4caf-a6cd-a0b0eaf4e3c3",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "95d0acac-bc7a-4959-8af9-9f356c797791",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T19:37:56.034374+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/95d0acac-bc7a-4959-8af9-9f356c797791_efbaa0ac.png",
+     "page_url": "https://muapi.ai/predictions/95d0acac-bc7a-4959-8af9-9f356c797791",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "2952f85e-74ae-41f1-af35-f38d39ae38cb",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T19:52:13.258727+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2952f85e-74ae-41f1-af35-f38d39ae38cb_dc20445d.png",
+     "page_url": "https://muapi.ai/predictions/2952f85e-74ae-41f1-af35-f38d39ae38cb",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "173945e1-ee0a-4897-99f1-34c0e22505be",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:07:41.954119+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/173945e1-ee0a-4897-99f1-34c0e22505be_f7ff0c87.png",
+     "page_url": "https://muapi.ai/predictions/173945e1-ee0a-4897-99f1-34c0e22505be",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "945d24ec-f27a-4d7b-8aeb-21e40e02b31d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:10:52.468739+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/945d24ec-f27a-4d7b-8aeb-21e40e02b31d_91da8310.png",
+     "page_url": "https://muapi.ai/predictions/945d24ec-f27a-4d7b-8aeb-21e40e02b31d",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-23T17:02:59.388059+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-23T20:18:08.096015+00:00",
+    "updated_source": "candidate generated"
    },
    "status": {
     "code": "review",
@@ -9256,13 +9803,33 @@
    ]
   },
   {
-   "key": "studio-qb-20261023-ford-gt-2005",
-   "declared_sha256": "5007bd4e55c0fe9882c0ff9c0b30ba09c8a10c7ee989f27d60068b7a1c02994f",
+   "key": "studio-qb-20261023-ford-gt-2005-master-b2",
+   "declared_sha256": "4d6640b1c999b25983e1a21a9063ae20330e546d99f2c46798e9473d0cdd8db7",
    "applied": true,
-   "preview": "assets/studio-qb-20261023-ford-gt-2005-5007bd4e55c0-current.jpg",
+   "preview": "assets/studio-qb-20261023-ford-gt-2005-master-b2-4d6640b1c999-current.jpg",
+   "pixels": [
+    9000,
+    12000
+   ]
+  },
+  {
+   "key": "studio-qb-20261023-ford-gt-2005",
+   "declared_sha256": "95a39dd1249e47e38426b2c63ee16b68595e4f13b74469672732d0adf5fe5466",
+   "applied": true,
+   "preview": "assets/studio-qb-20261023-ford-gt-2005-95a39dd1249e-current.jpg",
    "pixels": [
     2480,
     3312
+   ]
+  },
+  {
+   "key": "db5-master-v2",
+   "declared_sha256": "a7bd5c4494791be3c13461f5f537a029e0114229055817971d01c53d0aa2983d",
+   "applied": true,
+   "preview": "assets/db5-master-v2-a7bd5c449479-current.jpg",
+   "pixels": [
+    9000,
+    12000
    ]
   },
   {
