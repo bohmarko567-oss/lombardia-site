@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-24 03:48",
+ "built": "2026-10-24 19:41",
  "accessed_date": "2026-10-24",
  "collections": [
   "American Form",
@@ -1219,6 +1219,307 @@
     "created_at": "2026-09-20T17:38:47.632726+00:00",
     "created_source": "MuAPI original",
     "updated_at": "2026-09-20T17:38:47.632726+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "citsm-master-sm1",
+   "name": "Citroen SM 1973 - print master SM1 (workflow B) for order 4209724243, 60 x 80 cm",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/citsm-master-sm1-3fe11bb90c51-current.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_file": "pipeline/studio-qb-20261023/q2/masters/SM1-citroen-sm-topaz-cgi-lock-m1-9000x12000.jpg",
+   "source_sha256": "3fe11bb90c5155cd490c40bed212a70c74918df06af7e5b22f0a2606d88a0b4c",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Citroen SM print master SM1, 9000 x 12000 (300 dpi at 30 x 40 in; the 60 x 80 size is Prodigi's 24 x 32 in at 80 %, 375 dpi), for Etsy order 4209724243 (60 x 80 cm, dark grey frame; Prodigi order paused). Replaces the old 7087 x 9449 Lanczos file. ONE fix: the bonnet emblem had a single chevron (the 30 Sep C pass); it now carries the Citroen DOUBLE chevron in its chrome-framed slatted recess, drawn on the master with the emblem blurred out of the input and this car's own photos as references, pasted as generated (2 variants, emblemB picked; A had melted slats). Before | after | real car: studio/assets/qb-sm-m1-emblem-200.jpg, -400.jpg; Lanczos | master at 100 %: qb-sm-master-100-1.jpg, -2.jpg. HARSH: the emblem is 15 x 3 mm on the print and photo-crisp in a painterly bonnet; the door mirror stalk is chunkier than the real thin stalk on a round base; a 3 mm light streak stays on the bonnet where the old emblem sat; the navy carries the art's own diagonal weave, crisper than in the old file at 400 %. NOT sent anywhere - your word on this card is approval 2, then it goes into Prodigi.",
+   "candidate_created_at": "2026-10-24T17:35:47.783715+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "a43c8467-51b3-42a5-9d32-9096eff2412c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-30T05:35:36.604833+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a43c8467-51b3-42a5-9d32-9096eff2412c_aeca056d.png",
+     "page_url": "https://muapi.ai/predictions/a43c8467-51b3-42a5-9d32-9096eff2412c",
+     "target_id": null,
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "139415ea-7f70-4bab-8b35-30766716c469",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-30T14:15:17.378579+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/139415ea-7f70-4bab-8b35-30766716c469_7b06a323.png",
+     "page_url": "https://muapi.ai/predictions/139415ea-7f70-4bab-8b35-30766716c469",
+     "target_id": "lamp-extra",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "1b3518ea-8641-48b4-a8ae-be94acad5708",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-30T14:15:19.147903+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/1b3518ea-8641-48b4-a8ae-be94acad5708_ae52eefc.png",
+     "page_url": "https://muapi.ai/predictions/1b3518ea-8641-48b4-a8ae-be94acad5708",
+     "target_id": "pillar-plaque",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "8f4123a6-6bbf-4721-ad40-362fa0369209",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-30T14:15:20.976037+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/8f4123a6-6bbf-4721-ad40-362fa0369209_5e5fb5e8.png",
+     "page_url": "https://muapi.ai/predictions/8f4123a6-6bbf-4721-ad40-362fa0369209",
+     "target_id": "tyre-front",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "4fc881d2-2720-444a-ae6b-4e1d7080525f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-30T14:15:22.765535+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4fc881d2-2720-444a-ae6b-4e1d7080525f_6b3d577c.png",
+     "page_url": "https://muapi.ai/predictions/4fc881d2-2720-444a-ae6b-4e1d7080525f",
+     "target_id": "letter-n",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "ee3cdedb-ca9d-4a1b-b290-e744828ef049",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-30T14:15:24.526732+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ee3cdedb-ca9d-4a1b-b290-e744828ef049_036ea3f4.png",
+     "page_url": "https://muapi.ai/predictions/ee3cdedb-ca9d-4a1b-b290-e744828ef049",
+     "target_id": "chevron-remove",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "99a068af-00bd-45ee-a013-355f1ce90958",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-30T14:15:26.359516+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/99a068af-00bd-45ee-a013-355f1ce90958_f0a9fc3d.png",
+     "page_url": "https://muapi.ai/predictions/99a068af-00bd-45ee-a013-355f1ce90958",
+     "target_id": "chevron-add",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "7aa3d6a3-0d40-4e89-9323-bfc431216244",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-30T14:18:31.873020+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/7aa3d6a3-0d40-4e89-9323-bfc431216244_36547c1d.png",
+     "page_url": "https://muapi.ai/predictions/7aa3d6a3-0d40-4e89-9323-bfc431216244",
+     "target_id": "chevron-remove",
+     "references": []
+    },
+    {
+     "role": "upscale",
+     "request_id": "da5767a8-cf24-4d55-b05b-884c22a4b857",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-24T17:17:10.553785+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/da5767a8-cf24-4d55-b05b-884c22a4b857_2dc9d576.png",
+     "page_url": "https://muapi.ai/predictions/da5767a8-cf24-4d55-b05b-884c22a4b857",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "36146725-6e72-4a7f-8951-d7369d89fddc",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-24T17:31:37.670826+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/36146725-6e72-4a7f-8951-d7369d89fddc_f681d33e.png",
+     "page_url": "https://muapi.ai/predictions/36146725-6e72-4a7f-8951-d7369d89fddc",
+     "target_id": "emblemA",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "b7f99a33-dc45-4534-ab55-971665d70633",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-24T17:31:40.303684+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b7f99a33-dc45-4534-ab55-971665d70633_3f7245a9.png",
+     "page_url": "https://muapi.ai/predictions/b7f99a33-dc45-4534-ab55-971665d70633",
+     "target_id": "emblemB",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "why": "Print file for the existing Citroen SM lot (Etsy 4586118238), not a new artwork."
+   },
+   "candidate_source": "pipeline/studio-qb-20261023/studio-candidates.json",
+   "candidate_authority": "Owner 23 Oct 2026 18:43: workflow B test, one hero 'like normal workflow'. Owner 20:07: 'i need those files to be finished, meaning u take each version u seem worthy continuing and finish it with logos etc, then ill check' - taken as approval 1 for this hero.",
+   "full_source_url": "full/3fe11bb90c51-citsm-master-sm1.jpg",
+   "full_source_sha256": "3fe11bb90c5155cd490c40bed212a70c74918df06af7e5b22f0a2606d88a0b4c",
+   "full_source_bytes": 25695511,
+   "full_source_pixels": [
+    9000,
+    12000
+   ],
+   "full_source_kind": "exact_current_jpg",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": null,
+    "collection": null,
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "a43c8467-51b3-42a5-9d32-9096eff2412c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-30T05:35:36.604833+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a43c8467-51b3-42a5-9d32-9096eff2412c_aeca056d.png",
+     "page_url": "https://muapi.ai/predictions/a43c8467-51b3-42a5-9d32-9096eff2412c",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "139415ea-7f70-4bab-8b35-30766716c469",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-30T14:15:17.378579+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/139415ea-7f70-4bab-8b35-30766716c469_7b06a323.png",
+     "page_url": "https://muapi.ai/predictions/139415ea-7f70-4bab-8b35-30766716c469",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "1b3518ea-8641-48b4-a8ae-be94acad5708",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-30T14:15:19.147903+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/1b3518ea-8641-48b4-a8ae-be94acad5708_ae52eefc.png",
+     "page_url": "https://muapi.ai/predictions/1b3518ea-8641-48b4-a8ae-be94acad5708",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "8f4123a6-6bbf-4721-ad40-362fa0369209",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-30T14:15:20.976037+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/8f4123a6-6bbf-4721-ad40-362fa0369209_5e5fb5e8.png",
+     "page_url": "https://muapi.ai/predictions/8f4123a6-6bbf-4721-ad40-362fa0369209",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "4fc881d2-2720-444a-ae6b-4e1d7080525f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-30T14:15:22.765535+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4fc881d2-2720-444a-ae6b-4e1d7080525f_6b3d577c.png",
+     "page_url": "https://muapi.ai/predictions/4fc881d2-2720-444a-ae6b-4e1d7080525f",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "ee3cdedb-ca9d-4a1b-b290-e744828ef049",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-30T14:15:24.526732+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ee3cdedb-ca9d-4a1b-b290-e744828ef049_036ea3f4.png",
+     "page_url": "https://muapi.ai/predictions/ee3cdedb-ca9d-4a1b-b290-e744828ef049",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "99a068af-00bd-45ee-a013-355f1ce90958",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-30T14:15:26.359516+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/99a068af-00bd-45ee-a013-355f1ce90958_f0a9fc3d.png",
+     "page_url": "https://muapi.ai/predictions/99a068af-00bd-45ee-a013-355f1ce90958",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "7aa3d6a3-0d40-4e89-9323-bfc431216244",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-09-30T14:18:31.873020+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/7aa3d6a3-0d40-4e89-9323-bfc431216244_36547c1d.png",
+     "page_url": "https://muapi.ai/predictions/7aa3d6a3-0d40-4e89-9323-bfc431216244",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "upscale",
+     "request_id": "da5767a8-cf24-4d55-b05b-884c22a4b857",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-24T17:17:10.553785+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/da5767a8-cf24-4d55-b05b-884c22a4b857_2dc9d576.png",
+     "page_url": "https://muapi.ai/predictions/da5767a8-cf24-4d55-b05b-884c22a4b857",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "36146725-6e72-4a7f-8951-d7369d89fddc",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-24T17:31:37.670826+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/36146725-6e72-4a7f-8951-d7369d89fddc_f681d33e.png",
+     "page_url": "https://muapi.ai/predictions/36146725-6e72-4a7f-8951-d7369d89fddc",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "b7f99a33-dc45-4534-ab55-971665d70633",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-24T17:31:40.303684+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b7f99a33-dc45-4534-ab55-971665d70633_3f7245a9.png",
+     "page_url": "https://muapi.ai/predictions/b7f99a33-dc45-4534-ab55-971665d70633",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-09-30T05:35:36.604833+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-24T17:35:47.783715+00:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -11498,6 +11799,16 @@
    "declared_sha256": "3c5b68f804c6cac05f38a80a86c06f0cd22103739a9d5dcc78b79ae43474cf1a",
    "applied": true,
    "preview": "assets/db5-master-v4-3c5b68f804c6-current.jpg",
+   "pixels": [
+    9000,
+    12000
+   ]
+  },
+  {
+   "key": "citsm-master-sm1",
+   "declared_sha256": "3fe11bb90c5155cd490c40bed212a70c74918df06af7e5b22f0a2606d88a0b4c",
+   "applied": true,
+   "preview": "assets/citsm-master-sm1-3fe11bb90c51-current.jpg",
    "pixels": [
     9000,
     12000
