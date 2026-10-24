@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-24 19:41",
+ "built": "2026-10-24 20:08",
  "accessed_date": "2026-10-24",
  "collections": [
   "American Form",
@@ -1231,28 +1231,28 @@
    }
   },
   {
-   "key": "citsm-master-sm1",
-   "name": "Citroen SM 1973 - print master SM1 (workflow B) for order 4209724243, 60 x 80 cm",
+   "key": "citsm-master-sm2",
+   "name": "Citroen SM 1973 - print master SM2 (workflow B) for order 4209724243, 60 x 80 cm",
    "notion_url": null,
    "board_url": null,
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/citsm-master-sm1-3fe11bb90c51-current.jpg",
+   "preview": "assets/citsm-master-sm2-aadfc1575ec6-current.jpg",
    "preview_pixels": [
     1600,
     2133
    ],
-   "source_file": "pipeline/studio-qb-20261023/q2/masters/SM1-citroen-sm-topaz-cgi-lock-m1-9000x12000.jpg",
-   "source_sha256": "3fe11bb90c5155cd490c40bed212a70c74918df06af7e5b22f0a2606d88a0b4c",
+   "source_file": "pipeline/studio-qb-20261023/q2/masters/SM2-citroen-sm-topaz-cgi-lock-m2-9000x12000.jpg",
+   "source_sha256": "aadfc1575ec6fbd802bc849b5101f207bbfc69b4d3ca1373a01d29adf94c30a4",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Citroen SM print master SM1, 9000 x 12000 (300 dpi at 30 x 40 in; the 60 x 80 size is Prodigi's 24 x 32 in at 80 %, 375 dpi), for Etsy order 4209724243 (60 x 80 cm, dark grey frame; Prodigi order paused). Replaces the old 7087 x 9449 Lanczos file. ONE fix: the bonnet emblem had a single chevron (the 30 Sep C pass); it now carries the Citroen DOUBLE chevron in its chrome-framed slatted recess, drawn on the master with the emblem blurred out of the input and this car's own photos as references, pasted as generated (2 variants, emblemB picked; A had melted slats). Before | after | real car: studio/assets/qb-sm-m1-emblem-200.jpg, -400.jpg; Lanczos | master at 100 %: qb-sm-master-100-1.jpg, -2.jpg. HARSH: the emblem is 15 x 3 mm on the print and photo-crisp in a painterly bonnet; the door mirror stalk is chunkier than the real thin stalk on a round base; a 3 mm light streak stays on the bonnet where the old emblem sat; the navy carries the art's own diagonal weave, crisper than in the old file at 400 %. NOT sent anywhere - your word on this card is approval 2, then it goes into Prodigi.",
-   "candidate_created_at": "2026-10-24T17:35:47.783715+00:00",
+   "delivery_status": "Citroen SM print master SM2, 9000 x 12000 (300 dpi at 30 x 40 in; the 60 x 80 size is Prodigi's 24 x 32 in at 80 %, 375 dpi), for Etsy order 4209724243 (60 x 80 cm, dark grey frame; Prodigi order paused). Replaces the old 7087 x 9449 Lanczos file. What differs from the hero you approved and listed: (1) the bonnet emblem now has the double chevron of the real car (the listed art has a single chevron); (2) a small light streak on the bonnet nose, above the right-hand headlamps, removed. Everything else is the approved art, sharper. Before | after: studio/assets/qb-sm2-m1-emblem-200.jpg, -400.jpg (with the real car), qb-sm2-m2-streak.jpg (100 and 400 %); old method | master at 100 %: qb-sm2-master-100-1.jpg, -2.jpg. HARSH: the emblem is 15 x 3 mm on the print and photo-crisp on a painterly bonnet; the door mirror stalk is chunkier than the real thin stalk on a round base (approved art, left as drawn); the navy carries the art's own diagonal weave, crisper than in the old file at 400 %. NOT sent anywhere - your word on this card is approval 2, then it goes into Prodigi.",
+   "candidate_created_at": "2026-10-24T18:05:25.361872+00:00",
    "review_url": null,
    "stage1_generations": [
     {
@@ -1370,9 +1370,9 @@
    },
    "candidate_source": "pipeline/studio-qb-20261023/studio-candidates.json",
    "candidate_authority": "Owner 23 Oct 2026 18:43: workflow B test, one hero 'like normal workflow'. Owner 20:07: 'i need those files to be finished, meaning u take each version u seem worthy continuing and finish it with logos etc, then ill check' - taken as approval 1 for this hero.",
-   "full_source_url": "full/3fe11bb90c51-citsm-master-sm1.jpg",
-   "full_source_sha256": "3fe11bb90c5155cd490c40bed212a70c74918df06af7e5b22f0a2606d88a0b4c",
-   "full_source_bytes": 25695511,
+   "full_source_url": "full/aadfc1575ec6-citsm-master-sm2.jpg",
+   "full_source_sha256": "aadfc1575ec6fbd802bc849b5101f207bbfc69b4d3ca1373a01d29adf94c30a4",
+   "full_source_bytes": 25695509,
    "full_source_pixels": [
     9000,
     12000
@@ -1519,7 +1519,7 @@
    "timeline": {
     "created_at": "2026-09-30T05:35:36.604833+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-24T17:35:47.783715+00:00",
+    "updated_at": "2026-10-24T18:05:25.361872+00:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -11805,10 +11805,10 @@
    ]
   },
   {
-   "key": "citsm-master-sm1",
-   "declared_sha256": "3fe11bb90c5155cd490c40bed212a70c74918df06af7e5b22f0a2606d88a0b4c",
+   "key": "citsm-master-sm2",
+   "declared_sha256": "aadfc1575ec6fbd802bc849b5101f207bbfc69b4d3ca1373a01d29adf94c30a4",
    "applied": true,
-   "preview": "assets/citsm-master-sm1-3fe11bb90c51-current.jpg",
+   "preview": "assets/citsm-master-sm2-aadfc1575ec6-current.jpg",
    "pixels": [
     9000,
     12000
