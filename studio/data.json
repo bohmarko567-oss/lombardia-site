@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-24 02:17",
+ "built": "2026-10-24 03:21",
  "accessed_date": "2026-10-24",
  "collections": [
   "American Form",
@@ -1219,6 +1219,328 @@
     "created_at": "2026-09-20T17:38:47.632726+00:00",
     "created_source": "MuAPI original",
     "updated_at": "2026-09-20T17:38:47.632726+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "db5-master-v4",
+   "name": "Aston Martin DB5 - print file v4: both wire wheels redrawn from same-angle photos",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/db5-master-v4-3c5b68f804c6-current.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_file": "pipeline/studio-qb-20261023/db5/masters/DB5-topaz-cgi-lock-v4-9000x12000.jpg",
+   "source_sha256": "3c5b68f804c6cac05f38a80a86c06f0cd22103739a9d5dcc78b79ae43474cf1a",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "DB5 print file v4, 9000 x 12000: v3 with both wire wheels redrawn again, this time from real photos at the poster's angle. FRONT (pick fwD): thin straight chrome spokes laced in crossing pairs, even all round (a ring count gives 75-84 crossings; a DB5 wheel has 72), nipple ring at the rim, hub shell, two-eared spinner with a plain centre - like this car (the lot's reference car, RM lf24 r0065 Black Pearl DB5); rim ellipse within 2 px of the poster. Refs: RM Monterey 2025 r0090 photo 027 (rim squash 0.54, poster 0.58; its three-eared spinner blurred out) + this car's own photo 098 for the spinner. REAR (pick rwB): clean straight laced spokes and nipples all round, rim squash 0.423 = the poster's (too steep to count spokes reliably); ref = this car's own photo 076 (squash 0.47, out of focus) + photo 027 for detail. HARSH: the rear spinner came back THREE-eared (this car and the new front are two-eared) - the redo with the two-eared reference gave two ears but wavy (rwC) or melted (rwD) spokes, so the rear still fails on the spinner; rwD can be swapped in on request. At 200 % the chrome between the spokes is busy, model-drawn reflections, and a few spokes near 7 o'clock on the front bow slightly. v3 | v4 | real photo: studio/assets/qb-db5-v4-fw-100.jpg, -fw-200.jpg, -rw-100.jpg, -rw-200.jpg. NOT sent anywhere - your call whether it replaces v3 in Prodigi ticket #374839.",
+   "candidate_created_at": "2026-10-24T01:17:45.751636+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "upscale",
+     "request_id": "55d4efaa-358f-487f-9b76-a7a484400e28",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-23T19:46:04.107230+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/55d4efaa-358f-487f-9b76-a7a484400e28_c9ee6892.png",
+     "page_url": "https://muapi.ai/predictions/55d4efaa-358f-487f-9b76-a7a484400e28",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "a2b5c273-edcf-4266-91ec-178e77480a49",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:30:17.061790+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a2b5c273-edcf-4266-91ec-178e77480a49_c8ec1c9c.png",
+     "page_url": "https://muapi.ai/predictions/a2b5c273-edcf-4266-91ec-178e77480a49",
+     "target_id": "badge",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "8e8bf3c1-3b25-42ed-a6b8-18d824857528",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:30:19.710889+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/8e8bf3c1-3b25-42ed-a6b8-18d824857528_20f25b5c.png",
+     "page_url": "https://muapi.ai/predictions/8e8bf3c1-3b25-42ed-a6b8-18d824857528",
+     "target_id": "logo",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "61f9c4fa-46b7-47c9-9ca9-6de005460647",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:32:55.278434+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/61f9c4fa-46b7-47c9-9ca9-6de005460647_4f75ec15.png",
+     "page_url": "https://muapi.ai/predictions/61f9c4fa-46b7-47c9-9ca9-6de005460647",
+     "target_id": "badge",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "24fece33-9dab-46ad-bfea-f54b35cf51aa",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-24T00:52:55.272098+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/24fece33-9dab-46ad-bfea-f54b35cf51aa_3d431de0.png",
+     "page_url": "https://muapi.ai/predictions/24fece33-9dab-46ad-bfea-f54b35cf51aa",
+     "target_id": "fwA",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "46296cc9-f0e9-4b7c-8c1e-8e6ca5043029",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-24T00:52:58.070140+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/46296cc9-f0e9-4b7c-8c1e-8e6ca5043029_43316f67.png",
+     "page_url": "https://muapi.ai/predictions/46296cc9-f0e9-4b7c-8c1e-8e6ca5043029",
+     "target_id": "fwB",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "f388cece-a5e6-468c-a641-2d9984b23d32",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-24T00:53:00.893396+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f388cece-a5e6-468c-a641-2d9984b23d32_a78628f5.png",
+     "page_url": "https://muapi.ai/predictions/f388cece-a5e6-468c-a641-2d9984b23d32",
+     "target_id": "rwA",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "d6d4c2b8-397e-4f74-9736-bf0b93e917ff",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-24T00:53:03.674790+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d6d4c2b8-397e-4f74-9736-bf0b93e917ff_d8d859f7.png",
+     "page_url": "https://muapi.ai/predictions/d6d4c2b8-397e-4f74-9736-bf0b93e917ff",
+     "target_id": "rwB",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "17facdd0-fd9a-4090-a176-47ddb28e67af",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-24T01:07:22.465076+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/17facdd0-fd9a-4090-a176-47ddb28e67af_16c94053.png",
+     "page_url": "https://muapi.ai/predictions/17facdd0-fd9a-4090-a176-47ddb28e67af",
+     "target_id": "fwC",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "5e2478ad-764f-40e5-af51-7c4afd7d3a57",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-24T01:07:26.353874+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5e2478ad-764f-40e5-af51-7c4afd7d3a57_46ac853e.png",
+     "page_url": "https://muapi.ai/predictions/5e2478ad-764f-40e5-af51-7c4afd7d3a57",
+     "target_id": "fwD",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "b74a4e7f-fef0-4a87-99fe-24c1286a08c7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-24T01:07:30.406094+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b74a4e7f-fef0-4a87-99fe-24c1286a08c7_caa8b995.png",
+     "page_url": "https://muapi.ai/predictions/b74a4e7f-fef0-4a87-99fe-24c1286a08c7",
+     "target_id": "rwC",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "bc3b9ca6-ff8b-47d6-b990-fd68d885dcc7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-24T01:07:34.263900+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/bc3b9ca6-ff8b-47d6-b990-fd68d885dcc7_ffd83469.png",
+     "page_url": "https://muapi.ai/predictions/bc3b9ca6-ff8b-47d6-b990-fd68d885dcc7",
+     "target_id": "rwD",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "why": "Print file for the existing DB5 lot, not a new artwork."
+   },
+   "candidate_source": "pipeline/studio-qb-20261023/studio-candidates.json",
+   "candidate_authority": "Owner 23 Oct 2026 18:43: workflow B test, one hero 'like normal workflow'. Owner 20:07: 'i need those files to be finished, meaning u take each version u seem worthy continuing and finish it with logos etc, then ill check' - taken as approval 1 for this hero.",
+   "full_source_url": "full/3c5b68f804c6-db5-master-v4.jpg",
+   "full_source_sha256": "3c5b68f804c6cac05f38a80a86c06f0cd22103739a9d5dcc78b79ae43474cf1a",
+   "full_source_bytes": 26417419,
+   "full_source_pixels": [
+    9000,
+    12000
+   ],
+   "full_source_kind": "exact_current_jpg",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": null,
+    "collection": null,
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [
+    {
+     "role": "upscale",
+     "request_id": "55d4efaa-358f-487f-9b76-a7a484400e28",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-23T19:46:04.107230+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/55d4efaa-358f-487f-9b76-a7a484400e28_c9ee6892.png",
+     "page_url": "https://muapi.ai/predictions/55d4efaa-358f-487f-9b76-a7a484400e28",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "a2b5c273-edcf-4266-91ec-178e77480a49",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:30:17.061790+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a2b5c273-edcf-4266-91ec-178e77480a49_c8ec1c9c.png",
+     "page_url": "https://muapi.ai/predictions/a2b5c273-edcf-4266-91ec-178e77480a49",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "8e8bf3c1-3b25-42ed-a6b8-18d824857528",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:30:19.710889+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/8e8bf3c1-3b25-42ed-a6b8-18d824857528_20f25b5c.png",
+     "page_url": "https://muapi.ai/predictions/8e8bf3c1-3b25-42ed-a6b8-18d824857528",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "61f9c4fa-46b7-47c9-9ca9-6de005460647",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-23T20:32:55.278434+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/61f9c4fa-46b7-47c9-9ca9-6de005460647_4f75ec15.png",
+     "page_url": "https://muapi.ai/predictions/61f9c4fa-46b7-47c9-9ca9-6de005460647",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "24fece33-9dab-46ad-bfea-f54b35cf51aa",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-24T00:52:55.272098+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/24fece33-9dab-46ad-bfea-f54b35cf51aa_3d431de0.png",
+     "page_url": "https://muapi.ai/predictions/24fece33-9dab-46ad-bfea-f54b35cf51aa",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "46296cc9-f0e9-4b7c-8c1e-8e6ca5043029",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-24T00:52:58.070140+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/46296cc9-f0e9-4b7c-8c1e-8e6ca5043029_43316f67.png",
+     "page_url": "https://muapi.ai/predictions/46296cc9-f0e9-4b7c-8c1e-8e6ca5043029",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "f388cece-a5e6-468c-a641-2d9984b23d32",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-24T00:53:00.893396+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f388cece-a5e6-468c-a641-2d9984b23d32_a78628f5.png",
+     "page_url": "https://muapi.ai/predictions/f388cece-a5e6-468c-a641-2d9984b23d32",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "d6d4c2b8-397e-4f74-9736-bf0b93e917ff",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-24T00:53:03.674790+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d6d4c2b8-397e-4f74-9736-bf0b93e917ff_d8d859f7.png",
+     "page_url": "https://muapi.ai/predictions/d6d4c2b8-397e-4f74-9736-bf0b93e917ff",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "17facdd0-fd9a-4090-a176-47ddb28e67af",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-24T01:07:22.465076+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/17facdd0-fd9a-4090-a176-47ddb28e67af_16c94053.png",
+     "page_url": "https://muapi.ai/predictions/17facdd0-fd9a-4090-a176-47ddb28e67af",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "5e2478ad-764f-40e5-af51-7c4afd7d3a57",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-24T01:07:26.353874+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5e2478ad-764f-40e5-af51-7c4afd7d3a57_46ac853e.png",
+     "page_url": "https://muapi.ai/predictions/5e2478ad-764f-40e5-af51-7c4afd7d3a57",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "b74a4e7f-fef0-4a87-99fe-24c1286a08c7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-24T01:07:30.406094+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b74a4e7f-fef0-4a87-99fe-24c1286a08c7_caa8b995.png",
+     "page_url": "https://muapi.ai/predictions/b74a4e7f-fef0-4a87-99fe-24c1286a08c7",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "bc3b9ca6-ff8b-47d6-b990-fd68d885dcc7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-24T01:07:34.263900+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/bc3b9ca6-ff8b-47d6-b990-fd68d885dcc7_ffd83469.png",
+     "page_url": "https://muapi.ai/predictions/bc3b9ca6-ff8b-47d6-b990-fd68d885dcc7",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-qb-20261023/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-23T19:46:04.107230+00:00",
+    "created_source": "MuAPI upscale",
+    "updated_at": "2026-10-24T01:17:45.751636+00:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -11473,6 +11795,16 @@
    "declared_sha256": "aff0f2cf2fe6e8998398dc943465868f77744869867314723f9fd3e14a6837ea",
    "applied": true,
    "preview": "assets/db5-master-v3-aff0f2cf2fe6-current.jpg",
+   "pixels": [
+    9000,
+    12000
+   ]
+  },
+  {
+   "key": "db5-master-v4",
+   "declared_sha256": "3c5b68f804c6cac05f38a80a86c06f0cd22103739a9d5dcc78b79ae43474cf1a",
+   "applied": true,
+   "preview": "assets/db5-master-v4-3c5b68f804c6-current.jpg",
    "pixels": [
     9000,
     12000
