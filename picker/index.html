@@ -1,0 +1,247 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Frame picker - Lombardia Automobili</title>
+<meta name="robots" content="noindex"><meta name="theme-color" content="#EAE3D3"><link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* the board's own system (site/board/board.css): paper and ink, IBM Plex, one frame with registration marks, no radius */
+:root {
+  --paper: #EAE3D3; --paper-2: #E2DAC8; --paper-3: #D9D0BC; --rule: #B9AF98; --hair: rgba(20, 26, 36, .16);
+  --ink: #141A24; --ink-2: #4A5464; --ink-3: #7A8394; --tint: #1B3A6B; --drop: #8A3A2E;
+  --cond: "IBM Plex Sans Condensed", "Arial Narrow", system-ui, sans-serif;
+  --sans: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --pad: clamp(16px, 3.4vw, 40px); --cols: 4;
+}
+@media (min-width: 900px) { :root { --cols: 8; } }
+body.big { --cols: 2; }
+@media (min-width: 900px) { body.big { --cols: 4; } }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink); font: 15px/1.5 var(--sans); min-height: 100dvh;
+  background-image: linear-gradient(var(--hair) 1px, transparent 1px), linear-gradient(90deg, var(--hair) 1px, transparent 1px);
+  background-size: 34px 34px; background-position: -1px -1px;
+}
+a { color: inherit; }
+img { display: block; max-width: 100%; height: auto; }
+button { font: inherit; color: inherit; background: none; border: 0; padding: 0; margin: 0; cursor: pointer; touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
+:focus-visible { outline: 2px solid var(--tint); outline-offset: 2px; }
+[hidden] { display: none !important; }
+
+.top { display: flex; align-items: center; gap: 14px; height: 52px; padding: 0 max(16px, env(safe-area-inset-right)) 0 max(16px, env(safe-area-inset-left)); background: var(--paper); border-bottom: 1px solid var(--rule); }
+.brand { display: flex; align-items: center; gap: 9px; text-decoration: none; font: 700 12px/1 var(--cond); text-transform: uppercase; letter-spacing: .16em; white-space: nowrap; min-width: 0; }
+.brand .mk { display: inline-grid; place-items: center; width: 26px; height: 26px; border: 1px solid var(--ink); border-radius: 50%; font: 600 10px var(--mono); letter-spacing: .02em; }
+.nav { margin-left: auto; display: flex; gap: clamp(14px, 2.6vw, 22px); font: 500 11px/1 var(--mono); text-transform: uppercase; letter-spacing: .14em; }
+.nav a { text-decoration: none; color: var(--ink-2); padding: 6px 0; border-bottom: 1px solid transparent; }
+.nav a.on { color: var(--ink); border-color: var(--ink); }
+@media (max-width: 460px) { .brand .nm { display: none; } }
+
+.sheet { position: relative; max-width: 1240px; margin: clamp(10px, 2vw, 28px) auto 40px; padding: clamp(18px, 3.4vw, 40px) var(--pad) 28px; background: var(--paper); border: 1px solid var(--rule); }
+@media (max-width: 760px) { .sheet { margin: 0 0 24px; border-width: 0 0 1px; } }
+.reg { position: absolute; width: 14px; height: 14px; pointer-events: none; }
+.reg::before, .reg::after { content: ""; position: absolute; background: var(--rule); }
+.reg::before { left: 0; right: 0; top: 7px; height: 1px; } .reg::after { top: 0; bottom: 0; left: 7px; width: 1px; }
+.reg.tl { top: 6px; left: 6px; } .reg.tr { top: 6px; right: 6px; } .reg.bl { bottom: 6px; left: 6px; } .reg.br { bottom: 6px; right: 6px; }
+
+.lab { font: 600 11px/1.4 var(--mono); text-transform: uppercase; letter-spacing: .22em; color: var(--tint); margin: 0; }
+.lab a { text-decoration: none; } .lab a:hover { text-decoration: underline; }
+h1 { font: 700 clamp(34px, 8vw, 60px)/.95 var(--cond); text-transform: uppercase; letter-spacing: .02em; margin: 8px 0 0; }
+.deck { max-width: 60ch; margin: 12px 0 0; color: var(--ink-2); }
+.tools { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.warn { margin: 14px 0 0; padding: 10px 12px; border: 1px solid var(--drop); color: var(--drop); font-size: 13.5px; max-width: 60ch; }
+.btn { display: inline-flex; align-items: center; justify-content: center; min-height: 40px; padding: 0 14px; border: 1px solid var(--ink); color: var(--ink); font: 600 11.5px/1 var(--cond); text-transform: uppercase; letter-spacing: .14em; white-space: nowrap; }
+.btn.primary { background: var(--ink); color: var(--paper); }
+.btn.quiet { border-color: var(--rule); color: var(--ink-2); }
+@media (hover: hover) {   /* a phone keeps :hover after a tap, so hover styles only where there is a pointer */
+  .btn:hover { background: var(--paper-3); }
+  .btn.primary:hover { background: var(--tint); border-color: var(--tint); }
+  .btn.quiet:hover { border-color: var(--ink); color: var(--ink); }
+  .opt:hover .ph { outline-color: var(--ink); }
+}
+.btn[aria-pressed="true"], .btn[aria-pressed="true"]:hover { background: var(--tint); border-color: var(--tint); color: #efe9d8; }   /* a toggle that is on: tint, not the ink of Download */
+
+.bar { position: sticky; top: 0; z-index: 10; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 18px calc(-1 * var(--pad)) 0; padding: 8px var(--pad); background: var(--paper); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.count { margin-right: auto; display: flex; align-items: baseline; gap: 6px; font: 500 13px/1.2 var(--mono); white-space: nowrap; }
+.count b { font-size: 16px; font-weight: 600; }
+.meter { position: absolute; left: 0; bottom: -1px; height: 3px; width: 0; background: var(--ink); transition: width .25s; }
+@media (max-width: 559px) {
+  .wide { display: none; } .bar { gap: 6px; } .bar .btn { padding: 0 10px; font-size: 11px; letter-spacing: .1em; }
+  .count { flex-direction: column; align-items: flex-start; gap: 2px; } .count .wd { font: 600 9.5px/1 var(--mono); text-transform: uppercase; letter-spacing: .18em; color: var(--ink-3); }
+  .row:not(.done) .pk { display: none; }
+}
+
+.list { scroll-margin-top: 64px; }
+.row { padding: 18px 0 20px; border-bottom: 1px solid var(--rule); scroll-margin-top: 64px; }
+.rh { display: flex; align-items: center; gap: 12px; }
+.rh .flat { flex: none; width: auto; height: 56px; max-width: 84px; object-fit: contain; outline: 1px solid var(--hair); background: var(--paper-2); }
+.rt { flex: 1; min-width: 0; }
+.rt h2 { margin: 0; font: 700 17px/1.15 var(--cond); text-transform: uppercase; letter-spacing: .03em; overflow-wrap: anywhere; }
+.rt p { margin: 3px 0 0; font-size: 13px; line-height: 1.35; color: var(--ink-2); }
+.rt .id { font: 500 11px var(--mono); color: var(--ink-3); white-space: nowrap; }
+.pk { flex: none; display: flex; align-items: center; gap: 7px; max-width: 36%; font: 600 11px/1.15 var(--cond); text-transform: uppercase; letter-spacing: .12em; color: var(--ink-3); text-align: right; }
+.pk .sw { flex: none; display: none; width: 16px; height: 16px; border: 1px solid var(--ink); }
+.row.done .pk { color: var(--ink); }
+.row.done .pk .sw { display: block; }
+.opts { display: grid; grid-template-columns: repeat(var(--cols), minmax(0, 1fr)); gap: 12px 8px; margin-top: 14px; }
+.opt { display: flex; flex-direction: column; gap: 7px; min-width: 0; text-align: center; }
+.opt .ph { position: relative; display: block; aspect-ratio: 1 / 1; background: var(--paper-2); outline: 1px solid var(--hair); }
+.opt .ph img { width: 100%; height: 100%; }
+.opt .ol { display: block; padding: 4px 2px; font: 600 10.5px/1.2 var(--cond); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-2); }
+.opt[aria-pressed="true"] .ph { outline: 3px solid var(--ink); outline-offset: 3px; }
+.opt[aria-pressed="true"] .ph::after { content: ""; position: absolute; top: 0; right: 0; width: 26px; height: 26px; background: var(--ink) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3.5 8.5l3 3 6-7' fill='none' stroke='%23EAE3D3' stroke-width='2'/%3E%3C/svg%3E") center / 16px no-repeat; }
+.opt[aria-pressed="true"] .ol { background: var(--ink); color: var(--paper); }
+.opt[disabled] { cursor: default; }
+.opt .na { position: absolute; inset: 0; display: grid; place-items: center; font: 500 10px var(--mono); text-transform: uppercase; letter-spacing: .1em; color: var(--ink-3); }
+.empty { margin: 22px 0 6px; font: 600 13px var(--mono); }
+.foot { margin: 20px 0 0; font: 500 11px/1.6 var(--mono); color: var(--ink-3); }
+.toast { position: fixed; left: 50%; bottom: calc(18px + env(safe-area-inset-bottom)); z-index: 30; max-width: calc(100vw - 32px); padding: 10px 14px; background: var(--paper); color: var(--ink); border: 1px solid var(--ink); border-top-width: 3px; font: 500 12.5px/1.4 var(--mono); transform: translate(-50%, 20px); opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s; }
+.toast.on { transform: translate(-50%, 0); opacity: 1; }
+</style>
+</head><body>
+<header class="top"><a class="brand" href="../index.html"><span class="mk">LA</span><span class="nm">Lombardia Automobili</span></a>
+<nav class="nav"><a href="../index.html">Lots</a><a href="./" class="on" aria-current="page">Frames</a></nav></header>
+<main class="sheet"><i class="reg tl"></i><i class="reg tr"></i><i class="reg bl"></i><i class="reg br"></i>
+<p class="lab"><a href="../index.html">Lots</a> / Pinterest</p>
+<h1>Frame picker</h1>
+<p class="deck">Pick the frame that suits each poster best, for its Pinterest pin. Tap again to clear. Picks stay in this browser: copy or download them when you are done.</p>
+<div class="tools"><button type="button" class="btn quiet" id="big" aria-pressed="false">Bigger photos</button><button type="button" class="btn quiet" id="paste">Paste picks</button></div>
+<p class="warn" id="warn" hidden>This browser does not keep the picks (private mode?). Copy or download them before you leave the page.</p>
+<noscript><p class="warn">The picker needs JavaScript.</p></noscript>
+<div class="bar" role="toolbar" aria-label="Picks">
+<span class="count" aria-live="polite"><span class="wd">Picked</span><span><b id="n">0</b> of 89</span></span>
+<button type="button" class="btn" id="filter" aria-pressed="false">Not picked<span class="wide">&nbsp;yet</span></button>
+<button type="button" class="btn" id="copy">Copy<span class="wide">&nbsp;picks</span></button>
+<button type="button" class="btn primary" id="dl">Download<span class="wide">&nbsp;picks</span></button>
+<i class="meter" id="meter"></i></div>
+<div class="list" id="list"></div>
+<p class="empty" id="empty" hidden>Every poster has its frame. Copy or download the picks.</p>
+<p class="foot">89 live Etsy posters. Built 2026-10-24 05:44 by pipeline/newlot/mk_frame_picker.py from the frame photos in pipeline/media-pilot-20261018/fin/www. The picks JSON reads {id: colour}; id is that folder's name.</p>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+(() => {
+  "use strict";
+  const DATA = [{"id":"4583427234","etsy":"4583427234","title":"Alfa Romeo 33 Stradale 1968","sub":"Red Colour Pattern","flat":[160,120,"caf5895bf3"],"v":["53dee692b5","c3f4dc778e","98e9ae4260","e14f93198f","bde235b156","44ee8b028f","158a0b2edb","f12689e1c1"]},{"id":"4581237456","etsy":"4581237456","title":"Alfa Romeo Giulia TZ 1963","sub":"Deep Red Landscape","flat":[160,120,"1ace295c34"],"v":["c132d0d047","9f12b008a2","8c27280c13","06a1af7a9d","6fe4eadd07","5cf1b13a9a","22644b0de9","b99eb37478"]},{"id":"4581244172","etsy":"4581244172","title":"Alfa Romeo Giulia TZ 1963","sub":"Deep Red Portrait","flat":[120,160,"85ddb06a23"],"v":["76cf5ebf69","852b7a4a66","1f8744aac4","17bb998e55","a6a915291d","b2b44aa388","933ffa7a2d","847e3f74ba"]},{"id":"4588155994","etsy":"4588155994","title":"Alfa Romeo Montreal 1972","sub":"Orange and Black","flat":[160,120,"c59cfe5a8a"],"v":["413738d9f5","a51933879c","783dfcf6e9","5acdefa477","7f70c1034a","d8c50ebf08","84fc14a721","bceaf4e03a"]},{"id":"4583392455","etsy":"4583392455","title":"Alfa Romeo SZ 1991","sub":"Red Memphis Pattern","flat":[160,120,"534241334f"],"v":["47cdbfc01d","b0a6387192","0f7f15deb7","4196e2a8e0","47717b285a","b877f407b3","6b4af28a58","0e4a714471"]},{"id":"4581205087","etsy":"4581205087","title":"Alpine A110 1973","sub":"French Blue","flat":[120,160,"5842188117"],"v":["67efe5ecb3","284f72f1f8","23f318ae21","a7031e4a78","2f5caa7d37","1753d9104b","f05236aa83","cad0559338"]},{"id":"db5v4","etsy":"4581199126","title":"Aston Martin DB5 1964","sub":"Parchment","flat":[120,160,"e5503324b9"],"v":["41bf7ac6de","8599dbf66e","cdcbfcfda3","9d102c84c0","c3af414bc6","ed348b2ed3","767662fec2","302821048e"]},{"id":"4581226465","etsy":"4581226465","title":"Audi quattro 1980","sub":"Slate Blue","flat":[120,160,"d6f9708856"],"v":["442156174a","ae2302f81b","af65592776","a04b62a387","f9c406d8a1","e9a618a632","02cd7b4a87","fddad47262"]},{"id":"4586119542","etsy":"4586119542","title":"Audi Sport quattro 1984","sub":"White Snow Crystals","flat":[120,160,"55f351b823"],"v":["4346133f8e","0b0389e8f6","67c6fdbf40","8231cdf959","ee1a811a81","9bf4f5846e","02986647c5","ff5cf66ac1"]},{"id":"4586118908","etsy":"4586118908","title":"Austin Mini Cooper S 1966","sub":"Mod Target","flat":[120,160,"3a74048757"],"v":["2d827923b6","ca116cbb42","140dfd0a63","1c4d89f18c","ba9c442e59","67ecb6f7a0","7b26419a68","72c8303f95"]},{"id":"4583397023","etsy":"4583397023","title":"BMW 2002 turbo 1974","sub":"White Tricolour Stripes","flat":[160,120,"00d84797f0"],"v":["d8c99efbe1","8acc10c904","0822764da9","b719d525d9","cd34fc4622","90a6eb3b43","54cfade736","72c25e929f"]},{"id":"4580818971","etsy":"4580818971","title":"BMW 3.0 CSL 1973","sub":"Ivory","flat":[120,160,"26b1f651af"],"v":["3b69095002","2b8299aaa7","0915cf34bd","4847d5a970","5afb64faf1","9dee043fa4","080c733379","ec85a0d7bd"]},{"id":"4581235694","etsy":"4581235694","title":"BMW M1 1978","sub":"Ochre","flat":[160,120,"be348cea46"],"v":["c1748612b5","88a58c4439","1d475c50da","60cf32444d","eff1e8942a","2d8bc4e8cf","fca9019da9","b03e5f503e"]},{"id":"4581197747","etsy":"4581197747","title":"BMW M3 E30 1988","sub":"Black","flat":[120,160,"a0612458e9"],"v":["9e17a24869","daf6f31467","caa3c5fb86","220446dab8","50da3880dd","b367496699","ca9297f47d","5dd7c9ca20"]},{"id":"4588150337","etsy":"4588150337","title":"BMW Z8 2001","sub":"Silver on Charcoal","flat":[120,160,"e7450e3775"],"v":["8dddf9358f","0d31ed87c8","7a734db6f6","4b9f671ae4","f13cf3808b","f85bf53178","d0ac86a2b2","07585e99cc"]},{"id":"z28","etsy":"4599624584","title":"Chevrolet Camaro Z/28 1969","sub":"Garnet Red","flat":[160,120,"2c54007b8f"],"v":["01a164180b","13ce4dd1bc","9b50d873b3","15af3f90a9","377fba9437","4ba8573a40","452364313d","25a6fc6e10"]},{"id":"4583430176","etsy":"4583430176","title":"Chevrolet Corvette Sting Ray 1963","sub":"Silver Split Window","flat":[160,120,"df53d06366"],"v":["6a196956df","de9369007b","b11fece126","0269d9f288","a9a01c8c55","6bd0995af7","09546f7a0f","4e6d6fcb8b"]},{"id":"4588242755","etsy":"4588242755","title":"Citroen 2CV 1985","sub":"Harvest Ochre","flat":[120,160,"42071587d7"],"v":["8f0ec37170","b1020f787e","ed6a465808","62e1d38752","e3280c69d5","d922d98649","cb3e09a148","e16d098d56"]},{"id":"4586118238","etsy":"4586118238","title":"Citroen SM 1973","sub":"Gold on Navy","flat":[120,160,"cdcb942aeb"],"v":["b5a04ee479","fc27c530a3","ea22f042f2","6c6080f387","61bdcb8f75","4e5e42df99","c41d958d5b","69764dbe00"]},{"id":"4581188241","etsy":"4581188241","title":"De Tomaso Pantera 1972","sub":"Burnt Orange","flat":[160,120,"63d0c55daa"],"v":["ea8bbadd43","ecb0e02a28","65941ce8f8","711ee070a4","03bdff4b37","045b5045ca","5eb7918c93","1ea4bf1655"]},{"id":"4586463399","etsy":"4586463399","title":"DeLorean DMC-12 1981","sub":"Stainless Neon Graffiti","flat":[120,160,"e151309712"],"v":["81e034c79a","c8bc8c2e14","d986066e24","2c74061de6","5e93a5d9c6","93b9938c77","7bde76b4d5","d2f79aea4b"]},{"id":"4588147275","etsy":"4588147275","title":"Dodge Charger R/T 1969","sub":"Golden Hour","flat":[160,120,"6687549522"],"v":["f2a476ddcd","0d55f8ada5","f365612feb","9180330c91","1f1259e3d5","be30e02cdb","b51a232538","9b5a89199e"]},{"id":"4581216992","etsy":"4581216992","title":"Dodge Viper RT/10 1992","sub":"Acid Green","flat":[160,120,"d2d579ab1b"],"v":["3d9bd744eb","1cf99af14b","313b78b795","88404fc7f3","46c9a53d0e","cb6dcb48e7","985e965f89","743bc0f894"]},{"id":"4583418389","etsy":"4583418389","title":"Ferrari 250 GT SWB 1961","sub":"Red Riviera","flat":[160,120,"72f0b2a04a"],"v":["5e45b4e053","1900318ced","dbfe22c2da","84dd9855d2","4506ab78c4","dc05dbc23c","6afebb68b6","eb898dcfa3"]},{"id":"4583418019","etsy":"4583418019","title":"Ferrari 288 GTO 1985","sub":"Red Pop Art","flat":[160,120,"83d6822ac1"],"v":["1ba4b2b705","2c0c58946d","c674dbf54f","b68112131b","1cbc543b79","14e2761db7","fbd10d9f85","17003a950a"]},{"id":"4588150800","etsy":"4588150800","title":"Ferrari 308 GTS 1978","sub":"Yellow on White","flat":[160,120,"43d28e0fd4"],"v":["029d430670","e31ac4b800","0be8398ea9","f48c1d17b2","ba901a1dce","476c65526d","cf11291c0a","d9ef83f2bf"]},{"id":"4588241203","etsy":"4588241203","title":"Ferrari 365 GTB/4 Daytona 1972","sub":"Silver Sunset","flat":[160,120,"5acec35a57"],"v":["08aa8b12d3","703d4d480f","fe7b4ea956","c996dd9cf0","77e5faeabf","bbd22bc6b2","6bdc4ec6c2","8b479662c5"]},{"id":"4586460629","etsy":"4586460629","title":"Ferrari 512 BB 1977","sub":"Red Infinite Grid","flat":[160,120,"186e7db420"],"v":["4a69de08e9","85519f6de8","300c2063d4","4880263848","08b1a34f2e","0db2825f3f","46496ad084","0e29ef7c3f"]},{"id":"4586111387","etsy":"4586111387","title":"Ferrari Dino 246 GT 1972","sub":"Gold Mosaic","flat":[120,160,"9016442b06"],"v":["58f1a84743","9548064b2b","b3db7578e1","1041f64335","6fefeab7bd","d777a39d91","33c046dcec","0c058e4a03"]},{"id":"enzo","etsy":"4599598614","title":"Ferrari Enzo 2003","sub":"Red and Black","flat":[120,160,"2ced3bdb59"],"v":["24b197a26c","7ddfab211a","626a7d786c","84b3838211","4b6a824cc0","e73f064550","af9283eff3","878124215c"]},{"id":"4580052107","etsy":"4580052107","title":"Ferrari F40 1987","sub":"Oxide Red","flat":[160,120,"a4f5b798cd"],"v":["dcbc368083","500cb451ba","0e637e6bb3","febd298dfd","d448bd02f2","1752bb29da","3e1d13064e","576aed1036"]},{"id":"4588239863","etsy":"4588239863","title":"Ferrari F50 1996","sub":"Violet Dusk","flat":[160,120,"c40dcff29d"],"v":["dd50770dea","38671bc3aa","36544ed16c","cf7104d16d","ef8be4fcf5","9f851df4d8","ba0230f261","a979d82508"]},{"id":"4581219272","etsy":"4581219272","title":"Ferrari Testarossa 1988","sub":"Vermilion","flat":[160,120,"b39b8155fc"],"v":["ea392e046a","2a552d2076","a5b03b4f48","b7cf0895e1","af28c765e6","32e3b27454","d8f1e2db42","279cc05151"]},{"id":"4583429722","etsy":"4583429722","title":"Ford Bronco 1966","sub":"White Canyon Sunset","flat":[120,160,"3c2f94a049"],"v":["3b7b247fd0","56e1d26af5","c62797a313","a0928b42e7","548eee5e69","d9fc89046a","bcfe8e598f","75062f1fb9"]},{"id":"fordgt05","etsy":"4602018040","title":"Ford GT 2005","sub":"Midnight Blue","flat":[120,160,"8432fdd1cf"],"v":["f997ae3170","402b200f98","c4e3694679","844aec8750","b48e64d9f8","4aee380b9c","1a167da795","8d85e29c57"]},{"id":"4586117319","etsy":"4586117319","title":"Ford GT40 1967","sub":"Red Letterpress","flat":[120,160,"f4896f8c35"],"v":["ec8dc2b01c","1f4a93a43d","5a2f7a913c","51c0fd779f","e25a28b337","ba2d4f4daa","29fa825499","7c00c66cbe"]},{"id":"4583418725","etsy":"4583418725","title":"Ford Mustang Fastback 1965","sub":"Burgundy and Blue","flat":[160,120,"59112aa71a"],"v":["d433d7f758","6a30549cf4","94d33e753a","788eb7209e","05b55cfe16","79afee4633","695d774d50","c4f1c1332e"]},{"id":"4583401450","etsy":"4583401450","title":"Ford RS200 1986","sub":"White and Red","flat":[160,120,"845d2df0e7"],"v":["a62dabe85a","8ad348422f","47b6543ba9","a642232ad7","5210f7a3dc","fb00d1d9f5","41cf7091a2","5a5b6d0f1d"]},{"id":"4588151717","etsy":"4588151717","title":"Honda Integra Type R 2000","sub":"White and Red","flat":[120,160,"053f112db9"],"v":["46113f4628","832c8d5857","e89fd58ff2","e4a542a083","84ee29b091","e2867408ed","817415843d","a56e56ce60"]},{"id":"4581220347","etsy":"4581220347","title":"Honda NSX 1990","sub":"Ivory","flat":[160,120,"666b685f5c"],"v":["577836e3d5","f48c87a15a","ca267ac34c","7cb3ce14a6","530f0a445e","a373a0102d","c55e640457","c5e29930e5"]},{"id":"s2000","etsy":"4599579491","title":"Honda S2000 2002","sub":"Suzuka Blue","flat":[120,160,"7d6ef7421d"],"v":["1921c61c58","3710ff96dc","1d30e8ba34","2fb67c4a12","6cf0e17a2f","d9ff2488d2","668612f1a5","ecef0fa2ca"]},{"id":"4581231506","etsy":"4581231506","title":"Jaguar E-Type 1961","sub":"Deep Green","flat":[160,120,"1f71325a04"],"v":["c489f98ae0","b20d15f7bb","57c1a79562","2003dc265b","1fd2037ab5","ebe67a25c8","f487f13273","d314c98a18"]},{"id":"4588241975","etsy":"4588241975","title":"Jaguar XJ220 1994","sub":"Dusk Blue","flat":[160,120,"7a98898b54"],"v":["90f1098faa","848500c694","61d67bb18c","ef66393247","9d3ef0f1d2","12561379ee","44f90646c0","9bacb85655"]},{"id":"4583306349","etsy":"4583306349","title":"Lamborghini Countach 1985","sub":"White on Black","flat":[120,160,"955860a46b"],"v":["75b2ef750b","da86c9e1b6","1813abe6e1","414baf3615","97820f1887","fd6ff45274","48092245ae","b0d642a070"]},{"id":"4581207090","etsy":"4581207090","title":"Lamborghini Diablo 1991","sub":"Violet","flat":[120,160,"4437612118"],"v":["ea960db45f","173931363f","ed12682e15","8cc2013d1f","5bf57f6098","5652ef2880","e04af11629","8e7568533f"]},{"id":"4583406714","etsy":"4583406714","title":"Lamborghini LM002 1988","sub":"Black and Sand","flat":[120,160,"2453712dbf"],"v":["f86b99cc24","8532b31637","dfd7886a46","7a5fca8ce7","56bebd304c","eeb3693f0f","0299528851","be80561b2d"]},{"id":"4583427666","etsy":"4583427666","title":"Lamborghini Miura SV 1971","sub":"Psychedelic Violet","flat":[120,160,"3541b2f8a3"],"v":["477c3d296a","900be188c2","78c0068741","9b362bac77","051e109c5d","63e47f9619","5874e0b454","fc317b62e5"]},{"id":"4583420471","etsy":"4583420471","title":"Lancia Delta Integrale 1993","sub":"Blue De Stijl","flat":[160,120,"7f3b720fc7"],"v":["2a184b34a6","6e2ef2c176","cd0fbbec63","06628687b5","de4e0cb3fb","9fe3b88e0b","0da8a2582e","39a441a204"]},{"id":"4588244309","etsy":"4588244309","title":"Lancia Fulvia HF 1966","sub":"Crimson and Cream","flat":[120,160,"1cd9a5928b"],"v":["474aab0c4f","e0ec8c6616","7e35fb6a47","5abb6c7a03","245062b12f","29a367bc23","bafa0fa63b","bf69143c30"]},{"id":"4583426570","etsy":"4583426570","title":"Lancia Stratos 1974","sub":"Red Futurist Shards","flat":[120,160,"9a5b0ed38d"],"v":["a3919db1fe","8b95cbf452","d806c372db","2a75e858dc","fb02847faa","f8ffa49e52","284bb5efee","fccc7d9702"]},{"id":"4588153750","etsy":"4588153750","title":"Land Rover Defender 90 1997","sub":"Alpine White","flat":[120,160,"f60940461d"],"v":["c035b24cf4","24fad80e71","31cae9b333","60a612ec2b","a058f99552","fe7721f6e5","41ef79c147","4d426bfe72"]},{"id":"4581202724","etsy":"4581202724","title":"Lexus LFA 2012","sub":"Washi Grey","flat":[120,160,"5d6810c315"],"v":["f233d4ea53","40ec75d4a4","97894ad771","643c488168","b99d8378c5","e4d023604e","71934181b5","d7e65c04c8"]},{"id":"4583431484","etsy":"4583431484","title":"Lotus Esprit S1 1977","sub":"Orange Halftone","flat":[120,160,"6c3097b8fc"],"v":["c9849db792","fc2a785c1e","c86c4d8270","833e4371a5","64c65b0e0d","fec5a49c70","690a9dddf1","fbf867256b"]},{"id":"4586112235","etsy":"4586112235","title":"Maserati Bora 1972","sub":"Yellow Pompeian Fresco","flat":[160,120,"1875271899"],"v":["83f4346ca3","a04b9c3691","1c29ca8280","2ad8b0450b","9946ac3580","9b89d5cf81","9c611f930b","e142411c0d"]},{"id":"4586117618","etsy":"4586117618","title":"Mazda MX-5 Miata 1990","sub":"Red Fireworks","flat":[120,160,"81abee1d9e"],"v":["25e5c4e992","242da9523a","a1c0d3d1e7","7282606bf1","cc98f76710","085344993c","8c390f0e54","4d23c1547e"]},{"id":"4581203830","etsy":"4581203830","title":"Mazda RX-7 FD 1993","sub":"Celadon","flat":[160,120,"28d9e5b468"],"v":["3747eaa245","6d326dcbe8","93f109f6e8","bfe02ebb25","3e28c234b9","835ad2ec14","571b909fa0","f86debf47e"]},{"id":"4583417571","etsy":"4583417571","title":"McLaren F1 1995","sub":"Silver on Acid Yellow","flat":[120,160,"b876d84205"],"v":["5628219af7","bb9abbcab2","a464e6881a","0ef3e56c13","fbc74e0674","8d479a8231","a7a06437c6","a39eb7e3c4"]},{"id":"4581233941","etsy":"4581233941","title":"Mercedes 190E Evo II 1990","sub":"Ivory and Green","flat":[120,160,"03d82c84da"],"v":["2afe881504","1b0d0cda3d","0448ab5de2","0e971eae09","5c3971b65a","2f6ba32907","775011d570","8026d72b30"]},{"id":"4583320304","etsy":"4583320304","title":"Mercedes 300 SL Gullwing 1955","sub":"Silver and Red","flat":[120,160,"ff08760db9"],"v":["ae1468d56f","085ecc3ad0","ff424c58d3","d371f44c34","1ebafae0cd","8d4eb53a77","96ed6b4f99","696b53fadf"]},{"id":"g500","etsy":"4599583057","title":"Mercedes-Benz G 500 2002","sub":"Black","flat":[120,160,"77de22ab8d"],"v":["f798b58521","4a93a68c97","bab5dd3257","14213c0cfd","a18fce8851","ade67484e2","bff12d3d2c","44b5bbcc23"]},{"id":"4588148047","etsy":"4588148047","title":"Mitsubishi Lancer Evolution VI 2001","sub":"Passion Red","flat":[160,120,"98e8d8005e"],"v":["5fa3e91b3b","9b6676e6ad","d1af6745ed","09437f3c84","7be1c1f74c","3ec5ffd1d4","0bac4093d1","213c38374e"]},{"id":"4586459323","etsy":"4586459323","title":"Nissan Fairlady Z432 1970","sub":"Silver Ink Brush","flat":[120,160,"1a30d385b3"],"v":["00a548a0b0","c416fd01af","c24c320288","78cb533cfc","59b3b0cd85","04020fb558","246ddb8b4f","ba3c2318c2"]},{"id":"r35","etsy":"4599610772","title":"Nissan GT-R R35 2009","sub":"Silver","flat":[120,160,"df848d7451"],"v":["ff4e287aa5","ff1b2f2071","4420b02601","4ebc25bee7","3d7234ae80","ca9452e9f9","f67d7baa2f","7c5571f6f6"]},{"id":"4583393367","etsy":"4583393367","title":"Nissan Skyline GT-R Hakosuka 1972","sub":"Silver and Red","flat":[120,160,"84fc5e2c26"],"v":["d53d2eb3e6","4327b9a2c8","1b8c389bca","2f43cf5fab","2acc0fdbbb","00b0a36b04","fcda50c585","bbc39131e3"]},{"id":"4583321258","etsy":"4583321258","title":"Nissan Skyline GT-R R34 1999","sub":"Bayside Blue","flat":[160,120,"5e99d46597"],"v":["d5723684d1","b46da4f770","5374b2bb92","6af18bb07d","d24ac22505","bd92912ef2","a9c603b418","19371d6fe9"]},{"id":"4583324410","etsy":"4583324410","title":"Peugeot 205 Turbo 16 1984","sub":"Red and Grey","flat":[120,160,"264a524e44"],"v":["ce083fb9b1","378bc5caef","d905e388e9","59b5aefc68","edcd75ba1d","7ddd35d953","fe7dac4a11","1760dbdcfe"]},{"id":"4588154470","etsy":"4588154470","title":"Plymouth Hemi 'Cuda 1970","sub":"Red and Black","flat":[160,120,"417281f460"],"v":["dbd38431c9","3ff9955501","2119e9c042","c92cd2a654","4b2286f2df","5fa9e2ce1b","3147874bc8","4da875b727"]},{"id":"4588151532","etsy":"4588151532","title":"Pontiac Trans Am 1977","sub":"Black and Gold","flat":[120,160,"82d2ad7684"],"v":["0f4dcf51b0","a0d5b2ef34","af0062fe2c","00ed49af7a","1ae659def9","168fe887d1","4b6196b235","d53e5d9a6c"]},{"id":"4588143273","etsy":"4588143273","title":"Porsche 356 Speedster 1956","sub":"Cobalt Blue","flat":[120,160,"bf59d8ebdb"],"v":["07eb745e50","f74a817321","c35f152917","ecdcd71c48","7c5241905a","cadfb44c13","71fca6547d","2b29396c65"]},{"id":"4588144847","etsy":"4588144847","title":"Porsche 911 Carrera RS 1992","sub":"Sunset Red","flat":[120,160,"ab42bbe637"],"v":["16fede59f0","c62b9336ee","77be08fdb9","4b413ba573","c2c7ae0beb","ecd52c2155","86086118ba","666dcfea60"]},{"id":"4581228913","etsy":"4581228913","title":"Porsche 911 Carrera RS 2.7 1973","sub":"Deep Green","flat":[120,160,"a5fed601e7"],"v":["55fa10f5a1","b0ca950dfe","5e127b8f4c","8fcb537a5a","59b2a5e0a9","9c62314a90","9285fbea5b","93918b8abf"]},{"id":"gt3rs","etsy":"4599615002","title":"Porsche 911 GT3 RS 2023","sub":"Arctic Grey","flat":[160,120,"c6f73ae180"],"v":["3b2b48b8c3","38156e6213","aa59d34a08","06e6337c1c","65ecb286e0","0316e81438","82fe889c2b","d0d4b1b30d"]},{"id":"4583307635","etsy":"4583307635","title":"Porsche 911 Turbo 930 1985","sub":"Guards Red","flat":[160,120,"973d31a1c3"],"v":["b0e86886c1","257422330b","203820e53f","29c85d33bb","3f291a9c19","bfa6c34958","3acad21592","1157004c9e"]},{"id":"4588245259","etsy":"4588245259","title":"Porsche 911 Turbo 993 1996","sub":"Red and Black","flat":[120,160,"67b243a0d1"],"v":["fc76433d79","46537235b5","b710bc2cc9","f1407ac487","33ec8007a0","5135094e28","f409a7dd9b","45d6a5873b"]},{"id":"4586117971","etsy":"4586117971","title":"Porsche 928 GTS 1992","sub":"Black and Teal","flat":[120,160,"47c61a4462"],"v":["d64573dbb9","46ba95e326","6634a12a3a","0e87e9bd1a","26cd0db933","ed2684dd53","afc85b2f63","ee527cac2c"]},{"id":"4580775139","etsy":"4580775139","title":"Porsche 959 1987","sub":"Burgundy","flat":[120,160,"0d979452f5"],"v":["2fc2408403","3755ebcf0f","370b0e80a4","35cbd61475","c19576ed44","f508f7978c","5e01791689","8f2b3aeafd"]},{"id":"4586113214","etsy":"4586113214","title":"Porsche Carrera GT 2005","sub":"Silver Bauhaus","flat":[160,120,"0c32cfaf51"],"v":["9e2ca41e6e","64e144b95a","8f10588c39","288c121c81","4affd32f2e","2edd139aa8","480d9ee0a1","abb6559117"]},{"id":"4581228744","etsy":"4581228744","title":"Renault 5 Turbo 1980","sub":"Deep Blue","flat":[120,160,"66d036bd91"],"v":["934174e1e2","06d4c176a4","af5f44a4f2","a12a5255d7","afb0dd737a","ce99e47302","4211b85a31","3d7b3d2b45"]},{"id":"4583311933","etsy":"4583311933","title":"Saab 900 Turbo 16 1987","sub":"Yellow and Black","flat":[120,160,"cb36dee3a7"],"v":["93985a1adc","82be34fb22","8445542f9c","20ac692f8e","1a29f82b83","5faf07bfd4","a867eaf3ac","224a72c3d2"]},{"id":"4583310867","etsy":"4583310867","title":"Shelby Cobra 427 1965","sub":"Blue","flat":[160,120,"befa4968cd"],"v":["0bf9fac9cc","32202af111","4946d48997","667e4a0b43","d831fadfc2","036cbef7ce","61405b2825","09ea13cd27"]},{"id":"4583404388","etsy":"4583404388","title":"Subaru Impreza 22B STi 1998","sub":"Sonic Blue","flat":[160,120,"e94e14263a"],"v":["7fc9dc4333","21fad9e2ed","2bfd81a5cc","f254c784f5","fbaab6804d","3e1c28e962","87fbba5641","2e6d0edb78"]},{"id":"4586116680","etsy":"4586116680","title":"Toyota 2000GT 1967","sub":"White Great Wave","flat":[160,120,"5116adbcf6"],"v":["2eb890ad0d","7133120e53","ccee0027f0","111b5f2d84","e7929e7e2a","cf3f9b4c44","0273796947","1941b35fcb"]},{"id":"4586461903","etsy":"4586461903","title":"Toyota Land Cruiser FJ40 1968","sub":"Green Jungle","flat":[120,160,"78962223c0"],"v":["8df3217a15","8ddb0c0a89","d61a9944ab","4a20501409","02398aa6a3","50aca3573a","2978e2aa43","07fe5f6e30"]},{"id":"4583430598","etsy":"4583430598","title":"Toyota Supra MK4 1993","sub":"Black Poolside","flat":[160,120,"3764b68f7c"],"v":["003cbacd39","2f8ade2742","bef6bf97ce","a3e1b5e4a2","a4e9e69c07","b2a260dd40","93747f064f","cdd576aea4"]},{"id":"4581215174","etsy":"4581215174","title":"Vector W8 1991","sub":"Purple","flat":[160,120,"867f36a245"],"v":["36d3b9c9a1","cb1391992c","04aee0cc73","0341b90727","6c8b518cc5","4decbb0d10","df00702be6","dd7bf8494b"]},{"id":"4588243519","etsy":"4588243519","title":"Volkswagen Beetle 1967","sub":"Cream and Red","flat":[120,160,"93a161bae8"],"v":["7b4d1c9ce6","d429c9affe","a97d50b624","13c1ddb783","34488bf1f5","908b7c22f6","413b16390d","d20d4f2455"]},{"id":"gti77","etsy":"4599594265","title":"Volkswagen Golf GTI Mk1 1977","sub":"Silver","flat":[160,120,"e6c7dd7b52"],"v":["7b96455396","e437956e9d","b24b79e139","09db3f3059","ffb7e31824","6a4ba993e7","aace444e4f","9e5dfc9f65"]},{"id":"4586120154","etsy":"4586120154","title":"Volkswagen T1 Samba 1967","sub":"Red and White","flat":[160,120,"45d1899052"],"v":["709a98ff7c","f4a118ae2b","9da047368f","cbe7caf5a1","3ffc610fa5","ef2779096b","1dc8a08155","a0262fb212"]},{"id":"4586460822","etsy":"4586460822","title":"Volvo 850 T-5R 1995","sub":"Yellow Road Marking","flat":[120,160,"189073b5bc"],"v":["8dad6658bf","5a1e756fae","074f08d7a4","ac83ac1e89","c21c9ae307","6ceaf92e6a","a915818ed6","011443ab21"]}];
+  const FIN = [["white","White","#F2F0EB"],["black","Black","#1B1B1B"],["natural","Natural oak","#C7A47A"],["brown","Brown","#5C3D29"],["darkgrey","Dark grey","#4D5054"],["lightgrey","Light grey","#C0C2C1"],["silver","Antique silver","linear-gradient(135deg,#8F928F,#D6D7D3 50%,#9C9E9A)"],["gold","Antique gold","linear-gradient(135deg,#8A6A33,#D2B46E 50%,#9B7B3D)"]];
+  const KEY = "lombardia.framePicks.v1", UI = "lombardia.framePicker.ui.v1";
+  const LABEL = Object.fromEntries(FIN.map(f => [f[0], f[1]]));
+  const SWATCH = Object.fromEntries(FIN.map(f => [f[0], f[2]]));
+  const BY_ID = Object.fromEntries(DATA.map(r => [r.id, r]));
+  const ALIAS = {naturaloak: "natural", oak: "natural", antiquesilver: "silver", antiquegold: "gold", darkgray: "darkgrey", lightgray: "lightgrey", hero: "white"};
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
+  const plural = n => n + " pick" + (n === 1 ? "" : "s");
+  const read = (k, d) => { try { const v = JSON.parse(localStorage.getItem(k)); return v && typeof v === "object" && !Array.isArray(v) ? v : d; } catch (e) { return d; } };
+  const write = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); return true; } catch (e) { return false; } };
+  const norm = v => { const s = String(v == null ? "" : v).toLowerCase().replace(/[^a-z]/g, ""); return LABEL[s] ? s : ALIAS[s] || null; };
+  const clean = o => { const out = {}; for (const [id, v] of Object.entries(o || {})) { const f = norm(v); if (f) out[id] = f; } return out; };
+  let picks = clean(read(KEY, {}));
+
+  const list = $("list");
+  list.innerHTML = DATA.map(r => {
+    const id = esc(r.id);
+    const flat = r.flat ? `<img class="flat" src="img/${id}/flat.jpg?v=${r.flat[2]}" width="${r.flat[0]}" height="${r.flat[1]}" alt="" loading="lazy" decoding="async">` : "";
+    const opts = FIN.map(([f, label], k) => {
+      const v = r.v[k];
+      const ph = v ? `<img src="img/${id}/${f}.jpg?v=${v}" width="360" height="360" alt="" loading="lazy" decoding="async">` : `<span class="na">Not ready</span>`;
+      return `<button type="button" class="opt" data-f="${f}" aria-pressed="false"${v ? "" : " disabled"}><span class="ph">${ph}</span><span class="ol">${esc(label)}</span></button>`;
+    }).join("");
+    return `<section class="row" id="p-${id}" data-id="${id}"><div class="rh">${flat}<div class="rt"><h2>${esc(r.title)}</h2>`
+      + `<p>${r.sub ? esc(r.sub) + "&ensp;" : ""}<span class="id">${id}</span></p></div><div class="pk"><i class="sw"></i><span class="pl">Not picked</span></div></div>`
+      + `<div class="opts" role="group" aria-label="Frame for ${esc(r.title)}">${opts}</div></section>`;
+  }).join("");
+  const rows = [...list.querySelectorAll(".row")];
+
+  function paint(row) {
+    const f = picks[row.dataset.id];
+    row.classList.toggle("done", !!f);
+    for (const b of row.querySelectorAll(".opt")) b.setAttribute("aria-pressed", String(b.dataset.f === f));
+    row.querySelector(".pl").textContent = f ? LABEL[f] : "Not picked";
+    row.querySelector(".sw").style.background = f ? SWATCH[f] : "";
+  }
+  const done = () => DATA.filter(r => picks[r.id]);
+  function count() {
+    const n = done().length;
+    $("n").textContent = n;
+    $("meter").style.width = (100 * n / DATA.length).toFixed(2) + "%";
+  }
+  function save() { if (!write(KEY, picks)) { $("warn").hidden = false; } }
+  function repaint() { rows.forEach(paint); count(); }
+
+  list.addEventListener("click", e => {
+    const b = e.target.closest(".opt");
+    if (!b || b.disabled) return;
+    const row = b.closest(".row"), id = row.dataset.id, f = b.dataset.f;
+    if (picks[id] === f) delete picks[id]; else picks[id] = f;
+    save(); paint(row); count();
+  });
+
+  // Not picked yet: hides the rows picked when it is turned on; a row picked meanwhile stays until the next turn, so a tap can be undone
+  let only = false;
+  $("filter").addEventListener("click", () => {
+    only = !only;
+    $("filter").setAttribute("aria-pressed", String(only));
+    let shown = 0;
+    for (const row of rows) { row.hidden = only && !!picks[row.dataset.id]; if (!row.hidden) shown++; }
+    $("empty").hidden = !(only && shown === 0);
+    if (list.getBoundingClientRect().top < 0) list.scrollIntoView({block: "start"});
+  });
+
+  function setBig(on) { document.body.classList.toggle("big", on); $("big").setAttribute("aria-pressed", String(on)); $("big").textContent = on ? "Smaller photos" : "Bigger photos"; }
+  setBig(!!read(UI, {}).big);
+  $("big").addEventListener("click", () => {
+    const anchor = rows.find(r => !r.hidden && r.getBoundingClientRect().bottom > 70);
+    const on = !document.body.classList.contains("big");
+    setBig(on); write(UI, {big: on});
+    if (anchor && window.scrollY > 0) anchor.scrollIntoView({block: "start"});
+  });
+
+  const json = () => { const out = {}; for (const r of DATA) if (picks[r.id]) out[r.id] = picks[r.id]; return JSON.stringify(out, null, 2); };
+  $("copy").addEventListener("click", async () => {
+    const n = done().length;
+    if (!n) return toast("Nothing picked yet");
+    const text = json();
+    let ok = false;
+    try { await navigator.clipboard.writeText(text); ok = true; } catch (e) {
+      const ta = document.createElement("textarea");
+      ta.value = text; ta.setAttribute("readonly", ""); ta.style.cssText = "position:fixed;top:0;left:0;opacity:0";
+      document.body.appendChild(ta); ta.select(); ta.setSelectionRange(0, text.length);
+      try { ok = document.execCommand("copy"); } catch (e2) { ok = false; }
+      ta.remove();
+    }
+    if (ok) toast("Copied " + plural(n)); else window.prompt("Copy the picks:", text);
+  });
+  $("dl").addEventListener("click", () => {
+    const n = done().length;
+    if (!n) return toast("Nothing picked yet");
+    const d = new Date(), p2 = x => String(x).padStart(2, "0");
+    const name = `frame-picks-${d.getFullYear()}-${p2(d.getMonth() + 1)}-${p2(d.getDate())}-${p2(d.getHours())}${p2(d.getMinutes())}.json`;
+    const url = URL.createObjectURL(new Blob([json() + "\n"], {type: "application/json"}));
+    const a = Object.assign(document.createElement("a"), {href: url, download: name});
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 5000);
+    toast("Downloaded " + plural(n));
+  });
+  $("paste").addEventListener("click", () => {
+    const t = window.prompt("Paste picks (the JSON from Copy picks on another device). They are added to the picks here:");
+    if (!t) return;
+    let o;
+    try { o = JSON.parse(t); } catch (e) { o = null; }
+    if (!o || typeof o !== "object" || Array.isArray(o)) return toast("That is not picks JSON");
+    let n = 0, skipped = 0;
+    for (const [id, v] of Object.entries(o)) { const f = norm(v); if (BY_ID[id] && f) { picks[id] = f; n++; } else skipped++; }
+    save(); repaint();
+    toast("Added " + plural(n) + (skipped ? ", " + skipped + " not recognised" : ""));
+  });
+
+  let timer;
+  function toast(msg) { const t = $("toast"); t.textContent = msg; t.classList.add("on"); clearTimeout(timer); timer = setTimeout(() => t.classList.remove("on"), 2600); }
+  addEventListener("storage", e => { if (e.key === KEY) { picks = clean(read(KEY, {})); repaint(); } });
+  if (!write("lombardia.framePicker.probe", {})) $("warn").hidden = false;
+  repaint();
+  if (location.hash.length > 1) { const el = document.getElementById(decodeURIComponent(location.hash.slice(1))); if (el) el.scrollIntoView({block: "start"}); }
+})();
+</script>
+</body></html>
