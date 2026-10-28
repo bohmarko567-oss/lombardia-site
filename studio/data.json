@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-28 15:07",
+ "built": "2026-10-28 15:28",
  "accessed_date": "2026-10-28",
  "collections": [
   "American Form",
@@ -1231,28 +1231,28 @@
    }
   },
   {
-   "key": "laferrari-master-lf3",
-   "name": "Ferrari LaFerrari 2014 - print master LF3 (workflow B)",
+   "key": "laferrari-master-lf4",
+   "name": "Ferrari LaFerrari 2014 - print master LF4 (workflow B)",
    "notion_url": null,
    "board_url": null,
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/laferrari-master-lf3-408f03bbda0d-current.jpg",
+   "preview": "assets/laferrari-master-lf4-ac9ab699dd61-current.jpg",
    "preview_pixels": [
     1600,
     2133
    ],
-   "source_file": "pipeline/studio-qb-20261023/q2/masters/LF3-ferrari-laferrari-topaz-cgi-lock-m5-9000x12000.jpg",
-   "source_sha256": "408f03bbda0dd48b2c0d9b2d44ec414909e122b0ae956c0aad40707ec40a05ca",
+   "source_file": "pipeline/studio-qb-20261023/q2/masters/LF4-ferrari-laferrari-topaz-cgi-lock-m7-9000x12000.jpg",
+   "source_sha256": "ac9ab699dd61e9187682964b920951a81430faab6fc2fb1d81297421a034f9be",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Print master LF3 - approval 2, the last (replaces LF2). 9000 x 12000 (300 dpi at 30 x 40 in), JPEG q95 4:4:4, 40.6 MB. Your two notes on LF2: (1) the nose badge's chrome triangle at the bottom is gone - the rim is the same thin band all round and the bottom-left corner is square: studio/assets/qb-laf-lf3-noserim-300.jpg (LF2 | LF3); (2) the shield on the wing on your left now points down at the bonnet like the one on the right: qb-laf-lf3-shieldR-200.jpg, -wing-100.jpg. Everything else as in LF2: nose badge with the tricolour, horse and Ferrari lettering; both wing shields; both visible wheel caps; the rear-deck script reads Ferrari; Lombardia Automobili top left on the grass (qb-laf-lf2-*.jpg). HARSH: the moved shield is a copy of the other side's at 0.72 size - right for the car (same part both sides) but it sits on the wing's top face, which a real LaFerrari does not show from this angle; the badges are photo-crisp on a slightly painterly car, so at 30 cm they read sharper than the paint; the badges are 2-2.5 cm and the caps 5 mm on the 75 x 100 print; faint dark-red ticks above some deck letters at 300 %; the upscaler's fine diagonal texture in grass and tarmac at 400 %; 40.6 MB, so the Prodigi upload goes up in more byte ranges. NOT sent anywhere - your word on this card is approval 2, then the lot runs to live with no more questions.",
-   "candidate_created_at": "2026-10-28T14:05:48.914231+00:00",
+   "delivery_status": "Print master LF4 - approval 2, the last (replaces LF3). 9000 x 12000 (300 dpi at 30 x 40 in), JPEG q95 4:4:4, 40.6 MB. Bonnet badge as you approved in LF3 (thin even rim, square corner: qb-laf-lf3-noserim-300.jpg). The side shield on your left now MIRRORS the one on the right: point down-left where the other points down-right, band along the top - the horse still faces left and S F still reads S F (a straight flip would print them backwards). The pair: studio/assets/qb-laf-lf4-pair-100.jpg; LF3 | LF4: qb-laf-lf4-shieldR-200.jpg. Everything else as before: nose badge, the other wing shield, both visible wheel caps, the rear-deck script, Lombardia Automobili top left on the grass (qb-laf-lf2-*.jpg). HARSH: the mirrored shield sits on the wing's top face, which a real LaFerrari does not show from this angle; its horse and S F lean with the shield (about 30 degrees); badges photo-crisp on a slightly painterly car, sharper than the paint at 30 cm; badges 2-2.5 cm and caps 5 mm on the 75 x 100 print; faint dark-red ticks above some deck letters at 300 %; the upscaler's fine diagonal texture in grass and tarmac at 400 %; 40.6 MB, so the Prodigi upload goes up in more byte ranges. NOT sent anywhere - your word on this card is approval 2, then the lot runs to live with no more questions.",
+   "candidate_created_at": "2026-10-28T14:27:07.109188+00:00",
    "review_url": null,
    "stage1_generations": [
     {
@@ -1456,7 +1456,7 @@
      "references": []
     },
     {
-     "role": "edit (master scale)",
+     "role": "edit (master scale), not picked",
      "request_id": "e7165b12-206c-43af-ad87-1d3a36e06f9f",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-28T14:02:10.602765+00:00",
@@ -1474,6 +1474,26 @@
      "page_url": "https://muapi.ai/predictions/6ba5cae3-3bfb-4d34-ab86-11d8de79687e",
      "target_id": "shieldR2B",
      "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "ad9c87c4-ab08-4043-a17b-f6addaf11e63",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T14:23:36.547747+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ad9c87c4-ab08-4043-a17b-f6addaf11e63_c338dd0f.png",
+     "page_url": "https://muapi.ai/predictions/ad9c87c4-ab08-4043-a17b-f6addaf11e63",
+     "target_id": "shieldR3A",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "5a39f0a1-055d-4528-9563-cb5b32ab005e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T14:23:39.325747+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5a39f0a1-055d-4528-9563-cb5b32ab005e_6a22eb1e.png",
+     "page_url": "https://muapi.ai/predictions/5a39f0a1-055d-4528-9563-cb5b32ab005e",
+     "target_id": "shieldR3B",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -1482,9 +1502,9 @@
    },
    "candidate_source": "pipeline/studio-one-20261028/studio-candidates.json",
    "candidate_authority": "Owner 28 Oct 2026 05:31: 'Lets expand our etsy collection. Create me 1 more poster'. One RAW hero, DIRECTED (80/20 read across the last batches); no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/408f03bbda0d-laferrari-master-lf3.jpg",
-   "full_source_sha256": "408f03bbda0dd48b2c0d9b2d44ec414909e122b0ae956c0aad40707ec40a05ca",
-   "full_source_bytes": 40599729,
+   "full_source_url": "full/ac9ab699dd61-laferrari-master-lf4.jpg",
+   "full_source_sha256": "ac9ab699dd61e9187682964b920951a81430faab6fc2fb1d81297421a034f9be",
+   "full_source_bytes": 40602362,
    "full_source_pixels": [
     9000,
     12000
@@ -1723,7 +1743,7 @@
      "source": "pipeline/studio-one-20261028/studio-candidates.json"
     },
     {
-     "role": "edit (master scale)",
+     "role": "edit (master scale), not picked",
      "request_id": "e7165b12-206c-43af-ad87-1d3a36e06f9f",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-28T14:02:10.602765+00:00",
@@ -1743,12 +1763,34 @@
      "history_url": "https://muapi.ai/predictions",
      "references": [],
      "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "ad9c87c4-ab08-4043-a17b-f6addaf11e63",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T14:23:36.547747+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ad9c87c4-ab08-4043-a17b-f6addaf11e63_c338dd0f.png",
+     "page_url": "https://muapi.ai/predictions/ad9c87c4-ab08-4043-a17b-f6addaf11e63",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "5a39f0a1-055d-4528-9563-cb5b32ab005e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T14:23:39.325747+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5a39f0a1-055d-4528-9563-cb5b32ab005e_6a22eb1e.png",
+     "page_url": "https://muapi.ai/predictions/5a39f0a1-055d-4528-9563-cb5b32ab005e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-28T04:50:59.677319+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-28T14:05:48.914231+00:00",
+    "updated_at": "2026-10-28T14:27:07.109188+00:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -1781,7 +1823,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Approved at approval 1 - raw hero, kept for reference. The print master LF3 card is approval 2.",
+   "delivery_status": "Approved at approval 1 - raw hero, kept for reference. The print master LF4 card is approval 2.",
    "candidate_created_at": "2026-10-28T04:54:11.408040+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -12571,10 +12613,10 @@
    ]
   },
   {
-   "key": "laferrari-master-lf3",
-   "declared_sha256": "408f03bbda0dd48b2c0d9b2d44ec414909e122b0ae956c0aad40707ec40a05ca",
+   "key": "laferrari-master-lf4",
+   "declared_sha256": "ac9ab699dd61e9187682964b920951a81430faab6fc2fb1d81297421a034f9be",
    "applied": true,
-   "preview": "assets/laferrari-master-lf3-408f03bbda0d-current.jpg",
+   "preview": "assets/laferrari-master-lf4-ac9ab699dd61-current.jpg",
    "pixels": [
     9000,
     12000
