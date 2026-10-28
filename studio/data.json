@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-28 06:04",
+ "built": "2026-10-28 06:37",
  "accessed_date": "2026-10-28",
  "collections": [
   "American Form",
@@ -1231,6 +1231,494 @@
    }
   },
   {
+   "key": "laferrari-master-lf2",
+   "name": "Ferrari LaFerrari 2014 - print master LF2 (workflow B)",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/laferrari-master-lf2-4de789b07dd7-current.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_file": "pipeline/studio-qb-20261023/q2/masters/LF2-ferrari-laferrari-topaz-cgi-lock-m2-9000x12000.jpg",
+   "source_sha256": "4de789b07dd777301820c5f92e250632ac0d27fa1918e7254f77407ca8b8ba03",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Print master LF2 - approval 2, the last. 9000 x 12000 (300 dpi at 30 x 40 in), JPEG q95 4:4:4, 40.6 MB. What changed from the raw hero you approved: the nose badge (was a smeared horse with junk glyphs, now the yellow Ferrari badge with the tricolour, the horse and the Ferrari lettering); both front wing shields (horse, S F, tricolour top); both visible wheel centre caps (horse on yellow); the rear-deck script now reads Ferrari; Lombardia Automobili top left on the grass. Before | after: studio/assets/qb-laf-lf2-nose-200.jpg, -shieldL-100.jpg, -shieldR-100.jpg, -caps-100.jpg, -deck-300.jpg, -crack-800.jpg, -mark-100.jpg. HARSH: the badges are photo-crisp on a slightly painterly car, so at 30 cm they read sharper than the paint around them; the badges are 2-2.5 cm and the caps 5 mm on the 75 x 100 print; the deck script shows faint dark-red ticks above some letters at 300 %; grass and tarmac carry the upscaler's fine diagonal texture at 400 %; the file is 40.6 MB, twice the Ford GT's (the grass), so the Prodigi upload goes up in more byte ranges. NOT sent anywhere - your word on this card is approval 2, then the lot runs to live with no more questions.",
+   "candidate_created_at": "2026-10-28T05:33:21.922486+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "f9325c07-6e13-44d4-8aa4-38d6859dc2f9",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-28T04:50:59.677319+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f9325c07-6e13-44d4-8aa4-38d6859dc2f9_b5642d2f.png",
+     "page_url": "https://muapi.ai/predictions/f9325c07-6e13-44d4-8aa4-38d6859dc2f9",
+     "references": [
+      {
+       "role": "Front three-quarter from the left front corner, seen from above: the nose, the bonnet and its vent, the windscreen with its single wiper, the red roof, the left flank (the closest angle to the poster view; ignore the buildings)",
+       "url": "https://cdn.muapi.ai/outputs/generated/985c1c3bcdfd4b8b96b900877a3e0cc8.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
+      },
+      {
+       "role": "Straight overhead view of the whole car: its plan shape, the red roof, the windscreen, the bonnet vent, the glass engine cover with the V12 under it, the chrome Ferrari script on the deck behind it, the two vents near the tail, the red mirrors on black arms",
+       "url": "https://cdn.muapi.ai/outputs/generated/48cda7f11e56421c9dbd63600f1211e6.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
+      },
+      {
+       "role": "Front three-quarter from the left front corner at standing height: whole-car proportions, the headlamps, the black lower intakes, the yellow shield on the front wing, the deep side scoop, the wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/1f3b9f0bfcd8452b9fd6e8ed14dba7c7.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
+      },
+      {
+       "role": "Front: the pointed nose with the small yellow badge, the two black mesh intakes split by the red centre pillar, the black splitter, both headlamps, the red mirrors on black arms",
+       "url": "https://cdn.muapi.ai/outputs/generated/4eb8d8fbb66141a2a0d2243c50e4f8d0.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
+      },
+      {
+       "role": "Front three-quarter from the left front corner, low: the front wing and headlamp shape, the side scoop, the front wheel",
+       "url": "https://cdn.muapi.ai/outputs/generated/f5c1758f9d4e40a39e6fa6c3ff9bf109.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
+      },
+      {
+       "role": "Side view (right side): proportions - the long cab-forward canopy, the wheelbase, the deep side scoop ahead of the rear wheel, the closed door",
+       "url": "https://cdn.muapi.ai/outputs/generated/4470fd311da94624abe3cbcd740c16ee.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
+      },
+      {
+       "role": "Nose close-up: the small rectangular yellow badge with the black prancing horse on the nose ridge, the bonnet vent above it, the black mesh intakes split by the red pillar",
+       "url": "https://cdn.muapi.ai/outputs/generated/f498e3a470e748798688e7bebfa7ad7e.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
+      },
+      {
+       "role": "Front wing close-up: the yellow shield with the green, white and red band at its top, the black prancing horse and the letters S F",
+       "url": "https://cdn.muapi.ai/outputs/generated/b76244a5f05840e9ae87a92ca1229fc9.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
+      },
+      {
+       "role": "Front wheel close-up: silver five-spoke forged wheel with a yellow centre cap carrying the black horse, red brake caliper, drilled grey disc (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/generated/0f552dc4279547ffb125f6489b274130.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
+      },
+      {
+       "role": "Headlamp close-up: the narrow swept-back LED headlamp with its row of small vertical slats",
+       "url": "https://cdn.muapi.ai/outputs/generated/fcd914e4a0584d32899c0c103d32b422.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
+      },
+      {
+       "role": "The glass engine cover behind the cabin seen from above: framed in black, the V12 with red details under it, the chrome Ferrari script on the red deck below it",
+       "url": "https://cdn.muapi.ai/outputs/generated/acfe995ae4dd47989aaafcd50282c7f9.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
+      },
+      {
+       "role": "Lettering close-up: the car's own LaFerrari badge from its dashboard - wide slanted letters, La and errari in silver-white, the F in red, a long line under errari; the model for the painted word LaFerrari only",
+       "url": "https://cdn.muapi.ai/outputs/generated/8a228b1125834264b81a7b028a9ea594.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo26/lots/r0132-2015-ferrari-laferrari/"
+      }
+     ]
+    },
+    {
+     "role": "upscale",
+     "request_id": "809d9a0d-1ce6-4318-a286-3cc0c42bdd42",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-28T05:06:03.178289+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/809d9a0d-1ce6-4318-a286-3cc0c42bdd42_844a709d.png",
+     "page_url": "https://muapi.ai/predictions/809d9a0d-1ce6-4318-a286-3cc0c42bdd42",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "ec031a2a-14af-49d3-921f-27b89e5f7a13",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:35.489054+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ec031a2a-14af-49d3-921f-27b89e5f7a13_1ab3fda5.png",
+     "page_url": "https://muapi.ai/predictions/ec031a2a-14af-49d3-921f-27b89e5f7a13",
+     "target_id": "noseA",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "d1f2bc2a-afbb-4092-8b6f-5485edd26eb6",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:37.469903+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d1f2bc2a-afbb-4092-8b6f-5485edd26eb6_7f3f66c8.png",
+     "page_url": "https://muapi.ai/predictions/d1f2bc2a-afbb-4092-8b6f-5485edd26eb6",
+     "target_id": "noseB",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "19e8dcda-a230-46aa-8558-e3485c795423",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:39.243866+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/19e8dcda-a230-46aa-8558-e3485c795423_97c415e7.png",
+     "page_url": "https://muapi.ai/predictions/19e8dcda-a230-46aa-8558-e3485c795423",
+     "target_id": "shieldLA",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "37b48be1-7a8d-4699-9420-304db8cfa578",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:41.091977+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/37b48be1-7a8d-4699-9420-304db8cfa578_1f4bc618.png",
+     "page_url": "https://muapi.ai/predictions/37b48be1-7a8d-4699-9420-304db8cfa578",
+     "target_id": "shieldLB",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "f0cd81f2-a775-46ea-9c7f-53ecc1706764",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:42.838940+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f0cd81f2-a775-46ea-9c7f-53ecc1706764_6dd86c65.png",
+     "page_url": "https://muapi.ai/predictions/f0cd81f2-a775-46ea-9c7f-53ecc1706764",
+     "target_id": "shieldRA",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "db027c40-0bca-423e-bdac-efd39ac7ed37",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:44.559208+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/db027c40-0bca-423e-bdac-efd39ac7ed37_17779d31.png",
+     "page_url": "https://muapi.ai/predictions/db027c40-0bca-423e-bdac-efd39ac7ed37",
+     "target_id": "shieldRB",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "945fe1dc-61ed-4056-bc4a-beae431c31f4",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:46.374560+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/945fe1dc-61ed-4056-bc4a-beae431c31f4_1f46303e.png",
+     "page_url": "https://muapi.ai/predictions/945fe1dc-61ed-4056-bc4a-beae431c31f4",
+     "target_id": "capFLA",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "de8712d6-4d60-4f0e-9d4d-34f652f016ce",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:48.615592+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/de8712d6-4d60-4f0e-9d4d-34f652f016ce_7ca644c6.png",
+     "page_url": "https://muapi.ai/predictions/de8712d6-4d60-4f0e-9d4d-34f652f016ce",
+     "target_id": "capFLB",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "e34d27ab-4399-401f-b31d-1f8614973625",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:50.412272+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e34d27ab-4399-401f-b31d-1f8614973625_b93e4d4b.png",
+     "page_url": "https://muapi.ai/predictions/e34d27ab-4399-401f-b31d-1f8614973625",
+     "target_id": "capRLA",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "08f092ab-d324-4ba9-aebc-6672ad1d37a3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:52.235952+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/08f092ab-d324-4ba9-aebc-6672ad1d37a3_4255d4c3.png",
+     "page_url": "https://muapi.ai/predictions/08f092ab-d324-4ba9-aebc-6672ad1d37a3",
+     "target_id": "capRLB",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "6f1c4bad-6bcb-40e2-bf24-b3ac5af7d139",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:54.077221+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6f1c4bad-6bcb-40e2-bf24-b3ac5af7d139_525e44e5.png",
+     "page_url": "https://muapi.ai/predictions/6f1c4bad-6bcb-40e2-bf24-b3ac5af7d139",
+     "target_id": "deckA",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "88678d9f-0ced-4a18-bdf8-5e0f601a177e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:55.907700+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/88678d9f-0ced-4a18-bdf8-5e0f601a177e_106af827.png",
+     "page_url": "https://muapi.ai/predictions/88678d9f-0ced-4a18-bdf8-5e0f601a177e",
+     "target_id": "deckB",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Forma / Motion",
+    "why": "Brief: DIRECTED - the test track from the air: the car through a kerbed curve, its name painted on the asphalt. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-one-20261028/studio-candidates.json",
+   "candidate_authority": "Owner 28 Oct 2026 05:31: 'Lets expand our etsy collection. Create me 1 more poster'. One RAW hero, DIRECTED (80/20 read across the last batches); no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
+   "full_source_url": "full/4de789b07dd7-laferrari-master-lf2.jpg",
+   "full_source_sha256": "4de789b07dd777301820c5f92e250632ac0d27fa1918e7254f77407ca8b8ba03",
+   "full_source_bytes": 40602825,
+   "full_source_pixels": [
+    9000,
+    12000
+   ],
+   "full_source_kind": "exact_current_jpg",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Forma / Motion",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: DIRECTED - the test track from the air: the car through a kerbed curve, its name painted on the asphalt. Suggestion only.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 100
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "f9325c07-6e13-44d4-8aa4-38d6859dc2f9",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T04:50:59.677319+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f9325c07-6e13-44d4-8aa4-38d6859dc2f9_b5642d2f.png",
+     "page_url": "https://muapi.ai/predictions/f9325c07-6e13-44d4-8aa4-38d6859dc2f9",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left front corner, seen from above: the nose, the bonnet and its vent, the windscreen with its single wiper, the red roof, the left flank (the closest angle to the poster view; ignore the buildings)",
+       "url": "https://cdn.muapi.ai/outputs/generated/985c1c3bcdfd4b8b96b900877a3e0cc8.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
+      },
+      {
+       "role": "Straight overhead view of the whole car: its plan shape, the red roof, the windscreen, the bonnet vent, the glass engine cover with the V12 under it, the chrome Ferrari script on the deck behind it, the two vents near the tail, the red mirrors on black arms",
+       "url": "https://cdn.muapi.ai/outputs/generated/48cda7f11e56421c9dbd63600f1211e6.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
+      },
+      {
+       "role": "Front three-quarter from the left front corner at standing height: whole-car proportions, the headlamps, the black lower intakes, the yellow shield on the front wing, the deep side scoop, the wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/1f3b9f0bfcd8452b9fd6e8ed14dba7c7.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
+      },
+      {
+       "role": "Front: the pointed nose with the small yellow badge, the two black mesh intakes split by the red centre pillar, the black splitter, both headlamps, the red mirrors on black arms",
+       "url": "https://cdn.muapi.ai/outputs/generated/4eb8d8fbb66141a2a0d2243c50e4f8d0.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
+      },
+      {
+       "role": "Front three-quarter from the left front corner, low: the front wing and headlamp shape, the side scoop, the front wheel",
+       "url": "https://cdn.muapi.ai/outputs/generated/f5c1758f9d4e40a39e6fa6c3ff9bf109.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
+      },
+      {
+       "role": "Side view (right side): proportions - the long cab-forward canopy, the wheelbase, the deep side scoop ahead of the rear wheel, the closed door",
+       "url": "https://cdn.muapi.ai/outputs/generated/4470fd311da94624abe3cbcd740c16ee.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
+      },
+      {
+       "role": "Nose close-up: the small rectangular yellow badge with the black prancing horse on the nose ridge, the bonnet vent above it, the black mesh intakes split by the red pillar",
+       "url": "https://cdn.muapi.ai/outputs/generated/f498e3a470e748798688e7bebfa7ad7e.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
+      },
+      {
+       "role": "Front wing close-up: the yellow shield with the green, white and red band at its top, the black prancing horse and the letters S F",
+       "url": "https://cdn.muapi.ai/outputs/generated/b76244a5f05840e9ae87a92ca1229fc9.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
+      },
+      {
+       "role": "Front wheel close-up: silver five-spoke forged wheel with a yellow centre cap carrying the black horse, red brake caliper, drilled grey disc (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/generated/0f552dc4279547ffb125f6489b274130.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
+      },
+      {
+       "role": "Headlamp close-up: the narrow swept-back LED headlamp with its row of small vertical slats",
+       "url": "https://cdn.muapi.ai/outputs/generated/fcd914e4a0584d32899c0c103d32b422.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
+      },
+      {
+       "role": "The glass engine cover behind the cabin seen from above: framed in black, the V12 with red details under it, the chrome Ferrari script on the red deck below it",
+       "url": "https://cdn.muapi.ai/outputs/generated/acfe995ae4dd47989aaafcd50282c7f9.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
+      },
+      {
+       "role": "Lettering close-up: the car's own LaFerrari badge from its dashboard - wide slanted letters, La and errari in silver-white, the F in red, a long line under errari; the model for the painted word LaFerrari only",
+       "url": "https://cdn.muapi.ai/outputs/generated/8a228b1125834264b81a7b028a9ea594.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mo26/lots/r0132-2015-ferrari-laferrari/"
+      }
+     ],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "upscale",
+     "request_id": "809d9a0d-1ce6-4318-a286-3cc0c42bdd42",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-28T05:06:03.178289+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/809d9a0d-1ce6-4318-a286-3cc0c42bdd42_844a709d.png",
+     "page_url": "https://muapi.ai/predictions/809d9a0d-1ce6-4318-a286-3cc0c42bdd42",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "ec031a2a-14af-49d3-921f-27b89e5f7a13",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:35.489054+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ec031a2a-14af-49d3-921f-27b89e5f7a13_1ab3fda5.png",
+     "page_url": "https://muapi.ai/predictions/ec031a2a-14af-49d3-921f-27b89e5f7a13",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "d1f2bc2a-afbb-4092-8b6f-5485edd26eb6",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:37.469903+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d1f2bc2a-afbb-4092-8b6f-5485edd26eb6_7f3f66c8.png",
+     "page_url": "https://muapi.ai/predictions/d1f2bc2a-afbb-4092-8b6f-5485edd26eb6",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "19e8dcda-a230-46aa-8558-e3485c795423",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:39.243866+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/19e8dcda-a230-46aa-8558-e3485c795423_97c415e7.png",
+     "page_url": "https://muapi.ai/predictions/19e8dcda-a230-46aa-8558-e3485c795423",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "37b48be1-7a8d-4699-9420-304db8cfa578",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:41.091977+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/37b48be1-7a8d-4699-9420-304db8cfa578_1f4bc618.png",
+     "page_url": "https://muapi.ai/predictions/37b48be1-7a8d-4699-9420-304db8cfa578",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "f0cd81f2-a775-46ea-9c7f-53ecc1706764",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:42.838940+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f0cd81f2-a775-46ea-9c7f-53ecc1706764_6dd86c65.png",
+     "page_url": "https://muapi.ai/predictions/f0cd81f2-a775-46ea-9c7f-53ecc1706764",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "db027c40-0bca-423e-bdac-efd39ac7ed37",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:44.559208+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/db027c40-0bca-423e-bdac-efd39ac7ed37_17779d31.png",
+     "page_url": "https://muapi.ai/predictions/db027c40-0bca-423e-bdac-efd39ac7ed37",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "945fe1dc-61ed-4056-bc4a-beae431c31f4",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:46.374560+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/945fe1dc-61ed-4056-bc4a-beae431c31f4_1f46303e.png",
+     "page_url": "https://muapi.ai/predictions/945fe1dc-61ed-4056-bc4a-beae431c31f4",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "de8712d6-4d60-4f0e-9d4d-34f652f016ce",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:48.615592+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/de8712d6-4d60-4f0e-9d4d-34f652f016ce_7ca644c6.png",
+     "page_url": "https://muapi.ai/predictions/de8712d6-4d60-4f0e-9d4d-34f652f016ce",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "e34d27ab-4399-401f-b31d-1f8614973625",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:50.412272+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e34d27ab-4399-401f-b31d-1f8614973625_b93e4d4b.png",
+     "page_url": "https://muapi.ai/predictions/e34d27ab-4399-401f-b31d-1f8614973625",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "08f092ab-d324-4ba9-aebc-6672ad1d37a3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:52.235952+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/08f092ab-d324-4ba9-aebc-6672ad1d37a3_4255d4c3.png",
+     "page_url": "https://muapi.ai/predictions/08f092ab-d324-4ba9-aebc-6672ad1d37a3",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "6f1c4bad-6bcb-40e2-bf24-b3ac5af7d139",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:54.077221+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6f1c4bad-6bcb-40e2-bf24-b3ac5af7d139_525e44e5.png",
+     "page_url": "https://muapi.ai/predictions/6f1c4bad-6bcb-40e2-bf24-b3ac5af7d139",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "88678d9f-0ced-4a18-bdf8-5e0f601a177e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T05:13:55.907700+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/88678d9f-0ced-4a18-bdf8-5e0f601a177e_106af827.png",
+     "page_url": "https://muapi.ai/predictions/88678d9f-0ced-4a18-bdf8-5e0f601a177e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-28T04:50:59.677319+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-28T05:33:21.922486+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
    "key": "studio-one-20261028-ferrari-laferrari",
    "name": "Ferrari LaFerrari - DIRECTED",
    "notion_url": null,
@@ -1251,7 +1739,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Approved at approval 1 - raw hero. Badge fixes and the print master next.",
+   "delivery_status": "Approved at approval 1 - raw hero, kept for reference. The print master LF2 card is approval 2.",
    "candidate_created_at": "2026-10-28T04:54:11.408040+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -12038,6 +12526,16 @@
    "pixels": [
     2480,
     3312
+   ]
+  },
+  {
+   "key": "laferrari-master-lf2",
+   "declared_sha256": "4de789b07dd777301820c5f92e250632ac0d27fa1918e7254f77407ca8b8ba03",
+   "applied": true,
+   "preview": "assets/laferrari-master-lf2-4de789b07dd7-current.jpg",
+   "pixels": [
+    9000,
+    12000
    ]
   },
   {
