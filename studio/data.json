@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-28 18:39",
+ "built": "2026-10-28 19:17",
  "accessed_date": "2026-10-28",
  "collections": [
   "American Form",
@@ -2127,222 +2127,6 @@
     "created_at": "2026-10-28T04:50:59.677319+00:00",
     "created_source": "MuAPI original",
     "updated_at": "2026-10-28T17:37:17.826541+00:00",
-    "updated_source": "candidate generated"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
-   "key": "studio-one-20261028-ferrari-laferrari",
-   "name": "Ferrari LaFerrari - DIRECTED",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-one-20261028-ferrari-laferrari-6531a0121f0a-current.jpg",
-   "preview_pixels": [
-    1600,
-    2137
-   ],
-   "source_file": "pipeline/studio-one-20261028/t1/heroes/ferrari-laferrari/final-native.png",
-   "source_sha256": "6531a0121f0a68a8e07638ecc4458efc43ab73d57a5e21a86126ea575c8b770a",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Approved at approval 1 - raw hero, kept for reference. The print master LF8 card is approval 2.",
-   "candidate_created_at": "2026-10-28T04:54:11.408040+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "f9325c07-6e13-44d4-8aa4-38d6859dc2f9",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-28T04:50:59.677319+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/f9325c07-6e13-44d4-8aa4-38d6859dc2f9_b5642d2f.png",
-     "page_url": "https://muapi.ai/predictions/f9325c07-6e13-44d4-8aa4-38d6859dc2f9",
-     "references": [
-      {
-       "role": "Front three-quarter from the left front corner, seen from above: the nose, the bonnet and its vent, the windscreen with its single wiper, the red roof, the left flank (the closest angle to the poster view; ignore the buildings)",
-       "url": "https://cdn.muapi.ai/outputs/generated/985c1c3bcdfd4b8b96b900877a3e0cc8.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
-      },
-      {
-       "role": "Straight overhead view of the whole car: its plan shape, the red roof, the windscreen, the bonnet vent, the glass engine cover with the V12 under it, the chrome Ferrari script on the deck behind it, the two vents near the tail, the red mirrors on black arms",
-       "url": "https://cdn.muapi.ai/outputs/generated/48cda7f11e56421c9dbd63600f1211e6.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
-      },
-      {
-       "role": "Front three-quarter from the left front corner at standing height: whole-car proportions, the headlamps, the black lower intakes, the yellow shield on the front wing, the deep side scoop, the wheels",
-       "url": "https://cdn.muapi.ai/outputs/generated/1f3b9f0bfcd8452b9fd6e8ed14dba7c7.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
-      },
-      {
-       "role": "Front: the pointed nose with the small yellow badge, the two black mesh intakes split by the red centre pillar, the black splitter, both headlamps, the red mirrors on black arms",
-       "url": "https://cdn.muapi.ai/outputs/generated/4eb8d8fbb66141a2a0d2243c50e4f8d0.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
-      },
-      {
-       "role": "Front three-quarter from the left front corner, low: the front wing and headlamp shape, the side scoop, the front wheel",
-       "url": "https://cdn.muapi.ai/outputs/generated/f5c1758f9d4e40a39e6fa6c3ff9bf109.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
-      },
-      {
-       "role": "Side view (right side): proportions - the long cab-forward canopy, the wheelbase, the deep side scoop ahead of the rear wheel, the closed door",
-       "url": "https://cdn.muapi.ai/outputs/generated/4470fd311da94624abe3cbcd740c16ee.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
-      },
-      {
-       "role": "Nose close-up: the small rectangular yellow badge with the black prancing horse on the nose ridge, the bonnet vent above it, the black mesh intakes split by the red pillar",
-       "url": "https://cdn.muapi.ai/outputs/generated/f498e3a470e748798688e7bebfa7ad7e.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
-      },
-      {
-       "role": "Front wing close-up: the yellow shield with the green, white and red band at its top, the black prancing horse and the letters S F",
-       "url": "https://cdn.muapi.ai/outputs/generated/b76244a5f05840e9ae87a92ca1229fc9.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
-      },
-      {
-       "role": "Front wheel close-up: silver five-spoke forged wheel with a yellow centre cap carrying the black horse, red brake caliper, drilled grey disc (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/0f552dc4279547ffb125f6489b274130.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
-      },
-      {
-       "role": "Headlamp close-up: the narrow swept-back LED headlamp with its row of small vertical slats",
-       "url": "https://cdn.muapi.ai/outputs/generated/fcd914e4a0584d32899c0c103d32b422.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
-      },
-      {
-       "role": "The glass engine cover behind the cabin seen from above: framed in black, the V12 with red details under it, the chrome Ferrari script on the red deck below it",
-       "url": "https://cdn.muapi.ai/outputs/generated/acfe995ae4dd47989aaafcd50282c7f9.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
-      },
-      {
-       "role": "Lettering close-up: the car's own LaFerrari badge from its dashboard - wide slanted letters, La and errari in silver-white, the F in red, a long line under errari; the model for the painted word LaFerrari only",
-       "url": "https://cdn.muapi.ai/outputs/generated/8a228b1125834264b81a7b028a9ea594.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo26/lots/r0132-2015-ferrari-laferrari/"
-      }
-     ]
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Forma / Motion",
-    "why": "Brief: DIRECTED - the test track from the air: the car through a kerbed curve, its name painted on the asphalt. Suggestion only."
-   },
-   "candidate_source": "pipeline/studio-one-20261028/studio-candidates.json",
-   "candidate_authority": "Owner 28 Oct 2026 05:31: 'Lets expand our etsy collection. Create me 1 more poster'. One RAW hero, DIRECTED (80/20 read across the last batches); no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/6531a0121f0a-studio-one-20261028-ferrari-laferrari.png",
-   "full_source_sha256": "6531a0121f0a68a8e07638ecc4458efc43ab73d57a5e21a86126ea575c8b770a",
-   "full_source_bytes": 16829489,
-   "full_source_pixels": [
-    2480,
-    3312
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Forma / Motion",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Brief: DIRECTED - the test track from the air: the car through a kerbed curve, its name painted on the asphalt. Suggestion only.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 100
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "f9325c07-6e13-44d4-8aa4-38d6859dc2f9",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-28T04:50:59.677319+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/f9325c07-6e13-44d4-8aa4-38d6859dc2f9_b5642d2f.png",
-     "page_url": "https://muapi.ai/predictions/f9325c07-6e13-44d4-8aa4-38d6859dc2f9",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter from the left front corner, seen from above: the nose, the bonnet and its vent, the windscreen with its single wiper, the red roof, the left flank (the closest angle to the poster view; ignore the buildings)",
-       "url": "https://cdn.muapi.ai/outputs/generated/985c1c3bcdfd4b8b96b900877a3e0cc8.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
-      },
-      {
-       "role": "Straight overhead view of the whole car: its plan shape, the red roof, the windscreen, the bonnet vent, the glass engine cover with the V12 under it, the chrome Ferrari script on the deck behind it, the two vents near the tail, the red mirrors on black arms",
-       "url": "https://cdn.muapi.ai/outputs/generated/48cda7f11e56421c9dbd63600f1211e6.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
-      },
-      {
-       "role": "Front three-quarter from the left front corner at standing height: whole-car proportions, the headlamps, the black lower intakes, the yellow shield on the front wing, the deep side scoop, the wheels",
-       "url": "https://cdn.muapi.ai/outputs/generated/1f3b9f0bfcd8452b9fd6e8ed14dba7c7.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
-      },
-      {
-       "role": "Front: the pointed nose with the small yellow badge, the two black mesh intakes split by the red centre pillar, the black splitter, both headlamps, the red mirrors on black arms",
-       "url": "https://cdn.muapi.ai/outputs/generated/4eb8d8fbb66141a2a0d2243c50e4f8d0.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
-      },
-      {
-       "role": "Front three-quarter from the left front corner, low: the front wing and headlamp shape, the side scoop, the front wheel",
-       "url": "https://cdn.muapi.ai/outputs/generated/f5c1758f9d4e40a39e6fa6c3ff9bf109.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
-      },
-      {
-       "role": "Side view (right side): proportions - the long cab-forward canopy, the wheelbase, the deep side scoop ahead of the rear wheel, the closed door",
-       "url": "https://cdn.muapi.ai/outputs/generated/4470fd311da94624abe3cbcd740c16ee.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
-      },
-      {
-       "role": "Nose close-up: the small rectangular yellow badge with the black prancing horse on the nose ridge, the bonnet vent above it, the black mesh intakes split by the red pillar",
-       "url": "https://cdn.muapi.ai/outputs/generated/f498e3a470e748798688e7bebfa7ad7e.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
-      },
-      {
-       "role": "Front wing close-up: the yellow shield with the green, white and red band at its top, the black prancing horse and the letters S F",
-       "url": "https://cdn.muapi.ai/outputs/generated/b76244a5f05840e9ae87a92ca1229fc9.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
-      },
-      {
-       "role": "Front wheel close-up: silver five-spoke forged wheel with a yellow centre cap carrying the black horse, red brake caliper, drilled grey disc (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/0f552dc4279547ffb125f6489b274130.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
-      },
-      {
-       "role": "Headlamp close-up: the narrow swept-back LED headlamp with its row of small vertical slats",
-       "url": "https://cdn.muapi.ai/outputs/generated/fcd914e4a0584d32899c0c103d32b422.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
-      },
-      {
-       "role": "The glass engine cover behind the cabin seen from above: framed in black, the V12 with red details under it, the chrome Ferrari script on the red deck below it",
-       "url": "https://cdn.muapi.ai/outputs/generated/acfe995ae4dd47989aaafcd50282c7f9.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo18/lots/r0110-2014-ferrari-laferrari/"
-      },
-      {
-       "role": "Lettering close-up: the car's own LaFerrari badge from its dashboard - wide slanted letters, La and errari in silver-white, the F in red, a long line under errari; the model for the painted word LaFerrari only",
-       "url": "https://cdn.muapi.ai/outputs/generated/8a228b1125834264b81a7b028a9ea594.jpg",
-       "source_page": "https://rmsothebys.com/auctions/mo26/lots/r0132-2015-ferrari-laferrari/"
-      }
-     ],
-     "source": "pipeline/studio-one-20261028/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-28T04:50:59.677319+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-28T04:54:11.408040+00:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -12437,6 +12221,68 @@
     "meaning": "approved; prints, photos, copy and Notion being built",
     "order": 4
    }
+  },
+  {
+   "key": "studio-one-20261028-ferrari-laferrari",
+   "name": "Ferrari LaFerrari",
+   "preview": "assets/studio-one-20261028-ferrari-laferrari.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "5ae8e5b4f1930d1c6fdc1caf3c0c7969171ab70583ba5e86c2a37adf5a4ebed3",
+   "source_file": "pipeline/one-cycle-20260926/lots/laf14/lot/print-9000x12000.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "FORMA / MOTION",
+   "ledger_selected_sha256": "6531a0121f0a68a8e07638ecc4458efc43ab73d57a5e21a86126ea575c8b770a",
+   "approved_source_sha256": "6531a0121f0a68a8e07638ecc4458efc43ab73d57a5e21a86126ea575c8b770a",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-one-20261028-ferrari-laferrari.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/5ae8e5b4f193-studio-one-20261028-ferrari-laferrari.jpg",
+   "full_source_sha256": "5ae8e5b4f1930d1c6fdc1caf3c0c7969171ab70583ba5e86c2a37adf5a4ebed3",
+   "full_source_bytes": 40612099,
+   "full_source_pixels": [
+    9000,
+    12000
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Forma / Motion",
+   "edition": null,
+   "collection_category": "Forma / Motion",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Forma / Motion",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 100
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-28T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-28T19:01:00+01:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
   }
  ],
  "excluded_keys": [
@@ -12941,12 +12787,8 @@
   {
    "key": "studio-one-20261028-ferrari-laferrari",
    "declared_sha256": "6531a0121f0a68a8e07638ecc4458efc43ab73d57a5e21a86126ea575c8b770a",
-   "applied": true,
-   "preview": "assets/studio-one-20261028-ferrari-laferrari-6531a0121f0a-current.jpg",
-   "pixels": [
-    2480,
-    3312
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "laferrari-master-lf8",
