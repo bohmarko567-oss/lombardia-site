@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-28 15:28",
+ "built": "2026-10-28 16:11",
  "accessed_date": "2026-10-28",
  "collections": [
   "American Form",
@@ -1231,28 +1231,28 @@
    }
   },
   {
-   "key": "laferrari-master-lf4",
-   "name": "Ferrari LaFerrari 2014 - print master LF4 (workflow B)",
+   "key": "laferrari-master-lf5",
+   "name": "Ferrari LaFerrari 2014 - print master LF5 (workflow B)",
    "notion_url": null,
    "board_url": null,
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/laferrari-master-lf4-ac9ab699dd61-current.jpg",
+   "preview": "assets/laferrari-master-lf5-2216d61f6f24-current.jpg",
    "preview_pixels": [
     1600,
     2133
    ],
-   "source_file": "pipeline/studio-qb-20261023/q2/masters/LF4-ferrari-laferrari-topaz-cgi-lock-m7-9000x12000.jpg",
-   "source_sha256": "ac9ab699dd61e9187682964b920951a81430faab6fc2fb1d81297421a034f9be",
+   "source_file": "pipeline/studio-qb-20261023/q2/masters/LF5-ferrari-laferrari-topaz-cgi-lock-m8-9000x12000.jpg",
+   "source_sha256": "2216d61f6f245a46ecef4ef340652783111e7e0c2de334ebdbea4363e15972b3",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Print master LF4 - approval 2, the last (replaces LF3). 9000 x 12000 (300 dpi at 30 x 40 in), JPEG q95 4:4:4, 40.6 MB. Bonnet badge as you approved in LF3 (thin even rim, square corner: qb-laf-lf3-noserim-300.jpg). The side shield on your left now MIRRORS the one on the right: point down-left where the other points down-right, band along the top - the horse still faces left and S F still reads S F (a straight flip would print them backwards). The pair: studio/assets/qb-laf-lf4-pair-100.jpg; LF3 | LF4: qb-laf-lf4-shieldR-200.jpg. Everything else as before: nose badge, the other wing shield, both visible wheel caps, the rear-deck script, Lombardia Automobili top left on the grass (qb-laf-lf2-*.jpg). HARSH: the mirrored shield sits on the wing's top face, which a real LaFerrari does not show from this angle; its horse and S F lean with the shield (about 30 degrees); badges photo-crisp on a slightly painterly car, sharper than the paint at 30 cm; badges 2-2.5 cm and caps 5 mm on the 75 x 100 print; faint dark-red ticks above some deck letters at 300 %; the upscaler's fine diagonal texture in grass and tarmac at 400 %; 40.6 MB, so the Prodigi upload goes up in more byte ranges. NOT sent anywhere - your word on this card is approval 2, then the lot runs to live with no more questions.",
-   "candidate_created_at": "2026-10-28T14:27:07.109188+00:00",
+   "delivery_status": "Print master LF5 - approval 2, the last (replaces LF4). 9000 x 12000 (300 dpi at 30 x 40 in), JPEG q95 4:4:4, 40.6 MB. Bonnet badge as you approved. The side shield on your left turned clockwise (78 degrees past LF4) so it no longer points at the bonnet: its point now aims outward, away from the car, and its band faces the windscreen - the mirror of the right one across the car's centre line (both bands face the roof, both points face out). Both shields: studio/assets/qb-laf-lf5-pair.jpg; LF4 | LF5: qb-laf-lf5-shieldR-200.jpg. HARSH: seen from this side the horse lies on its back (it turns with the shield) - that is what the mirror means; the paint where the old shield was is filled by hand (no AI pass, the edit budget is spent) and shows a faint seam at 300 %; the shield sits on the wing's top face, which a real LaFerrari does not show from this angle; badges photo-crisp on a slightly painterly car; faint dark-red ticks above some deck letters at 300 %; the upscaler's fine diagonal texture in grass and tarmac at 400 %; 40.6 MB. NOT sent anywhere - your word on this card is approval 2, then the lot runs to live with no more questions.",
+   "candidate_created_at": "2026-10-28T15:10:22.283925+00:00",
    "review_url": null,
    "stage1_generations": [
     {
@@ -1486,7 +1486,7 @@
      "references": []
     },
     {
-     "role": "edit (master scale)",
+     "role": "edit (master scale), not picked",
      "request_id": "5a39f0a1-055d-4528-9563-cb5b32ab005e",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-28T14:23:39.325747+00:00",
@@ -1502,9 +1502,9 @@
    },
    "candidate_source": "pipeline/studio-one-20261028/studio-candidates.json",
    "candidate_authority": "Owner 28 Oct 2026 05:31: 'Lets expand our etsy collection. Create me 1 more poster'. One RAW hero, DIRECTED (80/20 read across the last batches); no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/ac9ab699dd61-laferrari-master-lf4.jpg",
-   "full_source_sha256": "ac9ab699dd61e9187682964b920951a81430faab6fc2fb1d81297421a034f9be",
-   "full_source_bytes": 40602362,
+   "full_source_url": "full/2216d61f6f24-laferrari-master-lf5.jpg",
+   "full_source_sha256": "2216d61f6f245a46ecef4ef340652783111e7e0c2de334ebdbea4363e15972b3",
+   "full_source_bytes": 40601056,
    "full_source_pixels": [
     9000,
     12000
@@ -1776,7 +1776,7 @@
      "source": "pipeline/studio-one-20261028/studio-candidates.json"
     },
     {
-     "role": "edit (master scale)",
+     "role": "edit (master scale), not picked",
      "request_id": "5a39f0a1-055d-4528-9563-cb5b32ab005e",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-28T14:23:39.325747+00:00",
@@ -1790,7 +1790,7 @@
    "timeline": {
     "created_at": "2026-10-28T04:50:59.677319+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-28T14:27:07.109188+00:00",
+    "updated_at": "2026-10-28T15:10:22.283925+00:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -1823,7 +1823,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Approved at approval 1 - raw hero, kept for reference. The print master LF4 card is approval 2.",
+   "delivery_status": "Approved at approval 1 - raw hero, kept for reference. The print master LF5 card is approval 2.",
    "candidate_created_at": "2026-10-28T04:54:11.408040+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -12613,10 +12613,10 @@
    ]
   },
   {
-   "key": "laferrari-master-lf4",
-   "declared_sha256": "ac9ab699dd61e9187682964b920951a81430faab6fc2fb1d81297421a034f9be",
+   "key": "laferrari-master-lf5",
+   "declared_sha256": "2216d61f6f245a46ecef4ef340652783111e7e0c2de334ebdbea4363e15972b3",
    "applied": true,
-   "preview": "assets/laferrari-master-lf4-ac9ab699dd61-current.jpg",
+   "preview": "assets/laferrari-master-lf5-2216d61f6f24-current.jpg",
    "pixels": [
     9000,
     12000
