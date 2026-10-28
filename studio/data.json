@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-28 17:30",
+ "built": "2026-10-28 18:39",
  "accessed_date": "2026-10-28",
  "collections": [
   "American Form",
@@ -1231,28 +1231,28 @@
    }
   },
   {
-   "key": "laferrari-master-lf7",
-   "name": "Ferrari LaFerrari 2014 - print master LF7 (workflow B)",
+   "key": "laferrari-master-lf8",
+   "name": "Ferrari LaFerrari 2014 - print master LF8 (workflow B)",
    "notion_url": null,
    "board_url": null,
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/laferrari-master-lf7-0ffa9299069e-current.jpg",
+   "preview": "assets/laferrari-master-lf8-5ae8e5b4f193-current.jpg",
    "preview_pixels": [
     1600,
     2133
    ],
-   "source_file": "pipeline/studio-qb-20261023/q2/masters/LF7-ferrari-laferrari-topaz-cgi-lock-m12-9000x12000.jpg",
-   "source_sha256": "0ffa9299069e8a912bcb1f723e129b5a68762295b4af00942d436d68536a8b67",
+   "source_file": "pipeline/studio-qb-20261023/q2/masters/LF8-ferrari-laferrari-topaz-cgi-lock-m17-9000x12000.jpg",
+   "source_sha256": "5ae8e5b4f1930d1c6fdc1caf3c0c7969171ab70583ba5e86c2a37adf5a4ebed3",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Print master LF7 - approval 2, the last (replaces LF6). 9000 x 12000 (300 dpi at 30 x 40 in), JPEG q95 4:4:4, 40.6 MB. Bonnet badge as you approved. The side badge on your left: where and how m11 put it (your pick, MuAPI abef5faa - GPT Sunburst redrew it seeing the whole front of the car at 4K), then the close-up pass m12: this car's real shield fitted onto exactly that outline and angle and rendered by GPT Sunburst at 3.4x - the horse, S F and the green-white-red band crisp at 400 %, the smeared horse, garbled S F and the chrome tab gone. Steps at 300 % (m11 as picked | the real shield fitted | LF7): studio/assets/qb-laf-lf7-close.jpg; LF6 | LF7 placement: qb-laf-lf7-placement.jpg; both badges: qb-laf-lf7-pair.jpg. HARSH: the horse tilts with the badge, about 50 degrees clockwise; its yellow is a touch brighter than the left-wing badge (242 / 225 / 85 against 229 / 201 / 79 - this side faces the sun); badges photo-crisp on a slightly painterly car; faint dark-red ticks above some deck letters at 300 %; the upscaler's diagonal texture in grass and tarmac at 400 %; 40.6 MB. Spend USD 4.26 (t1 cap 7.675, 7.395 used). NOT sent anywhere - your word on this card is approval 2, then the lot runs to live with no more questions.",
-   "candidate_created_at": "2026-10-28T16:28:09.481601+00:00",
+   "delivery_status": "Print master LF8 - approval 2, the last (replaces LF7). 9000 x 12000 (300 dpi at 30 x 40 in), JPEG q95 4:4:4, 40.6 MB. Everything in LF7 kept except two spots. 1) The side badge on your left, its near (lower-right) edge - your pick 18:12 (m15 edgeB, MuAPI 361457c6): the chrome lip runs the whole length from the point to the band, one even dark line between chrome and paint; far side, band and its red stripe, horse and S F as in LF7. 2) The Ferrari script on the rear deck - your pick 18:28 (m17 deckA, MuAPI 5219e189): same letters, same place, now lit for this camera with this car's own photos as references. Sheets: LF7 | LF8 near edge at 300 % studio/assets/qb-laf-lf8-badge-near.jpg; LF7 | LF8 deck script at 200 % qb-laf-lf8-deck.jpg; both badges qb-laf-lf8-pair.jpg. HARSH: deckA came back 1672 x 941 although 4K was asked and paid, so the script is softer than the paint round it at 200-300 % (reads as chrome at 1-2 m); a few warm specks at the letters' feet at 300 %; the horse tilts with the badge, about 50 degrees clockwise; its yellow a touch brighter than the left-wing badge (this side faces the sun); badges photo-crisp on a slightly painterly car; the upscaler's diagonal texture in grass and tarmac at 400 %; 40.6 MB. Spend USD 5.30 (hero 1.18, upscale 0.56, edits 3.56; t1 cap 8.475, 8.435 used). NOT sent anywhere - your word on this card is approval 2, then the lot runs to live with no more questions.",
+   "candidate_created_at": "2026-10-28T17:37:17.826541+00:00",
    "review_url": null,
    "stage1_generations": [
     {
@@ -1574,6 +1574,86 @@
      "page_url": "https://muapi.ai/predictions/2fd5bac3-03d0-450f-a0ad-51bab23d6b69",
      "target_id": "closeB",
      "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "f23c12fd-7b17-477e-ab56-061ee8c8f95d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T17:05:46.490249+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f23c12fd-7b17-477e-ab56-061ee8c8f95d_f5ae179d.png",
+     "page_url": "https://muapi.ai/predictions/f23c12fd-7b17-477e-ab56-061ee8c8f95d",
+     "target_id": "edgeA",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "e2eb1014-f1a9-46e1-85ed-c4430526afe3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T17:05:49.180324+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e2eb1014-f1a9-46e1-85ed-c4430526afe3_894ae159.png",
+     "page_url": "https://muapi.ai/predictions/e2eb1014-f1a9-46e1-85ed-c4430526afe3",
+     "target_id": "edgeB",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "4299083b-24a8-42c7-850f-2602ee233441",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T17:09:36.604848+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4299083b-24a8-42c7-850f-2602ee233441_a82259b2.png",
+     "page_url": "https://muapi.ai/predictions/4299083b-24a8-42c7-850f-2602ee233441",
+     "target_id": "edgeA",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "361457c6-a9bc-459d-aadf-7d1fcc255401",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T17:09:39.363840+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/361457c6-a9bc-459d-aadf-7d1fcc255401_bd08aa31.png",
+     "page_url": "https://muapi.ai/predictions/361457c6-a9bc-459d-aadf-7d1fcc255401",
+     "target_id": "edgeB",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "fa4a1a7d-1297-4419-8e5c-fd4bc1857249",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T17:19:10.514196+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/fa4a1a7d-1297-4419-8e5c-fd4bc1857249_d65928d2.png",
+     "page_url": "https://muapi.ai/predictions/fa4a1a7d-1297-4419-8e5c-fd4bc1857249",
+     "target_id": "deckA",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "1ad394f6-13c7-4b2c-94ac-670752eb711f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T17:19:13.211772+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/1ad394f6-13c7-4b2c-94ac-670752eb711f_8b71bb31.png",
+     "page_url": "https://muapi.ai/predictions/1ad394f6-13c7-4b2c-94ac-670752eb711f",
+     "target_id": "deckB",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "5219e189-3511-45bf-85de-df740a157a07",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T17:25:04.567153+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5219e189-3511-45bf-85de-df740a157a07_067a64fd.png",
+     "page_url": "https://muapi.ai/predictions/5219e189-3511-45bf-85de-df740a157a07",
+     "target_id": "deckA",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "fae08036-74c7-4efa-8392-d218787483b3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T17:25:07.252138+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/fae08036-74c7-4efa-8392-d218787483b3_f68b97d9.png",
+     "page_url": "https://muapi.ai/predictions/fae08036-74c7-4efa-8392-d218787483b3",
+     "target_id": "deckB",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -1582,9 +1662,9 @@
    },
    "candidate_source": "pipeline/studio-one-20261028/studio-candidates.json",
    "candidate_authority": "Owner 28 Oct 2026 05:31: 'Lets expand our etsy collection. Create me 1 more poster'. One RAW hero, DIRECTED (80/20 read across the last batches); no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/0ffa9299069e-laferrari-master-lf7.jpg",
-   "full_source_sha256": "0ffa9299069e8a912bcb1f723e129b5a68762295b4af00942d436d68536a8b67",
-   "full_source_bytes": 40614897,
+   "full_source_url": "full/5ae8e5b4f193-laferrari-master-lf8.jpg",
+   "full_source_sha256": "5ae8e5b4f1930d1c6fdc1caf3c0c7969171ab70583ba5e86c2a37adf5a4ebed3",
+   "full_source_bytes": 40612099,
    "full_source_pixels": [
     9000,
     12000
@@ -1953,12 +2033,100 @@
      "history_url": "https://muapi.ai/predictions",
      "references": [],
      "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "f23c12fd-7b17-477e-ab56-061ee8c8f95d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T17:05:46.490249+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f23c12fd-7b17-477e-ab56-061ee8c8f95d_f5ae179d.png",
+     "page_url": "https://muapi.ai/predictions/f23c12fd-7b17-477e-ab56-061ee8c8f95d",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "e2eb1014-f1a9-46e1-85ed-c4430526afe3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T17:05:49.180324+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e2eb1014-f1a9-46e1-85ed-c4430526afe3_894ae159.png",
+     "page_url": "https://muapi.ai/predictions/e2eb1014-f1a9-46e1-85ed-c4430526afe3",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "4299083b-24a8-42c7-850f-2602ee233441",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T17:09:36.604848+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4299083b-24a8-42c7-850f-2602ee233441_a82259b2.png",
+     "page_url": "https://muapi.ai/predictions/4299083b-24a8-42c7-850f-2602ee233441",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "361457c6-a9bc-459d-aadf-7d1fcc255401",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T17:09:39.363840+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/361457c6-a9bc-459d-aadf-7d1fcc255401_bd08aa31.png",
+     "page_url": "https://muapi.ai/predictions/361457c6-a9bc-459d-aadf-7d1fcc255401",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "fa4a1a7d-1297-4419-8e5c-fd4bc1857249",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T17:19:10.514196+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/fa4a1a7d-1297-4419-8e5c-fd4bc1857249_d65928d2.png",
+     "page_url": "https://muapi.ai/predictions/fa4a1a7d-1297-4419-8e5c-fd4bc1857249",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "1ad394f6-13c7-4b2c-94ac-670752eb711f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T17:19:13.211772+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/1ad394f6-13c7-4b2c-94ac-670752eb711f_8b71bb31.png",
+     "page_url": "https://muapi.ai/predictions/1ad394f6-13c7-4b2c-94ac-670752eb711f",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "5219e189-3511-45bf-85de-df740a157a07",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T17:25:04.567153+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5219e189-3511-45bf-85de-df740a157a07_067a64fd.png",
+     "page_url": "https://muapi.ai/predictions/5219e189-3511-45bf-85de-df740a157a07",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "fae08036-74c7-4efa-8392-d218787483b3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-28T17:25:07.252138+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/fae08036-74c7-4efa-8392-d218787483b3_f68b97d9.png",
+     "page_url": "https://muapi.ai/predictions/fae08036-74c7-4efa-8392-d218787483b3",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-one-20261028/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-28T04:50:59.677319+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-28T16:28:09.481601+00:00",
+    "updated_at": "2026-10-28T17:37:17.826541+00:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -1991,7 +2159,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Approved at approval 1 - raw hero, kept for reference. The print master LF7 card is approval 2.",
+   "delivery_status": "Approved at approval 1 - raw hero, kept for reference. The print master LF8 card is approval 2.",
    "candidate_created_at": "2026-10-28T04:54:11.408040+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -12781,10 +12949,10 @@
    ]
   },
   {
-   "key": "laferrari-master-lf7",
-   "declared_sha256": "0ffa9299069e8a912bcb1f723e129b5a68762295b4af00942d436d68536a8b67",
+   "key": "laferrari-master-lf8",
+   "declared_sha256": "5ae8e5b4f1930d1c6fdc1caf3c0c7969171ab70583ba5e86c2a37adf5a4ebed3",
    "applied": true,
-   "preview": "assets/laferrari-master-lf7-0ffa9299069e-current.jpg",
+   "preview": "assets/laferrari-master-lf8-5ae8e5b4f193-current.jpg",
    "pixels": [
     9000,
     12000
