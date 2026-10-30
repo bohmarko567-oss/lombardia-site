@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-30 17:35",
+ "built": "2026-10-30 18:05",
  "accessed_date": "2026-10-30",
  "collections": [
   "American Form",
@@ -1231,20 +1231,20 @@
    }
   },
   {
-   "key": "studio-wave1-20261030-bmw-m5-e39",
+   "key": "studio-wave1-20261030-bmw-m5-e39-v2",
    "name": "BMW M5 (E39) - DIRECTED",
    "notion_url": null,
    "board_url": null,
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-91d3b7f62f71-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-v2-0f0787bdba20-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
-   "source_file": "pipeline/studio-wave1-20261030/w1/heroes/bmw-m5-e39/final-native.png",
-   "source_sha256": "91d3b7f62f714768579f25975de2642a29fe832b24717017ff749ab80c186363",
+   "source_file": "pipeline/studio-wave1-20261030/w1/heroes/bmw-m5-e39-v2/final-native.png",
+   "source_sha256": "0f0787bdba2004cba7fe0df3fc64295138ce8b2492f2a57936d185bc0d8bd3c1",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -1252,71 +1252,71 @@
    "hero_edit_pending": false,
    "owner_collection_pending": false,
    "delivery_status": "Raw hero - approval 1. One 4K max generation, no fixes yet.",
-   "candidate_created_at": "2026-10-30T16:32:46.095560+00:00",
+   "candidate_created_at": "2026-10-30T17:04:28.842989+00:00",
    "review_url": null,
    "stage1_generations": [
     {
      "role": "original",
-     "request_id": "25d56dcb-f4f0-484c-a2ff-c59afb4f949f",
+     "request_id": "e5884c3e-ef0a-4cf7-95dc-fa961c4e4c66",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "quality": "max",
-     "created_at": "2026-10-30T16:28:15.345939+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/25d56dcb-f4f0-484c-a2ff-c59afb4f949f_1d114ad3.png",
-     "page_url": "https://muapi.ai/predictions/25d56dcb-f4f0-484c-a2ff-c59afb4f949f",
+     "created_at": "2026-10-30T17:00:54.527296+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e5884c3e-ef0a-4cf7-95dc-fa961c4e4c66_82d5ceb1.png",
+     "page_url": "https://muapi.ai/predictions/e5884c3e-ef0a-4cf7-95dc-fa961c4e4c66",
      "references": [
       {
-       "role": "Front three-quarter from the right front corner, low: the kidney grille, the twin round headlamps with their light rings, the bumper intakes, the right flank and both front wheels (the closest angle to the poster view)",
-       "url": "https://cdn.muapi.ai/outputs/generated/d2f8bcd591b2475685599db99336ff53.jpg",
+       "role": "Straight front: the kidney grille, the twin round headlamps with their light rings under clear glass, the wide central bumper intake and the two side intakes with round fog lamps (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/09c14d8f03a84a34aee903f8526097e1.jpg",
        "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
       },
       {
-       "role": "Front three-quarter from the right front corner at standing height: whole-car proportions, the bonnet, the windscreen, the door mirrors, the wheels",
-       "url": "https://cdn.muapi.ai/outputs/generated/b8abf5c6090047489f0bff90799d77b5.jpg",
+       "role": "Front three-quarter from the left front corner: the nose, the left headlamps, the left flank",
+       "url": "https://cdn.muapi.ai/outputs/generated/7d78802009ad4013ab0e1b2074c05e9c.jpg",
        "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
       },
       {
-       "role": "Straight front: the kidney grille, the twin round headlamps under clear glass, the wide central bumper intake and the two side intakes with round fog lamps",
-       "url": "https://cdn.muapi.ai/outputs/generated/b88c125bca2e49ab993b305a388ad8b4.jpg",
+       "role": "Front three-quarter from the right front corner, low: the kidney grille, the headlamps, the bumper intakes, the right flank",
+       "url": "https://cdn.muapi.ai/outputs/generated/79fb24e64a834b208fef2a3211dc43ba.jpg",
        "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
       },
       {
-       "role": "Side view (right side): the proportions of the saloon, the wheelbase, the window line, the black rubbing strip along the doors",
-       "url": "https://cdn.muapi.ai/outputs/generated/1df9c226ba244263a071854233d38557.jpg",
+       "role": "Front three-quarter from the right front corner at standing height: whole-car proportions, the bonnet, the windscreen, the door mirrors",
+       "url": "https://cdn.muapi.ai/outputs/generated/9f1d6d4d9f8f4e86a3ea00e6ba96da2c.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Side view (right side): the proportions of the saloon, the wheelbase, the window line",
+       "url": "https://cdn.muapi.ai/outputs/generated/ca8c665db23a482b97bb551496373d2c.jpg",
        "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
       },
       {
        "role": "Grille close-up: the chrome-framed kidney grille with vertical slats and the BMW roundel on the bonnet above it",
-       "url": "https://cdn.muapi.ai/outputs/generated/3ab54d2fb8e44d169af42503e914b0fe.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/7d99b42792194119804fb6b88591064f.jpg",
        "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
       },
       {
-       "role": "Front corner close-up: the twin round headlamps with their light rings, the clear indicator, the bumper intake and the round fog lamp",
-       "url": "https://cdn.muapi.ai/outputs/generated/86d71632ffb1436da1a7135d5112ba09.jpg",
+       "role": "Front corner close-up: the twin round headlamps, each with its light ring, the clear indicator, the bumper intake and the round fog lamp",
+       "url": "https://cdn.muapi.ai/outputs/generated/1627d444568e4581ba82ce0b9dd1a1da.jpg",
        "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
       },
       {
        "role": "Front wheel close-up: the 18-inch M Parallel wheel with ten double spokes and the BMW roundel centre cap",
-       "url": "https://cdn.muapi.ai/outputs/generated/cc59737f660a4c4fb218d1a7202568b4.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/59d96dd28d5d42b98c4ffed7a67b3d7d.jpg",
        "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
       },
       {
        "role": "The small M5 emblem set into the black rubbing strip on the front door",
-       "url": "https://cdn.muapi.ai/outputs/generated/e968c43a579247ee882c8cd032fe26f2.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
-      },
-      {
-       "role": "The clear side repeater on the front wing",
-       "url": "https://cdn.muapi.ai/outputs/generated/1c308bf89cf545078e667d4abfa6bfc1.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/a04a8069333d401fb3204fba31f7651e.jpg",
        "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
       },
       {
        "role": "The windscreen and the cabin seen through it: the black and grey seats, the dashboard",
-       "url": "https://cdn.muapi.ai/outputs/generated/1b1c348846f5401d8f9a57261fba76fc.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/cbab7a901fc34942839adf57e4ccf06d.jpg",
        "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
       },
       {
-       "role": "Lettering close-up: the car's own M5 boot badge - the M in blue, violet and red stripes and the chrome 5; the model for the giant M5 characters only",
-       "url": "https://cdn.muapi.ai/outputs/generated/1624826ebd6c47da92c5ffb10eba4af2.jpg",
+       "role": "Lettering close-up: the car's own M5 boot badge - the M in blue, violet and red stripes and the chrome 5; the model for the white M5 lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/365f98addd634b0b8c329bf651e9953c.jpg",
        "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
       }
      ]
@@ -1324,13 +1324,13 @@
    ],
    "recommendation_override": {
     "collection": "Gran Turismo",
-    "why": "Brief: DIRECTED A1 - the badge, giant: the M5 boot badge fills the sheet, the car overlaps it. Suggestion only."
+    "why": "Brief: DIRECTED C (photographic scene) with A (one idea from the car): the first angel eyes - its four rings of light in the fog. Suggestion only."
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/91d3b7f62f71-studio-wave1-20261030-bmw-m5-e39.png",
-   "full_source_sha256": "91d3b7f62f714768579f25975de2642a29fe832b24717017ff749ab80c186363",
-   "full_source_bytes": 12516273,
+   "full_source_url": "full/0f0787bdba20-studio-wave1-20261030-bmw-m5-e39-v2.png",
+   "full_source_sha256": "0f0787bdba2004cba7fe0df3fc64295138ce8b2492f2a57936d185bc0d8bd3c1",
+   "full_source_bytes": 10610400,
    "full_source_pixels": [
     2480,
     3312
@@ -1348,73 +1348,73 @@
      "edition": 77,
      "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
     },
-    "why": "Brief: DIRECTED A1 - the badge, giant: the M5 boot badge fills the sheet, the car overlaps it. Suggestion only.",
+    "why": "Brief: DIRECTED C (photographic scene) with A (one idea from the car): the first angel eyes - its four rings of light in the fog. Suggestion only.",
     "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
     "collection_default_edition": 77
    },
    "generations": [
     {
      "role": "original",
-     "request_id": "25d56dcb-f4f0-484c-a2ff-c59afb4f949f",
+     "request_id": "e5884c3e-ef0a-4cf7-95dc-fa961c4e4c66",
      "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-30T16:28:15.345939+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/25d56dcb-f4f0-484c-a2ff-c59afb4f949f_1d114ad3.png",
-     "page_url": "https://muapi.ai/predictions/25d56dcb-f4f0-484c-a2ff-c59afb4f949f",
+     "created_at": "2026-10-30T17:00:54.527296+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e5884c3e-ef0a-4cf7-95dc-fa961c4e4c66_82d5ceb1.png",
+     "page_url": "https://muapi.ai/predictions/e5884c3e-ef0a-4cf7-95dc-fa961c4e4c66",
      "history_url": "https://muapi.ai/predictions",
      "references": [
       {
-       "role": "Front three-quarter from the right front corner, low: the kidney grille, the twin round headlamps with their light rings, the bumper intakes, the right flank and both front wheels (the closest angle to the poster view)",
-       "url": "https://cdn.muapi.ai/outputs/generated/d2f8bcd591b2475685599db99336ff53.jpg",
+       "role": "Straight front: the kidney grille, the twin round headlamps with their light rings under clear glass, the wide central bumper intake and the two side intakes with round fog lamps (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/09c14d8f03a84a34aee903f8526097e1.jpg",
        "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
       },
       {
-       "role": "Front three-quarter from the right front corner at standing height: whole-car proportions, the bonnet, the windscreen, the door mirrors, the wheels",
-       "url": "https://cdn.muapi.ai/outputs/generated/b8abf5c6090047489f0bff90799d77b5.jpg",
+       "role": "Front three-quarter from the left front corner: the nose, the left headlamps, the left flank",
+       "url": "https://cdn.muapi.ai/outputs/generated/7d78802009ad4013ab0e1b2074c05e9c.jpg",
        "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
       },
       {
-       "role": "Straight front: the kidney grille, the twin round headlamps under clear glass, the wide central bumper intake and the two side intakes with round fog lamps",
-       "url": "https://cdn.muapi.ai/outputs/generated/b88c125bca2e49ab993b305a388ad8b4.jpg",
+       "role": "Front three-quarter from the right front corner, low: the kidney grille, the headlamps, the bumper intakes, the right flank",
+       "url": "https://cdn.muapi.ai/outputs/generated/79fb24e64a834b208fef2a3211dc43ba.jpg",
        "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
       },
       {
-       "role": "Side view (right side): the proportions of the saloon, the wheelbase, the window line, the black rubbing strip along the doors",
-       "url": "https://cdn.muapi.ai/outputs/generated/1df9c226ba244263a071854233d38557.jpg",
+       "role": "Front three-quarter from the right front corner at standing height: whole-car proportions, the bonnet, the windscreen, the door mirrors",
+       "url": "https://cdn.muapi.ai/outputs/generated/9f1d6d4d9f8f4e86a3ea00e6ba96da2c.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Side view (right side): the proportions of the saloon, the wheelbase, the window line",
+       "url": "https://cdn.muapi.ai/outputs/generated/ca8c665db23a482b97bb551496373d2c.jpg",
        "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
       },
       {
        "role": "Grille close-up: the chrome-framed kidney grille with vertical slats and the BMW roundel on the bonnet above it",
-       "url": "https://cdn.muapi.ai/outputs/generated/3ab54d2fb8e44d169af42503e914b0fe.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/7d99b42792194119804fb6b88591064f.jpg",
        "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
       },
       {
-       "role": "Front corner close-up: the twin round headlamps with their light rings, the clear indicator, the bumper intake and the round fog lamp",
-       "url": "https://cdn.muapi.ai/outputs/generated/86d71632ffb1436da1a7135d5112ba09.jpg",
+       "role": "Front corner close-up: the twin round headlamps, each with its light ring, the clear indicator, the bumper intake and the round fog lamp",
+       "url": "https://cdn.muapi.ai/outputs/generated/1627d444568e4581ba82ce0b9dd1a1da.jpg",
        "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
       },
       {
        "role": "Front wheel close-up: the 18-inch M Parallel wheel with ten double spokes and the BMW roundel centre cap",
-       "url": "https://cdn.muapi.ai/outputs/generated/cc59737f660a4c4fb218d1a7202568b4.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/59d96dd28d5d42b98c4ffed7a67b3d7d.jpg",
        "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
       },
       {
        "role": "The small M5 emblem set into the black rubbing strip on the front door",
-       "url": "https://cdn.muapi.ai/outputs/generated/e968c43a579247ee882c8cd032fe26f2.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
-      },
-      {
-       "role": "The clear side repeater on the front wing",
-       "url": "https://cdn.muapi.ai/outputs/generated/1c308bf89cf545078e667d4abfa6bfc1.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/a04a8069333d401fb3204fba31f7651e.jpg",
        "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
       },
       {
        "role": "The windscreen and the cabin seen through it: the black and grey seats, the dashboard",
-       "url": "https://cdn.muapi.ai/outputs/generated/1b1c348846f5401d8f9a57261fba76fc.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/cbab7a901fc34942839adf57e4ccf06d.jpg",
        "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
       },
       {
-       "role": "Lettering close-up: the car's own M5 boot badge - the M in blue, violet and red stripes and the chrome 5; the model for the giant M5 characters only",
-       "url": "https://cdn.muapi.ai/outputs/generated/1624826ebd6c47da92c5ffb10eba4af2.jpg",
+       "role": "Lettering close-up: the car's own M5 boot badge - the M in blue, violet and red stripes and the chrome 5; the model for the white M5 lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/365f98addd634b0b8c329bf651e9953c.jpg",
        "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
       }
      ],
@@ -1422,9 +1422,9 @@
     }
    ],
    "timeline": {
-    "created_at": "2026-10-30T16:28:15.345939+00:00",
+    "created_at": "2026-10-30T17:00:54.527296+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-30T16:32:46.095560+00:00",
+    "updated_at": "2026-10-30T17:04:28.842989+00:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -1457,7 +1457,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Raw hero - approval 1. One 4K max generation, no fixes yet.",
+   "delivery_status": "Approved at approval 1 (30 Oct 17:56) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T16:32:50.291777+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -1643,20 +1643,20 @@
    }
   },
   {
-   "key": "studio-wave1-20261030-bmw-m5-touring-e61",
+   "key": "studio-wave1-20261030-bmw-m5-touring-e61-v2",
    "name": "BMW M5 Touring (E61) - DIRECTED",
    "notion_url": null,
    "board_url": null,
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-0c6d51ebd551-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-v2-5935af35374f-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
-   "source_file": "pipeline/studio-wave1-20261030/w1/heroes/bmw-m5-touring-e61/final-native.png",
-   "source_sha256": "0c6d51ebd5514554afb5030d8d3018fddbf913887356949c199e5da575c6dd34",
+   "source_file": "pipeline/studio-wave1-20261030/w1/heroes/bmw-m5-touring-e61-v2/final-native.png",
+   "source_sha256": "5935af35374f36bee6adf9e875853ee35d9a6f1e5e85be4fa4b6ab8e9c5358e1",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -1664,76 +1664,76 @@
    "hero_edit_pending": false,
    "owner_collection_pending": false,
    "delivery_status": "Raw hero - approval 1. One 4K max generation, no fixes yet.",
-   "candidate_created_at": "2026-10-30T16:32:54.721335+00:00",
+   "candidate_created_at": "2026-10-30T17:04:33.116917+00:00",
    "review_url": null,
    "stage1_generations": [
     {
      "role": "original",
-     "request_id": "57fbdf58-95c0-4ffa-8af3-da151321e194",
+     "request_id": "5d523831-ea21-4951-bc4e-275529f3722b",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "quality": "max",
-     "created_at": "2026-10-30T16:28:26.403670+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/57fbdf58-95c0-4ffa-8af3-da151321e194_e7f74420.png",
-     "page_url": "https://muapi.ai/predictions/57fbdf58-95c0-4ffa-8af3-da151321e194",
+     "created_at": "2026-10-30T17:00:59.987204+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5d523831-ea21-4951-bc4e-275529f3722b_71e8aaf9.png",
+     "page_url": "https://muapi.ai/predictions/5d523831-ea21-4951-bc4e-275529f3722b",
      "references": [
       {
        "role": "Front three-quarter from the left front corner: the kidney grille, the headlamps with their light rings, the bumper intakes, the gill on the front wing, the long estate roof and the left flank, the wheels (the closest angle to the poster view, which is seen from higher above)",
-       "url": "https://cdn.muapi.ai/outputs/generated/369dadd2c07d46cebcd2a664cc31db62.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/edb3a41b15a74d608a3948f9395e15c9.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       },
       {
        "role": "Front from above: the bonnet with the roundel, the windscreen and the front of the roof as seen from above",
-       "url": "https://cdn.muapi.ai/outputs/generated/e8bd9ee35a31441b8a134a2f2843fea4.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/7ddecd0a2400402ebdd820667451cf2b.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       },
       {
        "role": "Straight front: the kidney grille, both headlamps, the M front bumper with its intakes",
-       "url": "https://cdn.muapi.ai/outputs/generated/8b44d174f44b4e46bbc790d71aa93759.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/46daf152e6d1465b81cffaeb95b6ac75.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       },
       {
        "role": "Side view: the long estate roof line, the wheelbase, the angle of the tailgate",
-       "url": "https://cdn.muapi.ai/outputs/generated/e1bf3a5a6f7545bf8ec5c91398510f3d.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/f831f8c48ea54923a1cf4e51e34f1772.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       },
       {
        "role": "The roof from the side: the dark roof rails along the long roof",
-       "url": "https://cdn.muapi.ai/outputs/generated/34406508b8364c99a5b552934045b41d.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/35598b58e2794e94b656fb3e812eea2b.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       },
       {
        "role": "Grille close-up: the chrome-framed kidney grille with its slats and the roundel",
-       "url": "https://cdn.muapi.ai/outputs/generated/e6a2a0a2ad6d4e85be85d97de68a9f3e.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/865d83f57f2046b7867bbc3103251015.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       },
       {
        "role": "Headlamp close-up: the light rings and the indicator strip along its top",
-       "url": "https://cdn.muapi.ai/outputs/generated/609e5cb7526748fa80774cd6b803c752.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/09d4b429e74845daaa8708fa1b64ecd6.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       },
       {
        "role": "The gill on the front wing: chrome slats with the small M5 badge, the side repeater",
-       "url": "https://cdn.muapi.ai/outputs/generated/37f3116fc2bc44de8a7c15b6ae629f54.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/48341de0d3544a57bf71af7e0b0e5f63.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       },
       {
        "role": "Front wheel close-up: the 19-inch silver M double-spoke wheel and its centre cap",
-       "url": "https://cdn.muapi.ai/outputs/generated/07413f546d074dfbaf229106e2718500.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/ff344d004b8b471abb3ce0785a2ab26b.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       },
       {
        "role": "The M door mirror in body colour",
-       "url": "https://cdn.muapi.ai/outputs/generated/c603e10219a7447ba96e6c8b97eb9969.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/5db5eebe25744466a44fae541530b308.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       },
       {
        "role": "The windscreen: clear glass, the wipers, the dark cabin behind",
-       "url": "https://cdn.muapi.ai/outputs/generated/81346895627148aebf25fe23882910ba.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/91eb7a38ca074693997b4ad0dd431e53.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       },
       {
        "role": "Lettering close-up: the car's own M5 tailgate badge - the M in blue, violet and red stripes and the chrome 5; the model for the white M5 lettering only",
-       "url": "https://cdn.muapi.ai/outputs/generated/10c0854b46074735bc77a82050cac2f7.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/d5c29e15bf214c43a72cd4f62458d1aa.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       }
      ]
@@ -1745,9 +1745,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/0c6d51ebd551-studio-wave1-20261030-bmw-m5-touring-e61.png",
-   "full_source_sha256": "0c6d51ebd5514554afb5030d8d3018fddbf913887356949c199e5da575c6dd34",
-   "full_source_bytes": 10913307,
+   "full_source_url": "full/5935af35374f-studio-wave1-20261030-bmw-m5-touring-e61-v2.png",
+   "full_source_sha256": "5935af35374f36bee6adf9e875853ee35d9a6f1e5e85be4fa4b6ab8e9c5358e1",
+   "full_source_bytes": 12370760,
    "full_source_pixels": [
     2480,
     3312
@@ -1772,71 +1772,71 @@
    "generations": [
     {
      "role": "original",
-     "request_id": "57fbdf58-95c0-4ffa-8af3-da151321e194",
+     "request_id": "5d523831-ea21-4951-bc4e-275529f3722b",
      "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-30T16:28:26.403670+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/57fbdf58-95c0-4ffa-8af3-da151321e194_e7f74420.png",
-     "page_url": "https://muapi.ai/predictions/57fbdf58-95c0-4ffa-8af3-da151321e194",
+     "created_at": "2026-10-30T17:00:59.987204+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5d523831-ea21-4951-bc4e-275529f3722b_71e8aaf9.png",
+     "page_url": "https://muapi.ai/predictions/5d523831-ea21-4951-bc4e-275529f3722b",
      "history_url": "https://muapi.ai/predictions",
      "references": [
       {
        "role": "Front three-quarter from the left front corner: the kidney grille, the headlamps with their light rings, the bumper intakes, the gill on the front wing, the long estate roof and the left flank, the wheels (the closest angle to the poster view, which is seen from higher above)",
-       "url": "https://cdn.muapi.ai/outputs/generated/369dadd2c07d46cebcd2a664cc31db62.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/edb3a41b15a74d608a3948f9395e15c9.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       },
       {
        "role": "Front from above: the bonnet with the roundel, the windscreen and the front of the roof as seen from above",
-       "url": "https://cdn.muapi.ai/outputs/generated/e8bd9ee35a31441b8a134a2f2843fea4.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/7ddecd0a2400402ebdd820667451cf2b.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       },
       {
        "role": "Straight front: the kidney grille, both headlamps, the M front bumper with its intakes",
-       "url": "https://cdn.muapi.ai/outputs/generated/8b44d174f44b4e46bbc790d71aa93759.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/46daf152e6d1465b81cffaeb95b6ac75.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       },
       {
        "role": "Side view: the long estate roof line, the wheelbase, the angle of the tailgate",
-       "url": "https://cdn.muapi.ai/outputs/generated/e1bf3a5a6f7545bf8ec5c91398510f3d.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/f831f8c48ea54923a1cf4e51e34f1772.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       },
       {
        "role": "The roof from the side: the dark roof rails along the long roof",
-       "url": "https://cdn.muapi.ai/outputs/generated/34406508b8364c99a5b552934045b41d.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/35598b58e2794e94b656fb3e812eea2b.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       },
       {
        "role": "Grille close-up: the chrome-framed kidney grille with its slats and the roundel",
-       "url": "https://cdn.muapi.ai/outputs/generated/e6a2a0a2ad6d4e85be85d97de68a9f3e.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/865d83f57f2046b7867bbc3103251015.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       },
       {
        "role": "Headlamp close-up: the light rings and the indicator strip along its top",
-       "url": "https://cdn.muapi.ai/outputs/generated/609e5cb7526748fa80774cd6b803c752.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/09d4b429e74845daaa8708fa1b64ecd6.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       },
       {
        "role": "The gill on the front wing: chrome slats with the small M5 badge, the side repeater",
-       "url": "https://cdn.muapi.ai/outputs/generated/37f3116fc2bc44de8a7c15b6ae629f54.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/48341de0d3544a57bf71af7e0b0e5f63.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       },
       {
        "role": "Front wheel close-up: the 19-inch silver M double-spoke wheel and its centre cap",
-       "url": "https://cdn.muapi.ai/outputs/generated/07413f546d074dfbaf229106e2718500.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/ff344d004b8b471abb3ce0785a2ab26b.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       },
       {
        "role": "The M door mirror in body colour",
-       "url": "https://cdn.muapi.ai/outputs/generated/c603e10219a7447ba96e6c8b97eb9969.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/5db5eebe25744466a44fae541530b308.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       },
       {
        "role": "The windscreen: clear glass, the wipers, the dark cabin behind",
-       "url": "https://cdn.muapi.ai/outputs/generated/81346895627148aebf25fe23882910ba.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/91eb7a38ca074693997b4ad0dd431e53.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       },
       {
        "role": "Lettering close-up: the car's own M5 tailgate badge - the M in blue, violet and red stripes and the chrome 5; the model for the white M5 lettering only",
-       "url": "https://cdn.muapi.ai/outputs/generated/10c0854b46074735bc77a82050cac2f7.jpg",
+       "url": "https://cdn.muapi.ai/outputs/generated/d5c29e15bf214c43a72cd4f62458d1aa.jpg",
        "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
       }
      ],
@@ -1844,9 +1844,9 @@
     }
    ],
    "timeline": {
-    "created_at": "2026-10-30T16:28:26.403670+00:00",
+    "created_at": "2026-10-30T17:00:59.987204+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-30T16:32:54.721335+00:00",
+    "updated_at": "2026-10-30T17:04:33.116917+00:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -1879,7 +1879,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Raw hero - approval 1. One 4K max generation, no fixes yet.",
+   "delivery_status": "Approved at approval 1 (30 Oct 17:56) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T16:33:11.998735+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -2075,7 +2075,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Raw hero - approval 1. One 4K max generation, no fixes yet.",
+   "delivery_status": "Approved at approval 1 (30 Oct 17:56) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T16:32:33.113226+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -2251,7 +2251,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Raw hero - approval 1. One 4K max generation, no fixes yet.",
+   "delivery_status": "Approved at approval 1 (30 Oct 17:56) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T16:33:07.622318+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -2446,7 +2446,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Raw hero - approval 1. One 4K max generation, no fixes yet.",
+   "delivery_status": "Approved at approval 1 (30 Oct 17:56) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T16:33:03.364802+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -2662,7 +2662,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Raw hero - approval 1. One 4K max generation, no fixes yet.",
+   "delivery_status": "Approved at approval 1 (30 Oct 17:56) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T16:32:59.085456+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -2868,7 +2868,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Raw hero - approval 1. One 4K max generation, no fixes yet.",
+   "delivery_status": "Approved at approval 1 (30 Oct 17:56) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T16:32:37.646057+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -3033,7 +3033,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Raw hero - approval 1. One 4K max generation, no fixes yet.",
+   "delivery_status": "Approved at approval 1 (30 Oct 17:56) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T16:32:41.920961+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -11298,10 +11298,10 @@
    ]
   },
   {
-   "key": "studio-wave1-20261030-bmw-m5-touring-e61",
-   "declared_sha256": "0c6d51ebd5514554afb5030d8d3018fddbf913887356949c199e5da575c6dd34",
+   "key": "studio-wave1-20261030-bmw-m5-touring-e61-v2",
+   "declared_sha256": "5935af35374f36bee6adf9e875853ee35d9a6f1e5e85be4fa4b6ab8e9c5358e1",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-0c6d51ebd551-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-v2-5935af35374f-current.jpg",
    "pixels": [
     2480,
     3312
@@ -11318,10 +11318,10 @@
    ]
   },
   {
-   "key": "studio-wave1-20261030-bmw-m5-e39",
-   "declared_sha256": "91d3b7f62f714768579f25975de2642a29fe832b24717017ff749ab80c186363",
+   "key": "studio-wave1-20261030-bmw-m5-e39-v2",
+   "declared_sha256": "0f0787bdba2004cba7fe0df3fc64295138ce8b2492f2a57936d185bc0d8bd3c1",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-91d3b7f62f71-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-v2-0f0787bdba20-current.jpg",
    "pixels": [
     2480,
     3312
