@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-30 06:00",
+ "built": "2026-10-30 17:35",
  "accessed_date": "2026-10-30",
  "collections": [
   "American Form",
@@ -1219,6 +1219,1984 @@
     "created_at": "2026-09-20T17:38:47.632726+00:00",
     "created_source": "MuAPI original",
     "updated_at": "2026-09-20T17:38:47.632726+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-wave1-20261030-bmw-m5-e39",
+   "name": "BMW M5 (E39) - DIRECTED",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-91d3b7f62f71-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-wave1-20261030/w1/heroes/bmw-m5-e39/final-native.png",
+   "source_sha256": "91d3b7f62f714768579f25975de2642a29fe832b24717017ff749ab80c186363",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Raw hero - approval 1. One 4K max generation, no fixes yet.",
+   "candidate_created_at": "2026-10-30T16:32:46.095560+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "25d56dcb-f4f0-484c-a2ff-c59afb4f949f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-30T16:28:15.345939+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/25d56dcb-f4f0-484c-a2ff-c59afb4f949f_1d114ad3.png",
+     "page_url": "https://muapi.ai/predictions/25d56dcb-f4f0-484c-a2ff-c59afb4f949f",
+     "references": [
+      {
+       "role": "Front three-quarter from the right front corner, low: the kidney grille, the twin round headlamps with their light rings, the bumper intakes, the right flank and both front wheels (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/d2f8bcd591b2475685599db99336ff53.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Front three-quarter from the right front corner at standing height: whole-car proportions, the bonnet, the windscreen, the door mirrors, the wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/b8abf5c6090047489f0bff90799d77b5.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Straight front: the kidney grille, the twin round headlamps under clear glass, the wide central bumper intake and the two side intakes with round fog lamps",
+       "url": "https://cdn.muapi.ai/outputs/generated/b88c125bca2e49ab993b305a388ad8b4.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Side view (right side): the proportions of the saloon, the wheelbase, the window line, the black rubbing strip along the doors",
+       "url": "https://cdn.muapi.ai/outputs/generated/1df9c226ba244263a071854233d38557.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Grille close-up: the chrome-framed kidney grille with vertical slats and the BMW roundel on the bonnet above it",
+       "url": "https://cdn.muapi.ai/outputs/generated/3ab54d2fb8e44d169af42503e914b0fe.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Front corner close-up: the twin round headlamps with their light rings, the clear indicator, the bumper intake and the round fog lamp",
+       "url": "https://cdn.muapi.ai/outputs/generated/86d71632ffb1436da1a7135d5112ba09.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Front wheel close-up: the 18-inch M Parallel wheel with ten double spokes and the BMW roundel centre cap",
+       "url": "https://cdn.muapi.ai/outputs/generated/cc59737f660a4c4fb218d1a7202568b4.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "The small M5 emblem set into the black rubbing strip on the front door",
+       "url": "https://cdn.muapi.ai/outputs/generated/e968c43a579247ee882c8cd032fe26f2.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "The clear side repeater on the front wing",
+       "url": "https://cdn.muapi.ai/outputs/generated/1c308bf89cf545078e667d4abfa6bfc1.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "The windscreen and the cabin seen through it: the black and grey seats, the dashboard",
+       "url": "https://cdn.muapi.ai/outputs/generated/1b1c348846f5401d8f9a57261fba76fc.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Lettering close-up: the car's own M5 boot badge - the M in blue, violet and red stripes and the chrome 5; the model for the giant M5 characters only",
+       "url": "https://cdn.muapi.ai/outputs/generated/1624826ebd6c47da92c5ffb10eba4af2.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Gran Turismo",
+    "why": "Brief: DIRECTED A1 - the badge, giant: the M5 boot badge fills the sheet, the car overlaps it. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
+   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
+   "full_source_url": "full/91d3b7f62f71-studio-wave1-20261030-bmw-m5-e39.png",
+   "full_source_sha256": "91d3b7f62f714768579f25975de2642a29fe832b24717017ff749ab80c186363",
+   "full_source_bytes": 12516273,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Gran Turismo",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: DIRECTED A1 - the badge, giant: the M5 boot badge fills the sheet, the car overlaps it. Suggestion only.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "25d56dcb-f4f0-484c-a2ff-c59afb4f949f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T16:28:15.345939+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/25d56dcb-f4f0-484c-a2ff-c59afb4f949f_1d114ad3.png",
+     "page_url": "https://muapi.ai/predictions/25d56dcb-f4f0-484c-a2ff-c59afb4f949f",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the right front corner, low: the kidney grille, the twin round headlamps with their light rings, the bumper intakes, the right flank and both front wheels (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/d2f8bcd591b2475685599db99336ff53.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Front three-quarter from the right front corner at standing height: whole-car proportions, the bonnet, the windscreen, the door mirrors, the wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/b8abf5c6090047489f0bff90799d77b5.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Straight front: the kidney grille, the twin round headlamps under clear glass, the wide central bumper intake and the two side intakes with round fog lamps",
+       "url": "https://cdn.muapi.ai/outputs/generated/b88c125bca2e49ab993b305a388ad8b4.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Side view (right side): the proportions of the saloon, the wheelbase, the window line, the black rubbing strip along the doors",
+       "url": "https://cdn.muapi.ai/outputs/generated/1df9c226ba244263a071854233d38557.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Grille close-up: the chrome-framed kidney grille with vertical slats and the BMW roundel on the bonnet above it",
+       "url": "https://cdn.muapi.ai/outputs/generated/3ab54d2fb8e44d169af42503e914b0fe.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Front corner close-up: the twin round headlamps with their light rings, the clear indicator, the bumper intake and the round fog lamp",
+       "url": "https://cdn.muapi.ai/outputs/generated/86d71632ffb1436da1a7135d5112ba09.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Front wheel close-up: the 18-inch M Parallel wheel with ten double spokes and the BMW roundel centre cap",
+       "url": "https://cdn.muapi.ai/outputs/generated/cc59737f660a4c4fb218d1a7202568b4.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "The small M5 emblem set into the black rubbing strip on the front door",
+       "url": "https://cdn.muapi.ai/outputs/generated/e968c43a579247ee882c8cd032fe26f2.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "The clear side repeater on the front wing",
+       "url": "https://cdn.muapi.ai/outputs/generated/1c308bf89cf545078e667d4abfa6bfc1.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "The windscreen and the cabin seen through it: the black and grey seats, the dashboard",
+       "url": "https://cdn.muapi.ai/outputs/generated/1b1c348846f5401d8f9a57261fba76fc.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Lettering close-up: the car's own M5 boot badge - the M in blue, violet and red stripes and the chrome 5; the model for the giant M5 characters only",
+       "url": "https://cdn.muapi.ai/outputs/generated/1624826ebd6c47da92c5ffb10eba4af2.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      }
+     ],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-30T16:28:15.345939+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-30T16:32:46.095560+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-wave1-20261030-bmw-m5-e60",
+   "name": "BMW M5 (E60) - DIRECTED",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-e60-3309081703ab-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-wave1-20261030/w1/heroes/bmw-m5-e60/final-native.png",
+   "source_sha256": "3309081703abb015198d77739aa5874074c1b103f366090d26c090ccc48c5d0e",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Raw hero - approval 1. One 4K max generation, no fixes yet.",
+   "candidate_created_at": "2026-10-30T16:32:50.291777+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "11033c90-ad0e-4803-89a3-a287909702eb",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-30T16:28:20.748955+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/11033c90-ad0e-4803-89a3-a287909702eb_967ba72f.png",
+     "page_url": "https://muapi.ai/predictions/11033c90-ad0e-4803-89a3-a287909702eb",
+     "references": [
+      {
+       "role": "Front three-quarter from the left front corner, low: the kidney grille, the headlamps with their light rings, the wide bumper intakes, the gill on the front wing, the left flank and the wheels (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/71b246233c4d4926a58e13e920c477af.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Front three-quarter from the left front corner at standing height: whole-car proportions, the bonnet, the windscreen, the mirrors",
+       "url": "https://cdn.muapi.ai/outputs/generated/13d6b357f49a43e19d19ac2ba1ab3282.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Straight front: the kidney grille, both headlamps, the M front bumper with its three intakes",
+       "url": "https://cdn.muapi.ai/outputs/generated/6f191e9e6c8b457787469b227516423b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Side view (right side): the proportions of the saloon, the wheelbase, the window line",
+       "url": "https://cdn.muapi.ai/outputs/generated/4685d436b13e44668f51cb403164e452.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Grille close-up: the chrome-framed kidney grille with its slats and the BMW roundel above it",
+       "url": "https://cdn.muapi.ai/outputs/generated/f891a7aa42d14fe6bba7be2d6384c524.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Headlamp close-up: the headlamp with its two light rings and the indicator strip along its top",
+       "url": "https://cdn.muapi.ai/outputs/generated/a724407591e64132a526dd2b2ec79836.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "The gill on the front wing: black with chrome slats and the small M5 badge",
+       "url": "https://cdn.muapi.ai/outputs/generated/67cf8b372f484e2e9d365cc63120e027.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Front wheel close-up: the 19-inch M double-spoke wheel, the BMW roundel centre cap, the drilled disc",
+       "url": "https://cdn.muapi.ai/outputs/generated/aad309570a1c4a50b3b9e31dd4a02703.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "The M door mirror with its sculpted body-colour housing",
+       "url": "https://cdn.muapi.ai/outputs/generated/ec234b1b5adc4c15b510022e995a4d20.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "The cabin: black leather seats and the dashboard, as seen through the glass",
+       "url": "https://cdn.muapi.ai/outputs/generated/8b929c2899584e308f308a9af863c78c.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Lettering close-up: the car's own M5 boot badge - the M in blue, violet and red stripes and the chrome 5; the model for the white M5 lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/a7c570613efc476b99d6b4843a550a9f.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Gran Turismo",
+    "why": "Brief: DIRECTED C25 - night speed: a V10 that revs to 8,250 in a motorway tunnel at night. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
+   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
+   "full_source_url": "full/3309081703ab-studio-wave1-20261030-bmw-m5-e60.png",
+   "full_source_sha256": "3309081703abb015198d77739aa5874074c1b103f366090d26c090ccc48c5d0e",
+   "full_source_bytes": 9683935,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Gran Turismo",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: DIRECTED C25 - night speed: a V10 that revs to 8,250 in a motorway tunnel at night. Suggestion only.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "11033c90-ad0e-4803-89a3-a287909702eb",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T16:28:20.748955+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/11033c90-ad0e-4803-89a3-a287909702eb_967ba72f.png",
+     "page_url": "https://muapi.ai/predictions/11033c90-ad0e-4803-89a3-a287909702eb",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left front corner, low: the kidney grille, the headlamps with their light rings, the wide bumper intakes, the gill on the front wing, the left flank and the wheels (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/71b246233c4d4926a58e13e920c477af.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Front three-quarter from the left front corner at standing height: whole-car proportions, the bonnet, the windscreen, the mirrors",
+       "url": "https://cdn.muapi.ai/outputs/generated/13d6b357f49a43e19d19ac2ba1ab3282.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Straight front: the kidney grille, both headlamps, the M front bumper with its three intakes",
+       "url": "https://cdn.muapi.ai/outputs/generated/6f191e9e6c8b457787469b227516423b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Side view (right side): the proportions of the saloon, the wheelbase, the window line",
+       "url": "https://cdn.muapi.ai/outputs/generated/4685d436b13e44668f51cb403164e452.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Grille close-up: the chrome-framed kidney grille with its slats and the BMW roundel above it",
+       "url": "https://cdn.muapi.ai/outputs/generated/f891a7aa42d14fe6bba7be2d6384c524.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Headlamp close-up: the headlamp with its two light rings and the indicator strip along its top",
+       "url": "https://cdn.muapi.ai/outputs/generated/a724407591e64132a526dd2b2ec79836.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "The gill on the front wing: black with chrome slats and the small M5 badge",
+       "url": "https://cdn.muapi.ai/outputs/generated/67cf8b372f484e2e9d365cc63120e027.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Front wheel close-up: the 19-inch M double-spoke wheel, the BMW roundel centre cap, the drilled disc",
+       "url": "https://cdn.muapi.ai/outputs/generated/aad309570a1c4a50b3b9e31dd4a02703.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "The M door mirror with its sculpted body-colour housing",
+       "url": "https://cdn.muapi.ai/outputs/generated/ec234b1b5adc4c15b510022e995a4d20.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "The cabin: black leather seats and the dashboard, as seen through the glass",
+       "url": "https://cdn.muapi.ai/outputs/generated/8b929c2899584e308f308a9af863c78c.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Lettering close-up: the car's own M5 boot badge - the M in blue, violet and red stripes and the chrome 5; the model for the white M5 lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/a7c570613efc476b99d6b4843a550a9f.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      }
+     ],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-30T16:28:20.748955+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-30T16:32:50.291777+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-wave1-20261030-bmw-m5-touring-e61",
+   "name": "BMW M5 Touring (E61) - DIRECTED",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-0c6d51ebd551-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-wave1-20261030/w1/heroes/bmw-m5-touring-e61/final-native.png",
+   "source_sha256": "0c6d51ebd5514554afb5030d8d3018fddbf913887356949c199e5da575c6dd34",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Raw hero - approval 1. One 4K max generation, no fixes yet.",
+   "candidate_created_at": "2026-10-30T16:32:54.721335+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "57fbdf58-95c0-4ffa-8af3-da151321e194",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-30T16:28:26.403670+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/57fbdf58-95c0-4ffa-8af3-da151321e194_e7f74420.png",
+     "page_url": "https://muapi.ai/predictions/57fbdf58-95c0-4ffa-8af3-da151321e194",
+     "references": [
+      {
+       "role": "Front three-quarter from the left front corner: the kidney grille, the headlamps with their light rings, the bumper intakes, the gill on the front wing, the long estate roof and the left flank, the wheels (the closest angle to the poster view, which is seen from higher above)",
+       "url": "https://cdn.muapi.ai/outputs/generated/369dadd2c07d46cebcd2a664cc31db62.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Front from above: the bonnet with the roundel, the windscreen and the front of the roof as seen from above",
+       "url": "https://cdn.muapi.ai/outputs/generated/e8bd9ee35a31441b8a134a2f2843fea4.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Straight front: the kidney grille, both headlamps, the M front bumper with its intakes",
+       "url": "https://cdn.muapi.ai/outputs/generated/8b44d174f44b4e46bbc790d71aa93759.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Side view: the long estate roof line, the wheelbase, the angle of the tailgate",
+       "url": "https://cdn.muapi.ai/outputs/generated/e1bf3a5a6f7545bf8ec5c91398510f3d.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "The roof from the side: the dark roof rails along the long roof",
+       "url": "https://cdn.muapi.ai/outputs/generated/34406508b8364c99a5b552934045b41d.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Grille close-up: the chrome-framed kidney grille with its slats and the roundel",
+       "url": "https://cdn.muapi.ai/outputs/generated/e6a2a0a2ad6d4e85be85d97de68a9f3e.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Headlamp close-up: the light rings and the indicator strip along its top",
+       "url": "https://cdn.muapi.ai/outputs/generated/609e5cb7526748fa80774cd6b803c752.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "The gill on the front wing: chrome slats with the small M5 badge, the side repeater",
+       "url": "https://cdn.muapi.ai/outputs/generated/37f3116fc2bc44de8a7c15b6ae629f54.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Front wheel close-up: the 19-inch silver M double-spoke wheel and its centre cap",
+       "url": "https://cdn.muapi.ai/outputs/generated/07413f546d074dfbaf229106e2718500.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "The M door mirror in body colour",
+       "url": "https://cdn.muapi.ai/outputs/generated/c603e10219a7447ba96e6c8b97eb9969.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "The windscreen: clear glass, the wipers, the dark cabin behind",
+       "url": "https://cdn.muapi.ai/outputs/generated/81346895627148aebf25fe23882910ba.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Lettering close-up: the car's own M5 tailgate badge - the M in blue, violet and red stripes and the chrome 5; the model for the white M5 lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/10c0854b46074735bc77a82050cac2f7.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Gran Turismo",
+    "why": "Brief: DIRECTED C27 - aerial: the long roof of the V10 estate on an empty autobahn at dawn. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
+   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
+   "full_source_url": "full/0c6d51ebd551-studio-wave1-20261030-bmw-m5-touring-e61.png",
+   "full_source_sha256": "0c6d51ebd5514554afb5030d8d3018fddbf913887356949c199e5da575c6dd34",
+   "full_source_bytes": 10913307,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Gran Turismo",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: DIRECTED C27 - aerial: the long roof of the V10 estate on an empty autobahn at dawn. Suggestion only.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "57fbdf58-95c0-4ffa-8af3-da151321e194",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T16:28:26.403670+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/57fbdf58-95c0-4ffa-8af3-da151321e194_e7f74420.png",
+     "page_url": "https://muapi.ai/predictions/57fbdf58-95c0-4ffa-8af3-da151321e194",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left front corner: the kidney grille, the headlamps with their light rings, the bumper intakes, the gill on the front wing, the long estate roof and the left flank, the wheels (the closest angle to the poster view, which is seen from higher above)",
+       "url": "https://cdn.muapi.ai/outputs/generated/369dadd2c07d46cebcd2a664cc31db62.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Front from above: the bonnet with the roundel, the windscreen and the front of the roof as seen from above",
+       "url": "https://cdn.muapi.ai/outputs/generated/e8bd9ee35a31441b8a134a2f2843fea4.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Straight front: the kidney grille, both headlamps, the M front bumper with its intakes",
+       "url": "https://cdn.muapi.ai/outputs/generated/8b44d174f44b4e46bbc790d71aa93759.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Side view: the long estate roof line, the wheelbase, the angle of the tailgate",
+       "url": "https://cdn.muapi.ai/outputs/generated/e1bf3a5a6f7545bf8ec5c91398510f3d.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "The roof from the side: the dark roof rails along the long roof",
+       "url": "https://cdn.muapi.ai/outputs/generated/34406508b8364c99a5b552934045b41d.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Grille close-up: the chrome-framed kidney grille with its slats and the roundel",
+       "url": "https://cdn.muapi.ai/outputs/generated/e6a2a0a2ad6d4e85be85d97de68a9f3e.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Headlamp close-up: the light rings and the indicator strip along its top",
+       "url": "https://cdn.muapi.ai/outputs/generated/609e5cb7526748fa80774cd6b803c752.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "The gill on the front wing: chrome slats with the small M5 badge, the side repeater",
+       "url": "https://cdn.muapi.ai/outputs/generated/37f3116fc2bc44de8a7c15b6ae629f54.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Front wheel close-up: the 19-inch silver M double-spoke wheel and its centre cap",
+       "url": "https://cdn.muapi.ai/outputs/generated/07413f546d074dfbaf229106e2718500.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "The M door mirror in body colour",
+       "url": "https://cdn.muapi.ai/outputs/generated/c603e10219a7447ba96e6c8b97eb9969.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "The windscreen: clear glass, the wipers, the dark cabin behind",
+       "url": "https://cdn.muapi.ai/outputs/generated/81346895627148aebf25fe23882910ba.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Lettering close-up: the car's own M5 tailgate badge - the M in blue, violet and red stripes and the chrome 5; the model for the white M5 lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/10c0854b46074735bc77a82050cac2f7.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      }
+     ],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-30T16:28:26.403670+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-30T16:32:54.721335+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-wave1-20261030-porsche-911-carrera-3-2",
+   "name": "Porsche 911 Carrera 3.2 - FREE",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-wave1-20261030-porsche-911-carrera-3-2-ec90fad47816-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-wave1-20261030/w1/heroes/porsche-911-carrera-3-2/final-native.png",
+   "source_sha256": "ec90fad478163de787ee029670049c9dd0a84b059e3f75a99c78aa870776868c",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Raw hero - approval 1. One 4K max generation, no fixes yet.",
+   "candidate_created_at": "2026-10-30T16:33:11.998735+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "d8688ba7-6fc3-4866-8d0c-03d81592f0a7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-30T16:28:48.607762+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d8688ba7-6fc3-4866-8d0c-03d81592f0a7_0308b7d5.png",
+     "page_url": "https://muapi.ai/predictions/d8688ba7-6fc3-4866-8d0c-03d81592f0a7",
+     "references": [
+      {
+       "role": "Front three-quarter from the right front corner: whole-car proportions, the round headlamps, the bumper with its black rubber strip, the chin spoiler, the whale-tail spoiler, the Fuchs wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/9848d86c59b943ae91672d7b0b142983.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Front three-quarter from the left front corner: the front lid with its crest, the headlamps, the front wings, the left flank",
+       "url": "https://cdn.muapi.ai/outputs/generated/c789c9216c4240cb9cc33d10c1e0b61e.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Straight front: the front lid, both round headlamps, the bumper with the indicators and fog lamps, the black chin spoiler",
+       "url": "https://cdn.muapi.ai/outputs/generated/c50a21058140436985d7aa6086a1b1cd.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Side view (right side): the 911 roof line, the wheelbase, the whale-tail spoiler, the Fuchs wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/6359d3a7744e4475bf7f507d76b021f8.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "The Porsche crest on the front lid, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/7a4cf0df97804b5b95cfc97f84b6b148.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Headlamp close-up: the round headlamp with its glass and chrome ring in the body-colour wing",
+       "url": "https://cdn.muapi.ai/outputs/generated/c48075111d094511b03e1dfa64e3fbf8.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Front bumper close-up: the amber indicator, the rectangular fog lamp, the black rubber strip and the black bellows",
+       "url": "https://cdn.muapi.ai/outputs/generated/cda73f9bf61447428ef9fd53468584a7.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Front wheel close-up: the five-spoke Fuchs forged wheel, black centre, polished rim and spoke faces, the crest centre cap",
+       "url": "https://cdn.muapi.ai/outputs/generated/3faa0abbfff14592a483fc09c538a9c5.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "The door mirror in body colour",
+       "url": "https://cdn.muapi.ai/outputs/generated/5c494d7bd66f4220853e871c2a0d7c0a.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "The windscreen and the cabin seen through it: the black seats with red piping, the dashboard",
+       "url": "https://cdn.muapi.ai/outputs/generated/eb261f2d865a4d8ebaa49c85f7b20bac.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Sport / Leicht",
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
+   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
+   "full_source_url": "full/ec90fad47816-studio-wave1-20261030-porsche-911-carrera-3-2.png",
+   "full_source_sha256": "ec90fad478163de787ee029670049c9dd0a84b059e3f75a99c78aa870776868c",
+   "full_source_bytes": 11512098,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Suggestion only.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "d8688ba7-6fc3-4866-8d0c-03d81592f0a7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T16:28:48.607762+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d8688ba7-6fc3-4866-8d0c-03d81592f0a7_0308b7d5.png",
+     "page_url": "https://muapi.ai/predictions/d8688ba7-6fc3-4866-8d0c-03d81592f0a7",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the right front corner: whole-car proportions, the round headlamps, the bumper with its black rubber strip, the chin spoiler, the whale-tail spoiler, the Fuchs wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/9848d86c59b943ae91672d7b0b142983.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Front three-quarter from the left front corner: the front lid with its crest, the headlamps, the front wings, the left flank",
+       "url": "https://cdn.muapi.ai/outputs/generated/c789c9216c4240cb9cc33d10c1e0b61e.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Straight front: the front lid, both round headlamps, the bumper with the indicators and fog lamps, the black chin spoiler",
+       "url": "https://cdn.muapi.ai/outputs/generated/c50a21058140436985d7aa6086a1b1cd.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Side view (right side): the 911 roof line, the wheelbase, the whale-tail spoiler, the Fuchs wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/6359d3a7744e4475bf7f507d76b021f8.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "The Porsche crest on the front lid, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/7a4cf0df97804b5b95cfc97f84b6b148.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Headlamp close-up: the round headlamp with its glass and chrome ring in the body-colour wing",
+       "url": "https://cdn.muapi.ai/outputs/generated/c48075111d094511b03e1dfa64e3fbf8.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Front bumper close-up: the amber indicator, the rectangular fog lamp, the black rubber strip and the black bellows",
+       "url": "https://cdn.muapi.ai/outputs/generated/cda73f9bf61447428ef9fd53468584a7.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Front wheel close-up: the five-spoke Fuchs forged wheel, black centre, polished rim and spoke faces, the crest centre cap",
+       "url": "https://cdn.muapi.ai/outputs/generated/3faa0abbfff14592a483fc09c538a9c5.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "The door mirror in body colour",
+       "url": "https://cdn.muapi.ai/outputs/generated/5c494d7bd66f4220853e871c2a0d7c0a.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "The windscreen and the cabin seen through it: the black seats with red piping, the dashboard",
+       "url": "https://cdn.muapi.ai/outputs/generated/eb261f2d865a4d8ebaa49c85f7b20bac.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      }
+     ],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-30T16:28:48.607762+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-30T16:33:11.998735+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-wave1-20261030-alpine-a110-2018",
+   "name": "Alpine A110 (2018) - DIRECTED",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-wave1-20261030-alpine-a110-2018-fca2309b7767-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-wave1-20261030/w1/heroes/alpine-a110-2018/final-native.png",
+   "source_sha256": "fca2309b7767ab82e9968bf5d629cb1e122ccf66146dba27332e58c67394cb38",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Raw hero - approval 1. One 4K max generation, no fixes yet.",
+   "candidate_created_at": "2026-10-30T16:32:33.113226+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "a0db3a0a-646d-48ad-87a5-870a0f72ee1a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-30T16:27:58.686104+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a0db3a0a-646d-48ad-87a5-870a0f72ee1a_4f2c2fca.png",
+     "page_url": "https://muapi.ai/predictions/a0db3a0a-646d-48ad-87a5-870a0f72ee1a",
+     "references": [
+      {
+       "role": "Front three-quarter from the right front corner: whole-car proportions, the rounded nose, the front lamps, the bonnet, the right flank and the wheels (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/785e03d0e08a46b798eb3ff649078fe9.jpg",
+       "source_page": "https://rmsothebys.com/auctions/pa21/lots/r0070-2019-alpine-a110-premiere-edition/"
+      },
+      {
+       "role": "Front three-quarter, low: the nose, the lamps, the lower grille",
+       "url": "https://cdn.muapi.ai/outputs/generated/aa69f1e393c94db2ba872587da999dcf.jpg",
+       "source_page": "https://rmsothebys.com/auctions/pa21/lots/r0070-2019-alpine-a110-premiere-edition/"
+      },
+      {
+       "role": "Straight front: the headlamps and the round inner lamps, the spaced ALPINE letters across the nose, the lower grille",
+       "url": "https://cdn.muapi.ai/outputs/generated/28211f47970c4a98a76a526e454dc2b1.jpg",
+       "source_page": "https://rmsothebys.com/auctions/pa21/lots/r0070-2019-alpine-a110-premiere-edition/"
+      },
+      {
+       "role": "Side view: the proportions, the low rounded roof, the wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/generated/270f65a0cd1c4f0c9968c5e0006de16c.jpg",
+       "source_page": "https://rmsothebys.com/auctions/pa21/lots/r0070-2019-alpine-a110-premiere-edition/"
+      },
+      {
+       "role": "Front wheel close-up: the twin five-spoke Otto Fuchs wheel in matt black with diamond-cut faces, the blue brake caliper",
+       "url": "https://cdn.muapi.ai/outputs/generated/e09bd392a6264d0485ef5adcd1246b27.jpg",
+       "source_page": "https://rmsothebys.com/auctions/pa21/lots/r0070-2019-alpine-a110-premiere-edition/"
+      },
+      {
+       "role": "Headlamp close-up (a second car of the same model): the LED headlamp with its light signature and the round inner lamp",
+       "url": "https://cdn.muapi.ai/outputs/generated/ab5ac4163f5c45f89750ada7fc7caf7b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2018-alpine-a110"
+      },
+      {
+       "role": "The small A emblem on the front wing, close-up (a second car of the same model)",
+       "url": "https://cdn.muapi.ai/outputs/generated/1c11b7c635d14ee8933160dc71e3be20.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2018-alpine-a110"
+      },
+      {
+       "role": "Lettering close-up (a second car of the same model): the car's own wide-spaced ALPINE letters across its nose; the model for the A110 lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/a12522fc0e784d119b7da8b586e60c4d.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2018-alpine-a110"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Sport / Leicht",
+    "why": "Brief: DIRECTED C30 - the famous road at night: the mountain pass and the night stage the name was made on. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
+   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
+   "full_source_url": "full/fca2309b7767-studio-wave1-20261030-alpine-a110-2018.png",
+   "full_source_sha256": "fca2309b7767ab82e9968bf5d629cb1e122ccf66146dba27332e58c67394cb38",
+   "full_source_bytes": 11437153,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: DIRECTED C30 - the famous road at night: the mountain pass and the night stage the name was made on. Suggestion only.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "a0db3a0a-646d-48ad-87a5-870a0f72ee1a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T16:27:58.686104+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a0db3a0a-646d-48ad-87a5-870a0f72ee1a_4f2c2fca.png",
+     "page_url": "https://muapi.ai/predictions/a0db3a0a-646d-48ad-87a5-870a0f72ee1a",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the right front corner: whole-car proportions, the rounded nose, the front lamps, the bonnet, the right flank and the wheels (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/785e03d0e08a46b798eb3ff649078fe9.jpg",
+       "source_page": "https://rmsothebys.com/auctions/pa21/lots/r0070-2019-alpine-a110-premiere-edition/"
+      },
+      {
+       "role": "Front three-quarter, low: the nose, the lamps, the lower grille",
+       "url": "https://cdn.muapi.ai/outputs/generated/aa69f1e393c94db2ba872587da999dcf.jpg",
+       "source_page": "https://rmsothebys.com/auctions/pa21/lots/r0070-2019-alpine-a110-premiere-edition/"
+      },
+      {
+       "role": "Straight front: the headlamps and the round inner lamps, the spaced ALPINE letters across the nose, the lower grille",
+       "url": "https://cdn.muapi.ai/outputs/generated/28211f47970c4a98a76a526e454dc2b1.jpg",
+       "source_page": "https://rmsothebys.com/auctions/pa21/lots/r0070-2019-alpine-a110-premiere-edition/"
+      },
+      {
+       "role": "Side view: the proportions, the low rounded roof, the wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/generated/270f65a0cd1c4f0c9968c5e0006de16c.jpg",
+       "source_page": "https://rmsothebys.com/auctions/pa21/lots/r0070-2019-alpine-a110-premiere-edition/"
+      },
+      {
+       "role": "Front wheel close-up: the twin five-spoke Otto Fuchs wheel in matt black with diamond-cut faces, the blue brake caliper",
+       "url": "https://cdn.muapi.ai/outputs/generated/e09bd392a6264d0485ef5adcd1246b27.jpg",
+       "source_page": "https://rmsothebys.com/auctions/pa21/lots/r0070-2019-alpine-a110-premiere-edition/"
+      },
+      {
+       "role": "Headlamp close-up (a second car of the same model): the LED headlamp with its light signature and the round inner lamp",
+       "url": "https://cdn.muapi.ai/outputs/generated/ab5ac4163f5c45f89750ada7fc7caf7b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2018-alpine-a110"
+      },
+      {
+       "role": "The small A emblem on the front wing, close-up (a second car of the same model)",
+       "url": "https://cdn.muapi.ai/outputs/generated/1c11b7c635d14ee8933160dc71e3be20.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2018-alpine-a110"
+      },
+      {
+       "role": "Lettering close-up (a second car of the same model): the car's own wide-spaced ALPINE letters across its nose; the model for the A110 lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/a12522fc0e784d119b7da8b586e60c4d.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2018-alpine-a110"
+      }
+     ],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-30T16:27:58.686104+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-30T16:32:33.113226+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-wave1-20261030-lamborghini-countach-lp400",
+   "name": "Lamborghini Countach LP400 - FREE",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-wave1-20261030-lamborghini-countach-lp400-a92b937f4f47-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-wave1-20261030/w1/heroes/lamborghini-countach-lp400/final-native.png",
+   "source_sha256": "a92b937f4f4709aaab9fe66556a937250fd67d80e366fe56608f1e004f56cb59",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Raw hero - approval 1. One 4K max generation, no fixes yet.",
+   "candidate_created_at": "2026-10-30T16:33:07.622318+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "5ec674a5-4be9-47cb-84a8-d09cb154a0d2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-30T16:28:43.052943+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5ec674a5-4be9-47cb-84a8-d09cb154a0d2_07d67df3.png",
+     "page_url": "https://muapi.ai/predictions/5ec674a5-4be9-47cb-84a8-d09cb154a0d2",
+     "references": [
+      {
+       "role": "Front three-quarter from the left front corner: whole-car proportions - the wedge, the flat nose, the steep windscreen, the NACA duct in the door, the left flank",
+       "url": "https://cdn.muapi.ai/outputs/generated/1dacc3b164a0496fb7f01a8b1403389f.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "Front three-quarter from the right front corner: the nose, the right flank, the black intake behind the side window",
+       "url": "https://cdn.muapi.ai/outputs/generated/97eca67205854f00a67045d2d9b6b270.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "Straight front: the flat pointed nose with the headlamps closed flush, the front lamps, the windscreen with its single wiper",
+       "url": "https://cdn.muapi.ai/outputs/generated/310ee6d115db489bb5039caa1d45bdaa.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "Side view (left side): the wedge profile, the wheelbase, the very low roof with the periscope channel",
+       "url": "https://cdn.muapi.ai/outputs/generated/21acaae36eab41a08b980cb7dfdfb6e6.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "The Lamborghini bull badge on the nose, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/5a868efc8ea249f3ae4b5a37bdba6eb0.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "The NACA duct on the door, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/d945dd4f5dfb4520a10471358d0c0d64.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "The disegno Bertone badge low on the side, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/d9338b91b76941869c53b9a67d6b0b94.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "Front wheel close-up: the silver Campagnolo wheel with its ring of radial slots",
+       "url": "https://cdn.muapi.ai/outputs/generated/6660572bbf64494fa3387a4a8df9a77f.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "Wheel centre close-up: the five lug nuts and the bull centre cap",
+       "url": "https://cdn.muapi.ai/outputs/generated/fb65181c6a7f487880591b8281fe89b4.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "The cabin through the open door: biscuit leather seats, the dashboard",
+       "url": "https://cdn.muapi.ai/outputs/generated/14795ce3886545a7ba20aabed504a4dc.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Studio di Forma",
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
+   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
+   "full_source_url": "full/a92b937f4f47-studio-wave1-20261030-lamborghini-countach-lp400.png",
+   "full_source_sha256": "a92b937f4f4709aaab9fe66556a937250fd67d80e366fe56608f1e004f56cb59",
+   "full_source_bytes": 11258905,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": null,
+    "collection": null,
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "5ec674a5-4be9-47cb-84a8-d09cb154a0d2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T16:28:43.052943+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5ec674a5-4be9-47cb-84a8-d09cb154a0d2_07d67df3.png",
+     "page_url": "https://muapi.ai/predictions/5ec674a5-4be9-47cb-84a8-d09cb154a0d2",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left front corner: whole-car proportions - the wedge, the flat nose, the steep windscreen, the NACA duct in the door, the left flank",
+       "url": "https://cdn.muapi.ai/outputs/generated/1dacc3b164a0496fb7f01a8b1403389f.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "Front three-quarter from the right front corner: the nose, the right flank, the black intake behind the side window",
+       "url": "https://cdn.muapi.ai/outputs/generated/97eca67205854f00a67045d2d9b6b270.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "Straight front: the flat pointed nose with the headlamps closed flush, the front lamps, the windscreen with its single wiper",
+       "url": "https://cdn.muapi.ai/outputs/generated/310ee6d115db489bb5039caa1d45bdaa.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "Side view (left side): the wedge profile, the wheelbase, the very low roof with the periscope channel",
+       "url": "https://cdn.muapi.ai/outputs/generated/21acaae36eab41a08b980cb7dfdfb6e6.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "The Lamborghini bull badge on the nose, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/5a868efc8ea249f3ae4b5a37bdba6eb0.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "The NACA duct on the door, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/d945dd4f5dfb4520a10471358d0c0d64.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "The disegno Bertone badge low on the side, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/d9338b91b76941869c53b9a67d6b0b94.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "Front wheel close-up: the silver Campagnolo wheel with its ring of radial slots",
+       "url": "https://cdn.muapi.ai/outputs/generated/6660572bbf64494fa3387a4a8df9a77f.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "Wheel centre close-up: the five lug nuts and the bull centre cap",
+       "url": "https://cdn.muapi.ai/outputs/generated/fb65181c6a7f487880591b8281fe89b4.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "The cabin through the open door: biscuit leather seats, the dashboard",
+       "url": "https://cdn.muapi.ai/outputs/generated/14795ce3886545a7ba20aabed504a4dc.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      }
+     ],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-30T16:28:43.052943+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-30T16:33:07.622318+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-wave1-20261030-honda-civic-type-r-ek9",
+   "name": "Honda Civic Type R (EK9) - DIRECTED",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-wave1-20261030-honda-civic-type-r-ek9-a78634d735be-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-wave1-20261030/w1/heroes/honda-civic-type-r-ek9/final-native.png",
+   "source_sha256": "a78634d735be3b3e7f1c64edd422aa152bd376efdfa65fc9242343b3a9ef16f7",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Raw hero - approval 1. One 4K max generation, no fixes yet.",
+   "candidate_created_at": "2026-10-30T16:33:03.364802+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "d0974e4a-c905-476f-8b64-040a837274f7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-30T16:28:37.479491+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d0974e4a-c905-476f-8b64-040a837274f7_973d1a87.png",
+     "page_url": "https://muapi.ai/predictions/d0974e4a-c905-476f-8b64-040a837274f7",
+     "references": [
+      {
+       "role": "Front three-quarter from the left front corner, low and close: the headlamps, the red H badge in the grille, the front lip spoiler, the bonnet (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/0d1407e277a34a5d8251d7ede5ab27ee.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Front three-quarter from the left front corner at a distance: the proportions of the three-door hatchback, the roof spoiler, the white wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/f0c41e080e2b455e91ea789702c5a0d8.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Straight front: both headlamps, the grille with the red H badge, the bumper and the front lip spoiler",
+       "url": "https://cdn.muapi.ai/outputs/generated/f74a2c8c51214bbd8c497ab910a62a50.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Side view: the proportions of the hatchback, the wheelbase, the CIVIC TYPE R decal on the rear quarter",
+       "url": "https://cdn.muapi.ai/outputs/generated/55da3c30a6254339b3c0c6dfba0a8537.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "The red-backed H badge in the grille, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/12bb6b11c7d54026b868867030f05106.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Headlamp close-up: the clear headlamp and its lenses",
+       "url": "https://cdn.muapi.ai/outputs/generated/3ec47674e0ef472991c295a47a6d466b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "The front lip spoiler and the bumper, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/6e9a74f5be944b65b11f1613090df169.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Front wheel close-up: the white seven-spoke wheel with five lug nuts and the H centre cap (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/generated/0276c7941d4248c59bc7a688ab0a7707.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "The door mirror in body colour",
+       "url": "https://cdn.muapi.ai/outputs/generated/0c1520078035455e95537a9ede529e4e.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "The cabin: the red Recaro seats, as seen through the windscreen",
+       "url": "https://cdn.muapi.ai/outputs/generated/e1dbe1a9985340f58544a8816f94dece.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "The titanium gear knob with its engraved shift pattern, close-up (the cut-out in the collage)",
+       "url": "https://cdn.muapi.ai/outputs/generated/b57a07295bb948a8a682dbfc383d04ad.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Lettering close-up: the car's own CIVIC TYPE R decal - CIVIC and TYPE in dark grey capitals and the big slanted red R; the model for the TYPE R lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/b1e3877613f54b04a8295eca3b53ea13.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Sport / Leicht",
+    "why": "Brief: DIRECTED D33 - torn-paper collage: the white car, the red details. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
+   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
+   "full_source_url": "full/a78634d735be-studio-wave1-20261030-honda-civic-type-r-ek9.png",
+   "full_source_sha256": "a78634d735be3b3e7f1c64edd422aa152bd376efdfa65fc9242343b3a9ef16f7",
+   "full_source_bytes": 13671710,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: DIRECTED D33 - torn-paper collage: the white car, the red details. Suggestion only.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "d0974e4a-c905-476f-8b64-040a837274f7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T16:28:37.479491+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d0974e4a-c905-476f-8b64-040a837274f7_973d1a87.png",
+     "page_url": "https://muapi.ai/predictions/d0974e4a-c905-476f-8b64-040a837274f7",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left front corner, low and close: the headlamps, the red H badge in the grille, the front lip spoiler, the bonnet (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/0d1407e277a34a5d8251d7ede5ab27ee.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Front three-quarter from the left front corner at a distance: the proportions of the three-door hatchback, the roof spoiler, the white wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/f0c41e080e2b455e91ea789702c5a0d8.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Straight front: both headlamps, the grille with the red H badge, the bumper and the front lip spoiler",
+       "url": "https://cdn.muapi.ai/outputs/generated/f74a2c8c51214bbd8c497ab910a62a50.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Side view: the proportions of the hatchback, the wheelbase, the CIVIC TYPE R decal on the rear quarter",
+       "url": "https://cdn.muapi.ai/outputs/generated/55da3c30a6254339b3c0c6dfba0a8537.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "The red-backed H badge in the grille, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/12bb6b11c7d54026b868867030f05106.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Headlamp close-up: the clear headlamp and its lenses",
+       "url": "https://cdn.muapi.ai/outputs/generated/3ec47674e0ef472991c295a47a6d466b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "The front lip spoiler and the bumper, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/6e9a74f5be944b65b11f1613090df169.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Front wheel close-up: the white seven-spoke wheel with five lug nuts and the H centre cap (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/generated/0276c7941d4248c59bc7a688ab0a7707.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "The door mirror in body colour",
+       "url": "https://cdn.muapi.ai/outputs/generated/0c1520078035455e95537a9ede529e4e.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "The cabin: the red Recaro seats, as seen through the windscreen",
+       "url": "https://cdn.muapi.ai/outputs/generated/e1dbe1a9985340f58544a8816f94dece.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "The titanium gear knob with its engraved shift pattern, close-up (the cut-out in the collage)",
+       "url": "https://cdn.muapi.ai/outputs/generated/b57a07295bb948a8a682dbfc383d04ad.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Lettering close-up: the car's own CIVIC TYPE R decal - CIVIC and TYPE in dark grey capitals and the big slanted red R; the model for the TYPE R lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/b1e3877613f54b04a8295eca3b53ea13.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      }
+     ],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-30T16:28:37.479491+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-30T16:33:03.364802+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-wave1-20261030-dodge-challenger-r-t-1970",
+   "name": "Dodge Challenger R/T (1970) - DIRECTED",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-wave1-20261030-dodge-challenger-r-t-1970-c04ea4380239-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-wave1-20261030/w1/heroes/dodge-challenger-r-t-1970/final-native.png",
+   "source_sha256": "c04ea4380239f0f55aa390db2aa78e921d66dc9f7464cff4dbffa94d345a5c44",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Raw hero - approval 1. One 4K max generation, no fixes yet.",
+   "candidate_created_at": "2026-10-30T16:32:59.085456+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "0a07dee9-4c4e-4633-9eaf-8b47ce393f54",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-30T16:28:31.920248+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0a07dee9-4c4e-4633-9eaf-8b47ce393f54_127bfe6a.png",
+     "page_url": "https://muapi.ai/predictions/0a07dee9-4c4e-4633-9eaf-8b47ce393f54",
+     "references": [
+      {
+       "role": "Front three-quarter from the right front corner, low: the grille with its badge, the four round headlamps, the chrome bumper, the bonnet with its two scoops, the right flank and the wheels (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/78058f88f7a2496da7f3a1b213a960a6.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Front three-quarter from the left front corner at standing height: whole-car proportions, the long bonnet, the white vinyl roof, the left flank",
+       "url": "https://cdn.muapi.ai/outputs/generated/cb45f55553dc483981105340cdf8837f.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Straight front: the full-width black grille with the four round headlamps set in it, the chrome bumper, the bonnet scoops",
+       "url": "https://cdn.muapi.ai/outputs/generated/a1b1b10ed22f4a94a752c3e541918241.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Side view (right side): the long low body, the wheelbase, the white vinyl roof, the chrome window trim",
+       "url": "https://cdn.muapi.ai/outputs/generated/15fee25808d34653a36a30bf80e1043a.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Grille close-up: the Challenger R/T badge in the black grille mesh",
+       "url": "https://cdn.muapi.ai/outputs/generated/83c54427b06b4a50bcf5e01d384f6c8c.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Front corner close-up: two round headlamps in the grille, the chrome bumper",
+       "url": "https://cdn.muapi.ai/outputs/generated/2104da6eb892424d92397f6568b78bfd.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "The bonnet close-up: the two scoops and the hood pins",
+       "url": "https://cdn.muapi.ai/outputs/generated/96618ea9d70a4e9abe0ac2da80ed01aa.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Front wheel close-up: the five-spoke styled wheel with its chrome rim and centre cap (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/generated/dee864669d5e45429ace2333a47ba859.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "The door mirror and the side window under the white vinyl roof",
+       "url": "https://cdn.muapi.ai/outputs/generated/b133e8489ffe4c2695725f873fbab211.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "The cabin through the open door: white seats, the wood-rim steering wheel, the dashboard",
+       "url": "https://cdn.muapi.ai/outputs/generated/25141f4535a0412fbe3768b3b24d5cfc.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Lettering close-up: the car's own R/T grille badge - the red letters R and T with a slash; the model for the painted R/T only",
+       "url": "https://cdn.muapi.ai/outputs/generated/caeaf9d81e5246659e81a623bb433054.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "American Form",
+    "why": "Brief: DIRECTED A7 - the test that made it: the quarter mile, a drag strip at night. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
+   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
+   "full_source_url": "full/c04ea4380239-studio-wave1-20261030-dodge-challenger-r-t-1970.png",
+   "full_source_sha256": "c04ea4380239f0f55aa390db2aa78e921d66dc9f7464cff4dbffa94d345a5c44",
+   "full_source_bytes": 13805717,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "American Form",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: DIRECTED A7 - the test that made it: the quarter mile, a drag strip at night. Suggestion only.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "0a07dee9-4c4e-4633-9eaf-8b47ce393f54",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T16:28:31.920248+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0a07dee9-4c4e-4633-9eaf-8b47ce393f54_127bfe6a.png",
+     "page_url": "https://muapi.ai/predictions/0a07dee9-4c4e-4633-9eaf-8b47ce393f54",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the right front corner, low: the grille with its badge, the four round headlamps, the chrome bumper, the bonnet with its two scoops, the right flank and the wheels (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/78058f88f7a2496da7f3a1b213a960a6.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Front three-quarter from the left front corner at standing height: whole-car proportions, the long bonnet, the white vinyl roof, the left flank",
+       "url": "https://cdn.muapi.ai/outputs/generated/cb45f55553dc483981105340cdf8837f.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Straight front: the full-width black grille with the four round headlamps set in it, the chrome bumper, the bonnet scoops",
+       "url": "https://cdn.muapi.ai/outputs/generated/a1b1b10ed22f4a94a752c3e541918241.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Side view (right side): the long low body, the wheelbase, the white vinyl roof, the chrome window trim",
+       "url": "https://cdn.muapi.ai/outputs/generated/15fee25808d34653a36a30bf80e1043a.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Grille close-up: the Challenger R/T badge in the black grille mesh",
+       "url": "https://cdn.muapi.ai/outputs/generated/83c54427b06b4a50bcf5e01d384f6c8c.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Front corner close-up: two round headlamps in the grille, the chrome bumper",
+       "url": "https://cdn.muapi.ai/outputs/generated/2104da6eb892424d92397f6568b78bfd.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "The bonnet close-up: the two scoops and the hood pins",
+       "url": "https://cdn.muapi.ai/outputs/generated/96618ea9d70a4e9abe0ac2da80ed01aa.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Front wheel close-up: the five-spoke styled wheel with its chrome rim and centre cap (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/generated/dee864669d5e45429ace2333a47ba859.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "The door mirror and the side window under the white vinyl roof",
+       "url": "https://cdn.muapi.ai/outputs/generated/b133e8489ffe4c2695725f873fbab211.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "The cabin through the open door: white seats, the wood-rim steering wheel, the dashboard",
+       "url": "https://cdn.muapi.ai/outputs/generated/25141f4535a0412fbe3768b3b24d5cfc.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Lettering close-up: the car's own R/T grille badge - the red letters R and T with a slash; the model for the painted R/T only",
+       "url": "https://cdn.muapi.ai/outputs/generated/caeaf9d81e5246659e81a623bb433054.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      }
+     ],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-30T16:28:31.920248+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-30T16:32:59.085456+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-wave1-20261030-audi-avus-quattro",
+   "name": "Audi Avus quattro (1991 concept) - DIRECTED",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-wave1-20261030-audi-avus-quattro-13e2a0ec0fde-current.jpg",
+   "preview_pixels": [
+    1600,
+    1198
+   ],
+   "source_file": "pipeline/studio-wave1-20261030/w1/heroes/audi-avus-quattro/final-native.png",
+   "source_sha256": "13e2a0ec0fdea99e8304d1e8c50364dd495fe77786f921247cd0471bbffca212",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Raw hero - approval 1. One 4K max generation, no fixes yet.",
+   "candidate_created_at": "2026-10-30T16:32:37.646057+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "7da7a399-9a2e-42d1-ac9d-2d0a6b37b9ac",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-30T16:28:04.264465+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/7da7a399-9a2e-42d1-ac9d-2d0a6b37b9ac_15bae68f.png",
+     "page_url": "https://muapi.ai/predictions/7da7a399-9a2e-42d1-ac9d-2d0a6b37b9ac",
+     "references": [
+      {
+       "role": "Front three-quarter from the right front corner, low, in a dark studio: the long low nose, the slim headlamps, the four rings in the black grille slot, the polished aluminium body and its shut lines, the wheels (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/057d00877b914c24bfac998f17c17c07.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Nose close-up: the chrome four rings in the black grille slot, the slim headlamp with its small lenses",
+       "url": "https://cdn.muapi.ai/outputs/generated/55c6b0164efd40198118114b4161cbab.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Front three-quarter, black-and-white photograph: the nose, the wide flat bonnet, the windscreen, the wheels (form only, the colour is polished aluminium)",
+       "url": "https://cdn.muapi.ai/outputs/generated/2c3e5a35285a46e486e325530937ef50.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Straight overhead view on black: the plan shape, the long nose, the canopy, the engine cover (form only)",
+       "url": "https://cdn.muapi.ai/outputs/generated/921bfdd34f9f4e02a06c851eec3c00ae.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Side view, black-and-white photograph: the profile, the wheelbase, the long tail (ignore the people and the raised door)",
+       "url": "https://cdn.muapi.ai/outputs/generated/91ce57159327441f90211e03d0f807c4.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Front wheel close-up: the six-spoke wheel with its large centre cap and the four rings on one spoke",
+       "url": "https://cdn.muapi.ai/outputs/generated/cee023b3fe6444df93ca5f0195f7969b.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Lettering close-up: the car's own AVUS badge with the four rings beside it; the model for the AVUS lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/4db32ab8432f4ce4ac5f762d5ccb0854.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Studio di Forma",
+    "why": "Brief: DIRECTED B (1930s Grand Prix lithograph) with A8 (the name's meaning): the steep banked curve of the track the car is named after. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
+   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
+   "full_source_url": "full/13e2a0ec0fde-studio-wave1-20261030-audi-avus-quattro.png",
+   "full_source_sha256": "13e2a0ec0fdea99e8304d1e8c50364dd495fe77786f921247cd0471bbffca212",
+   "full_source_bytes": 17016321,
+   "full_source_pixels": [
+    3312,
+    2480
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": null,
+    "collection": null,
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "7da7a399-9a2e-42d1-ac9d-2d0a6b37b9ac",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T16:28:04.264465+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/7da7a399-9a2e-42d1-ac9d-2d0a6b37b9ac_15bae68f.png",
+     "page_url": "https://muapi.ai/predictions/7da7a399-9a2e-42d1-ac9d-2d0a6b37b9ac",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the right front corner, low, in a dark studio: the long low nose, the slim headlamps, the four rings in the black grille slot, the polished aluminium body and its shut lines, the wheels (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/057d00877b914c24bfac998f17c17c07.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Nose close-up: the chrome four rings in the black grille slot, the slim headlamp with its small lenses",
+       "url": "https://cdn.muapi.ai/outputs/generated/55c6b0164efd40198118114b4161cbab.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Front three-quarter, black-and-white photograph: the nose, the wide flat bonnet, the windscreen, the wheels (form only, the colour is polished aluminium)",
+       "url": "https://cdn.muapi.ai/outputs/generated/2c3e5a35285a46e486e325530937ef50.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Straight overhead view on black: the plan shape, the long nose, the canopy, the engine cover (form only)",
+       "url": "https://cdn.muapi.ai/outputs/generated/921bfdd34f9f4e02a06c851eec3c00ae.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Side view, black-and-white photograph: the profile, the wheelbase, the long tail (ignore the people and the raised door)",
+       "url": "https://cdn.muapi.ai/outputs/generated/91ce57159327441f90211e03d0f807c4.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Front wheel close-up: the six-spoke wheel with its large centre cap and the four rings on one spoke",
+       "url": "https://cdn.muapi.ai/outputs/generated/cee023b3fe6444df93ca5f0195f7969b.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Lettering close-up: the car's own AVUS badge with the four rings beside it; the model for the AVUS lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/4db32ab8432f4ce4ac5f762d5ccb0854.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      }
+     ],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-30T16:28:04.264465+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-30T16:32:37.646057+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-wave1-20261030-autozam-az-1",
+   "name": "Autozam AZ-1 - DIRECTED",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-wave1-20261030-autozam-az-1-3b76dfd59c8b-current.jpg",
+   "preview_pixels": [
+    1600,
+    2137
+   ],
+   "source_file": "pipeline/studio-wave1-20261030/w1/heroes/autozam-az-1/final-native.png",
+   "source_sha256": "3b76dfd59c8b0bee71f5ef1934762da516eee0f5a2455219ee48c3f0e170929e",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Raw hero - approval 1. One 4K max generation, no fixes yet.",
+   "candidate_created_at": "2026-10-30T16:32:41.920961+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "477dd8e3-62a8-4c60-8485-67dc9bbe5be9",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-30T16:28:09.833897+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/477dd8e3-62a8-4c60-8485-67dc9bbe5be9_445bd091.png",
+     "page_url": "https://muapi.ai/predictions/477dd8e3-62a8-4c60-8485-67dc9bbe5be9",
+     "references": [
+      {
+       "role": "Straight front with both gullwing doors raised: the tiny nose, the round headlamps, the bonnet scoop, the raised doors with their glass (the closest view to the poster)",
+       "url": "https://cdn.muapi.ai/outputs/generated/6a219bfba69c44ef9f4fbca36741a136.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Front three-quarter from the right front corner: whole-car proportions, the bonnet scoop, the air dam, the tall rear wing, the straked intake behind the door",
+       "url": "https://cdn.muapi.ai/outputs/generated/be3e994e2ea8496dac01c81cbf89bb76.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Straight front with the doors closed: the round headlamps, the amber indicators in the bumper, the air dam",
+       "url": "https://cdn.muapi.ai/outputs/generated/4e71ea35a880499b982733c64f84974b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Side view: the proportions of the tiny mid-engined coupe, the wheelbase, the rear wing",
+       "url": "https://cdn.muapi.ai/outputs/generated/3ef96abc96c44661990d62036bc519d0.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Front close-up: a round headlamp and the bumper with its indicator",
+       "url": "https://cdn.muapi.ai/outputs/generated/4b4dc08e1cd9403480f67d459ea40b6b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Front three-quarter with the doors raised: the gullwing doors and their small inset windows",
+       "url": "https://cdn.muapi.ai/outputs/generated/ae0a85977d0f445aa6bb1f12a7d8fe42.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "The straked intake behind the door and the side decal",
+       "url": "https://cdn.muapi.ai/outputs/generated/61e1b56a947348b2bed4f9a536aec683.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Front wheel close-up: the silver five-spoke wheel with four lug nuts",
+       "url": "https://cdn.muapi.ai/outputs/generated/b88072c009014efd9fc03457d8b641eb.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "The cabin through the raised door: red and black cloth seats, the three-spoke steering wheel",
+       "url": "https://cdn.muapi.ai/outputs/generated/5296b1d35e724c07944dec22d14f33db.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Lettering close-up: the car's own AZ-1 script on the tail; the model for the painted AZ-1 lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/659ffa6878a54d1f8f26fec1572d47fc.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      }
+     ]
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Sport / Leicht",
+    "why": "Brief: DIRECTED A6 - the signature move: the gullwing doors of a very small car, in a car park bay far too big for it. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
+   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
+   "full_source_url": "full/3b76dfd59c8b-studio-wave1-20261030-autozam-az-1.png",
+   "full_source_sha256": "3b76dfd59c8b0bee71f5ef1934762da516eee0f5a2455219ee48c3f0e170929e",
+   "full_source_bytes": 12088594,
+   "full_source_pixels": [
+    2480,
+    3312
+   ],
+   "full_source_kind": "exact_current_png",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: DIRECTED A6 - the signature move: the gullwing doors of a very small car, in a car park bay far too big for it. Suggestion only.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "477dd8e3-62a8-4c60-8485-67dc9bbe5be9",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T16:28:09.833897+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/477dd8e3-62a8-4c60-8485-67dc9bbe5be9_445bd091.png",
+     "page_url": "https://muapi.ai/predictions/477dd8e3-62a8-4c60-8485-67dc9bbe5be9",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Straight front with both gullwing doors raised: the tiny nose, the round headlamps, the bonnet scoop, the raised doors with their glass (the closest view to the poster)",
+       "url": "https://cdn.muapi.ai/outputs/generated/6a219bfba69c44ef9f4fbca36741a136.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Front three-quarter from the right front corner: whole-car proportions, the bonnet scoop, the air dam, the tall rear wing, the straked intake behind the door",
+       "url": "https://cdn.muapi.ai/outputs/generated/be3e994e2ea8496dac01c81cbf89bb76.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Straight front with the doors closed: the round headlamps, the amber indicators in the bumper, the air dam",
+       "url": "https://cdn.muapi.ai/outputs/generated/4e71ea35a880499b982733c64f84974b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Side view: the proportions of the tiny mid-engined coupe, the wheelbase, the rear wing",
+       "url": "https://cdn.muapi.ai/outputs/generated/3ef96abc96c44661990d62036bc519d0.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Front close-up: a round headlamp and the bumper with its indicator",
+       "url": "https://cdn.muapi.ai/outputs/generated/4b4dc08e1cd9403480f67d459ea40b6b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Front three-quarter with the doors raised: the gullwing doors and their small inset windows",
+       "url": "https://cdn.muapi.ai/outputs/generated/ae0a85977d0f445aa6bb1f12a7d8fe42.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "The straked intake behind the door and the side decal",
+       "url": "https://cdn.muapi.ai/outputs/generated/61e1b56a947348b2bed4f9a536aec683.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Front wheel close-up: the silver five-spoke wheel with four lug nuts",
+       "url": "https://cdn.muapi.ai/outputs/generated/b88072c009014efd9fc03457d8b641eb.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "The cabin through the raised door: red and black cloth seats, the three-spoke steering wheel",
+       "url": "https://cdn.muapi.ai/outputs/generated/5296b1d35e724c07944dec22d14f33db.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Lettering close-up: the car's own AZ-1 script on the tail; the model for the painted AZ-1 lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/659ffa6878a54d1f8f26fec1572d47fc.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      }
+     ],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-30T16:28:09.833897+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-30T16:32:41.920961+00:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -9247,6 +11225,106 @@
    "pixels": [
     2409,
     2409
+   ]
+  },
+  {
+   "key": "studio-wave1-20261030-autozam-az-1",
+   "declared_sha256": "3b76dfd59c8b0bee71f5ef1934762da516eee0f5a2455219ee48c3f0e170929e",
+   "applied": true,
+   "preview": "assets/studio-wave1-20261030-autozam-az-1-3b76dfd59c8b-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-wave1-20261030-audi-avus-quattro",
+   "declared_sha256": "13e2a0ec0fdea99e8304d1e8c50364dd495fe77786f921247cd0471bbffca212",
+   "applied": true,
+   "preview": "assets/studio-wave1-20261030-audi-avus-quattro-13e2a0ec0fde-current.jpg",
+   "pixels": [
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-wave1-20261030-dodge-challenger-r-t-1970",
+   "declared_sha256": "c04ea4380239f0f55aa390db2aa78e921d66dc9f7464cff4dbffa94d345a5c44",
+   "applied": true,
+   "preview": "assets/studio-wave1-20261030-dodge-challenger-r-t-1970-c04ea4380239-current.jpg",
+   "pixels": [
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-wave1-20261030-honda-civic-type-r-ek9",
+   "declared_sha256": "a78634d735be3b3e7f1c64edd422aa152bd376efdfa65fc9242343b3a9ef16f7",
+   "applied": true,
+   "preview": "assets/studio-wave1-20261030-honda-civic-type-r-ek9-a78634d735be-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-wave1-20261030-lamborghini-countach-lp400",
+   "declared_sha256": "a92b937f4f4709aaab9fe66556a937250fd67d80e366fe56608f1e004f56cb59",
+   "applied": true,
+   "preview": "assets/studio-wave1-20261030-lamborghini-countach-lp400-a92b937f4f47-current.jpg",
+   "pixels": [
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-wave1-20261030-alpine-a110-2018",
+   "declared_sha256": "fca2309b7767ab82e9968bf5d629cb1e122ccf66146dba27332e58c67394cb38",
+   "applied": true,
+   "preview": "assets/studio-wave1-20261030-alpine-a110-2018-fca2309b7767-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-wave1-20261030-porsche-911-carrera-3-2",
+   "declared_sha256": "ec90fad478163de787ee029670049c9dd0a84b059e3f75a99c78aa870776868c",
+   "applied": true,
+   "preview": "assets/studio-wave1-20261030-porsche-911-carrera-3-2-ec90fad47816-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-wave1-20261030-bmw-m5-touring-e61",
+   "declared_sha256": "0c6d51ebd5514554afb5030d8d3018fddbf913887356949c199e5da575c6dd34",
+   "applied": true,
+   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-0c6d51ebd551-current.jpg",
+   "pixels": [
+    2480,
+    3312
+   ]
+  },
+  {
+   "key": "studio-wave1-20261030-bmw-m5-e60",
+   "declared_sha256": "3309081703abb015198d77739aa5874074c1b103f366090d26c090ccc48c5d0e",
+   "applied": true,
+   "preview": "assets/studio-wave1-20261030-bmw-m5-e60-3309081703ab-current.jpg",
+   "pixels": [
+    3312,
+    2480
+   ]
+  },
+  {
+   "key": "studio-wave1-20261030-bmw-m5-e39",
+   "declared_sha256": "91d3b7f62f714768579f25975de2642a29fe832b24717017ff749ab80c186363",
+   "applied": true,
+   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-91d3b7f62f71-current.jpg",
+   "pixels": [
+    2480,
+    3312
    ]
   },
   {
