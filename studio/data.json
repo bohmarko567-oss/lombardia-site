@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-30 05:24",
+ "built": "2026-10-30 05:38",
  "accessed_date": "2026-10-30",
  "collections": [
   "American Form",
@@ -1251,7 +1251,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Draft 1 for the owner's check. Nothing uploaded to Prodigi. Card: A6 postcard (art for the 97 x 140 mm inside Prodigi's ~4 mm white border), QR to lombardiaautomobili.etsy.com?coupon=COLLECTOR20 (checked live 30 Oct: \"Shop code applied\"). Label: 4x3 in / 105 x 74 mm on the outside of the box. Tube: 65 mm round on tube end-caps, the founder-pick avatar with 1.5 mm bleed. Receipts: pipeline/inserts-20261030/RESULT.md.",
+   "delivery_status": "For the owner's check. Nothing uploaded to Prodigi. Card (draft 2): A6 postcard (art for the 97 x 140 mm inside Prodigi's ~4 mm white border), COLLECTOR20 \"Yours either way, no strings.\", wall-pic review ask, QR to https://www.etsy.com/your/purchases (Etsy \"Your Purchases & Reviews\", checked live 30 Oct). Label: 4x3 in / 105 x 74 mm on the outside of the box. Tube: 65 mm round on tube end-caps, the founder-pick avatar with 1.5 mm bleed. Receipts: pipeline/inserts-20261030/RESULT.md.",
    "candidate_created_at": "2026-10-30T04:40:00+00:00",
    "review_url": null,
    "stage1_generations": [],
@@ -1318,7 +1318,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Draft 1 for the owner's check. Nothing uploaded to Prodigi. Card: A6 postcard (art for the 97 x 140 mm inside Prodigi's ~4 mm white border), QR to lombardiaautomobili.etsy.com?coupon=COLLECTOR20 (checked live 30 Oct: \"Shop code applied\"). Label: 4x3 in / 105 x 74 mm on the outside of the box. Tube: 65 mm round on tube end-caps, the founder-pick avatar with 1.5 mm bleed. Receipts: pipeline/inserts-20261030/RESULT.md.",
+   "delivery_status": "For the owner's check. Nothing uploaded to Prodigi. Card (draft 2): A6 postcard (art for the 97 x 140 mm inside Prodigi's ~4 mm white border), COLLECTOR20 \"Yours either way, no strings.\", wall-pic review ask, QR to https://www.etsy.com/your/purchases (Etsy \"Your Purchases & Reviews\", checked live 30 Oct). Label: 4x3 in / 105 x 74 mm on the outside of the box. Tube: 65 mm round on tube end-caps, the founder-pick avatar with 1.5 mm bleed. Receipts: pipeline/inserts-20261030/RESULT.md.",
    "candidate_created_at": "2026-10-30T04:40:01+00:00",
    "review_url": null,
    "stage1_generations": [],
@@ -1365,36 +1365,36 @@
    }
   },
   {
-   "key": "inserts-card-a6-d2",
-   "name": "Prodigi insert - thank-you card A6, inside every parcel: COLLECTOR20 + wall-pic review QR (draft 2)",
+   "key": "inserts-card-a6-d3",
+   "name": "Prodigi insert - thank-you card A6, inside every parcel: COLLECTOR20 + SPOTTED IN THE WILD review QR (draft 3)",
    "notion_url": null,
    "board_url": null,
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/inserts-card-a6-d2-c9860029ba28-current.jpg",
+   "preview": "assets/inserts-card-a6-d3-183799e72d6e-current.jpg",
    "preview_pixels": [
     1600,
     2309
    ],
    "source_file": "pipeline/inserts-20261030/out/card-a6.png",
-   "source_sha256": "c9860029ba28c043e9ec93d60971aa95262d47681ecb6f0cd7307c8a3f57db19",
+   "source_sha256": "183799e72d6e001880b58d6e4d0e38f542120040ab691423996625dc71591c45",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Draft 1 for the owner's check. Nothing uploaded to Prodigi. Card: A6 postcard (art for the 97 x 140 mm inside Prodigi's ~4 mm white border), QR to lombardiaautomobili.etsy.com?coupon=COLLECTOR20 (checked live 30 Oct: \"Shop code applied\"). Label: 4x3 in / 105 x 74 mm on the outside of the box. Tube: 65 mm round on tube end-caps, the founder-pick avatar with 1.5 mm bleed. Receipts: pipeline/inserts-20261030/RESULT.md.",
-   "candidate_created_at": "2026-10-30T04:40:10+00:00",
+   "delivery_status": "For the owner's check. Nothing uploaded to Prodigi. Card (draft 2): A6 postcard (art for the 97 x 140 mm inside Prodigi's ~4 mm white border), COLLECTOR20 \"Yours either way, no strings.\", wall-pic review ask, QR to https://www.etsy.com/your/purchases (Etsy \"Your Purchases & Reviews\", checked live 30 Oct). Label: 4x3 in / 105 x 74 mm on the outside of the box. Tube: 65 mm round on tube end-caps, the founder-pick avatar with 1.5 mm bleed. Receipts: pipeline/inserts-20261030/RESULT.md.",
+   "candidate_created_at": "2026-10-30T04:40:20+00:00",
    "review_url": null,
    "stage1_generations": [],
    "recommendation_override": null,
    "candidate_source": "pipeline/inserts-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 04:45: \"Hey i wanna do prodigi inserts, cards perhaps or stickers, ima buy the subscription anyways it gives discounts\". Rule (23 Oct): nothing goes to Prodigi before he has checked it as a live, verified Studio card.",
-   "full_source_url": "full/c9860029ba28-inserts-card-a6-d2.png",
-   "full_source_sha256": "c9860029ba28c043e9ec93d60971aa95262d47681ecb6f0cd7307c8a3f57db19",
-   "full_source_bytes": 199045,
+   "full_source_url": "full/183799e72d6e-inserts-card-a6-d3.png",
+   "full_source_sha256": "183799e72d6e001880b58d6e4d0e38f542120040ab691423996625dc71591c45",
+   "full_source_bytes": 196778,
    "full_source_pixels": [
     2292,
     3308
@@ -1417,9 +1417,9 @@
    },
    "generations": [],
    "timeline": {
-    "created_at": "2026-10-30T04:40:10+00:00",
+    "created_at": "2026-10-30T04:40:20+00:00",
     "created_source": "candidate generated",
-    "updated_at": "2026-10-30T04:40:10+00:00",
+    "updated_at": "2026-10-30T04:40:20+00:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -9220,10 +9220,10 @@
    "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
-   "key": "inserts-card-a6-d2",
-   "declared_sha256": "c9860029ba28c043e9ec93d60971aa95262d47681ecb6f0cd7307c8a3f57db19",
+   "key": "inserts-card-a6-d3",
+   "declared_sha256": "183799e72d6e001880b58d6e4d0e38f542120040ab691423996625dc71591c45",
    "applied": true,
-   "preview": "assets/inserts-card-a6-d2-c9860029ba28-current.jpg",
+   "preview": "assets/inserts-card-a6-d3-183799e72d6e-current.jpg",
    "pixels": [
     2292,
     3308
