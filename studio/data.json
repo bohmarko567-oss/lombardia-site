@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-30 23:45",
+ "built": "2026-10-30 23:55",
  "accessed_date": "2026-10-30",
  "collections": [
   "American Form",
@@ -1625,6 +1625,358 @@
    }
   },
   {
+   "key": "studio-wave1-20261030-bmw-m5-e60-master",
+   "name": "BMW M5 (E60) - print master M1 (workflow B)",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-e60-master-f1a6462aa1fb-current.jpg",
+   "preview_pixels": [
+    1600,
+    1200
+   ],
+   "source_file": "pipeline/studio-wave1-20261030/q2/masters/bmw-m5-e60/bmw-m5-e60-M1-12000x9000.jpg",
+   "source_sha256": "f1a6462aa1fb317fc544ef708d9d7f60344af1c6ec39c90625cac9e10bee53ec",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Print master M1 - approval 2, the last: after your word the lot runs to Etsy. 12000 x 9000, 3 master-scale fixes; cost USD 1.16 (upscale 0.56, master fixes 0.60). Still visible (harsh): the new bonnet roundel's B catches a warm tunnel-light reflection; the front cap came back about 11 levels too bright and was matched by an offset - no seam at 200-400 %, but it is a touch cleaner than the motion-blurred spokes; the gill badge is still soft at 200 % and sits mid-gill (the real one at its front end); the rear cap, seen almost edge-on, is left as drawn (no glyphs at 300 %); the wheel spokes are curved and motion-blurred (the design).",
+   "candidate_created_at": "2026-10-30T22:53:19+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "11033c90-ad0e-4803-89a3-a287909702eb",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-30T16:28:20.748955+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/11033c90-ad0e-4803-89a3-a287909702eb_967ba72f.png",
+     "page_url": "https://muapi.ai/predictions/11033c90-ad0e-4803-89a3-a287909702eb",
+     "references": [
+      {
+       "role": "Front three-quarter from the left front corner, low: the kidney grille, the headlamps with their light rings, the wide bumper intakes, the gill on the front wing, the left flank and the wheels (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/71b246233c4d4926a58e13e920c477af.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Front three-quarter from the left front corner at standing height: whole-car proportions, the bonnet, the windscreen, the mirrors",
+       "url": "https://cdn.muapi.ai/outputs/generated/13d6b357f49a43e19d19ac2ba1ab3282.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Straight front: the kidney grille, both headlamps, the M front bumper with its three intakes",
+       "url": "https://cdn.muapi.ai/outputs/generated/6f191e9e6c8b457787469b227516423b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Side view (right side): the proportions of the saloon, the wheelbase, the window line",
+       "url": "https://cdn.muapi.ai/outputs/generated/4685d436b13e44668f51cb403164e452.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Grille close-up: the chrome-framed kidney grille with its slats and the BMW roundel above it",
+       "url": "https://cdn.muapi.ai/outputs/generated/f891a7aa42d14fe6bba7be2d6384c524.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Headlamp close-up: the headlamp with its two light rings and the indicator strip along its top",
+       "url": "https://cdn.muapi.ai/outputs/generated/a724407591e64132a526dd2b2ec79836.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "The gill on the front wing: black with chrome slats and the small M5 badge",
+       "url": "https://cdn.muapi.ai/outputs/generated/67cf8b372f484e2e9d365cc63120e027.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Front wheel close-up: the 19-inch M double-spoke wheel, the BMW roundel centre cap, the drilled disc",
+       "url": "https://cdn.muapi.ai/outputs/generated/aad309570a1c4a50b3b9e31dd4a02703.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "The M door mirror with its sculpted body-colour housing",
+       "url": "https://cdn.muapi.ai/outputs/generated/ec234b1b5adc4c15b510022e995a4d20.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "The cabin: black leather seats and the dashboard, as seen through the glass",
+       "url": "https://cdn.muapi.ai/outputs/generated/8b929c2899584e308f308a9af863c78c.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Lettering close-up: the car's own M5 boot badge - the M in blue, violet and red stripes and the chrome 5; the model for the white M5 lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/a7c570613efc476b99d6b4843a550a9f.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      }
+     ]
+    },
+    {
+     "role": "upscale",
+     "request_id": "561a803f-6a8d-45de-95c4-756aee451924",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-30T18:47:23.450037+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/561a803f-6a8d-45de-95c4-756aee451924_dd4dddee.png",
+     "page_url": "https://muapi.ai/predictions/561a803f-6a8d-45de-95c4-756aee451924",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "81492447-10d5-4446-b209-63353fc2232e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:02.088147+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/81492447-10d5-4446-b209-63353fc2232e_9213c101.png",
+     "page_url": "https://muapi.ai/predictions/81492447-10d5-4446-b209-63353fc2232e",
+     "target_id": "roundelA",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "d9789e88-1e32-4000-b441-2c2d1f2dabf2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:04.878294+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d9789e88-1e32-4000-b441-2c2d1f2dabf2_9ba9d85d.png",
+     "page_url": "https://muapi.ai/predictions/d9789e88-1e32-4000-b441-2c2d1f2dabf2",
+     "target_id": "roundelB",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "fa6c85b0-f066-469f-af85-dc0cf992041f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:07.592853+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/fa6c85b0-f066-469f-af85-dc0cf992041f_471f26c7.png",
+     "page_url": "https://muapi.ai/predictions/fa6c85b0-f066-469f-af85-dc0cf992041f",
+     "target_id": "hubA",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "04dbda36-ff68-429a-a141-f6e98f622801",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:14.563584+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/04dbda36-ff68-429a-a141-f6e98f622801_3aaafd0a.png",
+     "page_url": "https://muapi.ai/predictions/04dbda36-ff68-429a-a141-f6e98f622801",
+     "target_id": "hubB",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "305fda01-e6ca-4d38-aa64-f2b76d23ffc8",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:17.302953+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/305fda01-e6ca-4d38-aa64-f2b76d23ffc8_0a96d076.png",
+     "page_url": "https://muapi.ai/predictions/305fda01-e6ca-4d38-aa64-f2b76d23ffc8",
+     "target_id": "stripA",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "5150e1e3-daed-49f8-8beb-f0d5e4f1e59d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:20.041527+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5150e1e3-daed-49f8-8beb-f0d5e4f1e59d_011ecb09.png",
+     "page_url": "https://muapi.ai/predictions/5150e1e3-daed-49f8-8beb-f0d5e4f1e59d",
+     "target_id": "stripB",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Gran Turismo",
+    "why": "Brief: DIRECTED C25 - night speed: a V10 that revs to 8,250 in a motorway tunnel at night. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
+   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
+   "full_source_url": "full/f1a6462aa1fb-studio-wave1-20261030-bmw-m5-e60-master.jpg",
+   "full_source_sha256": "f1a6462aa1fb317fc544ef708d9d7f60344af1c6ec39c90625cac9e10bee53ec",
+   "full_source_bytes": 21149165,
+   "full_source_pixels": [
+    12000,
+    9000
+   ],
+   "full_source_kind": "exact_current_jpg",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Gran Turismo",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: DIRECTED C25 - night speed: a V10 that revs to 8,250 in a motorway tunnel at night. Suggestion only.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "11033c90-ad0e-4803-89a3-a287909702eb",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T16:28:20.748955+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/11033c90-ad0e-4803-89a3-a287909702eb_967ba72f.png",
+     "page_url": "https://muapi.ai/predictions/11033c90-ad0e-4803-89a3-a287909702eb",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left front corner, low: the kidney grille, the headlamps with their light rings, the wide bumper intakes, the gill on the front wing, the left flank and the wheels (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/71b246233c4d4926a58e13e920c477af.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Front three-quarter from the left front corner at standing height: whole-car proportions, the bonnet, the windscreen, the mirrors",
+       "url": "https://cdn.muapi.ai/outputs/generated/13d6b357f49a43e19d19ac2ba1ab3282.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Straight front: the kidney grille, both headlamps, the M front bumper with its three intakes",
+       "url": "https://cdn.muapi.ai/outputs/generated/6f191e9e6c8b457787469b227516423b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Side view (right side): the proportions of the saloon, the wheelbase, the window line",
+       "url": "https://cdn.muapi.ai/outputs/generated/4685d436b13e44668f51cb403164e452.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Grille close-up: the chrome-framed kidney grille with its slats and the BMW roundel above it",
+       "url": "https://cdn.muapi.ai/outputs/generated/f891a7aa42d14fe6bba7be2d6384c524.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Headlamp close-up: the headlamp with its two light rings and the indicator strip along its top",
+       "url": "https://cdn.muapi.ai/outputs/generated/a724407591e64132a526dd2b2ec79836.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "The gill on the front wing: black with chrome slats and the small M5 badge",
+       "url": "https://cdn.muapi.ai/outputs/generated/67cf8b372f484e2e9d365cc63120e027.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Front wheel close-up: the 19-inch M double-spoke wheel, the BMW roundel centre cap, the drilled disc",
+       "url": "https://cdn.muapi.ai/outputs/generated/aad309570a1c4a50b3b9e31dd4a02703.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "The M door mirror with its sculpted body-colour housing",
+       "url": "https://cdn.muapi.ai/outputs/generated/ec234b1b5adc4c15b510022e995a4d20.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "The cabin: black leather seats and the dashboard, as seen through the glass",
+       "url": "https://cdn.muapi.ai/outputs/generated/8b929c2899584e308f308a9af863c78c.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      },
+      {
+       "role": "Lettering close-up: the car's own M5 boot badge - the M in blue, violet and red stripes and the chrome 5; the model for the white M5 lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/a7c570613efc476b99d6b4843a550a9f.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2008-bmw-e60-m5-1"
+      }
+     ],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "upscale",
+     "request_id": "561a803f-6a8d-45de-95c4-756aee451924",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-30T18:47:23.450037+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/561a803f-6a8d-45de-95c4-756aee451924_dd4dddee.png",
+     "page_url": "https://muapi.ai/predictions/561a803f-6a8d-45de-95c4-756aee451924",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "81492447-10d5-4446-b209-63353fc2232e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:02.088147+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/81492447-10d5-4446-b209-63353fc2232e_9213c101.png",
+     "page_url": "https://muapi.ai/predictions/81492447-10d5-4446-b209-63353fc2232e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "d9789e88-1e32-4000-b441-2c2d1f2dabf2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:04.878294+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d9789e88-1e32-4000-b441-2c2d1f2dabf2_9ba9d85d.png",
+     "page_url": "https://muapi.ai/predictions/d9789e88-1e32-4000-b441-2c2d1f2dabf2",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "fa6c85b0-f066-469f-af85-dc0cf992041f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:07.592853+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/fa6c85b0-f066-469f-af85-dc0cf992041f_471f26c7.png",
+     "page_url": "https://muapi.ai/predictions/fa6c85b0-f066-469f-af85-dc0cf992041f",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "04dbda36-ff68-429a-a141-f6e98f622801",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:14.563584+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/04dbda36-ff68-429a-a141-f6e98f622801_3aaafd0a.png",
+     "page_url": "https://muapi.ai/predictions/04dbda36-ff68-429a-a141-f6e98f622801",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "305fda01-e6ca-4d38-aa64-f2b76d23ffc8",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:17.302953+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/305fda01-e6ca-4d38-aa64-f2b76d23ffc8_0a96d076.png",
+     "page_url": "https://muapi.ai/predictions/305fda01-e6ca-4d38-aa64-f2b76d23ffc8",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "5150e1e3-daed-49f8-8beb-f0d5e4f1e59d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:20.041527+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5150e1e3-daed-49f8-8beb-f0d5e4f1e59d_011ecb09.png",
+     "page_url": "https://muapi.ai/predictions/5150e1e3-daed-49f8-8beb-f0d5e4f1e59d",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-30T16:28:20.748955+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-30T22:53:19+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
    "key": "studio-wave1-20261030-bmw-m5-touring-e61-v2-master",
    "name": "BMW M5 Touring (E61) - print master M3 (workflow B)",
    "notion_url": null,
@@ -2987,6 +3339,316 @@
    }
   },
   {
+   "key": "studio-wave1-20261030-dodge-challenger-r-t-1970-master",
+   "name": "Dodge Challenger R/T (1970) - print master M2 (workflow B)",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-wave1-20261030-dodge-challenger-r-t-1970-master-25777c696aee-current.jpg",
+   "preview_pixels": [
+    1600,
+    1200
+   ],
+   "source_file": "pipeline/studio-wave1-20261030/q2/masters/dodge-challenger-r-t-1970/dodge-challenger-r-t-1970-M2-12000x9000.jpg",
+   "source_sha256": "25777c696aeee33af67d3bdc03274a8d604ce277265196f3aaad30a482363d9f",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Print master M2 - approval 2, the last: after your word the lot runs to Etsy. 12000 x 9000, 3 master-scale fixes; cost USD 1.08 (upscale 0.56, master fixes 0.52). Still visible (harsh): the new DODGE letters on the nose are about 110 px tall where the old smudges were about 60 - closer to the real car's proportion, but now the loudest chrome on the nose at 100 %; a faint red reflection under MAGNUM (380 % only); small smudges on the near front wheel's right spoke (invisible at 100 %); the hood pins from the native pass are clean but generic (matte grey, not dull chrome); the bumper chrome reads hammered grey.",
+   "candidate_created_at": "2026-10-30T22:53:25+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "0a07dee9-4c4e-4633-9eaf-8b47ce393f54",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-30T16:28:31.920248+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0a07dee9-4c4e-4633-9eaf-8b47ce393f54_127bfe6a.png",
+     "page_url": "https://muapi.ai/predictions/0a07dee9-4c4e-4633-9eaf-8b47ce393f54",
+     "references": [
+      {
+       "role": "Front three-quarter from the right front corner, low: the grille with its badge, the four round headlamps, the chrome bumper, the bonnet with its two scoops, the right flank and the wheels (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/78058f88f7a2496da7f3a1b213a960a6.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Front three-quarter from the left front corner at standing height: whole-car proportions, the long bonnet, the white vinyl roof, the left flank",
+       "url": "https://cdn.muapi.ai/outputs/generated/cb45f55553dc483981105340cdf8837f.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Straight front: the full-width black grille with the four round headlamps set in it, the chrome bumper, the bonnet scoops",
+       "url": "https://cdn.muapi.ai/outputs/generated/a1b1b10ed22f4a94a752c3e541918241.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Side view (right side): the long low body, the wheelbase, the white vinyl roof, the chrome window trim",
+       "url": "https://cdn.muapi.ai/outputs/generated/15fee25808d34653a36a30bf80e1043a.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Grille close-up: the Challenger R/T badge in the black grille mesh",
+       "url": "https://cdn.muapi.ai/outputs/generated/83c54427b06b4a50bcf5e01d384f6c8c.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Front corner close-up: two round headlamps in the grille, the chrome bumper",
+       "url": "https://cdn.muapi.ai/outputs/generated/2104da6eb892424d92397f6568b78bfd.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "The bonnet close-up: the two scoops and the hood pins",
+       "url": "https://cdn.muapi.ai/outputs/generated/96618ea9d70a4e9abe0ac2da80ed01aa.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Front wheel close-up: the five-spoke styled wheel with its chrome rim and centre cap (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/generated/dee864669d5e45429ace2333a47ba859.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "The door mirror and the side window under the white vinyl roof",
+       "url": "https://cdn.muapi.ai/outputs/generated/b133e8489ffe4c2695725f873fbab211.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "The cabin through the open door: white seats, the wood-rim steering wheel, the dashboard",
+       "url": "https://cdn.muapi.ai/outputs/generated/25141f4535a0412fbe3768b3b24d5cfc.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Lettering close-up: the car's own R/T grille badge - the red letters R and T with a slash; the model for the painted R/T only",
+       "url": "https://cdn.muapi.ai/outputs/generated/caeaf9d81e5246659e81a623bb433054.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      }
+     ]
+    },
+    {
+     "role": "upscale",
+     "request_id": "3eedc19e-e43e-4cb1-a478-a765ea9f7dcd",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-30T18:43:55.241925+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/3eedc19e-e43e-4cb1-a478-a765ea9f7dcd_cde64a96.png",
+     "page_url": "https://muapi.ai/predictions/3eedc19e-e43e-4cb1-a478-a765ea9f7dcd",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "f756382a-d7c5-4079-b66a-aa39f8ec235e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:24:06.983196+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f756382a-d7c5-4079-b66a-aa39f8ec235e_ce01f324.png",
+     "page_url": "https://muapi.ai/predictions/f756382a-d7c5-4079-b66a-aa39f8ec235e",
+     "target_id": "dodgeA",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "fc9e9ca1-2519-4211-a6fb-856bd1b1a7bc",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:24:10.449582+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/fc9e9ca1-2519-4211-a6fb-856bd1b1a7bc_a8e2337d.png",
+     "page_url": "https://muapi.ai/predictions/fc9e9ca1-2519-4211-a6fb-856bd1b1a7bc",
+     "target_id": "dodgeB",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "79d7d522-49b4-408d-9b32-530fbfc70f78",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:24:13.127330+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/79d7d522-49b4-408d-9b32-530fbfc70f78_4e87be52.png",
+     "page_url": "https://muapi.ai/predictions/79d7d522-49b4-408d-9b32-530fbfc70f78",
+     "target_id": "m383A",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "342e66cc-b2bc-4a3d-aa59-cff8b50598ed",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:24:20.231154+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/342e66cc-b2bc-4a3d-aa59-cff8b50598ed_364ae910.png",
+     "page_url": "https://muapi.ai/predictions/342e66cc-b2bc-4a3d-aa59-cff8b50598ed",
+     "target_id": "m383B",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "collection": "American Form",
+    "why": "Brief: DIRECTED A7 - the test that made it: the quarter mile, a drag strip at night. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
+   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
+   "full_source_url": "full/25777c696aee-studio-wave1-20261030-dodge-challenger-r-t-1970-master.jpg",
+   "full_source_sha256": "25777c696aeee33af67d3bdc03274a8d604ce277265196f3aaad30a482363d9f",
+   "full_source_bytes": 29902460,
+   "full_source_pixels": [
+    12000,
+    9000
+   ],
+   "full_source_kind": "exact_current_jpg",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "American Form",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: DIRECTED A7 - the test that made it: the quarter mile, a drag strip at night. Suggestion only.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "0a07dee9-4c4e-4633-9eaf-8b47ce393f54",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T16:28:31.920248+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0a07dee9-4c4e-4633-9eaf-8b47ce393f54_127bfe6a.png",
+     "page_url": "https://muapi.ai/predictions/0a07dee9-4c4e-4633-9eaf-8b47ce393f54",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the right front corner, low: the grille with its badge, the four round headlamps, the chrome bumper, the bonnet with its two scoops, the right flank and the wheels (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/78058f88f7a2496da7f3a1b213a960a6.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Front three-quarter from the left front corner at standing height: whole-car proportions, the long bonnet, the white vinyl roof, the left flank",
+       "url": "https://cdn.muapi.ai/outputs/generated/cb45f55553dc483981105340cdf8837f.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Straight front: the full-width black grille with the four round headlamps set in it, the chrome bumper, the bonnet scoops",
+       "url": "https://cdn.muapi.ai/outputs/generated/a1b1b10ed22f4a94a752c3e541918241.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Side view (right side): the long low body, the wheelbase, the white vinyl roof, the chrome window trim",
+       "url": "https://cdn.muapi.ai/outputs/generated/15fee25808d34653a36a30bf80e1043a.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Grille close-up: the Challenger R/T badge in the black grille mesh",
+       "url": "https://cdn.muapi.ai/outputs/generated/83c54427b06b4a50bcf5e01d384f6c8c.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Front corner close-up: two round headlamps in the grille, the chrome bumper",
+       "url": "https://cdn.muapi.ai/outputs/generated/2104da6eb892424d92397f6568b78bfd.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "The bonnet close-up: the two scoops and the hood pins",
+       "url": "https://cdn.muapi.ai/outputs/generated/96618ea9d70a4e9abe0ac2da80ed01aa.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Front wheel close-up: the five-spoke styled wheel with its chrome rim and centre cap (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/generated/dee864669d5e45429ace2333a47ba859.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "The door mirror and the side window under the white vinyl roof",
+       "url": "https://cdn.muapi.ai/outputs/generated/b133e8489ffe4c2695725f873fbab211.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "The cabin through the open door: white seats, the wood-rim steering wheel, the dashboard",
+       "url": "https://cdn.muapi.ai/outputs/generated/25141f4535a0412fbe3768b3b24d5cfc.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      },
+      {
+       "role": "Lettering close-up: the car's own R/T grille badge - the red letters R and T with a slash; the model for the painted R/T only",
+       "url": "https://cdn.muapi.ai/outputs/generated/caeaf9d81e5246659e81a623bb433054.jpg",
+       "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
+      }
+     ],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "upscale",
+     "request_id": "3eedc19e-e43e-4cb1-a478-a765ea9f7dcd",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-30T18:43:55.241925+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/3eedc19e-e43e-4cb1-a478-a765ea9f7dcd_cde64a96.png",
+     "page_url": "https://muapi.ai/predictions/3eedc19e-e43e-4cb1-a478-a765ea9f7dcd",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "f756382a-d7c5-4079-b66a-aa39f8ec235e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:24:06.983196+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f756382a-d7c5-4079-b66a-aa39f8ec235e_ce01f324.png",
+     "page_url": "https://muapi.ai/predictions/f756382a-d7c5-4079-b66a-aa39f8ec235e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "fc9e9ca1-2519-4211-a6fb-856bd1b1a7bc",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:24:10.449582+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/fc9e9ca1-2519-4211-a6fb-856bd1b1a7bc_a8e2337d.png",
+     "page_url": "https://muapi.ai/predictions/fc9e9ca1-2519-4211-a6fb-856bd1b1a7bc",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "79d7d522-49b4-408d-9b32-530fbfc70f78",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:24:13.127330+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/79d7d522-49b4-408d-9b32-530fbfc70f78_4e87be52.png",
+     "page_url": "https://muapi.ai/predictions/79d7d522-49b4-408d-9b32-530fbfc70f78",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "342e66cc-b2bc-4a3d-aa59-cff8b50598ed",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:24:20.231154+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/342e66cc-b2bc-4a3d-aa59-cff8b50598ed_364ae910.png",
+     "page_url": "https://muapi.ai/predictions/342e66cc-b2bc-4a3d-aa59-cff8b50598ed",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-30T16:28:31.920248+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-30T22:53:25+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
    "key": "studio-wave1-20261030-bmw-m5-e39-v2",
    "name": "BMW M5 (E39) - DIRECTED",
    "notion_url": null,
@@ -3200,20 +3862,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-bmw-m5-e60-b91692a9d0d7-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-e60-d6e1e8049ffb-current.jpg",
    "preview_pixels": [
     1600,
     1198
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/bmw-m5-e60/final-native.png",
-   "source_sha256": "b91692a9d0d7ceee2162b13d57155a0756f144ba1b1e99689b826425cc1f7860",
+   "source_sha256": "d6e1e8049ffb33e403e10caff49b46efa871e88347a759e698c5d63c47d9bcb6",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Fixed version - 1 local fix, no model, USD 0.00. Still visible (harsh): the new bonnet roundel is softer than the generator's, its chrome ring thinner and duller, its letters 6-9 px tall at 100 %; the wheel-cap roundels have mangled letters (about 6 px, for the master, Q4); the wheel spokes are curved and motion-blurred (the real ones are straight; the count is right); the gill badge sits mid-gill (the real one at its front end). Next: the print master card (approval 2).",
+   "delivery_status": "Fixed version - 2 local fixes, no model, USD 0.00. Still visible (harsh): the new bonnet roundel is softer than the generator's, its chrome ring thinner and duller, its letters 6-9 px tall at 100 %; the wheel-cap roundels have mangled letters (about 6 px, for the master, Q4); the wheel spokes are curved and motion-blurred (the real ones are straight; the count is right); the gill badge sits mid-gill (the real one at its front end). Its print master card is the one for approval 2.",
    "candidate_created_at": "2026-10-30T16:32:50.291777+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -3290,9 +3952,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/b91692a9d0d7-studio-wave1-20261030-bmw-m5-e60.png",
-   "full_source_sha256": "b91692a9d0d7ceee2162b13d57155a0756f144ba1b1e99689b826425cc1f7860",
-   "full_source_bytes": 8776025,
+   "full_source_url": "full/d6e1e8049ffb-studio-wave1-20261030-bmw-m5-e60.png",
+   "full_source_sha256": "d6e1e8049ffb33e403e10caff49b46efa871e88347a759e698c5d63c47d9bcb6",
+   "full_source_bytes": 8775885,
    "full_source_pixels": [
     3312,
     2480
@@ -4426,20 +5088,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-dodge-challenger-r-t-1970-2f1391a83804-current.jpg",
+   "preview": "assets/studio-wave1-20261030-dodge-challenger-r-t-1970-26af0fd1f930-current.jpg",
    "preview_pixels": [
     1600,
     1198
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/dodge-challenger-r-t-1970/final-native.png",
-   "source_sha256": "2f1391a83804b87b8b1ea1ccdd9b13c144ef8a1d639eb20e75d5047a7aa03b52",
+   "source_sha256": "26af0fd1f9308862948710df3d42b75e94b307014be01bd27c53b0f39cbb4e14",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Fixed version - 4 local fixes, 2 by the image model, USD 0.12. Still visible (harsh): the new hood pins are clean but generic (matte grey, not dull chrome; the left plate a little large for its pin); the DODGE letters on the nose read D-D-D-E-E (about 16 px each) and the 383 MAGNUM badge on the scoop is illegible (for the master, Q4); where the plate bracket was, the valance is cleaner than around it; the bumper chrome reads hammered grey. Next: the print master card (approval 2).",
+   "delivery_status": "Fixed version - 5 local fixes, 2 by the image model, USD 0.12. Still visible (harsh): the new hood pins are clean but generic (matte grey, not dull chrome; the left plate a little large for its pin); the DODGE letters on the nose read D-D-D-E-E (about 16 px each) and the 383 MAGNUM badge on the scoop is illegible (for the master, Q4); where the plate bracket was, the valance is cleaner than around it; the bumper chrome reads hammered grey. Its print master card is the one for approval 2.",
    "candidate_created_at": "2026-10-30T16:32:59.085456+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -4536,9 +5198,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/2f1391a83804-studio-wave1-20261030-dodge-challenger-r-t-1970.png",
-   "full_source_sha256": "2f1391a83804b87b8b1ea1ccdd9b13c144ef8a1d639eb20e75d5047a7aa03b52",
-   "full_source_bytes": 12317306,
+   "full_source_url": "full/26af0fd1f930-studio-wave1-20261030-dodge-challenger-r-t-1970.png",
+   "full_source_sha256": "26af0fd1f9308862948710df3d42b75e94b307014be01bd27c53b0f39cbb4e14",
+   "full_source_bytes": 12318392,
    "full_source_pixels": [
     3312,
     2480
@@ -13089,9 +13751,9 @@
   },
   {
    "key": "studio-wave1-20261030-dodge-challenger-r-t-1970",
-   "declared_sha256": "2f1391a83804b87b8b1ea1ccdd9b13c144ef8a1d639eb20e75d5047a7aa03b52",
+   "declared_sha256": "26af0fd1f9308862948710df3d42b75e94b307014be01bd27c53b0f39cbb4e14",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-dodge-challenger-r-t-1970-2f1391a83804-current.jpg",
+   "preview": "assets/studio-wave1-20261030-dodge-challenger-r-t-1970-26af0fd1f930-current.jpg",
    "pixels": [
     3312,
     2480
@@ -13149,9 +13811,9 @@
   },
   {
    "key": "studio-wave1-20261030-bmw-m5-e60",
-   "declared_sha256": "b91692a9d0d7ceee2162b13d57155a0756f144ba1b1e99689b826425cc1f7860",
+   "declared_sha256": "d6e1e8049ffb33e403e10caff49b46efa871e88347a759e698c5d63c47d9bcb6",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-bmw-m5-e60-b91692a9d0d7-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-e60-d6e1e8049ffb-current.jpg",
    "pixels": [
     3312,
     2480
@@ -13165,6 +13827,16 @@
    "pixels": [
     2480,
     3312
+   ]
+  },
+  {
+   "key": "studio-wave1-20261030-dodge-challenger-r-t-1970-master",
+   "declared_sha256": "25777c696aeee33af67d3bdc03274a8d604ce277265196f3aaad30a482363d9f",
+   "applied": true,
+   "preview": "assets/studio-wave1-20261030-dodge-challenger-r-t-1970-master-25777c696aee-current.jpg",
+   "pixels": [
+    12000,
+    9000
    ]
   },
   {
@@ -13195,6 +13867,16 @@
    "pixels": [
     9000,
     12000
+   ]
+  },
+  {
+   "key": "studio-wave1-20261030-bmw-m5-e60-master",
+   "declared_sha256": "f1a6462aa1fb317fc544ef708d9d7f60344af1c6ec39c90625cac9e10bee53ec",
+   "applied": true,
+   "preview": "assets/studio-wave1-20261030-bmw-m5-e60-master-f1a6462aa1fb-current.jpg",
+   "pixels": [
+    12000,
+    9000
    ]
   },
   {
