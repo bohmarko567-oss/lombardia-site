@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-30 18:05",
+ "built": "2026-10-30 19:08",
  "accessed_date": "2026-10-30",
  "collections": [
   "American Form",
@@ -1251,7 +1251,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Raw hero - approval 1. One 4K max generation, no fixes yet.",
+   "delivery_status": "Approved at approval 1 (30 Oct) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T17:04:28.842989+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -1457,7 +1457,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Approved at approval 1 (30 Oct 17:56) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
+   "delivery_status": "Approved at approval 1 (30 Oct) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T16:32:50.291777+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -1663,7 +1663,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Raw hero - approval 1. One 4K max generation, no fixes yet.",
+   "delivery_status": "Approved at approval 1 (30 Oct) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T17:04:33.116917+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -1866,20 +1866,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-porsche-911-carrera-3-2-ec90fad47816-current.jpg",
+   "preview": "assets/studio-wave1-20261030-porsche-911-carrera-3-2-d6edb90a3300-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/porsche-911-carrera-3-2/final-native.png",
-   "source_sha256": "ec90fad478163de787ee029670049c9dd0a84b059e3f75a99c78aa870776868c",
+   "source_sha256": "d6edb90a3300b1b6bee3f76e9e008d088bfa6ba25d27bc384750c2dc6fbd5739",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Approved at approval 1 (30 Oct 17:56) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
+   "delivery_status": "Fixed version - 3 local fixes, no model, USD 0.00. Still visible (harsh): the cleaned tyres are smooth, a little too clean next to the crisp tread; the lid crest (about 50 x 33 px) is the poster's own inset crest registered flat onto it - right design, still the softest object on the car (redrawn on the master); the headlamp glass has blotchy AI reflections inside the flutes; the side-view tyres keep faint marks seen only with a gamma lift. Next: the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T16:33:11.998735+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -1951,9 +1951,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/ec90fad47816-studio-wave1-20261030-porsche-911-carrera-3-2.png",
-   "full_source_sha256": "ec90fad478163de787ee029670049c9dd0a84b059e3f75a99c78aa870776868c",
-   "full_source_bytes": 11512098,
+   "full_source_url": "full/d6edb90a3300-studio-wave1-20261030-porsche-911-carrera-3-2.png",
+   "full_source_sha256": "d6edb90a3300b1b6bee3f76e9e008d088bfa6ba25d27bc384750c2dc6fbd5739",
+   "full_source_bytes": 10846230,
    "full_source_pixels": [
     2480,
     3312
@@ -2062,20 +2062,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-alpine-a110-2018-fca2309b7767-current.jpg",
+   "preview": "assets/studio-wave1-20261030-alpine-a110-2018-83887c932181-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/alpine-a110-2018/final-native.png",
-   "source_sha256": "fca2309b7767ab82e9968bf5d629cb1e122ccf66146dba27332e58c67394cb38",
+   "source_sha256": "83887c9321818916c9b28a874b5c6c5775224f291b581fe251f028330d5cc4f1",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Approved at approval 1 (30 Oct 17:56) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
+   "delivery_status": "Fixed version - 2 local fixes, no model, USD 0.00. Still visible (harsh): the near wheel's 3 o'clock pocket is now a plain dark void (no disc shows there); the remaining caliper spans about 100 degrees, wider than the real one; the wheel-cap emblems are an unreadable squiggle and the nuts dark recesses (for the master, Q4); the C-pillar flag badge has no blue; the tyres carry no markings at all. Next: the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T16:32:33.113226+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -2137,9 +2137,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/fca2309b7767-studio-wave1-20261030-alpine-a110-2018.png",
-   "full_source_sha256": "fca2309b7767ab82e9968bf5d629cb1e122ccf66146dba27332e58c67394cb38",
-   "full_source_bytes": 11437153,
+   "full_source_url": "full/83887c932181-studio-wave1-20261030-alpine-a110-2018.png",
+   "full_source_sha256": "83887c9321818916c9b28a874b5c6c5775224f291b581fe251f028330d5cc4f1",
+   "full_source_bytes": 10703585,
    "full_source_pixels": [
     2480,
     3312
@@ -2251,7 +2251,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Approved at approval 1 (30 Oct 17:56) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
+   "delivery_status": "Approved at approval 1 (30 Oct) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T16:33:07.622318+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -2446,7 +2446,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Approved at approval 1 (30 Oct 17:56) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
+   "delivery_status": "Approved at approval 1 (30 Oct) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T16:33:03.364802+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -2662,7 +2662,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Approved at approval 1 (30 Oct 17:56) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
+   "delivery_status": "Approved at approval 1 (30 Oct) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T16:32:59.085456+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -2868,7 +2868,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Approved at approval 1 (30 Oct 17:56) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
+   "delivery_status": "Approved at approval 1 (30 Oct) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T16:32:37.646057+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -3020,20 +3020,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-autozam-az-1-3b76dfd59c8b-current.jpg",
+   "preview": "assets/studio-wave1-20261030-autozam-az-1-3cd8b3699676-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/autozam-az-1/final-native.png",
-   "source_sha256": "3b76dfd59c8b0bee71f5ef1934762da516eee0f5a2455219ee48c3f0e170929e",
+   "source_sha256": "3cd8b3699676cff7648268dbc6a2a9f2522bdb0088254bd640689e01996d9415",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Approved at approval 1 (30 Oct 17:56) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
+   "delivery_status": "Fixed version - 2 local fixes, no model, USD 0.00. Still visible (harsh): the windscreen sticker is gone (the real car has two; the brief says none); fine crazing in the paint reflections on the bumper corners; a small grey tab with a bolt in the black grille opening, about 6 mm on the print (for the master, Q4); wheels, calipers and the side decal are hidden in this dead-on pose, so they cannot be checked. Next: the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T16:32:41.920961+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -3105,9 +3105,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/3b76dfd59c8b-studio-wave1-20261030-autozam-az-1.png",
-   "full_source_sha256": "3b76dfd59c8b0bee71f5ef1934762da516eee0f5a2455219ee48c3f0e170929e",
-   "full_source_bytes": 12088594,
+   "full_source_url": "full/3cd8b3699676-studio-wave1-20261030-autozam-az-1.png",
+   "full_source_sha256": "3cd8b3699676cff7648268dbc6a2a9f2522bdb0088254bd640689e01996d9415",
+   "full_source_bytes": 10831204,
    "full_source_pixels": [
     2480,
     3312
@@ -11229,9 +11229,9 @@
   },
   {
    "key": "studio-wave1-20261030-autozam-az-1",
-   "declared_sha256": "3b76dfd59c8b0bee71f5ef1934762da516eee0f5a2455219ee48c3f0e170929e",
+   "declared_sha256": "3cd8b3699676cff7648268dbc6a2a9f2522bdb0088254bd640689e01996d9415",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-autozam-az-1-3b76dfd59c8b-current.jpg",
+   "preview": "assets/studio-wave1-20261030-autozam-az-1-3cd8b3699676-current.jpg",
    "pixels": [
     2480,
     3312
@@ -11279,9 +11279,9 @@
   },
   {
    "key": "studio-wave1-20261030-alpine-a110-2018",
-   "declared_sha256": "fca2309b7767ab82e9968bf5d629cb1e122ccf66146dba27332e58c67394cb38",
+   "declared_sha256": "83887c9321818916c9b28a874b5c6c5775224f291b581fe251f028330d5cc4f1",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-alpine-a110-2018-fca2309b7767-current.jpg",
+   "preview": "assets/studio-wave1-20261030-alpine-a110-2018-83887c932181-current.jpg",
    "pixels": [
     2480,
     3312
@@ -11289,9 +11289,9 @@
   },
   {
    "key": "studio-wave1-20261030-porsche-911-carrera-3-2",
-   "declared_sha256": "ec90fad478163de787ee029670049c9dd0a84b059e3f75a99c78aa870776868c",
+   "declared_sha256": "d6edb90a3300b1b6bee3f76e9e008d088bfa6ba25d27bc384750c2dc6fbd5739",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-porsche-911-carrera-3-2-ec90fad47816-current.jpg",
+   "preview": "assets/studio-wave1-20261030-porsche-911-carrera-3-2-d6edb90a3300-current.jpg",
    "pixels": [
     2480,
     3312
