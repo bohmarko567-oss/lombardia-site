@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-30 19:50",
+ "built": "2026-10-30 20:06",
  "accessed_date": "2026-10-30",
  "collections": [
   "American Form",
@@ -1238,20 +1238,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-v2-0f0787bdba20-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-v2-c4e5d49742e9-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/bmw-m5-e39-v2/final-native.png",
-   "source_sha256": "0f0787bdba2004cba7fe0df3fc64295138ce8b2492f2a57936d185bc0d8bd3c1",
+   "source_sha256": "c4e5d49742e9f3a541385db074c5cabd72da37c169d3c284f2c3a3efbcb4494d",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Approved at approval 1 (30 Oct) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
+   "delivery_status": "Fixed version - 3 local fixes, no model, USD 0.00. Still visible (harsh): the bonnet roundel's B M W letters are garbled (about 12 px; for the master, Q4), the one badge visibly wrong at 100 %; the near wheel cap is a blob, and the ten double spokes and five bolts cannot be proven in this pose; the cleaned sidewall is a little waxy; the polished rim lip is blown near white; the headlamp glass carries blotchy AI refractions. Next: the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T17:04:28.842989+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -1328,9 +1328,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/0f0787bdba20-studio-wave1-20261030-bmw-m5-e39-v2.png",
-   "full_source_sha256": "0f0787bdba2004cba7fe0df3fc64295138ce8b2492f2a57936d185bc0d8bd3c1",
-   "full_source_bytes": 10610400,
+   "full_source_url": "full/c4e5d49742e9-studio-wave1-20261030-bmw-m5-e39-v2.png",
+   "full_source_sha256": "c4e5d49742e9f3a541385db074c5cabd72da37c169d3c284f2c3a3efbcb4494d",
+   "full_source_bytes": 10096897,
    "full_source_pixels": [
     2480,
     3312
@@ -1650,20 +1650,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-v2-5935af35374f-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-v2-04ba2deebb8f-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/bmw-m5-touring-e61-v2/final-native.png",
-   "source_sha256": "5935af35374f36bee6adf9e875853ee35d9a6f1e5e85be4fa4b6ab8e9c5358e1",
+   "source_sha256": "04ba2deebb8f2a5f133b0ab83adc894393defc49abc37cf3910fbbf5d966d777",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Approved at approval 1 (30 Oct) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
+   "delivery_status": "Fixed version - 1 local fix, no model, USD 0.00. Still visible (harsh): the bonnet roundel's letters are garbled (8-9 px) and the gill badge's M5 is soft (for the master, Q4); the cockpit is left-hand drive while the real UK car is right-hand drive; the brake discs are plain (the real ones are cross-drilled); the lower road has an AI motion-streak texture and the car casts a hard sunlit shadow although the sun stays below the trees; the cleaned sidewall is a little waxy. Next: the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T17:04:33.116917+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -1745,9 +1745,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/5935af35374f-studio-wave1-20261030-bmw-m5-touring-e61-v2.png",
-   "full_source_sha256": "5935af35374f36bee6adf9e875853ee35d9a6f1e5e85be4fa4b6ab8e9c5358e1",
-   "full_source_bytes": 12370760,
+   "full_source_url": "full/04ba2deebb8f-studio-wave1-20261030-bmw-m5-touring-e61-v2.png",
+   "full_source_sha256": "04ba2deebb8f2a5f133b0ab83adc894393defc49abc37cf3910fbbf5d966d777",
+   "full_source_bytes": 11486455,
    "full_source_pixels": [
     2480,
     3312
@@ -11383,9 +11383,9 @@
   },
   {
    "key": "studio-wave1-20261030-bmw-m5-touring-e61-v2",
-   "declared_sha256": "5935af35374f36bee6adf9e875853ee35d9a6f1e5e85be4fa4b6ab8e9c5358e1",
+   "declared_sha256": "04ba2deebb8f2a5f133b0ab83adc894393defc49abc37cf3910fbbf5d966d777",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-v2-5935af35374f-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-v2-04ba2deebb8f-current.jpg",
    "pixels": [
     2480,
     3312
@@ -11403,9 +11403,9 @@
   },
   {
    "key": "studio-wave1-20261030-bmw-m5-e39-v2",
-   "declared_sha256": "0f0787bdba2004cba7fe0df3fc64295138ce8b2492f2a57936d185bc0d8bd3c1",
+   "declared_sha256": "c4e5d49742e9f3a541385db074c5cabd72da37c169d3c284f2c3a3efbcb4494d",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-v2-0f0787bdba20-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-v2-c4e5d49742e9-current.jpg",
    "pixels": [
     2480,
     3312
