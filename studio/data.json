@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-30 23:32",
+ "built": "2026-10-30 23:45",
  "accessed_date": "2026-10-30",
  "collections": [
   "American Form",
@@ -2071,6 +2071,922 @@
    }
   },
   {
+   "key": "studio-wave1-20261030-porsche-911-carrera-3-2-master",
+   "name": "Porsche 911 Carrera 3.2 - print master M3 (workflow B)",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-wave1-20261030-porsche-911-carrera-3-2-master-2a412241465c-current.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_file": "pipeline/studio-wave1-20261030/q2/masters/porsche-911-carrera-3-2/porsche-911-carrera-3-2-M3-9000x12000.jpg",
+   "source_sha256": "2a412241465ccecf6580aa6cd94123210c1a0e5bfb2e77b763b6c3703d7e26e7",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Print master M3 - approval 2, the last: after your word the lot runs to Etsy. 9000 x 12000, 8 master-scale fixes; cost USD 1.76 (upscale 0.56, master fixes 1.20). Still visible (harsh): the lid crest's STUTTGART is a row of marks at 300 % (PORSCHE reads), and the crest is crisper than the paint around it at 300 %; the five cap crests stand upright (on the real car they turn with the wheel) with bright gold rings, and on the small side-view caps STUTTGART is a smudge at 300 %; the cleaned tyre bands look smoother than the rest of the sidewall from 200 %; the headlamp glass (main car and inset) keeps blotchy AI reflections inside the flutes (200 %); a 35 px spiral on the inset fog-lamp surround reads as a fastener at 100 %.",
+   "candidate_created_at": "2026-10-30T22:40:14+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "d8688ba7-6fc3-4866-8d0c-03d81592f0a7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-30T16:28:48.607762+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d8688ba7-6fc3-4866-8d0c-03d81592f0a7_0308b7d5.png",
+     "page_url": "https://muapi.ai/predictions/d8688ba7-6fc3-4866-8d0c-03d81592f0a7",
+     "references": [
+      {
+       "role": "Front three-quarter from the right front corner: whole-car proportions, the round headlamps, the bumper with its black rubber strip, the chin spoiler, the whale-tail spoiler, the Fuchs wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/9848d86c59b943ae91672d7b0b142983.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Front three-quarter from the left front corner: the front lid with its crest, the headlamps, the front wings, the left flank",
+       "url": "https://cdn.muapi.ai/outputs/generated/c789c9216c4240cb9cc33d10c1e0b61e.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Straight front: the front lid, both round headlamps, the bumper with the indicators and fog lamps, the black chin spoiler",
+       "url": "https://cdn.muapi.ai/outputs/generated/c50a21058140436985d7aa6086a1b1cd.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Side view (right side): the 911 roof line, the wheelbase, the whale-tail spoiler, the Fuchs wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/6359d3a7744e4475bf7f507d76b021f8.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "The Porsche crest on the front lid, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/7a4cf0df97804b5b95cfc97f84b6b148.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Headlamp close-up: the round headlamp with its glass and chrome ring in the body-colour wing",
+       "url": "https://cdn.muapi.ai/outputs/generated/c48075111d094511b03e1dfa64e3fbf8.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Front bumper close-up: the amber indicator, the rectangular fog lamp, the black rubber strip and the black bellows",
+       "url": "https://cdn.muapi.ai/outputs/generated/cda73f9bf61447428ef9fd53468584a7.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Front wheel close-up: the five-spoke Fuchs forged wheel, black centre, polished rim and spoke faces, the crest centre cap",
+       "url": "https://cdn.muapi.ai/outputs/generated/3faa0abbfff14592a483fc09c538a9c5.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "The door mirror in body colour",
+       "url": "https://cdn.muapi.ai/outputs/generated/5c494d7bd66f4220853e871c2a0d7c0a.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "The windscreen and the cabin seen through it: the black seats with red piping, the dashboard",
+       "url": "https://cdn.muapi.ai/outputs/generated/eb261f2d865a4d8ebaa49c85f7b20bac.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      }
+     ]
+    },
+    {
+     "role": "upscale",
+     "request_id": "9075db8a-63df-4264-8f3d-fd5f94b8974a",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-30T18:06:29.103205+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9075db8a-63df-4264-8f3d-fd5f94b8974a_a4b09087.png",
+     "page_url": "https://muapi.ai/predictions/9075db8a-63df-4264-8f3d-fd5f94b8974a",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "848f474f-ecd4-4aae-a4af-ea6fbd34f3cc",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:07:59.372662+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/848f474f-ecd4-4aae-a4af-ea6fbd34f3cc_eb59be04.png",
+     "page_url": "https://muapi.ai/predictions/848f474f-ecd4-4aae-a4af-ea6fbd34f3cc",
+     "target_id": "lid",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "a557f738-d31f-4c25-aee2-dd2584b7b59c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:08:02.927232+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a557f738-d31f-4c25-aee2-dd2584b7b59c_0bde2800.png",
+     "page_url": "https://muapi.ai/predictions/a557f738-d31f-4c25-aee2-dd2584b7b59c",
+     "target_id": "capI4",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "117f873e-b011-4dde-b6f2-2d73b5fe32bc",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:08:06.474799+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/117f873e-b011-4dde-b6f2-2d73b5fe32bc_debd881a.png",
+     "page_url": "https://muapi.ai/predictions/117f873e-b011-4dde-b6f2-2d73b5fe32bc",
+     "target_id": "capNF",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "fb1aee7b-b0cd-42f1-aaf0-9d6a141542a2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:08:09.479166+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/fb1aee7b-b0cd-42f1-aaf0-9d6a141542a2_91a46425.png",
+     "page_url": "https://muapi.ai/predictions/fb1aee7b-b0cd-42f1-aaf0-9d6a141542a2",
+     "target_id": "capNR",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "d15f357a-cbec-4024-a0e3-1541a14dbd8f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:08:12.898192+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d15f357a-cbec-4024-a0e3-1541a14dbd8f_6f8c6fbe.png",
+     "page_url": "https://muapi.ai/predictions/d15f357a-cbec-4024-a0e3-1541a14dbd8f",
+     "target_id": "capSR",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "13db215e-7211-44f3-a736-47b3d56445d1",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:08:16.315635+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/13db215e-7211-44f3-a736-47b3d56445d1_3f2779e5.png",
+     "page_url": "https://muapi.ai/predictions/13db215e-7211-44f3-a736-47b3d56445d1",
+     "target_id": "capSF",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "3569818d-39b8-4f34-9f57-84c2064c1ae9",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:08:20.846449+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/3569818d-39b8-4f34-9f57-84c2064c1ae9_9568c837.png",
+     "page_url": "https://muapi.ai/predictions/3569818d-39b8-4f34-9f57-84c2064c1ae9",
+     "target_id": "lid",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "9a0a5c6c-878e-49fa-ae10-2c1bed82513e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:08:24.218763+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9a0a5c6c-878e-49fa-ae10-2c1bed82513e_2ddabcc3.png",
+     "page_url": "https://muapi.ai/predictions/9a0a5c6c-878e-49fa-ae10-2c1bed82513e",
+     "target_id": "capI4",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "fc06185a-f3c1-4037-969a-7c68e388a792",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:08:27.845618+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/fc06185a-f3c1-4037-969a-7c68e388a792_b574a8c0.png",
+     "page_url": "https://muapi.ai/predictions/fc06185a-f3c1-4037-969a-7c68e388a792",
+     "target_id": "capNF",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "6a8dd569-d427-45cb-9c18-f5f4b5763b30",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:08:31.460004+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6a8dd569-d427-45cb-9c18-f5f4b5763b30_eb34a424.png",
+     "page_url": "https://muapi.ai/predictions/6a8dd569-d427-45cb-9c18-f5f4b5763b30",
+     "target_id": "capNR",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "baa9a6f4-4df6-481d-8a9e-7a875c7c3f1c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:08:35.146074+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/baa9a6f4-4df6-481d-8a9e-7a875c7c3f1c_3b63d5f4.png",
+     "page_url": "https://muapi.ai/predictions/baa9a6f4-4df6-481d-8a9e-7a875c7c3f1c",
+     "target_id": "capSR",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "470f840e-9b5e-450a-a780-9372a114d258",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:08:38.810582+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/470f840e-9b5e-450a-a780-9372a114d258_1ddb416c.png",
+     "page_url": "https://muapi.ai/predictions/470f840e-9b5e-450a-a780-9372a114d258",
+     "target_id": "capSF",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Sport / Leicht",
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
+   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
+   "full_source_url": "full/2a412241465c-studio-wave1-20261030-porsche-911-carrera-3-2-master.jpg",
+   "full_source_sha256": "2a412241465ccecf6580aa6cd94123210c1a0e5bfb2e77b763b6c3703d7e26e7",
+   "full_source_bytes": 24737232,
+   "full_source_pixels": [
+    9000,
+    12000
+   ],
+   "full_source_kind": "exact_current_jpg",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Suggestion only.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "d8688ba7-6fc3-4866-8d0c-03d81592f0a7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T16:28:48.607762+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d8688ba7-6fc3-4866-8d0c-03d81592f0a7_0308b7d5.png",
+     "page_url": "https://muapi.ai/predictions/d8688ba7-6fc3-4866-8d0c-03d81592f0a7",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the right front corner: whole-car proportions, the round headlamps, the bumper with its black rubber strip, the chin spoiler, the whale-tail spoiler, the Fuchs wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/9848d86c59b943ae91672d7b0b142983.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Front three-quarter from the left front corner: the front lid with its crest, the headlamps, the front wings, the left flank",
+       "url": "https://cdn.muapi.ai/outputs/generated/c789c9216c4240cb9cc33d10c1e0b61e.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Straight front: the front lid, both round headlamps, the bumper with the indicators and fog lamps, the black chin spoiler",
+       "url": "https://cdn.muapi.ai/outputs/generated/c50a21058140436985d7aa6086a1b1cd.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Side view (right side): the 911 roof line, the wheelbase, the whale-tail spoiler, the Fuchs wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/6359d3a7744e4475bf7f507d76b021f8.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "The Porsche crest on the front lid, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/7a4cf0df97804b5b95cfc97f84b6b148.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Headlamp close-up: the round headlamp with its glass and chrome ring in the body-colour wing",
+       "url": "https://cdn.muapi.ai/outputs/generated/c48075111d094511b03e1dfa64e3fbf8.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Front bumper close-up: the amber indicator, the rectangular fog lamp, the black rubber strip and the black bellows",
+       "url": "https://cdn.muapi.ai/outputs/generated/cda73f9bf61447428ef9fd53468584a7.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "Front wheel close-up: the five-spoke Fuchs forged wheel, black centre, polished rim and spoke faces, the crest centre cap",
+       "url": "https://cdn.muapi.ai/outputs/generated/3faa0abbfff14592a483fc09c538a9c5.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "The door mirror in body colour",
+       "url": "https://cdn.muapi.ai/outputs/generated/5c494d7bd66f4220853e871c2a0d7c0a.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      },
+      {
+       "role": "The windscreen and the cabin seen through it: the black seats with red piping, the dashboard",
+       "url": "https://cdn.muapi.ai/outputs/generated/eb261f2d865a4d8ebaa49c85f7b20bac.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1988-porsche-911-carrera-3-2-sport-1"
+      }
+     ],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "upscale",
+     "request_id": "9075db8a-63df-4264-8f3d-fd5f94b8974a",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-30T18:06:29.103205+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9075db8a-63df-4264-8f3d-fd5f94b8974a_a4b09087.png",
+     "page_url": "https://muapi.ai/predictions/9075db8a-63df-4264-8f3d-fd5f94b8974a",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "848f474f-ecd4-4aae-a4af-ea6fbd34f3cc",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:07:59.372662+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/848f474f-ecd4-4aae-a4af-ea6fbd34f3cc_eb59be04.png",
+     "page_url": "https://muapi.ai/predictions/848f474f-ecd4-4aae-a4af-ea6fbd34f3cc",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "a557f738-d31f-4c25-aee2-dd2584b7b59c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:08:02.927232+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a557f738-d31f-4c25-aee2-dd2584b7b59c_0bde2800.png",
+     "page_url": "https://muapi.ai/predictions/a557f738-d31f-4c25-aee2-dd2584b7b59c",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "117f873e-b011-4dde-b6f2-2d73b5fe32bc",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:08:06.474799+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/117f873e-b011-4dde-b6f2-2d73b5fe32bc_debd881a.png",
+     "page_url": "https://muapi.ai/predictions/117f873e-b011-4dde-b6f2-2d73b5fe32bc",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "fb1aee7b-b0cd-42f1-aaf0-9d6a141542a2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:08:09.479166+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/fb1aee7b-b0cd-42f1-aaf0-9d6a141542a2_91a46425.png",
+     "page_url": "https://muapi.ai/predictions/fb1aee7b-b0cd-42f1-aaf0-9d6a141542a2",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "d15f357a-cbec-4024-a0e3-1541a14dbd8f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:08:12.898192+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d15f357a-cbec-4024-a0e3-1541a14dbd8f_6f8c6fbe.png",
+     "page_url": "https://muapi.ai/predictions/d15f357a-cbec-4024-a0e3-1541a14dbd8f",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "13db215e-7211-44f3-a736-47b3d56445d1",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:08:16.315635+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/13db215e-7211-44f3-a736-47b3d56445d1_3f2779e5.png",
+     "page_url": "https://muapi.ai/predictions/13db215e-7211-44f3-a736-47b3d56445d1",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "3569818d-39b8-4f34-9f57-84c2064c1ae9",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:08:20.846449+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/3569818d-39b8-4f34-9f57-84c2064c1ae9_9568c837.png",
+     "page_url": "https://muapi.ai/predictions/3569818d-39b8-4f34-9f57-84c2064c1ae9",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "9a0a5c6c-878e-49fa-ae10-2c1bed82513e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:08:24.218763+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9a0a5c6c-878e-49fa-ae10-2c1bed82513e_2ddabcc3.png",
+     "page_url": "https://muapi.ai/predictions/9a0a5c6c-878e-49fa-ae10-2c1bed82513e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "fc06185a-f3c1-4037-969a-7c68e388a792",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:08:27.845618+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/fc06185a-f3c1-4037-969a-7c68e388a792_b574a8c0.png",
+     "page_url": "https://muapi.ai/predictions/fc06185a-f3c1-4037-969a-7c68e388a792",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "6a8dd569-d427-45cb-9c18-f5f4b5763b30",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:08:31.460004+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6a8dd569-d427-45cb-9c18-f5f4b5763b30_eb34a424.png",
+     "page_url": "https://muapi.ai/predictions/6a8dd569-d427-45cb-9c18-f5f4b5763b30",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "baa9a6f4-4df6-481d-8a9e-7a875c7c3f1c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:08:35.146074+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/baa9a6f4-4df6-481d-8a9e-7a875c7c3f1c_3b63d5f4.png",
+     "page_url": "https://muapi.ai/predictions/baa9a6f4-4df6-481d-8a9e-7a875c7c3f1c",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "470f840e-9b5e-450a-a780-9372a114d258",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:08:38.810582+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/470f840e-9b5e-450a-a780-9372a114d258_1ddb416c.png",
+     "page_url": "https://muapi.ai/predictions/470f840e-9b5e-450a-a780-9372a114d258",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-30T16:28:48.607762+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-30T22:40:14+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-wave1-20261030-alpine-a110-2018-master",
+   "name": "Alpine A110 (2018) - print master M2 (workflow B)",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-wave1-20261030-alpine-a110-2018-master-0d70b75b19f3-current.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_file": "pipeline/studio-wave1-20261030/q2/masters/alpine-a110-2018/alpine-a110-2018-M2-9000x12000.jpg",
+   "source_sha256": "0d70b75b19f3b6924c24a6e8f1b22a83eb0ee97510303c3a93ffa3a85964e760",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Print master M2 - approval 2, the last: after your word the lot runs to Etsy. 9000 x 12000, 6 master-scale fixes; cost USD 1.76 (upscale 0.56, master fixes 1.20). Still visible (harsh): the five new wheel nuts are not evenly spaced (the two upper ones about 55 degrees apart, the real 72; seen at 200 %); the new A and nuts are cleaner than the softer spokes at 300 %; the cap A's stand upright (the real one turns with the wheel); the repeater a little bright for a night shot; from the native pass: the near wheel's 3 o'clock pocket a dark void, the remaining caliper in three fragments, the tyres with no markings at all.",
+   "candidate_created_at": "2026-10-30T22:40:20+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "a0db3a0a-646d-48ad-87a5-870a0f72ee1a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-30T16:27:58.686104+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a0db3a0a-646d-48ad-87a5-870a0f72ee1a_4f2c2fca.png",
+     "page_url": "https://muapi.ai/predictions/a0db3a0a-646d-48ad-87a5-870a0f72ee1a",
+     "references": [
+      {
+       "role": "Front three-quarter from the right front corner: whole-car proportions, the rounded nose, the front lamps, the bonnet, the right flank and the wheels (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/785e03d0e08a46b798eb3ff649078fe9.jpg",
+       "source_page": "https://rmsothebys.com/auctions/pa21/lots/r0070-2019-alpine-a110-premiere-edition/"
+      },
+      {
+       "role": "Front three-quarter, low: the nose, the lamps, the lower grille",
+       "url": "https://cdn.muapi.ai/outputs/generated/aa69f1e393c94db2ba872587da999dcf.jpg",
+       "source_page": "https://rmsothebys.com/auctions/pa21/lots/r0070-2019-alpine-a110-premiere-edition/"
+      },
+      {
+       "role": "Straight front: the headlamps and the round inner lamps, the spaced ALPINE letters across the nose, the lower grille",
+       "url": "https://cdn.muapi.ai/outputs/generated/28211f47970c4a98a76a526e454dc2b1.jpg",
+       "source_page": "https://rmsothebys.com/auctions/pa21/lots/r0070-2019-alpine-a110-premiere-edition/"
+      },
+      {
+       "role": "Side view: the proportions, the low rounded roof, the wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/generated/270f65a0cd1c4f0c9968c5e0006de16c.jpg",
+       "source_page": "https://rmsothebys.com/auctions/pa21/lots/r0070-2019-alpine-a110-premiere-edition/"
+      },
+      {
+       "role": "Front wheel close-up: the twin five-spoke Otto Fuchs wheel in matt black with diamond-cut faces, the blue brake caliper",
+       "url": "https://cdn.muapi.ai/outputs/generated/e09bd392a6264d0485ef5adcd1246b27.jpg",
+       "source_page": "https://rmsothebys.com/auctions/pa21/lots/r0070-2019-alpine-a110-premiere-edition/"
+      },
+      {
+       "role": "Headlamp close-up (a second car of the same model): the LED headlamp with its light signature and the round inner lamp",
+       "url": "https://cdn.muapi.ai/outputs/generated/ab5ac4163f5c45f89750ada7fc7caf7b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2018-alpine-a110"
+      },
+      {
+       "role": "The small A emblem on the front wing, close-up (a second car of the same model)",
+       "url": "https://cdn.muapi.ai/outputs/generated/1c11b7c635d14ee8933160dc71e3be20.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2018-alpine-a110"
+      },
+      {
+       "role": "Lettering close-up (a second car of the same model): the car's own wide-spaced ALPINE letters across its nose; the model for the A110 lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/a12522fc0e784d119b7da8b586e60c4d.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2018-alpine-a110"
+      }
+     ]
+    },
+    {
+     "role": "upscale",
+     "request_id": "898256e4-2afb-43d7-880b-3d1aeb0e4434",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-30T17:57:04.496570+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/898256e4-2afb-43d7-880b-3d1aeb0e4434_d9c3934d.png",
+     "page_url": "https://muapi.ai/predictions/898256e4-2afb-43d7-880b-3d1aeb0e4434",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "d11a8c46-a43a-44d2-bd19-d00374a1407b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:10:58.129546+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d11a8c46-a43a-44d2-bd19-d00374a1407b_4fb981be.png",
+     "page_url": "https://muapi.ai/predictions/d11a8c46-a43a-44d2-bd19-d00374a1407b",
+     "target_id": "wc",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "0f2ddb5f-b1f1-45f7-b50e-94fdb7c908a3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:11:01.635798+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0f2ddb5f-b1f1-45f7-b50e-94fdb7c908a3_69c1155c.png",
+     "page_url": "https://muapi.ai/predictions/0f2ddb5f-b1f1-45f7-b50e-94fdb7c908a3",
+     "target_id": "farcap",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "0ab4e666-fbd6-4f8b-a2e3-cf5da4223005",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:11:05.314239+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0ab4e666-fbd6-4f8b-a2e3-cf5da4223005_d72bc225.png",
+     "page_url": "https://muapi.ai/predictions/0ab4e666-fbd6-4f8b-a2e3-cf5da4223005",
+     "target_id": "flag",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "56021e35-5ba9-485e-9f75-e46d00e06da6",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:11:09.122785+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/56021e35-5ba9-485e-9f75-e46d00e06da6_19eb4d9c.png",
+     "page_url": "https://muapi.ai/predictions/56021e35-5ba9-485e-9f75-e46d00e06da6",
+     "target_id": "rep",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "0df0d823-0cd8-405b-a014-14e576ddb6d8",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:11:14.496899+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0df0d823-0cd8-405b-a014-14e576ddb6d8_3d73cae6.png",
+     "page_url": "https://muapi.ai/predictions/0df0d823-0cd8-405b-a014-14e576ddb6d8",
+     "target_id": "wc",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "5d1ea514-ba21-4997-89ab-825a7f271857",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:11:18.054210+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5d1ea514-ba21-4997-89ab-825a7f271857_c8fc4d25.png",
+     "page_url": "https://muapi.ai/predictions/5d1ea514-ba21-4997-89ab-825a7f271857",
+     "target_id": "farcap",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "06f16edd-ca4f-4638-b1f0-2595c801375e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:11:21.774971+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/06f16edd-ca4f-4638-b1f0-2595c801375e_f7be386b.png",
+     "page_url": "https://muapi.ai/predictions/06f16edd-ca4f-4638-b1f0-2595c801375e",
+     "target_id": "flag",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "55f12db4-a263-4d8b-b475-acca39459d04",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:11:25.488897+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/55f12db4-a263-4d8b-b475-acca39459d04_d2bf4d57.png",
+     "page_url": "https://muapi.ai/predictions/55f12db4-a263-4d8b-b475-acca39459d04",
+     "target_id": "rep",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "d04820b5-b0c7-43d0-8042-effb6fa03d57",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:24:32.552185+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d04820b5-b0c7-43d0-8042-effb6fa03d57_953b05f5.png",
+     "page_url": "https://muapi.ai/predictions/d04820b5-b0c7-43d0-8042-effb6fa03d57",
+     "target_id": "legend",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "bf50e7a8-9884-4fa7-a470-e5334eed4cb6",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:24:36.101221+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/bf50e7a8-9884-4fa7-a470-e5334eed4cb6_8c223045.png",
+     "page_url": "https://muapi.ai/predictions/bf50e7a8-9884-4fa7-a470-e5334eed4cb6",
+     "target_id": "legend",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "96f0a8da-b510-4373-93de-b630cd8b7bf4",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:25:40.799761+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/96f0a8da-b510-4373-93de-b630cd8b7bf4_a728e4d4.png",
+     "page_url": "https://muapi.ai/predictions/96f0a8da-b510-4373-93de-b630cd8b7bf4",
+     "target_id": "nut5",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "4652bc30-b6ef-4b65-a7da-572f6f19191f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:25:44.414811+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4652bc30-b6ef-4b65-a7da-572f6f19191f_a6ff0573.png",
+     "page_url": "https://muapi.ai/predictions/4652bc30-b6ef-4b65-a7da-572f6f19191f",
+     "target_id": "nut5",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Sport / Leicht",
+    "why": "Brief: DIRECTED C30 - the famous road at night: the mountain pass and the night stage the name was made on. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
+   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
+   "full_source_url": "full/0d70b75b19f3-studio-wave1-20261030-alpine-a110-2018-master.jpg",
+   "full_source_sha256": "0d70b75b19f3b6924c24a6e8f1b22a83eb0ee97510303c3a93ffa3a85964e760",
+   "full_source_bytes": 23943871,
+   "full_source_pixels": [
+    9000,
+    12000
+   ],
+   "full_source_kind": "exact_current_jpg",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: DIRECTED C30 - the famous road at night: the mountain pass and the night stage the name was made on. Suggestion only.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "a0db3a0a-646d-48ad-87a5-870a0f72ee1a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T16:27:58.686104+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a0db3a0a-646d-48ad-87a5-870a0f72ee1a_4f2c2fca.png",
+     "page_url": "https://muapi.ai/predictions/a0db3a0a-646d-48ad-87a5-870a0f72ee1a",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the right front corner: whole-car proportions, the rounded nose, the front lamps, the bonnet, the right flank and the wheels (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/785e03d0e08a46b798eb3ff649078fe9.jpg",
+       "source_page": "https://rmsothebys.com/auctions/pa21/lots/r0070-2019-alpine-a110-premiere-edition/"
+      },
+      {
+       "role": "Front three-quarter, low: the nose, the lamps, the lower grille",
+       "url": "https://cdn.muapi.ai/outputs/generated/aa69f1e393c94db2ba872587da999dcf.jpg",
+       "source_page": "https://rmsothebys.com/auctions/pa21/lots/r0070-2019-alpine-a110-premiere-edition/"
+      },
+      {
+       "role": "Straight front: the headlamps and the round inner lamps, the spaced ALPINE letters across the nose, the lower grille",
+       "url": "https://cdn.muapi.ai/outputs/generated/28211f47970c4a98a76a526e454dc2b1.jpg",
+       "source_page": "https://rmsothebys.com/auctions/pa21/lots/r0070-2019-alpine-a110-premiere-edition/"
+      },
+      {
+       "role": "Side view: the proportions, the low rounded roof, the wheelbase",
+       "url": "https://cdn.muapi.ai/outputs/generated/270f65a0cd1c4f0c9968c5e0006de16c.jpg",
+       "source_page": "https://rmsothebys.com/auctions/pa21/lots/r0070-2019-alpine-a110-premiere-edition/"
+      },
+      {
+       "role": "Front wheel close-up: the twin five-spoke Otto Fuchs wheel in matt black with diamond-cut faces, the blue brake caliper",
+       "url": "https://cdn.muapi.ai/outputs/generated/e09bd392a6264d0485ef5adcd1246b27.jpg",
+       "source_page": "https://rmsothebys.com/auctions/pa21/lots/r0070-2019-alpine-a110-premiere-edition/"
+      },
+      {
+       "role": "Headlamp close-up (a second car of the same model): the LED headlamp with its light signature and the round inner lamp",
+       "url": "https://cdn.muapi.ai/outputs/generated/ab5ac4163f5c45f89750ada7fc7caf7b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2018-alpine-a110"
+      },
+      {
+       "role": "The small A emblem on the front wing, close-up (a second car of the same model)",
+       "url": "https://cdn.muapi.ai/outputs/generated/1c11b7c635d14ee8933160dc71e3be20.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2018-alpine-a110"
+      },
+      {
+       "role": "Lettering close-up (a second car of the same model): the car's own wide-spaced ALPINE letters across its nose; the model for the A110 lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/a12522fc0e784d119b7da8b586e60c4d.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2018-alpine-a110"
+      }
+     ],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "upscale",
+     "request_id": "898256e4-2afb-43d7-880b-3d1aeb0e4434",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-30T17:57:04.496570+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/898256e4-2afb-43d7-880b-3d1aeb0e4434_d9c3934d.png",
+     "page_url": "https://muapi.ai/predictions/898256e4-2afb-43d7-880b-3d1aeb0e4434",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "d11a8c46-a43a-44d2-bd19-d00374a1407b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:10:58.129546+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d11a8c46-a43a-44d2-bd19-d00374a1407b_4fb981be.png",
+     "page_url": "https://muapi.ai/predictions/d11a8c46-a43a-44d2-bd19-d00374a1407b",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "0f2ddb5f-b1f1-45f7-b50e-94fdb7c908a3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:11:01.635798+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0f2ddb5f-b1f1-45f7-b50e-94fdb7c908a3_69c1155c.png",
+     "page_url": "https://muapi.ai/predictions/0f2ddb5f-b1f1-45f7-b50e-94fdb7c908a3",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "0ab4e666-fbd6-4f8b-a2e3-cf5da4223005",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:11:05.314239+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0ab4e666-fbd6-4f8b-a2e3-cf5da4223005_d72bc225.png",
+     "page_url": "https://muapi.ai/predictions/0ab4e666-fbd6-4f8b-a2e3-cf5da4223005",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "56021e35-5ba9-485e-9f75-e46d00e06da6",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:11:09.122785+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/56021e35-5ba9-485e-9f75-e46d00e06da6_19eb4d9c.png",
+     "page_url": "https://muapi.ai/predictions/56021e35-5ba9-485e-9f75-e46d00e06da6",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "0df0d823-0cd8-405b-a014-14e576ddb6d8",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:11:14.496899+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0df0d823-0cd8-405b-a014-14e576ddb6d8_3d73cae6.png",
+     "page_url": "https://muapi.ai/predictions/0df0d823-0cd8-405b-a014-14e576ddb6d8",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "5d1ea514-ba21-4997-89ab-825a7f271857",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:11:18.054210+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5d1ea514-ba21-4997-89ab-825a7f271857_c8fc4d25.png",
+     "page_url": "https://muapi.ai/predictions/5d1ea514-ba21-4997-89ab-825a7f271857",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "06f16edd-ca4f-4638-b1f0-2595c801375e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:11:21.774971+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/06f16edd-ca4f-4638-b1f0-2595c801375e_f7be386b.png",
+     "page_url": "https://muapi.ai/predictions/06f16edd-ca4f-4638-b1f0-2595c801375e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "55f12db4-a263-4d8b-b475-acca39459d04",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:11:25.488897+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/55f12db4-a263-4d8b-b475-acca39459d04_d2bf4d57.png",
+     "page_url": "https://muapi.ai/predictions/55f12db4-a263-4d8b-b475-acca39459d04",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "d04820b5-b0c7-43d0-8042-effb6fa03d57",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:24:32.552185+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d04820b5-b0c7-43d0-8042-effb6fa03d57_953b05f5.png",
+     "page_url": "https://muapi.ai/predictions/d04820b5-b0c7-43d0-8042-effb6fa03d57",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "bf50e7a8-9884-4fa7-a470-e5334eed4cb6",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:24:36.101221+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/bf50e7a8-9884-4fa7-a470-e5334eed4cb6_8c223045.png",
+     "page_url": "https://muapi.ai/predictions/bf50e7a8-9884-4fa7-a470-e5334eed4cb6",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "96f0a8da-b510-4373-93de-b630cd8b7bf4",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:25:40.799761+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/96f0a8da-b510-4373-93de-b630cd8b7bf4_a728e4d4.png",
+     "page_url": "https://muapi.ai/predictions/96f0a8da-b510-4373-93de-b630cd8b7bf4",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "4652bc30-b6ef-4b65-a7da-572f6f19191f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:25:44.414811+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4652bc30-b6ef-4b65-a7da-572f6f19191f_a6ff0573.png",
+     "page_url": "https://muapi.ai/predictions/4652bc30-b6ef-4b65-a7da-572f6f19191f",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-30T16:27:58.686104+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-30T22:40:20+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
    "key": "studio-wave1-20261030-bmw-m5-e39-v2",
    "name": "BMW M5 (E39) - DIRECTED",
    "notion_url": null,
@@ -2706,20 +3622,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-porsche-911-carrera-3-2-d6edb90a3300-current.jpg",
+   "preview": "assets/studio-wave1-20261030-porsche-911-carrera-3-2-564c4b7a242b-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/porsche-911-carrera-3-2/final-native.png",
-   "source_sha256": "d6edb90a3300b1b6bee3f76e9e008d088bfa6ba25d27bc384750c2dc6fbd5739",
+   "source_sha256": "564c4b7a242bb84b397eba5ad4a164c1b1700862cde008b8b80ace3dda6865ed",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Fixed version - 3 local fixes, no model, USD 0.00. Still visible (harsh): the cleaned tyres are smooth, a little too clean next to the crisp tread; the lid crest (about 50 x 33 px) is the poster's own inset crest registered flat onto it - right design, still the softest object on the car (redrawn on the master); the headlamp glass has blotchy AI reflections inside the flutes; the side-view tyres keep faint marks seen only with a gamma lift. Next: the print master card (approval 2).",
+   "delivery_status": "Fixed version - 4 local fixes, no model, USD 0.00. Still visible (harsh): the cleaned tyres are smooth, a little too clean next to the crisp tread; the lid crest (about 50 x 33 px) is the poster's own inset crest registered flat onto it - right design, still the softest object on the car (redrawn on the master); the headlamp glass has blotchy AI reflections inside the flutes; the side-view tyres keep faint marks seen only with a gamma lift. Its print master card is the one for approval 2.",
    "candidate_created_at": "2026-10-30T16:33:11.998735+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -2791,9 +3707,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/d6edb90a3300-studio-wave1-20261030-porsche-911-carrera-3-2.png",
-   "full_source_sha256": "d6edb90a3300b1b6bee3f76e9e008d088bfa6ba25d27bc384750c2dc6fbd5739",
-   "full_source_bytes": 10846230,
+   "full_source_url": "full/564c4b7a242b-studio-wave1-20261030-porsche-911-carrera-3-2.png",
+   "full_source_sha256": "564c4b7a242bb84b397eba5ad4a164c1b1700862cde008b8b80ace3dda6865ed",
+   "full_source_bytes": 10841345,
    "full_source_pixels": [
     2480,
     3312
@@ -2902,20 +3818,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-alpine-a110-2018-83887c932181-current.jpg",
+   "preview": "assets/studio-wave1-20261030-alpine-a110-2018-1d708e89850b-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/alpine-a110-2018/final-native.png",
-   "source_sha256": "83887c9321818916c9b28a874b5c6c5775224f291b581fe251f028330d5cc4f1",
+   "source_sha256": "1d708e89850b3e3701fb9426f6c14fce2f1683be55526407a2582c3a05fc5441",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Fixed version - 2 local fixes, no model, USD 0.00. Still visible (harsh): the near wheel's 3 o'clock pocket is now a plain dark void (no disc shows there); the remaining caliper spans about 100 degrees, wider than the real one; the wheel-cap emblems are an unreadable squiggle and the nuts dark recesses (for the master, Q4); the C-pillar flag badge has no blue; the tyres carry no markings at all. Next: the print master card (approval 2).",
+   "delivery_status": "Fixed version - 3 local fixes, no model, USD 0.00. Still visible (harsh): the near wheel's 3 o'clock pocket is now a plain dark void (no disc shows there); the remaining caliper spans about 100 degrees, wider than the real one; the wheel-cap emblems are an unreadable squiggle and the nuts dark recesses (for the master, Q4); the C-pillar flag badge has no blue; the tyres carry no markings at all. Its print master card is the one for approval 2.",
    "candidate_created_at": "2026-10-30T16:32:33.113226+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -2977,9 +3893,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/83887c932181-studio-wave1-20261030-alpine-a110-2018.png",
-   "full_source_sha256": "83887c9321818916c9b28a874b5c6c5775224f291b581fe251f028330d5cc4f1",
-   "full_source_bytes": 10703585,
+   "full_source_url": "full/1d708e89850b-studio-wave1-20261030-alpine-a110-2018.png",
+   "full_source_sha256": "1d708e89850b3e3701fb9426f6c14fce2f1683be55526407a2582c3a05fc5441",
+   "full_source_bytes": 10704539,
    "full_source_pixels": [
     2480,
     3312
@@ -12203,9 +13119,9 @@
   },
   {
    "key": "studio-wave1-20261030-alpine-a110-2018",
-   "declared_sha256": "83887c9321818916c9b28a874b5c6c5775224f291b581fe251f028330d5cc4f1",
+   "declared_sha256": "1d708e89850b3e3701fb9426f6c14fce2f1683be55526407a2582c3a05fc5441",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-alpine-a110-2018-83887c932181-current.jpg",
+   "preview": "assets/studio-wave1-20261030-alpine-a110-2018-1d708e89850b-current.jpg",
    "pixels": [
     2480,
     3312
@@ -12213,9 +13129,9 @@
   },
   {
    "key": "studio-wave1-20261030-porsche-911-carrera-3-2",
-   "declared_sha256": "d6edb90a3300b1b6bee3f76e9e008d088bfa6ba25d27bc384750c2dc6fbd5739",
+   "declared_sha256": "564c4b7a242bb84b397eba5ad4a164c1b1700862cde008b8b80ace3dda6865ed",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-porsche-911-carrera-3-2-d6edb90a3300-current.jpg",
+   "preview": "assets/studio-wave1-20261030-porsche-911-carrera-3-2-564c4b7a242b-current.jpg",
    "pixels": [
     2480,
     3312
@@ -12249,6 +13165,26 @@
    "pixels": [
     2480,
     3312
+   ]
+  },
+  {
+   "key": "studio-wave1-20261030-alpine-a110-2018-master",
+   "declared_sha256": "0d70b75b19f3b6924c24a6e8f1b22a83eb0ee97510303c3a93ffa3a85964e760",
+   "applied": true,
+   "preview": "assets/studio-wave1-20261030-alpine-a110-2018-master-0d70b75b19f3-current.jpg",
+   "pixels": [
+    9000,
+    12000
+   ]
+  },
+  {
+   "key": "studio-wave1-20261030-porsche-911-carrera-3-2-master",
+   "declared_sha256": "2a412241465ccecf6580aa6cd94123210c1a0e5bfb2e77b763b6c3703d7e26e7",
+   "applied": true,
+   "preview": "assets/studio-wave1-20261030-porsche-911-carrera-3-2-master-2a412241465c-current.jpg",
+   "pixels": [
+    9000,
+    12000
    ]
   },
   {
