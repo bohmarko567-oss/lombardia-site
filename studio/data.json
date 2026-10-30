@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-30 05:03",
+ "built": "2026-10-30 05:24",
  "accessed_date": "2026-10-30",
  "collections": [
   "American Form",
@@ -1365,20 +1365,20 @@
    }
   },
   {
-   "key": "inserts-card-a6-d1",
-   "name": "Prodigi insert - thank-you card A6, inside every parcel, COLLECTOR20 and QR (draft 1)",
+   "key": "inserts-card-a6-d2",
+   "name": "Prodigi insert - thank-you card A6, inside every parcel: COLLECTOR20 + wall-pic review QR (draft 2)",
    "notion_url": null,
    "board_url": null,
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/inserts-card-a6-d1-817756144e60-current.jpg",
+   "preview": "assets/inserts-card-a6-d2-c9860029ba28-current.jpg",
    "preview_pixels": [
     1600,
     2309
    ],
    "source_file": "pipeline/inserts-20261030/out/card-a6.png",
-   "source_sha256": "817756144e606ced2c177caea5893fd2ddb8c867e38a593cedc0dc003b7b3e26",
+   "source_sha256": "c9860029ba28c043e9ec93d60971aa95262d47681ecb6f0cd7307c8a3f57db19",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -1386,15 +1386,15 @@
    "hero_edit_pending": false,
    "owner_collection_pending": false,
    "delivery_status": "Draft 1 for the owner's check. Nothing uploaded to Prodigi. Card: A6 postcard (art for the 97 x 140 mm inside Prodigi's ~4 mm white border), QR to lombardiaautomobili.etsy.com?coupon=COLLECTOR20 (checked live 30 Oct: \"Shop code applied\"). Label: 4x3 in / 105 x 74 mm on the outside of the box. Tube: 65 mm round on tube end-caps, the founder-pick avatar with 1.5 mm bleed. Receipts: pipeline/inserts-20261030/RESULT.md.",
-   "candidate_created_at": "2026-10-30T04:40:02+00:00",
+   "candidate_created_at": "2026-10-30T04:40:10+00:00",
    "review_url": null,
    "stage1_generations": [],
    "recommendation_override": null,
    "candidate_source": "pipeline/inserts-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 04:45: \"Hey i wanna do prodigi inserts, cards perhaps or stickers, ima buy the subscription anyways it gives discounts\". Rule (23 Oct): nothing goes to Prodigi before he has checked it as a live, verified Studio card.",
-   "full_source_url": "full/817756144e60-inserts-card-a6-d1.png",
-   "full_source_sha256": "817756144e606ced2c177caea5893fd2ddb8c867e38a593cedc0dc003b7b3e26",
-   "full_source_bytes": 188303,
+   "full_source_url": "full/c9860029ba28-inserts-card-a6-d2.png",
+   "full_source_sha256": "c9860029ba28c043e9ec93d60971aa95262d47681ecb6f0cd7307c8a3f57db19",
+   "full_source_bytes": 199045,
    "full_source_pixels": [
     2292,
     3308
@@ -1417,9 +1417,9 @@
    },
    "generations": [],
    "timeline": {
-    "created_at": "2026-10-30T04:40:02+00:00",
+    "created_at": "2026-10-30T04:40:10+00:00",
     "created_source": "candidate generated",
-    "updated_at": "2026-10-30T04:40:02+00:00",
+    "updated_at": "2026-10-30T04:40:10+00:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -9220,10 +9220,10 @@
    "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
-   "key": "inserts-card-a6-d1",
-   "declared_sha256": "817756144e606ced2c177caea5893fd2ddb8c867e38a593cedc0dc003b7b3e26",
+   "key": "inserts-card-a6-d2",
+   "declared_sha256": "c9860029ba28c043e9ec93d60971aa95262d47681ecb6f0cd7307c8a3f57db19",
    "applied": true,
-   "preview": "assets/inserts-card-a6-d1-817756144e60-current.jpg",
+   "preview": "assets/inserts-card-a6-d2-c9860029ba28-current.jpg",
    "pixels": [
     2292,
     3308
