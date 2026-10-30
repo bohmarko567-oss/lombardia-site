@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-30 19:08",
+ "built": "2026-10-30 19:50",
  "accessed_date": "2026-10-30",
  "collections": [
   "American Form",
@@ -1444,20 +1444,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-bmw-m5-e60-3309081703ab-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-e60-b91692a9d0d7-current.jpg",
    "preview_pixels": [
     1600,
     1198
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/bmw-m5-e60/final-native.png",
-   "source_sha256": "3309081703abb015198d77739aa5874074c1b103f366090d26c090ccc48c5d0e",
+   "source_sha256": "b91692a9d0d7ceee2162b13d57155a0756f144ba1b1e99689b826425cc1f7860",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Approved at approval 1 (30 Oct) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
+   "delivery_status": "Fixed version - 1 local fix, no model, USD 0.00. Still visible (harsh): the new bonnet roundel is softer than the generator's, its chrome ring thinner and duller, its letters 6-9 px tall at 100 %; the wheel-cap roundels have mangled letters (about 6 px, for the master, Q4); the wheel spokes are curved and motion-blurred (the real ones are straight; the count is right); the gill badge sits mid-gill (the real one at its front end). Next: the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T16:32:50.291777+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -1534,9 +1534,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/3309081703ab-studio-wave1-20261030-bmw-m5-e60.png",
-   "full_source_sha256": "3309081703abb015198d77739aa5874074c1b103f366090d26c090ccc48c5d0e",
-   "full_source_bytes": 9683935,
+   "full_source_url": "full/b91692a9d0d7-studio-wave1-20261030-bmw-m5-e60.png",
+   "full_source_sha256": "b91692a9d0d7ceee2162b13d57155a0756f144ba1b1e99689b826425cc1f7860",
+   "full_source_bytes": 8776025,
    "full_source_pixels": [
     3312,
     2480
@@ -2238,20 +2238,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-lamborghini-countach-lp400-a92b937f4f47-current.jpg",
+   "preview": "assets/studio-wave1-20261030-lamborghini-countach-lp400-ace35b4c50ab-current.jpg",
    "preview_pixels": [
     1600,
     1198
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/lamborghini-countach-lp400/final-native.png",
-   "source_sha256": "a92b937f4f4709aaab9fe66556a937250fd67d80e366fe56608f1e004f56cb59",
+   "source_sha256": "ace35b4c50abaa741944e3cd581bd98fcdcc667929071aea7b839085dbc715a4",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Approved at approval 1 (30 Oct) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
+   "delivery_status": "Fixed version - 8 local fixes, 1 by the image model, USD 0.06. Still visible (harsh): the recoloured cap bulls are flat black silhouettes without the inner lines of the real cap, and the near-rear cap's bull is still gold (about 15 px, for the master, Q4); the near-front rim keeps a squiggle where the real one has a small oval Campagnolo logo; the disegno Bertone plaque on the body has garbled letters (44 x 19 px, Q4); the gear knob's shift pattern is too small to read; the nose badge's banner letters are dots. Next: the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T16:33:07.622318+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -2315,6 +2315,16 @@
        "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "43972e3d-7127-4b87-9dcc-4a4f8dcb418f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T18:42:16.739501+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/43972e3d-7127-4b87-9dcc-4a4f8dcb418f_285523c0.png",
+     "page_url": "https://muapi.ai/predictions/43972e3d-7127-4b87-9dcc-4a4f8dcb418f",
+     "target_id": "gear-knob",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -2323,9 +2333,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/a92b937f4f47-studio-wave1-20261030-lamborghini-countach-lp400.png",
-   "full_source_sha256": "a92b937f4f4709aaab9fe66556a937250fd67d80e366fe56608f1e004f56cb59",
-   "full_source_bytes": 11258905,
+   "full_source_url": "full/ace35b4c50ab-studio-wave1-20261030-lamborghini-countach-lp400.png",
+   "full_source_sha256": "ace35b4c50abaa741944e3cd581bd98fcdcc667929071aea7b839085dbc715a4",
+   "full_source_bytes": 10791657,
    "full_source_pixels": [
     3312,
     2480
@@ -2408,13 +2418,24 @@
       }
      ],
      "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "43972e3d-7127-4b87-9dcc-4a4f8dcb418f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T18:42:16.739501+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/43972e3d-7127-4b87-9dcc-4a4f8dcb418f_285523c0.png",
+     "page_url": "https://muapi.ai/predictions/43972e3d-7127-4b87-9dcc-4a4f8dcb418f",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-30T16:28:43.052943+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-30T16:33:07.622318+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-30T18:42:16.739501+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -2433,20 +2454,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-honda-civic-type-r-ek9-a78634d735be-current.jpg",
+   "preview": "assets/studio-wave1-20261030-honda-civic-type-r-ek9-c8b45e99adae-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/honda-civic-type-r-ek9/final-native.png",
-   "source_sha256": "a78634d735be3b3e7f1c64edd422aa152bd376efdfa65fc9242343b3a9ef16f7",
+   "source_sha256": "c8b45e99adae88601e4a9b9a7781b4990845b02c2b8ec953dac677d118fc7b1a",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Approved at approval 1 (30 Oct) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
+   "delivery_status": "Fixed version - 6 local fixes, no model, USD 0.00. Still visible (harsh): the cleaned sidewalls are smoother than the rest of the rubber and read slightly plastic, most on the wheel piece (about 19 cm across on the print); the new cap H is flat red with no gloss; the recoloured nut is a touch darker than its neighbours; the headlamps carry AI rainbow flares; behind the bumper intake this car's real bracket and bolts show rust dots (true to the car, a little dirty for a print - for the master, Q4); TYPE in the side decal is solid (the real one is outlined). Next: the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T16:33:03.364802+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -2528,9 +2549,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/a78634d735be-studio-wave1-20261030-honda-civic-type-r-ek9.png",
-   "full_source_sha256": "a78634d735be3b3e7f1c64edd422aa152bd376efdfa65fc9242343b3a9ef16f7",
-   "full_source_bytes": 13671710,
+   "full_source_url": "full/c8b45e99adae-studio-wave1-20261030-honda-civic-type-r-ek9.png",
+   "full_source_sha256": "c8b45e99adae88601e4a9b9a7781b4990845b02c2b8ec953dac677d118fc7b1a",
+   "full_source_bytes": 12583418,
    "full_source_pixels": [
     2480,
     3312
@@ -2649,20 +2670,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-dodge-challenger-r-t-1970-c04ea4380239-current.jpg",
+   "preview": "assets/studio-wave1-20261030-dodge-challenger-r-t-1970-2f1391a83804-current.jpg",
    "preview_pixels": [
     1600,
     1198
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/dodge-challenger-r-t-1970/final-native.png",
-   "source_sha256": "c04ea4380239f0f55aa390db2aa78e921d66dc9f7464cff4dbffa94d345a5c44",
+   "source_sha256": "2f1391a83804b87b8b1ea1ccdd9b13c144ef8a1d639eb20e75d5047a7aa03b52",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Approved at approval 1 (30 Oct) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
+   "delivery_status": "Fixed version - 4 local fixes, 2 by the image model, USD 0.12. Still visible (harsh): the new hood pins are clean but generic (matte grey, not dull chrome; the left plate a little large for its pin); the DODGE letters on the nose read D-D-D-E-E (about 16 px each) and the 383 MAGNUM badge on the scoop is illegible (for the master, Q4); where the plate bracket was, the valance is cleaner than around it; the bumper chrome reads hammered grey. Next: the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T16:32:59.085456+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -2731,6 +2752,26 @@
        "source_page": "https://rmsothebys.com/auctions/hf22/lots/r0087-1970-dodge-challenger-rt/"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "bbe97dfb-8092-42c8-a2df-8aec3a830ab9",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T18:09:55.799630+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/bbe97dfb-8092-42c8-a2df-8aec3a830ab9_7b1668b8.png",
+     "page_url": "https://muapi.ai/predictions/bbe97dfb-8092-42c8-a2df-8aec3a830ab9",
+     "target_id": "pinL",
+     "references": []
+    },
+    {
+     "role": "edit",
+     "request_id": "b9cb7ead-a853-4dd6-b98f-f4ac11ce6de4",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T18:09:58.488924+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b9cb7ead-a853-4dd6-b98f-f4ac11ce6de4_a7502ed2.png",
+     "page_url": "https://muapi.ai/predictions/b9cb7ead-a853-4dd6-b98f-f4ac11ce6de4",
+     "target_id": "pinR",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -2739,9 +2780,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/c04ea4380239-studio-wave1-20261030-dodge-challenger-r-t-1970.png",
-   "full_source_sha256": "c04ea4380239f0f55aa390db2aa78e921d66dc9f7464cff4dbffa94d345a5c44",
-   "full_source_bytes": 13805717,
+   "full_source_url": "full/2f1391a83804-studio-wave1-20261030-dodge-challenger-r-t-1970.png",
+   "full_source_sha256": "2f1391a83804b87b8b1ea1ccdd9b13c144ef8a1d639eb20e75d5047a7aa03b52",
+   "full_source_bytes": 12317306,
    "full_source_pixels": [
     3312,
     2480
@@ -2830,13 +2871,35 @@
       }
      ],
      "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "bbe97dfb-8092-42c8-a2df-8aec3a830ab9",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T18:09:55.799630+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/bbe97dfb-8092-42c8-a2df-8aec3a830ab9_7b1668b8.png",
+     "page_url": "https://muapi.ai/predictions/bbe97dfb-8092-42c8-a2df-8aec3a830ab9",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "b9cb7ead-a853-4dd6-b98f-f4ac11ce6de4",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T18:09:58.488924+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b9cb7ead-a853-4dd6-b98f-f4ac11ce6de4_a7502ed2.png",
+     "page_url": "https://muapi.ai/predictions/b9cb7ead-a853-4dd6-b98f-f4ac11ce6de4",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-30T16:28:31.920248+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-30T16:32:59.085456+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-30T18:09:58.488924+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -2855,20 +2918,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-audi-avus-quattro-13e2a0ec0fde-current.jpg",
+   "preview": "assets/studio-wave1-20261030-audi-avus-quattro-8c9b68259c1b-current.jpg",
    "preview_pixels": [
     1600,
     1198
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/audi-avus-quattro/final-native.png",
-   "source_sha256": "13e2a0ec0fdea99e8304d1e8c50364dd495fe77786f921247cd0471bbffca212",
+   "source_sha256": "8c9b68259c1bd0f6f10b12530ec3f58a57a540796f020b8c2d571f0679ae52ba",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Approved at approval 1 (30 Oct) - raw hero; the 100% detail check and fixes come next, then the print master card (approval 2).",
+   "delivery_status": "Fixed version - 3 local fixes, 1 by the image model, USD 0.06. Still visible (harsh): the AVUS badge on the body is black rings stacked over a black AVUS with no plaque (the real one is a small black plaque with chrome rings and AVUS side by side: the content is right, the layout is not); the new lamp glass is a little lighter and busier at 300 %; the near-front valve is drawn in a brass ink the lithograph does not use (about 15 px, for the master, Q4); the nose rings carry dark shading notches. Next: the print master card (approval 2).",
    "candidate_created_at": "2026-10-30T16:32:37.646057+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -2917,6 +2980,16 @@
        "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
       }
      ]
+    },
+    {
+     "role": "edit",
+     "request_id": "2c6d1ed8-5ebd-43c4-84c0-0064d4897b71",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T18:34:05.700719+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2c6d1ed8-5ebd-43c4-84c0-0064d4897b71_452237f3.png",
+     "page_url": "https://muapi.ai/predictions/2c6d1ed8-5ebd-43c4-84c0-0064d4897b71",
+     "target_id": "nf-headlamp",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -2925,9 +2998,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/13e2a0ec0fde-studio-wave1-20261030-audi-avus-quattro.png",
-   "full_source_sha256": "13e2a0ec0fdea99e8304d1e8c50364dd495fe77786f921247cd0471bbffca212",
-   "full_source_bytes": 17016321,
+   "full_source_url": "full/8c9b68259c1b-studio-wave1-20261030-audi-avus-quattro.png",
+   "full_source_sha256": "8c9b68259c1bd0f6f10b12530ec3f58a57a540796f020b8c2d571f0679ae52ba",
+   "full_source_bytes": 15940334,
    "full_source_pixels": [
     3312,
     2480
@@ -2995,13 +3068,24 @@
       }
      ],
      "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit",
+     "request_id": "2c6d1ed8-5ebd-43c4-84c0-0064d4897b71",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T18:34:05.700719+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2c6d1ed8-5ebd-43c4-84c0-0064d4897b71_452237f3.png",
+     "page_url": "https://muapi.ai/predictions/2c6d1ed8-5ebd-43c4-84c0-0064d4897b71",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-30T16:28:04.264465+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-30T16:32:37.646057+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-30T18:34:05.700719+00:00",
+    "updated_source": "MuAPI edit"
    },
    "status": {
     "code": "review",
@@ -11239,9 +11323,9 @@
   },
   {
    "key": "studio-wave1-20261030-audi-avus-quattro",
-   "declared_sha256": "13e2a0ec0fdea99e8304d1e8c50364dd495fe77786f921247cd0471bbffca212",
+   "declared_sha256": "8c9b68259c1bd0f6f10b12530ec3f58a57a540796f020b8c2d571f0679ae52ba",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-audi-avus-quattro-13e2a0ec0fde-current.jpg",
+   "preview": "assets/studio-wave1-20261030-audi-avus-quattro-8c9b68259c1b-current.jpg",
    "pixels": [
     3312,
     2480
@@ -11249,9 +11333,9 @@
   },
   {
    "key": "studio-wave1-20261030-dodge-challenger-r-t-1970",
-   "declared_sha256": "c04ea4380239f0f55aa390db2aa78e921d66dc9f7464cff4dbffa94d345a5c44",
+   "declared_sha256": "2f1391a83804b87b8b1ea1ccdd9b13c144ef8a1d639eb20e75d5047a7aa03b52",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-dodge-challenger-r-t-1970-c04ea4380239-current.jpg",
+   "preview": "assets/studio-wave1-20261030-dodge-challenger-r-t-1970-2f1391a83804-current.jpg",
    "pixels": [
     3312,
     2480
@@ -11259,9 +11343,9 @@
   },
   {
    "key": "studio-wave1-20261030-honda-civic-type-r-ek9",
-   "declared_sha256": "a78634d735be3b3e7f1c64edd422aa152bd376efdfa65fc9242343b3a9ef16f7",
+   "declared_sha256": "c8b45e99adae88601e4a9b9a7781b4990845b02c2b8ec953dac677d118fc7b1a",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-honda-civic-type-r-ek9-a78634d735be-current.jpg",
+   "preview": "assets/studio-wave1-20261030-honda-civic-type-r-ek9-c8b45e99adae-current.jpg",
    "pixels": [
     2480,
     3312
@@ -11269,9 +11353,9 @@
   },
   {
    "key": "studio-wave1-20261030-lamborghini-countach-lp400",
-   "declared_sha256": "a92b937f4f4709aaab9fe66556a937250fd67d80e366fe56608f1e004f56cb59",
+   "declared_sha256": "ace35b4c50abaa741944e3cd581bd98fcdcc667929071aea7b839085dbc715a4",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-lamborghini-countach-lp400-a92b937f4f47-current.jpg",
+   "preview": "assets/studio-wave1-20261030-lamborghini-countach-lp400-ace35b4c50ab-current.jpg",
    "pixels": [
     3312,
     2480
@@ -11309,9 +11393,9 @@
   },
   {
    "key": "studio-wave1-20261030-bmw-m5-e60",
-   "declared_sha256": "3309081703abb015198d77739aa5874074c1b103f366090d26c090ccc48c5d0e",
+   "declared_sha256": "b91692a9d0d7ceee2162b13d57155a0756f144ba1b1e99689b826425cc1f7860",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-bmw-m5-e60-3309081703ab-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-e60-b91692a9d0d7-current.jpg",
    "pixels": [
     3312,
     2480
