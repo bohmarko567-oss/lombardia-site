@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-30 20:06",
+ "built": "2026-10-30 23:32",
  "accessed_date": "2026-10-30",
  "collections": [
   "American Form",
@@ -1231,6 +1231,846 @@
    }
   },
   {
+   "key": "studio-wave1-20261030-bmw-m5-e39-v2-master",
+   "name": "BMW M5 (E39) - print master M2 (workflow B)",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-v2-master-679e1e7a2f72-current.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_file": "pipeline/studio-wave1-20261030/q2/masters/bmw-m5-e39-v2/bmw-m5-e39-v2-M2-9000x12000.jpg",
+   "source_sha256": "679e1e7a2f720775fd9e0fdfeaa47b3b5784b89978f0072c3c51acb061570cc3",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Print master M2 - approval 2, the last: after your word the lot runs to Etsy. 9000 x 12000, 4 master-scale fixes; cost USD 1.36 (upscale 0.56, master fixes 0.80). Still visible (harsh): the new bonnet roundel's chrome rim is a little brighter and harder than the fog-lit recess around it (shows at 200 %); the near wheel cap is crisper than the spokes around it and only three of its five bolts show at this angle; the door M5 plaque is a little large for its strip (the hero's footprint); the side marker keeps the hero's near-square outline (the real one is a long oval) - only its lens was redrawn; the headlamp glass keeps blotchy AI refractions; the cleaned front sidewall is a little waxy and the polished rim lip blown near white.",
+   "candidate_created_at": "2026-10-30T22:30:05+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "e5884c3e-ef0a-4cf7-95dc-fa961c4e4c66",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-30T17:00:54.527296+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e5884c3e-ef0a-4cf7-95dc-fa961c4e4c66_82d5ceb1.png",
+     "page_url": "https://muapi.ai/predictions/e5884c3e-ef0a-4cf7-95dc-fa961c4e4c66",
+     "references": [
+      {
+       "role": "Straight front: the kidney grille, the twin round headlamps with their light rings under clear glass, the wide central bumper intake and the two side intakes with round fog lamps (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/09c14d8f03a84a34aee903f8526097e1.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Front three-quarter from the left front corner: the nose, the left headlamps, the left flank",
+       "url": "https://cdn.muapi.ai/outputs/generated/7d78802009ad4013ab0e1b2074c05e9c.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Front three-quarter from the right front corner, low: the kidney grille, the headlamps, the bumper intakes, the right flank",
+       "url": "https://cdn.muapi.ai/outputs/generated/79fb24e64a834b208fef2a3211dc43ba.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Front three-quarter from the right front corner at standing height: whole-car proportions, the bonnet, the windscreen, the door mirrors",
+       "url": "https://cdn.muapi.ai/outputs/generated/9f1d6d4d9f8f4e86a3ea00e6ba96da2c.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Side view (right side): the proportions of the saloon, the wheelbase, the window line",
+       "url": "https://cdn.muapi.ai/outputs/generated/ca8c665db23a482b97bb551496373d2c.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Grille close-up: the chrome-framed kidney grille with vertical slats and the BMW roundel on the bonnet above it",
+       "url": "https://cdn.muapi.ai/outputs/generated/7d99b42792194119804fb6b88591064f.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Front corner close-up: the twin round headlamps, each with its light ring, the clear indicator, the bumper intake and the round fog lamp",
+       "url": "https://cdn.muapi.ai/outputs/generated/1627d444568e4581ba82ce0b9dd1a1da.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Front wheel close-up: the 18-inch M Parallel wheel with ten double spokes and the BMW roundel centre cap",
+       "url": "https://cdn.muapi.ai/outputs/generated/59d96dd28d5d42b98c4ffed7a67b3d7d.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "The small M5 emblem set into the black rubbing strip on the front door",
+       "url": "https://cdn.muapi.ai/outputs/generated/a04a8069333d401fb3204fba31f7651e.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "The windscreen and the cabin seen through it: the black and grey seats, the dashboard",
+       "url": "https://cdn.muapi.ai/outputs/generated/cbab7a901fc34942839adf57e4ccf06d.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Lettering close-up: the car's own M5 boot badge - the M in blue, violet and red stripes and the chrome 5; the model for the white M5 lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/365f98addd634b0b8c329bf651e9953c.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      }
+     ]
+    },
+    {
+     "role": "upscale",
+     "request_id": "1bcc278a-f88b-42ca-9526-b9cb6c998825",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-30T19:05:07.684736+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/1bcc278a-f88b-42ca-9526-b9cb6c998825_1ded64af.png",
+     "page_url": "https://muapi.ai/predictions/1bcc278a-f88b-42ca-9526-b9cb6c998825",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "c160e31b-737c-4935-8647-d252f7824532",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:36.541853+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c160e31b-737c-4935-8647-d252f7824532_485bcd0c.png",
+     "page_url": "https://muapi.ai/predictions/c160e31b-737c-4935-8647-d252f7824532",
+     "target_id": "roundel",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "514eecb9-4535-483d-9e5d-b467067c9bff",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:39.122263+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/514eecb9-4535-483d-9e5d-b467067c9bff_f08c44b9.png",
+     "page_url": "https://muapi.ai/predictions/514eecb9-4535-483d-9e5d-b467067c9bff",
+     "target_id": "cap",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "f7a02d39-2a49-4c88-90b8-99b1428755be",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:41.847448+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f7a02d39-2a49-4c88-90b8-99b1428755be_08ca4436.png",
+     "page_url": "https://muapi.ai/predictions/f7a02d39-2a49-4c88-90b8-99b1428755be",
+     "target_id": "emblem",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "1d56f2f8-6d98-402d-9503-4530303d063b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:49.036093+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/1d56f2f8-6d98-402d-9503-4530303d063b_86262462.png",
+     "page_url": "https://muapi.ai/predictions/1d56f2f8-6d98-402d-9503-4530303d063b",
+     "target_id": "roundel",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "a39862fb-7f9e-4db0-a131-561ff5e7eded",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:51.690336+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a39862fb-7f9e-4db0-a131-561ff5e7eded_d84c9e05.png",
+     "page_url": "https://muapi.ai/predictions/a39862fb-7f9e-4db0-a131-561ff5e7eded",
+     "target_id": "cap",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "87cd6f75-391b-4d72-981f-9e454174b082",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:54.341790+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/87cd6f75-391b-4d72-981f-9e454174b082_a3c8d10d.png",
+     "page_url": "https://muapi.ai/predictions/87cd6f75-391b-4d72-981f-9e454174b082",
+     "target_id": "emblem",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "16a187b2-858b-41c6-83d0-71e05cbf2cf2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:14:03.902517+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/16a187b2-858b-41c6-83d0-71e05cbf2cf2_802124e1.png",
+     "page_url": "https://muapi.ai/predictions/16a187b2-858b-41c6-83d0-71e05cbf2cf2",
+     "target_id": "marker",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "e419a82a-902a-440c-86b6-42dba356b9e4",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:14:12.673701+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e419a82a-902a-440c-86b6-42dba356b9e4_b0936653.png",
+     "page_url": "https://muapi.ai/predictions/e419a82a-902a-440c-86b6-42dba356b9e4",
+     "target_id": "marker",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Gran Turismo",
+    "why": "Brief: DIRECTED C (photographic scene) with A (one idea from the car): the first angel eyes - its four rings of light in the fog. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
+   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
+   "full_source_url": "full/679e1e7a2f72-studio-wave1-20261030-bmw-m5-e39-v2-master.jpg",
+   "full_source_sha256": "679e1e7a2f720775fd9e0fdfeaa47b3b5784b89978f0072c3c51acb061570cc3",
+   "full_source_bytes": 22216758,
+   "full_source_pixels": [
+    9000,
+    12000
+   ],
+   "full_source_kind": "exact_current_jpg",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Gran Turismo",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: DIRECTED C (photographic scene) with A (one idea from the car): the first angel eyes - its four rings of light in the fog. Suggestion only.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "e5884c3e-ef0a-4cf7-95dc-fa961c4e4c66",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T17:00:54.527296+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e5884c3e-ef0a-4cf7-95dc-fa961c4e4c66_82d5ceb1.png",
+     "page_url": "https://muapi.ai/predictions/e5884c3e-ef0a-4cf7-95dc-fa961c4e4c66",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Straight front: the kidney grille, the twin round headlamps with their light rings under clear glass, the wide central bumper intake and the two side intakes with round fog lamps (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/09c14d8f03a84a34aee903f8526097e1.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Front three-quarter from the left front corner: the nose, the left headlamps, the left flank",
+       "url": "https://cdn.muapi.ai/outputs/generated/7d78802009ad4013ab0e1b2074c05e9c.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Front three-quarter from the right front corner, low: the kidney grille, the headlamps, the bumper intakes, the right flank",
+       "url": "https://cdn.muapi.ai/outputs/generated/79fb24e64a834b208fef2a3211dc43ba.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Front three-quarter from the right front corner at standing height: whole-car proportions, the bonnet, the windscreen, the door mirrors",
+       "url": "https://cdn.muapi.ai/outputs/generated/9f1d6d4d9f8f4e86a3ea00e6ba96da2c.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Side view (right side): the proportions of the saloon, the wheelbase, the window line",
+       "url": "https://cdn.muapi.ai/outputs/generated/ca8c665db23a482b97bb551496373d2c.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Grille close-up: the chrome-framed kidney grille with vertical slats and the BMW roundel on the bonnet above it",
+       "url": "https://cdn.muapi.ai/outputs/generated/7d99b42792194119804fb6b88591064f.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Front corner close-up: the twin round headlamps, each with its light ring, the clear indicator, the bumper intake and the round fog lamp",
+       "url": "https://cdn.muapi.ai/outputs/generated/1627d444568e4581ba82ce0b9dd1a1da.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Front wheel close-up: the 18-inch M Parallel wheel with ten double spokes and the BMW roundel centre cap",
+       "url": "https://cdn.muapi.ai/outputs/generated/59d96dd28d5d42b98c4ffed7a67b3d7d.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "The small M5 emblem set into the black rubbing strip on the front door",
+       "url": "https://cdn.muapi.ai/outputs/generated/a04a8069333d401fb3204fba31f7651e.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "The windscreen and the cabin seen through it: the black and grey seats, the dashboard",
+       "url": "https://cdn.muapi.ai/outputs/generated/cbab7a901fc34942839adf57e4ccf06d.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      },
+      {
+       "role": "Lettering close-up: the car's own M5 boot badge - the M in blue, violet and red stripes and the chrome 5; the model for the white M5 lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/365f98addd634b0b8c329bf651e9953c.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2001-bmw-e39-m5-13"
+      }
+     ],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "upscale",
+     "request_id": "1bcc278a-f88b-42ca-9526-b9cb6c998825",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-30T19:05:07.684736+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/1bcc278a-f88b-42ca-9526-b9cb6c998825_1ded64af.png",
+     "page_url": "https://muapi.ai/predictions/1bcc278a-f88b-42ca-9526-b9cb6c998825",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "c160e31b-737c-4935-8647-d252f7824532",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:36.541853+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c160e31b-737c-4935-8647-d252f7824532_485bcd0c.png",
+     "page_url": "https://muapi.ai/predictions/c160e31b-737c-4935-8647-d252f7824532",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "514eecb9-4535-483d-9e5d-b467067c9bff",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:39.122263+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/514eecb9-4535-483d-9e5d-b467067c9bff_f08c44b9.png",
+     "page_url": "https://muapi.ai/predictions/514eecb9-4535-483d-9e5d-b467067c9bff",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "f7a02d39-2a49-4c88-90b8-99b1428755be",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:41.847448+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f7a02d39-2a49-4c88-90b8-99b1428755be_08ca4436.png",
+     "page_url": "https://muapi.ai/predictions/f7a02d39-2a49-4c88-90b8-99b1428755be",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "1d56f2f8-6d98-402d-9503-4530303d063b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:49.036093+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/1d56f2f8-6d98-402d-9503-4530303d063b_86262462.png",
+     "page_url": "https://muapi.ai/predictions/1d56f2f8-6d98-402d-9503-4530303d063b",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "a39862fb-7f9e-4db0-a131-561ff5e7eded",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:51.690336+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a39862fb-7f9e-4db0-a131-561ff5e7eded_d84c9e05.png",
+     "page_url": "https://muapi.ai/predictions/a39862fb-7f9e-4db0-a131-561ff5e7eded",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "87cd6f75-391b-4d72-981f-9e454174b082",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:55:54.341790+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/87cd6f75-391b-4d72-981f-9e454174b082_a3c8d10d.png",
+     "page_url": "https://muapi.ai/predictions/87cd6f75-391b-4d72-981f-9e454174b082",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "16a187b2-858b-41c6-83d0-71e05cbf2cf2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:14:03.902517+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/16a187b2-858b-41c6-83d0-71e05cbf2cf2_802124e1.png",
+     "page_url": "https://muapi.ai/predictions/16a187b2-858b-41c6-83d0-71e05cbf2cf2",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "e419a82a-902a-440c-86b6-42dba356b9e4",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:14:12.673701+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e419a82a-902a-440c-86b6-42dba356b9e4_b0936653.png",
+     "page_url": "https://muapi.ai/predictions/e419a82a-902a-440c-86b6-42dba356b9e4",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-30T17:00:54.527296+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-30T22:30:05+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-wave1-20261030-bmw-m5-touring-e61-v2-master",
+   "name": "BMW M5 Touring (E61) - print master M3 (workflow B)",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-v2-master-00f0b2397114-current.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_file": "pipeline/studio-wave1-20261030/q2/masters/bmw-m5-touring-e61-v2/bmw-m5-touring-e61-v2-M3-9000x12000.jpg",
+   "source_sha256": "00f0b2397114ddb41f5a069b4d625376322029fd5d03c0a66307f2e2b675da72",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Print master M3 - approval 2, the last: after your word the lot runs to Etsy. 9000 x 12000, 6 master-scale fixes; cost USD 1.56 (upscale 0.56, master fixes 1.00). Still visible (harsh): a small soft fold at the near hub's lower-left spoke root, the hub a little brighter and smoother than the spokes (200 % and up); the rear cap's letters are thin strokes at 300 % (the cap is about 30 px across); the roundel's rim a little thinner than the real badge's; the gill's M5 slightly heavy at 300 %; the cockpit is left-hand drive (the real UK car is right-hand drive), the brake discs plain (the real ones cross-drilled), the lower road carries an AI motion-streak texture and the car a hard sunlit shadow.",
+   "candidate_created_at": "2026-10-30T22:30:11+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "5d523831-ea21-4951-bc4e-275529f3722b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-30T17:00:59.987204+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5d523831-ea21-4951-bc4e-275529f3722b_71e8aaf9.png",
+     "page_url": "https://muapi.ai/predictions/5d523831-ea21-4951-bc4e-275529f3722b",
+     "references": [
+      {
+       "role": "Front three-quarter from the left front corner: the kidney grille, the headlamps with their light rings, the bumper intakes, the gill on the front wing, the long estate roof and the left flank, the wheels (the closest angle to the poster view, which is seen from higher above)",
+       "url": "https://cdn.muapi.ai/outputs/generated/edb3a41b15a74d608a3948f9395e15c9.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Front from above: the bonnet with the roundel, the windscreen and the front of the roof as seen from above",
+       "url": "https://cdn.muapi.ai/outputs/generated/7ddecd0a2400402ebdd820667451cf2b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Straight front: the kidney grille, both headlamps, the M front bumper with its intakes",
+       "url": "https://cdn.muapi.ai/outputs/generated/46daf152e6d1465b81cffaeb95b6ac75.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Side view: the long estate roof line, the wheelbase, the angle of the tailgate",
+       "url": "https://cdn.muapi.ai/outputs/generated/f831f8c48ea54923a1cf4e51e34f1772.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "The roof from the side: the dark roof rails along the long roof",
+       "url": "https://cdn.muapi.ai/outputs/generated/35598b58e2794e94b656fb3e812eea2b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Grille close-up: the chrome-framed kidney grille with its slats and the roundel",
+       "url": "https://cdn.muapi.ai/outputs/generated/865d83f57f2046b7867bbc3103251015.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Headlamp close-up: the light rings and the indicator strip along its top",
+       "url": "https://cdn.muapi.ai/outputs/generated/09d4b429e74845daaa8708fa1b64ecd6.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "The gill on the front wing: chrome slats with the small M5 badge, the side repeater",
+       "url": "https://cdn.muapi.ai/outputs/generated/48341de0d3544a57bf71af7e0b0e5f63.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Front wheel close-up: the 19-inch silver M double-spoke wheel and its centre cap",
+       "url": "https://cdn.muapi.ai/outputs/generated/ff344d004b8b471abb3ce0785a2ab26b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "The M door mirror in body colour",
+       "url": "https://cdn.muapi.ai/outputs/generated/5db5eebe25744466a44fae541530b308.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "The windscreen: clear glass, the wipers, the dark cabin behind",
+       "url": "https://cdn.muapi.ai/outputs/generated/91eb7a38ca074693997b4ad0dd431e53.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Lettering close-up: the car's own M5 tailgate badge - the M in blue, violet and red stripes and the chrome 5; the model for the white M5 lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/d5c29e15bf214c43a72cd4f62458d1aa.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      }
+     ]
+    },
+    {
+     "role": "upscale",
+     "request_id": "c2477358-7b8c-4147-96fc-53c38ac22196",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-30T19:08:42.811204+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c2477358-7b8c-4147-96fc-53c38ac22196_236a7183.png",
+     "page_url": "https://muapi.ai/predictions/c2477358-7b8c-4147-96fc-53c38ac22196",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "557b298a-e00e-40ab-833e-88d4e32db079",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:13:24.418831+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/557b298a-e00e-40ab-833e-88d4e32db079_04a294b4.png",
+     "page_url": "https://muapi.ai/predictions/557b298a-e00e-40ab-833e-88d4e32db079",
+     "target_id": "roundel",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "7035fb22-b79a-45dd-87b1-b4594f0800c7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:13:28.077190+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/7035fb22-b79a-45dd-87b1-b4594f0800c7_e6101f47.png",
+     "page_url": "https://muapi.ai/predictions/7035fb22-b79a-45dd-87b1-b4594f0800c7",
+     "target_id": "gill",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "ccfe34ec-389a-46bb-a111-795f243bde91",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:13:34.362898+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ccfe34ec-389a-46bb-a111-795f243bde91_0eb38cab.png",
+     "page_url": "https://muapi.ai/predictions/ccfe34ec-389a-46bb-a111-795f243bde91",
+     "target_id": "capN",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "14177872-8cc3-4700-a7cf-f29ba406757c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:13:38.016555+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/14177872-8cc3-4700-a7cf-f29ba406757c_fbf6be92.png",
+     "page_url": "https://muapi.ai/predictions/14177872-8cc3-4700-a7cf-f29ba406757c",
+     "target_id": "capR",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "53e83873-a44b-4ce8-a9f2-69f4fc64ff5d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:13:47.006410+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/53e83873-a44b-4ce8-a9f2-69f4fc64ff5d_17a292df.png",
+     "page_url": "https://muapi.ai/predictions/53e83873-a44b-4ce8-a9f2-69f4fc64ff5d",
+     "target_id": "roundel",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "4af4059f-4558-470d-8d63-7eeb346465b1",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:13:50.769970+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4af4059f-4558-470d-8d63-7eeb346465b1_68baa94c.png",
+     "page_url": "https://muapi.ai/predictions/4af4059f-4558-470d-8d63-7eeb346465b1",
+     "target_id": "gill",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "4cd5dfd5-d301-496d-86c3-d7d220df7f2f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:13:54.619202+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4cd5dfd5-d301-496d-86c3-d7d220df7f2f_6465f9d9.png",
+     "page_url": "https://muapi.ai/predictions/4cd5dfd5-d301-496d-86c3-d7d220df7f2f",
+     "target_id": "capN",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "09aa7bdc-6f33-48c9-b511-bd831ba3dfdf",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:13:58.401373+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/09aa7bdc-6f33-48c9-b511-bd831ba3dfdf_d547b917.png",
+     "page_url": "https://muapi.ai/predictions/09aa7bdc-6f33-48c9-b511-bd831ba3dfdf",
+     "target_id": "capR",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "78a71488-6af8-402c-a67f-770cc623d04d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:22:35.461383+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/78a71488-6af8-402c-a67f-770cc623d04d_16dba0d3.png",
+     "page_url": "https://muapi.ai/predictions/78a71488-6af8-402c-a67f-770cc623d04d",
+     "target_id": "hubN",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "f71d2d14-ddc6-438e-8b80-4672e4ba72d1",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:22:40.428365+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f71d2d14-ddc6-438e-8b80-4672e4ba72d1_89c7455f.png",
+     "page_url": "https://muapi.ai/predictions/f71d2d14-ddc6-438e-8b80-4672e4ba72d1",
+     "target_id": "hubN",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Gran Turismo",
+    "why": "Brief: DIRECTED C27 - aerial: the long roof of the V10 estate on an empty autobahn at dawn. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
+   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
+   "full_source_url": "full/00f0b2397114-studio-wave1-20261030-bmw-m5-touring-e61-v2-master.jpg",
+   "full_source_sha256": "00f0b2397114ddb41f5a069b4d625376322029fd5d03c0a66307f2e2b675da72",
+   "full_source_bytes": 26306060,
+   "full_source_pixels": [
+    9000,
+    12000
+   ],
+   "full_source_kind": "exact_current_jpg",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Gran Turismo",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: DIRECTED C27 - aerial: the long roof of the V10 estate on an empty autobahn at dawn. Suggestion only.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 77
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "5d523831-ea21-4951-bc4e-275529f3722b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T17:00:59.987204+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5d523831-ea21-4951-bc4e-275529f3722b_71e8aaf9.png",
+     "page_url": "https://muapi.ai/predictions/5d523831-ea21-4951-bc4e-275529f3722b",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left front corner: the kidney grille, the headlamps with their light rings, the bumper intakes, the gill on the front wing, the long estate roof and the left flank, the wheels (the closest angle to the poster view, which is seen from higher above)",
+       "url": "https://cdn.muapi.ai/outputs/generated/edb3a41b15a74d608a3948f9395e15c9.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Front from above: the bonnet with the roundel, the windscreen and the front of the roof as seen from above",
+       "url": "https://cdn.muapi.ai/outputs/generated/7ddecd0a2400402ebdd820667451cf2b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Straight front: the kidney grille, both headlamps, the M front bumper with its intakes",
+       "url": "https://cdn.muapi.ai/outputs/generated/46daf152e6d1465b81cffaeb95b6ac75.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Side view: the long estate roof line, the wheelbase, the angle of the tailgate",
+       "url": "https://cdn.muapi.ai/outputs/generated/f831f8c48ea54923a1cf4e51e34f1772.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "The roof from the side: the dark roof rails along the long roof",
+       "url": "https://cdn.muapi.ai/outputs/generated/35598b58e2794e94b656fb3e812eea2b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Grille close-up: the chrome-framed kidney grille with its slats and the roundel",
+       "url": "https://cdn.muapi.ai/outputs/generated/865d83f57f2046b7867bbc3103251015.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Headlamp close-up: the light rings and the indicator strip along its top",
+       "url": "https://cdn.muapi.ai/outputs/generated/09d4b429e74845daaa8708fa1b64ecd6.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "The gill on the front wing: chrome slats with the small M5 badge, the side repeater",
+       "url": "https://cdn.muapi.ai/outputs/generated/48341de0d3544a57bf71af7e0b0e5f63.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Front wheel close-up: the 19-inch silver M double-spoke wheel and its centre cap",
+       "url": "https://cdn.muapi.ai/outputs/generated/ff344d004b8b471abb3ce0785a2ab26b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "The M door mirror in body colour",
+       "url": "https://cdn.muapi.ai/outputs/generated/5db5eebe25744466a44fae541530b308.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "The windscreen: clear glass, the wipers, the dark cabin behind",
+       "url": "https://cdn.muapi.ai/outputs/generated/91eb7a38ca074693997b4ad0dd431e53.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      },
+      {
+       "role": "Lettering close-up: the car's own M5 tailgate badge - the M in blue, violet and red stripes and the chrome 5; the model for the white M5 lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/d5c29e15bf214c43a72cd4f62458d1aa.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2007-bmw-e61-m5-touring-10"
+      }
+     ],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "upscale",
+     "request_id": "c2477358-7b8c-4147-96fc-53c38ac22196",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-30T19:08:42.811204+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c2477358-7b8c-4147-96fc-53c38ac22196_236a7183.png",
+     "page_url": "https://muapi.ai/predictions/c2477358-7b8c-4147-96fc-53c38ac22196",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "557b298a-e00e-40ab-833e-88d4e32db079",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:13:24.418831+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/557b298a-e00e-40ab-833e-88d4e32db079_04a294b4.png",
+     "page_url": "https://muapi.ai/predictions/557b298a-e00e-40ab-833e-88d4e32db079",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "7035fb22-b79a-45dd-87b1-b4594f0800c7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:13:28.077190+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/7035fb22-b79a-45dd-87b1-b4594f0800c7_e6101f47.png",
+     "page_url": "https://muapi.ai/predictions/7035fb22-b79a-45dd-87b1-b4594f0800c7",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "ccfe34ec-389a-46bb-a111-795f243bde91",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:13:34.362898+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ccfe34ec-389a-46bb-a111-795f243bde91_0eb38cab.png",
+     "page_url": "https://muapi.ai/predictions/ccfe34ec-389a-46bb-a111-795f243bde91",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "14177872-8cc3-4700-a7cf-f29ba406757c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:13:38.016555+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/14177872-8cc3-4700-a7cf-f29ba406757c_fbf6be92.png",
+     "page_url": "https://muapi.ai/predictions/14177872-8cc3-4700-a7cf-f29ba406757c",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "53e83873-a44b-4ce8-a9f2-69f4fc64ff5d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:13:47.006410+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/53e83873-a44b-4ce8-a9f2-69f4fc64ff5d_17a292df.png",
+     "page_url": "https://muapi.ai/predictions/53e83873-a44b-4ce8-a9f2-69f4fc64ff5d",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "4af4059f-4558-470d-8d63-7eeb346465b1",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:13:50.769970+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4af4059f-4558-470d-8d63-7eeb346465b1_68baa94c.png",
+     "page_url": "https://muapi.ai/predictions/4af4059f-4558-470d-8d63-7eeb346465b1",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "4cd5dfd5-d301-496d-86c3-d7d220df7f2f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:13:54.619202+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4cd5dfd5-d301-496d-86c3-d7d220df7f2f_6465f9d9.png",
+     "page_url": "https://muapi.ai/predictions/4cd5dfd5-d301-496d-86c3-d7d220df7f2f",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "09aa7bdc-6f33-48c9-b511-bd831ba3dfdf",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:13:58.401373+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/09aa7bdc-6f33-48c9-b511-bd831ba3dfdf_d547b917.png",
+     "page_url": "https://muapi.ai/predictions/09aa7bdc-6f33-48c9-b511-bd831ba3dfdf",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "78a71488-6af8-402c-a67f-770cc623d04d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:22:35.461383+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/78a71488-6af8-402c-a67f-770cc623d04d_16dba0d3.png",
+     "page_url": "https://muapi.ai/predictions/78a71488-6af8-402c-a67f-770cc623d04d",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "f71d2d14-ddc6-438e-8b80-4672e4ba72d1",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:22:40.428365+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f71d2d14-ddc6-438e-8b80-4672e4ba72d1_89c7455f.png",
+     "page_url": "https://muapi.ai/predictions/f71d2d14-ddc6-438e-8b80-4672e4ba72d1",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-30T17:00:59.987204+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-30T22:30:11+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
    "key": "studio-wave1-20261030-bmw-m5-e39-v2",
    "name": "BMW M5 (E39) - DIRECTED",
    "notion_url": null,
@@ -1238,20 +2078,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-v2-c4e5d49742e9-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-v2-6c5d94c56e5d-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/bmw-m5-e39-v2/final-native.png",
-   "source_sha256": "c4e5d49742e9f3a541385db074c5cabd72da37c169d3c284f2c3a3efbcb4494d",
+   "source_sha256": "6c5d94c56e5d90dbdf5a78289bf732acee2b30141aa42795a9be12b479c9709d",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Fixed version - 3 local fixes, no model, USD 0.00. Still visible (harsh): the bonnet roundel's B M W letters are garbled (about 12 px; for the master, Q4), the one badge visibly wrong at 100 %; the near wheel cap is a blob, and the ten double spokes and five bolts cannot be proven in this pose; the cleaned sidewall is a little waxy; the polished rim lip is blown near white; the headlamp glass carries blotchy AI refractions. Next: the print master card (approval 2).",
+   "delivery_status": "Fixed version - 4 local fixes, no model, USD 0.00. Still visible (harsh): the bonnet roundel's B M W letters are garbled (about 12 px; for the master, Q4), the one badge visibly wrong at 100 %; the near wheel cap is a blob, and the ten double spokes and five bolts cannot be proven in this pose; the cleaned sidewall is a little waxy; the polished rim lip is blown near white; the headlamp glass carries blotchy AI refractions. Its print master card is the one for approval 2.",
    "candidate_created_at": "2026-10-30T17:04:28.842989+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -1328,9 +2168,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/c4e5d49742e9-studio-wave1-20261030-bmw-m5-e39-v2.png",
-   "full_source_sha256": "c4e5d49742e9f3a541385db074c5cabd72da37c169d3c284f2c3a3efbcb4494d",
-   "full_source_bytes": 10096897,
+   "full_source_url": "full/6c5d94c56e5d-studio-wave1-20261030-bmw-m5-e39-v2.png",
+   "full_source_sha256": "6c5d94c56e5d90dbdf5a78289bf732acee2b30141aa42795a9be12b479c9709d",
+   "full_source_bytes": 10097289,
    "full_source_pixels": [
     2480,
     3312
@@ -1650,20 +2490,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-v2-04ba2deebb8f-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-v2-d43b45e5a2d4-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/bmw-m5-touring-e61-v2/final-native.png",
-   "source_sha256": "04ba2deebb8f2a5f133b0ab83adc894393defc49abc37cf3910fbbf5d966d777",
+   "source_sha256": "d43b45e5a2d4e97cb6335e5fa64826824297144d4eb0b1382ee0a5df754877b0",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Fixed version - 1 local fix, no model, USD 0.00. Still visible (harsh): the bonnet roundel's letters are garbled (8-9 px) and the gill badge's M5 is soft (for the master, Q4); the cockpit is left-hand drive while the real UK car is right-hand drive; the brake discs are plain (the real ones are cross-drilled); the lower road has an AI motion-streak texture and the car casts a hard sunlit shadow although the sun stays below the trees; the cleaned sidewall is a little waxy. Next: the print master card (approval 2).",
+   "delivery_status": "Fixed version - 2 local fixes, no model, USD 0.00. Still visible (harsh): the bonnet roundel's letters are garbled (8-9 px) and the gill badge's M5 is soft (for the master, Q4); the cockpit is left-hand drive while the real UK car is right-hand drive; the brake discs are plain (the real ones are cross-drilled); the lower road has an AI motion-streak texture and the car casts a hard sunlit shadow although the sun stays below the trees; the cleaned sidewall is a little waxy. Its print master card is the one for approval 2.",
    "candidate_created_at": "2026-10-30T17:04:33.116917+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -1745,9 +2585,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/04ba2deebb8f-studio-wave1-20261030-bmw-m5-touring-e61-v2.png",
-   "full_source_sha256": "04ba2deebb8f2a5f133b0ab83adc894393defc49abc37cf3910fbbf5d966d777",
-   "full_source_bytes": 11486455,
+   "full_source_url": "full/d43b45e5a2d4-studio-wave1-20261030-bmw-m5-touring-e61-v2.png",
+   "full_source_sha256": "d43b45e5a2d4e97cb6335e5fa64826824297144d4eb0b1382ee0a5df754877b0",
+   "full_source_bytes": 11486376,
    "full_source_pixels": [
     2480,
     3312
@@ -11383,9 +12223,9 @@
   },
   {
    "key": "studio-wave1-20261030-bmw-m5-touring-e61-v2",
-   "declared_sha256": "04ba2deebb8f2a5f133b0ab83adc894393defc49abc37cf3910fbbf5d966d777",
+   "declared_sha256": "d43b45e5a2d4e97cb6335e5fa64826824297144d4eb0b1382ee0a5df754877b0",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-v2-04ba2deebb8f-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-v2-d43b45e5a2d4-current.jpg",
    "pixels": [
     2480,
     3312
@@ -11403,12 +12243,32 @@
   },
   {
    "key": "studio-wave1-20261030-bmw-m5-e39-v2",
-   "declared_sha256": "c4e5d49742e9f3a541385db074c5cabd72da37c169d3c284f2c3a3efbcb4494d",
+   "declared_sha256": "6c5d94c56e5d90dbdf5a78289bf732acee2b30141aa42795a9be12b479c9709d",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-v2-c4e5d49742e9-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-v2-6c5d94c56e5d-current.jpg",
    "pixels": [
     2480,
     3312
+   ]
+  },
+  {
+   "key": "studio-wave1-20261030-bmw-m5-touring-e61-v2-master",
+   "declared_sha256": "00f0b2397114ddb41f5a069b4d625376322029fd5d03c0a66307f2e2b675da72",
+   "applied": true,
+   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-v2-master-00f0b2397114-current.jpg",
+   "pixels": [
+    9000,
+    12000
+   ]
+  },
+  {
+   "key": "studio-wave1-20261030-bmw-m5-e39-v2-master",
+   "declared_sha256": "679e1e7a2f720775fd9e0fdfeaa47b3b5784b89978f0072c3c51acb061570cc3",
+   "applied": true,
+   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-v2-master-679e1e7a2f72-current.jpg",
+   "pixels": [
+    9000,
+    12000
    ]
   },
   {
