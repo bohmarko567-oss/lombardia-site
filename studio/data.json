@@ -1,7 +1,7 @@
 {
  "schema_version": 3,
- "built": "2026-10-30 23:55",
- "accessed_date": "2026-10-30",
+ "built": "2026-10-31 00:10",
+ "accessed_date": "2026-10-31",
  "collections": [
   "American Form",
   "Forma / Motion",
@@ -3339,6 +3339,1339 @@
    }
   },
   {
+   "key": "studio-wave1-20261030-lamborghini-countach-lp400-master",
+   "name": "Lamborghini Countach LP400 - print master M7 (workflow B)",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-wave1-20261030-lamborghini-countach-lp400-master-29e87f00a414-current.jpg",
+   "preview_pixels": [
+    1600,
+    1200
+   ],
+   "source_file": "pipeline/studio-wave1-20261030/q2/masters/lamborghini-countach-lp400/lamborghini-countach-lp400-M7-12000x9000.jpg",
+   "source_sha256": "29e87f00a414ac99b1408b9e7be36795ce4f6920a89ba1dbd5bb3eb92e444f91",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Print master M7 - approval 2, the last: after your word the lot runs to Etsy. 12000 x 9000, 12 master-scale fixes; cost USD 2.76 (upscale 0.56, master fixes 2.20). Still visible (harsh): in the cabin inset the speedometer's 120 reads 12 where the needle covers the 0, the rev counter's 3 is a faint ghost beside its needle, and 1-3 px remnants run along both needles (400-700 %); the console lid where an invented engraving was painted out is smooth, without grain (200 %); the gear-gate lockout knob is black (the real one grey-silver, 200 %); the near-rear cap bull is a black silhouette without the silver lines (300 %); the near-front rim's 12 o'clock is now plain where the real one carries a cast text strip; the inset CAMPAGNOLO keeps a round G and a thin N (300 %); a small chip after BERTONE copies the real plaque's wear.",
+   "candidate_created_at": "2026-10-30T23:01:11+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "5ec674a5-4be9-47cb-84a8-d09cb154a0d2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-30T16:28:43.052943+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5ec674a5-4be9-47cb-84a8-d09cb154a0d2_07d67df3.png",
+     "page_url": "https://muapi.ai/predictions/5ec674a5-4be9-47cb-84a8-d09cb154a0d2",
+     "references": [
+      {
+       "role": "Front three-quarter from the left front corner: whole-car proportions - the wedge, the flat nose, the steep windscreen, the NACA duct in the door, the left flank",
+       "url": "https://cdn.muapi.ai/outputs/generated/1dacc3b164a0496fb7f01a8b1403389f.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "Front three-quarter from the right front corner: the nose, the right flank, the black intake behind the side window",
+       "url": "https://cdn.muapi.ai/outputs/generated/97eca67205854f00a67045d2d9b6b270.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "Straight front: the flat pointed nose with the headlamps closed flush, the front lamps, the windscreen with its single wiper",
+       "url": "https://cdn.muapi.ai/outputs/generated/310ee6d115db489bb5039caa1d45bdaa.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "Side view (left side): the wedge profile, the wheelbase, the very low roof with the periscope channel",
+       "url": "https://cdn.muapi.ai/outputs/generated/21acaae36eab41a08b980cb7dfdfb6e6.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "The Lamborghini bull badge on the nose, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/5a868efc8ea249f3ae4b5a37bdba6eb0.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "The NACA duct on the door, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/d945dd4f5dfb4520a10471358d0c0d64.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "The disegno Bertone badge low on the side, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/d9338b91b76941869c53b9a67d6b0b94.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "Front wheel close-up: the silver Campagnolo wheel with its ring of radial slots",
+       "url": "https://cdn.muapi.ai/outputs/generated/6660572bbf64494fa3387a4a8df9a77f.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "Wheel centre close-up: the five lug nuts and the bull centre cap",
+       "url": "https://cdn.muapi.ai/outputs/generated/fb65181c6a7f487880591b8281fe89b4.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "The cabin through the open door: biscuit leather seats, the dashboard",
+       "url": "https://cdn.muapi.ai/outputs/generated/14795ce3886545a7ba20aabed504a4dc.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      }
+     ]
+    },
+    {
+     "role": "upscale",
+     "request_id": "bd80fd04-3452-439e-ace9-8a5748087142",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-30T18:53:05.753505+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/bd80fd04-3452-439e-ace9-8a5748087142_870abe7a.png",
+     "page_url": "https://muapi.ai/predictions/bd80fd04-3452-439e-ace9-8a5748087142",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "c2b3aba9-285f-4c54-aac4-0702c063382b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:58:19.041958+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c2b3aba9-285f-4c54-aac4-0702c063382b_71a9d6b0.png",
+     "page_url": "https://muapi.ai/predictions/c2b3aba9-285f-4c54-aac4-0702c063382b",
+     "target_id": "badge",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "8a036cc1-8cb5-4281-863d-22e337b90464",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:58:28.522870+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/8a036cc1-8cb5-4281-863d-22e337b90464_9e14e4f1.png",
+     "page_url": "https://muapi.ai/predictions/8a036cc1-8cb5-4281-863d-22e337b90464",
+     "target_id": "bertone",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "069c3151-6804-4758-a1b0-b80b7b91a9b3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:58:31.199778+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/069c3151-6804-4758-a1b0-b80b7b91a9b3_fd83a8cf.png",
+     "page_url": "https://muapi.ai/predictions/069c3151-6804-4758-a1b0-b80b7b91a9b3",
+     "target_id": "nfwcap",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "5d9f694e-6526-4bb9-82cc-09a024a766f0",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:58:33.831677+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5d9f694e-6526-4bb9-82cc-09a024a766f0_d137b8f2.png",
+     "page_url": "https://muapi.ai/predictions/5d9f694e-6526-4bb9-82cc-09a024a766f0",
+     "target_id": "nfwlogo",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "a1d0f352-b6a8-491e-b68d-eda4ac1e62dd",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:58:36.502711+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a1d0f352-b6a8-491e-b68d-eda4ac1e62dd_bb487a79.png",
+     "page_url": "https://muapi.ai/predictions/a1d0f352-b6a8-491e-b68d-eda4ac1e62dd",
+     "target_id": "inhub",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "b4a9986a-e7b2-4237-a65a-241a6dbe4ba4",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:58:43.378445+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b4a9986a-e7b2-4237-a65a-241a6dbe4ba4_224df5f4.png",
+     "page_url": "https://muapi.ai/predictions/b4a9986a-e7b2-4237-a65a-241a6dbe4ba4",
+     "target_id": "badge",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "ee92921e-71e9-4626-b6e5-da511bb58b8c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:58:46.129520+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ee92921e-71e9-4626-b6e5-da511bb58b8c_39dba457.png",
+     "page_url": "https://muapi.ai/predictions/ee92921e-71e9-4626-b6e5-da511bb58b8c",
+     "target_id": "bertone",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "6464adcf-5e53-4600-817a-fde546bebb58",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:58:49.568724+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6464adcf-5e53-4600-817a-fde546bebb58_9c35f702.png",
+     "page_url": "https://muapi.ai/predictions/6464adcf-5e53-4600-817a-fde546bebb58",
+     "target_id": "nfwcap",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "85401032-0368-4481-a3ff-ae088fdf76d2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:58:52.501866+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/85401032-0368-4481-a3ff-ae088fdf76d2_48d55716.png",
+     "page_url": "https://muapi.ai/predictions/85401032-0368-4481-a3ff-ae088fdf76d2",
+     "target_id": "nfwlogo",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "0e43ce51-8715-4321-9782-bc5791cc06d5",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:58:56.016425+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0e43ce51-8715-4321-9782-bc5791cc06d5_eeb82ed8.png",
+     "page_url": "https://muapi.ai/predictions/0e43ce51-8715-4321-9782-bc5791cc06d5",
+     "target_id": "inhub",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "30f8957d-f030-4c8d-a5b6-b906e3dc622c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:25:07.979555+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/30f8957d-f030-4c8d-a5b6-b906e3dc622c_1edbed66.png",
+     "page_url": "https://muapi.ai/predictions/30f8957d-f030-4c8d-a5b6-b906e3dc622c",
+     "target_id": "hornpad",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "5dac5ab3-e8d4-46aa-8a41-9d880a2c96e2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:25:11.630206+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5dac5ab3-e8d4-46aa-8a41-9d880a2c96e2_55d3a100.png",
+     "page_url": "https://muapi.ai/predictions/5dac5ab3-e8d4-46aa-8a41-9d880a2c96e2",
+     "target_id": "hornpad",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "545d8afe-8807-42a6-819b-a2b6d9c0e6f3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:36:09.918877+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/545d8afe-8807-42a6-819b-a2b6d9c0e6f3_f24f90aa.png",
+     "page_url": "https://muapi.ai/predictions/545d8afe-8807-42a6-819b-a2b6d9c0e6f3",
+     "target_id": "gate",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "f95d695b-44e8-400c-adb8-e3256fcca26d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:36:13.544389+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f95d695b-44e8-400c-adb8-e3256fcca26d_f935a848.png",
+     "page_url": "https://muapi.ai/predictions/f95d695b-44e8-400c-adb8-e3256fcca26d",
+     "target_id": "gate",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "e7f54c93-440d-441c-82cd-8b0246ef35da",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:40:55.839041+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e7f54c93-440d-441c-82cd-8b0246ef35da_fc33b976.png",
+     "page_url": "https://muapi.ai/predictions/e7f54c93-440d-441c-82cd-8b0246ef35da",
+     "target_id": "switch",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "d4ffb118-47f2-488e-900c-ab4dfc90c2f6",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:40:59.482750+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d4ffb118-47f2-488e-900c-ab4dfc90c2f6_8558937b.png",
+     "page_url": "https://muapi.ai/predictions/d4ffb118-47f2-488e-900c-ab4dfc90c2f6",
+     "target_id": "switch",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "b275ef61-f255-4523-91a1-f04a84aa6d1c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:51:15.123006+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b275ef61-f255-4523-91a1-f04a84aa6d1c_2a9439fa.png",
+     "page_url": "https://muapi.ai/predictions/b275ef61-f255-4523-91a1-f04a84aa6d1c",
+     "target_id": "gauges",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "9366c073-5638-479e-bf98-6ada4847025c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:51:19.885448+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9366c073-5638-479e-bf98-6ada4847025c_2f8f4286.png",
+     "page_url": "https://muapi.ai/predictions/9366c073-5638-479e-bf98-6ada4847025c",
+     "target_id": "gauges",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "9273c95f-cfeb-4d17-b699-7ab5e814cf8b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:55:13.778579+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9273c95f-cfeb-4d17-b699-7ab5e814cf8b_26c242df.png",
+     "page_url": "https://muapi.ai/predictions/9273c95f-cfeb-4d17-b699-7ab5e814cf8b",
+     "target_id": "gaugeL",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "6c997eb3-8650-43e0-aef1-88050fddf72b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:55:17.207502+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6c997eb3-8650-43e0-aef1-88050fddf72b_6b1c0c52.png",
+     "page_url": "https://muapi.ai/predictions/6c997eb3-8650-43e0-aef1-88050fddf72b",
+     "target_id": "gaugeR",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "6120bc2f-2c64-405a-b5ba-9e02e74f7551",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:55:21.784205+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6120bc2f-2c64-405a-b5ba-9e02e74f7551_e7a6785b.png",
+     "page_url": "https://muapi.ai/predictions/6120bc2f-2c64-405a-b5ba-9e02e74f7551",
+     "target_id": "gaugeL",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "0199a634-31a3-4ab1-b517-9d19478db21e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:55:25.222663+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0199a634-31a3-4ab1-b517-9d19478db21e_25fac268.png",
+     "page_url": "https://muapi.ai/predictions/0199a634-31a3-4ab1-b517-9d19478db21e",
+     "target_id": "gaugeR",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Studio di Forma",
+    "why": "Brief: FREE (cleaned, 3 Oct) - the model designed it. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
+   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
+   "full_source_url": "full/29e87f00a414-studio-wave1-20261030-lamborghini-countach-lp400-master.jpg",
+   "full_source_sha256": "29e87f00a414ac99b1408b9e7be36795ce4f6920a89ba1dbd5bb3eb92e444f91",
+   "full_source_bytes": 24527906,
+   "full_source_pixels": [
+    12000,
+    9000
+   ],
+   "full_source_kind": "exact_current_jpg",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": null,
+    "collection": null,
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "5ec674a5-4be9-47cb-84a8-d09cb154a0d2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T16:28:43.052943+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5ec674a5-4be9-47cb-84a8-d09cb154a0d2_07d67df3.png",
+     "page_url": "https://muapi.ai/predictions/5ec674a5-4be9-47cb-84a8-d09cb154a0d2",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left front corner: whole-car proportions - the wedge, the flat nose, the steep windscreen, the NACA duct in the door, the left flank",
+       "url": "https://cdn.muapi.ai/outputs/generated/1dacc3b164a0496fb7f01a8b1403389f.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "Front three-quarter from the right front corner: the nose, the right flank, the black intake behind the side window",
+       "url": "https://cdn.muapi.ai/outputs/generated/97eca67205854f00a67045d2d9b6b270.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "Straight front: the flat pointed nose with the headlamps closed flush, the front lamps, the windscreen with its single wiper",
+       "url": "https://cdn.muapi.ai/outputs/generated/310ee6d115db489bb5039caa1d45bdaa.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "Side view (left side): the wedge profile, the wheelbase, the very low roof with the periscope channel",
+       "url": "https://cdn.muapi.ai/outputs/generated/21acaae36eab41a08b980cb7dfdfb6e6.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "The Lamborghini bull badge on the nose, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/5a868efc8ea249f3ae4b5a37bdba6eb0.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "The NACA duct on the door, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/d945dd4f5dfb4520a10471358d0c0d64.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "The disegno Bertone badge low on the side, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/d9338b91b76941869c53b9a67d6b0b94.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "Front wheel close-up: the silver Campagnolo wheel with its ring of radial slots",
+       "url": "https://cdn.muapi.ai/outputs/generated/6660572bbf64494fa3387a4a8df9a77f.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "Wheel centre close-up: the five lug nuts and the bull centre cap",
+       "url": "https://cdn.muapi.ai/outputs/generated/fb65181c6a7f487880591b8281fe89b4.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      },
+      {
+       "role": "The cabin through the open door: biscuit leather seats, the dashboard",
+       "url": "https://cdn.muapi.ai/outputs/generated/14795ce3886545a7ba20aabed504a4dc.jpg",
+       "source_page": "https://rmsothebys.com/auctions/mi24/lots/r0062-1976-lamborghini-countach-lp400-periscopio-by-bertone/"
+      }
+     ],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "upscale",
+     "request_id": "bd80fd04-3452-439e-ace9-8a5748087142",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-30T18:53:05.753505+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/bd80fd04-3452-439e-ace9-8a5748087142_870abe7a.png",
+     "page_url": "https://muapi.ai/predictions/bd80fd04-3452-439e-ace9-8a5748087142",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "c2b3aba9-285f-4c54-aac4-0702c063382b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:58:19.041958+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c2b3aba9-285f-4c54-aac4-0702c063382b_71a9d6b0.png",
+     "page_url": "https://muapi.ai/predictions/c2b3aba9-285f-4c54-aac4-0702c063382b",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "8a036cc1-8cb5-4281-863d-22e337b90464",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:58:28.522870+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/8a036cc1-8cb5-4281-863d-22e337b90464_9e14e4f1.png",
+     "page_url": "https://muapi.ai/predictions/8a036cc1-8cb5-4281-863d-22e337b90464",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "069c3151-6804-4758-a1b0-b80b7b91a9b3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:58:31.199778+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/069c3151-6804-4758-a1b0-b80b7b91a9b3_fd83a8cf.png",
+     "page_url": "https://muapi.ai/predictions/069c3151-6804-4758-a1b0-b80b7b91a9b3",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "5d9f694e-6526-4bb9-82cc-09a024a766f0",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:58:33.831677+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5d9f694e-6526-4bb9-82cc-09a024a766f0_d137b8f2.png",
+     "page_url": "https://muapi.ai/predictions/5d9f694e-6526-4bb9-82cc-09a024a766f0",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "a1d0f352-b6a8-491e-b68d-eda4ac1e62dd",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:58:36.502711+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a1d0f352-b6a8-491e-b68d-eda4ac1e62dd_bb487a79.png",
+     "page_url": "https://muapi.ai/predictions/a1d0f352-b6a8-491e-b68d-eda4ac1e62dd",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "b4a9986a-e7b2-4237-a65a-241a6dbe4ba4",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:58:43.378445+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b4a9986a-e7b2-4237-a65a-241a6dbe4ba4_224df5f4.png",
+     "page_url": "https://muapi.ai/predictions/b4a9986a-e7b2-4237-a65a-241a6dbe4ba4",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "ee92921e-71e9-4626-b6e5-da511bb58b8c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:58:46.129520+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ee92921e-71e9-4626-b6e5-da511bb58b8c_39dba457.png",
+     "page_url": "https://muapi.ai/predictions/ee92921e-71e9-4626-b6e5-da511bb58b8c",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "6464adcf-5e53-4600-817a-fde546bebb58",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:58:49.568724+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6464adcf-5e53-4600-817a-fde546bebb58_9c35f702.png",
+     "page_url": "https://muapi.ai/predictions/6464adcf-5e53-4600-817a-fde546bebb58",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "85401032-0368-4481-a3ff-ae088fdf76d2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:58:52.501866+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/85401032-0368-4481-a3ff-ae088fdf76d2_48d55716.png",
+     "page_url": "https://muapi.ai/predictions/85401032-0368-4481-a3ff-ae088fdf76d2",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "0e43ce51-8715-4321-9782-bc5791cc06d5",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T21:58:56.016425+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0e43ce51-8715-4321-9782-bc5791cc06d5_eeb82ed8.png",
+     "page_url": "https://muapi.ai/predictions/0e43ce51-8715-4321-9782-bc5791cc06d5",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "30f8957d-f030-4c8d-a5b6-b906e3dc622c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:25:07.979555+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/30f8957d-f030-4c8d-a5b6-b906e3dc622c_1edbed66.png",
+     "page_url": "https://muapi.ai/predictions/30f8957d-f030-4c8d-a5b6-b906e3dc622c",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "5dac5ab3-e8d4-46aa-8a41-9d880a2c96e2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:25:11.630206+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5dac5ab3-e8d4-46aa-8a41-9d880a2c96e2_55d3a100.png",
+     "page_url": "https://muapi.ai/predictions/5dac5ab3-e8d4-46aa-8a41-9d880a2c96e2",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "545d8afe-8807-42a6-819b-a2b6d9c0e6f3",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:36:09.918877+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/545d8afe-8807-42a6-819b-a2b6d9c0e6f3_f24f90aa.png",
+     "page_url": "https://muapi.ai/predictions/545d8afe-8807-42a6-819b-a2b6d9c0e6f3",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "f95d695b-44e8-400c-adb8-e3256fcca26d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:36:13.544389+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f95d695b-44e8-400c-adb8-e3256fcca26d_f935a848.png",
+     "page_url": "https://muapi.ai/predictions/f95d695b-44e8-400c-adb8-e3256fcca26d",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "e7f54c93-440d-441c-82cd-8b0246ef35da",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:40:55.839041+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e7f54c93-440d-441c-82cd-8b0246ef35da_fc33b976.png",
+     "page_url": "https://muapi.ai/predictions/e7f54c93-440d-441c-82cd-8b0246ef35da",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "d4ffb118-47f2-488e-900c-ab4dfc90c2f6",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:40:59.482750+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d4ffb118-47f2-488e-900c-ab4dfc90c2f6_8558937b.png",
+     "page_url": "https://muapi.ai/predictions/d4ffb118-47f2-488e-900c-ab4dfc90c2f6",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "b275ef61-f255-4523-91a1-f04a84aa6d1c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:51:15.123006+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b275ef61-f255-4523-91a1-f04a84aa6d1c_2a9439fa.png",
+     "page_url": "https://muapi.ai/predictions/b275ef61-f255-4523-91a1-f04a84aa6d1c",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "9366c073-5638-479e-bf98-6ada4847025c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:51:19.885448+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9366c073-5638-479e-bf98-6ada4847025c_2f8f4286.png",
+     "page_url": "https://muapi.ai/predictions/9366c073-5638-479e-bf98-6ada4847025c",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "9273c95f-cfeb-4d17-b699-7ab5e814cf8b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:55:13.778579+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/9273c95f-cfeb-4d17-b699-7ab5e814cf8b_26c242df.png",
+     "page_url": "https://muapi.ai/predictions/9273c95f-cfeb-4d17-b699-7ab5e814cf8b",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "6c997eb3-8650-43e0-aef1-88050fddf72b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:55:17.207502+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6c997eb3-8650-43e0-aef1-88050fddf72b_6b1c0c52.png",
+     "page_url": "https://muapi.ai/predictions/6c997eb3-8650-43e0-aef1-88050fddf72b",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "6120bc2f-2c64-405a-b5ba-9e02e74f7551",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:55:21.784205+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6120bc2f-2c64-405a-b5ba-9e02e74f7551_e7a6785b.png",
+     "page_url": "https://muapi.ai/predictions/6120bc2f-2c64-405a-b5ba-9e02e74f7551",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "0199a634-31a3-4ab1-b517-9d19478db21e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:55:25.222663+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0199a634-31a3-4ab1-b517-9d19478db21e_25fac268.png",
+     "page_url": "https://muapi.ai/predictions/0199a634-31a3-4ab1-b517-9d19478db21e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-30T16:28:43.052943+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-30T23:01:11+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-wave1-20261030-honda-civic-type-r-ek9-master",
+   "name": "Honda Civic Type R (EK9) - print master M8 (workflow B)",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-wave1-20261030-honda-civic-type-r-ek9-master-5a7fd9f86d40-current.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_file": "pipeline/studio-wave1-20261030/q2/masters/honda-civic-type-r-ek9/honda-civic-type-r-ek9-M8-9000x12000.jpg",
+   "source_sha256": "5a7fd9f86d4023a1422b42c0469652e314a45fe65d2e3514db8536125002fe7c",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Print master M8 - approval 2, the last: after your word the lot runs to Etsy. 9000 x 12000, 11 master-scale fixes; cost USD 2.56 (upscale 0.56, master fixes 2.00). Still visible (harsh): the headlamps (main car and the lamp piece) keep the generator's rainbow flares and busy reflections, busier than the real lamp at 100-200 %; the two lens edges are now plain where the real lamp carries a tiny moulded code (300 %); the cleaned bracket and bolts behind the intake read newer than this car's, the bar a little bright (300 %); the far-lamp fill a touch soft (300 %); from the native pass: the cleaned tyre sidewalls read slightly plastic, most on the wheel piece (about 19 cm across on the print), the recoloured rear nut a touch dark, pits on the gear knob.",
+   "candidate_created_at": "2026-10-30T23:09:12+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "d0974e4a-c905-476f-8b64-040a837274f7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-30T16:28:37.479491+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d0974e4a-c905-476f-8b64-040a837274f7_973d1a87.png",
+     "page_url": "https://muapi.ai/predictions/d0974e4a-c905-476f-8b64-040a837274f7",
+     "references": [
+      {
+       "role": "Front three-quarter from the left front corner, low and close: the headlamps, the red H badge in the grille, the front lip spoiler, the bonnet (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/0d1407e277a34a5d8251d7ede5ab27ee.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Front three-quarter from the left front corner at a distance: the proportions of the three-door hatchback, the roof spoiler, the white wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/f0c41e080e2b455e91ea789702c5a0d8.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Straight front: both headlamps, the grille with the red H badge, the bumper and the front lip spoiler",
+       "url": "https://cdn.muapi.ai/outputs/generated/f74a2c8c51214bbd8c497ab910a62a50.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Side view: the proportions of the hatchback, the wheelbase, the CIVIC TYPE R decal on the rear quarter",
+       "url": "https://cdn.muapi.ai/outputs/generated/55da3c30a6254339b3c0c6dfba0a8537.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "The red-backed H badge in the grille, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/12bb6b11c7d54026b868867030f05106.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Headlamp close-up: the clear headlamp and its lenses",
+       "url": "https://cdn.muapi.ai/outputs/generated/3ec47674e0ef472991c295a47a6d466b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "The front lip spoiler and the bumper, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/6e9a74f5be944b65b11f1613090df169.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Front wheel close-up: the white seven-spoke wheel with five lug nuts and the H centre cap (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/generated/0276c7941d4248c59bc7a688ab0a7707.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "The door mirror in body colour",
+       "url": "https://cdn.muapi.ai/outputs/generated/0c1520078035455e95537a9ede529e4e.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "The cabin: the red Recaro seats, as seen through the windscreen",
+       "url": "https://cdn.muapi.ai/outputs/generated/e1dbe1a9985340f58544a8816f94dece.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "The titanium gear knob with its engraved shift pattern, close-up (the cut-out in the collage)",
+       "url": "https://cdn.muapi.ai/outputs/generated/b57a07295bb948a8a682dbfc383d04ad.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Lettering close-up: the car's own CIVIC TYPE R decal - CIVIC and TYPE in dark grey capitals and the big slanted red R; the model for the TYPE R lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/b1e3877613f54b04a8295eca3b53ea13.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      }
+     ]
+    },
+    {
+     "role": "upscale",
+     "request_id": "e0fe7d94-251d-490d-8e41-75ba347749d6",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-30T18:49:31.888305+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e0fe7d94-251d-490d-8e41-75ba347749d6_25be4694.png",
+     "page_url": "https://muapi.ai/predictions/e0fe7d94-251d-490d-8e41-75ba347749d6",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "c8b69d51-e47c-4205-b773-15cb71f2692d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:00:35.225967+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c8b69d51-e47c-4205-b773-15cb71f2692d_e86566d3.png",
+     "page_url": "https://muapi.ai/predictions/c8b69d51-e47c-4205-b773-15cb71f2692d",
+     "target_id": "rcap",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "603aa5ff-416f-44bd-b13c-5ea32bd5e27e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:00:38.801061+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/603aa5ff-416f-44bd-b13c-5ea32bd5e27e_a6d50be7.png",
+     "page_url": "https://muapi.ai/predictions/603aa5ff-416f-44bd-b13c-5ea32bd5e27e",
+     "target_id": "decal",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "a7ab4cda-5d15-4338-af94-331433c7ecaa",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:00:42.298962+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a7ab4cda-5d15-4338-af94-331433c7ecaa_4c642bf1.png",
+     "page_url": "https://muapi.ai/predictions/a7ab4cda-5d15-4338-af94-331433c7ecaa",
+     "target_id": "rust-L",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "329cd229-b41c-48ab-8d30-d4a5e6177fa0",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:00:46.029368+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/329cd229-b41c-48ab-8d30-d4a5e6177fa0_18010a9e.png",
+     "page_url": "https://muapi.ai/predictions/329cd229-b41c-48ab-8d30-d4a5e6177fa0",
+     "target_id": "rust-R",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "a55f7a50-a5fb-4168-9212-5c8ee11416d9",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:00:54.880918+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a55f7a50-a5fb-4168-9212-5c8ee11416d9_c1d74ec0.png",
+     "page_url": "https://muapi.ai/predictions/a55f7a50-a5fb-4168-9212-5c8ee11416d9",
+     "target_id": "rcap",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "4b43b0f7-400a-416c-80ec-84902d0ebd56",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:00:58.252469+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4b43b0f7-400a-416c-80ec-84902d0ebd56_6fb9e954.png",
+     "page_url": "https://muapi.ai/predictions/4b43b0f7-400a-416c-80ec-84902d0ebd56",
+     "target_id": "decal",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "2d8a39d1-6dd6-4c2c-a601-0a7f9a314679",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:01:01.755740+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2d8a39d1-6dd6-4c2c-a601-0a7f9a314679_0bc91d6d.png",
+     "page_url": "https://muapi.ai/predictions/2d8a39d1-6dd6-4c2c-a601-0a7f9a314679",
+     "target_id": "rust-L",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "f6742048-d4c5-4fd5-9d33-844080ce6420",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:01:04.968058+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f6742048-d4c5-4fd5-9d33-844080ce6420_6a8e997b.png",
+     "page_url": "https://muapi.ai/predictions/f6742048-d4c5-4fd5-9d33-844080ce6420",
+     "target_id": "rust-R",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "60bfef23-a88b-4c9a-8de9-74001e15d7a1",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:30:16.870009+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/60bfef23-a88b-4c9a-8de9-74001e15d7a1_56ce3f4c.png",
+     "page_url": "https://muapi.ai/predictions/60bfef23-a88b-4c9a-8de9-74001e15d7a1",
+     "target_id": "farlamp",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "d03fe908-c57b-4c8a-8555-c515e4f4017d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:30:20.476183+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d03fe908-c57b-4c8a-8555-c515e4f4017d_4da8e892.png",
+     "page_url": "https://muapi.ai/predictions/d03fe908-c57b-4c8a-8555-c515e4f4017d",
+     "target_id": "farlamp",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "6ffd82b7-9255-4de1-97a8-5194bd75230c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:45:45.169484+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6ffd82b7-9255-4de1-97a8-5194bd75230c_1664f75e.png",
+     "page_url": "https://muapi.ai/predictions/6ffd82b7-9255-4de1-97a8-5194bd75230c",
+     "target_id": "lenscode",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "3fde51ac-6e2c-4df3-9904-f5dad3f79455",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:45:48.883818+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/3fde51ac-6e2c-4df3-9904-f5dad3f79455_77133db7.png",
+     "page_url": "https://muapi.ai/predictions/3fde51ac-6e2c-4df3-9904-f5dad3f79455",
+     "target_id": "lenscode",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "1f3c2adb-d663-4101-b208-0576a20cbee6",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:49:55.114962+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/1f3c2adb-d663-4101-b208-0576a20cbee6_8df60cf2.png",
+     "page_url": "https://muapi.ai/predictions/1f3c2adb-d663-4101-b208-0576a20cbee6",
+     "target_id": "nearcode",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "96952050-95b6-43cb-b8e9-398dd0a3ba4e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:49:58.713942+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/96952050-95b6-43cb-b8e9-398dd0a3ba4e_042a89dc.png",
+     "page_url": "https://muapi.ai/predictions/96952050-95b6-43cb-b8e9-398dd0a3ba4e",
+     "target_id": "nearcode",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "0b228771-a4ff-47b7-9786-cd052b7cfc18",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:53:59.737528+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0b228771-a4ff-47b7-9786-cd052b7cfc18_5e3429f0.png",
+     "page_url": "https://muapi.ai/predictions/0b228771-a4ff-47b7-9786-cd052b7cfc18",
+     "target_id": "upbolts",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "d1d9c028-2bfa-4ff7-96ce-0d933347a374",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:54:03.392933+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d1d9c028-2bfa-4ff7-96ce-0d933347a374_7a89126f.png",
+     "page_url": "https://muapi.ai/predictions/d1d9c028-2bfa-4ff7-96ce-0d933347a374",
+     "target_id": "upbolts",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "90a6e3ab-9a7c-42b7-a9a8-14b0a7798af0",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:58:27.480423+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/90a6e3ab-9a7c-42b7-a9a8-14b0a7798af0_f7ee9a62.png",
+     "page_url": "https://muapi.ai/predictions/90a6e3ab-9a7c-42b7-a9a8-14b0a7798af0",
+     "target_id": "piececap",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "808a6e97-bba2-49d3-aae0-257824f84ffb",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:58:31.074258+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/808a6e97-bba2-49d3-aae0-257824f84ffb_96340e67.png",
+     "page_url": "https://muapi.ai/predictions/808a6e97-bba2-49d3-aae0-257824f84ffb",
+     "target_id": "piececap",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "36cd30a7-7c5b-4fe8-a51c-f74d0f4e2dab",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T23:05:03.743070+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/36cd30a7-7c5b-4fe8-a51c-f74d0f4e2dab_a87a7aa9.png",
+     "page_url": "https://muapi.ai/predictions/36cd30a7-7c5b-4fe8-a51c-f74d0f4e2dab",
+     "target_id": "capF",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "4306349a-ead4-4b43-a42b-5afaaa5f61d2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T23:05:07.339032+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4306349a-ead4-4b43-a42b-5afaaa5f61d2_6abe4a30.png",
+     "page_url": "https://muapi.ai/predictions/4306349a-ead4-4b43-a42b-5afaaa5f61d2",
+     "target_id": "capF",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Sport / Leicht",
+    "why": "Brief: DIRECTED D33 - torn-paper collage: the white car, the red details. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
+   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
+   "full_source_url": "full/5a7fd9f86d40-studio-wave1-20261030-honda-civic-type-r-ek9-master.jpg",
+   "full_source_sha256": "5a7fd9f86d4023a1422b42c0469652e314a45fe65d2e3514db8536125002fe7c",
+   "full_source_bytes": 27571364,
+   "full_source_pixels": [
+    9000,
+    12000
+   ],
+   "full_source_kind": "exact_current_jpg",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: DIRECTED D33 - torn-paper collage: the white car, the red details. Suggestion only.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "d0974e4a-c905-476f-8b64-040a837274f7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T16:28:37.479491+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d0974e4a-c905-476f-8b64-040a837274f7_973d1a87.png",
+     "page_url": "https://muapi.ai/predictions/d0974e4a-c905-476f-8b64-040a837274f7",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the left front corner, low and close: the headlamps, the red H badge in the grille, the front lip spoiler, the bonnet (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/0d1407e277a34a5d8251d7ede5ab27ee.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Front three-quarter from the left front corner at a distance: the proportions of the three-door hatchback, the roof spoiler, the white wheels",
+       "url": "https://cdn.muapi.ai/outputs/generated/f0c41e080e2b455e91ea789702c5a0d8.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Straight front: both headlamps, the grille with the red H badge, the bumper and the front lip spoiler",
+       "url": "https://cdn.muapi.ai/outputs/generated/f74a2c8c51214bbd8c497ab910a62a50.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Side view: the proportions of the hatchback, the wheelbase, the CIVIC TYPE R decal on the rear quarter",
+       "url": "https://cdn.muapi.ai/outputs/generated/55da3c30a6254339b3c0c6dfba0a8537.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "The red-backed H badge in the grille, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/12bb6b11c7d54026b868867030f05106.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Headlamp close-up: the clear headlamp and its lenses",
+       "url": "https://cdn.muapi.ai/outputs/generated/3ec47674e0ef472991c295a47a6d466b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "The front lip spoiler and the bumper, close-up",
+       "url": "https://cdn.muapi.ai/outputs/generated/6e9a74f5be944b65b11f1613090df169.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Front wheel close-up: the white seven-spoke wheel with five lug nuts and the H centre cap (ignore the tyre lettering)",
+       "url": "https://cdn.muapi.ai/outputs/generated/0276c7941d4248c59bc7a688ab0a7707.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "The door mirror in body colour",
+       "url": "https://cdn.muapi.ai/outputs/generated/0c1520078035455e95537a9ede529e4e.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "The cabin: the red Recaro seats, as seen through the windscreen",
+       "url": "https://cdn.muapi.ai/outputs/generated/e1dbe1a9985340f58544a8816f94dece.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "The titanium gear knob with its engraved shift pattern, close-up (the cut-out in the collage)",
+       "url": "https://cdn.muapi.ai/outputs/generated/b57a07295bb948a8a682dbfc383d04ad.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      },
+      {
+       "role": "Lettering close-up: the car's own CIVIC TYPE R decal - CIVIC and TYPE in dark grey capitals and the big slanted red R; the model for the TYPE R lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/b1e3877613f54b04a8295eca3b53ea13.jpg",
+       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
+      }
+     ],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "upscale",
+     "request_id": "e0fe7d94-251d-490d-8e41-75ba347749d6",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-30T18:49:31.888305+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/e0fe7d94-251d-490d-8e41-75ba347749d6_25be4694.png",
+     "page_url": "https://muapi.ai/predictions/e0fe7d94-251d-490d-8e41-75ba347749d6",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "c8b69d51-e47c-4205-b773-15cb71f2692d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:00:35.225967+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/c8b69d51-e47c-4205-b773-15cb71f2692d_e86566d3.png",
+     "page_url": "https://muapi.ai/predictions/c8b69d51-e47c-4205-b773-15cb71f2692d",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "603aa5ff-416f-44bd-b13c-5ea32bd5e27e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:00:38.801061+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/603aa5ff-416f-44bd-b13c-5ea32bd5e27e_a6d50be7.png",
+     "page_url": "https://muapi.ai/predictions/603aa5ff-416f-44bd-b13c-5ea32bd5e27e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "a7ab4cda-5d15-4338-af94-331433c7ecaa",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:00:42.298962+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a7ab4cda-5d15-4338-af94-331433c7ecaa_4c642bf1.png",
+     "page_url": "https://muapi.ai/predictions/a7ab4cda-5d15-4338-af94-331433c7ecaa",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "329cd229-b41c-48ab-8d30-d4a5e6177fa0",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:00:46.029368+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/329cd229-b41c-48ab-8d30-d4a5e6177fa0_18010a9e.png",
+     "page_url": "https://muapi.ai/predictions/329cd229-b41c-48ab-8d30-d4a5e6177fa0",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "a55f7a50-a5fb-4168-9212-5c8ee11416d9",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:00:54.880918+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a55f7a50-a5fb-4168-9212-5c8ee11416d9_c1d74ec0.png",
+     "page_url": "https://muapi.ai/predictions/a55f7a50-a5fb-4168-9212-5c8ee11416d9",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "4b43b0f7-400a-416c-80ec-84902d0ebd56",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:00:58.252469+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4b43b0f7-400a-416c-80ec-84902d0ebd56_6fb9e954.png",
+     "page_url": "https://muapi.ai/predictions/4b43b0f7-400a-416c-80ec-84902d0ebd56",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "2d8a39d1-6dd6-4c2c-a601-0a7f9a314679",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:01:01.755740+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2d8a39d1-6dd6-4c2c-a601-0a7f9a314679_0bc91d6d.png",
+     "page_url": "https://muapi.ai/predictions/2d8a39d1-6dd6-4c2c-a601-0a7f9a314679",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "f6742048-d4c5-4fd5-9d33-844080ce6420",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:01:04.968058+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f6742048-d4c5-4fd5-9d33-844080ce6420_6a8e997b.png",
+     "page_url": "https://muapi.ai/predictions/f6742048-d4c5-4fd5-9d33-844080ce6420",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "60bfef23-a88b-4c9a-8de9-74001e15d7a1",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:30:16.870009+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/60bfef23-a88b-4c9a-8de9-74001e15d7a1_56ce3f4c.png",
+     "page_url": "https://muapi.ai/predictions/60bfef23-a88b-4c9a-8de9-74001e15d7a1",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "d03fe908-c57b-4c8a-8555-c515e4f4017d",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:30:20.476183+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d03fe908-c57b-4c8a-8555-c515e4f4017d_4da8e892.png",
+     "page_url": "https://muapi.ai/predictions/d03fe908-c57b-4c8a-8555-c515e4f4017d",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "6ffd82b7-9255-4de1-97a8-5194bd75230c",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:45:45.169484+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6ffd82b7-9255-4de1-97a8-5194bd75230c_1664f75e.png",
+     "page_url": "https://muapi.ai/predictions/6ffd82b7-9255-4de1-97a8-5194bd75230c",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "3fde51ac-6e2c-4df3-9904-f5dad3f79455",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:45:48.883818+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/3fde51ac-6e2c-4df3-9904-f5dad3f79455_77133db7.png",
+     "page_url": "https://muapi.ai/predictions/3fde51ac-6e2c-4df3-9904-f5dad3f79455",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "1f3c2adb-d663-4101-b208-0576a20cbee6",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:49:55.114962+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/1f3c2adb-d663-4101-b208-0576a20cbee6_8df60cf2.png",
+     "page_url": "https://muapi.ai/predictions/1f3c2adb-d663-4101-b208-0576a20cbee6",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "96952050-95b6-43cb-b8e9-398dd0a3ba4e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:49:58.713942+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/96952050-95b6-43cb-b8e9-398dd0a3ba4e_042a89dc.png",
+     "page_url": "https://muapi.ai/predictions/96952050-95b6-43cb-b8e9-398dd0a3ba4e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "0b228771-a4ff-47b7-9786-cd052b7cfc18",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:53:59.737528+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0b228771-a4ff-47b7-9786-cd052b7cfc18_5e3429f0.png",
+     "page_url": "https://muapi.ai/predictions/0b228771-a4ff-47b7-9786-cd052b7cfc18",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "d1d9c028-2bfa-4ff7-96ce-0d933347a374",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:54:03.392933+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d1d9c028-2bfa-4ff7-96ce-0d933347a374_7a89126f.png",
+     "page_url": "https://muapi.ai/predictions/d1d9c028-2bfa-4ff7-96ce-0d933347a374",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "90a6e3ab-9a7c-42b7-a9a8-14b0a7798af0",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:58:27.480423+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/90a6e3ab-9a7c-42b7-a9a8-14b0a7798af0_f7ee9a62.png",
+     "page_url": "https://muapi.ai/predictions/90a6e3ab-9a7c-42b7-a9a8-14b0a7798af0",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "808a6e97-bba2-49d3-aae0-257824f84ffb",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:58:31.074258+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/808a6e97-bba2-49d3-aae0-257824f84ffb_96340e67.png",
+     "page_url": "https://muapi.ai/predictions/808a6e97-bba2-49d3-aae0-257824f84ffb",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "36cd30a7-7c5b-4fe8-a51c-f74d0f4e2dab",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T23:05:03.743070+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/36cd30a7-7c5b-4fe8-a51c-f74d0f4e2dab_a87a7aa9.png",
+     "page_url": "https://muapi.ai/predictions/36cd30a7-7c5b-4fe8-a51c-f74d0f4e2dab",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "4306349a-ead4-4b43-a42b-5afaaa5f61d2",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T23:05:07.339032+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4306349a-ead4-4b43-a42b-5afaaa5f61d2_6abe4a30.png",
+     "page_url": "https://muapi.ai/predictions/4306349a-ead4-4b43-a42b-5afaaa5f61d2",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-30T16:28:37.479491+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-30T23:09:12+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
    "key": "studio-wave1-20261030-dodge-challenger-r-t-1970-master",
    "name": "Dodge Challenger R/T (1970) - print master M2 (workflow B)",
    "notion_url": null,
@@ -3637,6 +4970,575 @@
     "created_at": "2026-10-30T16:28:31.920248+00:00",
     "created_source": "MuAPI original",
     "updated_at": "2026-10-30T22:53:25+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-wave1-20261030-audi-avus-quattro-master",
+   "name": "Audi Avus quattro (1991 concept) - print master M2 (workflow B)",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-wave1-20261030-audi-avus-quattro-master-9624db337162-current.jpg",
+   "preview_pixels": [
+    1600,
+    1200
+   ],
+   "source_file": "pipeline/studio-wave1-20261030/q2/masters/audi-avus-quattro/audi-avus-quattro-M2-12000x9000.jpg",
+   "source_sha256": "9624db33716255e55944c5ef3109b159756e641f2eabc65cf7be0dcbc6a03ff7",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Print master M2 - approval 2, the last: after your word the lot runs to Etsy. 12000 x 9000, 2 master-scale fixes; cost USD 0.76 (upscale 0.56, master fixes 0.20). Still visible (harsh): the body badge is now the real car's one-piece plaque - the four rings and AVUS side by side on black, in the lithograph's own inks - in place of the hero's larger rings stacked over AVUS: a visible change at full view (if you prefer the hero's look it goes back in one step); a 2-3 px stippled halo round the plaque (300 %), its rings about 12 px each; the stipple where the old badge was is a touch smoother (150 %); the near-front valve is now in the print's grey and black inks (the real one is brass, an ink this lithograph does not use); the faded top of the removed lamp element's arc shows at 400 %; the nose rings keep their shading notches.",
+   "candidate_created_at": "2026-10-30T23:01:17+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "7da7a399-9a2e-42d1-ac9d-2d0a6b37b9ac",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-30T16:28:04.264465+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/7da7a399-9a2e-42d1-ac9d-2d0a6b37b9ac_15bae68f.png",
+     "page_url": "https://muapi.ai/predictions/7da7a399-9a2e-42d1-ac9d-2d0a6b37b9ac",
+     "references": [
+      {
+       "role": "Front three-quarter from the right front corner, low, in a dark studio: the long low nose, the slim headlamps, the four rings in the black grille slot, the polished aluminium body and its shut lines, the wheels (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/057d00877b914c24bfac998f17c17c07.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Nose close-up: the chrome four rings in the black grille slot, the slim headlamp with its small lenses",
+       "url": "https://cdn.muapi.ai/outputs/generated/55c6b0164efd40198118114b4161cbab.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Front three-quarter, black-and-white photograph: the nose, the wide flat bonnet, the windscreen, the wheels (form only, the colour is polished aluminium)",
+       "url": "https://cdn.muapi.ai/outputs/generated/2c3e5a35285a46e486e325530937ef50.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Straight overhead view on black: the plan shape, the long nose, the canopy, the engine cover (form only)",
+       "url": "https://cdn.muapi.ai/outputs/generated/921bfdd34f9f4e02a06c851eec3c00ae.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Side view, black-and-white photograph: the profile, the wheelbase, the long tail (ignore the people and the raised door)",
+       "url": "https://cdn.muapi.ai/outputs/generated/91ce57159327441f90211e03d0f807c4.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Front wheel close-up: the six-spoke wheel with its large centre cap and the four rings on one spoke",
+       "url": "https://cdn.muapi.ai/outputs/generated/cee023b3fe6444df93ca5f0195f7969b.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Lettering close-up: the car's own AVUS badge with the four rings beside it; the model for the AVUS lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/4db32ab8432f4ce4ac5f762d5ccb0854.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      }
+     ]
+    },
+    {
+     "role": "upscale",
+     "request_id": "451f641d-fa3f-4e3b-910d-17a44183414b",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-30T18:56:37.925182+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/451f641d-fa3f-4e3b-910d-17a44183414b_209d0382.png",
+     "page_url": "https://muapi.ai/predictions/451f641d-fa3f-4e3b-910d-17a44183414b",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "14eaf238-24a0-4cb5-b2c4-87723fafe8dc",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:22:43.041459+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/14eaf238-24a0-4cb5-b2c4-87723fafe8dc_f7717e39.png",
+     "page_url": "https://muapi.ai/predictions/14eaf238-24a0-4cb5-b2c4-87723fafe8dc",
+     "target_id": "badge",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "f6206a6c-1760-490e-b95e-109d1fda409f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:22:48.024207+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f6206a6c-1760-490e-b95e-109d1fda409f_6003738e.png",
+     "page_url": "https://muapi.ai/predictions/f6206a6c-1760-490e-b95e-109d1fda409f",
+     "target_id": "badge",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Studio di Forma",
+    "why": "Brief: DIRECTED B (1930s Grand Prix lithograph) with A8 (the name's meaning): the steep banked curve of the track the car is named after. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
+   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
+   "full_source_url": "full/9624db337162-studio-wave1-20261030-audi-avus-quattro-master.jpg",
+   "full_source_sha256": "9624db33716255e55944c5ef3109b159756e641f2eabc65cf7be0dcbc6a03ff7",
+   "full_source_bytes": 41820182,
+   "full_source_pixels": [
+    12000,
+    9000
+   ],
+   "full_source_kind": "exact_current_jpg",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": null,
+    "collection": null,
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "no suggestion yet",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "7da7a399-9a2e-42d1-ac9d-2d0a6b37b9ac",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T16:28:04.264465+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/7da7a399-9a2e-42d1-ac9d-2d0a6b37b9ac_15bae68f.png",
+     "page_url": "https://muapi.ai/predictions/7da7a399-9a2e-42d1-ac9d-2d0a6b37b9ac",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Front three-quarter from the right front corner, low, in a dark studio: the long low nose, the slim headlamps, the four rings in the black grille slot, the polished aluminium body and its shut lines, the wheels (the closest angle to the poster view)",
+       "url": "https://cdn.muapi.ai/outputs/generated/057d00877b914c24bfac998f17c17c07.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Nose close-up: the chrome four rings in the black grille slot, the slim headlamp with its small lenses",
+       "url": "https://cdn.muapi.ai/outputs/generated/55c6b0164efd40198118114b4161cbab.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Front three-quarter, black-and-white photograph: the nose, the wide flat bonnet, the windscreen, the wheels (form only, the colour is polished aluminium)",
+       "url": "https://cdn.muapi.ai/outputs/generated/2c3e5a35285a46e486e325530937ef50.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Straight overhead view on black: the plan shape, the long nose, the canopy, the engine cover (form only)",
+       "url": "https://cdn.muapi.ai/outputs/generated/921bfdd34f9f4e02a06c851eec3c00ae.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Side view, black-and-white photograph: the profile, the wheelbase, the long tail (ignore the people and the raised door)",
+       "url": "https://cdn.muapi.ai/outputs/generated/91ce57159327441f90211e03d0f807c4.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Front wheel close-up: the six-spoke wheel with its large centre cap and the four rings on one spoke",
+       "url": "https://cdn.muapi.ai/outputs/generated/cee023b3fe6444df93ca5f0195f7969b.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      },
+      {
+       "role": "Lettering close-up: the car's own AVUS badge with the four rings beside it; the model for the AVUS lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/4db32ab8432f4ce4ac5f762d5ccb0854.jpg",
+       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
+      }
+     ],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "upscale",
+     "request_id": "451f641d-fa3f-4e3b-910d-17a44183414b",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-30T18:56:37.925182+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/451f641d-fa3f-4e3b-910d-17a44183414b_209d0382.png",
+     "page_url": "https://muapi.ai/predictions/451f641d-fa3f-4e3b-910d-17a44183414b",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "14eaf238-24a0-4cb5-b2c4-87723fafe8dc",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:22:43.041459+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/14eaf238-24a0-4cb5-b2c4-87723fafe8dc_f7717e39.png",
+     "page_url": "https://muapi.ai/predictions/14eaf238-24a0-4cb5-b2c4-87723fafe8dc",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "f6206a6c-1760-490e-b95e-109d1fda409f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:22:48.024207+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/f6206a6c-1760-490e-b95e-109d1fda409f_6003738e.png",
+     "page_url": "https://muapi.ai/predictions/f6206a6c-1760-490e-b95e-109d1fda409f",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-30T16:28:04.264465+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-30T23:01:17+00:00",
+    "updated_source": "candidate generated"
+   },
+   "status": {
+    "code": "review",
+    "label": "Your review",
+    "tone": "wait",
+    "detail": "new candidate",
+    "meaning": "a new hero or a finished edit waits for your word",
+    "order": 0
+   }
+  },
+  {
+   "key": "studio-wave1-20261030-autozam-az-1-master",
+   "name": "Autozam AZ-1 - print master M3 (workflow B)",
+   "notion_url": null,
+   "board_url": null,
+   "photo_count": 0,
+   "completion_verified": false,
+   "existing_collection": "",
+   "preview": "assets/studio-wave1-20261030-autozam-az-1-master-a685c48e4952-current.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_file": "pipeline/studio-wave1-20261030/q2/masters/autozam-az-1/autozam-az-1-M3-9000x12000.jpg",
+   "source_sha256": "a685c48e49523a34b7faa365a191ebf84d01f1af66f11fc0c1080bb6d4d89f29",
+   "recorded_approval": "owner_visual_review_pending",
+   "recorded_stage": "stage1_candidate",
+   "stage1": true,
+   "stage1_edited": false,
+   "hero_edit_pending": false,
+   "owner_collection_pending": false,
+   "delivery_status": "Print master M3 - approval 2, the last: after your word the lot runs to Etsy. 9000 x 12000, 5 master-scale fixes; cost USD 1.16 (upscale 0.56, master fixes 0.60). Still visible (harsh): the new roof pads and the round marker lamps are crisper and a little more prominent than in this car's photos at 200 %, and the right indicator's screw has a bluish cast; the aerial's new round base is a touch wide; from the native pass: fine crazing in the paint reflections on the bumper corners, a plain synthetic mirror stem, and no windscreen stickers (the real car has two). The grey tab in the grille opening is on the real car (ref-3) and stays.",
+   "candidate_created_at": "2026-10-30T23:04:30+00:00",
+   "review_url": null,
+   "stage1_generations": [
+    {
+     "role": "original",
+     "request_id": "477dd8e3-62a8-4c60-8485-67dc9bbe5be9",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "quality": "max",
+     "created_at": "2026-10-30T16:28:09.833897+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/477dd8e3-62a8-4c60-8485-67dc9bbe5be9_445bd091.png",
+     "page_url": "https://muapi.ai/predictions/477dd8e3-62a8-4c60-8485-67dc9bbe5be9",
+     "references": [
+      {
+       "role": "Straight front with both gullwing doors raised: the tiny nose, the round headlamps, the bonnet scoop, the raised doors with their glass (the closest view to the poster)",
+       "url": "https://cdn.muapi.ai/outputs/generated/6a219bfba69c44ef9f4fbca36741a136.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Front three-quarter from the right front corner: whole-car proportions, the bonnet scoop, the air dam, the tall rear wing, the straked intake behind the door",
+       "url": "https://cdn.muapi.ai/outputs/generated/be3e994e2ea8496dac01c81cbf89bb76.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Straight front with the doors closed: the round headlamps, the amber indicators in the bumper, the air dam",
+       "url": "https://cdn.muapi.ai/outputs/generated/4e71ea35a880499b982733c64f84974b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Side view: the proportions of the tiny mid-engined coupe, the wheelbase, the rear wing",
+       "url": "https://cdn.muapi.ai/outputs/generated/3ef96abc96c44661990d62036bc519d0.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Front close-up: a round headlamp and the bumper with its indicator",
+       "url": "https://cdn.muapi.ai/outputs/generated/4b4dc08e1cd9403480f67d459ea40b6b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Front three-quarter with the doors raised: the gullwing doors and their small inset windows",
+       "url": "https://cdn.muapi.ai/outputs/generated/ae0a85977d0f445aa6bb1f12a7d8fe42.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "The straked intake behind the door and the side decal",
+       "url": "https://cdn.muapi.ai/outputs/generated/61e1b56a947348b2bed4f9a536aec683.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Front wheel close-up: the silver five-spoke wheel with four lug nuts",
+       "url": "https://cdn.muapi.ai/outputs/generated/b88072c009014efd9fc03457d8b641eb.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "The cabin through the raised door: red and black cloth seats, the three-spoke steering wheel",
+       "url": "https://cdn.muapi.ai/outputs/generated/5296b1d35e724c07944dec22d14f33db.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Lettering close-up: the car's own AZ-1 script on the tail; the model for the painted AZ-1 lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/659ffa6878a54d1f8f26fec1572d47fc.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      }
+     ]
+    },
+    {
+     "role": "upscale",
+     "request_id": "2b19bee4-0eaa-4dd0-a4aa-148f954936e4",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-30T17:52:32.448700+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2b19bee4-0eaa-4dd0-a4aa-148f954936e4_0bcf93c0.png",
+     "page_url": "https://muapi.ai/predictions/2b19bee4-0eaa-4dd0-a4aa-148f954936e4",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "8865aed1-9e76-4e29-abee-7f893ba8e09a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:02:04.719677+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/8865aed1-9e76-4e29-abee-7f893ba8e09a_12d3f734.png",
+     "page_url": "https://muapi.ai/predictions/8865aed1-9e76-4e29-abee-7f893ba8e09a",
+     "target_id": "roof",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "65778ebd-996b-433a-abe4-20c348b6d4c7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:02:09.297498+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/65778ebd-996b-433a-abe4-20c348b6d4c7_3143873c.png",
+     "page_url": "https://muapi.ai/predictions/65778ebd-996b-433a-abe4-20c348b6d4c7",
+     "target_id": "roof",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "2699fb33-5c72-4a3b-bce4-48c8560e2dd5",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:30:24.109787+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2699fb33-5c72-4a3b-bce4-48c8560e2dd5_31631ac5.png",
+     "page_url": "https://muapi.ai/predictions/2699fb33-5c72-4a3b-bce4-48c8560e2dd5",
+     "target_id": "markL",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "ce453c1d-b1da-4e67-ae4f-396a4560ec6b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:30:27.056981+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ce453c1d-b1da-4e67-ae4f-396a4560ec6b_32dfc91e.png",
+     "page_url": "https://muapi.ai/predictions/ce453c1d-b1da-4e67-ae4f-396a4560ec6b",
+     "target_id": "markR",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "0a17717f-3801-4057-84ca-4a9b5143fa26",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:30:35.346091+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0a17717f-3801-4057-84ca-4a9b5143fa26_b547c99f.png",
+     "page_url": "https://muapi.ai/predictions/0a17717f-3801-4057-84ca-4a9b5143fa26",
+     "target_id": "markL",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "0dfeb476-c091-4e5b-a590-d088c3b94692",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:30:38.062448+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0dfeb476-c091-4e5b-a590-d088c3b94692_0b61b633.png",
+     "page_url": "https://muapi.ai/predictions/0dfeb476-c091-4e5b-a590-d088c3b94692",
+     "target_id": "markR",
+     "references": []
+    }
+   ],
+   "recommendation_override": {
+    "collection": "Sport / Leicht",
+    "why": "Brief: DIRECTED A6 - the signature move: the gullwing doors of a very small car, in a car park bay far too big for it. Suggestion only."
+   },
+   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
+   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
+   "full_source_url": "full/a685c48e4952-studio-wave1-20261030-autozam-az-1-master.jpg",
+   "full_source_sha256": "a685c48e49523a34b7faa365a191ebf84d01f1af66f11fc0c1080bb6d4d89f29",
+   "full_source_bytes": 23597149,
+   "full_source_pixels": [
+    9000,
+    12000
+   ],
+   "full_source_kind": "exact_current_jpg",
+   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
+   "collection_choice": "",
+   "edition": null,
+   "collection_category": null,
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "Brief: DIRECTED A6 - the signature move: the gullwing doors of a very small car, in a car park bay far too big for it. Suggestion only.",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [
+    {
+     "role": "original",
+     "request_id": "477dd8e3-62a8-4c60-8485-67dc9bbe5be9",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T16:28:09.833897+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/477dd8e3-62a8-4c60-8485-67dc9bbe5be9_445bd091.png",
+     "page_url": "https://muapi.ai/predictions/477dd8e3-62a8-4c60-8485-67dc9bbe5be9",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [
+      {
+       "role": "Straight front with both gullwing doors raised: the tiny nose, the round headlamps, the bonnet scoop, the raised doors with their glass (the closest view to the poster)",
+       "url": "https://cdn.muapi.ai/outputs/generated/6a219bfba69c44ef9f4fbca36741a136.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Front three-quarter from the right front corner: whole-car proportions, the bonnet scoop, the air dam, the tall rear wing, the straked intake behind the door",
+       "url": "https://cdn.muapi.ai/outputs/generated/be3e994e2ea8496dac01c81cbf89bb76.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Straight front with the doors closed: the round headlamps, the amber indicators in the bumper, the air dam",
+       "url": "https://cdn.muapi.ai/outputs/generated/4e71ea35a880499b982733c64f84974b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Side view: the proportions of the tiny mid-engined coupe, the wheelbase, the rear wing",
+       "url": "https://cdn.muapi.ai/outputs/generated/3ef96abc96c44661990d62036bc519d0.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Front close-up: a round headlamp and the bumper with its indicator",
+       "url": "https://cdn.muapi.ai/outputs/generated/4b4dc08e1cd9403480f67d459ea40b6b.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Front three-quarter with the doors raised: the gullwing doors and their small inset windows",
+       "url": "https://cdn.muapi.ai/outputs/generated/ae0a85977d0f445aa6bb1f12a7d8fe42.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "The straked intake behind the door and the side decal",
+       "url": "https://cdn.muapi.ai/outputs/generated/61e1b56a947348b2bed4f9a536aec683.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Front wheel close-up: the silver five-spoke wheel with four lug nuts",
+       "url": "https://cdn.muapi.ai/outputs/generated/b88072c009014efd9fc03457d8b641eb.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "The cabin through the raised door: red and black cloth seats, the three-spoke steering wheel",
+       "url": "https://cdn.muapi.ai/outputs/generated/5296b1d35e724c07944dec22d14f33db.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      },
+      {
+       "role": "Lettering close-up: the car's own AZ-1 script on the tail; the model for the painted AZ-1 lettering only",
+       "url": "https://cdn.muapi.ai/outputs/generated/659ffa6878a54d1f8f26fec1572d47fc.jpg",
+       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
+      }
+     ],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "upscale",
+     "request_id": "2b19bee4-0eaa-4dd0-a4aa-148f954936e4",
+     "model": "topaz-upscale-image-precision",
+     "created_at": "2026-10-30T17:52:32.448700+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2b19bee4-0eaa-4dd0-a4aa-148f954936e4_0bcf93c0.png",
+     "page_url": "https://muapi.ai/predictions/2b19bee4-0eaa-4dd0-a4aa-148f954936e4",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "8865aed1-9e76-4e29-abee-7f893ba8e09a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:02:04.719677+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/8865aed1-9e76-4e29-abee-7f893ba8e09a_12d3f734.png",
+     "page_url": "https://muapi.ai/predictions/8865aed1-9e76-4e29-abee-7f893ba8e09a",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "65778ebd-996b-433a-abe4-20c348b6d4c7",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:02:09.297498+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/65778ebd-996b-433a-abe4-20c348b6d4c7_3143873c.png",
+     "page_url": "https://muapi.ai/predictions/65778ebd-996b-433a-abe4-20c348b6d4c7",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "2699fb33-5c72-4a3b-bce4-48c8560e2dd5",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:30:24.109787+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/2699fb33-5c72-4a3b-bce4-48c8560e2dd5_31631ac5.png",
+     "page_url": "https://muapi.ai/predictions/2699fb33-5c72-4a3b-bce4-48c8560e2dd5",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "ce453c1d-b1da-4e67-ae4f-396a4560ec6b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:30:27.056981+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/ce453c1d-b1da-4e67-ae4f-396a4560ec6b_32dfc91e.png",
+     "page_url": "https://muapi.ai/predictions/ce453c1d-b1da-4e67-ae4f-396a4560ec6b",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "0a17717f-3801-4057-84ca-4a9b5143fa26",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:30:35.346091+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0a17717f-3801-4057-84ca-4a9b5143fa26_b547c99f.png",
+     "page_url": "https://muapi.ai/predictions/0a17717f-3801-4057-84ca-4a9b5143fa26",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "0dfeb476-c091-4e5b-a590-d088c3b94692",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-30T22:30:38.062448+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0dfeb476-c091-4e5b-a590-d088c3b94692_0b61b633.png",
+     "page_url": "https://muapi.ai/predictions/0dfeb476-c091-4e5b-a590-d088c3b94692",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    }
+   ],
+   "timeline": {
+    "created_at": "2026-10-30T16:28:09.833897+00:00",
+    "created_source": "MuAPI original",
+    "updated_at": "2026-10-30T23:04:30+00:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -4656,20 +6558,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-lamborghini-countach-lp400-ace35b4c50ab-current.jpg",
+   "preview": "assets/studio-wave1-20261030-lamborghini-countach-lp400-5c4a5000d008-current.jpg",
    "preview_pixels": [
     1600,
     1198
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/lamborghini-countach-lp400/final-native.png",
-   "source_sha256": "ace35b4c50abaa741944e3cd581bd98fcdcc667929071aea7b839085dbc715a4",
+   "source_sha256": "5c4a5000d00849ad0ac8c33f02a72a696385019d0a03d2551175434b6218745f",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Fixed version - 8 local fixes, 1 by the image model, USD 0.06. Still visible (harsh): the recoloured cap bulls are flat black silhouettes without the inner lines of the real cap, and the near-rear cap's bull is still gold (about 15 px, for the master, Q4); the near-front rim keeps a squiggle where the real one has a small oval Campagnolo logo; the disegno Bertone plaque on the body has garbled letters (44 x 19 px, Q4); the gear knob's shift pattern is too small to read; the nose badge's banner letters are dots. Next: the print master card (approval 2).",
+   "delivery_status": "Fixed version - 9 local fixes, 1 by the image model, USD 0.06. Still visible (harsh): the recoloured cap bulls are flat black silhouettes without the inner lines of the real cap, and the near-rear cap's bull is still gold (about 15 px, for the master, Q4); the near-front rim keeps a squiggle where the real one has a small oval Campagnolo logo; the disegno Bertone plaque on the body has garbled letters (44 x 19 px, Q4); the gear knob's shift pattern is too small to read; the nose badge's banner letters are dots. Its print master card is the one for approval 2.",
    "candidate_created_at": "2026-10-30T16:33:07.622318+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -4751,9 +6653,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/ace35b4c50ab-studio-wave1-20261030-lamborghini-countach-lp400.png",
-   "full_source_sha256": "ace35b4c50abaa741944e3cd581bd98fcdcc667929071aea7b839085dbc715a4",
-   "full_source_bytes": 10791657,
+   "full_source_url": "full/5c4a5000d008-studio-wave1-20261030-lamborghini-countach-lp400.png",
+   "full_source_sha256": "5c4a5000d00849ad0ac8c33f02a72a696385019d0a03d2551175434b6218745f",
+   "full_source_bytes": 10790738,
    "full_source_pixels": [
     3312,
     2480
@@ -4872,20 +6774,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-honda-civic-type-r-ek9-c8b45e99adae-current.jpg",
+   "preview": "assets/studio-wave1-20261030-honda-civic-type-r-ek9-714f89f26ff2-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/honda-civic-type-r-ek9/final-native.png",
-   "source_sha256": "c8b45e99adae88601e4a9b9a7781b4990845b02c2b8ec953dac677d118fc7b1a",
+   "source_sha256": "714f89f26ff24b2d8d315c2afcf7788718ca8504722d29ac045969746ae8892e",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Fixed version - 6 local fixes, no model, USD 0.00. Still visible (harsh): the cleaned sidewalls are smoother than the rest of the rubber and read slightly plastic, most on the wheel piece (about 19 cm across on the print); the new cap H is flat red with no gloss; the recoloured nut is a touch darker than its neighbours; the headlamps carry AI rainbow flares; behind the bumper intake this car's real bracket and bolts show rust dots (true to the car, a little dirty for a print - for the master, Q4); TYPE in the side decal is solid (the real one is outlined). Next: the print master card (approval 2).",
+   "delivery_status": "Fixed version - 7 local fixes, no model, USD 0.00. Still visible (harsh): the cleaned sidewalls are smoother than the rest of the rubber and read slightly plastic, most on the wheel piece (about 19 cm across on the print); the new cap H is flat red with no gloss; the recoloured nut is a touch darker than its neighbours; the headlamps carry AI rainbow flares; behind the bumper intake this car's real bracket and bolts show rust dots (true to the car, a little dirty for a print - for the master, Q4); TYPE in the side decal is solid (the real one is outlined). Its print master card is the one for approval 2.",
    "candidate_created_at": "2026-10-30T16:33:03.364802+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -4967,9 +6869,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/c8b45e99adae-studio-wave1-20261030-honda-civic-type-r-ek9.png",
-   "full_source_sha256": "c8b45e99adae88601e4a9b9a7781b4990845b02c2b8ec953dac677d118fc7b1a",
-   "full_source_bytes": 12583418,
+   "full_source_url": "full/714f89f26ff2-studio-wave1-20261030-honda-civic-type-r-ek9.png",
+   "full_source_sha256": "714f89f26ff24b2d8d315c2afcf7788718ca8504722d29ac045969746ae8892e",
+   "full_source_bytes": 12582714,
    "full_source_pixels": [
     2480,
     3312
@@ -5336,20 +7238,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-audi-avus-quattro-8c9b68259c1b-current.jpg",
+   "preview": "assets/studio-wave1-20261030-audi-avus-quattro-850b26bac759-current.jpg",
    "preview_pixels": [
     1600,
     1198
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/audi-avus-quattro/final-native.png",
-   "source_sha256": "8c9b68259c1bd0f6f10b12530ec3f58a57a540796f020b8c2d571f0679ae52ba",
+   "source_sha256": "850b26bac759fb28177799772901247ddeede270ef0662b3f408660a14a9ca86",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Fixed version - 3 local fixes, 1 by the image model, USD 0.06. Still visible (harsh): the AVUS badge on the body is black rings stacked over a black AVUS with no plaque (the real one is a small black plaque with chrome rings and AVUS side by side: the content is right, the layout is not); the new lamp glass is a little lighter and busier at 300 %; the near-front valve is drawn in a brass ink the lithograph does not use (about 15 px, for the master, Q4); the nose rings carry dark shading notches. Next: the print master card (approval 2).",
+   "delivery_status": "Fixed version - 4 local fixes, 1 by the image model, USD 0.06. Still visible (harsh): the AVUS badge on the body is black rings stacked over a black AVUS with no plaque (the real one is a small black plaque with chrome rings and AVUS side by side: the content is right, the layout is not); the new lamp glass is a little lighter and busier at 300 %; the near-front valve is drawn in a brass ink the lithograph does not use (about 15 px, for the master, Q4); the nose rings carry dark shading notches. Its print master card is the one for approval 2.",
    "candidate_created_at": "2026-10-30T16:32:37.646057+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -5416,9 +7318,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/8c9b68259c1b-studio-wave1-20261030-audi-avus-quattro.png",
-   "full_source_sha256": "8c9b68259c1bd0f6f10b12530ec3f58a57a540796f020b8c2d571f0679ae52ba",
-   "full_source_bytes": 15940334,
+   "full_source_url": "full/850b26bac759-studio-wave1-20261030-audi-avus-quattro.png",
+   "full_source_sha256": "850b26bac759fb28177799772901247ddeede270ef0662b3f408660a14a9ca86",
+   "full_source_bytes": 15939245,
    "full_source_pixels": [
     3312,
     2480
@@ -5522,20 +7424,20 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-autozam-az-1-3cd8b3699676-current.jpg",
+   "preview": "assets/studio-wave1-20261030-autozam-az-1-7d791db5f0b1-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/autozam-az-1/final-native.png",
-   "source_sha256": "3cd8b3699676cff7648268dbc6a2a9f2522bdb0088254bd640689e01996d9415",
+   "source_sha256": "7d791db5f0b1d7d9471004b31c897e7b91711bcd0821e3918398affdb7346d2b",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Fixed version - 2 local fixes, no model, USD 0.00. Still visible (harsh): the windscreen sticker is gone (the real car has two; the brief says none); fine crazing in the paint reflections on the bumper corners; a small grey tab with a bolt in the black grille opening, about 6 mm on the print (for the master, Q4); wheels, calipers and the side decal are hidden in this dead-on pose, so they cannot be checked. Next: the print master card (approval 2).",
+   "delivery_status": "Fixed version - 3 local fixes, no model, USD 0.00. Still visible (harsh): the windscreen sticker is gone (the real car has two; the brief says none); fine crazing in the paint reflections on the bumper corners; a small grey tab with a bolt in the black grille opening, about 6 mm on the print (for the master, Q4); wheels, calipers and the side decal are hidden in this dead-on pose, so they cannot be checked. Its print master card is the one for approval 2.",
    "candidate_created_at": "2026-10-30T16:32:41.920961+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -5607,9 +7509,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/3cd8b3699676-studio-wave1-20261030-autozam-az-1.png",
-   "full_source_sha256": "3cd8b3699676cff7648268dbc6a2a9f2522bdb0088254bd640689e01996d9415",
-   "full_source_bytes": 10831204,
+   "full_source_url": "full/7d791db5f0b1-studio-wave1-20261030-autozam-az-1.png",
+   "full_source_sha256": "7d791db5f0b1d7d9471004b31c897e7b91711bcd0821e3918398affdb7346d2b",
+   "full_source_bytes": 10830674,
    "full_source_pixels": [
     2480,
     3312
@@ -13731,9 +15633,9 @@
   },
   {
    "key": "studio-wave1-20261030-autozam-az-1",
-   "declared_sha256": "3cd8b3699676cff7648268dbc6a2a9f2522bdb0088254bd640689e01996d9415",
+   "declared_sha256": "7d791db5f0b1d7d9471004b31c897e7b91711bcd0821e3918398affdb7346d2b",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-autozam-az-1-3cd8b3699676-current.jpg",
+   "preview": "assets/studio-wave1-20261030-autozam-az-1-7d791db5f0b1-current.jpg",
    "pixels": [
     2480,
     3312
@@ -13741,9 +15643,9 @@
   },
   {
    "key": "studio-wave1-20261030-audi-avus-quattro",
-   "declared_sha256": "8c9b68259c1bd0f6f10b12530ec3f58a57a540796f020b8c2d571f0679ae52ba",
+   "declared_sha256": "850b26bac759fb28177799772901247ddeede270ef0662b3f408660a14a9ca86",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-audi-avus-quattro-8c9b68259c1b-current.jpg",
+   "preview": "assets/studio-wave1-20261030-audi-avus-quattro-850b26bac759-current.jpg",
    "pixels": [
     3312,
     2480
@@ -13761,9 +15663,9 @@
   },
   {
    "key": "studio-wave1-20261030-honda-civic-type-r-ek9",
-   "declared_sha256": "c8b45e99adae88601e4a9b9a7781b4990845b02c2b8ec953dac677d118fc7b1a",
+   "declared_sha256": "714f89f26ff24b2d8d315c2afcf7788718ca8504722d29ac045969746ae8892e",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-honda-civic-type-r-ek9-c8b45e99adae-current.jpg",
+   "preview": "assets/studio-wave1-20261030-honda-civic-type-r-ek9-714f89f26ff2-current.jpg",
    "pixels": [
     2480,
     3312
@@ -13771,9 +15673,9 @@
   },
   {
    "key": "studio-wave1-20261030-lamborghini-countach-lp400",
-   "declared_sha256": "ace35b4c50abaa741944e3cd581bd98fcdcc667929071aea7b839085dbc715a4",
+   "declared_sha256": "5c4a5000d00849ad0ac8c33f02a72a696385019d0a03d2551175434b6218745f",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-lamborghini-countach-lp400-ace35b4c50ab-current.jpg",
+   "preview": "assets/studio-wave1-20261030-lamborghini-countach-lp400-5c4a5000d008-current.jpg",
    "pixels": [
     3312,
     2480
@@ -13830,10 +15732,50 @@
    ]
   },
   {
+   "key": "studio-wave1-20261030-autozam-az-1-master",
+   "declared_sha256": "a685c48e49523a34b7faa365a191ebf84d01f1af66f11fc0c1080bb6d4d89f29",
+   "applied": true,
+   "preview": "assets/studio-wave1-20261030-autozam-az-1-master-a685c48e4952-current.jpg",
+   "pixels": [
+    9000,
+    12000
+   ]
+  },
+  {
+   "key": "studio-wave1-20261030-audi-avus-quattro-master",
+   "declared_sha256": "9624db33716255e55944c5ef3109b159756e641f2eabc65cf7be0dcbc6a03ff7",
+   "applied": true,
+   "preview": "assets/studio-wave1-20261030-audi-avus-quattro-master-9624db337162-current.jpg",
+   "pixels": [
+    12000,
+    9000
+   ]
+  },
+  {
    "key": "studio-wave1-20261030-dodge-challenger-r-t-1970-master",
    "declared_sha256": "25777c696aeee33af67d3bdc03274a8d604ce277265196f3aaad30a482363d9f",
    "applied": true,
    "preview": "assets/studio-wave1-20261030-dodge-challenger-r-t-1970-master-25777c696aee-current.jpg",
+   "pixels": [
+    12000,
+    9000
+   ]
+  },
+  {
+   "key": "studio-wave1-20261030-honda-civic-type-r-ek9-master",
+   "declared_sha256": "5a7fd9f86d4023a1422b42c0469652e314a45fe65d2e3514db8536125002fe7c",
+   "applied": true,
+   "preview": "assets/studio-wave1-20261030-honda-civic-type-r-ek9-master-5a7fd9f86d40-current.jpg",
+   "pixels": [
+    9000,
+    12000
+   ]
+  },
+  {
+   "key": "studio-wave1-20261030-lamborghini-countach-lp400-master",
+   "declared_sha256": "29e87f00a414ac99b1408b9e7be36795ce4f6920a89ba1dbd5bb3eb92e444f91",
+   "applied": true,
+   "preview": "assets/studio-wave1-20261030-lamborghini-countach-lp400-master-29e87f00a414-current.jpg",
    "pixels": [
     12000,
     9000
