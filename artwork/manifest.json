@@ -1,5 +1,5 @@
 {
- "built": "2026-10-31 04:30",
+ "built": "2026-10-31 05:35",
  "items": [
   {
    "key": "911-carrera-rs27-1973-sport-white-45x60",
@@ -1272,6 +1272,20 @@
    ],
    "format": "JPEG",
    "source": "pipeline/one-cycle-20260926/lots/e39/lot/print-9000x12000.jpg",
+   "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-31T03:50:00+01:00)",
+   "basis": "approval"
+  },
+  {
+   "key": "studio-wave1-20261030-bmw-m5-touring-e61-v2",
+   "file": "artwork/f49b85227dc5-studio-wave1-20261030-bmw-m5-touring-e61-v2.jpg",
+   "sha256": "f49b85227dc5f35c42ae7af8cfe7014bea154e606d2dcf690dc0804fa6f65232",
+   "bytes": 26304473,
+   "px": [
+    9000,
+    12000
+   ],
+   "format": "JPEG",
+   "source": "pipeline/one-cycle-20260926/lots/e61/lot/print-9000x12000.jpg",
    "evidence": "sheet_approval.jpg_sha256 == sheet file (2026-10-31T03:50:00+01:00)",
    "basis": "approval"
   },
