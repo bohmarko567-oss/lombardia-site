@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-31 03:31",
+ "built": "2026-10-31 03:42",
  "accessed_date": "2026-10-31",
  "collections": [
   "American Form",
@@ -8527,192 +8527,6 @@
    }
   },
   {
-   "key": "studio-wave1-20261030-audi-avus-quattro",
-   "name": "Audi Avus quattro (1991 concept) - DIRECTED",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-audi-avus-quattro-850b26bac759-current.jpg",
-   "preview_pixels": [
-    1600,
-    1198
-   ],
-   "source_file": "pipeline/studio-wave1-20261030/w1/heroes/audi-avus-quattro/final-native.png",
-   "source_sha256": "850b26bac759fb28177799772901247ddeede270ef0662b3f408660a14a9ca86",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Fixed version - 4 local fixes, 1 by the image model, USD 0.06. Still visible (harsh): the AVUS badge on the body is black rings stacked over a black AVUS with no plaque (the real one is a small black plaque with chrome rings and AVUS side by side: the content is right, the layout is not); the new lamp glass is a little lighter and busier at 300 %; the near-front valve is drawn in a brass ink the lithograph does not use (about 15 px, for the master, Q4); the nose rings carry dark shading notches. Approval 2 passed on its print master card (31 Oct 01:12: \"Avus is perfect.\").",
-   "candidate_created_at": "2026-10-30T16:32:37.646057+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "7da7a399-9a2e-42d1-ac9d-2d0a6b37b9ac",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-30T16:28:04.264465+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/7da7a399-9a2e-42d1-ac9d-2d0a6b37b9ac_15bae68f.png",
-     "page_url": "https://muapi.ai/predictions/7da7a399-9a2e-42d1-ac9d-2d0a6b37b9ac",
-     "references": [
-      {
-       "role": "Front three-quarter from the right front corner, low, in a dark studio: the long low nose, the slim headlamps, the four rings in the black grille slot, the polished aluminium body and its shut lines, the wheels (the closest angle to the poster view)",
-       "url": "https://cdn.muapi.ai/outputs/generated/057d00877b914c24bfac998f17c17c07.jpg",
-       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
-      },
-      {
-       "role": "Nose close-up: the chrome four rings in the black grille slot, the slim headlamp with its small lenses",
-       "url": "https://cdn.muapi.ai/outputs/generated/55c6b0164efd40198118114b4161cbab.jpg",
-       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
-      },
-      {
-       "role": "Front three-quarter, black-and-white photograph: the nose, the wide flat bonnet, the windscreen, the wheels (form only, the colour is polished aluminium)",
-       "url": "https://cdn.muapi.ai/outputs/generated/2c3e5a35285a46e486e325530937ef50.jpg",
-       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
-      },
-      {
-       "role": "Straight overhead view on black: the plan shape, the long nose, the canopy, the engine cover (form only)",
-       "url": "https://cdn.muapi.ai/outputs/generated/921bfdd34f9f4e02a06c851eec3c00ae.jpg",
-       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
-      },
-      {
-       "role": "Side view, black-and-white photograph: the profile, the wheelbase, the long tail (ignore the people and the raised door)",
-       "url": "https://cdn.muapi.ai/outputs/generated/91ce57159327441f90211e03d0f807c4.jpg",
-       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
-      },
-      {
-       "role": "Front wheel close-up: the six-spoke wheel with its large centre cap and the four rings on one spoke",
-       "url": "https://cdn.muapi.ai/outputs/generated/cee023b3fe6444df93ca5f0195f7969b.jpg",
-       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
-      },
-      {
-       "role": "Lettering close-up: the car's own AVUS badge with the four rings beside it; the model for the AVUS lettering only",
-       "url": "https://cdn.muapi.ai/outputs/generated/4db32ab8432f4ce4ac5f762d5ccb0854.jpg",
-       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
-      }
-     ]
-    },
-    {
-     "role": "edit",
-     "request_id": "2c6d1ed8-5ebd-43c4-84c0-0064d4897b71",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-30T18:34:05.700719+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/2c6d1ed8-5ebd-43c4-84c0-0064d4897b71_452237f3.png",
-     "page_url": "https://muapi.ai/predictions/2c6d1ed8-5ebd-43c4-84c0-0064d4897b71",
-     "target_id": "nf-headlamp",
-     "references": []
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Studio di Forma",
-    "why": "Brief: DIRECTED B (1930s Grand Prix lithograph) with A8 (the name's meaning): the steep banked curve of the track the car is named after. Suggestion only."
-   },
-   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
-   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/850b26bac759-studio-wave1-20261030-audi-avus-quattro.png",
-   "full_source_sha256": "850b26bac759fb28177799772901247ddeede270ef0662b3f408660a14a9ca86",
-   "full_source_bytes": 15939245,
-   "full_source_pixels": [
-    3312,
-    2480
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": null,
-    "collection": null,
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "no suggestion yet",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses."
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "7da7a399-9a2e-42d1-ac9d-2d0a6b37b9ac",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-30T16:28:04.264465+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/7da7a399-9a2e-42d1-ac9d-2d0a6b37b9ac_15bae68f.png",
-     "page_url": "https://muapi.ai/predictions/7da7a399-9a2e-42d1-ac9d-2d0a6b37b9ac",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter from the right front corner, low, in a dark studio: the long low nose, the slim headlamps, the four rings in the black grille slot, the polished aluminium body and its shut lines, the wheels (the closest angle to the poster view)",
-       "url": "https://cdn.muapi.ai/outputs/generated/057d00877b914c24bfac998f17c17c07.jpg",
-       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
-      },
-      {
-       "role": "Nose close-up: the chrome four rings in the black grille slot, the slim headlamp with its small lenses",
-       "url": "https://cdn.muapi.ai/outputs/generated/55c6b0164efd40198118114b4161cbab.jpg",
-       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
-      },
-      {
-       "role": "Front three-quarter, black-and-white photograph: the nose, the wide flat bonnet, the windscreen, the wheels (form only, the colour is polished aluminium)",
-       "url": "https://cdn.muapi.ai/outputs/generated/2c3e5a35285a46e486e325530937ef50.jpg",
-       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
-      },
-      {
-       "role": "Straight overhead view on black: the plan shape, the long nose, the canopy, the engine cover (form only)",
-       "url": "https://cdn.muapi.ai/outputs/generated/921bfdd34f9f4e02a06c851eec3c00ae.jpg",
-       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
-      },
-      {
-       "role": "Side view, black-and-white photograph: the profile, the wheelbase, the long tail (ignore the people and the raised door)",
-       "url": "https://cdn.muapi.ai/outputs/generated/91ce57159327441f90211e03d0f807c4.jpg",
-       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
-      },
-      {
-       "role": "Front wheel close-up: the six-spoke wheel with its large centre cap and the four rings on one spoke",
-       "url": "https://cdn.muapi.ai/outputs/generated/cee023b3fe6444df93ca5f0195f7969b.jpg",
-       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
-      },
-      {
-       "role": "Lettering close-up: the car's own AVUS badge with the four rings beside it; the model for the AVUS lettering only",
-       "url": "https://cdn.muapi.ai/outputs/generated/4db32ab8432f4ce4ac5f762d5ccb0854.jpg",
-       "source_page": "https://www.audi-mediacenter.com/en/images/detail/audi-museum-mobile-zeigt-design-legenden-129917"
-      }
-     ],
-     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
-    },
-    {
-     "role": "edit",
-     "request_id": "2c6d1ed8-5ebd-43c4-84c0-0064d4897b71",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-30T18:34:05.700719+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/2c6d1ed8-5ebd-43c4-84c0-0064d4897b71_452237f3.png",
-     "page_url": "https://muapi.ai/predictions/2c6d1ed8-5ebd-43c4-84c0-0064d4897b71",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [],
-     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-30T16:28:04.264465+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-30T18:34:05.700719+00:00",
-    "updated_source": "MuAPI edit"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
    "key": "inserts-round-65-d2",
    "name": "Prodigi upload - round sticker 65 mm, outside of the packaging (end cap on tubes), the shop avatar",
    "notion_url": null,
@@ -16388,6 +16202,68 @@
     "meaning": "approved; prints, photos, copy and Notion being built",
     "order": 4
    }
+  },
+  {
+   "key": "studio-wave1-20261030-audi-avus-quattro",
+   "name": "Audi Avus quattro",
+   "preview": "assets/studio-wave1-20261030-audi-avus-quattro.jpg",
+   "preview_pixels": [
+    1600,
+    1200
+   ],
+   "source_sha256": "9624db33716255e55944c5ef3109b159756e641f2eabc65cf7be0dcbc6a03ff7",
+   "source_file": "pipeline/one-cycle-20260926/lots/avus/lot/print-12000x9000.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "STUDIO DI FORMA",
+   "ledger_selected_sha256": "850b26bac759fb28177799772901247ddeede270ef0662b3f408660a14a9ca86",
+   "approved_source_sha256": "850b26bac759fb28177799772901247ddeede270ef0662b3f408660a14a9ca86",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-wave1-20261030-audi-avus-quattro.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/9624db337162-studio-wave1-20261030-audi-avus-quattro.jpg",
+   "full_source_sha256": "9624db33716255e55944c5ef3109b159756e641f2eabc65cf7be0dcbc6a03ff7",
+   "full_source_bytes": 41820182,
+   "full_source_pixels": [
+    12000,
+    9000
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Studio Di Forma",
+   "edition": null,
+   "collection_category": "Studio Di Forma",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Studio Di Forma",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 50
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-31T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-31T01:12:00+01:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
   }
  ],
  "excluded_keys": [
@@ -16864,12 +16740,8 @@
   {
    "key": "studio-wave1-20261030-audi-avus-quattro",
    "declared_sha256": "850b26bac759fb28177799772901247ddeede270ef0662b3f408660a14a9ca86",
-   "applied": true,
-   "preview": "assets/studio-wave1-20261030-audi-avus-quattro-850b26bac759-current.jpg",
-   "pixels": [
-    3312,
-    2480
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-wave1-20261030-dodge-challenger-r-t-1970",
