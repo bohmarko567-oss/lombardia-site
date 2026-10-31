@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-31 03:15",
+ "built": "2026-10-31 03:31",
  "accessed_date": "2026-10-31",
  "collections": [
   "American Form",
@@ -8713,202 +8713,6 @@
    }
   },
   {
-   "key": "studio-wave1-20261030-autozam-az-1",
-   "name": "Autozam AZ-1 - DIRECTED",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-autozam-az-1-7d791db5f0b1-current.jpg",
-   "preview_pixels": [
-    1600,
-    2137
-   ],
-   "source_file": "pipeline/studio-wave1-20261030/w1/heroes/autozam-az-1/final-native.png",
-   "source_sha256": "7d791db5f0b1d7d9471004b31c897e7b91711bcd0821e3918398affdb7346d2b",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Fixed version - 3 local fixes, no model, USD 0.00. Still visible (harsh): the windscreen sticker is gone (the real car has two; the brief says none); fine crazing in the paint reflections on the bumper corners; a small grey tab with a bolt in the black grille opening, about 6 mm on the print (for the master, Q4); wheels, calipers and the side decal are hidden in this dead-on pose, so they cannot be checked. Approval 2 passed on its print master card (31 Oct 01:12: \"Autozam is perfect.\").",
-   "candidate_created_at": "2026-10-30T16:32:41.920961+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "477dd8e3-62a8-4c60-8485-67dc9bbe5be9",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-30T16:28:09.833897+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/477dd8e3-62a8-4c60-8485-67dc9bbe5be9_445bd091.png",
-     "page_url": "https://muapi.ai/predictions/477dd8e3-62a8-4c60-8485-67dc9bbe5be9",
-     "references": [
-      {
-       "role": "Straight front with both gullwing doors raised: the tiny nose, the round headlamps, the bonnet scoop, the raised doors with their glass (the closest view to the poster)",
-       "url": "https://cdn.muapi.ai/outputs/generated/6a219bfba69c44ef9f4fbca36741a136.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
-      },
-      {
-       "role": "Front three-quarter from the right front corner: whole-car proportions, the bonnet scoop, the air dam, the tall rear wing, the straked intake behind the door",
-       "url": "https://cdn.muapi.ai/outputs/generated/be3e994e2ea8496dac01c81cbf89bb76.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
-      },
-      {
-       "role": "Straight front with the doors closed: the round headlamps, the amber indicators in the bumper, the air dam",
-       "url": "https://cdn.muapi.ai/outputs/generated/4e71ea35a880499b982733c64f84974b.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
-      },
-      {
-       "role": "Side view: the proportions of the tiny mid-engined coupe, the wheelbase, the rear wing",
-       "url": "https://cdn.muapi.ai/outputs/generated/3ef96abc96c44661990d62036bc519d0.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
-      },
-      {
-       "role": "Front close-up: a round headlamp and the bumper with its indicator",
-       "url": "https://cdn.muapi.ai/outputs/generated/4b4dc08e1cd9403480f67d459ea40b6b.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
-      },
-      {
-       "role": "Front three-quarter with the doors raised: the gullwing doors and their small inset windows",
-       "url": "https://cdn.muapi.ai/outputs/generated/ae0a85977d0f445aa6bb1f12a7d8fe42.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
-      },
-      {
-       "role": "The straked intake behind the door and the side decal",
-       "url": "https://cdn.muapi.ai/outputs/generated/61e1b56a947348b2bed4f9a536aec683.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
-      },
-      {
-       "role": "Front wheel close-up: the silver five-spoke wheel with four lug nuts",
-       "url": "https://cdn.muapi.ai/outputs/generated/b88072c009014efd9fc03457d8b641eb.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
-      },
-      {
-       "role": "The cabin through the raised door: red and black cloth seats, the three-spoke steering wheel",
-       "url": "https://cdn.muapi.ai/outputs/generated/5296b1d35e724c07944dec22d14f33db.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
-      },
-      {
-       "role": "Lettering close-up: the car's own AZ-1 script on the tail; the model for the painted AZ-1 lettering only",
-       "url": "https://cdn.muapi.ai/outputs/generated/659ffa6878a54d1f8f26fec1572d47fc.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
-      }
-     ]
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Sport / Leicht",
-    "why": "Brief: DIRECTED A6 - the signature move: the gullwing doors of a very small car, in a car park bay far too big for it. Suggestion only."
-   },
-   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
-   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/7d791db5f0b1-studio-wave1-20261030-autozam-az-1.png",
-   "full_source_sha256": "7d791db5f0b1d7d9471004b31c897e7b91711bcd0821e3918398affdb7346d2b",
-   "full_source_bytes": 10830674,
-   "full_source_pixels": [
-    2480,
-    3312
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Sport / Leicht",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Brief: DIRECTED A6 - the signature move: the gullwing doors of a very small car, in a car park bay far too big for it. Suggestion only.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 200
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "477dd8e3-62a8-4c60-8485-67dc9bbe5be9",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-30T16:28:09.833897+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/477dd8e3-62a8-4c60-8485-67dc9bbe5be9_445bd091.png",
-     "page_url": "https://muapi.ai/predictions/477dd8e3-62a8-4c60-8485-67dc9bbe5be9",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Straight front with both gullwing doors raised: the tiny nose, the round headlamps, the bonnet scoop, the raised doors with their glass (the closest view to the poster)",
-       "url": "https://cdn.muapi.ai/outputs/generated/6a219bfba69c44ef9f4fbca36741a136.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
-      },
-      {
-       "role": "Front three-quarter from the right front corner: whole-car proportions, the bonnet scoop, the air dam, the tall rear wing, the straked intake behind the door",
-       "url": "https://cdn.muapi.ai/outputs/generated/be3e994e2ea8496dac01c81cbf89bb76.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
-      },
-      {
-       "role": "Straight front with the doors closed: the round headlamps, the amber indicators in the bumper, the air dam",
-       "url": "https://cdn.muapi.ai/outputs/generated/4e71ea35a880499b982733c64f84974b.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
-      },
-      {
-       "role": "Side view: the proportions of the tiny mid-engined coupe, the wheelbase, the rear wing",
-       "url": "https://cdn.muapi.ai/outputs/generated/3ef96abc96c44661990d62036bc519d0.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
-      },
-      {
-       "role": "Front close-up: a round headlamp and the bumper with its indicator",
-       "url": "https://cdn.muapi.ai/outputs/generated/4b4dc08e1cd9403480f67d459ea40b6b.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
-      },
-      {
-       "role": "Front three-quarter with the doors raised: the gullwing doors and their small inset windows",
-       "url": "https://cdn.muapi.ai/outputs/generated/ae0a85977d0f445aa6bb1f12a7d8fe42.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
-      },
-      {
-       "role": "The straked intake behind the door and the side decal",
-       "url": "https://cdn.muapi.ai/outputs/generated/61e1b56a947348b2bed4f9a536aec683.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
-      },
-      {
-       "role": "Front wheel close-up: the silver five-spoke wheel with four lug nuts",
-       "url": "https://cdn.muapi.ai/outputs/generated/b88072c009014efd9fc03457d8b641eb.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
-      },
-      {
-       "role": "The cabin through the raised door: red and black cloth seats, the three-spoke steering wheel",
-       "url": "https://cdn.muapi.ai/outputs/generated/5296b1d35e724c07944dec22d14f33db.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
-      },
-      {
-       "role": "Lettering close-up: the car's own AZ-1 script on the tail; the model for the painted AZ-1 lettering only",
-       "url": "https://cdn.muapi.ai/outputs/generated/659ffa6878a54d1f8f26fec1572d47fc.jpg",
-       "source_page": "https://collectingcars.com/for-sale/1993-mazda-autozam-az-1"
-      }
-     ],
-     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-30T16:28:09.833897+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-30T16:32:41.920961+00:00",
-    "updated_source": "candidate generated"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
    "key": "inserts-round-65-d2",
    "name": "Prodigi upload - round sticker 65 mm, outside of the packaging (end cap on tubes), the shop avatar",
    "notion_url": null,
@@ -16522,6 +16326,68 @@
     "meaning": "approved; prints, photos, copy and Notion being built",
     "order": 4
    }
+  },
+  {
+   "key": "studio-wave1-20261030-autozam-az-1",
+   "name": "Mazda Autozam AZ-1",
+   "preview": "assets/studio-wave1-20261030-autozam-az-1.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "a685c48e49523a34b7faa365a191ebf84d01f1af66f11fc0c1080bb6d4d89f29",
+   "source_file": "pipeline/one-cycle-20260926/lots/az1/lot/print-9000x12000.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "SPORT / LEICHT",
+   "ledger_selected_sha256": "7d791db5f0b1d7d9471004b31c897e7b91711bcd0821e3918398affdb7346d2b",
+   "approved_source_sha256": "7d791db5f0b1d7d9471004b31c897e7b91711bcd0821e3918398affdb7346d2b",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-wave1-20261030-autozam-az-1.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/a685c48e4952-studio-wave1-20261030-autozam-az-1.jpg",
+   "full_source_sha256": "a685c48e49523a34b7faa365a191ebf84d01f1af66f11fc0c1080bb6d4d89f29",
+   "full_source_bytes": 23597149,
+   "full_source_pixels": [
+    9000,
+    12000
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Sport / Leicht",
+   "edition": null,
+   "collection_category": "Sport / Leicht",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-31T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-31T01:12:00+01:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
   }
  ],
  "excluded_keys": [
@@ -16992,12 +16858,8 @@
   {
    "key": "studio-wave1-20261030-autozam-az-1",
    "declared_sha256": "7d791db5f0b1d7d9471004b31c897e7b91711bcd0821e3918398affdb7346d2b",
-   "applied": true,
-   "preview": "assets/studio-wave1-20261030-autozam-az-1-7d791db5f0b1-current.jpg",
-   "pixels": [
-    2480,
-    3312
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-wave1-20261030-audi-avus-quattro",
