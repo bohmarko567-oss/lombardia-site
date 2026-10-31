@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-31 02:55",
+ "built": "2026-10-31 03:15",
  "accessed_date": "2026-10-31",
  "collections": [
   "American Form",
@@ -2188,27 +2188,27 @@
   },
   {
    "key": "studio-wave1-20261030-bmw-m5-touring-e61-v2-master",
-   "name": "BMW M5 Touring (E61) - print master M3 (workflow B)",
+   "name": "BMW M5 Touring (E61) - print master M7 (workflow B)",
    "notion_url": null,
    "board_url": null,
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-v2-master-00f0b2397114-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-v2-master-f49b85227dc5-current.jpg",
    "preview_pixels": [
     1600,
     2133
    ],
-   "source_file": "pipeline/studio-wave1-20261030/q2/masters/bmw-m5-touring-e61-v2/bmw-m5-touring-e61-v2-M3-9000x12000.jpg",
-   "source_sha256": "00f0b2397114ddb41f5a069b4d625376322029fd5d03c0a66307f2e2b675da72",
+   "source_file": "pipeline/studio-wave1-20261030/q2/masters/bmw-m5-touring-e61-v2/bmw-m5-touring-e61-v2-M7-9000x12000.jpg",
+   "source_sha256": "f49b85227dc5f35c42ae7af8cfe7014bea154e606d2dcf690dc0804fa6f65232",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Print master M3 - approval 2, the last: after your word the lot runs to Etsy. 9000 x 12000, 8 master-scale fixes; cost USD 3.80 (upscale 0.56, master fixes 3.24). Still visible (harsh): a small soft fold at the near hub's lower-left spoke root, the hub a little brighter and smoother than the spokes (200 % and up); the rear cap's letters are thin strokes at 300 % (the cap is about 30 px across); the roundel's rim a little thinner than the real badge's; the gill's M5 slightly heavy at 300 %; the cockpit is left-hand drive (the real UK car is right-hand drive), the brake discs plain (the real ones cross-drilled), the lower road carries an AI motion-streak texture and the car a hard sunlit shadow.",
-   "candidate_created_at": "2026-10-30T22:30:11+00:00",
+   "delivery_status": "Print master M7 - approval 2 again. On M3 you said (31 Oct 01:12): \"E61 needs 2 things 1 closeup of interior through windshield - ig some combination of new gen and reflections so its less visible ... Also guardrails on the roof, left one has a devider/supporter thing much closer to the rear end then right rail.\" Done, by the image model: the windscreen - the glass, the dawn sky reflected along the top and the cabin dim behind it (your pick B, MuAPI 966907a0); the left rail's middle support moved forward to where this car has it, about a third of the rail from its rear end (its photos 3, 7, 58), then redrawn as the real rail's plain black block (photo 44). 9000 x 12000, 9 master-scale fixes; cost USD 3.80 (upscale 0.56, master fixes 3.24). Still visible (harsh): the left support sits about 5 % of the rail further forward than the right one (32 % against 27 % from the rear end; this car 31 %): visible when the two rails are compared at 100 %, a matched pair at full view; the edge strip under the new support carries a slightly lighter patch at 300 %; through the windscreen the dim cabin still shows in the lower half (your pick B). a small soft fold at the near hub's lower-left spoke root, the hub a little brighter and smoother than the spokes (200 % and up); the rear cap's letters are thin strokes at 300 % (the cap is about 30 px across); the roundel's rim a little thinner than the real badge's; the gill's M5 slightly heavy at 300 %; the cockpit is left-hand drive (the real UK car is right-hand drive), the brake discs plain (the real ones cross-drilled), the lower road carries an AI motion-streak texture and the car a hard sunlit shadow. After your word the lot runs to Etsy.",
+   "candidate_created_at": "2026-10-31T02:13:01+00:00",
    "review_url": null,
    "stage1_generations": [
     {
@@ -2516,17 +2516,17 @@
      "request_id": "93b81826-72cc-417e-b484-4f9ee0e9edae",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:12.803088+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/93b81826-72cc-417e-b484-4f9ee0e9edae_3d28b788.png",
      "page_url": "https://muapi.ai/predictions/93b81826-72cc-417e-b484-4f9ee0e9edae",
      "target_id": "supL",
      "references": []
     },
     {
-     "role": "edit (master scale), not picked",
+     "role": "edit (master scale)",
      "request_id": "cedb0e10-145b-4cf9-b604-83156439bc06",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:20.142567+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/cedb0e10-145b-4cf9-b604-83156439bc06_e34bf405.png",
      "page_url": "https://muapi.ai/predictions/cedb0e10-145b-4cf9-b604-83156439bc06",
      "target_id": "supL",
      "references": []
@@ -2538,9 +2538,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/00f0b2397114-studio-wave1-20261030-bmw-m5-touring-e61-v2-master.jpg",
-   "full_source_sha256": "00f0b2397114ddb41f5a069b4d625376322029fd5d03c0a66307f2e2b675da72",
-   "full_source_bytes": 26306060,
+   "full_source_url": "full/f49b85227dc5-studio-wave1-20261030-bmw-m5-touring-e61-v2-master.jpg",
+   "full_source_sha256": "f49b85227dc5f35c42ae7af8cfe7014bea154e606d2dcf690dc0804fa6f65232",
+   "full_source_bytes": 26304473,
    "full_source_pixels": [
     9000,
     12000
@@ -2893,18 +2893,18 @@
      "request_id": "93b81826-72cc-417e-b484-4f9ee0e9edae",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:12.803088+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/93b81826-72cc-417e-b484-4f9ee0e9edae_3d28b788.png",
      "page_url": "https://muapi.ai/predictions/93b81826-72cc-417e-b484-4f9ee0e9edae",
      "history_url": "https://muapi.ai/predictions",
      "references": [],
      "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
     },
     {
-     "role": "edit (master scale), not picked",
+     "role": "edit (master scale)",
      "request_id": "cedb0e10-145b-4cf9-b604-83156439bc06",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:20.142567+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/cedb0e10-145b-4cf9-b604-83156439bc06_e34bf405.png",
      "page_url": "https://muapi.ai/predictions/cedb0e10-145b-4cf9-b604-83156439bc06",
      "history_url": "https://muapi.ai/predictions",
      "references": [],
@@ -2914,8 +2914,8 @@
    "timeline": {
     "created_at": "2026-10-30T17:00:59.987204+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-31T01:54:20.142567+00:00",
-    "updated_source": "MuAPI edit (master scale), not picked"
+    "updated_at": "2026-10-31T02:13:01+00:00",
+    "updated_source": "candidate generated"
    },
    "status": {
     "code": "review",
@@ -2928,27 +2928,27 @@
   },
   {
    "key": "studio-wave1-20261030-porsche-911-carrera-3-2-master",
-   "name": "Porsche 911 Carrera 3.2 - print master M3 (workflow B)",
+   "name": "Porsche 911 Carrera 3.2 - print master M5 (workflow B)",
    "notion_url": null,
    "board_url": null,
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-porsche-911-carrera-3-2-master-2a412241465c-current.jpg",
+   "preview": "assets/studio-wave1-20261030-porsche-911-carrera-3-2-master-d2d74e0ed546-current.jpg",
    "preview_pixels": [
     1600,
     2133
    ],
-   "source_file": "pipeline/studio-wave1-20261030/q2/masters/porsche-911-carrera-3-2/porsche-911-carrera-3-2-M3-9000x12000.jpg",
-   "source_sha256": "2a412241465ccecf6580aa6cd94123210c1a0e5bfb2e77b763b6c3703d7e26e7",
+   "source_file": "pipeline/studio-wave1-20261030/q2/masters/porsche-911-carrera-3-2/porsche-911-carrera-3-2-M5-9000x12000.jpg",
+   "source_sha256": "d2d74e0ed546041a7985e5c3a4bd30e8547caa23c4126a40b219cc5c89607805",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Print master M3 - approval 2, the last: after your word the lot runs to Etsy. 9000 x 12000, 10 master-scale fixes; cost USD 6.24 (upscale 0.56, master fixes 5.68). Still visible (harsh): the lid crest's STUTTGART is a row of marks at 300 % (PORSCHE reads), and the crest is crisper than the paint around it at 300 %; the five cap crests stand upright (on the real car they turn with the wheel) with bright gold rings, and on the small side-view caps STUTTGART is a smudge at 300 %; the cleaned tyre bands look smoother than the rest of the sidewall from 200 %; the headlamp glass (main car and inset) keeps blotchy AI reflections inside the flutes (200 %); a 35 px spiral on the inset fog-lamp surround reads as a fastener at 100 %.",
-   "candidate_created_at": "2026-10-30T22:40:14+00:00",
+   "delivery_status": "Print master M5 - approval 2 again. On M3 you said (31 Oct 01:12): \"On 911 - logos, and their pasting. On the wheel caps - that is poor work. U must give that adjustment to image model and just paste the surroundings, saving the scale. Not like right now - pasted porsche logos arent at the right scale nor perspective. And that square logo closeup also isnt correct. And the box below thta logo with interior there are wrong seats, redo that one.\" Done, all by the image model on whole-context crops with this car's photos, each pasted with its surroundings at the model's own scale - no hand-fitted crests any more: the five cap crests redrawn on their caps, foreshortened with each cap and at the real crest's size on the cap (round 2; gallery 59-62); the lid crest the same way; the crest close-up box redrawn whole from this car's crest (gallery 50, 51); the seat box redrawn whole with this car's seats - black leather sport seats with red piping (gallery 66, 85, 86). 9000 x 12000, 16 master-scale fixes; cost USD 6.24 (upscale 0.56, master fixes 5.68). Still visible (harsh): on the small caps (side view and the wheel box) the crest's PORSCHE is a row of small marks at 200-300 % and the gold rings are bright; the crest box's enamel is the model's, more textured than the old flat drawing; the seat box keeps the hero's left-hand-drive cabin (the real UK car is right-hand drive); the lid crest's small lettering is soft at 300 %; from earlier rounds: the cleaned tyre bands look smoother than the rest of the sidewall from 200 %; the headlamp glass (main car and inset) keeps blotchy AI reflections inside the flutes (200 %); a 35 px spiral on the inset fog-lamp surround reads as a fastener at 100 %. After your word the lot runs to Etsy.",
+   "candidate_created_at": "2026-10-31T02:14:03+00:00",
    "review_url": null,
    "stage1_generations": [
     {
@@ -3306,7 +3306,7 @@
      "request_id": "a2d4d4a6-c8cd-41a1-814d-1a749c4aef56",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:05.443060+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a2d4d4a6-c8cd-41a1-814d-1a749c4aef56_2ff939e3.png",
      "page_url": "https://muapi.ai/predictions/a2d4d4a6-c8cd-41a1-814d-1a749c4aef56",
      "target_id": "capNF",
      "references": []
@@ -3316,27 +3316,27 @@
      "request_id": "4039fabe-9a26-4532-83cc-e404bceb54c0",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:08.538952+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4039fabe-9a26-4532-83cc-e404bceb54c0_d103c236.png",
      "page_url": "https://muapi.ai/predictions/4039fabe-9a26-4532-83cc-e404bceb54c0",
      "target_id": "capNR",
      "references": []
     },
     {
-     "role": "edit (master scale), not picked",
+     "role": "edit (master scale)",
      "request_id": "416dfd4d-9f6d-4420-8061-01151f32ee3d",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:11.614572+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/416dfd4d-9f6d-4420-8061-01151f32ee3d_499a56a9.png",
      "page_url": "https://muapi.ai/predictions/416dfd4d-9f6d-4420-8061-01151f32ee3d",
      "target_id": "capSR",
      "references": []
     },
     {
-     "role": "edit (master scale), not picked",
+     "role": "edit (master scale)",
      "request_id": "89c2187c-9949-4efa-93ea-013d874f477b",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:14.650177+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/89c2187c-9949-4efa-93ea-013d874f477b_b32b201a.png",
      "page_url": "https://muapi.ai/predictions/89c2187c-9949-4efa-93ea-013d874f477b",
      "target_id": "capSF",
      "references": []
@@ -3346,7 +3346,7 @@
      "request_id": "34862684-762a-4db7-9d60-6425a69e1fd2",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:17.656752+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/34862684-762a-4db7-9d60-6425a69e1fd2_8aff1f1a.png",
      "page_url": "https://muapi.ai/predictions/34862684-762a-4db7-9d60-6425a69e1fd2",
      "target_id": "capI4",
      "references": []
@@ -3356,27 +3356,27 @@
      "request_id": "35d3d822-483e-4846-a55e-6500c88a2a6b",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:20.715261+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/35d3d822-483e-4846-a55e-6500c88a2a6b_dafa3b21.png",
      "page_url": "https://muapi.ai/predictions/35d3d822-483e-4846-a55e-6500c88a2a6b",
      "target_id": "lid",
      "references": []
     },
     {
-     "role": "edit (master scale), not picked",
+     "role": "edit (master scale)",
      "request_id": "77c42991-7bf4-4524-bb64-e6aff41148b6",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:25.008562+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/77c42991-7bf4-4524-bb64-e6aff41148b6_bcd5fe02.png",
      "page_url": "https://muapi.ai/predictions/77c42991-7bf4-4524-bb64-e6aff41148b6",
      "target_id": "capNF",
      "references": []
     },
     {
-     "role": "edit (master scale), not picked",
+     "role": "edit (master scale)",
      "request_id": "4750638b-dc94-4022-a918-7a7e765f2b4e",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:28.094840+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4750638b-dc94-4022-a918-7a7e765f2b4e_e21aec77.png",
      "page_url": "https://muapi.ai/predictions/4750638b-dc94-4022-a918-7a7e765f2b4e",
      "target_id": "capNR",
      "references": []
@@ -3386,7 +3386,7 @@
      "request_id": "6457474e-86d6-4f60-a14b-eb21d00e2238",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:31.136591+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6457474e-86d6-4f60-a14b-eb21d00e2238_552b6003.png",
      "page_url": "https://muapi.ai/predictions/6457474e-86d6-4f60-a14b-eb21d00e2238",
      "target_id": "capSR",
      "references": []
@@ -3396,19 +3396,29 @@
      "request_id": "b729a059-97f7-4b68-9832-b51e241e98b7",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:34.191792+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b729a059-97f7-4b68-9832-b51e241e98b7_65d857c6.png",
      "page_url": "https://muapi.ai/predictions/b729a059-97f7-4b68-9832-b51e241e98b7",
      "target_id": "capSF",
      "references": []
     },
     {
-     "role": "edit (master scale), not picked",
+     "role": "edit (master scale)",
      "request_id": "d22e08e9-6816-48f6-a231-564928e5f300",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:37.455490+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d22e08e9-6816-48f6-a231-564928e5f300_1517c95b.png",
      "page_url": "https://muapi.ai/predictions/d22e08e9-6816-48f6-a231-564928e5f300",
      "target_id": "capI4",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "5a1ddd17-c652-4a25-940b-c2de1c91400a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-31T01:54:40.800143+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5a1ddd17-c652-4a25-940b-c2de1c91400a_de13b47b.png",
+     "page_url": "https://muapi.ai/predictions/5a1ddd17-c652-4a25-940b-c2de1c91400a",
+     "target_id": "lid",
      "references": []
     }
    ],
@@ -3418,9 +3428,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/2a412241465c-studio-wave1-20261030-porsche-911-carrera-3-2-master.jpg",
-   "full_source_sha256": "2a412241465ccecf6580aa6cd94123210c1a0e5bfb2e77b763b6c3703d7e26e7",
-   "full_source_bytes": 24737232,
+   "full_source_url": "full/d2d74e0ed546-studio-wave1-20261030-porsche-911-carrera-3-2-master.jpg",
+   "full_source_sha256": "d2d74e0ed546041a7985e5c3a4bd30e8547caa23c4126a40b219cc5c89607805",
+   "full_source_bytes": 25598458,
    "full_source_pixels": [
     9000,
     12000
@@ -3829,7 +3839,7 @@
      "request_id": "a2d4d4a6-c8cd-41a1-814d-1a749c4aef56",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:05.443060+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/a2d4d4a6-c8cd-41a1-814d-1a749c4aef56_2ff939e3.png",
      "page_url": "https://muapi.ai/predictions/a2d4d4a6-c8cd-41a1-814d-1a749c4aef56",
      "history_url": "https://muapi.ai/predictions",
      "references": [],
@@ -3840,29 +3850,29 @@
      "request_id": "4039fabe-9a26-4532-83cc-e404bceb54c0",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:08.538952+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4039fabe-9a26-4532-83cc-e404bceb54c0_d103c236.png",
      "page_url": "https://muapi.ai/predictions/4039fabe-9a26-4532-83cc-e404bceb54c0",
      "history_url": "https://muapi.ai/predictions",
      "references": [],
      "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
     },
     {
-     "role": "edit (master scale), not picked",
+     "role": "edit (master scale)",
      "request_id": "416dfd4d-9f6d-4420-8061-01151f32ee3d",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:11.614572+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/416dfd4d-9f6d-4420-8061-01151f32ee3d_499a56a9.png",
      "page_url": "https://muapi.ai/predictions/416dfd4d-9f6d-4420-8061-01151f32ee3d",
      "history_url": "https://muapi.ai/predictions",
      "references": [],
      "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
     },
     {
-     "role": "edit (master scale), not picked",
+     "role": "edit (master scale)",
      "request_id": "89c2187c-9949-4efa-93ea-013d874f477b",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:14.650177+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/89c2187c-9949-4efa-93ea-013d874f477b_b32b201a.png",
      "page_url": "https://muapi.ai/predictions/89c2187c-9949-4efa-93ea-013d874f477b",
      "history_url": "https://muapi.ai/predictions",
      "references": [],
@@ -3873,7 +3883,7 @@
      "request_id": "34862684-762a-4db7-9d60-6425a69e1fd2",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:17.656752+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/34862684-762a-4db7-9d60-6425a69e1fd2_8aff1f1a.png",
      "page_url": "https://muapi.ai/predictions/34862684-762a-4db7-9d60-6425a69e1fd2",
      "history_url": "https://muapi.ai/predictions",
      "references": [],
@@ -3884,29 +3894,29 @@
      "request_id": "35d3d822-483e-4846-a55e-6500c88a2a6b",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:20.715261+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/35d3d822-483e-4846-a55e-6500c88a2a6b_dafa3b21.png",
      "page_url": "https://muapi.ai/predictions/35d3d822-483e-4846-a55e-6500c88a2a6b",
      "history_url": "https://muapi.ai/predictions",
      "references": [],
      "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
     },
     {
-     "role": "edit (master scale), not picked",
+     "role": "edit (master scale)",
      "request_id": "77c42991-7bf4-4524-bb64-e6aff41148b6",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:25.008562+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/77c42991-7bf4-4524-bb64-e6aff41148b6_bcd5fe02.png",
      "page_url": "https://muapi.ai/predictions/77c42991-7bf4-4524-bb64-e6aff41148b6",
      "history_url": "https://muapi.ai/predictions",
      "references": [],
      "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
     },
     {
-     "role": "edit (master scale), not picked",
+     "role": "edit (master scale)",
      "request_id": "4750638b-dc94-4022-a918-7a7e765f2b4e",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:28.094840+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/4750638b-dc94-4022-a918-7a7e765f2b4e_e21aec77.png",
      "page_url": "https://muapi.ai/predictions/4750638b-dc94-4022-a918-7a7e765f2b4e",
      "history_url": "https://muapi.ai/predictions",
      "references": [],
@@ -3917,7 +3927,7 @@
      "request_id": "6457474e-86d6-4f60-a14b-eb21d00e2238",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:31.136591+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/6457474e-86d6-4f60-a14b-eb21d00e2238_552b6003.png",
      "page_url": "https://muapi.ai/predictions/6457474e-86d6-4f60-a14b-eb21d00e2238",
      "history_url": "https://muapi.ai/predictions",
      "references": [],
@@ -3928,19 +3938,30 @@
      "request_id": "b729a059-97f7-4b68-9832-b51e241e98b7",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:34.191792+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/b729a059-97f7-4b68-9832-b51e241e98b7_65d857c6.png",
      "page_url": "https://muapi.ai/predictions/b729a059-97f7-4b68-9832-b51e241e98b7",
      "history_url": "https://muapi.ai/predictions",
      "references": [],
      "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
     },
     {
-     "role": "edit (master scale), not picked",
+     "role": "edit (master scale)",
      "request_id": "d22e08e9-6816-48f6-a231-564928e5f300",
      "model": "gpt-image-2.5-sunburst-image-to-image",
      "created_at": "2026-10-31T01:54:37.455490+00:00",
-     "result_url": null,
+     "result_url": "https://cdn.muapi.ai/outputs/generated/d22e08e9-6816-48f6-a231-564928e5f300_1517c95b.png",
      "page_url": "https://muapi.ai/predictions/d22e08e9-6816-48f6-a231-564928e5f300",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "5a1ddd17-c652-4a25-940b-c2de1c91400a",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-31T01:54:40.800143+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/5a1ddd17-c652-4a25-940b-c2de1c91400a_de13b47b.png",
+     "page_url": "https://muapi.ai/predictions/5a1ddd17-c652-4a25-940b-c2de1c91400a",
      "history_url": "https://muapi.ai/predictions",
      "references": [],
      "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
@@ -3949,8 +3970,8 @@
    "timeline": {
     "created_at": "2026-10-30T16:28:48.607762+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-31T01:54:37.455490+00:00",
-    "updated_source": "MuAPI edit (master scale), not picked"
+    "updated_at": "2026-10-31T02:14:03+00:00",
+    "updated_source": "candidate generated"
    },
    "status": {
     "code": "review",
@@ -7461,13 +7482,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-v2-d43b45e5a2d4-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-v2-f096a2d7fa22-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/bmw-m5-touring-e61-v2/final-native.png",
-   "source_sha256": "d43b45e5a2d4e97cb6335e5fa64826824297144d4eb0b1382ee0a5df754877b0",
+   "source_sha256": "f096a2d7fa22c837a2b7b15fad2037b5cb17e5a7b36f84aa1a6819f86644e8a4",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -7556,9 +7577,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/d43b45e5a2d4-studio-wave1-20261030-bmw-m5-touring-e61-v2.png",
-   "full_source_sha256": "d43b45e5a2d4e97cb6335e5fa64826824297144d4eb0b1382ee0a5df754877b0",
-   "full_source_bytes": 11486376,
+   "full_source_url": "full/f096a2d7fa22-studio-wave1-20261030-bmw-m5-touring-e61-v2.png",
+   "full_source_sha256": "f096a2d7fa22c837a2b7b15fad2037b5cb17e5a7b36f84aa1a6819f86644e8a4",
+   "full_source_bytes": 11492414,
    "full_source_pixels": [
     2480,
     3312
@@ -7677,13 +7698,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-porsche-911-carrera-3-2-564c4b7a242b-current.jpg",
+   "preview": "assets/studio-wave1-20261030-porsche-911-carrera-3-2-edf7dbd94152-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/porsche-911-carrera-3-2/final-native.png",
-   "source_sha256": "564c4b7a242bb84b397eba5ad4a164c1b1700862cde008b8b80ace3dda6865ed",
+   "source_sha256": "edf7dbd94152409f04e5c94e4fc966cc956630d5617cc3c84d802b2c830fa6e5",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -7762,9 +7783,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/564c4b7a242b-studio-wave1-20261030-porsche-911-carrera-3-2.png",
-   "full_source_sha256": "564c4b7a242bb84b397eba5ad4a164c1b1700862cde008b8b80ace3dda6865ed",
-   "full_source_bytes": 10841345,
+   "full_source_url": "full/edf7dbd94152-studio-wave1-20261030-porsche-911-carrera-3-2.png",
+   "full_source_sha256": "edf7dbd94152409f04e5c94e4fc966cc956630d5617cc3c84d802b2c830fa6e5",
+   "full_source_bytes": 10958928,
    "full_source_pixels": [
     2480,
     3312
@@ -17026,9 +17047,9 @@
   },
   {
    "key": "studio-wave1-20261030-porsche-911-carrera-3-2",
-   "declared_sha256": "564c4b7a242bb84b397eba5ad4a164c1b1700862cde008b8b80ace3dda6865ed",
+   "declared_sha256": "edf7dbd94152409f04e5c94e4fc966cc956630d5617cc3c84d802b2c830fa6e5",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-porsche-911-carrera-3-2-564c4b7a242b-current.jpg",
+   "preview": "assets/studio-wave1-20261030-porsche-911-carrera-3-2-edf7dbd94152-current.jpg",
    "pixels": [
     2480,
     3312
@@ -17036,9 +17057,9 @@
   },
   {
    "key": "studio-wave1-20261030-bmw-m5-touring-e61-v2",
-   "declared_sha256": "d43b45e5a2d4e97cb6335e5fa64826824297144d4eb0b1382ee0a5df754877b0",
+   "declared_sha256": "f096a2d7fa22c837a2b7b15fad2037b5cb17e5a7b36f84aa1a6819f86644e8a4",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-v2-d43b45e5a2d4-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-v2-f096a2d7fa22-current.jpg",
    "pixels": [
     2480,
     3312
@@ -17126,9 +17147,9 @@
   },
   {
    "key": "studio-wave1-20261030-porsche-911-carrera-3-2-master",
-   "declared_sha256": "2a412241465ccecf6580aa6cd94123210c1a0e5bfb2e77b763b6c3703d7e26e7",
+   "declared_sha256": "d2d74e0ed546041a7985e5c3a4bd30e8547caa23c4126a40b219cc5c89607805",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-porsche-911-carrera-3-2-master-2a412241465c-current.jpg",
+   "preview": "assets/studio-wave1-20261030-porsche-911-carrera-3-2-master-d2d74e0ed546-current.jpg",
    "pixels": [
     9000,
     12000
@@ -17136,9 +17157,9 @@
   },
   {
    "key": "studio-wave1-20261030-bmw-m5-touring-e61-v2-master",
-   "declared_sha256": "00f0b2397114ddb41f5a069b4d625376322029fd5d03c0a66307f2e2b675da72",
+   "declared_sha256": "f49b85227dc5f35c42ae7af8cfe7014bea154e606d2dcf690dc0804fa6f65232",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-v2-master-00f0b2397114-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-touring-e61-v2-master-f49b85227dc5-current.jpg",
    "pixels": [
     9000,
     12000
