@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "built": "2026-10-31 00:10",
+ "built": "2026-10-31 02:24",
  "accessed_date": "2026-10-31",
  "collections": [
   "American Form",
@@ -1232,27 +1232,27 @@
   },
   {
    "key": "studio-wave1-20261030-bmw-m5-e39-v2-master",
-   "name": "BMW M5 (E39) - print master M2 (workflow B)",
+   "name": "BMW M5 (E39) - print master M3 (workflow B)",
    "notion_url": null,
    "board_url": null,
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-v2-master-679e1e7a2f72-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-v2-master-939614f3dac7-current.jpg",
    "preview_pixels": [
     1600,
     2133
    ],
-   "source_file": "pipeline/studio-wave1-20261030/q2/masters/bmw-m5-e39-v2/bmw-m5-e39-v2-M2-9000x12000.jpg",
-   "source_sha256": "679e1e7a2f720775fd9e0fdfeaa47b3b5784b89978f0072c3c51acb061570cc3",
+   "source_file": "pipeline/studio-wave1-20261030/q2/masters/bmw-m5-e39-v2/bmw-m5-e39-v2-M3-9000x12000.jpg",
+   "source_sha256": "939614f3dac7f4e73dd29e061813b39ba511b1f96f076946457e033a31cb1ea6",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Print master M2 - approval 2, the last: after your word the lot runs to Etsy. 9000 x 12000, 4 master-scale fixes; cost USD 1.36 (upscale 0.56, master fixes 0.80). Still visible (harsh): the new bonnet roundel's chrome rim is a little brighter and harder than the fog-lit recess around it (shows at 200 %); the near wheel cap is crisper than the spokes around it and only three of its five bolts show at this angle; the door M5 plaque is a little large for its strip (the hero's footprint); the side marker keeps the hero's near-square outline (the real one is a long oval) - only its lens was redrawn; the headlamp glass keeps blotchy AI refractions; the cleaned front sidewall is a little waxy and the polished rim lip blown near white.",
-   "candidate_created_at": "2026-10-30T22:30:05+00:00",
+   "delivery_status": "Print master M3 - approval 2 again. On M2 you said (31 Oct 01:12): \"E39 - just the interior through the windshield.\" Done: the windscreen redrawn by the image model - the glass, a faint sheen of the fog and branches, and this car's own cabin dim behind it (light grey leather, as the real car; the hero had drawn black) - your pick C (MuAPI cbfe6375), pasted with the seam in the glass's black edge. 9000 x 12000, 5 master-scale fixes; cost USD 2.00 (upscale 0.56, master fixes 1.44). Still visible (harsh): the new glass came back 3840 px wide for a 4485 px crop, so it is about 15 % softer than the paint around it at 200 %; a smooth tint band runs along the top of the glass (real windscreens have one); the cabin's light grey seats show a little more than the black ones did; the new bonnet roundel's chrome rim is a little brighter and harder than the fog-lit recess around it (shows at 200 %); the near wheel cap is crisper than the spokes around it and only three of its five bolts show at this angle; the door M5 plaque is a little large for its strip (the hero's footprint); the side marker keeps the hero's near-square outline (the real one is a long oval) - only its lens was redrawn; the headlamp glass keeps blotchy AI refractions; the cleaned front sidewall is a little waxy and the polished rim lip blown near white. After your word the lot runs to Etsy.",
+   "candidate_created_at": "2026-10-31T00:46:21+00:00",
    "review_url": null,
    "stage1_generations": [
     {
@@ -1409,6 +1409,46 @@
      "page_url": "https://muapi.ai/predictions/e419a82a-902a-440c-86b6-42dba356b9e4",
      "target_id": "marker",
      "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "915fb915-d473-46b2-b9f0-4b852e73856f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-31T00:27:11.734908+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/915fb915-d473-46b2-b9f0-4b852e73856f_a20241c2.png",
+     "page_url": "https://muapi.ai/predictions/915fb915-d473-46b2-b9f0-4b852e73856f",
+     "target_id": "glassA",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "88d3363a-4d11-4b3d-b82f-aeca9daca99e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-31T00:27:14.392939+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/88d3363a-4d11-4b3d-b82f-aeca9daca99e_30554395.png",
+     "page_url": "https://muapi.ai/predictions/88d3363a-4d11-4b3d-b82f-aeca9daca99e",
+     "target_id": "glassB",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "cbfe6375-9581-4942-967b-28512614387b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-31T00:27:17.066315+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/cbfe6375-9581-4942-967b-28512614387b_18b83d89.png",
+     "page_url": "https://muapi.ai/predictions/cbfe6375-9581-4942-967b-28512614387b",
+     "target_id": "glassC",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "757e1855-f069-4d75-9954-848c75397efa",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-31T00:27:19.723903+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/757e1855-f069-4d75-9954-848c75397efa_ab10fd2a.png",
+     "page_url": "https://muapi.ai/predictions/757e1855-f069-4d75-9954-848c75397efa",
+     "target_id": "glassD",
+     "references": []
     }
    ],
    "recommendation_override": {
@@ -1417,9 +1457,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/679e1e7a2f72-studio-wave1-20261030-bmw-m5-e39-v2-master.jpg",
-   "full_source_sha256": "679e1e7a2f720775fd9e0fdfeaa47b3b5784b89978f0072c3c51acb061570cc3",
-   "full_source_bytes": 22216758,
+   "full_source_url": "full/939614f3dac7-studio-wave1-20261030-bmw-m5-e39-v2-master.jpg",
+   "full_source_sha256": "939614f3dac7f4e73dd29e061813b39ba511b1f96f076946457e033a31cb1ea6",
+   "full_source_bytes": 22100903,
    "full_source_pixels": [
     9000,
     12000
@@ -1607,12 +1647,56 @@
      "history_url": "https://muapi.ai/predictions",
      "references": [],
      "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "915fb915-d473-46b2-b9f0-4b852e73856f",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-31T00:27:11.734908+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/915fb915-d473-46b2-b9f0-4b852e73856f_a20241c2.png",
+     "page_url": "https://muapi.ai/predictions/915fb915-d473-46b2-b9f0-4b852e73856f",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "88d3363a-4d11-4b3d-b82f-aeca9daca99e",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-31T00:27:14.392939+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/88d3363a-4d11-4b3d-b82f-aeca9daca99e_30554395.png",
+     "page_url": "https://muapi.ai/predictions/88d3363a-4d11-4b3d-b82f-aeca9daca99e",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "cbfe6375-9581-4942-967b-28512614387b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-31T00:27:17.066315+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/cbfe6375-9581-4942-967b-28512614387b_18b83d89.png",
+     "page_url": "https://muapi.ai/predictions/cbfe6375-9581-4942-967b-28512614387b",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "757e1855-f069-4d75-9954-848c75397efa",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-31T00:27:19.723903+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/757e1855-f069-4d75-9954-848c75397efa_ab10fd2a.png",
+     "page_url": "https://muapi.ai/predictions/757e1855-f069-4d75-9954-848c75397efa",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-30T17:00:54.527296+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-30T22:30:05+00:00",
+    "updated_at": "2026-10-31T00:46:21+00:00",
     "updated_source": "candidate generated"
    },
    "status": {
@@ -1997,7 +2081,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Print master M3 - approval 2, the last: after your word the lot runs to Etsy. 9000 x 12000, 6 master-scale fixes; cost USD 1.56 (upscale 0.56, master fixes 1.00). Still visible (harsh): a small soft fold at the near hub's lower-left spoke root, the hub a little brighter and smoother than the spokes (200 % and up); the rear cap's letters are thin strokes at 300 % (the cap is about 30 px across); the roundel's rim a little thinner than the real badge's; the gill's M5 slightly heavy at 300 %; the cockpit is left-hand drive (the real UK car is right-hand drive), the brake discs plain (the real ones cross-drilled), the lower road carries an AI motion-streak texture and the car a hard sunlit shadow.",
+   "delivery_status": "Print master M3 - approval 2, the last: after your word the lot runs to Etsy. 9000 x 12000, 7 master-scale fixes; cost USD 2.20 (upscale 0.56, master fixes 1.64). Still visible (harsh): a small soft fold at the near hub's lower-left spoke root, the hub a little brighter and smoother than the spokes (200 % and up); the rear cap's letters are thin strokes at 300 % (the cap is about 30 px across); the roundel's rim a little thinner than the real badge's; the gill's M5 slightly heavy at 300 %; the cockpit is left-hand drive (the real UK car is right-hand drive), the brake discs plain (the real ones cross-drilled), the lower road carries an AI motion-streak texture and the car a hard sunlit shadow.",
    "candidate_created_at": "2026-10-30T22:30:11+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -2179,6 +2263,46 @@
      "result_url": "https://cdn.muapi.ai/outputs/generated/f71d2d14-ddc6-438e-8b80-4672e4ba72d1_89c7455f.png",
      "page_url": "https://muapi.ai/predictions/f71d2d14-ddc6-438e-8b80-4672e4ba72d1",
      "target_id": "hubN",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "dc4d1fd1-85ea-4cd1-8d9c-e0e7893fdd67",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-31T00:27:23.443998+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/dc4d1fd1-85ea-4cd1-8d9c-e0e7893fdd67_a1a7fdc5.png",
+     "page_url": "https://muapi.ai/predictions/dc4d1fd1-85ea-4cd1-8d9c-e0e7893fdd67",
+     "target_id": "glassA",
+     "references": []
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "966907a0-c3ce-4931-8d33-7bc3271bd49b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-31T00:27:26.110968+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/966907a0-c3ce-4931-8d33-7bc3271bd49b_b9ad5abc.png",
+     "page_url": "https://muapi.ai/predictions/966907a0-c3ce-4931-8d33-7bc3271bd49b",
+     "target_id": "glassB",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "33d3b07f-617b-4cb6-b45a-f1f66e5eecb8",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-31T00:27:28.772038+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/33d3b07f-617b-4cb6-b45a-f1f66e5eecb8_439f658c.png",
+     "page_url": "https://muapi.ai/predictions/33d3b07f-617b-4cb6-b45a-f1f66e5eecb8",
+     "target_id": "glassC",
+     "references": []
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "0049fe5d-6114-4379-9f82-a49731c1e0fb",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-31T00:27:31.518883+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0049fe5d-6114-4379-9f82-a49731c1e0fb_f5ea537e.png",
+     "page_url": "https://muapi.ai/predictions/0049fe5d-6114-4379-9f82-a49731c1e0fb",
+     "target_id": "glassD",
      "references": []
     }
    ],
@@ -2405,13 +2529,57 @@
      "history_url": "https://muapi.ai/predictions",
      "references": [],
      "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "dc4d1fd1-85ea-4cd1-8d9c-e0e7893fdd67",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-31T00:27:23.443998+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/dc4d1fd1-85ea-4cd1-8d9c-e0e7893fdd67_a1a7fdc5.png",
+     "page_url": "https://muapi.ai/predictions/dc4d1fd1-85ea-4cd1-8d9c-e0e7893fdd67",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale)",
+     "request_id": "966907a0-c3ce-4931-8d33-7bc3271bd49b",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-31T00:27:26.110968+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/966907a0-c3ce-4931-8d33-7bc3271bd49b_b9ad5abc.png",
+     "page_url": "https://muapi.ai/predictions/966907a0-c3ce-4931-8d33-7bc3271bd49b",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "33d3b07f-617b-4cb6-b45a-f1f66e5eecb8",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-31T00:27:28.772038+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/33d3b07f-617b-4cb6-b45a-f1f66e5eecb8_439f658c.png",
+     "page_url": "https://muapi.ai/predictions/33d3b07f-617b-4cb6-b45a-f1f66e5eecb8",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
+    },
+    {
+     "role": "edit (master scale), not picked",
+     "request_id": "0049fe5d-6114-4379-9f82-a49731c1e0fb",
+     "model": "gpt-image-2.5-sunburst-image-to-image",
+     "created_at": "2026-10-31T00:27:31.518883+00:00",
+     "result_url": "https://cdn.muapi.ai/outputs/generated/0049fe5d-6114-4379-9f82-a49731c1e0fb_f5ea537e.png",
+     "page_url": "https://muapi.ai/predictions/0049fe5d-6114-4379-9f82-a49731c1e0fb",
+     "history_url": "https://muapi.ai/predictions",
+     "references": [],
+     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
     }
    ],
    "timeline": {
     "created_at": "2026-10-30T17:00:59.987204+00:00",
     "created_source": "MuAPI original",
-    "updated_at": "2026-10-30T22:30:11+00:00",
-    "updated_source": "candidate generated"
+    "updated_at": "2026-10-31T00:27:31.518883+00:00",
+    "updated_source": "MuAPI edit (master scale), not picked"
    },
    "status": {
     "code": "review",
@@ -4036,7 +4204,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Print master M8 - approval 2, the last: after your word the lot runs to Etsy. 9000 x 12000, 11 master-scale fixes; cost USD 2.56 (upscale 0.56, master fixes 2.00). Still visible (harsh): the headlamps (main car and the lamp piece) keep the generator's rainbow flares and busy reflections, busier than the real lamp at 100-200 %; the two lens edges are now plain where the real lamp carries a tiny moulded code (300 %); the cleaned bracket and bolts behind the intake read newer than this car's, the bar a little bright (300 %); the far-lamp fill a touch soft (300 %); from the native pass: the cleaned tyre sidewalls read slightly plastic, most on the wheel piece (about 19 cm across on the print), the recoloured rear nut a touch dark, pits on the gear knob.",
+   "delivery_status": "Approved at approval 2 (31 Oct 01:12): \"Type r is perfect tho.\" Print master M8 - on its way to Etsy. 9000 x 12000, 11 master-scale fixes; cost USD 2.56 (upscale 0.56, master fixes 2.00). Still visible (harsh): the headlamps (main car and the lamp piece) keep the generator's rainbow flares and busy reflections, busier than the real lamp at 100-200 %; the two lens edges are now plain where the real lamp carries a tiny moulded code (300 %); the cleaned bracket and bolts behind the intake read newer than this car's, the bar a little bright (300 %); the far-lamp fill a touch soft (300 %); from the native pass: the cleaned tyre sidewalls read slightly plastic, most on the wheel piece (about 19 cm across on the print), the recoloured rear nut a touch dark, pits on the gear knob.",
    "candidate_created_at": "2026-10-30T23:09:12+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -5002,7 +5170,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Print master M2 - approval 2, the last: after your word the lot runs to Etsy. 12000 x 9000, 2 master-scale fixes; cost USD 0.76 (upscale 0.56, master fixes 0.20). Still visible (harsh): the body badge is now the real car's one-piece plaque - the four rings and AVUS side by side on black, in the lithograph's own inks - in place of the hero's larger rings stacked over AVUS: a visible change at full view (if you prefer the hero's look it goes back in one step); a 2-3 px stippled halo round the plaque (300 %), its rings about 12 px each; the stipple where the old badge was is a touch smoother (150 %); the near-front valve is now in the print's grey and black inks (the real one is brass, an ink this lithograph does not use); the faded top of the removed lamp element's arc shows at 400 %; the nose rings keep their shading notches.",
+   "delivery_status": "Approved at approval 2 (31 Oct 01:12): \"Avus is perfect.\" Print master M2 - on its way to Etsy. 12000 x 9000, 2 master-scale fixes; cost USD 0.76 (upscale 0.56, master fixes 0.20). Still visible (harsh): the body badge is now the real car's one-piece plaque - the four rings and AVUS side by side on black, in the lithograph's own inks - in place of the hero's larger rings stacked over AVUS: a visible change at full view (if you prefer the hero's look it goes back in one step); a 2-3 px stippled halo round the plaque (300 %), its rings about 12 px each; the stipple where the old badge was is a touch smoother (150 %); the near-front valve is now in the print's grey and black inks (the real one is brass, an ink this lithograph does not use); the faded top of the removed lamp element's arc shows at 400 %; the nose rings keep their shading notches.",
    "candidate_created_at": "2026-10-30T23:01:17+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -5229,7 +5397,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Print master M3 - approval 2, the last: after your word the lot runs to Etsy. 9000 x 12000, 5 master-scale fixes; cost USD 1.16 (upscale 0.56, master fixes 0.60). Still visible (harsh): the new roof pads and the round marker lamps are crisper and a little more prominent than in this car's photos at 200 %, and the right indicator's screw has a bluish cast; the aerial's new round base is a touch wide; from the native pass: fine crazing in the paint reflections on the bumper corners, a plain synthetic mirror stem, and no windscreen stickers (the real car has two). The grey tab in the grille opening is on the real car (ref-3) and stays.",
+   "delivery_status": "Approved at approval 2 (31 Oct 01:12): \"Autozam is perfect.\" Print master M3 - on its way to Etsy. 9000 x 12000, 5 master-scale fixes; cost USD 1.16 (upscale 0.56, master fixes 0.60). Still visible (harsh): the new roof pads and the round marker lamps are crisper and a little more prominent than in this car's photos at 200 %, and the right indicator's screw has a bluish cast; the aerial's new round base is a touch wide; from the native pass: fine crazing in the paint reflections on the bumper corners, a plain synthetic mirror stem, and no windscreen stickers (the real car has two). The grey tab in the grille opening is on the real car (ref-3) and stays.",
    "candidate_created_at": "2026-10-30T23:04:30+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -5558,13 +5726,13 @@
    "photo_count": 0,
    "completion_verified": false,
    "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-v2-6c5d94c56e5d-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-v2-1a68dbf603f9-current.jpg",
    "preview_pixels": [
     1600,
     2137
    ],
    "source_file": "pipeline/studio-wave1-20261030/w1/heroes/bmw-m5-e39-v2/final-native.png",
-   "source_sha256": "6c5d94c56e5d90dbdf5a78289bf732acee2b30141aa42795a9be12b479c9709d",
+   "source_sha256": "1a68dbf603f9ac862a42cc98708382232547afec4b2ea11f39755061f4a65097",
    "recorded_approval": "owner_visual_review_pending",
    "recorded_stage": "stage1_candidate",
    "stage1": true,
@@ -5648,9 +5816,9 @@
    },
    "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
    "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/6c5d94c56e5d-studio-wave1-20261030-bmw-m5-e39-v2.png",
-   "full_source_sha256": "6c5d94c56e5d90dbdf5a78289bf732acee2b30141aa42795a9be12b479c9709d",
-   "full_source_bytes": 10097289,
+   "full_source_url": "full/1a68dbf603f9-studio-wave1-20261030-bmw-m5-e39-v2.png",
+   "full_source_sha256": "1a68dbf603f9ac862a42cc98708382232547afec4b2ea11f39755061f4a65097",
+   "full_source_bytes": 10074281,
    "full_source_pixels": [
     2480,
     3312
@@ -6767,222 +6935,6 @@
    }
   },
   {
-   "key": "studio-wave1-20261030-honda-civic-type-r-ek9",
-   "name": "Honda Civic Type R (EK9) - DIRECTED",
-   "notion_url": null,
-   "board_url": null,
-   "photo_count": 0,
-   "completion_verified": false,
-   "existing_collection": "",
-   "preview": "assets/studio-wave1-20261030-honda-civic-type-r-ek9-714f89f26ff2-current.jpg",
-   "preview_pixels": [
-    1600,
-    2137
-   ],
-   "source_file": "pipeline/studio-wave1-20261030/w1/heroes/honda-civic-type-r-ek9/final-native.png",
-   "source_sha256": "714f89f26ff24b2d8d315c2afcf7788718ca8504722d29ac045969746ae8892e",
-   "recorded_approval": "owner_visual_review_pending",
-   "recorded_stage": "stage1_candidate",
-   "stage1": true,
-   "stage1_edited": false,
-   "hero_edit_pending": false,
-   "owner_collection_pending": false,
-   "delivery_status": "Fixed version - 7 local fixes, no model, USD 0.00. Still visible (harsh): the cleaned sidewalls are smoother than the rest of the rubber and read slightly plastic, most on the wheel piece (about 19 cm across on the print); the new cap H is flat red with no gloss; the recoloured nut is a touch darker than its neighbours; the headlamps carry AI rainbow flares; behind the bumper intake this car's real bracket and bolts show rust dots (true to the car, a little dirty for a print - for the master, Q4); TYPE in the side decal is solid (the real one is outlined). Its print master card is the one for approval 2.",
-   "candidate_created_at": "2026-10-30T16:33:03.364802+00:00",
-   "review_url": null,
-   "stage1_generations": [
-    {
-     "role": "original",
-     "request_id": "d0974e4a-c905-476f-8b64-040a837274f7",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "quality": "max",
-     "created_at": "2026-10-30T16:28:37.479491+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/d0974e4a-c905-476f-8b64-040a837274f7_973d1a87.png",
-     "page_url": "https://muapi.ai/predictions/d0974e4a-c905-476f-8b64-040a837274f7",
-     "references": [
-      {
-       "role": "Front three-quarter from the left front corner, low and close: the headlamps, the red H badge in the grille, the front lip spoiler, the bonnet (the closest angle to the poster view)",
-       "url": "https://cdn.muapi.ai/outputs/generated/0d1407e277a34a5d8251d7ede5ab27ee.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      },
-      {
-       "role": "Front three-quarter from the left front corner at a distance: the proportions of the three-door hatchback, the roof spoiler, the white wheels",
-       "url": "https://cdn.muapi.ai/outputs/generated/f0c41e080e2b455e91ea789702c5a0d8.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      },
-      {
-       "role": "Straight front: both headlamps, the grille with the red H badge, the bumper and the front lip spoiler",
-       "url": "https://cdn.muapi.ai/outputs/generated/f74a2c8c51214bbd8c497ab910a62a50.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      },
-      {
-       "role": "Side view: the proportions of the hatchback, the wheelbase, the CIVIC TYPE R decal on the rear quarter",
-       "url": "https://cdn.muapi.ai/outputs/generated/55da3c30a6254339b3c0c6dfba0a8537.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      },
-      {
-       "role": "The red-backed H badge in the grille, close-up",
-       "url": "https://cdn.muapi.ai/outputs/generated/12bb6b11c7d54026b868867030f05106.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      },
-      {
-       "role": "Headlamp close-up: the clear headlamp and its lenses",
-       "url": "https://cdn.muapi.ai/outputs/generated/3ec47674e0ef472991c295a47a6d466b.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      },
-      {
-       "role": "The front lip spoiler and the bumper, close-up",
-       "url": "https://cdn.muapi.ai/outputs/generated/6e9a74f5be944b65b11f1613090df169.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      },
-      {
-       "role": "Front wheel close-up: the white seven-spoke wheel with five lug nuts and the H centre cap (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/0276c7941d4248c59bc7a688ab0a7707.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      },
-      {
-       "role": "The door mirror in body colour",
-       "url": "https://cdn.muapi.ai/outputs/generated/0c1520078035455e95537a9ede529e4e.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      },
-      {
-       "role": "The cabin: the red Recaro seats, as seen through the windscreen",
-       "url": "https://cdn.muapi.ai/outputs/generated/e1dbe1a9985340f58544a8816f94dece.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      },
-      {
-       "role": "The titanium gear knob with its engraved shift pattern, close-up (the cut-out in the collage)",
-       "url": "https://cdn.muapi.ai/outputs/generated/b57a07295bb948a8a682dbfc383d04ad.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      },
-      {
-       "role": "Lettering close-up: the car's own CIVIC TYPE R decal - CIVIC and TYPE in dark grey capitals and the big slanted red R; the model for the TYPE R lettering only",
-       "url": "https://cdn.muapi.ai/outputs/generated/b1e3877613f54b04a8295eca3b53ea13.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      }
-     ]
-    }
-   ],
-   "recommendation_override": {
-    "collection": "Sport / Leicht",
-    "why": "Brief: DIRECTED D33 - torn-paper collage: the white car, the red details. Suggestion only."
-   },
-   "candidate_source": "pipeline/studio-wave1-20261030/studio-candidates.json",
-   "candidate_authority": "Owner 30 Oct 2026 16:21: 'then lets start first wave' (growth plan wave 1). Ten RAW heroes, DIRECTED 8 / FREE 2; no lines first (owner 13 Oct 21:56). Approval 1 is the owner's pick; approval 2 is on the print master card.",
-   "full_source_url": "full/714f89f26ff2-studio-wave1-20261030-honda-civic-type-r-ek9.png",
-   "full_source_sha256": "714f89f26ff24b2d8d315c2afcf7788718ca8504722d29ac045969746ae8892e",
-   "full_source_bytes": 12582714,
-   "full_source_pixels": [
-    2480,
-    3312
-   ],
-   "full_source_kind": "exact_current_png",
-   "full_source_authority": "Owner requested current full-quality poster; root authorized exact four review PNG publication 20 September 2026 after MuAPI 10MB upload limit.",
-   "collection_choice": "",
-   "edition": null,
-   "collection_category": null,
-   "recommendation": {
-    "kind": "existing",
-    "collection": "Sport / Leicht",
-    "new": {
-     "name": "",
-     "edition": 77,
-     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
-    },
-    "why": "Brief: DIRECTED D33 - torn-paper collage: the white car, the red details. Suggestion only.",
-    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
-    "collection_default_edition": 200
-   },
-   "generations": [
-    {
-     "role": "original",
-     "request_id": "d0974e4a-c905-476f-8b64-040a837274f7",
-     "model": "gpt-image-2.5-sunburst-image-to-image",
-     "created_at": "2026-10-30T16:28:37.479491+00:00",
-     "result_url": "https://cdn.muapi.ai/outputs/generated/d0974e4a-c905-476f-8b64-040a837274f7_973d1a87.png",
-     "page_url": "https://muapi.ai/predictions/d0974e4a-c905-476f-8b64-040a837274f7",
-     "history_url": "https://muapi.ai/predictions",
-     "references": [
-      {
-       "role": "Front three-quarter from the left front corner, low and close: the headlamps, the red H badge in the grille, the front lip spoiler, the bonnet (the closest angle to the poster view)",
-       "url": "https://cdn.muapi.ai/outputs/generated/0d1407e277a34a5d8251d7ede5ab27ee.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      },
-      {
-       "role": "Front three-quarter from the left front corner at a distance: the proportions of the three-door hatchback, the roof spoiler, the white wheels",
-       "url": "https://cdn.muapi.ai/outputs/generated/f0c41e080e2b455e91ea789702c5a0d8.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      },
-      {
-       "role": "Straight front: both headlamps, the grille with the red H badge, the bumper and the front lip spoiler",
-       "url": "https://cdn.muapi.ai/outputs/generated/f74a2c8c51214bbd8c497ab910a62a50.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      },
-      {
-       "role": "Side view: the proportions of the hatchback, the wheelbase, the CIVIC TYPE R decal on the rear quarter",
-       "url": "https://cdn.muapi.ai/outputs/generated/55da3c30a6254339b3c0c6dfba0a8537.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      },
-      {
-       "role": "The red-backed H badge in the grille, close-up",
-       "url": "https://cdn.muapi.ai/outputs/generated/12bb6b11c7d54026b868867030f05106.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      },
-      {
-       "role": "Headlamp close-up: the clear headlamp and its lenses",
-       "url": "https://cdn.muapi.ai/outputs/generated/3ec47674e0ef472991c295a47a6d466b.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      },
-      {
-       "role": "The front lip spoiler and the bumper, close-up",
-       "url": "https://cdn.muapi.ai/outputs/generated/6e9a74f5be944b65b11f1613090df169.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      },
-      {
-       "role": "Front wheel close-up: the white seven-spoke wheel with five lug nuts and the H centre cap (ignore the tyre lettering)",
-       "url": "https://cdn.muapi.ai/outputs/generated/0276c7941d4248c59bc7a688ab0a7707.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      },
-      {
-       "role": "The door mirror in body colour",
-       "url": "https://cdn.muapi.ai/outputs/generated/0c1520078035455e95537a9ede529e4e.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      },
-      {
-       "role": "The cabin: the red Recaro seats, as seen through the windscreen",
-       "url": "https://cdn.muapi.ai/outputs/generated/e1dbe1a9985340f58544a8816f94dece.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      },
-      {
-       "role": "The titanium gear knob with its engraved shift pattern, close-up (the cut-out in the collage)",
-       "url": "https://cdn.muapi.ai/outputs/generated/b57a07295bb948a8a682dbfc383d04ad.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      },
-      {
-       "role": "Lettering close-up: the car's own CIVIC TYPE R decal - CIVIC and TYPE in dark grey capitals and the big slanted red R; the model for the TYPE R lettering only",
-       "url": "https://cdn.muapi.ai/outputs/generated/b1e3877613f54b04a8295eca3b53ea13.jpg",
-       "source_page": "https://collectingcars.com/for-sale/2000-honda-civic-ek9-type-r"
-      }
-     ],
-     "source": "pipeline/studio-wave1-20261030/studio-candidates.json"
-    }
-   ],
-   "timeline": {
-    "created_at": "2026-10-30T16:28:37.479491+00:00",
-    "created_source": "MuAPI original",
-    "updated_at": "2026-10-30T16:33:03.364802+00:00",
-    "updated_source": "candidate generated"
-   },
-   "status": {
-    "code": "review",
-    "label": "Your review",
-    "tone": "wait",
-    "detail": "new candidate",
-    "meaning": "a new hero or a finished edit waits for your word",
-    "order": 0
-   }
-  },
-  {
    "key": "studio-wave1-20261030-dodge-challenger-r-t-1970",
    "name": "Dodge Challenger R/T (1970) - DIRECTED",
    "notion_url": null,
@@ -7251,7 +7203,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Fixed version - 4 local fixes, 1 by the image model, USD 0.06. Still visible (harsh): the AVUS badge on the body is black rings stacked over a black AVUS with no plaque (the real one is a small black plaque with chrome rings and AVUS side by side: the content is right, the layout is not); the new lamp glass is a little lighter and busier at 300 %; the near-front valve is drawn in a brass ink the lithograph does not use (about 15 px, for the master, Q4); the nose rings carry dark shading notches. Its print master card is the one for approval 2.",
+   "delivery_status": "Fixed version - 4 local fixes, 1 by the image model, USD 0.06. Still visible (harsh): the AVUS badge on the body is black rings stacked over a black AVUS with no plaque (the real one is a small black plaque with chrome rings and AVUS side by side: the content is right, the layout is not); the new lamp glass is a little lighter and busier at 300 %; the near-front valve is drawn in a brass ink the lithograph does not use (about 15 px, for the master, Q4); the nose rings carry dark shading notches. Approval 2 passed on its print master card (31 Oct 01:12: \"Avus is perfect.\").",
    "candidate_created_at": "2026-10-30T16:32:37.646057+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -7437,7 +7389,7 @@
    "stage1_edited": false,
    "hero_edit_pending": false,
    "owner_collection_pending": false,
-   "delivery_status": "Fixed version - 3 local fixes, no model, USD 0.00. Still visible (harsh): the windscreen sticker is gone (the real car has two; the brief says none); fine crazing in the paint reflections on the bumper corners; a small grey tab with a bolt in the black grille opening, about 6 mm on the print (for the master, Q4); wheels, calipers and the side decal are hidden in this dead-on pose, so they cannot be checked. Its print master card is the one for approval 2.",
+   "delivery_status": "Fixed version - 3 local fixes, no model, USD 0.00. Still visible (harsh): the windscreen sticker is gone (the real car has two; the brief says none); fine crazing in the paint reflections on the bumper corners; a small grey tab with a bolt in the black grille opening, about 6 mm on the print (for the master, Q4); wheels, calipers and the side decal are hidden in this dead-on pose, so they cannot be checked. Approval 2 passed on its print master card (31 Oct 01:12: \"Autozam is perfect.\").",
    "candidate_created_at": "2026-10-30T16:32:41.920961+00:00",
    "review_url": null,
    "stage1_generations": [
@@ -15164,6 +15116,68 @@
     "meaning": "approved; prints, photos, copy and Notion being built",
     "order": 4
    }
+  },
+  {
+   "key": "studio-wave1-20261030-honda-civic-type-r-ek9",
+   "name": "Honda Civic Type R",
+   "preview": "assets/studio-wave1-20261030-honda-civic-type-r-ek9.jpg",
+   "preview_pixels": [
+    1600,
+    2133
+   ],
+   "source_sha256": "5a7fd9f86d4023a1422b42c0469652e314a45fe65d2e3514db8536125002fe7c",
+   "source_file": "pipeline/one-cycle-20260926/lots/ek9/lot/print-9000x12000.jpg",
+   "recorded_approval": "approved",
+   "recorded_stage": "set-generated",
+   "existing_collection": "SPORT / LEICHT",
+   "ledger_selected_sha256": "714f89f26ff24b2d8d315c2afcf7788718ca8504722d29ac045969746ae8892e",
+   "approved_source_sha256": "714f89f26ff24b2d8d315c2afcf7788718ca8504722d29ac045969746ae8892e",
+   "photo_count": 8,
+   "notion_url": null,
+   "board_url": "https://bohmarko567-oss.github.io/lombardia-site/posters/studio-wave1-20261030-honda-civic-type-r-ek9.html",
+   "completion_verified": false,
+   "delivery_status": "Build / delivery pending",
+   "delivery_evidence": null,
+   "delivery_verified_at": null,
+   "full_source_url": "../artwork/5a7fd9f86d40-studio-wave1-20261030-honda-civic-type-r-ek9.jpg",
+   "full_source_sha256": "5a7fd9f86d4023a1422b42c0469652e314a45fe65d2e3514db8536125002fe7c",
+   "full_source_bytes": 27571364,
+   "full_source_pixels": [
+    9000,
+    12000
+   ],
+   "full_source_kind": "exact_current_master",
+   "full_source_authority": "site/artwork/manifest.json: delivered print master published byte for byte by mk-board.py; sha256 equals the current Studio master",
+   "collection_choice": "Sport / Leicht",
+   "edition": null,
+   "collection_category": "Sport / Leicht",
+   "recommendation": {
+    "kind": "existing",
+    "collection": "Sport / Leicht",
+    "new": {
+     "name": "",
+     "edition": 77,
+     "edition_reason": "77 is the usual start for a new collection; it is the edition size for new artworks in it"
+    },
+    "why": "its existing label",
+    "basis": "Agent suggestion from the artwork's central idea (printed series label, car, composition). Shown as recommended, never assigned; the owner chooses.",
+    "collection_default_edition": 200
+   },
+   "generations": [],
+   "timeline": {
+    "created_at": "2026-10-31T00:00:00+00:00",
+    "created_source": "ledger history",
+    "updated_at": "2026-10-31T01:12:00+01:00",
+    "updated_source": "owner selection"
+   },
+   "status": {
+    "code": "production",
+    "label": "Lot in production",
+    "tone": "tint",
+    "detail": "",
+    "meaning": "approved; prints, photos, copy and Notion being built",
+    "order": 4
+   }
   }
  ],
  "excluded_keys": [
@@ -15664,12 +15678,8 @@
   {
    "key": "studio-wave1-20261030-honda-civic-type-r-ek9",
    "declared_sha256": "714f89f26ff24b2d8d315c2afcf7788718ca8504722d29ac045969746ae8892e",
-   "applied": true,
-   "preview": "assets/studio-wave1-20261030-honda-civic-type-r-ek9-714f89f26ff2-current.jpg",
-   "pixels": [
-    2480,
-    3312
-   ]
+   "applied": false,
+   "reason": "ledger already carries this key with a selected source; the lot record stands"
   },
   {
    "key": "studio-wave1-20261030-lamborghini-countach-lp400",
@@ -15723,9 +15733,9 @@
   },
   {
    "key": "studio-wave1-20261030-bmw-m5-e39-v2",
-   "declared_sha256": "6c5d94c56e5d90dbdf5a78289bf732acee2b30141aa42795a9be12b479c9709d",
+   "declared_sha256": "1a68dbf603f9ac862a42cc98708382232547afec4b2ea11f39755061f4a65097",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-v2-6c5d94c56e5d-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-v2-1a68dbf603f9-current.jpg",
    "pixels": [
     2480,
     3312
@@ -15823,9 +15833,9 @@
   },
   {
    "key": "studio-wave1-20261030-bmw-m5-e39-v2-master",
-   "declared_sha256": "679e1e7a2f720775fd9e0fdfeaa47b3b5784b89978f0072c3c51acb061570cc3",
+   "declared_sha256": "939614f3dac7f4e73dd29e061813b39ba511b1f96f076946457e033a31cb1ea6",
    "applied": true,
-   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-v2-master-679e1e7a2f72-current.jpg",
+   "preview": "assets/studio-wave1-20261030-bmw-m5-e39-v2-master-939614f3dac7-current.jpg",
    "pixels": [
     9000,
     12000
